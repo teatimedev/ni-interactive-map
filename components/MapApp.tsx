@@ -328,39 +328,42 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
         <div style={{ fontSize: 11, color: "#888", marginTop: 2 }}>Interactive Boundary Map</div>
       </div>
 
-      {/* Compare button — top-left */}
-      <button
-        aria-label="Toggle comparison mode"
-        aria-pressed={comparison.isComparing}
-        style={{
-          position: "fixed", top: 16, left: 16, zIndex: 1000,
-          background: comparison.isComparing ? "#1a5276" : "#2a2a2a",
-          color: comparison.isComparing ? "#7fb3d3" : "#ccc",
-          border: `1px solid ${comparison.isComparing ? "#2980b9" : "#444"}`,
-          borderRadius: 6, padding: "8px 14px", fontSize: 12, cursor: "pointer",
-          fontFamily: "inherit", boxShadow: "0 2px 8px rgba(0,0,0,0.3)", transition: "all 0.2s",
-        }}
-        onClick={() => comparison.toggleCompareMode()}
-      >
-        Compare
-      </button>
-
-      {/* Back button — top-left, offset */}
-      {currentView !== "districts" && (
+      {/* Top-left controls row */}
+      <div style={{ position: "fixed", top: 16, left: 16, zIndex: 1000, display: "flex", gap: 8, alignItems: "center" }}>
+        {/* Compare button */}
         <button
-          aria-label="Return to all districts"
+          aria-label="Toggle comparison mode"
+          aria-pressed={comparison.isComparing}
           style={{
-            position: "fixed", top: 16, left: 60, zIndex: 1000,
-            background: "#2a2a2a", color: "#ccc", border: "1px solid #444",
-            borderRadius: 6, padding: "8px 16px", fontSize: 14, cursor: "pointer",
-            fontFamily: "inherit", boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
-            transition: "all 0.2s", display: "flex", alignItems: "center", gap: 6,
+            background: comparison.isComparing ? "#1a5276" : "#2a2a2a",
+            color: comparison.isComparing ? "#7fb3d3" : "#ccc",
+            border: `1px solid ${comparison.isComparing ? "#2980b9" : "#444"}`,
+            borderRadius: 6, padding: "8px 14px", fontSize: 12, cursor: "pointer",
+            fontFamily: "inherit", boxShadow: "0 2px 8px rgba(0,0,0,0.3)", transition: "all 0.2s",
+            whiteSpace: "nowrap",
           }}
-          onClick={handleBack}
+          onClick={() => comparison.toggleCompareMode()}
         >
-          ← All Districts
+          Compare
         </button>
-      )}
+
+        {/* Back button */}
+        {currentView !== "districts" && (
+          <button
+            aria-label="Return to all districts"
+            style={{
+              background: "#2a2a2a", color: "#ccc", border: "1px solid #444",
+              borderRadius: 6, padding: "8px 16px", fontSize: 14, cursor: "pointer",
+              fontFamily: "inherit", boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
+              transition: "all 0.2s", display: "flex", alignItems: "center", gap: 6,
+              whiteSpace: "nowrap",
+            }}
+            onClick={handleBack}
+          >
+            ← All Districts
+          </button>
+        )}
+      </div>
 
       {/* Accessible live region for screen readers */}
       <div aria-live="polite" className="sr-only">

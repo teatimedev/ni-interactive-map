@@ -140,22 +140,10 @@ export default function Search() {
   return (
     <div
       ref={containerRef}
-      className="fixed top-4 left-[120px] z-[1000]"
+      style={{ position: "fixed", top: 56, left: 16, zIndex: 1000 }}
     >
-      {/* Mobile: collapsed icon-only button when not expanded */}
-      {!expanded && (
-        <button
-          aria-label="Open search"
-          onClick={handleSearchIconClick}
-          className="sm:hidden flex items-center justify-center w-[44px] h-[44px] bg-[#2a2a2a] text-[#ccc] border border-[#444] rounded-md shadow-md hover:bg-[#3a3a3a]"
-        >
-          🔍
-        </button>
-      )}
-
-      {/* Full input — always visible on sm+, conditionally on mobile */}
-      <div className={`relative ${expanded ? "block" : "hidden sm:block"}`}>
-        <span className="absolute left-2.5 top-1/2 -translate-y-1/2 text-[#666] pointer-events-none text-xs">
+      <div style={{ position: "relative" }}>
+        <span style={{ position: "absolute", left: 10, top: "50%", transform: "translateY(-50%)", color: "#666", pointerEvents: "none", fontSize: 12 }}>
           🔍
         </span>
         <input
@@ -169,48 +157,40 @@ export default function Search() {
           onChange={handleChange}
           onKeyDown={handleKeyDown}
           placeholder="Search districts and wards..."
-          className="bg-[#2a2a2a] text-[#ccc] border border-[#444] rounded-md pl-7 pr-3 py-2 text-xs w-[200px] outline-none focus:border-[#666] transition-colors min-h-[44px]"
+          style={{
+            background: "#2a2a2a", color: "#ccc", border: "1px solid #444", borderRadius: 6,
+            paddingLeft: 28, paddingRight: 12, paddingTop: 8, paddingBottom: 8,
+            fontSize: 12, width: 220, fontFamily: "inherit", outline: "none",
+          }}
         />
       </div>
 
       {open && results.length > 0 && (
-        <div className="bg-[#2a2a2a] border border-[#444] rounded-md mt-1 shadow-lg max-h-[300px] overflow-y-auto">
+        <div style={{ background: "#2a2a2a", border: "1px solid #444", borderRadius: 6, marginTop: 4, boxShadow: "0 4px 12px rgba(0,0,0,0.4)", maxHeight: 300, overflowY: "auto" }}>
           {districtResults.length > 0 && (
             <>
-              <div className="text-[10px] text-[#666] uppercase px-3 py-1.5">
-                Districts
-              </div>
+              <div style={{ fontSize: 10, color: "#666", textTransform: "uppercase", padding: "6px 12px" }}>Districts</div>
               {districtResults.map((r) => (
                 <button
                   key={r.slug}
-                  className="w-full text-left px-3 py-2 text-xs text-[#ccc] cursor-pointer hover:bg-[#3a3a3a]"
-                  onMouseDown={(e) => {
-                    e.preventDefault();
-                    handleSelectDistrict(r.slug);
-                  }}
+                  style={{ width: "100%", textAlign: "left", padding: "8px 12px", fontSize: 12, color: "#ccc", cursor: "pointer", background: "none", border: "none", fontFamily: "inherit" }}
+                  onMouseDown={(e) => { e.preventDefault(); handleSelectDistrict(r.slug); }}
                 >
                   {r.name}
                 </button>
               ))}
             </>
           )}
-
           {wardResults.length > 0 && (
             <>
-              <div className="text-[10px] text-[#666] uppercase px-3 py-1.5">
-                Wards
-              </div>
+              <div style={{ fontSize: 10, color: "#666", textTransform: "uppercase", padding: "6px 12px" }}>Wards</div>
               {wardResults.map((r) => (
                 <button
                   key={`${r.lgdSlug}/${r.slug}`}
-                  className="w-full text-left px-3 py-2 text-xs text-[#ccc] cursor-pointer hover:bg-[#3a3a3a]"
-                  onMouseDown={(e) => {
-                    e.preventDefault();
-                    handleSelectWard(r.lgdSlug, r.slug);
-                  }}
+                  style={{ width: "100%", textAlign: "left", padding: "8px 12px", fontSize: 12, color: "#ccc", cursor: "pointer", background: "none", border: "none", fontFamily: "inherit" }}
+                  onMouseDown={(e) => { e.preventDefault(); handleSelectWard(r.lgdSlug, r.slug); }}
                 >
-                  {r.name}{" "}
-                  <span className="text-[#666]">— {r.lgdName}</span>
+                  {r.name} <span style={{ color: "#666" }}>— {r.lgdName}</span>
                 </button>
               ))}
             </>
