@@ -163,13 +163,28 @@ interface Ward {
   slug: string;
   lgd: string;
   population: number;
+  male: number;
+  female: number;
   age_breakdown: AgeBreakdown;
   demographics: Demographics;
   housing: Housing;
   health: Health;
   education: Education;
+  transport: Transport;
   deprivation: DeprivationRanks;
   geometry: GeoJSON.Polygon | GeoJSON.MultiPolygon;
+}
+
+// Deprivation sub-domain ranks (NIMDM 2017)
+interface DeprivationRanks {
+  overall_rank: number;
+  income_rank: number;
+  employment_rank: number;
+  health_rank: number;
+  education_rank: number;
+  access_rank: number;
+  living_env_rank: number;
+  crime_rank: number;
 }
 
 interface PartyResult {
@@ -185,11 +200,11 @@ interface PartyResult {
 
 ### Carried Over (Improved)
 
-1. **Choropleth mode** — 10 metrics via dropdown. Same color scaling logic, but debounced (150ms) and style updates batched via react-leaflet's declarative API.
+1. **Choropleth mode** — 9 metrics via dropdown (population density, deprivation, median income, house prices, crime rate, % degree-educated, % no car, % Catholic, % Protestant). Per-metric color channels preserved from existing site (red for deprivation, green for income, orange for house prices, etc.). Debounced (150ms) and style updates batched via react-leaflet's declarative API.
 
 2. **Comparison mode** — Click "Compare" button, select 2 districts, side-by-side stats with green/red delta highlighting. Same UX, rebuilt as React components.
 
-3. **Tabbed stats panel** — 7 tabs for districts (Overview, Demographics, Housing, Health, Crime, Education, Transport), 6 for wards (no Transport). Same data, same tab structure. Each tab is its own component.
+3. **Tabbed stats panel** — 7 tabs for districts (Overview, Demographics, Housing, Health, Crime, Education, Transport), 6 for wards (no Crime — ward data has no crime statistics beyond the deprivation crime sub-rank). Same data, same tab structure. Each tab is its own component.
 
 4. **Drill-down navigation** — Click district to zoom into wards, back button to return. Smooth flyToBounds animation preserved.
 
@@ -260,7 +275,7 @@ Dark theme carried over from current site, refined with Tailwind:
 - CartoDB Dark basemap (no-labels + labels overlay) — same as current
 - District boundaries: `#4a9eff` stroke, `rgba(74, 158, 255, 0.15)` fill
 - Ward boundaries: lighter stroke, same fill pattern
-- Choropleth: blue gradient from low (#1a1a2e) to high (#2980b9) — same scale
+- Choropleth: per-metric color channels (red for deprivation, green for income, orange for house prices, blue for density, etc.) — same multi-color system as existing site
 
 ### Party Colors
 
@@ -325,7 +340,7 @@ Three custom hooks manage all application state:
 ```typescript
 {
   isComparing: boolean;
-  selections: [string?, string?];        // max 2 district slugs
+  selections: [string?, string?];        // max 2 district slugs (ward comparison out of scope)
 }
 ```
 
