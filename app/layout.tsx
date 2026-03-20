@@ -1,10 +1,11 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "The Big Dirty NI Map",
   description:
     "Interactive map of Northern Ireland with real stats for all 462 wards",
+  metadataBase: new URL("https://ni-interactive-map.vercel.app"),
   openGraph: {
     title: "The Big Dirty NI Map",
     description:
@@ -15,6 +16,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
+};
+
+export const viewport: Viewport = {
   themeColor: "#1a1a1a",
 };
 

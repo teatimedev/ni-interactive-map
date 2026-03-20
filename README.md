@@ -1,29 +1,27 @@
-# 🗺️ Northern Ireland Interactive Map
+# The Big Dirty NI Map
 
-An interactive, layered web map of Northern Ireland with real statistics from official sources.
-
-![Greyscale map with dark UI](https://img.shields.io/badge/style-greyscale%20%2B%20dark-333?style=flat-square) ![Vanilla JS](https://img.shields.io/badge/tech-vanilla%20JS-f7df1e?style=flat-square) ![Leaflet](https://img.shields.io/badge/map-Leaflet.js-199900?style=flat-square)
+An interactive, layered web map of Northern Ireland with real statistics for all 462 wards and 11 Local Government Districts.
 
 ## Features
 
-### 🗺️ Layered Map
+### Layered Map
 - **11 Local Government Districts (LGDs)** on initial load
-- **Click any district** → smooth zoom into its **462 individual wards**
+- **Click any district** to zoom into its individual wards
 - Back button to return to district view
-- Greyscale CartoDB Dark basemap
+- Dark CartoDB basemap
 
-### 📊 Choropleth Mode
-Toggle the map colouring by metric:
+### Choropleth Mode
+Toggle map colouring by metric:
 - Population density, deprivation rank, median income
 - House prices, crime rate, % degree-educated
 - % no car, % Catholic, % Protestant
 
-### 🔄 Comparison Mode
-- Click two districts for a **side-by-side comparison**
+### Comparison Mode
+- Click two districts for a side-by-side comparison
 - Green/red highlighting shows which area performs better
 
-### 📋 Tabbed Stats Panel
-Click any area to see detailed statistics across **7 tabs**:
+### Tabbed Stats Panel
+Click any area to see detailed statistics across 7 tabs:
 
 | Tab | Data |
 |-----|------|
@@ -35,8 +33,8 @@ Click any area to see detailed statistics across **7 tabs**:
 | **Education** | Qualification levels, % degree-educated, % no qualifications |
 | **Transport** | Car ownership, travel to work, broadband speeds |
 
-### 📍 Ward-Level Data
-All **462 wards** have individual data including:
+### Ward-Level Data
+All 462 wards have individual data including:
 - Population, age, gender breakdown
 - Religion / community background
 - Country of birth
@@ -46,7 +44,7 @@ All **462 wards** have individual data including:
 
 ## Data Sources
 
-All data is **real and sourced from official publications**. No placeholders or estimates.
+All data is real and sourced from official publications. No placeholders or estimates.
 
 | Source | Data |
 |--------|------|
@@ -62,32 +60,33 @@ All data is **real and sourced from official publications**. No placeholders or 
 
 ## Tech Stack
 
-- **Leaflet.js** — map rendering
-- **Vanilla HTML/CSS/JS** — no frameworks
+- **Next.js 16** — React framework with static export
+- **TypeScript** — typed throughout
+- **Tailwind CSS v4** — styling
+- **react-leaflet** — map rendering
+- **Recharts** — data visualisation
 - **CartoDB Dark** — greyscale basemap tiles
-- **OSNI** — GeoJSON boundaries (LGDs + 462 wards)
-- Mobile responsive
 
 ## Getting Started
 
-Just open `index.html` in a browser. No build step, no dependencies to install.
+```bash
+npm install
+npm run dev
+```
+
+## Build
 
 ```bash
-# Or serve locally
-npx serve .
+npm run build
 ```
 
-## File Structure
+Outputs a fully static site to `out/` via `output: "export"` in `next.config.ts`.
 
-```
-ni-map/
-├── index.html        # Main page + CSS
-├── app.js            # Map logic, UI, interactions
-├── geo-data.js       # GeoJSON boundaries (LGDs + wards)
-├── stats-data.js     # District-level statistics
-├── ward-stats.js     # Ward-level statistics (462 wards)
-└── README.md
-```
+## Deploy
+
+Connect the repository to [Vercel](https://vercel.com). It will detect Next.js automatically and deploy on push.
+
+No environment variables are required — all data is bundled at build time or served as static JSON from `public/data/wards/`.
 
 ## License
 

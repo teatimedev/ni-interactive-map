@@ -1,0 +1,6446 @@
+{
+  "lgd": "Belfast",
+  "lgdSlug": "belfast",
+  "wards": [
+    {
+      "slug": "andersonstown",
+      "name": "ANDERSONSTOWN",
+      "lgd": "Belfast",
+      "population": 4648,
+      "male": 2220,
+      "female": 2428,
+      "age_0_15_pct": 15.9,
+      "age_16_64_pct": 61.7,
+      "age_65_plus_pct": 22.4,
+      "catholic_pct": 88,
+      "protestant_other_christian_pct": 2,
+      "other_religion_pct": 0.6,
+      "no_religion_pct": 7.9,
+      "born_ni_pct": 93.9,
+      "born_other_uk_pct": 1.9,
+      "born_roi_pct": 2.6,
+      "born_elsewhere_pct": 1.6,
+      "owner_occupied_pct": 71.3,
+      "social_rented_pct": 16.4,
+      "private_rented_pct": 12.3,
+      "no_qualifications_pct": 27.4,
+      "level_1_2_pct": 28.7,
+      "level_3_pct": 14.2,
+      "level_4_plus_pct": 27.5,
+      "very_good_good_health_pct": 70.9,
+      "fair_health_pct": 16.6,
+      "bad_very_bad_health_pct": 12.4,
+      "no_cars_pct": 30.3,
+      "one_car_pct": 45.8,
+      "two_plus_cars_pct": 23.9,
+      "work_from_home_pct": 16.8,
+      "drive_to_work_pct": 58.1,
+      "public_transport_pct": 13.5,
+      "walk_cycle_pct": 11,
+      "urban_rural": "Urban",
+      "deprivation_rank": 105,
+      "income_rank": 279,
+      "employment_rank": 63,
+      "health_rank": 48,
+      "education_rank": 113,
+      "access_rank": 432,
+      "living_env_rank": 47,
+      "crime_rank": 91,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9879,
+              54.5808
+            ],
+            [
+              -5.9834,
+              54.5756
+            ],
+            [
+              -5.978,
+              54.5731
+            ],
+            [
+              -5.9909,
+              54.5677
+            ],
+            [
+              -5.9921,
+              54.569
+            ],
+            [
+              -5.9945,
+              54.5676
+            ],
+            [
+              -5.9976,
+              54.569
+            ],
+            [
+              -5.9963,
+              54.573
+            ],
+            [
+              -5.9989,
+              54.5734
+            ],
+            [
+              -5.9967,
+              54.5763
+            ],
+            [
+              -5.9931,
+              54.5755
+            ],
+            [
+              -5.9919,
+              54.5809
+            ],
+            [
+              -5.9879,
+              54.5808
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ardoyne",
+      "name": "ARDOYNE",
+      "lgd": "Belfast",
+      "population": 5490,
+      "male": 2569,
+      "female": 2921,
+      "age_0_15_pct": 24.7,
+      "age_16_64_pct": 62.8,
+      "age_65_plus_pct": 12.5,
+      "catholic_pct": 87.2,
+      "protestant_other_christian_pct": 3.8,
+      "other_religion_pct": 0.9,
+      "no_religion_pct": 5.8,
+      "born_ni_pct": 93.7,
+      "born_other_uk_pct": 2.3,
+      "born_roi_pct": 1,
+      "born_elsewhere_pct": 3.1,
+      "owner_occupied_pct": 31.1,
+      "social_rented_pct": 45.7,
+      "private_rented_pct": 23.2,
+      "no_qualifications_pct": 39.7,
+      "level_1_2_pct": 29.8,
+      "level_3_pct": 14.4,
+      "level_4_plus_pct": 14.9,
+      "very_good_good_health_pct": 66.6,
+      "fair_health_pct": 17,
+      "bad_very_bad_health_pct": 16.3,
+      "no_cars_pct": 54.8,
+      "one_car_pct": 36.9,
+      "two_plus_cars_pct": 8.3,
+      "work_from_home_pct": 12.5,
+      "drive_to_work_pct": 49.1,
+      "public_transport_pct": 18.4,
+      "walk_cycle_pct": 19.4,
+      "urban_rural": "Urban",
+      "deprivation_rank": 3,
+      "income_rank": 6,
+      "employment_rank": 5,
+      "health_rank": 5,
+      "education_rank": 8,
+      "access_rank": 449,
+      "living_env_rank": 29,
+      "crime_rank": 14,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9558,
+              54.6189
+            ],
+            [
+              -5.9503,
+              54.6152
+            ],
+            [
+              -5.9568,
+              54.6133
+            ],
+            [
+              -5.9571,
+              54.6116
+            ],
+            [
+              -5.965,
+              54.6138
+            ],
+            [
+              -5.9671,
+              54.6173
+            ],
+            [
+              -5.9558,
+              54.6189
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ballygomartin",
+      "name": "BALLYGOMARTIN",
+      "lgd": "Belfast",
+      "population": 5952,
+      "male": 2839,
+      "female": 3113,
+      "age_0_15_pct": 19.7,
+      "age_16_64_pct": 65.2,
+      "age_65_plus_pct": 15.1,
+      "catholic_pct": 8,
+      "protestant_other_christian_pct": 69.7,
+      "other_religion_pct": 0.9,
+      "no_religion_pct": 19.6,
+      "born_ni_pct": 90.6,
+      "born_other_uk_pct": 3.6,
+      "born_roi_pct": 0.4,
+      "born_elsewhere_pct": 5.4,
+      "owner_occupied_pct": 64,
+      "social_rented_pct": 23.9,
+      "private_rented_pct": 12.1,
+      "no_qualifications_pct": 28.8,
+      "level_1_2_pct": 30.6,
+      "level_3_pct": 16.9,
+      "level_4_plus_pct": 21.7,
+      "very_good_good_health_pct": 74,
+      "fair_health_pct": 15.5,
+      "bad_very_bad_health_pct": 10.5,
+      "no_cars_pct": 28.4,
+      "one_car_pct": 45.5,
+      "two_plus_cars_pct": 26.1,
+      "work_from_home_pct": 13.6,
+      "drive_to_work_pct": 65.9,
+      "public_transport_pct": 11.5,
+      "walk_cycle_pct": 7.9,
+      "urban_rural": "Urban",
+      "deprivation_rank": 120,
+      "income_rank": 244,
+      "employment_rank": 94,
+      "health_rank": 64,
+      "education_rank": 66,
+      "access_rank": 282,
+      "living_env_rank": 273,
+      "crime_rank": 154,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9878,
+              54.6146
+            ],
+            [
+              -5.9859,
+              54.6117
+            ],
+            [
+              -5.9796,
+              54.6114
+            ],
+            [
+              -5.9734,
+              54.6084
+            ],
+            [
+              -5.9677,
+              54.6095
+            ],
+            [
+              -5.9646,
+              54.6043
+            ],
+            [
+              -5.977,
+              54.5974
+            ],
+            [
+              -5.9827,
+              54.6024
+            ],
+            [
+              -5.9972,
+              54.5987
+            ],
+            [
+              -5.9968,
+              54.6011
+            ],
+            [
+              -6.0011,
+              54.6029
+            ],
+            [
+              -5.9968,
+              54.6048
+            ],
+            [
+              -5.9964,
+              54.6071
+            ],
+            [
+              -6.0054,
+              54.6099
+            ],
+            [
+              -5.9973,
+              54.6137
+            ],
+            [
+              -5.9878,
+              54.6146
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ballymacarrett",
+      "name": "BALLYMACARRETT",
+      "lgd": "Belfast",
+      "population": 5905,
+      "male": 2866,
+      "female": 3039,
+      "age_0_15_pct": 21.7,
+      "age_16_64_pct": 66.1,
+      "age_65_plus_pct": 12.2,
+      "catholic_pct": 41.1,
+      "protestant_other_christian_pct": 33.7,
+      "other_religion_pct": 4.8,
+      "no_religion_pct": 18.8,
+      "born_ni_pct": 83,
+      "born_other_uk_pct": 4.2,
+      "born_roi_pct": 0.8,
+      "born_elsewhere_pct": 12,
+      "owner_occupied_pct": 26.2,
+      "social_rented_pct": 51.4,
+      "private_rented_pct": 22.4,
+      "no_qualifications_pct": 35.5,
+      "level_1_2_pct": 27.5,
+      "level_3_pct": 12.3,
+      "level_4_plus_pct": 22.5,
+      "very_good_good_health_pct": 69.9,
+      "fair_health_pct": 16.4,
+      "bad_very_bad_health_pct": 13.8,
+      "no_cars_pct": 50,
+      "one_car_pct": 40.8,
+      "two_plus_cars_pct": 9.2,
+      "work_from_home_pct": 17.8,
+      "drive_to_work_pct": 44,
+      "public_transport_pct": 12.7,
+      "walk_cycle_pct": 24.3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 19,
+      "income_rank": 81,
+      "employment_rank": 24,
+      "health_rank": 12,
+      "education_rank": 6,
+      "access_rank": 401,
+      "living_env_rank": 127,
+      "crime_rank": 31,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8962,
+              54.603
+            ],
+            [
+              -5.8984,
+              54.5963
+            ],
+            [
+              -5.9037,
+              54.5952
+            ],
+            [
+              -5.9127,
+              54.5958
+            ],
+            [
+              -5.9205,
+              54.5996
+            ],
+            [
+              -5.9199,
+              54.6027
+            ],
+            [
+              -5.9132,
+              54.6013
+            ],
+            [
+              -5.8962,
+              54.603
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ballymurphy",
+      "name": "BALLYMURPHY",
+      "lgd": "Belfast",
+      "population": 5131,
+      "male": 2381,
+      "female": 2749,
+      "age_0_15_pct": 23.3,
+      "age_16_64_pct": 63.2,
+      "age_65_plus_pct": 13.5,
+      "catholic_pct": 89.8,
+      "protestant_other_christian_pct": 2.7,
+      "other_religion_pct": 1.1,
+      "no_religion_pct": 4.9,
+      "born_ni_pct": 95,
+      "born_other_uk_pct": 2.2,
+      "born_roi_pct": 1,
+      "born_elsewhere_pct": 1.8,
+      "owner_occupied_pct": 33.6,
+      "social_rented_pct": 56.4,
+      "private_rented_pct": 10,
+      "no_qualifications_pct": 44.2,
+      "level_1_2_pct": 26.9,
+      "level_3_pct": 13.7,
+      "level_4_plus_pct": 13.6,
+      "very_good_good_health_pct": 64.2,
+      "fair_health_pct": 15.9,
+      "bad_very_bad_health_pct": 19.9,
+      "no_cars_pct": 49.1,
+      "one_car_pct": 39.6,
+      "two_plus_cars_pct": 11.3,
+      "work_from_home_pct": 9.6,
+      "drive_to_work_pct": 51.4,
+      "public_transport_pct": 16.2,
+      "walk_cycle_pct": 21.6,
+      "urban_rural": "Urban",
+      "deprivation_rank": 12,
+      "income_rank": 154,
+      "employment_rank": 9,
+      "health_rank": 1,
+      "education_rank": 5,
+      "access_rank": 352,
+      "living_env_rank": 13,
+      "crime_rank": 54,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9827,
+              54.6024
+            ],
+            [
+              -5.977,
+              54.5974
+            ],
+            [
+              -5.9739,
+              54.598
+            ],
+            [
+              -5.972,
+              54.5938
+            ],
+            [
+              -5.9692,
+              54.5929
+            ],
+            [
+              -5.9704,
+              54.5911
+            ],
+            [
+              -5.9723,
+              54.5896
+            ],
+            [
+              -5.9803,
+              54.591
+            ],
+            [
+              -5.988,
+              54.5944
+            ],
+            [
+              -5.9827,
+              54.5974
+            ],
+            [
+              -5.9857,
+              54.5994
+            ],
+            [
+              -5.9851,
+              54.6015
+            ],
+            [
+              -5.9827,
+              54.6024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ballysillan",
+      "name": "BALLYSILLAN",
+      "lgd": "Belfast",
+      "population": 5289,
+      "male": 2557,
+      "female": 2732,
+      "age_0_15_pct": 19.6,
+      "age_16_64_pct": 66.6,
+      "age_65_plus_pct": 13.7,
+      "catholic_pct": 7.3,
+      "protestant_other_christian_pct": 63.7,
+      "other_religion_pct": 1.6,
+      "no_religion_pct": 25.1,
+      "born_ni_pct": 89.3,
+      "born_other_uk_pct": 3.8,
+      "born_roi_pct": 0.4,
+      "born_elsewhere_pct": 6.5,
+      "owner_occupied_pct": 61.9,
+      "social_rented_pct": 20,
+      "private_rented_pct": 18.1,
+      "no_qualifications_pct": 28,
+      "level_1_2_pct": 31.2,
+      "level_3_pct": 17.5,
+      "level_4_plus_pct": 21,
+      "very_good_good_health_pct": 73.8,
+      "fair_health_pct": 14.8,
+      "bad_very_bad_health_pct": 11.4,
+      "no_cars_pct": 28,
+      "one_car_pct": 47.3,
+      "two_plus_cars_pct": 24.7,
+      "work_from_home_pct": 14,
+      "drive_to_work_pct": 64.6,
+      "public_transport_pct": 13.2,
+      "walk_cycle_pct": 7,
+      "urban_rural": "Urban",
+      "deprivation_rank": 102,
+      "income_rank": 181,
+      "employment_rank": 115,
+      "health_rank": 71,
+      "education_rank": 53,
+      "access_rank": 427,
+      "living_env_rank": 58,
+      "crime_rank": 74,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9633,
+              54.635
+            ],
+            [
+              -5.9583,
+              54.6319
+            ],
+            [
+              -5.9607,
+              54.6311
+            ],
+            [
+              -5.9573,
+              54.6284
+            ],
+            [
+              -5.9593,
+              54.6247
+            ],
+            [
+              -5.9629,
+              54.6243
+            ],
+            [
+              -5.9664,
+              54.6265
+            ],
+            [
+              -5.9717,
+              54.623
+            ],
+            [
+              -5.9752,
+              54.6247
+            ],
+            [
+              -5.975,
+              54.6287
+            ],
+            [
+              -5.9688,
+              54.6351
+            ],
+            [
+              -5.9645,
+              54.6378
+            ],
+            [
+              -5.9633,
+              54.635
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "beechmount",
+      "name": "BEECHMOUNT",
+      "lgd": "Belfast",
+      "population": 5394,
+      "male": 2571,
+      "female": 2823,
+      "age_0_15_pct": 22.4,
+      "age_16_64_pct": 66,
+      "age_65_plus_pct": 11.6,
+      "catholic_pct": 78.2,
+      "protestant_other_christian_pct": 4.6,
+      "other_religion_pct": 5.7,
+      "no_religion_pct": 9.8,
+      "born_ni_pct": 85.8,
+      "born_other_uk_pct": 1.8,
+      "born_roi_pct": 2,
+      "born_elsewhere_pct": 10.3,
+      "owner_occupied_pct": 47.7,
+      "social_rented_pct": 21.8,
+      "private_rented_pct": 30.6,
+      "no_qualifications_pct": 30,
+      "level_1_2_pct": 29.7,
+      "level_3_pct": 16.2,
+      "level_4_plus_pct": 21.7,
+      "very_good_good_health_pct": 72.7,
+      "fair_health_pct": 14.9,
+      "bad_very_bad_health_pct": 12.4,
+      "no_cars_pct": 49.9,
+      "one_car_pct": 40.4,
+      "two_plus_cars_pct": 9.7,
+      "work_from_home_pct": 13.1,
+      "drive_to_work_pct": 42.3,
+      "public_transport_pct": 16.5,
+      "walk_cycle_pct": 26.7,
+      "urban_rural": "Urban",
+      "deprivation_rank": 30,
+      "income_rank": 146,
+      "employment_rank": 25,
+      "health_rank": 20,
+      "education_rank": 36,
+      "access_rank": 434,
+      "living_env_rank": 3,
+      "crime_rank": 39,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9695,
+              54.597
+            ],
+            [
+              -5.9658,
+              54.5951
+            ],
+            [
+              -5.9644,
+              54.5962
+            ],
+            [
+              -5.9561,
+              54.5949
+            ],
+            [
+              -5.961,
+              54.5925
+            ],
+            [
+              -5.959,
+              54.5881
+            ],
+            [
+              -5.9623,
+              54.5855
+            ],
+            [
+              -5.9657,
+              54.5867
+            ],
+            [
+              -5.9703,
+              54.5851
+            ],
+            [
+              -5.9722,
+              54.5863
+            ],
+            [
+              -5.9699,
+              54.5886
+            ],
+            [
+              -5.9723,
+              54.5896
+            ],
+            [
+              -5.9692,
+              54.5929
+            ],
+            [
+              -5.972,
+              54.5938
+            ],
+            [
+              -5.9726,
+              54.5959
+            ],
+            [
+              -5.9695,
+              54.597
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "beersbridge",
+      "name": "BEERSBRIDGE",
+      "lgd": "Belfast",
+      "population": 6610,
+      "male": 3241,
+      "female": 3368,
+      "age_0_15_pct": 18.2,
+      "age_16_64_pct": 71.2,
+      "age_65_plus_pct": 10.7,
+      "catholic_pct": 11.4,
+      "protestant_other_christian_pct": 48.3,
+      "other_religion_pct": 3.1,
+      "no_religion_pct": 34.6,
+      "born_ni_pct": 75.2,
+      "born_other_uk_pct": 5,
+      "born_roi_pct": 1,
+      "born_elsewhere_pct": 18.8,
+      "owner_occupied_pct": 27.9,
+      "social_rented_pct": 37.1,
+      "private_rented_pct": 35.1,
+      "no_qualifications_pct": 30.4,
+      "level_1_2_pct": 26.4,
+      "level_3_pct": 13.8,
+      "level_4_plus_pct": 26.7,
+      "very_good_good_health_pct": 71.5,
+      "fair_health_pct": 16.3,
+      "bad_very_bad_health_pct": 12.1,
+      "no_cars_pct": 48.6,
+      "one_car_pct": 39.5,
+      "two_plus_cars_pct": 11.9,
+      "work_from_home_pct": 21.5,
+      "drive_to_work_pct": 44.9,
+      "public_transport_pct": 13.5,
+      "walk_cycle_pct": 18.6,
+      "urban_rural": "Urban",
+      "deprivation_rank": 35,
+      "income_rank": 164,
+      "employment_rank": 60,
+      "health_rank": 32,
+      "education_rank": 7,
+      "access_rank": 462,
+      "living_env_rank": 48,
+      "crime_rank": 10,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8938,
+              54.595
+            ],
+            [
+              -5.8928,
+              54.5928
+            ],
+            [
+              -5.8849,
+              54.5883
+            ],
+            [
+              -5.8892,
+              54.5849
+            ],
+            [
+              -5.8959,
+              54.5885
+            ],
+            [
+              -5.9,
+              54.5868
+            ],
+            [
+              -5.9073,
+              54.5943
+            ],
+            [
+              -5.891,
+              54.5979
+            ],
+            [
+              -5.8938,
+              54.595
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "bellevue",
+      "name": "BELLEVUE",
+      "lgd": "Belfast",
+      "population": 5427,
+      "male": 2615,
+      "female": 2812,
+      "age_0_15_pct": 19.2,
+      "age_16_64_pct": 65.2,
+      "age_65_plus_pct": 15.6,
+      "catholic_pct": 58.4,
+      "protestant_other_christian_pct": 19,
+      "other_religion_pct": 1.8,
+      "no_religion_pct": 18.8,
+      "born_ni_pct": 87.2,
+      "born_other_uk_pct": 4.1,
+      "born_roi_pct": 1.4,
+      "born_elsewhere_pct": 7.3,
+      "owner_occupied_pct": 56.9,
+      "social_rented_pct": 21.6,
+      "private_rented_pct": 21.5,
+      "no_qualifications_pct": 23.1,
+      "level_1_2_pct": 28.2,
+      "level_3_pct": 16.1,
+      "level_4_plus_pct": 30.3,
+      "very_good_good_health_pct": 75.2,
+      "fair_health_pct": 15.3,
+      "bad_very_bad_health_pct": 9.6,
+      "no_cars_pct": 27.8,
+      "one_car_pct": 46.4,
+      "two_plus_cars_pct": 25.8,
+      "work_from_home_pct": 19.9,
+      "drive_to_work_pct": 62.4,
+      "public_transport_pct": 11.1,
+      "walk_cycle_pct": 5.9,
+      "urban_rural": "Urban",
+      "deprivation_rank": 131,
+      "income_rank": 134,
+      "employment_rank": 110,
+      "health_rank": 108,
+      "education_rank": 108,
+      "access_rank": 411,
+      "living_env_rank": 234,
+      "crime_rank": 108,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9311,
+              54.6551
+            ],
+            [
+              -5.9167,
+              54.6467
+            ],
+            [
+              -5.9198,
+              54.6409
+            ],
+            [
+              -5.9346,
+              54.6412
+            ],
+            [
+              -5.9481,
+              54.6443
+            ],
+            [
+              -5.9473,
+              54.647
+            ],
+            [
+              -5.9487,
+              54.6487
+            ],
+            [
+              -5.9444,
+              54.6524
+            ],
+            [
+              -5.9465,
+              54.6553
+            ],
+            [
+              -5.954,
+              54.658
+            ],
+            [
+              -5.9541,
+              54.6599
+            ],
+            [
+              -5.9507,
+              54.665
+            ],
+            [
+              -5.9379,
+              54.661
+            ],
+            [
+              -5.9311,
+              54.6551
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "belmont",
+      "name": "BELMONT",
+      "lgd": "Belfast",
+      "population": 4695,
+      "male": 2256,
+      "female": 2438,
+      "age_0_15_pct": 16,
+      "age_16_64_pct": 61.6,
+      "age_65_plus_pct": 22.4,
+      "catholic_pct": 8,
+      "protestant_other_christian_pct": 58.3,
+      "other_religion_pct": 1.6,
+      "no_religion_pct": 30.3,
+      "born_ni_pct": 86.5,
+      "born_other_uk_pct": 6,
+      "born_roi_pct": 1.7,
+      "born_elsewhere_pct": 5.8,
+      "owner_occupied_pct": 78.8,
+      "social_rented_pct": 9,
+      "private_rented_pct": 12.3,
+      "no_qualifications_pct": 15.4,
+      "level_1_2_pct": 20.6,
+      "level_3_pct": 13.6,
+      "level_4_plus_pct": 47.8,
+      "very_good_good_health_pct": 81,
+      "fair_health_pct": 13.1,
+      "bad_very_bad_health_pct": 5.9,
+      "no_cars_pct": 12.9,
+      "one_car_pct": 46.3,
+      "two_plus_cars_pct": 40.8,
+      "work_from_home_pct": 28.4,
+      "drive_to_work_pct": 57.6,
+      "public_transport_pct": 7.3,
+      "walk_cycle_pct": 5.5,
+      "urban_rural": "Urban",
+      "deprivation_rank": 458,
+      "income_rank": 456,
+      "employment_rank": 426,
+      "health_rank": 377,
+      "education_rank": 410,
+      "access_rank": 423,
+      "living_env_rank": 404,
+      "crime_rank": 292,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8556,
+              54.6007
+            ],
+            [
+              -5.8674,
+              54.5993
+            ],
+            [
+              -5.8788,
+              54.6007
+            ],
+            [
+              -5.8615,
+              54.6152
+            ],
+            [
+              -5.8567,
+              54.6109
+            ],
+            [
+              -5.8547,
+              54.6049
+            ],
+            [
+              -5.8565,
+              54.6021
+            ],
+            [
+              -5.8556,
+              54.6007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "belvoir",
+      "name": "BELVOIR",
+      "lgd": "Belfast",
+      "population": 5359,
+      "male": 2661,
+      "female": 2698,
+      "age_0_15_pct": 16.9,
+      "age_16_64_pct": 63.9,
+      "age_65_plus_pct": 19.2,
+      "catholic_pct": 19.7,
+      "protestant_other_christian_pct": 50.1,
+      "other_religion_pct": 1.2,
+      "no_religion_pct": 26.3,
+      "born_ni_pct": 83.7,
+      "born_other_uk_pct": 5.9,
+      "born_roi_pct": 1.9,
+      "born_elsewhere_pct": 8.6,
+      "owner_occupied_pct": 51.8,
+      "social_rented_pct": 30.7,
+      "private_rented_pct": 17.5,
+      "no_qualifications_pct": 22.7,
+      "level_1_2_pct": 23.9,
+      "level_3_pct": 13.3,
+      "level_4_plus_pct": 37.8,
+      "very_good_good_health_pct": 74.8,
+      "fair_health_pct": 15.8,
+      "bad_very_bad_health_pct": 9.4,
+      "no_cars_pct": 24.8,
+      "one_car_pct": 48.1,
+      "two_plus_cars_pct": 27,
+      "work_from_home_pct": 22.2,
+      "drive_to_work_pct": 62.1,
+      "public_transport_pct": 7,
+      "walk_cycle_pct": 7.7,
+      "urban_rural": "Urban",
+      "deprivation_rank": 253,
+      "income_rank": 392,
+      "employment_rank": 182,
+      "health_rank": 123,
+      "education_rank": 143,
+      "access_rank": 279,
+      "living_env_rank": 338,
+      "crime_rank": 183,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9285,
+              54.5681
+            ],
+            [
+              -5.9137,
+              54.5681
+            ],
+            [
+              -5.9097,
+              54.5613
+            ],
+            [
+              -5.9313,
+              54.5465
+            ],
+            [
+              -5.9295,
+              54.5452
+            ],
+            [
+              -5.932,
+              54.5437
+            ],
+            [
+              -5.9332,
+              54.5402
+            ],
+            [
+              -5.9414,
+              54.5437
+            ],
+            [
+              -5.9452,
+              54.5406
+            ],
+            [
+              -5.9454,
+              54.5383
+            ],
+            [
+              -5.9563,
+              54.5354
+            ],
+            [
+              -5.9578,
+              54.5378
+            ],
+            [
+              -5.9661,
+              54.5425
+            ],
+            [
+              -5.9647,
+              54.5474
+            ],
+            [
+              -5.9598,
+              54.549
+            ],
+            [
+              -5.9534,
+              54.5479
+            ],
+            [
+              -5.9543,
+              54.5504
+            ],
+            [
+              -5.9517,
+              54.5555
+            ],
+            [
+              -5.9426,
+              54.5532
+            ],
+            [
+              -5.941,
+              54.554
+            ],
+            [
+              -5.9423,
+              54.5556
+            ],
+            [
+              -5.9388,
+              54.5577
+            ],
+            [
+              -5.9298,
+              54.5582
+            ],
+            [
+              -5.9298,
+              54.5597
+            ],
+            [
+              -5.9328,
+              54.5602
+            ],
+            [
+              -5.9346,
+              54.5634
+            ],
+            [
+              -5.9271,
+              54.5642
+            ],
+            [
+              -5.9285,
+              54.5681
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "blackstaff",
+      "name": "BLACKSTAFF",
+      "lgd": "Belfast",
+      "population": 7547,
+      "male": 3958,
+      "female": 3589,
+      "age_0_15_pct": 16.5,
+      "age_16_64_pct": 72.9,
+      "age_65_plus_pct": 10.5,
+      "catholic_pct": 11.8,
+      "protestant_other_christian_pct": 48.6,
+      "other_religion_pct": 8.7,
+      "no_religion_pct": 29,
+      "born_ni_pct": 68.6,
+      "born_other_uk_pct": 5.2,
+      "born_roi_pct": 1.1,
+      "born_elsewhere_pct": 25.1,
+      "owner_occupied_pct": 23.4,
+      "social_rented_pct": 36.5,
+      "private_rented_pct": 40.1,
+      "no_qualifications_pct": 30.4,
+      "level_1_2_pct": 22.3,
+      "level_3_pct": 13.2,
+      "level_4_plus_pct": 31.4,
+      "very_good_good_health_pct": 72.9,
+      "fair_health_pct": 15.8,
+      "bad_very_bad_health_pct": 11.3,
+      "no_cars_pct": 54.9,
+      "one_car_pct": 37,
+      "two_plus_cars_pct": 8.2,
+      "work_from_home_pct": 19.3,
+      "drive_to_work_pct": 35.6,
+      "public_transport_pct": 10.3,
+      "walk_cycle_pct": 33.4,
+      "urban_rural": "Urban",
+      "deprivation_rank": 23,
+      "income_rank": 36,
+      "employment_rank": 48,
+      "health_rank": 27,
+      "education_rank": 9,
+      "access_rank": 356,
+      "living_env_rank": 40,
+      "crime_rank": 88,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9342,
+              54.5925
+            ],
+            [
+              -5.9352,
+              54.5884
+            ],
+            [
+              -5.942,
+              54.5847
+            ],
+            [
+              -5.95,
+              54.587
+            ],
+            [
+              -5.9565,
+              54.5764
+            ],
+            [
+              -5.966,
+              54.5696
+            ],
+            [
+              -5.977,
+              54.5735
+            ],
+            [
+              -5.9542,
+              54.5914
+            ],
+            [
+              -5.9371,
+              54.5943
+            ],
+            [
+              -5.9342,
+              54.5925
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "bloomfield",
+      "name": "BLOOMFIELD",
+      "lgd": "Belfast",
+      "population": 5894,
+      "male": 2968,
+      "female": 2926,
+      "age_0_15_pct": 14.8,
+      "age_16_64_pct": 71.8,
+      "age_65_plus_pct": 13.5,
+      "catholic_pct": 13,
+      "protestant_other_christian_pct": 45,
+      "other_religion_pct": 3.1,
+      "no_religion_pct": 37.3,
+      "born_ni_pct": 78.5,
+      "born_other_uk_pct": 6.1,
+      "born_roi_pct": 1.7,
+      "born_elsewhere_pct": 13.6,
+      "owner_occupied_pct": 48.2,
+      "social_rented_pct": 15.2,
+      "private_rented_pct": 36.6,
+      "no_qualifications_pct": 20.9,
+      "level_1_2_pct": 22.9,
+      "level_3_pct": 14.1,
+      "level_4_plus_pct": 39.8,
+      "very_good_good_health_pct": 74.8,
+      "fair_health_pct": 15.9,
+      "bad_very_bad_health_pct": 9.3,
+      "no_cars_pct": 35.8,
+      "one_car_pct": 45.4,
+      "two_plus_cars_pct": 18.8,
+      "work_from_home_pct": 24.7,
+      "drive_to_work_pct": 49.1,
+      "public_transport_pct": 11.9,
+      "walk_cycle_pct": 13.1,
+      "urban_rural": "Urban",
+      "deprivation_rank": 153,
+      "income_rank": 194,
+      "employment_rank": 175,
+      "health_rank": 141,
+      "education_rank": 131,
+      "access_rank": 457,
+      "living_env_rank": 7,
+      "crime_rank": 41,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.891,
+              54.5979
+            ],
+            [
+              -5.8811,
+              54.5962
+            ],
+            [
+              -5.87,
+              54.5953
+            ],
+            [
+              -5.8719,
+              54.5931
+            ],
+            [
+              -5.876,
+              54.594
+            ],
+            [
+              -5.8849,
+              54.5883
+            ],
+            [
+              -5.8938,
+              54.5945
+            ],
+            [
+              -5.891,
+              54.5979
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "cavehill",
+      "name": "CAVEHILL",
+      "lgd": "Belfast",
+      "population": 4434,
+      "male": 2162,
+      "female": 2272,
+      "age_0_15_pct": 19.9,
+      "age_16_64_pct": 61.2,
+      "age_65_plus_pct": 19,
+      "catholic_pct": 54.6,
+      "protestant_other_christian_pct": 27.2,
+      "other_religion_pct": 0.9,
+      "no_religion_pct": 16.3,
+      "born_ni_pct": 91.9,
+      "born_other_uk_pct": 3.3,
+      "born_roi_pct": 2,
+      "born_elsewhere_pct": 2.9,
+      "owner_occupied_pct": 89.4,
+      "social_rented_pct": 2.6,
+      "private_rented_pct": 8,
+      "no_qualifications_pct": 12.5,
+      "level_1_2_pct": 20.9,
+      "level_3_pct": 14.5,
+      "level_4_plus_pct": 50.2,
+      "very_good_good_health_pct": 85.6,
+      "fair_health_pct": 9.8,
+      "bad_very_bad_health_pct": 4.6,
+      "no_cars_pct": 10.8,
+      "one_car_pct": 38.8,
+      "two_plus_cars_pct": 50.5,
+      "work_from_home_pct": 24.4,
+      "drive_to_work_pct": 65.5,
+      "public_transport_pct": 5.8,
+      "walk_cycle_pct": 3.8,
+      "urban_rural": "Urban",
+      "deprivation_rank": 446,
+      "income_rank": 447,
+      "employment_rank": 431,
+      "health_rank": 434,
+      "education_rank": 425,
+      "access_rank": 309,
+      "living_env_rank": 322,
+      "crime_rank": 155,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9464,
+              54.6553
+            ],
+            [
+              -5.9444,
+              54.6524
+            ],
+            [
+              -5.9487,
+              54.6487
+            ],
+            [
+              -5.9473,
+              54.647
+            ],
+            [
+              -5.9481,
+              54.6443
+            ],
+            [
+              -5.9363,
+              54.6417
+            ],
+            [
+              -5.9377,
+              54.633
+            ],
+            [
+              -5.9431,
+              54.6337
+            ],
+            [
+              -5.9483,
+              54.6305
+            ],
+            [
+              -5.9517,
+              54.6327
+            ],
+            [
+              -5.9583,
+              54.6319
+            ],
+            [
+              -5.9622,
+              54.6334
+            ],
+            [
+              -5.9652,
+              54.6417
+            ],
+            [
+              -5.97,
+              54.6455
+            ],
+            [
+              -5.9488,
+              54.6523
+            ],
+            [
+              -5.9464,
+              54.6553
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "central",
+      "name": "CENTRAL",
+      "lgd": "Belfast",
+      "population": 15446,
+      "male": 8062,
+      "female": 7384,
+      "age_0_15_pct": 9,
+      "age_16_64_pct": 85.8,
+      "age_65_plus_pct": 5.2,
+      "catholic_pct": 43.2,
+      "protestant_other_christian_pct": 13.2,
+      "other_religion_pct": 9.7,
+      "no_religion_pct": 27.9,
+      "born_ni_pct": 60.2,
+      "born_other_uk_pct": 6.3,
+      "born_roi_pct": 2.8,
+      "born_elsewhere_pct": 30.6,
+      "owner_occupied_pct": 17.7,
+      "social_rented_pct": 28,
+      "private_rented_pct": 54.3,
+      "no_qualifications_pct": 15.4,
+      "level_1_2_pct": 10.1,
+      "level_3_pct": 36.5,
+      "level_4_plus_pct": 35.8,
+      "very_good_good_health_pct": 84.2,
+      "fair_health_pct": 9.8,
+      "bad_very_bad_health_pct": 6,
+      "no_cars_pct": 51.5,
+      "one_car_pct": 31.8,
+      "two_plus_cars_pct": 16.7,
+      "work_from_home_pct": 30.7,
+      "drive_to_work_pct": 28,
+      "public_transport_pct": 10.5,
+      "walk_cycle_pct": 29.9,
+      "urban_rural": "Urban",
+      "deprivation_rank": 94,
+      "income_rank": 255,
+      "employment_rank": 268,
+      "health_rank": 79,
+      "education_rank": 11,
+      "access_rank": 428,
+      "living_env_rank": 16,
+      "crime_rank": 7,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.935,
+              54.603
+            ],
+            [
+              -5.9274,
+              54.5998
+            ],
+            [
+              -5.9205,
+              54.5997
+            ],
+            [
+              -5.9126,
+              54.5956
+            ],
+            [
+              -5.9202,
+              54.5901
+            ],
+            [
+              -5.9188,
+              54.5867
+            ],
+            [
+              -5.9197,
+              54.5839
+            ],
+            [
+              -5.9273,
+              54.5808
+            ],
+            [
+              -5.9285,
+              54.5773
+            ],
+            [
+              -5.931,
+              54.5777
+            ],
+            [
+              -5.9311,
+              54.5796
+            ],
+            [
+              -5.9389,
+              54.5801
+            ],
+            [
+              -5.9343,
+              54.5895
+            ],
+            [
+              -5.9342,
+              54.5931
+            ],
+            [
+              -5.9371,
+              54.5943
+            ],
+            [
+              -5.9449,
+              54.5923
+            ],
+            [
+              -5.9413,
+              54.5971
+            ],
+            [
+              -5.9349,
+              54.5979
+            ],
+            [
+              -5.935,
+              54.603
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "chichester-park",
+      "name": "CHICHESTER PARK",
+      "lgd": "Belfast",
+      "population": 5409,
+      "male": 2713,
+      "female": 2696,
+      "age_0_15_pct": 17.9,
+      "age_16_64_pct": 65.5,
+      "age_65_plus_pct": 16.6,
+      "catholic_pct": 53.6,
+      "protestant_other_christian_pct": 20,
+      "other_religion_pct": 2.9,
+      "no_religion_pct": 21.6,
+      "born_ni_pct": 85.6,
+      "born_other_uk_pct": 4.8,
+      "born_roi_pct": 2.4,
+      "born_elsewhere_pct": 7.2,
+      "owner_occupied_pct": 56.8,
+      "social_rented_pct": 22.1,
+      "private_rented_pct": 21,
+      "no_qualifications_pct": 22.4,
+      "level_1_2_pct": 24.9,
+      "level_3_pct": 14.4,
+      "level_4_plus_pct": 36.2,
+      "very_good_good_health_pct": 74.9,
+      "fair_health_pct": 15.8,
+      "bad_very_bad_health_pct": 9.3,
+      "no_cars_pct": 32.1,
+      "one_car_pct": 42.3,
+      "two_plus_cars_pct": 25.6,
+      "work_from_home_pct": 23.4,
+      "drive_to_work_pct": 55.4,
+      "public_transport_pct": 11,
+      "walk_cycle_pct": 9.1,
+      "urban_rural": "Urban",
+      "deprivation_rank": 137,
+      "income_rank": 273,
+      "employment_rank": 87,
+      "health_rank": 90,
+      "education_rank": 139,
+      "access_rank": 380,
+      "living_env_rank": 53,
+      "crime_rank": 57,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9431,
+              54.6337
+            ],
+            [
+              -5.9377,
+              54.633
+            ],
+            [
+              -5.9391,
+              54.629
+            ],
+            [
+              -5.938,
+              54.6214
+            ],
+            [
+              -5.9422,
+              54.6218
+            ],
+            [
+              -5.9435,
+              54.6261
+            ],
+            [
+              -5.947,
+              54.6255
+            ],
+            [
+              -5.9459,
+              54.6241
+            ],
+            [
+              -5.9483,
+              54.6225
+            ],
+            [
+              -5.9537,
+              54.6244
+            ],
+            [
+              -5.9581,
+              54.6268
+            ],
+            [
+              -5.9573,
+              54.6284
+            ],
+            [
+              -5.9607,
+              54.6311
+            ],
+            [
+              -5.9517,
+              54.6327
+            ],
+            [
+              -5.9483,
+              54.6305
+            ],
+            [
+              -5.9431,
+              54.6337
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "cliftonville",
+      "name": "CLIFTONVILLE",
+      "lgd": "Belfast",
+      "population": 5657,
+      "male": 2697,
+      "female": 2960,
+      "age_0_15_pct": 21.8,
+      "age_16_64_pct": 64.6,
+      "age_65_plus_pct": 13.5,
+      "catholic_pct": 66.5,
+      "protestant_other_christian_pct": 16.6,
+      "other_religion_pct": 1.6,
+      "no_religion_pct": 13.8,
+      "born_ni_pct": 90.4,
+      "born_other_uk_pct": 3.1,
+      "born_roi_pct": 1.3,
+      "born_elsewhere_pct": 5.2,
+      "owner_occupied_pct": 54.9,
+      "social_rented_pct": 28.7,
+      "private_rented_pct": 16.5,
+      "no_qualifications_pct": 27.2,
+      "level_1_2_pct": 29.4,
+      "level_3_pct": 16.4,
+      "level_4_plus_pct": 25.2,
+      "very_good_good_health_pct": 73.7,
+      "fair_health_pct": 15.3,
+      "bad_very_bad_health_pct": 11,
+      "no_cars_pct": 33.3,
+      "one_car_pct": 46.1,
+      "two_plus_cars_pct": 20.6,
+      "work_from_home_pct": 18.1,
+      "drive_to_work_pct": 56.3,
+      "public_transport_pct": 14.2,
+      "walk_cycle_pct": 10.4,
+      "urban_rural": "Urban",
+      "deprivation_rank": 65,
+      "income_rank": 141,
+      "employment_rank": 46,
+      "health_rank": 42,
+      "education_rank": 82,
+      "access_rank": 386,
+      "living_env_rank": 80,
+      "crime_rank": 63,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9581,
+              54.6268
+            ],
+            [
+              -5.9496,
+              54.6237
+            ],
+            [
+              -5.9458,
+              54.6196
+            ],
+            [
+              -5.9506,
+              54.6154
+            ],
+            [
+              -5.9572,
+              54.6196
+            ],
+            [
+              -5.9671,
+              54.6173
+            ],
+            [
+              -5.9687,
+              54.6213
+            ],
+            [
+              -5.9717,
+              54.623
+            ],
+            [
+              -5.9664,
+              54.6265
+            ],
+            [
+              -5.9629,
+              54.6243
+            ],
+            [
+              -5.9593,
+              54.6247
+            ],
+            [
+              -5.9581,
+              54.6268
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "clonard",
+      "name": "CLONARD",
+      "lgd": "Belfast",
+      "population": 5999,
+      "male": 2798,
+      "female": 3202,
+      "age_0_15_pct": 20.2,
+      "age_16_64_pct": 67.9,
+      "age_65_plus_pct": 11.9,
+      "catholic_pct": 81.5,
+      "protestant_other_christian_pct": 4.7,
+      "other_religion_pct": 3.7,
+      "no_religion_pct": 8.8,
+      "born_ni_pct": 86.1,
+      "born_other_uk_pct": 2,
+      "born_roi_pct": 1.9,
+      "born_elsewhere_pct": 10.1,
+      "owner_occupied_pct": 34.2,
+      "social_rented_pct": 39.8,
+      "private_rented_pct": 25.9,
+      "no_qualifications_pct": 34.1,
+      "level_1_2_pct": 27.6,
+      "level_3_pct": 14.5,
+      "level_4_plus_pct": 22,
+      "very_good_good_health_pct": 70.3,
+      "fair_health_pct": 15.1,
+      "bad_very_bad_health_pct": 14.6,
+      "no_cars_pct": 55.6,
+      "one_car_pct": 36.2,
+      "two_plus_cars_pct": 8.2,
+      "work_from_home_pct": 13.8,
+      "drive_to_work_pct": 36.8,
+      "public_transport_pct": 14.7,
+      "walk_cycle_pct": 33.8,
+      "urban_rural": "Urban",
+      "deprivation_rank": 18,
+      "income_rank": 101,
+      "employment_rank": 15,
+      "health_rank": 11,
+      "education_rank": 25,
+      "access_rank": 430,
+      "living_env_rank": 20,
+      "crime_rank": 16,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9666,
+              54.6025
+            ],
+            [
+              -5.9538,
+              54.6005
+            ],
+            [
+              -5.9516,
+              54.5984
+            ],
+            [
+              -5.9561,
+              54.5949
+            ],
+            [
+              -5.9644,
+              54.5962
+            ],
+            [
+              -5.9658,
+              54.5951
+            ],
+            [
+              -5.9695,
+              54.597
+            ],
+            [
+              -5.9731,
+              54.5962
+            ],
+            [
+              -5.9746,
+              54.5983
+            ],
+            [
+              -5.9666,
+              54.6025
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "collin-glen",
+      "name": "COLLIN GLEN",
+      "lgd": "Belfast",
+      "population": 5656,
+      "male": 2747,
+      "female": 2908,
+      "age_0_15_pct": 21.7,
+      "age_16_64_pct": 65,
+      "age_65_plus_pct": 13.3,
+      "catholic_pct": 87.6,
+      "protestant_other_christian_pct": 3.4,
+      "other_religion_pct": 1,
+      "no_religion_pct": 6.5,
+      "born_ni_pct": 95.2,
+      "born_other_uk_pct": 1.6,
+      "born_roi_pct": 1.2,
+      "born_elsewhere_pct": 2,
+      "owner_occupied_pct": 59.6,
+      "social_rented_pct": 29.2,
+      "private_rented_pct": 11.2,
+      "no_qualifications_pct": 29.2,
+      "level_1_2_pct": 29.6,
+      "level_3_pct": 16.5,
+      "level_4_plus_pct": 23.2,
+      "very_good_good_health_pct": 73,
+      "fair_health_pct": 14.4,
+      "bad_very_bad_health_pct": 12.6,
+      "no_cars_pct": 31.5,
+      "one_car_pct": 44.9,
+      "two_plus_cars_pct": 23.6,
+      "work_from_home_pct": 16.3,
+      "drive_to_work_pct": 61.1,
+      "public_transport_pct": 14.6,
+      "walk_cycle_pct": 7.1,
+      "urban_rural": "Urban",
+      "deprivation_rank": 73,
+      "income_rank": 350,
+      "employment_rank": 34,
+      "health_rank": 24,
+      "education_rank": 63,
+      "access_rank": 317,
+      "living_env_rank": 122,
+      "crime_rank": 95,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.042,
+              54.6123
+            ],
+            [
+              -6.0092,
+              54.6119
+            ],
+            [
+              -6.0079,
+              54.6101
+            ],
+            [
+              -5.9988,
+              54.6084
+            ],
+            [
+              -5.996,
+              54.6062
+            ],
+            [
+              -6.0014,
+              54.6029
+            ],
+            [
+              -6.0055,
+              54.5967
+            ],
+            [
+              -6.0093,
+              54.5945
+            ],
+            [
+              -6.0085,
+              54.5938
+            ],
+            [
+              -6.0104,
+              54.5927
+            ],
+            [
+              -6.0091,
+              54.5896
+            ],
+            [
+              -6.0135,
+              54.586
+            ],
+            [
+              -6.0095,
+              54.583
+            ],
+            [
+              -6.0152,
+              54.5813
+            ],
+            [
+              -6.0117,
+              54.5769
+            ],
+            [
+              -6.0129,
+              54.5766
+            ],
+            [
+              -6.0119,
+              54.5748
+            ],
+            [
+              -6.0081,
+              54.5728
+            ],
+            [
+              -6.0099,
+              54.5711
+            ],
+            [
+              -6.0119,
+              54.5726
+            ],
+            [
+              -6.0173,
+              54.5704
+            ],
+            [
+              -6.0313,
+              54.5742
+            ],
+            [
+              -6.0376,
+              54.5815
+            ],
+            [
+              -6.0454,
+              54.5873
+            ],
+            [
+              -6.0443,
+              54.5895
+            ],
+            [
+              -6.0408,
+              54.5905
+            ],
+            [
+              -6.0395,
+              54.5935
+            ],
+            [
+              -6.0443,
+              54.6011
+            ],
+            [
+              -6.0457,
+              54.6063
+            ],
+            [
+              -6.042,
+              54.6123
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "connswater",
+      "name": "CONNSWATER",
+      "lgd": "Belfast",
+      "population": 5929,
+      "male": 2841,
+      "female": 3088,
+      "age_0_15_pct": 17.9,
+      "age_16_64_pct": 70.3,
+      "age_65_plus_pct": 11.8,
+      "catholic_pct": 11.6,
+      "protestant_other_christian_pct": 47.6,
+      "other_religion_pct": 2.1,
+      "no_religion_pct": 36.8,
+      "born_ni_pct": 79.7,
+      "born_other_uk_pct": 5.7,
+      "born_roi_pct": 1.3,
+      "born_elsewhere_pct": 13.4,
+      "owner_occupied_pct": 44.2,
+      "social_rented_pct": 26.6,
+      "private_rented_pct": 29.2,
+      "no_qualifications_pct": 24.3,
+      "level_1_2_pct": 23,
+      "level_3_pct": 13.3,
+      "level_4_plus_pct": 37.4,
+      "very_good_good_health_pct": 75.7,
+      "fair_health_pct": 14.7,
+      "bad_very_bad_health_pct": 9.7,
+      "no_cars_pct": 32.8,
+      "one_car_pct": 49.4,
+      "two_plus_cars_pct": 17.7,
+      "work_from_home_pct": 23.9,
+      "drive_to_work_pct": 48.6,
+      "public_transport_pct": 11.6,
+      "walk_cycle_pct": 14.4,
+      "urban_rural": "Urban",
+      "deprivation_rank": 118,
+      "income_rank": 216,
+      "employment_rank": 129,
+      "health_rank": 68,
+      "education_rank": 55,
+      "access_rank": 417,
+      "living_env_rank": 86,
+      "crime_rank": 98,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8878,
+              54.6035
+            ],
+            [
+              -5.8777,
+              54.6016
+            ],
+            [
+              -5.8788,
+              54.6007
+            ],
+            [
+              -5.8719,
+              54.5996
+            ],
+            [
+              -5.8756,
+              54.598
+            ],
+            [
+              -5.8753,
+              54.5959
+            ],
+            [
+              -5.8926,
+              54.5981
+            ],
+            [
+              -5.8984,
+              54.5963
+            ],
+            [
+              -5.8962,
+              54.603
+            ],
+            [
+              -5.8872,
+              54.6051
+            ],
+            [
+              -5.8878,
+              54.6035
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "cregagh",
+      "name": "CREGAGH",
+      "lgd": "Belfast",
+      "population": 4587,
+      "male": 2218,
+      "female": 2368,
+      "age_0_15_pct": 19.5,
+      "age_16_64_pct": 63.5,
+      "age_65_plus_pct": 17,
+      "catholic_pct": 27.1,
+      "protestant_other_christian_pct": 43.2,
+      "other_religion_pct": 1.2,
+      "no_religion_pct": 26.7,
+      "born_ni_pct": 87.4,
+      "born_other_uk_pct": 4.6,
+      "born_roi_pct": 1.8,
+      "born_elsewhere_pct": 6.1,
+      "owner_occupied_pct": 59.8,
+      "social_rented_pct": 26.8,
+      "private_rented_pct": 13.4,
+      "no_qualifications_pct": 23.6,
+      "level_1_2_pct": 25.7,
+      "level_3_pct": 13.7,
+      "level_4_plus_pct": 34.7,
+      "very_good_good_health_pct": 75,
+      "fair_health_pct": 15.1,
+      "bad_very_bad_health_pct": 9.9,
+      "no_cars_pct": 27.7,
+      "one_car_pct": 46.3,
+      "two_plus_cars_pct": 26,
+      "work_from_home_pct": 23,
+      "drive_to_work_pct": 55.9,
+      "public_transport_pct": 8.5,
+      "walk_cycle_pct": 11.7,
+      "urban_rural": "Urban",
+      "deprivation_rank": 267,
+      "income_rank": 396,
+      "employment_rank": 187,
+      "health_rank": 145,
+      "education_rank": 146,
+      "access_rank": 446,
+      "living_env_rank": 173,
+      "crime_rank": 171,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8972,
+              54.5796
+            ],
+            [
+              -5.8933,
+              54.5695
+            ],
+            [
+              -5.9045,
+              54.5652
+            ],
+            [
+              -5.9054,
+              54.5656
+            ],
+            [
+              -5.9077,
+              54.5693
+            ],
+            [
+              -5.9037,
+              54.5741
+            ],
+            [
+              -5.9035,
+              54.5778
+            ],
+            [
+              -5.8972,
+              54.5796
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "duncairn",
+      "name": "DUNCAIRN",
+      "lgd": "Belfast",
+      "population": 8338,
+      "male": 4206,
+      "female": 4130,
+      "age_0_15_pct": 16.9,
+      "age_16_64_pct": 73.3,
+      "age_65_plus_pct": 9.8,
+      "catholic_pct": 29.5,
+      "protestant_other_christian_pct": 34.9,
+      "other_religion_pct": 5.3,
+      "no_religion_pct": 25.4,
+      "born_ni_pct": 73.2,
+      "born_other_uk_pct": 5.2,
+      "born_roi_pct": 2.1,
+      "born_elsewhere_pct": 19.5,
+      "owner_occupied_pct": 23.6,
+      "social_rented_pct": 42.2,
+      "private_rented_pct": 34.2,
+      "no_qualifications_pct": 27.2,
+      "level_1_2_pct": 20.8,
+      "level_3_pct": 21.2,
+      "level_4_plus_pct": 28.4,
+      "very_good_good_health_pct": 73.9,
+      "fair_health_pct": 15.3,
+      "bad_very_bad_health_pct": 10.8,
+      "no_cars_pct": 51.2,
+      "one_car_pct": 40.2,
+      "two_plus_cars_pct": 8.6,
+      "work_from_home_pct": 20.1,
+      "drive_to_work_pct": 42.7,
+      "public_transport_pct": 14.3,
+      "walk_cycle_pct": 21.6,
+      "urban_rural": "Urban",
+      "deprivation_rank": 13,
+      "income_rank": 18,
+      "employment_rank": 26,
+      "health_rank": 22,
+      "education_rank": 12,
+      "access_rank": 340,
+      "living_env_rank": 21,
+      "crime_rank": 38,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9136,
+              54.6482
+            ],
+            [
+              -5.8748,
+              54.6385
+            ],
+            [
+              -5.9159,
+              54.6067
+            ],
+            [
+              -5.9197,
+              54.603
+            ],
+            [
+              -5.9205,
+              54.5997
+            ],
+            [
+              -5.9274,
+              54.5998
+            ],
+            [
+              -5.9315,
+              54.6021
+            ],
+            [
+              -5.9236,
+              54.6098
+            ],
+            [
+              -5.9372,
+              54.6153
+            ],
+            [
+              -5.938,
+              54.621
+            ],
+            [
+              -5.9315,
+              54.6194
+            ],
+            [
+              -5.9304,
+              54.6233
+            ],
+            [
+              -5.9244,
+              54.6226
+            ],
+            [
+              -5.9238,
+              54.6251
+            ],
+            [
+              -5.9255,
+              54.6285
+            ],
+            [
+              -5.9228,
+              54.6297
+            ],
+            [
+              -5.9228,
+              54.6314
+            ],
+            [
+              -5.9207,
+              54.6297
+            ],
+            [
+              -5.92,
+              54.6399
+            ],
+            [
+              -5.9167,
+              54.6467
+            ],
+            [
+              -5.9156,
+              54.6456
+            ],
+            [
+              -5.9136,
+              54.6482
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "dunmurry",
+      "name": "DUNMURRY",
+      "lgd": "Belfast",
+      "population": 5207,
+      "male": 2584,
+      "female": 2623,
+      "age_0_15_pct": 16.1,
+      "age_16_64_pct": 67.8,
+      "age_65_plus_pct": 16.1,
+      "catholic_pct": 61.9,
+      "protestant_other_christian_pct": 18.1,
+      "other_religion_pct": 2,
+      "no_religion_pct": 16.2,
+      "born_ni_pct": 88.5,
+      "born_other_uk_pct": 3.5,
+      "born_roi_pct": 1.8,
+      "born_elsewhere_pct": 6.2,
+      "owner_occupied_pct": 71.8,
+      "social_rented_pct": 11.3,
+      "private_rented_pct": 17,
+      "no_qualifications_pct": 15.1,
+      "level_1_2_pct": 21.6,
+      "level_3_pct": 15.8,
+      "level_4_plus_pct": 45.5,
+      "very_good_good_health_pct": 80.6,
+      "fair_health_pct": 12.6,
+      "bad_very_bad_health_pct": 6.8,
+      "no_cars_pct": 18.6,
+      "one_car_pct": 46.7,
+      "two_plus_cars_pct": 34.7,
+      "work_from_home_pct": 23.5,
+      "drive_to_work_pct": 58.3,
+      "public_transport_pct": 11.8,
+      "walk_cycle_pct": 5.3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 383,
+      "income_rank": 351,
+      "employment_rank": 337,
+      "health_rank": 333,
+      "education_rank": 411,
+      "access_rank": 412,
+      "living_env_rank": 210,
+      "crime_rank": 121,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0026,
+              54.5637
+            ],
+            [
+              -5.9953,
+              54.5579
+            ],
+            [
+              -5.9968,
+              54.552
+            ],
+            [
+              -5.9937,
+              54.5429
+            ],
+            [
+              -5.9979,
+              54.5423
+            ],
+            [
+              -5.9982,
+              54.5407
+            ],
+            [
+              -5.9997,
+              54.5406
+            ],
+            [
+              -6.0005,
+              54.5454
+            ],
+            [
+              -6.0022,
+              54.5447
+            ],
+            [
+              -6.0166,
+              54.5508
+            ],
+            [
+              -6.0067,
+              54.5582
+            ],
+            [
+              -6.0086,
+              54.5596
+            ],
+            [
+              -6.0082,
+              54.5615
+            ],
+            [
+              -6.0026,
+              54.5637
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "falls",
+      "name": "FALLS",
+      "lgd": "Belfast",
+      "population": 5179,
+      "male": 2405,
+      "female": 2774,
+      "age_0_15_pct": 24.1,
+      "age_16_64_pct": 63.3,
+      "age_65_plus_pct": 12.6,
+      "catholic_pct": 84.6,
+      "protestant_other_christian_pct": 3.6,
+      "other_religion_pct": 2,
+      "no_religion_pct": 6.5,
+      "born_ni_pct": 90.3,
+      "born_other_uk_pct": 2.3,
+      "born_roi_pct": 1.6,
+      "born_elsewhere_pct": 5.8,
+      "owner_occupied_pct": 27.2,
+      "social_rented_pct": 58.6,
+      "private_rented_pct": 14.2,
+      "no_qualifications_pct": 43.4,
+      "level_1_2_pct": 26.3,
+      "level_3_pct": 12.5,
+      "level_4_plus_pct": 16,
+      "very_good_good_health_pct": 64.7,
+      "fair_health_pct": 17.8,
+      "bad_very_bad_health_pct": 17.5,
+      "no_cars_pct": 63.1,
+      "one_car_pct": 31.2,
+      "two_plus_cars_pct": 5.7,
+      "work_from_home_pct": 12.1,
+      "drive_to_work_pct": 35.2,
+      "public_transport_pct": 11.9,
+      "walk_cycle_pct": 40.1,
+      "urban_rural": "Urban",
+      "deprivation_rank": 8,
+      "income_rank": 55,
+      "employment_rank": 6,
+      "health_rank": 3,
+      "education_rank": 4,
+      "access_rank": 460,
+      "living_env_rank": 62,
+      "crime_rank": 20,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9538,
+              54.6005
+            ],
+            [
+              -5.9356,
+              54.6013
+            ],
+            [
+              -5.9349,
+              54.5979
+            ],
+            [
+              -5.9413,
+              54.5971
+            ],
+            [
+              -5.9453,
+              54.5922
+            ],
+            [
+              -5.953,
+              54.5918
+            ],
+            [
+              -5.9587,
+              54.5891
+            ],
+            [
+              -5.961,
+              54.5925
+            ],
+            [
+              -5.9516,
+              54.5984
+            ],
+            [
+              -5.9538,
+              54.6005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "falls-park",
+      "name": "FALLS PARK",
+      "lgd": "Belfast",
+      "population": 4742,
+      "male": 2222,
+      "female": 2521,
+      "age_0_15_pct": 16.4,
+      "age_16_64_pct": 60.9,
+      "age_65_plus_pct": 22.7,
+      "catholic_pct": 88,
+      "protestant_other_christian_pct": 1.7,
+      "other_religion_pct": 1.3,
+      "no_religion_pct": 7.8,
+      "born_ni_pct": 94.3,
+      "born_other_uk_pct": 1.8,
+      "born_roi_pct": 1.1,
+      "born_elsewhere_pct": 2.7,
+      "owner_occupied_pct": 69.3,
+      "social_rented_pct": 17.7,
+      "private_rented_pct": 13,
+      "no_qualifications_pct": 26.4,
+      "level_1_2_pct": 26,
+      "level_3_pct": 16,
+      "level_4_plus_pct": 29.5,
+      "very_good_good_health_pct": 70.6,
+      "fair_health_pct": 16.5,
+      "bad_very_bad_health_pct": 13,
+      "no_cars_pct": 31.7,
+      "one_car_pct": 45.6,
+      "two_plus_cars_pct": 22.7,
+      "work_from_home_pct": 18.1,
+      "drive_to_work_pct": 55.7,
+      "public_transport_pct": 14.1,
+      "walk_cycle_pct": 11.4,
+      "urban_rural": "Urban",
+      "deprivation_rank": 170,
+      "income_rank": 402,
+      "employment_rank": 88,
+      "health_rank": 63,
+      "education_rank": 193,
+      "access_rank": 454,
+      "living_env_rank": 138,
+      "crime_rank": 22,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9831,
+              54.5922
+            ],
+            [
+              -5.9699,
+              54.5886
+            ],
+            [
+              -5.9722,
+              54.5863
+            ],
+            [
+              -5.9703,
+              54.5851
+            ],
+            [
+              -5.9657,
+              54.5867
+            ],
+            [
+              -5.9623,
+              54.5855
+            ],
+            [
+              -5.978,
+              54.5731
+            ],
+            [
+              -5.9834,
+              54.5756
+            ],
+            [
+              -5.9946,
+              54.5866
+            ],
+            [
+              -5.9861,
+              54.5857
+            ],
+            [
+              -5.9887,
+              54.5895
+            ],
+            [
+              -5.986,
+              54.5893
+            ],
+            [
+              -5.9831,
+              54.5922
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "finaghy",
+      "name": "FINAGHY",
+      "lgd": "Belfast",
+      "population": 4525,
+      "male": 2204,
+      "female": 2324,
+      "age_0_15_pct": 17,
+      "age_16_64_pct": 58.8,
+      "age_65_plus_pct": 24.2,
+      "catholic_pct": 47.5,
+      "protestant_other_christian_pct": 29.3,
+      "other_religion_pct": 3.8,
+      "no_religion_pct": 18.2,
+      "born_ni_pct": 85.3,
+      "born_other_uk_pct": 3.6,
+      "born_roi_pct": 2.2,
+      "born_elsewhere_pct": 8.9,
+      "owner_occupied_pct": 84.8,
+      "social_rented_pct": 3.8,
+      "private_rented_pct": 11.3,
+      "no_qualifications_pct": 14.9,
+      "level_1_2_pct": 20.1,
+      "level_3_pct": 11.7,
+      "level_4_plus_pct": 50.6,
+      "very_good_good_health_pct": 81.9,
+      "fair_health_pct": 12.1,
+      "bad_very_bad_health_pct": 6.1,
+      "no_cars_pct": 13.6,
+      "one_car_pct": 43,
+      "two_plus_cars_pct": 43.4,
+      "work_from_home_pct": 24.3,
+      "drive_to_work_pct": 62.2,
+      "public_transport_pct": 8.7,
+      "walk_cycle_pct": 4.3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 454,
+      "income_rank": 448,
+      "employment_rank": 412,
+      "health_rank": 397,
+      "education_rank": 452,
+      "access_rank": 410,
+      "living_env_rank": 193,
+      "crime_rank": 330,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.978,
+              54.5428
+            ],
+            [
+              -5.9836,
+              54.535
+            ],
+            [
+              -5.9849,
+              54.5357
+            ],
+            [
+              -5.9841,
+              54.5366
+            ],
+            [
+              -5.9873,
+              54.5373
+            ],
+            [
+              -5.9892,
+              54.5416
+            ],
+            [
+              -5.9937,
+              54.5429
+            ],
+            [
+              -5.9969,
+              54.5521
+            ],
+            [
+              -5.9948,
+              54.5595
+            ],
+            [
+              -5.9871,
+              54.5636
+            ],
+            [
+              -5.9757,
+              54.5512
+            ],
+            [
+              -5.978,
+              54.5428
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "forth-river",
+      "name": "FORTH RIVER",
+      "lgd": "Belfast",
+      "population": 4921,
+      "male": 2287,
+      "female": 2634,
+      "age_0_15_pct": 20,
+      "age_16_64_pct": 62.4,
+      "age_65_plus_pct": 17.5,
+      "catholic_pct": 18.3,
+      "protestant_other_christian_pct": 59.7,
+      "other_religion_pct": 0.9,
+      "no_religion_pct": 19,
+      "born_ni_pct": 91.3,
+      "born_other_uk_pct": 3.5,
+      "born_roi_pct": 0.9,
+      "born_elsewhere_pct": 4.4,
+      "owner_occupied_pct": 50.5,
+      "social_rented_pct": 32.2,
+      "private_rented_pct": 17.3,
+      "no_qualifications_pct": 34.8,
+      "level_1_2_pct": 29.9,
+      "level_3_pct": 14.2,
+      "level_4_plus_pct": 18.1,
+      "very_good_good_health_pct": 69.8,
+      "fair_health_pct": 17.5,
+      "bad_very_bad_health_pct": 12.7,
+      "no_cars_pct": 37.6,
+      "one_car_pct": 46.3,
+      "two_plus_cars_pct": 16.2,
+      "work_from_home_pct": 12.6,
+      "drive_to_work_pct": 62.4,
+      "public_transport_pct": 14.7,
+      "walk_cycle_pct": 9,
+      "urban_rural": "Urban",
+      "deprivation_rank": 43,
+      "income_rank": 171,
+      "employment_rank": 38,
+      "health_rank": 36,
+      "education_rank": 19,
+      "access_rank": 324,
+      "living_env_rank": 106,
+      "crime_rank": 93,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0218,
+              54.6255
+            ],
+            [
+              -5.9835,
+              54.6224
+            ],
+            [
+              -5.9802,
+              54.6204
+            ],
+            [
+              -5.9764,
+              54.6212
+            ],
+            [
+              -5.9645,
+              54.6137
+            ],
+            [
+              -5.9633,
+              54.6114
+            ],
+            [
+              -5.9734,
+              54.6084
+            ],
+            [
+              -5.9796,
+              54.6114
+            ],
+            [
+              -5.9859,
+              54.6117
+            ],
+            [
+              -5.9881,
+              54.615
+            ],
+            [
+              -5.9973,
+              54.6137
+            ],
+            [
+              -6.0064,
+              54.6095
+            ],
+            [
+              -6.0092,
+              54.6119
+            ],
+            [
+              -6.0211,
+              54.6117
+            ],
+            [
+              -6.0218,
+              54.6255
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "fortwilliam",
+      "name": "FORTWILLIAM",
+      "lgd": "Belfast",
+      "population": 4717,
+      "male": 2265,
+      "female": 2452,
+      "age_0_15_pct": 17.3,
+      "age_16_64_pct": 63.1,
+      "age_65_plus_pct": 19.6,
+      "catholic_pct": 43.5,
+      "protestant_other_christian_pct": 32.8,
+      "other_religion_pct": 2,
+      "no_religion_pct": 19.9,
+      "born_ni_pct": 84.2,
+      "born_other_uk_pct": 4.2,
+      "born_roi_pct": 2.1,
+      "born_elsewhere_pct": 9.4,
+      "owner_occupied_pct": 65.7,
+      "social_rented_pct": 12.4,
+      "private_rented_pct": 21.9,
+      "no_qualifications_pct": 24.9,
+      "level_1_2_pct": 25,
+      "level_3_pct": 15.6,
+      "level_4_plus_pct": 32.1,
+      "very_good_good_health_pct": 74.1,
+      "fair_health_pct": 16.8,
+      "bad_very_bad_health_pct": 9,
+      "no_cars_pct": 29.2,
+      "one_car_pct": 46.8,
+      "two_plus_cars_pct": 24.1,
+      "work_from_home_pct": 19,
+      "drive_to_work_pct": 58,
+      "public_transport_pct": 11.7,
+      "walk_cycle_pct": 9.9,
+      "urban_rural": "Urban",
+      "deprivation_rank": 214,
+      "income_rank": 312,
+      "employment_rank": 181,
+      "health_rank": 151,
+      "education_rank": 127,
+      "access_rank": 448,
+      "living_env_rank": 73,
+      "crime_rank": 75,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9327,
+              54.6314
+            ],
+            [
+              -5.9243,
+              54.6296
+            ],
+            [
+              -5.9257,
+              54.6272
+            ],
+            [
+              -5.9238,
+              54.6251
+            ],
+            [
+              -5.9244,
+              54.6226
+            ],
+            [
+              -5.9304,
+              54.6233
+            ],
+            [
+              -5.9315,
+              54.6194
+            ],
+            [
+              -5.938,
+              54.621
+            ],
+            [
+              -5.9386,
+              54.6305
+            ],
+            [
+              -5.9327,
+              54.6314
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "garnerville",
+      "name": "GARNERVILLE",
+      "lgd": "Belfast",
+      "population": 4788,
+      "male": 2278,
+      "female": 2510,
+      "age_0_15_pct": 17.4,
+      "age_16_64_pct": 61,
+      "age_65_plus_pct": 21.6,
+      "catholic_pct": 8.2,
+      "protestant_other_christian_pct": 60.4,
+      "other_religion_pct": 0.9,
+      "no_religion_pct": 28.7,
+      "born_ni_pct": 87.2,
+      "born_other_uk_pct": 5.8,
+      "born_roi_pct": 1.3,
+      "born_elsewhere_pct": 5.8,
+      "owner_occupied_pct": 71.2,
+      "social_rented_pct": 17.1,
+      "private_rented_pct": 11.7,
+      "no_qualifications_pct": 17.5,
+      "level_1_2_pct": 23.1,
+      "level_3_pct": 13.6,
+      "level_4_plus_pct": 43.9,
+      "very_good_good_health_pct": 79.1,
+      "fair_health_pct": 13.1,
+      "bad_very_bad_health_pct": 7.8,
+      "no_cars_pct": 15.2,
+      "one_car_pct": 44.8,
+      "two_plus_cars_pct": 39.9,
+      "work_from_home_pct": 23.7,
+      "drive_to_work_pct": 61.8,
+      "public_transport_pct": 7.5,
+      "walk_cycle_pct": 5.5,
+      "urban_rural": "Urban",
+      "deprivation_rank": 394,
+      "income_rank": 412,
+      "employment_rank": 313,
+      "health_rank": 320,
+      "education_rank": 313,
+      "access_rank": 307,
+      "living_env_rank": 446,
+      "crime_rank": 309,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8307,
+              54.6106
+            ],
+            [
+              -5.8367,
+              54.6058
+            ],
+            [
+              -5.8412,
+              54.6063
+            ],
+            [
+              -5.843,
+              54.6039
+            ],
+            [
+              -5.8489,
+              54.6052
+            ],
+            [
+              -5.8555,
+              54.6006
+            ],
+            [
+              -5.8565,
+              54.6021
+            ],
+            [
+              -5.8547,
+              54.6051
+            ],
+            [
+              -5.8568,
+              54.6112
+            ],
+            [
+              -5.8615,
+              54.6152
+            ],
+            [
+              -5.8608,
+              54.6172
+            ],
+            [
+              -5.8642,
+              54.6184
+            ],
+            [
+              -5.8585,
+              54.6236
+            ],
+            [
+              -5.8508,
+              54.6208
+            ],
+            [
+              -5.8466,
+              54.6214
+            ],
+            [
+              -5.8457,
+              54.6208
+            ],
+            [
+              -5.8477,
+              54.6195
+            ],
+            [
+              -5.8427,
+              54.6172
+            ],
+            [
+              -5.8293,
+              54.6168
+            ],
+            [
+              -5.8307,
+              54.6106
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "gilnahirk",
+      "name": "GILNAHIRK",
+      "lgd": "Belfast",
+      "population": 5155,
+      "male": 2458,
+      "female": 2695,
+      "age_0_15_pct": 19.5,
+      "age_16_64_pct": 62.4,
+      "age_65_plus_pct": 18.1,
+      "catholic_pct": 5.8,
+      "protestant_other_christian_pct": 61.7,
+      "other_religion_pct": 0.9,
+      "no_religion_pct": 30.1,
+      "born_ni_pct": 90.2,
+      "born_other_uk_pct": 4.6,
+      "born_roi_pct": 1,
+      "born_elsewhere_pct": 4.1,
+      "owner_occupied_pct": 71.6,
+      "social_rented_pct": 17.2,
+      "private_rented_pct": 11.2,
+      "no_qualifications_pct": 20,
+      "level_1_2_pct": 27.4,
+      "level_3_pct": 14.2,
+      "level_4_plus_pct": 36.1,
+      "very_good_good_health_pct": 77.8,
+      "fair_health_pct": 14.3,
+      "bad_very_bad_health_pct": 7.9,
+      "no_cars_pct": 18.2,
+      "one_car_pct": 42.9,
+      "two_plus_cars_pct": 38.8,
+      "work_from_home_pct": 22.4,
+      "drive_to_work_pct": 64,
+      "public_transport_pct": 6.3,
+      "walk_cycle_pct": 6.3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 348,
+      "income_rank": 399,
+      "employment_rank": 244,
+      "health_rank": 235,
+      "education_rank": 191,
+      "access_rank": 429,
+      "living_env_rank": 310,
+      "crime_rank": 373,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8332,
+              54.5772
+            ],
+            [
+              -5.841,
+              54.5783
+            ],
+            [
+              -5.8417,
+              54.5815
+            ],
+            [
+              -5.8496,
+              54.5834
+            ],
+            [
+              -5.8466,
+              54.5869
+            ],
+            [
+              -5.8436,
+              54.5872
+            ],
+            [
+              -5.8451,
+              54.589
+            ],
+            [
+              -5.8437,
+              54.589
+            ],
+            [
+              -5.8444,
+              54.5902
+            ],
+            [
+              -5.8235,
+              54.5904
+            ],
+            [
+              -5.8263,
+              54.5883
+            ],
+            [
+              -5.8228,
+              54.5817
+            ],
+            [
+              -5.8332,
+              54.5772
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "hillfoot",
+      "name": "HILLFOOT",
+      "lgd": "Belfast",
+      "population": 4582,
+      "male": 2221,
+      "female": 2361,
+      "age_0_15_pct": 15.5,
+      "age_16_64_pct": 61.6,
+      "age_65_plus_pct": 22.8,
+      "catholic_pct": 21,
+      "protestant_other_christian_pct": 48.7,
+      "other_religion_pct": 1.6,
+      "no_religion_pct": 27.3,
+      "born_ni_pct": 88.1,
+      "born_other_uk_pct": 4.5,
+      "born_roi_pct": 1.7,
+      "born_elsewhere_pct": 5.7,
+      "owner_occupied_pct": 87.6,
+      "social_rented_pct": 4.3,
+      "private_rented_pct": 8,
+      "no_qualifications_pct": 14.4,
+      "level_1_2_pct": 22,
+      "level_3_pct": 14.9,
+      "level_4_plus_pct": 46.2,
+      "very_good_good_health_pct": 81.7,
+      "fair_health_pct": 12.5,
+      "bad_very_bad_health_pct": 5.8,
+      "no_cars_pct": 9.5,
+      "one_car_pct": 44.6,
+      "two_plus_cars_pct": 45.9,
+      "work_from_home_pct": 29.8,
+      "drive_to_work_pct": 61.2,
+      "public_transport_pct": 4.8,
+      "walk_cycle_pct": 3.7,
+      "urban_rural": "Urban",
+      "deprivation_rank": 462,
+      "income_rank": 442,
+      "employment_rank": 445,
+      "health_rank": 438,
+      "education_rank": 439,
+      "access_rank": 398,
+      "living_env_rank": 381,
+      "crime_rank": 385,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8664,
+              54.5676
+            ],
+            [
+              -5.8892,
+              54.5618
+            ],
+            [
+              -5.8967,
+              54.5615
+            ],
+            [
+              -5.9063,
+              54.564
+            ],
+            [
+              -5.9006,
+              54.5673
+            ],
+            [
+              -5.8885,
+              54.5706
+            ],
+            [
+              -5.8671,
+              54.5813
+            ],
+            [
+              -5.8657,
+              54.5778
+            ],
+            [
+              -5.8633,
+              54.5767
+            ],
+            [
+              -5.8652,
+              54.5749
+            ],
+            [
+              -5.864,
+              54.5744
+            ],
+            [
+              -5.8664,
+              54.5676
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "innisfayle",
+      "name": "INNISFAYLE",
+      "lgd": "Belfast",
+      "population": 5315,
+      "male": 2565,
+      "female": 2749,
+      "age_0_15_pct": 17.1,
+      "age_16_64_pct": 64.4,
+      "age_65_plus_pct": 18.6,
+      "catholic_pct": 38.9,
+      "protestant_other_christian_pct": 37.7,
+      "other_religion_pct": 1.1,
+      "no_religion_pct": 20.7,
+      "born_ni_pct": 87.9,
+      "born_other_uk_pct": 4.4,
+      "born_roi_pct": 1.9,
+      "born_elsewhere_pct": 5.7,
+      "owner_occupied_pct": 65.1,
+      "social_rented_pct": 21.8,
+      "private_rented_pct": 13.2,
+      "no_qualifications_pct": 22.1,
+      "level_1_2_pct": 23.1,
+      "level_3_pct": 13.5,
+      "level_4_plus_pct": 39.4,
+      "very_good_good_health_pct": 76.9,
+      "fair_health_pct": 14.3,
+      "bad_very_bad_health_pct": 8.8,
+      "no_cars_pct": 25.7,
+      "one_car_pct": 43.7,
+      "two_plus_cars_pct": 30.7,
+      "work_from_home_pct": 23.2,
+      "drive_to_work_pct": 58.6,
+      "public_transport_pct": 10.2,
+      "walk_cycle_pct": 6.9,
+      "urban_rural": "Urban",
+      "deprivation_rank": 271,
+      "income_rank": 286,
+      "employment_rank": 195,
+      "health_rank": 180,
+      "education_rank": 259,
+      "access_rank": 405,
+      "living_env_rank": 135,
+      "crime_rank": 133,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9363,
+              54.6417
+            ],
+            [
+              -5.9198,
+              54.6409
+            ],
+            [
+              -5.9207,
+              54.6297
+            ],
+            [
+              -5.9218,
+              54.6315
+            ],
+            [
+              -5.9236,
+              54.6288
+            ],
+            [
+              -5.9327,
+              54.6314
+            ],
+            [
+              -5.9386,
+              54.6305
+            ],
+            [
+              -5.9363,
+              54.6417
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "knock",
+      "name": "KNOCK",
+      "lgd": "Belfast",
+      "population": 5011,
+      "male": 2367,
+      "female": 2643,
+      "age_0_15_pct": 16.9,
+      "age_16_64_pct": 61.6,
+      "age_65_plus_pct": 21.5,
+      "catholic_pct": 15,
+      "protestant_other_christian_pct": 46.9,
+      "other_religion_pct": 1.8,
+      "no_religion_pct": 34.7,
+      "born_ni_pct": 84.2,
+      "born_other_uk_pct": 6.3,
+      "born_roi_pct": 2.4,
+      "born_elsewhere_pct": 7.1,
+      "owner_occupied_pct": 73.4,
+      "social_rented_pct": 5.7,
+      "private_rented_pct": 20.9,
+      "no_qualifications_pct": 11.6,
+      "level_1_2_pct": 16.5,
+      "level_3_pct": 12.1,
+      "level_4_plus_pct": 57.7,
+      "very_good_good_health_pct": 83.6,
+      "fair_health_pct": 11.3,
+      "bad_very_bad_health_pct": 5.1,
+      "no_cars_pct": 16.2,
+      "one_car_pct": 46.4,
+      "two_plus_cars_pct": 37.4,
+      "work_from_home_pct": 30.6,
+      "drive_to_work_pct": 51.5,
+      "public_transport_pct": 9,
+      "walk_cycle_pct": 8.2,
+      "urban_rural": "Urban",
+      "deprivation_rank": 445,
+      "income_rank": 432,
+      "employment_rank": 430,
+      "health_rank": 409,
+      "education_rank": 451,
+      "access_rank": 456,
+      "living_env_rank": 118,
+      "crime_rank": 221,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8555,
+              54.6006
+            ],
+            [
+              -5.8507,
+              54.5975
+            ],
+            [
+              -5.8547,
+              54.5943
+            ],
+            [
+              -5.8559,
+              54.5905
+            ],
+            [
+              -5.8693,
+              54.591
+            ],
+            [
+              -5.8726,
+              54.5923
+            ],
+            [
+              -5.87,
+              54.5953
+            ],
+            [
+              -5.8753,
+              54.5959
+            ],
+            [
+              -5.8756,
+              54.598
+            ],
+            [
+              -5.872,
+              54.5999
+            ],
+            [
+              -5.8555,
+              54.6006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ladybrook",
+      "name": "LADYBROOK",
+      "lgd": "Belfast",
+      "population": 4817,
+      "male": 2327,
+      "female": 2490,
+      "age_0_15_pct": 17.3,
+      "age_16_64_pct": 64.6,
+      "age_65_plus_pct": 18.1,
+      "catholic_pct": 77.4,
+      "protestant_other_christian_pct": 9.9,
+      "other_religion_pct": 1.4,
+      "no_religion_pct": 10,
+      "born_ni_pct": 92.1,
+      "born_other_uk_pct": 2.1,
+      "born_roi_pct": 1.2,
+      "born_elsewhere_pct": 4.5,
+      "owner_occupied_pct": 75.7,
+      "social_rented_pct": 13.8,
+      "private_rented_pct": 10.4,
+      "no_qualifications_pct": 24,
+      "level_1_2_pct": 26.3,
+      "level_3_pct": 15.5,
+      "level_4_plus_pct": 32.1,
+      "very_good_good_health_pct": 75.7,
+      "fair_health_pct": 13.5,
+      "bad_very_bad_health_pct": 10.8,
+      "no_cars_pct": 19.9,
+      "one_car_pct": 45.6,
+      "two_plus_cars_pct": 34.5,
+      "work_from_home_pct": 19.3,
+      "drive_to_work_pct": 62.6,
+      "public_transport_pct": 12.4,
+      "walk_cycle_pct": 4.8,
+      "urban_rural": "Urban",
+      "deprivation_rank": 273,
+      "income_rank": 397,
+      "employment_rank": 174,
+      "health_rank": 97,
+      "education_rank": 208,
+      "access_rank": 425,
+      "living_env_rank": 390,
+      "crime_rank": 173,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9978,
+              54.5691
+            ],
+            [
+              -5.9945,
+              54.5676
+            ],
+            [
+              -5.9921,
+              54.569
+            ],
+            [
+              -5.9909,
+              54.5677
+            ],
+            [
+              -5.9953,
+              54.5579
+            ],
+            [
+              -6.0034,
+              54.5639
+            ],
+            [
+              -6.0082,
+              54.5606
+            ],
+            [
+              -6.0155,
+              54.5603
+            ],
+            [
+              -6.0192,
+              54.5637
+            ],
+            [
+              -6.0091,
+              54.5684
+            ],
+            [
+              -6.0071,
+              54.5663
+            ],
+            [
+              -5.9978,
+              54.5691
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "lagmore",
+      "name": "LAGMORE",
+      "lgd": "Belfast",
+      "population": 8344,
+      "male": 3979,
+      "female": 4365,
+      "age_0_15_pct": 28.5,
+      "age_16_64_pct": 67.4,
+      "age_65_plus_pct": 4.1,
+      "catholic_pct": 88.6,
+      "protestant_other_christian_pct": 2.9,
+      "other_religion_pct": 0.6,
+      "no_religion_pct": 6.3,
+      "born_ni_pct": 93.9,
+      "born_other_uk_pct": 2,
+      "born_roi_pct": 1.5,
+      "born_elsewhere_pct": 2.5,
+      "owner_occupied_pct": 61.4,
+      "social_rented_pct": 30.8,
+      "private_rented_pct": 7.8,
+      "no_qualifications_pct": 20.5,
+      "level_1_2_pct": 31.3,
+      "level_3_pct": 20.3,
+      "level_4_plus_pct": 26.9,
+      "very_good_good_health_pct": 80.6,
+      "fair_health_pct": 10.8,
+      "bad_very_bad_health_pct": 8.6,
+      "no_cars_pct": 18.7,
+      "one_car_pct": 45.5,
+      "two_plus_cars_pct": 35.9,
+      "work_from_home_pct": 16.1,
+      "drive_to_work_pct": 68.5,
+      "public_transport_pct": 11.6,
+      "walk_cycle_pct": 3.2,
+      "urban_rural": "Urban",
+      "deprivation_rank": 103,
+      "income_rank": 248,
+      "employment_rank": 91,
+      "health_rank": 39,
+      "education_rank": 69,
+      "access_rank": 242,
+      "living_env_rank": 180,
+      "crime_rank": 130,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0492,
+              54.5613
+            ],
+            [
+              -6.0414,
+              54.5574
+            ],
+            [
+              -6.0377,
+              54.56
+            ],
+            [
+              -6.0317,
+              54.5588
+            ],
+            [
+              -6.0289,
+              54.5561
+            ],
+            [
+              -6.0247,
+              54.5579
+            ],
+            [
+              -6.0269,
+              54.5548
+            ],
+            [
+              -6.0284,
+              54.5472
+            ],
+            [
+              -6.0373,
+              54.5484
+            ],
+            [
+              -6.0412,
+              54.5468
+            ],
+            [
+              -6.0475,
+              54.5512
+            ],
+            [
+              -6.0599,
+              54.5553
+            ],
+            [
+              -6.0592,
+              54.5578
+            ],
+            [
+              -6.0539,
+              54.561
+            ],
+            [
+              -6.0492,
+              54.5613
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "legoniel",
+      "name": "LEGONIEL",
+      "lgd": "Belfast",
+      "population": 6135,
+      "male": 2925,
+      "female": 3210,
+      "age_0_15_pct": 23.7,
+      "age_16_64_pct": 65,
+      "age_65_plus_pct": 11.2,
+      "catholic_pct": 49.9,
+      "protestant_other_christian_pct": 29.9,
+      "other_religion_pct": 1.8,
+      "no_religion_pct": 16.9,
+      "born_ni_pct": 85.4,
+      "born_other_uk_pct": 3.6,
+      "born_roi_pct": 0.9,
+      "born_elsewhere_pct": 10.1,
+      "owner_occupied_pct": 53,
+      "social_rented_pct": 28.9,
+      "private_rented_pct": 18.1,
+      "no_qualifications_pct": 29.3,
+      "level_1_2_pct": 28.5,
+      "level_3_pct": 16.9,
+      "level_4_plus_pct": 23.1,
+      "very_good_good_health_pct": 74.3,
+      "fair_health_pct": 14.9,
+      "bad_very_bad_health_pct": 10.9,
+      "no_cars_pct": 31.3,
+      "one_car_pct": 47.1,
+      "two_plus_cars_pct": 21.6,
+      "work_from_home_pct": 15.9,
+      "drive_to_work_pct": 64.9,
+      "public_transport_pct": 11.1,
+      "walk_cycle_pct": 6.9,
+      "urban_rural": "Urban",
+      "deprivation_rank": 44,
+      "income_rank": 93,
+      "employment_rank": 55,
+      "health_rank": 40,
+      "education_rank": 39,
+      "access_rank": 262,
+      "living_env_rank": 162,
+      "crime_rank": 42,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.986,
+              54.659
+            ],
+            [
+              -5.9839,
+              54.6567
+            ],
+            [
+              -5.984,
+              54.6542
+            ],
+            [
+              -5.9797,
+              54.652
+            ],
+            [
+              -5.9789,
+              54.6499
+            ],
+            [
+              -5.9734,
+              54.648
+            ],
+            [
+              -5.9652,
+              54.6417
+            ],
+            [
+              -5.9645,
+              54.6378
+            ],
+            [
+              -5.975,
+              54.6287
+            ],
+            [
+              -5.9752,
+              54.6247
+            ],
+            [
+              -5.9687,
+              54.6213
+            ],
+            [
+              -5.9658,
+              54.6144
+            ],
+            [
+              -5.9764,
+              54.6212
+            ],
+            [
+              -5.9802,
+              54.6204
+            ],
+            [
+              -5.9835,
+              54.6224
+            ],
+            [
+              -6.0218,
+              54.6255
+            ],
+            [
+              -6.0235,
+              54.6287
+            ],
+            [
+              -6.0147,
+              54.6363
+            ],
+            [
+              -5.9983,
+              54.646
+            ],
+            [
+              -5.9989,
+              54.6472
+            ],
+            [
+              -5.9922,
+              54.6512
+            ],
+            [
+              -5.9911,
+              54.6539
+            ],
+            [
+              -5.9865,
+              54.6561
+            ],
+            [
+              -5.986,
+              54.659
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "malone",
+      "name": "MALONE",
+      "lgd": "Belfast",
+      "population": 4811,
+      "male": 2361,
+      "female": 2450,
+      "age_0_15_pct": 16.2,
+      "age_16_64_pct": 62.5,
+      "age_65_plus_pct": 21.3,
+      "catholic_pct": 58.1,
+      "protestant_other_christian_pct": 19.5,
+      "other_religion_pct": 2.5,
+      "no_religion_pct": 19,
+      "born_ni_pct": 82.9,
+      "born_other_uk_pct": 6.3,
+      "born_roi_pct": 4.3,
+      "born_elsewhere_pct": 6.5,
+      "owner_occupied_pct": 78.6,
+      "social_rented_pct": 1,
+      "private_rented_pct": 20.4,
+      "no_qualifications_pct": 6.2,
+      "level_1_2_pct": 11,
+      "level_3_pct": 8.8,
+      "level_4_plus_pct": 72.8,
+      "very_good_good_health_pct": 89.2,
+      "fair_health_pct": 8.2,
+      "bad_very_bad_health_pct": 2.7,
+      "no_cars_pct": 10.7,
+      "one_car_pct": 38.1,
+      "two_plus_cars_pct": 51.3,
+      "work_from_home_pct": 31.4,
+      "drive_to_work_pct": 54,
+      "public_transport_pct": 5.9,
+      "walk_cycle_pct": 7.9,
+      "urban_rural": "Urban",
+      "deprivation_rank": 409,
+      "income_rank": 446,
+      "employment_rank": 457,
+      "health_rank": 459,
+      "education_rank": 462,
+      "access_rank": 419,
+      "living_env_rank": 5,
+      "crime_rank": 203,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9474,
+              54.5708
+            ],
+            [
+              -5.9528,
+              54.5612
+            ],
+            [
+              -5.957,
+              54.5583
+            ],
+            [
+              -5.9636,
+              54.557
+            ],
+            [
+              -5.9668,
+              54.5593
+            ],
+            [
+              -5.9661,
+              54.5602
+            ],
+            [
+              -5.974,
+              54.5599
+            ],
+            [
+              -5.974,
+              54.5622
+            ],
+            [
+              -5.9772,
+              54.5642
+            ],
+            [
+              -5.9719,
+              54.5659
+            ],
+            [
+              -5.9717,
+              54.5674
+            ],
+            [
+              -5.9641,
+              54.5705
+            ],
+            [
+              -5.957,
+              54.5758
+            ],
+            [
+              -5.9474,
+              54.5708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "merok",
+      "name": "MEROK",
+      "lgd": "Belfast",
+      "population": 4438,
+      "male": 2127,
+      "female": 2311,
+      "age_0_15_pct": 19.6,
+      "age_16_64_pct": 64.2,
+      "age_65_plus_pct": 16.2,
+      "catholic_pct": 8.9,
+      "protestant_other_christian_pct": 56.1,
+      "other_religion_pct": 2.3,
+      "no_religion_pct": 30.9,
+      "born_ni_pct": 88.3,
+      "born_other_uk_pct": 4.1,
+      "born_roi_pct": 1,
+      "born_elsewhere_pct": 6.7,
+      "owner_occupied_pct": 73.9,
+      "social_rented_pct": 14.3,
+      "private_rented_pct": 11.7,
+      "no_qualifications_pct": 22.4,
+      "level_1_2_pct": 29.4,
+      "level_3_pct": 15.7,
+      "level_4_plus_pct": 30.1,
+      "very_good_good_health_pct": 78.5,
+      "fair_health_pct": 14.2,
+      "bad_very_bad_health_pct": 7.3,
+      "no_cars_pct": 19.4,
+      "one_car_pct": 45.7,
+      "two_plus_cars_pct": 34.9,
+      "work_from_home_pct": 21.4,
+      "drive_to_work_pct": 62.8,
+      "public_transport_pct": 6.4,
+      "walk_cycle_pct": 8.3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 363,
+      "income_rank": 444,
+      "employment_rank": 309,
+      "health_rank": 231,
+      "education_rank": 178,
+      "access_rank": 436,
+      "living_env_rank": 250,
+      "crime_rank": 364,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8677,
+              54.5812
+            ],
+            [
+              -5.8882,
+              54.5707
+            ],
+            [
+              -5.8933,
+              54.5695
+            ],
+            [
+              -5.897,
+              54.579
+            ],
+            [
+              -5.8931,
+              54.582
+            ],
+            [
+              -5.8862,
+              54.5807
+            ],
+            [
+              -5.883,
+              54.5822
+            ],
+            [
+              -5.879,
+              54.5806
+            ],
+            [
+              -5.8709,
+              54.5833
+            ],
+            [
+              -5.8677,
+              54.5812
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "musgrave",
+      "name": "MUSGRAVE",
+      "lgd": "Belfast",
+      "population": 4836,
+      "male": 2336,
+      "female": 2500,
+      "age_0_15_pct": 15.1,
+      "age_16_64_pct": 65.2,
+      "age_65_plus_pct": 19.7,
+      "catholic_pct": 53.3,
+      "protestant_other_christian_pct": 22.9,
+      "other_religion_pct": 3.8,
+      "no_religion_pct": 18.2,
+      "born_ni_pct": 84.4,
+      "born_other_uk_pct": 3.5,
+      "born_roi_pct": 2.4,
+      "born_elsewhere_pct": 9.6,
+      "owner_occupied_pct": 74.1,
+      "social_rented_pct": 10.1,
+      "private_rented_pct": 15.8,
+      "no_qualifications_pct": 17.2,
+      "level_1_2_pct": 20.5,
+      "level_3_pct": 13.4,
+      "level_4_plus_pct": 46.8,
+      "very_good_good_health_pct": 80,
+      "fair_health_pct": 13.2,
+      "bad_very_bad_health_pct": 6.8,
+      "no_cars_pct": 18.3,
+      "one_car_pct": 49.5,
+      "two_plus_cars_pct": 32.2,
+      "work_from_home_pct": 24.6,
+      "drive_to_work_pct": 56.1,
+      "public_transport_pct": 11.2,
+      "walk_cycle_pct": 7.6,
+      "urban_rural": "Urban",
+      "deprivation_rank": 374,
+      "income_rank": 393,
+      "employment_rank": 306,
+      "health_rank": 262,
+      "education_rank": 366,
+      "access_rank": 441,
+      "living_env_rank": 168,
+      "crime_rank": 194,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9757,
+              54.5736
+            ],
+            [
+              -5.9662,
+              54.5696
+            ],
+            [
+              -5.9772,
+              54.5642
+            ],
+            [
+              -5.9738,
+              54.5609
+            ],
+            [
+              -5.9767,
+              54.5597
+            ],
+            [
+              -5.9752,
+              54.5581
+            ],
+            [
+              -5.9766,
+              54.5563
+            ],
+            [
+              -5.9806,
+              54.5563
+            ],
+            [
+              -5.9871,
+              54.5636
+            ],
+            [
+              -5.9948,
+              54.5595
+            ],
+            [
+              -5.99,
+              54.5684
+            ],
+            [
+              -5.9757,
+              54.5736
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "new-lodge",
+      "name": "NEW LODGE",
+      "lgd": "Belfast",
+      "population": 4881,
+      "male": 2442,
+      "female": 2439,
+      "age_0_15_pct": 18.7,
+      "age_16_64_pct": 65.1,
+      "age_65_plus_pct": 16.2,
+      "catholic_pct": 80,
+      "protestant_other_christian_pct": 5.7,
+      "other_religion_pct": 3,
+      "no_religion_pct": 9.2,
+      "born_ni_pct": 89.2,
+      "born_other_uk_pct": 2.2,
+      "born_roi_pct": 1.5,
+      "born_elsewhere_pct": 7.2,
+      "owner_occupied_pct": 22.5,
+      "social_rented_pct": 63.1,
+      "private_rented_pct": 14.4,
+      "no_qualifications_pct": 45.5,
+      "level_1_2_pct": 23.9,
+      "level_3_pct": 11.2,
+      "level_4_plus_pct": 17.3,
+      "very_good_good_health_pct": 60.7,
+      "fair_health_pct": 18.8,
+      "bad_very_bad_health_pct": 20.5,
+      "no_cars_pct": 63,
+      "one_car_pct": 30.6,
+      "two_plus_cars_pct": 6.4,
+      "work_from_home_pct": 11.9,
+      "drive_to_work_pct": 42.3,
+      "public_transport_pct": 11.8,
+      "walk_cycle_pct": 33.1,
+      "urban_rural": "Urban",
+      "deprivation_rank": 6,
+      "income_rank": 79,
+      "employment_rank": 2,
+      "health_rank": 4,
+      "education_rank": 3,
+      "access_rank": 420,
+      "living_env_rank": 38,
+      "crime_rank": 8,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9316,
+              54.6021
+            ],
+            [
+              -5.9382,
+              54.6033
+            ],
+            [
+              -5.9351,
+              54.6067
+            ],
+            [
+              -5.9368,
+              54.6075
+            ],
+            [
+              -5.9359,
+              54.6127
+            ],
+            [
+              -5.9372,
+              54.6153
+            ],
+            [
+              -5.9236,
+              54.6098
+            ],
+            [
+              -5.9316,
+              54.6021
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "orangefield",
+      "name": "ORANGEFIELD",
+      "lgd": "Belfast",
+      "population": 4756,
+      "male": 2347,
+      "female": 2409,
+      "age_0_15_pct": 16.8,
+      "age_16_64_pct": 66.7,
+      "age_65_plus_pct": 16.5,
+      "catholic_pct": 9.1,
+      "protestant_other_christian_pct": 53.2,
+      "other_religion_pct": 1.9,
+      "no_religion_pct": 34.4,
+      "born_ni_pct": 87.1,
+      "born_other_uk_pct": 4.7,
+      "born_roi_pct": 1.5,
+      "born_elsewhere_pct": 6.7,
+      "owner_occupied_pct": 77.9,
+      "social_rented_pct": 6.1,
+      "private_rented_pct": 16,
+      "no_qualifications_pct": 17.5,
+      "level_1_2_pct": 23.3,
+      "level_3_pct": 15.9,
+      "level_4_plus_pct": 41.8,
+      "very_good_good_health_pct": 81.3,
+      "fair_health_pct": 12.6,
+      "bad_very_bad_health_pct": 6.1,
+      "no_cars_pct": 15.6,
+      "one_car_pct": 49.7,
+      "two_plus_cars_pct": 34.7,
+      "work_from_home_pct": 27.5,
+      "drive_to_work_pct": 54.6,
+      "public_transport_pct": 5.9,
+      "walk_cycle_pct": 11.3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 405,
+      "income_rank": 400,
+      "employment_rank": 389,
+      "health_rank": 309,
+      "education_rank": 309,
+      "access_rank": 442,
+      "living_env_rank": 233,
+      "crime_rank": 195,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8792,
+              54.5889
+            ],
+            [
+              -5.8715,
+              54.5888
+            ],
+            [
+              -5.8698,
+              54.5844
+            ],
+            [
+              -5.879,
+              54.5806
+            ],
+            [
+              -5.883,
+              54.5822
+            ],
+            [
+              -5.8875,
+              54.5807
+            ],
+            [
+              -5.8973,
+              54.583
+            ],
+            [
+              -5.9,
+              54.5868
+            ],
+            [
+              -5.8959,
+              54.5885
+            ],
+            [
+              -5.8892,
+              54.5849
+            ],
+            [
+              -5.8807,
+              54.591
+            ],
+            [
+              -5.8792,
+              54.5889
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ormeau",
+      "name": "ORMEAU",
+      "lgd": "Belfast",
+      "population": 6532,
+      "male": 3252,
+      "female": 3280,
+      "age_0_15_pct": 14.5,
+      "age_16_64_pct": 74.5,
+      "age_65_plus_pct": 10.9,
+      "catholic_pct": 41.1,
+      "protestant_other_christian_pct": 15.2,
+      "other_religion_pct": 5,
+      "no_religion_pct": 36.7,
+      "born_ni_pct": 72.1,
+      "born_other_uk_pct": 8.2,
+      "born_roi_pct": 4.1,
+      "born_elsewhere_pct": 15.7,
+      "owner_occupied_pct": 46.1,
+      "social_rented_pct": 18.6,
+      "private_rented_pct": 35.3,
+      "no_qualifications_pct": 15.4,
+      "level_1_2_pct": 14.6,
+      "level_3_pct": 11.7,
+      "level_4_plus_pct": 56.5,
+      "very_good_good_health_pct": 81.4,
+      "fair_health_pct": 12.4,
+      "bad_very_bad_health_pct": 6.2,
+      "no_cars_pct": 32.7,
+      "one_car_pct": 49.3,
+      "two_plus_cars_pct": 17.9,
+      "work_from_home_pct": 30.5,
+      "drive_to_work_pct": 37.7,
+      "public_transport_pct": 8,
+      "walk_cycle_pct": 23,
+      "urban_rural": "Urban",
+      "deprivation_rank": 283,
+      "income_rank": 322,
+      "employment_rank": 302,
+      "health_rank": 241,
+      "education_rank": 187,
+      "access_rank": 461,
+      "living_env_rank": 24,
+      "crime_rank": 58,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9181,
+              54.5917
+            ],
+            [
+              -5.9104,
+              54.5904
+            ],
+            [
+              -5.9141,
+              54.5719
+            ],
+            [
+              -5.9162,
+              54.5743
+            ],
+            [
+              -5.9309,
+              54.575
+            ],
+            [
+              -5.9279,
+              54.5778
+            ],
+            [
+              -5.9273,
+              54.5807
+            ],
+            [
+              -5.9194,
+              54.5843
+            ],
+            [
+              -5.9201,
+              54.5902
+            ],
+            [
+              -5.9181,
+              54.5917
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "poleglass",
+      "name": "POLEGLASS",
+      "lgd": "Belfast",
+      "population": 6103,
+      "male": 2821,
+      "female": 3282,
+      "age_0_15_pct": 27.7,
+      "age_16_64_pct": 62.2,
+      "age_65_plus_pct": 10.2,
+      "catholic_pct": 89.3,
+      "protestant_other_christian_pct": 2.6,
+      "other_religion_pct": 1.2,
+      "no_religion_pct": 5,
+      "born_ni_pct": 94.8,
+      "born_other_uk_pct": 2,
+      "born_roi_pct": 1.1,
+      "born_elsewhere_pct": 2.1,
+      "owner_occupied_pct": 38.5,
+      "social_rented_pct": 53,
+      "private_rented_pct": 8.5,
+      "no_qualifications_pct": 33.9,
+      "level_1_2_pct": 31.9,
+      "level_3_pct": 16.8,
+      "level_4_plus_pct": 15.8,
+      "very_good_good_health_pct": 70.6,
+      "fair_health_pct": 15.3,
+      "bad_very_bad_health_pct": 14.1,
+      "no_cars_pct": 36.1,
+      "one_car_pct": 44.8,
+      "two_plus_cars_pct": 19.1,
+      "work_from_home_pct": 13.5,
+      "drive_to_work_pct": 60.5,
+      "public_transport_pct": 17.6,
+      "walk_cycle_pct": 7.6,
+      "urban_rural": "Urban",
+      "deprivation_rank": 15,
+      "income_rank": 91,
+      "employment_rank": 14,
+      "health_rank": 10,
+      "education_rank": 13,
+      "access_rank": 342,
+      "living_env_rank": 28,
+      "crime_rank": 26,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0429,
+              54.5845
+            ],
+            [
+              -6.0376,
+              54.5815
+            ],
+            [
+              -6.0313,
+              54.5742
+            ],
+            [
+              -6.0247,
+              54.5724
+            ],
+            [
+              -6.0273,
+              54.5702
+            ],
+            [
+              -6.0227,
+              54.57
+            ],
+            [
+              -6.0223,
+              54.5682
+            ],
+            [
+              -6.0192,
+              54.5682
+            ],
+            [
+              -6.0157,
+              54.5654
+            ],
+            [
+              -6.0278,
+              54.5562
+            ],
+            [
+              -6.0351,
+              54.56
+            ],
+            [
+              -6.04,
+              54.5592
+            ],
+            [
+              -6.0414,
+              54.5574
+            ],
+            [
+              -6.0467,
+              54.5594
+            ],
+            [
+              -6.0492,
+              54.5613
+            ],
+            [
+              -6.041,
+              54.5641
+            ],
+            [
+              -6.0427,
+              54.5672
+            ],
+            [
+              -6.0449,
+              54.5676
+            ],
+            [
+              -6.0442,
+              54.5697
+            ],
+            [
+              -6.0412,
+              54.5709
+            ],
+            [
+              -6.0442,
+              54.5817
+            ],
+            [
+              -6.0429,
+              54.5845
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ravenhill",
+      "name": "RAVENHILL",
+      "lgd": "Belfast",
+      "population": 4823,
+      "male": 2357,
+      "female": 2465,
+      "age_0_15_pct": 16.2,
+      "age_16_64_pct": 67.1,
+      "age_65_plus_pct": 16.7,
+      "catholic_pct": 32,
+      "protestant_other_christian_pct": 30,
+      "other_religion_pct": 1.8,
+      "no_religion_pct": 34.5,
+      "born_ni_pct": 80.8,
+      "born_other_uk_pct": 6.1,
+      "born_roi_pct": 3.4,
+      "born_elsewhere_pct": 9.6,
+      "owner_occupied_pct": 66.3,
+      "social_rented_pct": 7.6,
+      "private_rented_pct": 26.2,
+      "no_qualifications_pct": 13.5,
+      "level_1_2_pct": 17.1,
+      "level_3_pct": 11.5,
+      "level_4_plus_pct": 56,
+      "very_good_good_health_pct": 81.6,
+      "fair_health_pct": 11.9,
+      "bad_very_bad_health_pct": 6.6,
+      "no_cars_pct": 21.1,
+      "one_car_pct": 48.1,
+      "two_plus_cars_pct": 30.8,
+      "work_from_home_pct": 32.8,
+      "drive_to_work_pct": 46.8,
+      "public_transport_pct": 6,
+      "walk_cycle_pct": 13.6,
+      "urban_rural": "Urban",
+      "deprivation_rank": 416,
+      "income_rank": 441,
+      "employment_rank": 428,
+      "health_rank": 357,
+      "education_rank": 375,
+      "access_rank": 406,
+      "living_env_rank": 114,
+      "crime_rank": 145,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.911,
+              54.587
+            ],
+            [
+              -5.9058,
+              54.5853
+            ],
+            [
+              -5.8997,
+              54.5861
+            ],
+            [
+              -5.8973,
+              54.583
+            ],
+            [
+              -5.8932,
+              54.582
+            ],
+            [
+              -5.8963,
+              54.5792
+            ],
+            [
+              -5.902,
+              54.5788
+            ],
+            [
+              -5.9048,
+              54.5749
+            ],
+            [
+              -5.9132,
+              54.5765
+            ],
+            [
+              -5.911,
+              54.587
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "rosetta",
+      "name": "ROSETTA",
+      "lgd": "Belfast",
+      "population": 5793,
+      "male": 2787,
+      "female": 3006,
+      "age_0_15_pct": 16.1,
+      "age_16_64_pct": 68,
+      "age_65_plus_pct": 16,
+      "catholic_pct": 47.6,
+      "protestant_other_christian_pct": 16.7,
+      "other_religion_pct": 4.2,
+      "no_religion_pct": 29.5,
+      "born_ni_pct": 77.8,
+      "born_other_uk_pct": 6.8,
+      "born_roi_pct": 3.8,
+      "born_elsewhere_pct": 11.6,
+      "owner_occupied_pct": 65,
+      "social_rented_pct": 12,
+      "private_rented_pct": 23,
+      "no_qualifications_pct": 12.7,
+      "level_1_2_pct": 15.3,
+      "level_3_pct": 10.2,
+      "level_4_plus_pct": 59.6,
+      "very_good_good_health_pct": 82.5,
+      "fair_health_pct": 11.7,
+      "bad_very_bad_health_pct": 5.8,
+      "no_cars_pct": 18,
+      "one_car_pct": 48.3,
+      "two_plus_cars_pct": 33.7,
+      "work_from_home_pct": 33.2,
+      "drive_to_work_pct": 47.7,
+      "public_transport_pct": 6,
+      "walk_cycle_pct": 12.1,
+      "urban_rural": "Urban",
+      "deprivation_rank": 436,
+      "income_rank": 409,
+      "employment_rank": 377,
+      "health_rank": 353,
+      "education_rank": 445,
+      "access_rank": 451,
+      "living_env_rank": 305,
+      "crime_rank": 240,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9132,
+              54.5765
+            ],
+            [
+              -5.9036,
+              54.5742
+            ],
+            [
+              -5.9077,
+              54.5693
+            ],
+            [
+              -5.905,
+              54.5657
+            ],
+            [
+              -5.9128,
+              54.5659
+            ],
+            [
+              -5.9137,
+              54.5681
+            ],
+            [
+              -5.9242,
+              54.5686
+            ],
+            [
+              -5.9309,
+              54.575
+            ],
+            [
+              -5.9162,
+              54.5743
+            ],
+            [
+              -5.9141,
+              54.5719
+            ],
+            [
+              -5.9132,
+              54.5765
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "sandown",
+      "name": "SANDOWN",
+      "lgd": "Belfast",
+      "population": 4470,
+      "male": 2175,
+      "female": 2295,
+      "age_0_15_pct": 18.1,
+      "age_16_64_pct": 63.2,
+      "age_65_plus_pct": 18.7,
+      "catholic_pct": 8.9,
+      "protestant_other_christian_pct": 57,
+      "other_religion_pct": 2.1,
+      "no_religion_pct": 30.6,
+      "born_ni_pct": 88.6,
+      "born_other_uk_pct": 4.9,
+      "born_roi_pct": 0.9,
+      "born_elsewhere_pct": 5.6,
+      "owner_occupied_pct": 76.8,
+      "social_rented_pct": 12.9,
+      "private_rented_pct": 10.2,
+      "no_qualifications_pct": 18.5,
+      "level_1_2_pct": 26.8,
+      "level_3_pct": 13.5,
+      "level_4_plus_pct": 39,
+      "very_good_good_health_pct": 80.5,
+      "fair_health_pct": 13.1,
+      "bad_very_bad_health_pct": 6.4,
+      "no_cars_pct": 16.5,
+      "one_car_pct": 47.6,
+      "two_plus_cars_pct": 35.9,
+      "work_from_home_pct": 25.7,
+      "drive_to_work_pct": 58.6,
+      "public_transport_pct": 5.8,
+      "walk_cycle_pct": 8.7,
+      "urban_rural": "Urban",
+      "deprivation_rank": 384,
+      "income_rank": 414,
+      "employment_rank": 301,
+      "health_rank": 280,
+      "education_rank": 317,
+      "access_rank": 372,
+      "living_env_rank": 302,
+      "crime_rank": 295,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.876,
+              54.594
+            ],
+            [
+              -5.869,
+              54.591
+            ],
+            [
+              -5.8559,
+              54.5905
+            ],
+            [
+              -5.8559,
+              54.589
+            ],
+            [
+              -5.8677,
+              54.5812
+            ],
+            [
+              -5.8714,
+              54.5836
+            ],
+            [
+              -5.8697,
+              54.5849
+            ],
+            [
+              -5.8713,
+              54.5856
+            ],
+            [
+              -5.8715,
+              54.5888
+            ],
+            [
+              -5.8792,
+              54.5888
+            ],
+            [
+              -5.8807,
+              54.591
+            ],
+            [
+              -5.876,
+              54.594
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "shandon",
+      "name": "SHANDON",
+      "lgd": "Belfast",
+      "population": 5377,
+      "male": 2533,
+      "female": 2844,
+      "age_0_15_pct": 17.1,
+      "age_16_64_pct": 61.7,
+      "age_65_plus_pct": 21.2,
+      "catholic_pct": 9.6,
+      "protestant_other_christian_pct": 59.1,
+      "other_religion_pct": 1.2,
+      "no_religion_pct": 28.3,
+      "born_ni_pct": 89.5,
+      "born_other_uk_pct": 4.3,
+      "born_roi_pct": 1.3,
+      "born_elsewhere_pct": 4.9,
+      "owner_occupied_pct": 71.8,
+      "social_rented_pct": 17.3,
+      "private_rented_pct": 10.9,
+      "no_qualifications_pct": 17.9,
+      "level_1_2_pct": 24.2,
+      "level_3_pct": 14.4,
+      "level_4_plus_pct": 41.2,
+      "very_good_good_health_pct": 78.9,
+      "fair_health_pct": 13.8,
+      "bad_very_bad_health_pct": 7.4,
+      "no_cars_pct": 17,
+      "one_car_pct": 45.4,
+      "two_plus_cars_pct": 37.6,
+      "work_from_home_pct": 25.4,
+      "drive_to_work_pct": 62.1,
+      "public_transport_pct": 6.5,
+      "walk_cycle_pct": 5.2,
+      "urban_rural": "Urban",
+      "deprivation_rank": 389,
+      "income_rank": 407,
+      "employment_rank": 317,
+      "health_rank": 278,
+      "education_rank": 371,
+      "access_rank": 343,
+      "living_env_rank": 255,
+      "crime_rank": 272,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8431,
+              54.591
+            ],
+            [
+              -5.8451,
+              54.589
+            ],
+            [
+              -5.8436,
+              54.5872
+            ],
+            [
+              -5.8466,
+              54.5869
+            ],
+            [
+              -5.8496,
+              54.5834
+            ],
+            [
+              -5.8417,
+              54.5815
+            ],
+            [
+              -5.8414,
+              54.5778
+            ],
+            [
+              -5.8485,
+              54.574
+            ],
+            [
+              -5.8543,
+              54.573
+            ],
+            [
+              -5.8569,
+              54.5683
+            ],
+            [
+              -5.8664,
+              54.5676
+            ],
+            [
+              -5.864,
+              54.5744
+            ],
+            [
+              -5.8652,
+              54.5749
+            ],
+            [
+              -5.8633,
+              54.5767
+            ],
+            [
+              -5.8657,
+              54.5778
+            ],
+            [
+              -5.8671,
+              54.5813
+            ],
+            [
+              -5.8568,
+              54.588
+            ],
+            [
+              -5.8559,
+              54.5905
+            ],
+            [
+              -5.8431,
+              54.591
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "shankill",
+      "name": "SHANKILL",
+      "lgd": "Belfast",
+      "population": 6445,
+      "male": 3029,
+      "female": 3416,
+      "age_0_15_pct": 21.5,
+      "age_16_64_pct": 61.4,
+      "age_65_plus_pct": 17.1,
+      "catholic_pct": 4.8,
+      "protestant_other_christian_pct": 73.3,
+      "other_religion_pct": 1.2,
+      "no_religion_pct": 18.7,
+      "born_ni_pct": 90.9,
+      "born_other_uk_pct": 4.2,
+      "born_roi_pct": 0.2,
+      "born_elsewhere_pct": 4.7,
+      "owner_occupied_pct": 22.8,
+      "social_rented_pct": 62.8,
+      "private_rented_pct": 14.5,
+      "no_qualifications_pct": 45.5,
+      "level_1_2_pct": 26.8,
+      "level_3_pct": 12,
+      "level_4_plus_pct": 13.4,
+      "very_good_good_health_pct": 61.8,
+      "fair_health_pct": 19.4,
+      "bad_very_bad_health_pct": 18.8,
+      "no_cars_pct": 55.3,
+      "one_car_pct": 36.3,
+      "two_plus_cars_pct": 8.4,
+      "work_from_home_pct": 12.5,
+      "drive_to_work_pct": 52.9,
+      "public_transport_pct": 12.7,
+      "walk_cycle_pct": 20.9,
+      "urban_rural": "Urban",
+      "deprivation_rank": 9,
+      "income_rank": 26,
+      "employment_rank": 12,
+      "health_rank": 9,
+      "education_rank": 2,
+      "access_rank": 402,
+      "living_env_rank": 124,
+      "crime_rank": 19,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9378,
+              54.6042
+            ],
+            [
+              -5.935,
+              54.603
+            ],
+            [
+              -5.9356,
+              54.6013
+            ],
+            [
+              -5.9581,
+              54.6014
+            ],
+            [
+              -5.9553,
+              54.6044
+            ],
+            [
+              -5.9536,
+              54.6109
+            ],
+            [
+              -5.9351,
+              54.6067
+            ],
+            [
+              -5.9378,
+              54.6042
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "shaws-road",
+      "name": "SHAW'S ROAD",
+      "lgd": "Belfast",
+      "population": 5480,
+      "male": 2633,
+      "female": 2847,
+      "age_0_15_pct": 20,
+      "age_16_64_pct": 64.8,
+      "age_65_plus_pct": 15.2,
+      "catholic_pct": 87.9,
+      "protestant_other_christian_pct": 2,
+      "other_religion_pct": 1.4,
+      "no_religion_pct": 6.9,
+      "born_ni_pct": 93.2,
+      "born_other_uk_pct": 1.9,
+      "born_roi_pct": 1.7,
+      "born_elsewhere_pct": 3.2,
+      "owner_occupied_pct": 52.9,
+      "social_rented_pct": 33.5,
+      "private_rented_pct": 13.6,
+      "no_qualifications_pct": 29.1,
+      "level_1_2_pct": 29.4,
+      "level_3_pct": 16.8,
+      "level_4_plus_pct": 22.8,
+      "very_good_good_health_pct": 70,
+      "fair_health_pct": 16.6,
+      "bad_very_bad_health_pct": 13.4,
+      "no_cars_pct": 36.6,
+      "one_car_pct": 43.5,
+      "two_plus_cars_pct": 19.8,
+      "work_from_home_pct": 15.5,
+      "drive_to_work_pct": 57.6,
+      "public_transport_pct": 15.8,
+      "walk_cycle_pct": 10.3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 59,
+      "income_rank": 186,
+      "employment_rank": 28,
+      "health_rank": 25,
+      "education_rank": 71,
+      "access_rank": 444,
+      "living_env_rank": 117,
+      "crime_rank": 90,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9885,
+              54.5816
+            ],
+            [
+              -5.9919,
+              54.5809
+            ],
+            [
+              -5.9931,
+              54.5755
+            ],
+            [
+              -5.9967,
+              54.5763
+            ],
+            [
+              -5.9989,
+              54.5734
+            ],
+            [
+              -6.0036,
+              54.5749
+            ],
+            [
+              -6.0079,
+              54.5727
+            ],
+            [
+              -6.0119,
+              54.5748
+            ],
+            [
+              -6.0129,
+              54.5766
+            ],
+            [
+              -6.0117,
+              54.5769
+            ],
+            [
+              -6.0152,
+              54.5813
+            ],
+            [
+              -5.9969,
+              54.5898
+            ],
+            [
+              -5.9885,
+              54.5816
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "stewartstown",
+      "name": "STEWARTSTOWN",
+      "lgd": "Belfast",
+      "population": 4579,
+      "male": 2171,
+      "female": 2408,
+      "age_0_15_pct": 16.9,
+      "age_16_64_pct": 64.2,
+      "age_65_plus_pct": 18.9,
+      "catholic_pct": 88.4,
+      "protestant_other_christian_pct": 2.8,
+      "other_religion_pct": 0.7,
+      "no_religion_pct": 7.1,
+      "born_ni_pct": 94.7,
+      "born_other_uk_pct": 2.1,
+      "born_roi_pct": 1.5,
+      "born_elsewhere_pct": 1.7,
+      "owner_occupied_pct": 63.2,
+      "social_rented_pct": 26.3,
+      "private_rented_pct": 10.5,
+      "no_qualifications_pct": 27.9,
+      "level_1_2_pct": 29.7,
+      "level_3_pct": 15.4,
+      "level_4_plus_pct": 25,
+      "very_good_good_health_pct": 71.4,
+      "fair_health_pct": 16.2,
+      "bad_very_bad_health_pct": 12.5,
+      "no_cars_pct": 30.5,
+      "one_car_pct": 44.8,
+      "two_plus_cars_pct": 24.7,
+      "work_from_home_pct": 17.2,
+      "drive_to_work_pct": 59,
+      "public_transport_pct": 15.7,
+      "walk_cycle_pct": 7.3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 79,
+      "income_rank": 315,
+      "employment_rank": 39,
+      "health_rank": 35,
+      "education_rank": 54,
+      "access_rank": 424,
+      "living_env_rank": 237,
+      "crime_rank": 72,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0157,
+              54.5654
+            ],
+            [
+              -6.0192,
+              54.5682
+            ],
+            [
+              -6.0223,
+              54.5682
+            ],
+            [
+              -6.0227,
+              54.57
+            ],
+            [
+              -6.0278,
+              54.5707
+            ],
+            [
+              -6.0247,
+              54.5724
+            ],
+            [
+              -6.0173,
+              54.5704
+            ],
+            [
+              -6.0119,
+              54.5726
+            ],
+            [
+              -6.0099,
+              54.5711
+            ],
+            [
+              -6.0036,
+              54.5749
+            ],
+            [
+              -5.9963,
+              54.573
+            ],
+            [
+              -5.9991,
+              54.5679
+            ],
+            [
+              -6.0005,
+              54.5688
+            ],
+            [
+              -6.0071,
+              54.5663
+            ],
+            [
+              -6.0091,
+              54.5684
+            ],
+            [
+              -6.0157,
+              54.5654
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "stormont",
+      "name": "STORMONT",
+      "lgd": "Belfast",
+      "population": 5045,
+      "male": 2435,
+      "female": 2610,
+      "age_0_15_pct": 16.7,
+      "age_16_64_pct": 61.8,
+      "age_65_plus_pct": 21.5,
+      "catholic_pct": 10.9,
+      "protestant_other_christian_pct": 54.8,
+      "other_religion_pct": 1.3,
+      "no_religion_pct": 30.9,
+      "born_ni_pct": 84.5,
+      "born_other_uk_pct": 6.1,
+      "born_roi_pct": 1.5,
+      "born_elsewhere_pct": 7.9,
+      "owner_occupied_pct": 73.7,
+      "social_rented_pct": 12.2,
+      "private_rented_pct": 14.1,
+      "no_qualifications_pct": 14.7,
+      "level_1_2_pct": 19.8,
+      "level_3_pct": 12.6,
+      "level_4_plus_pct": 50.7,
+      "very_good_good_health_pct": 81.8,
+      "fair_health_pct": 13,
+      "bad_very_bad_health_pct": 5.1,
+      "no_cars_pct": 15.4,
+      "one_car_pct": 42.8,
+      "two_plus_cars_pct": 41.8,
+      "work_from_home_pct": 28.2,
+      "drive_to_work_pct": 57.5,
+      "public_transport_pct": 8.4,
+      "walk_cycle_pct": 5.3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 448,
+      "income_rank": 430,
+      "employment_rank": 396,
+      "health_rank": 391,
+      "education_rank": 423,
+      "access_rank": 333,
+      "living_env_rank": 292,
+      "crime_rank": 392,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8167,
+              54.5898
+            ],
+            [
+              -5.8559,
+              54.5905
+            ],
+            [
+              -5.8547,
+              54.5943
+            ],
+            [
+              -5.8507,
+              54.5975
+            ],
+            [
+              -5.8555,
+              54.6006
+            ],
+            [
+              -5.8489,
+              54.6052
+            ],
+            [
+              -5.843,
+              54.6039
+            ],
+            [
+              -5.8412,
+              54.6063
+            ],
+            [
+              -5.8367,
+              54.6058
+            ],
+            [
+              -5.8294,
+              54.6111
+            ],
+            [
+              -5.8091,
+              54.6155
+            ],
+            [
+              -5.8077,
+              54.6094
+            ],
+            [
+              -5.8111,
+              54.6072
+            ],
+            [
+              -5.8122,
+              54.6012
+            ],
+            [
+              -5.8159,
+              54.5989
+            ],
+            [
+              -5.813,
+              54.5983
+            ],
+            [
+              -5.8169,
+              54.5963
+            ],
+            [
+              -5.8161,
+              54.5948
+            ],
+            [
+              -5.8196,
+              54.5943
+            ],
+            [
+              -5.8175,
+              54.5929
+            ],
+            [
+              -5.8167,
+              54.5898
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "stranmillis",
+      "name": "STRANMILLIS",
+      "lgd": "Belfast",
+      "population": 8978,
+      "male": 4405,
+      "female": 4573,
+      "age_0_15_pct": 11.6,
+      "age_16_64_pct": 76.3,
+      "age_65_plus_pct": 12.1,
+      "catholic_pct": 39.8,
+      "protestant_other_christian_pct": 22.7,
+      "other_religion_pct": 4.2,
+      "no_religion_pct": 28.9,
+      "born_ni_pct": 70.2,
+      "born_other_uk_pct": 9.2,
+      "born_roi_pct": 5.1,
+      "born_elsewhere_pct": 15.5,
+      "owner_occupied_pct": 64.1,
+      "social_rented_pct": 1.1,
+      "private_rented_pct": 34.8,
+      "no_qualifications_pct": 4.8,
+      "level_1_2_pct": 7.1,
+      "level_3_pct": 36.7,
+      "level_4_plus_pct": 49.5,
+      "very_good_good_health_pct": 90.4,
+      "fair_health_pct": 7.5,
+      "bad_very_bad_health_pct": 2.1,
+      "no_cars_pct": 15.5,
+      "one_car_pct": 42.3,
+      "two_plus_cars_pct": 42.2,
+      "work_from_home_pct": 36.1,
+      "drive_to_work_pct": 43.8,
+      "public_transport_pct": 5.7,
+      "walk_cycle_pct": 13.3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 461,
+      "income_rank": 457,
+      "employment_rank": 462,
+      "health_rank": 462,
+      "education_rank": 450,
+      "access_rank": 360,
+      "living_env_rank": 174,
+      "crime_rank": 320,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9389,
+              54.5801
+            ],
+            [
+              -5.9311,
+              54.5796
+            ],
+            [
+              -5.931,
+              54.5777
+            ],
+            [
+              -5.9285,
+              54.5773
+            ],
+            [
+              -5.9309,
+              54.575
+            ],
+            [
+              -5.9253,
+              54.5693
+            ],
+            [
+              -5.9286,
+              54.5679
+            ],
+            [
+              -5.927,
+              54.5642
+            ],
+            [
+              -5.9346,
+              54.5634
+            ],
+            [
+              -5.9328,
+              54.5602
+            ],
+            [
+              -5.9298,
+              54.5597
+            ],
+            [
+              -5.9302,
+              54.558
+            ],
+            [
+              -5.9367,
+              54.5577
+            ],
+            [
+              -5.9461,
+              54.5631
+            ],
+            [
+              -5.9514,
+              54.5643
+            ],
+            [
+              -5.9471,
+              54.5695
+            ],
+            [
+              -5.9453,
+              54.5752
+            ],
+            [
+              -5.9389,
+              54.5801
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "sydenham",
+      "name": "SYDENHAM",
+      "lgd": "Belfast",
+      "population": 5589,
+      "male": 2708,
+      "female": 2881,
+      "age_0_15_pct": 15.9,
+      "age_16_64_pct": 68.1,
+      "age_65_plus_pct": 16.1,
+      "catholic_pct": 8.5,
+      "protestant_other_christian_pct": 49.7,
+      "other_religion_pct": 4.2,
+      "no_religion_pct": 35.9,
+      "born_ni_pct": 80.4,
+      "born_other_uk_pct": 6.3,
+      "born_roi_pct": 0.9,
+      "born_elsewhere_pct": 12.4,
+      "owner_occupied_pct": 51.6,
+      "social_rented_pct": 18.2,
+      "private_rented_pct": 30.2,
+      "no_qualifications_pct": 23.4,
+      "level_1_2_pct": 23.9,
+      "level_3_pct": 14.7,
+      "level_4_plus_pct": 35.6,
+      "very_good_good_health_pct": 75.5,
+      "fair_health_pct": 15,
+      "bad_very_bad_health_pct": 9.5,
+      "no_cars_pct": 31.1,
+      "one_car_pct": 51.1,
+      "two_plus_cars_pct": 17.8,
+      "work_from_home_pct": 22.7,
+      "drive_to_work_pct": 52,
+      "public_transport_pct": 12.2,
+      "walk_cycle_pct": 11.5,
+      "urban_rural": "Urban",
+      "deprivation_rank": 255,
+      "income_rank": 389,
+      "employment_rank": 250,
+      "health_rank": 152,
+      "education_rank": 83,
+      "access_rank": 294,
+      "living_env_rank": 177,
+      "crime_rank": 196,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8748,
+              54.6385
+            ],
+            [
+              -5.8549,
+              54.6334
+            ],
+            [
+              -5.8536,
+              54.6282
+            ],
+            [
+              -5.8642,
+              54.6184
+            ],
+            [
+              -5.8608,
+              54.6172
+            ],
+            [
+              -5.8619,
+              54.6139
+            ],
+            [
+              -5.8777,
+              54.6016
+            ],
+            [
+              -5.8878,
+              54.603
+            ],
+            [
+              -5.8872,
+              54.6051
+            ],
+            [
+              -5.9125,
+              54.6014
+            ],
+            [
+              -5.9199,
+              54.6027
+            ],
+            [
+              -5.8748,
+              54.6385
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "turf-lodge",
+      "name": "TURF LODGE",
+      "lgd": "Belfast",
+      "population": 4569,
+      "male": 2178,
+      "female": 2391,
+      "age_0_15_pct": 20.8,
+      "age_16_64_pct": 65.3,
+      "age_65_plus_pct": 13.9,
+      "catholic_pct": 91,
+      "protestant_other_christian_pct": 1.5,
+      "other_religion_pct": 1,
+      "no_religion_pct": 5.3,
+      "born_ni_pct": 95.1,
+      "born_other_uk_pct": 1.9,
+      "born_roi_pct": 1.2,
+      "born_elsewhere_pct": 1.7,
+      "owner_occupied_pct": 45.6,
+      "social_rented_pct": 44.6,
+      "private_rented_pct": 9.9,
+      "no_qualifications_pct": 43.7,
+      "level_1_2_pct": 25.9,
+      "level_3_pct": 13.8,
+      "level_4_plus_pct": 15.1,
+      "very_good_good_health_pct": 64.8,
+      "fair_health_pct": 18.1,
+      "bad_very_bad_health_pct": 17.1,
+      "no_cars_pct": 47,
+      "one_car_pct": 39.3,
+      "two_plus_cars_pct": 13.7,
+      "work_from_home_pct": 10.4,
+      "drive_to_work_pct": 55.1,
+      "public_transport_pct": 18.9,
+      "walk_cycle_pct": 14.7,
+      "urban_rural": "Urban",
+      "deprivation_rank": 20,
+      "income_rank": 256,
+      "employment_rank": 11,
+      "health_rank": 6,
+      "education_rank": 14,
+      "access_rank": 355,
+      "living_env_rank": 6,
+      "crime_rank": 61,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9972,
+              54.599
+            ],
+            [
+              -5.9851,
+              54.6015
+            ],
+            [
+              -5.9857,
+              54.5994
+            ],
+            [
+              -5.9827,
+              54.5974
+            ],
+            [
+              -5.988,
+              54.5944
+            ],
+            [
+              -5.9841,
+              54.5926
+            ],
+            [
+              -5.986,
+              54.5893
+            ],
+            [
+              -5.9887,
+              54.5895
+            ],
+            [
+              -5.9861,
+              54.5857
+            ],
+            [
+              -5.9946,
+              54.5866
+            ],
+            [
+              -5.9969,
+              54.5898
+            ],
+            [
+              -6.0095,
+              54.583
+            ],
+            [
+              -6.0135,
+              54.586
+            ],
+            [
+              -6.0099,
+              54.5883
+            ],
+            [
+              -6.009,
+              54.5914
+            ],
+            [
+              -6.0104,
+              54.5927
+            ],
+            [
+              -6.0055,
+              54.5967
+            ],
+            [
+              -6.0014,
+              54.6029
+            ],
+            [
+              -5.9968,
+              54.6011
+            ],
+            [
+              -5.9972,
+              54.599
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "twinbrook",
+      "name": "TWINBROOK",
+      "lgd": "Belfast",
+      "population": 4917,
+      "male": 2337,
+      "female": 2580,
+      "age_0_15_pct": 21.8,
+      "age_16_64_pct": 62.2,
+      "age_65_plus_pct": 15.9,
+      "catholic_pct": 88.6,
+      "protestant_other_christian_pct": 2.8,
+      "other_religion_pct": 0.7,
+      "no_religion_pct": 6.4,
+      "born_ni_pct": 93.9,
+      "born_other_uk_pct": 2.2,
+      "born_roi_pct": 1.6,
+      "born_elsewhere_pct": 2.3,
+      "owner_occupied_pct": 49.1,
+      "social_rented_pct": 40.9,
+      "private_rented_pct": 10,
+      "no_qualifications_pct": 32.9,
+      "level_1_2_pct": 28.4,
+      "level_3_pct": 15.3,
+      "level_4_plus_pct": 21.3,
+      "very_good_good_health_pct": 69.8,
+      "fair_health_pct": 15.6,
+      "bad_very_bad_health_pct": 14.6,
+      "no_cars_pct": 36.8,
+      "one_car_pct": 43.8,
+      "two_plus_cars_pct": 19.4,
+      "work_from_home_pct": 14.9,
+      "drive_to_work_pct": 60.6,
+      "public_transport_pct": 15.9,
+      "walk_cycle_pct": 7.6,
+      "urban_rural": "Urban",
+      "deprivation_rank": 31,
+      "income_rank": 174,
+      "employment_rank": 19,
+      "health_rank": 17,
+      "education_rank": 42,
+      "access_rank": 373,
+      "living_env_rank": 8,
+      "crime_rank": 69,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0156,
+              54.5603
+            ],
+            [
+              -6.01,
+              54.5614
+            ],
+            [
+              -6.0067,
+              54.5582
+            ],
+            [
+              -6.0195,
+              54.5482
+            ],
+            [
+              -6.0277,
+              54.546
+            ],
+            [
+              -6.0269,
+              54.5548
+            ],
+            [
+              -6.0235,
+              54.5594
+            ],
+            [
+              -6.0192,
+              54.5637
+            ],
+            [
+              -6.0156,
+              54.5603
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "upper-malone",
+      "name": "UPPER MALONE",
+      "lgd": "Belfast",
+      "population": 4974,
+      "male": 2359,
+      "female": 2615,
+      "age_0_15_pct": 18.9,
+      "age_16_64_pct": 60.1,
+      "age_65_plus_pct": 21,
+      "catholic_pct": 28.2,
+      "protestant_other_christian_pct": 43.7,
+      "other_religion_pct": 3.4,
+      "no_religion_pct": 23.2,
+      "born_ni_pct": 83.3,
+      "born_other_uk_pct": 5.7,
+      "born_roi_pct": 2.1,
+      "born_elsewhere_pct": 9,
+      "owner_occupied_pct": 64.7,
+      "social_rented_pct": 23.4,
+      "private_rented_pct": 11.9,
+      "no_qualifications_pct": 18.9,
+      "level_1_2_pct": 20.4,
+      "level_3_pct": 11.6,
+      "level_4_plus_pct": 46.8,
+      "very_good_good_health_pct": 79.2,
+      "fair_health_pct": 13.1,
+      "bad_very_bad_health_pct": 7.8,
+      "no_cars_pct": 21.8,
+      "one_car_pct": 43.7,
+      "two_plus_cars_pct": 34.6,
+      "work_from_home_pct": 24.2,
+      "drive_to_work_pct": 58.8,
+      "public_transport_pct": 8.9,
+      "walk_cycle_pct": 7.6,
+      "urban_rural": "Urban",
+      "deprivation_rank": 335,
+      "income_rank": 405,
+      "employment_rank": 200,
+      "health_rank": 243,
+      "education_rank": 285,
+      "access_rank": 302,
+      "living_env_rank": 304,
+      "crime_rank": 244,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9514,
+              54.5643
+            ],
+            [
+              -5.9368,
+              54.5578
+            ],
+            [
+              -5.9422,
+              54.5557
+            ],
+            [
+              -5.941,
+              54.554
+            ],
+            [
+              -5.9426,
+              54.5532
+            ],
+            [
+              -5.9518,
+              54.5554
+            ],
+            [
+              -5.9543,
+              54.5504
+            ],
+            [
+              -5.9536,
+              54.5478
+            ],
+            [
+              -5.9598,
+              54.549
+            ],
+            [
+              -5.9649,
+              54.5473
+            ],
+            [
+              -5.9661,
+              54.5425
+            ],
+            [
+              -5.9601,
+              54.5379
+            ],
+            [
+              -5.9661,
+              54.5361
+            ],
+            [
+              -5.9694,
+              54.5323
+            ],
+            [
+              -5.9718,
+              54.5328
+            ],
+            [
+              -5.9728,
+              54.5308
+            ],
+            [
+              -5.9749,
+              54.5317
+            ],
+            [
+              -5.976,
+              54.5306
+            ],
+            [
+              -5.9779,
+              54.5324
+            ],
+            [
+              -5.978,
+              54.5353
+            ],
+            [
+              -5.9831,
+              54.5351
+            ],
+            [
+              -5.9782,
+              54.5422
+            ],
+            [
+              -5.9761,
+              54.5495
+            ],
+            [
+              -5.9757,
+              54.5512
+            ],
+            [
+              -5.9806,
+              54.5563
+            ],
+            [
+              -5.9766,
+              54.5563
+            ],
+            [
+              -5.9752,
+              54.5581
+            ],
+            [
+              -5.9767,
+              54.5597
+            ],
+            [
+              -5.9661,
+              54.5602
+            ],
+            [
+              -5.9668,
+              54.5593
+            ],
+            [
+              -5.9636,
+              54.557
+            ],
+            [
+              -5.9549,
+              54.559
+            ],
+            [
+              -5.9514,
+              54.5643
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "water-works",
+      "name": "WATER WORKS",
+      "lgd": "Belfast",
+      "population": 6910,
+      "male": 3379,
+      "female": 3531,
+      "age_0_15_pct": 22.4,
+      "age_16_64_pct": 65.9,
+      "age_65_plus_pct": 11.8,
+      "catholic_pct": 62.9,
+      "protestant_other_christian_pct": 13.8,
+      "other_religion_pct": 3.9,
+      "no_religion_pct": 15.4,
+      "born_ni_pct": 83.3,
+      "born_other_uk_pct": 3.3,
+      "born_roi_pct": 2,
+      "born_elsewhere_pct": 11.4,
+      "owner_occupied_pct": 25.8,
+      "social_rented_pct": 49.4,
+      "private_rented_pct": 24.8,
+      "no_qualifications_pct": 36.2,
+      "level_1_2_pct": 26.2,
+      "level_3_pct": 13.4,
+      "level_4_plus_pct": 21.8,
+      "very_good_good_health_pct": 67.1,
+      "fair_health_pct": 16.8,
+      "bad_very_bad_health_pct": 16.1,
+      "no_cars_pct": 55.4,
+      "one_car_pct": 35.1,
+      "two_plus_cars_pct": 9.5,
+      "work_from_home_pct": 16.8,
+      "drive_to_work_pct": 45.8,
+      "public_transport_pct": 14.8,
+      "walk_cycle_pct": 21.3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 1,
+      "income_rank": 13,
+      "employment_rank": 3,
+      "health_rank": 2,
+      "education_rank": 10,
+      "access_rank": 439,
+      "living_env_rank": 23,
+      "crime_rank": 2,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9435,
+              54.6261
+            ],
+            [
+              -5.9422,
+              54.6218
+            ],
+            [
+              -5.938,
+              54.6214
+            ],
+            [
+              -5.9381,
+              54.617
+            ],
+            [
+              -5.9359,
+              54.6127
+            ],
+            [
+              -5.9368,
+              54.6075
+            ],
+            [
+              -5.9571,
+              54.6116
+            ],
+            [
+              -5.9568,
+              54.6133
+            ],
+            [
+              -5.9503,
+              54.6152
+            ],
+            [
+              -5.9458,
+              54.6196
+            ],
+            [
+              -5.9477,
+              54.6202
+            ],
+            [
+              -5.9468,
+              54.6211
+            ],
+            [
+              -5.9483,
+              54.6225
+            ],
+            [
+              -5.9459,
+              54.6241
+            ],
+            [
+              -5.947,
+              54.6255
+            ],
+            [
+              -5.9435,
+              54.6261
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "windsor",
+      "name": "WINDSOR",
+      "lgd": "Belfast",
+      "population": 11302,
+      "male": 6039,
+      "female": 5263,
+      "age_0_15_pct": 7.2,
+      "age_16_64_pct": 85.5,
+      "age_65_plus_pct": 7.3,
+      "catholic_pct": 32.5,
+      "protestant_other_christian_pct": 20.5,
+      "other_religion_pct": 8.3,
+      "no_religion_pct": 36.3,
+      "born_ni_pct": 64,
+      "born_other_uk_pct": 8.8,
+      "born_roi_pct": 4.4,
+      "born_elsewhere_pct": 22.9,
+      "owner_occupied_pct": 25.9,
+      "social_rented_pct": 10.1,
+      "private_rented_pct": 64,
+      "no_qualifications_pct": 8.9,
+      "level_1_2_pct": 8.6,
+      "level_3_pct": 26.5,
+      "level_4_plus_pct": 54.1,
+      "very_good_good_health_pct": 86.2,
+      "fair_health_pct": 9.5,
+      "bad_very_bad_health_pct": 4.3,
+      "no_cars_pct": 39.3,
+      "one_car_pct": 36.7,
+      "two_plus_cars_pct": 24,
+      "work_from_home_pct": 32.7,
+      "drive_to_work_pct": 32.4,
+      "public_transport_pct": 9.5,
+      "walk_cycle_pct": 24.7,
+      "urban_rural": "Urban",
+      "deprivation_rank": 324,
+      "income_rank": 331,
+      "employment_rank": 437,
+      "health_rank": 338,
+      "education_rank": 268,
+      "access_rank": 437,
+      "living_env_rank": 1,
+      "crime_rank": 83,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9352,
+              54.5884
+            ],
+            [
+              -5.9397,
+              54.5787
+            ],
+            [
+              -5.9453,
+              54.5752
+            ],
+            [
+              -5.9472,
+              54.5708
+            ],
+            [
+              -5.9565,
+              54.5746
+            ],
+            [
+              -5.95,
+              54.587
+            ],
+            [
+              -5.942,
+              54.5847
+            ],
+            [
+              -5.9352,
+              54.5884
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "woodstock",
+      "name": "WOODSTOCK",
+      "lgd": "Belfast",
+      "population": 6431,
+      "male": 3200,
+      "female": 3231,
+      "age_0_15_pct": 18,
+      "age_16_64_pct": 72.7,
+      "age_65_plus_pct": 9.3,
+      "catholic_pct": 17.8,
+      "protestant_other_christian_pct": 39.1,
+      "other_religion_pct": 5.3,
+      "no_religion_pct": 35.5,
+      "born_ni_pct": 71.4,
+      "born_other_uk_pct": 5,
+      "born_roi_pct": 1.9,
+      "born_elsewhere_pct": 21.7,
+      "owner_occupied_pct": 28.2,
+      "social_rented_pct": 34,
+      "private_rented_pct": 37.8,
+      "no_qualifications_pct": 27,
+      "level_1_2_pct": 22.8,
+      "level_3_pct": 12.6,
+      "level_4_plus_pct": 34.8,
+      "very_good_good_health_pct": 74.3,
+      "fair_health_pct": 14.9,
+      "bad_very_bad_health_pct": 10.8,
+      "no_cars_pct": 44,
+      "one_car_pct": 44.9,
+      "two_plus_cars_pct": 11.2,
+      "work_from_home_pct": 24.1,
+      "drive_to_work_pct": 42,
+      "public_transport_pct": 11.1,
+      "walk_cycle_pct": 21.7,
+      "urban_rural": "Urban",
+      "deprivation_rank": 50,
+      "income_rank": 113,
+      "employment_rank": 95,
+      "health_rank": 44,
+      "education_rank": 15,
+      "access_rank": 459,
+      "living_env_rank": 25,
+      "crime_rank": 33,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.903,
+              54.5911
+            ],
+            [
+              -5.8997,
+              54.5861
+            ],
+            [
+              -5.9074,
+              54.5857
+            ],
+            [
+              -5.911,
+              54.587
+            ],
+            [
+              -5.9104,
+              54.5904
+            ],
+            [
+              -5.9181,
+              54.5917
+            ],
+            [
+              -5.9116,
+              54.5959
+            ],
+            [
+              -5.9069,
+              54.5953
+            ],
+            [
+              -5.9071,
+              54.5938
+            ],
+            [
+              -5.903,
+              54.5911
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "woodvale",
+      "name": "WOODVALE",
+      "lgd": "Belfast",
+      "population": 5170,
+      "male": 2445,
+      "female": 2725,
+      "age_0_15_pct": 19.1,
+      "age_16_64_pct": 64.5,
+      "age_65_plus_pct": 16.4,
+      "catholic_pct": 6.2,
+      "protestant_other_christian_pct": 68.6,
+      "other_religion_pct": 1.4,
+      "no_religion_pct": 21.6,
+      "born_ni_pct": 87.3,
+      "born_other_uk_pct": 4.9,
+      "born_roi_pct": 0.3,
+      "born_elsewhere_pct": 7.4,
+      "owner_occupied_pct": 24.3,
+      "social_rented_pct": 45,
+      "private_rented_pct": 30.7,
+      "no_qualifications_pct": 39.4,
+      "level_1_2_pct": 29,
+      "level_3_pct": 13.8,
+      "level_4_plus_pct": 15.2,
+      "very_good_good_health_pct": 64.1,
+      "fair_health_pct": 18.1,
+      "bad_very_bad_health_pct": 17.7,
+      "no_cars_pct": 54.9,
+      "one_car_pct": 36.3,
+      "two_plus_cars_pct": 8.8,
+      "work_from_home_pct": 10.9,
+      "drive_to_work_pct": 53.9,
+      "public_transport_pct": 16.9,
+      "walk_cycle_pct": 17.4,
+      "urban_rural": "Urban",
+      "deprivation_rank": 4,
+      "income_rank": 7,
+      "employment_rank": 13,
+      "health_rank": 14,
+      "education_rank": 1,
+      "access_rank": 370,
+      "living_env_rank": 88,
+      "crime_rank": 25,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9536,
+              54.6109
+            ],
+            [
+              -5.9553,
+              54.6044
+            ],
+            [
+              -5.9581,
+              54.6014
+            ],
+            [
+              -5.9673,
+              54.6027
+            ],
+            [
+              -5.9646,
+              54.6043
+            ],
+            [
+              -5.9677,
+              54.6093
+            ],
+            [
+              -5.9669,
+              54.6108
+            ],
+            [
+              -5.9633,
+              54.6114
+            ],
+            [
+              -5.9645,
+              54.6137
+            ],
+            [
+              -5.9536,
+              54.6109
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
