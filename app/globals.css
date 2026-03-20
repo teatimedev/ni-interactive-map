@@ -31,6 +31,29 @@ body {
   height: 100vh;
 }
 
+/* Hide SVG bounding boxes, focus outlines, and any visible rectangles on map layers */
+.leaflet-overlay-pane svg,
+.leaflet-pane svg,
+.leaflet-pane canvas {
+  background: none !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.leaflet-interactive:focus,
+.leaflet-interactive:focus-visible {
+  outline: none !important;
+}
+.leaflet-pane {
+  outline: none !important;
+  border: none !important;
+}
+/* Leaflet SVG renderer padding — reduce visible edge */
+.leaflet-zoom-animated {
+  border: none !important;
+  outline: none !important;
+}
+
 /* Leaflet dark theme overrides */
 .leaflet-control-zoom a {
   background: #2a2a2a !important;
