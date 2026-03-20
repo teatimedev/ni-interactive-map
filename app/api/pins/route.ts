@@ -1,37 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { supabase } from "@/lib/supabase";
-import crypto from "crypto";
-
-function hashIp(ip: string): string {
-  return crypto.createHash("sha256").update(ip + "ni-map-salt").digest("hex").slice(0, 16);
-}
-
-function getClientIp(request: NextRequest): string {
-  return (
-    request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ??
-    request.headers.get("x-real-ip") ??
-    "unknown"
-  );
-}
-
-const BLOCKED_WORDS = [
-  "fuck", "shit", "cunt", "nigger", "faggot", "retard", "spastic",
-  "kill", "bomb", "rape", "nazi", "kys",
-];
-
-function validateLabel(label: string): { valid: boolean; error?: string } {
-  const trimmed = label.trim();
-  if (trimmed.length < 3) return { valid: false, error: "Label must be at least 3 characters" };
-  if (trimmed.length > 50) return { valid: false, error: "Label must be at most 50 characters" };
-  if (!/^[a-zA-Z0-9\s'!?.,()-]+$/.test(trimmed)) {
-    return { valid: false, error: "Letters, numbers, spaces and basic punctuation only" };
-  }
-  const lower = trimmed.toLowerCase();
-  for (const word of BLOCKED_WORDS) {
-    if (lower.includes(word)) return { valid: false, error: "Label contains inappropriate content" };
-  }
-  return { valid: true };
-}
+import { hashIp, getClientIp, validateLabel } from "@/lib/api-utils";
 
 // GET /api/pins
 export async function GET() {

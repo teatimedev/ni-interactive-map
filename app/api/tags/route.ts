@@ -1,18 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { supabase, ALL_TAGS, validateCustomTag } from "@/lib/supabase";
-import crypto from "crypto";
-
-function hashIp(ip: string): string {
-  return crypto.createHash("sha256").update(ip + "ni-map-salt").digest("hex").slice(0, 16);
-}
-
-function getClientIp(request: NextRequest): string {
-  return (
-    request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ??
-    request.headers.get("x-real-ip") ??
-    "unknown"
-  );
-}
+import { hashIp, getClientIp } from "@/lib/api-utils";
 
 // GET /api/tags?lgd=belfast&ward=andersonstown
 export async function GET(request: NextRequest) {
