@@ -1,11 +1,26 @@
 "use client";
 
-import { MapContainer as LeafletMap, TileLayer, ZoomControl } from "react-leaflet";
+import { useEffect, useState } from "react";
 import "leaflet/dist/leaflet.css";
 
 const NI_CENTER: [number, number] = [54.6, -7.0];
 
 export default function MapContainer({ children }: { children?: React.ReactNode }) {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return (
+      <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", background: "#1a1a1a" }} />
+    );
+  }
+
+  // Dynamic require to ensure Leaflet only loads in browser
+  const { MapContainer: LeafletMap, TileLayer, ZoomControl } = require("react-leaflet");
+
   return (
     <LeafletMap
       center={NI_CENTER}
