@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import { GeoJSON, useMap } from "react-leaflet";
 import type { Layer, LeafletMouseEvent, PathOptions } from "leaflet";
 import type { Feature, GeoJsonObject } from "geojson";
+import { useRouter } from "next/navigation";
 import { useMapState } from "@/hooks/useMapState";
 import { useChoropleth } from "@/hooks/useChoropleth";
 import { useComparison } from "@/hooks/useComparison";
@@ -33,6 +34,7 @@ export default function DistrictLayer() {
   const { metric } = useChoropleth();
   const { isComparing, addSelection } = useComparison();
   const map = useMap();
+  const router = useRouter();
   const layerRef = useRef<L.GeoJSON | null>(null);
 
   // Only render when on district view
@@ -149,9 +151,6 @@ export default function DistrictLayer() {
         return;
       }
 
-      selectDistrict(slug);
-      setView("district-detail");
-
       const bounds = (layer as L.GeoJSON).getBounds
         ? (layer as unknown as L.Polygon).getBounds()
         : null;
@@ -160,7 +159,7 @@ export default function DistrictLayer() {
         map.flyToBounds(bounds, { padding: [40, 40], duration: 0.8 });
       }
 
-      loadWardData(slug);
+      router.push(`/district/${slug}`);
     });
   }
 

@@ -3,6 +3,7 @@
 import { GeoJSON } from "react-leaflet";
 import type { Layer, LeafletMouseEvent, PathOptions } from "leaflet";
 import type { Feature } from "geojson";
+import { useRouter } from "next/navigation";
 import { useMapState } from "@/hooks/useMapState";
 import { useChoropleth } from "@/hooks/useChoropleth";
 import { getChoroplethColor, CHOROPLETH_CONFIGS } from "@/lib/colors";
@@ -25,6 +26,7 @@ export default function WardLayer() {
   const { currentView, selectedDistrict, wardCache, selectWard, setView } =
     useMapState();
   const { metric } = useChoropleth();
+  const router = useRouter();
 
   // Only render when drilling into a district and ward data is available
   if (currentView !== "district-detail" && currentView !== "ward-detail") {
@@ -140,8 +142,7 @@ export default function WardLayer() {
       const ward = wards.find((w) => w.name === name);
       if (!ward) return;
 
-      selectWard(ward.slug);
-      setView("ward-detail");
+      router.push(`/ward/${selectedDistrict}/${ward.slug}`);
     });
   }
 
