@@ -29,14 +29,14 @@ const HOVER_STYLE: PathOptions = {
 };
 
 export default function DistrictLayer() {
-  const { currentView, selectDistrict, setView, loadWardData } = useMapState();
+  const { currentView, selectDistrict, selectWard, setView, loadWardData } = useMapState();
   const { metric } = useChoropleth();
   const { isComparing, addSelection } = useComparison();
   const map = useMap();
   const layerRef = useRef<L.GeoJSON | null>(null);
 
-  // Only render when on district view
-  if (currentView !== "districts") return null;
+  // Always render — districts stay visible behind wards so users can click another district
+  const isDrillView = currentView !== "districts";
 
   // Precompute rank map for the active metric — guarantees full color spread
   const rankMap = (() => {
@@ -60,6 +60,10 @@ export default function DistrictLayer() {
   }
 
   function getStyle(feature?: Feature): PathOptions {
+    // When drilled into a district, show muted boundaries so wards are prominent
+    if (isDrillView) {
+      return { color: "#444", weight: 1, fillColor: "transparent", fillOpacity: 0 };
+    }
     const t = getDistrictT(feature);
     if (t === null || !metric) return DEFAULT_STYLE;
     return {
@@ -146,6 +150,7 @@ export default function DistrictLayer() {
 
       // Direct state update — no router.push to avoid remounting the map
       selectDistrict(slug);
+      selectWard(null);
       setView("district-detail");
       loadWardData(slug);
       window.history.replaceState(null, "", `/district/${slug}`);
