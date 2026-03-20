@@ -1,6 +1,7 @@
 "use client";
 
 import { ReactNode, useEffect, useState } from "react";
+import BottomSheet from "@/components/StatsPanel/BottomSheet";
 
 interface Tab {
   id: string;
@@ -25,12 +26,22 @@ export default function StatsPanel({
   tabs,
 }: StatsPanelProps) {
   const [activeTab, setActiveTab] = useState<string>(tabs[0]?.id ?? "");
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     if (tabs.length > 0) {
       setActiveTab(tabs[0].id);
     }
   }, [tabs]);
+
+  useEffect(() => {
+    const media = window.matchMedia("(max-width: 768px)");
+    const updateMobile = () => setIsMobile(media.matches);
+
+    updateMobile();
+    media.addEventListener("change", updateMobile);
+    return () => media.removeEventListener("change", updateMobile);
+  }, []);
 
   useEffect(() => {
     function handleKeyDown(e: KeyboardEvent) {
@@ -41,6 +52,18 @@ export default function StatsPanel({
       return () => document.removeEventListener("keydown", handleKeyDown);
     }
   }, [isOpen, onClose]);
+
+  if (isMobile) {
+    return (
+      <BottomSheet
+        isOpen={isOpen}
+        onClose={onClose}
+        title={title}
+        subtitle={subtitle}
+        tabs={tabs}
+      />
+    );
+  }
 
   return (
     <div id="panel" className={isOpen ? "open" : ""}>
