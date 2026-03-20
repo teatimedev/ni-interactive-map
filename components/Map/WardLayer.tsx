@@ -8,17 +8,17 @@ import { useChoropleth } from "@/hooks/useChoropleth";
 import { choroplethColorFromT, computeRankMap, CHOROPLETH_CONFIGS } from "@/lib/colors";
 
 const DEFAULT_STYLE: PathOptions = {
-  color: "#555",
-  weight: 1,
-  fillColor: "#383838",
-  fillOpacity: 0.5,
+  color: "#444",
+  weight: 0.5,
+  fillColor: "transparent",
+  fillOpacity: 0,
 };
 
 const HOVER_STYLE: PathOptions = {
-  color: "#999",
-  weight: 2,
-  fillColor: "#4a4a4a",
-  fillOpacity: 0.85,
+  color: "#aaa",
+  weight: 1.5,
+  fillColor: "#ffffff",
+  fillOpacity: 0.08,
 };
 
 export default function WardLayer() {

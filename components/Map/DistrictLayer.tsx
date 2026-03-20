@@ -62,7 +62,7 @@ export default function DistrictLayer() {
   function getStyle(feature?: Feature): PathOptions {
     // When drilled into a district, show muted boundaries so wards are prominent
     if (isDrillView) {
-      return { color: "#444", weight: 1, fillColor: "transparent", fillOpacity: 0 };
+      return { color: "#333", weight: 0.5, fillColor: "transparent", fillOpacity: 0 };
     }
     const t = getDistrictT(feature);
     if (t === null || !metric) return DEFAULT_STYLE;
@@ -163,7 +163,7 @@ export default function DistrictLayer() {
 
   return (
     <GeoJSON
-      key={`districts-${metric || "default"}`}
+      key={`districts-${metric || "default"}-${isDrillView ? "drill" : "main"}`}
       data={geoDistricts}
       style={getStyle}
       onEachFeature={onEachFeature}
