@@ -3,12 +3,15 @@
 import { useEffect, useState, useCallback } from "react";
 import { Marker, Popup } from "react-leaflet";
 import L from "leaflet";
+import { useAuth } from "@/hooks/useAuth";
 
 interface Pin {
   id: number;
   lat: number;
   lng: number;
   label: string;
+  username: string | null;
+  user_id: string | null;
   created_at: string;
 }
 
@@ -23,16 +26,19 @@ function timeAgo(dateStr: string): string {
   return `${days}d ago`;
 }
 
-const pinIcon = new L.DivIcon({
-  className: "",
-  html: '<div class="pin-marker-icon"></div>',
-  iconSize: [24, 24],
-  iconAnchor: [12, 24],
-  popupAnchor: [0, -24],
-});
+function createPinIcon(username: string | null) {
+  return new L.DivIcon({
+    className: "",
+    html: `<div class="pin-marker-icon"></div>${username ? `<div class="pin-username-label">${username}</div>` : ""}`,
+    iconSize: [24, 24],
+    iconAnchor: [12, 24],
+    popupAnchor: [0, -24],
+  });
+}
 
 export default function PinLayer({ refreshKey }: { refreshKey: number }) {
   const [pins, setPins] = useState<Pin[]>([]);
+  const { user, isAdmin, getToken } = useAuth();
 
   const fetchPins = useCallback(async () => {
     try {
@@ -61,16 +67,42 @@ export default function PinLayer({ refreshKey }: { refreshKey: number }) {
     }
   }
 
+  async function handleDelete(id: number) {
+    const token = await getToken();
+    if (!token) return;
+    try {
+      await fetch("/api/pins", {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify({ id }),
+      });
+      fetchPins();
+    } catch {
+      // silently fail
+    }
+  }
+
   return (
     <>
       {pins.map((pin) => (
-        <Marker key={pin.id} position={[pin.lat, pin.lng]} icon={pinIcon}>
+        <Marker key={pin.id} position={[pin.lat, pin.lng]} icon={createPinIcon(pin.username)}>
           <Popup>
             <div className="pin-popup-label">{pin.label}</div>
+            {pin.username && <div className="pin-popup-user">by {pin.username}</div>}
             <div className="pin-popup-time">{timeAgo(pin.created_at)}</div>
-            <button className="pin-popup-report" onClick={() => handleReport(pin.id)}>
-              Report
-            </button>
+            <div className="pin-popup-actions">
+              <button className="pin-popup-report" onClick={() => handleReport(pin.id)}>
+                Report
+              </button>
+              {(isAdmin || (user && pin.user_id === user.id)) && (
+                <button className="pin-popup-delete" onClick={() => handleDelete(pin.id)}>
+                  Delete
+                </button>
+              )}
+            </div>
           </Popup>
         </Marker>
       ))}

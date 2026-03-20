@@ -2,11 +2,15 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { TAG_CATEGORIES, type TagCategory, MAX_TAG_LENGTH, MIN_TAG_LENGTH, validateCustomTag } from "@/lib/supabase";
+import { useAuth } from "@/hooks/useAuth";
 
 interface TagCount {
   tag: string;
   count: number;
   category: string;
+  usernames: string[];
+  ids: number[];
+  user_ids: string[];
 }
 
 interface WardTagsProps {
@@ -24,6 +28,7 @@ const CATEGORY_COLORS: Record<string, string> = {
 };
 
 export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
+  const { user, isAdmin, getToken } = useAuth();
   const [tags, setTags] = useState<TagCount[]>([]);
   const [showPicker, setShowPicker] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -49,13 +54,35 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
     fetchTags();
   }, [fetchTags]);
 
+  async function handleDeleteTag(id: number) {
+    const token = await getToken();
+    if (!token) return;
+    try {
+      await fetch("/api/tags", {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify({ id }),
+      });
+      fetchTags();
+    } catch {
+      // silently fail
+    }
+  }
+
   async function handleAddTag(tag: string, category: TagCategory) {
     setSubmitting(true);
     setMessage("");
     try {
+      const token = await getToken();
       const res = await fetch("/api/tags", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        },
         body: JSON.stringify({ lgd: lgdSlug, ward: wardSlug, tag, category }),
       });
       const data = await res.json();
@@ -95,6 +122,7 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
           {tags.map((t) => (
             <span
               key={t.tag}
+              title={t.usernames?.length > 0 ? `by ${t.usernames.join(", ")}` : undefined}
               style={{
                 display: "inline-flex",
                 alignItems: "center",
@@ -111,6 +139,18 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
               <span style={{ fontSize: 10, color: "#888", fontWeight: 600 }}>
                 {t.count}
               </span>
+              {(isAdmin || (user && t.user_ids?.includes(user.id))) && t.ids?.length > 0 && (
+                <button
+                  onClick={() => handleDeleteTag(t.ids[t.ids.length - 1])}
+                  style={{
+                    background: "none", border: "none", color: "#888",
+                    cursor: "pointer", fontSize: 12, padding: "0 0 0 2px", lineHeight: 1,
+                  }}
+                  title="Delete tag"
+                >
+                  &times;
+                </button>
+              )}
             </span>
           ))}
         </div>
@@ -126,7 +166,14 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
         <button
           className="btn-map"
           style={{ fontSize: 11, padding: "5px 10px" }}
-          onClick={() => setShowPicker(true)}
+          onClick={() => {
+            if (!user) {
+              setMessage("Sign in to add tags");
+              setTimeout(() => setMessage(""), 3000);
+              return;
+            }
+            setShowPicker(true);
+          }}
         >
           + Add a tag
         </button>

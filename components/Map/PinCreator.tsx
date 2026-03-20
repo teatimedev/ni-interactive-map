@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useAuth } from "@/hooks/useAuth";
 
 interface PinCreatorProps {
   lat: number;
@@ -10,6 +11,7 @@ interface PinCreatorProps {
 }
 
 export default function PinCreator({ lat, lng, onCreated, onCancel }: PinCreatorProps) {
+  const { getToken } = useAuth();
   const [label, setLabel] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
@@ -19,9 +21,13 @@ export default function PinCreator({ lat, lng, onCreated, onCancel }: PinCreator
     setSubmitting(true);
     setError("");
     try {
+      const token = await getToken();
       const res = await fetch("/api/pins", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        },
         body: JSON.stringify({ lat, lng, label: label.trim() }),
       });
       const data = await res.json();
