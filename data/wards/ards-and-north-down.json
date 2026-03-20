@@ -1,0 +1,7092 @@
+{
+  "lgd": "Ards and North Down",
+  "lgdSlug": "ards-and-north-down",
+  "wards": [
+    {
+      "slug": "ballycrochan",
+      "name": "BALLYCROCHAN",
+      "lgd": "Ards and North Down",
+      "population": 3118,
+      "male": 1505,
+      "female": 1613,
+      "age_0_15_pct": 15.5,
+      "age_16_64_pct": 51.3,
+      "age_65_plus_pct": 33.2,
+      "catholic_pct": 6.9,
+      "protestant_other_christian_pct": 60.6,
+      "other_religion_pct": 1.3,
+      "no_religion_pct": 30.2,
+      "born_ni_pct": 87.6,
+      "born_other_uk_pct": 7.4,
+      "born_roi_pct": 1.6,
+      "born_elsewhere_pct": 3.4,
+      "owner_occupied_pct": 90.4,
+      "social_rented_pct": 4.6,
+      "private_rented_pct": 5,
+      "no_qualifications_pct": 15.2,
+      "level_1_2_pct": 27.2,
+      "level_3_pct": 16.5,
+      "level_4_plus_pct": 38.2,
+      "very_good_good_health_pct": 78.9,
+      "fair_health_pct": 15.3,
+      "bad_very_bad_health_pct": 5.9,
+      "no_cars_pct": 7.7,
+      "one_car_pct": 36.4,
+      "two_plus_cars_pct": 55.9,
+      "work_from_home_pct": 22.9,
+      "drive_to_work_pct": 70.8,
+      "public_transport_pct": 3.6,
+      "walk_cycle_pct": 2,
+      "urban_rural": "Urban",
+      "deprivation_rank": 449,
+      "income_rank": 422,
+      "employment_rank": 432,
+      "health_rank": 437,
+      "education_rank": 403,
+      "access_rank": 265,
+      "living_env_rank": 349,
+      "crime_rank": 388,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.612,
+              54.6472
+            ],
+            [
+              -5.6245,
+              54.6451
+            ],
+            [
+              -5.6261,
+              54.6478
+            ],
+            [
+              -5.6312,
+              54.6489
+            ],
+            [
+              -5.6282,
+              54.6519
+            ],
+            [
+              -5.633,
+              54.6526
+            ],
+            [
+              -5.6356,
+              54.6562
+            ],
+            [
+              -5.6306,
+              54.6603
+            ],
+            [
+              -5.6285,
+              54.659
+            ],
+            [
+              -5.6213,
+              54.6617
+            ],
+            [
+              -5.6094,
+              54.6617
+            ],
+            [
+              -5.6095,
+              54.6588
+            ],
+            [
+              -5.6069,
+              54.6541
+            ],
+            [
+              -5.6073,
+              54.6511
+            ],
+            [
+              -5.6108,
+              54.6497
+            ],
+            [
+              -5.612,
+              54.6472
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ballygowan",
+      "name": "BALLYGOWAN",
+      "lgd": "Ards and North Down",
+      "population": 4368,
+      "male": 2167,
+      "female": 2201,
+      "age_0_15_pct": 17.7,
+      "age_16_64_pct": 65.8,
+      "age_65_plus_pct": 16.6,
+      "catholic_pct": 8.8,
+      "protestant_other_christian_pct": 65.6,
+      "other_religion_pct": 0.6,
+      "no_religion_pct": 23.7,
+      "born_ni_pct": 93.8,
+      "born_other_uk_pct": 3.8,
+      "born_roi_pct": 0.7,
+      "born_elsewhere_pct": 1.7,
+      "owner_occupied_pct": 86.1,
+      "social_rented_pct": 5.7,
+      "private_rented_pct": 8.2,
+      "no_qualifications_pct": 16.9,
+      "level_1_2_pct": 28.9,
+      "level_3_pct": 18.6,
+      "level_4_plus_pct": 33.7,
+      "very_good_good_health_pct": 83.6,
+      "fair_health_pct": 11.7,
+      "bad_very_bad_health_pct": 4.6,
+      "no_cars_pct": 6.1,
+      "one_car_pct": 30.5,
+      "two_plus_cars_pct": 63.4,
+      "work_from_home_pct": 21.6,
+      "drive_to_work_pct": 72.2,
+      "public_transport_pct": 2.1,
+      "walk_cycle_pct": 2.7,
+      "urban_rural": "Rural",
+      "deprivation_rank": 390,
+      "income_rank": 340,
+      "employment_rank": 410,
+      "health_rank": 395,
+      "education_rank": 364,
+      "access_rank": 169,
+      "living_env_rank": 214,
+      "crime_rank": 349,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.7694,
+              54.4624
+            ],
+            [
+              -5.7755,
+              54.4635
+            ],
+            [
+              -5.7778,
+              54.4671
+            ],
+            [
+              -5.7842,
+              54.4639
+            ],
+            [
+              -5.7911,
+              54.4636
+            ],
+            [
+              -5.7958,
+              54.4731
+            ],
+            [
+              -5.8009,
+              54.4728
+            ],
+            [
+              -5.8076,
+              54.4758
+            ],
+            [
+              -5.8084,
+              54.4823
+            ],
+            [
+              -5.812,
+              54.4833
+            ],
+            [
+              -5.8119,
+              54.4851
+            ],
+            [
+              -5.8143,
+              54.4861
+            ],
+            [
+              -5.8144,
+              54.4894
+            ],
+            [
+              -5.8237,
+              54.4956
+            ],
+            [
+              -5.8271,
+              54.4997
+            ],
+            [
+              -5.8296,
+              54.4989
+            ],
+            [
+              -5.8331,
+              54.5013
+            ],
+            [
+              -5.83,
+              54.503
+            ],
+            [
+              -5.8329,
+              54.5047
+            ],
+            [
+              -5.8283,
+              54.5073
+            ],
+            [
+              -5.8302,
+              54.512
+            ],
+            [
+              -5.8269,
+              54.5142
+            ],
+            [
+              -5.8305,
+              54.5201
+            ],
+            [
+              -5.8247,
+              54.5276
+            ],
+            [
+              -5.8189,
+              54.528
+            ],
+            [
+              -5.8151,
+              54.5318
+            ],
+            [
+              -5.8161,
+              54.5327
+            ],
+            [
+              -5.8152,
+              54.5344
+            ],
+            [
+              -5.8177,
+              54.536
+            ],
+            [
+              -5.81,
+              54.5373
+            ],
+            [
+              -5.8094,
+              54.5396
+            ],
+            [
+              -5.8038,
+              54.5442
+            ],
+            [
+              -5.7949,
+              54.5444
+            ],
+            [
+              -5.7931,
+              54.5459
+            ],
+            [
+              -5.787,
+              54.5438
+            ],
+            [
+              -5.7841,
+              54.5398
+            ],
+            [
+              -5.7858,
+              54.5365
+            ],
+            [
+              -5.7811,
+              54.5357
+            ],
+            [
+              -5.7746,
+              54.5374
+            ],
+            [
+              -5.7724,
+              54.5409
+            ],
+            [
+              -5.768,
+              54.5408
+            ],
+            [
+              -5.7623,
+              54.5371
+            ],
+            [
+              -5.76,
+              54.5375
+            ],
+            [
+              -5.7664,
+              54.5349
+            ],
+            [
+              -5.7663,
+              54.5292
+            ],
+            [
+              -5.7683,
+              54.5287
+            ],
+            [
+              -5.7682,
+              54.5246
+            ],
+            [
+              -5.7663,
+              54.5239
+            ],
+            [
+              -5.7683,
+              54.5188
+            ],
+            [
+              -5.7753,
+              54.5164
+            ],
+            [
+              -5.7813,
+              54.5112
+            ],
+            [
+              -5.7819,
+              54.5082
+            ],
+            [
+              -5.7782,
+              54.5049
+            ],
+            [
+              -5.775,
+              54.4918
+            ],
+            [
+              -5.7594,
+              54.494
+            ],
+            [
+              -5.7644,
+              54.4774
+            ],
+            [
+              -5.7631,
+              54.4715
+            ],
+            [
+              -5.7653,
+              54.4704
+            ],
+            [
+              -5.761,
+              54.4667
+            ],
+            [
+              -5.7694,
+              54.4624
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ballygrainey",
+      "name": "BALLYGRAINEY",
+      "lgd": "Ards and North Down",
+      "population": 6301,
+      "male": 3000,
+      "female": 3301,
+      "age_0_15_pct": 24.5,
+      "age_16_64_pct": 67.7,
+      "age_65_plus_pct": 7.9,
+      "catholic_pct": 7.1,
+      "protestant_other_christian_pct": 52.5,
+      "other_religion_pct": 1.1,
+      "no_religion_pct": 38,
+      "born_ni_pct": 87.6,
+      "born_other_uk_pct": 6.7,
+      "born_roi_pct": 0.5,
+      "born_elsewhere_pct": 5.1,
+      "owner_occupied_pct": 55.4,
+      "social_rented_pct": 27,
+      "private_rented_pct": 17.6,
+      "no_qualifications_pct": 18,
+      "level_1_2_pct": 29.3,
+      "level_3_pct": 20.2,
+      "level_4_plus_pct": 30.3,
+      "very_good_good_health_pct": 80.4,
+      "fair_health_pct": 12.4,
+      "bad_very_bad_health_pct": 7.2,
+      "no_cars_pct": 16.4,
+      "one_car_pct": 46.5,
+      "two_plus_cars_pct": 37,
+      "work_from_home_pct": 19.4,
+      "drive_to_work_pct": 70.6,
+      "public_transport_pct": 4.2,
+      "walk_cycle_pct": 4.9,
+      "urban_rural": "Urban",
+      "deprivation_rank": 176,
+      "income_rank": 160,
+      "employment_rank": 212,
+      "health_rank": 96,
+      "education_rank": 103,
+      "access_rank": 211,
+      "living_env_rank": 449,
+      "crime_rank": 140,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6589,
+              54.6149
+            ],
+            [
+              -5.6608,
+              54.6181
+            ],
+            [
+              -5.6692,
+              54.623
+            ],
+            [
+              -5.6762,
+              54.6235
+            ],
+            [
+              -5.6742,
+              54.6293
+            ],
+            [
+              -5.6767,
+              54.6374
+            ],
+            [
+              -5.676,
+              54.6457
+            ],
+            [
+              -5.6692,
+              54.6462
+            ],
+            [
+              -5.664,
+              54.6393
+            ],
+            [
+              -5.6534,
+              54.6408
+            ],
+            [
+              -5.6496,
+              54.6363
+            ],
+            [
+              -5.6338,
+              54.6413
+            ],
+            [
+              -5.6198,
+              54.6392
+            ],
+            [
+              -5.6231,
+              54.6317
+            ],
+            [
+              -5.6222,
+              54.6291
+            ],
+            [
+              -5.6329,
+              54.6289
+            ],
+            [
+              -5.6394,
+              54.6223
+            ],
+            [
+              -5.6589,
+              54.6149
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ballyholme",
+      "name": "BALLYHOLME",
+      "lgd": "Ards and North Down",
+      "population": 3891,
+      "male": 1881,
+      "female": 2010,
+      "age_0_15_pct": 16.2,
+      "age_16_64_pct": 57.6,
+      "age_65_plus_pct": 26.2,
+      "catholic_pct": 8.8,
+      "protestant_other_christian_pct": 52.9,
+      "other_religion_pct": 1.1,
+      "no_religion_pct": 35.9,
+      "born_ni_pct": 84.4,
+      "born_other_uk_pct": 10.3,
+      "born_roi_pct": 2.1,
+      "born_elsewhere_pct": 3.2,
+      "owner_occupied_pct": 80.2,
+      "social_rented_pct": 6.9,
+      "private_rented_pct": 12.9,
+      "no_qualifications_pct": 12.7,
+      "level_1_2_pct": 20.9,
+      "level_3_pct": 14.5,
+      "level_4_plus_pct": 49.7,
+      "very_good_good_health_pct": 81.4,
+      "fair_health_pct": 13.1,
+      "bad_very_bad_health_pct": 5.5,
+      "no_cars_pct": 11.5,
+      "one_car_pct": 43.1,
+      "two_plus_cars_pct": 45.4,
+      "work_from_home_pct": 28.7,
+      "drive_to_work_pct": 62.7,
+      "public_transport_pct": 3.8,
+      "walk_cycle_pct": 3.4,
+      "urban_rural": "Urban",
+      "deprivation_rank": 438,
+      "income_rank": 337,
+      "employment_rank": 414,
+      "health_rank": 440,
+      "education_rank": 441,
+      "access_rank": 407,
+      "living_env_rank": 223,
+      "crime_rank": 386,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6343,
+              54.6582
+            ],
+            [
+              -5.644,
+              54.6601
+            ],
+            [
+              -5.653,
+              54.6618
+            ],
+            [
+              -5.6507,
+              54.6634
+            ],
+            [
+              -5.651,
+              54.6656
+            ],
+            [
+              -5.6415,
+              54.6663
+            ],
+            [
+              -5.6338,
+              54.6696
+            ],
+            [
+              -5.6342,
+              54.6679
+            ],
+            [
+              -5.6329,
+              54.6681
+            ],
+            [
+              -5.6297,
+              54.6617
+            ],
+            [
+              -5.6343,
+              54.6582
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ballymagee",
+      "name": "BALLYMAGEE",
+      "lgd": "Ards and North Down",
+      "population": 4119,
+      "male": 2040,
+      "female": 2079,
+      "age_0_15_pct": 18.9,
+      "age_16_64_pct": 67.5,
+      "age_65_plus_pct": 13.6,
+      "catholic_pct": 9,
+      "protestant_other_christian_pct": 56.5,
+      "other_religion_pct": 0.8,
+      "no_religion_pct": 32.5,
+      "born_ni_pct": 87.4,
+      "born_other_uk_pct": 8.1,
+      "born_roi_pct": 0.8,
+      "born_elsewhere_pct": 3.8,
+      "owner_occupied_pct": 91.6,
+      "social_rented_pct": 0.6,
+      "private_rented_pct": 7.8,
+      "no_qualifications_pct": 11.8,
+      "level_1_2_pct": 26.9,
+      "level_3_pct": 19.2,
+      "level_4_plus_pct": 40.1,
+      "very_good_good_health_pct": 84.2,
+      "fair_health_pct": 11.2,
+      "bad_very_bad_health_pct": 4.6,
+      "no_cars_pct": 5.1,
+      "one_car_pct": 30.7,
+      "two_plus_cars_pct": 64.3,
+      "work_from_home_pct": 23.9,
+      "drive_to_work_pct": 69.5,
+      "public_transport_pct": 3.3,
+      "walk_cycle_pct": 2,
+      "urban_rural": "Urban",
+      "deprivation_rank": 439,
+      "income_rank": 374,
+      "employment_rank": 411,
+      "health_rank": 427,
+      "education_rank": 418,
+      "access_rank": 251,
+      "living_env_rank": 447,
+      "crime_rank": 429,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.643,
+              54.639
+            ],
+            [
+              -5.6454,
+              54.6432
+            ],
+            [
+              -5.6413,
+              54.6444
+            ],
+            [
+              -5.6417,
+              54.6457
+            ],
+            [
+              -5.6335,
+              54.6464
+            ],
+            [
+              -5.6315,
+              54.6491
+            ],
+            [
+              -5.6261,
+              54.6478
+            ],
+            [
+              -5.6245,
+              54.6451
+            ],
+            [
+              -5.6123,
+              54.6472
+            ],
+            [
+              -5.6195,
+              54.6418
+            ],
+            [
+              -5.6198,
+              54.6392
+            ],
+            [
+              -5.6337,
+              54.6413
+            ],
+            [
+              -5.643,
+              54.639
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ballywalter",
+      "name": "BALLYWALTER",
+      "lgd": "Ards and North Down",
+      "population": 4647,
+      "male": 2278,
+      "female": 2369,
+      "age_0_15_pct": 16.6,
+      "age_16_64_pct": 59.2,
+      "age_65_plus_pct": 24.2,
+      "catholic_pct": 4.4,
+      "protestant_other_christian_pct": 66.8,
+      "other_religion_pct": 0.9,
+      "no_religion_pct": 26.2,
+      "born_ni_pct": 87.8,
+      "born_other_uk_pct": 9.1,
+      "born_roi_pct": 0.9,
+      "born_elsewhere_pct": 2.2,
+      "owner_occupied_pct": 71.3,
+      "social_rented_pct": 11.5,
+      "private_rented_pct": 17.2,
+      "no_qualifications_pct": 24.3,
+      "level_1_2_pct": 31.2,
+      "level_3_pct": 17.2,
+      "level_4_plus_pct": 24.4,
+      "very_good_good_health_pct": 72.5,
+      "fair_health_pct": 17.6,
+      "bad_very_bad_health_pct": 9.9,
+      "no_cars_pct": 12.5,
+      "one_car_pct": 43.4,
+      "two_plus_cars_pct": 44.2,
+      "work_from_home_pct": 18.8,
+      "drive_to_work_pct": 72.9,
+      "public_transport_pct": 2.8,
+      "walk_cycle_pct": 4.2,
+      "urban_rural": "Rural",
+      "deprivation_rank": 157,
+      "income_rank": 98,
+      "employment_rank": 159,
+      "health_rank": 234,
+      "education_rank": 119,
+      "access_rank": 135,
+      "living_env_rank": 414,
+      "crime_rank": 213,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.5902,
+              54.4782
+            ],
+            [
+              -5.6067,
+              54.5187
+            ],
+            [
+              -5.5913,
+              54.5183
+            ],
+            [
+              -5.5903,
+              54.5357
+            ],
+            [
+              -5.5854,
+              54.5379
+            ],
+            [
+              -5.5793,
+              54.547
+            ],
+            [
+              -5.5723,
+              54.5439
+            ],
+            [
+              -5.5607,
+              54.5419
+            ],
+            [
+              -5.5566,
+              54.5421
+            ],
+            [
+              -5.5576,
+              54.5428
+            ],
+            [
+              -5.5554,
+              54.5447
+            ],
+            [
+              -5.5444,
+              54.5478
+            ],
+            [
+              -5.5387,
+              54.5451
+            ],
+            [
+              -5.5361,
+              54.5467
+            ],
+            [
+              -5.5373,
+              54.5474
+            ],
+            [
+              -5.5348,
+              54.5535
+            ],
+            [
+              -5.5362,
+              54.5534
+            ],
+            [
+              -5.5364,
+              54.5573
+            ],
+            [
+              -5.5282,
+              54.5582
+            ],
+            [
+              -5.5231,
+              54.5635
+            ],
+            [
+              -5.5173,
+              54.5628
+            ],
+            [
+              -5.509,
+              54.5652
+            ],
+            [
+              -5.5074,
+              54.5613
+            ],
+            [
+              -5.5023,
+              54.5639
+            ],
+            [
+              -5.4953,
+              54.5648
+            ],
+            [
+              -5.494,
+              54.5647
+            ],
+            [
+              -5.4938,
+              54.5617
+            ],
+            [
+              -5.4777,
+              54.5588
+            ],
+            [
+              -5.4847,
+              54.5506
+            ],
+            [
+              -5.4858,
+              54.5466
+            ],
+            [
+              -5.4832,
+              54.5455
+            ],
+            [
+              -5.4845,
+              54.5449
+            ],
+            [
+              -5.483,
+              54.5435
+            ],
+            [
+              -5.4796,
+              54.544
+            ],
+            [
+              -5.483,
+              54.5422
+            ],
+            [
+              -5.4838,
+              54.5398
+            ],
+            [
+              -5.4817,
+              54.5339
+            ],
+            [
+              -5.4774,
+              54.5302
+            ],
+            [
+              -5.4739,
+              54.5303
+            ],
+            [
+              -5.4698,
+              54.5257
+            ],
+            [
+              -5.4717,
+              54.5171
+            ],
+            [
+              -5.468,
+              54.5138
+            ],
+            [
+              -5.4632,
+              54.4979
+            ],
+            [
+              -5.4653,
+              54.4973
+            ],
+            [
+              -5.463,
+              54.495
+            ],
+            [
+              -5.4687,
+              54.4962
+            ],
+            [
+              -5.4705,
+              54.4952
+            ],
+            [
+              -5.4692,
+              54.4928
+            ],
+            [
+              -5.4715,
+              54.4913
+            ],
+            [
+              -5.4764,
+              54.4913
+            ],
+            [
+              -5.4892,
+              54.4957
+            ],
+            [
+              -5.4958,
+              54.4963
+            ],
+            [
+              -5.4957,
+              54.4943
+            ],
+            [
+              -5.4974,
+              54.4939
+            ],
+            [
+              -5.5057,
+              54.4952
+            ],
+            [
+              -5.511,
+              54.4932
+            ],
+            [
+              -5.5237,
+              54.4987
+            ],
+            [
+              -5.5339,
+              54.498
+            ],
+            [
+              -5.5386,
+              54.4951
+            ],
+            [
+              -5.5902,
+              54.4782
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "bloomfield",
+      "name": "BLOOMFIELD",
+      "lgd": "Ards and North Down",
+      "population": 4188,
+      "male": 2031,
+      "female": 2157,
+      "age_0_15_pct": 21,
+      "age_16_64_pct": 62,
+      "age_65_plus_pct": 17,
+      "catholic_pct": 6.9,
+      "protestant_other_christian_pct": 54.9,
+      "other_religion_pct": 1.7,
+      "no_religion_pct": 34.8,
+      "born_ni_pct": 87.3,
+      "born_other_uk_pct": 6.8,
+      "born_roi_pct": 0.8,
+      "born_elsewhere_pct": 5.1,
+      "owner_occupied_pct": 62,
+      "social_rented_pct": 20.5,
+      "private_rented_pct": 17.6,
+      "no_qualifications_pct": 20.7,
+      "level_1_2_pct": 31,
+      "level_3_pct": 18.1,
+      "level_4_plus_pct": 27.9,
+      "very_good_good_health_pct": 76.7,
+      "fair_health_pct": 15.1,
+      "bad_very_bad_health_pct": 8.3,
+      "no_cars_pct": 18.5,
+      "one_car_pct": 43.7,
+      "two_plus_cars_pct": 37.8,
+      "work_from_home_pct": 19.9,
+      "drive_to_work_pct": 68.7,
+      "public_transport_pct": 3.3,
+      "walk_cycle_pct": 7,
+      "urban_rural": "Urban",
+      "deprivation_rank": 251,
+      "income_rank": 207,
+      "employment_rank": 243,
+      "health_rank": 190,
+      "education_rank": 164,
+      "access_rank": 332,
+      "living_env_rank": 444,
+      "crime_rank": 99,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6496,
+              54.6364
+            ],
+            [
+              -5.6534,
+              54.6408
+            ],
+            [
+              -5.664,
+              54.6393
+            ],
+            [
+              -5.6692,
+              54.6462
+            ],
+            [
+              -5.6434,
+              54.652
+            ],
+            [
+              -5.6435,
+              54.6499
+            ],
+            [
+              -5.6474,
+              54.6461
+            ],
+            [
+              -5.643,
+              54.639
+            ],
+            [
+              -5.6496,
+              54.6364
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "broadway",
+      "name": "BROADWAY",
+      "lgd": "Ards and North Down",
+      "population": 3421,
+      "male": 1669,
+      "female": 1752,
+      "age_0_15_pct": 14.4,
+      "age_16_64_pct": 53,
+      "age_65_plus_pct": 32.6,
+      "catholic_pct": 9.4,
+      "protestant_other_christian_pct": 53.7,
+      "other_religion_pct": 0.8,
+      "no_religion_pct": 34.2,
+      "born_ni_pct": 84.8,
+      "born_other_uk_pct": 8.9,
+      "born_roi_pct": 1.7,
+      "born_elsewhere_pct": 4.6,
+      "owner_occupied_pct": 81.2,
+      "social_rented_pct": 6.8,
+      "private_rented_pct": 11.9,
+      "no_qualifications_pct": 15.6,
+      "level_1_2_pct": 25,
+      "level_3_pct": 14.3,
+      "level_4_plus_pct": 41.8,
+      "very_good_good_health_pct": 78,
+      "fair_health_pct": 15.7,
+      "bad_very_bad_health_pct": 6.3,
+      "no_cars_pct": 14.3,
+      "one_car_pct": 41.8,
+      "two_plus_cars_pct": 43.9,
+      "work_from_home_pct": 27.6,
+      "drive_to_work_pct": 61.2,
+      "public_transport_pct": 4.2,
+      "walk_cycle_pct": 5.5,
+      "urban_rural": "Urban",
+      "deprivation_rank": 426,
+      "income_rank": 388,
+      "employment_rank": 374,
+      "health_rank": 362,
+      "education_rank": 326,
+      "access_rank": 394,
+      "living_env_rank": 429,
+      "crime_rank": 390,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6593,
+              54.6629
+            ],
+            [
+              -5.644,
+              54.6601
+            ],
+            [
+              -5.6333,
+              54.658
+            ],
+            [
+              -5.6404,
+              54.6529
+            ],
+            [
+              -5.6514,
+              54.6501
+            ],
+            [
+              -5.665,
+              54.6591
+            ],
+            [
+              -5.6593,
+              54.6629
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "bryansburn",
+      "name": "BRYANSBURN",
+      "lgd": "Ards and North Down",
+      "population": 3759,
+      "male": 1847,
+      "female": 1912,
+      "age_0_15_pct": 15.3,
+      "age_16_64_pct": 53.7,
+      "age_65_plus_pct": 30.9,
+      "catholic_pct": 22.1,
+      "protestant_other_christian_pct": 45.6,
+      "other_religion_pct": 0.8,
+      "no_religion_pct": 30,
+      "born_ni_pct": 83.9,
+      "born_other_uk_pct": 9.8,
+      "born_roi_pct": 2.3,
+      "born_elsewhere_pct": 4,
+      "owner_occupied_pct": 80.7,
+      "social_rented_pct": 5.1,
+      "private_rented_pct": 14.2,
+      "no_qualifications_pct": 15.5,
+      "level_1_2_pct": 20.3,
+      "level_3_pct": 12.7,
+      "level_4_plus_pct": 49.2,
+      "very_good_good_health_pct": 81.5,
+      "fair_health_pct": 13.7,
+      "bad_very_bad_health_pct": 4.8,
+      "no_cars_pct": 13.4,
+      "one_car_pct": 41.3,
+      "two_plus_cars_pct": 45.3,
+      "work_from_home_pct": 31.6,
+      "drive_to_work_pct": 56.8,
+      "public_transport_pct": 6,
+      "walk_cycle_pct": 4.2,
+      "urban_rural": "Urban",
+      "deprivation_rank": 430,
+      "income_rank": 378,
+      "employment_rank": 381,
+      "health_rank": 449,
+      "education_rank": 454,
+      "access_rank": 359,
+      "living_env_rank": 146,
+      "crime_rank": 299,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6837,
+              54.656
+            ],
+            [
+              -5.6904,
+              54.6575
+            ],
+            [
+              -5.6957,
+              54.6628
+            ],
+            [
+              -5.6879,
+              54.668
+            ],
+            [
+              -5.6798,
+              54.6688
+            ],
+            [
+              -5.6804,
+              54.6671
+            ],
+            [
+              -5.6774,
+              54.6648
+            ],
+            [
+              -5.6774,
+              54.6607
+            ],
+            [
+              -5.6749,
+              54.6608
+            ],
+            [
+              -5.6749,
+              54.6584
+            ],
+            [
+              -5.6837,
+              54.656
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "carrowdore",
+      "name": "CARROWDORE",
+      "lgd": "Ards and North Down",
+      "population": 4260,
+      "male": 2100,
+      "female": 2160,
+      "age_0_15_pct": 17.2,
+      "age_16_64_pct": 61.7,
+      "age_65_plus_pct": 21.1,
+      "catholic_pct": 3.1,
+      "protestant_other_christian_pct": 68,
+      "other_religion_pct": 0.8,
+      "no_religion_pct": 26.9,
+      "born_ni_pct": 89.4,
+      "born_other_uk_pct": 7,
+      "born_roi_pct": 1,
+      "born_elsewhere_pct": 2.5,
+      "owner_occupied_pct": 71,
+      "social_rented_pct": 13.2,
+      "private_rented_pct": 15.8,
+      "no_qualifications_pct": 23.7,
+      "level_1_2_pct": 30.4,
+      "level_3_pct": 15.9,
+      "level_4_plus_pct": 27.6,
+      "very_good_good_health_pct": 74.9,
+      "fair_health_pct": 15.5,
+      "bad_very_bad_health_pct": 9.5,
+      "no_cars_pct": 11.9,
+      "one_car_pct": 38.4,
+      "two_plus_cars_pct": 49.7,
+      "work_from_home_pct": 21.6,
+      "drive_to_work_pct": 68.9,
+      "public_transport_pct": 2.9,
+      "walk_cycle_pct": 5,
+      "urban_rural": "Rural",
+      "deprivation_rank": 207,
+      "income_rank": 180,
+      "employment_rank": 192,
+      "health_rank": 220,
+      "education_rank": 188,
+      "access_rank": 120,
+      "living_env_rank": 303,
+      "crime_rank": 223,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.5439,
+              54.6034
+            ],
+            [
+              -5.5242,
+              54.6081
+            ],
+            [
+              -5.5256,
+              54.6066
+            ],
+            [
+              -5.5238,
+              54.6054
+            ],
+            [
+              -5.5245,
+              54.6034
+            ],
+            [
+              -5.5199,
+              54.5957
+            ],
+            [
+              -5.5061,
+              54.5909
+            ],
+            [
+              -5.5044,
+              54.5888
+            ],
+            [
+              -5.5037,
+              54.582
+            ],
+            [
+              -5.501,
+              54.5793
+            ],
+            [
+              -5.4944,
+              54.5766
+            ],
+            [
+              -5.4893,
+              54.5777
+            ],
+            [
+              -5.4848,
+              54.5709
+            ],
+            [
+              -5.4788,
+              54.5666
+            ],
+            [
+              -5.4772,
+              54.564
+            ],
+            [
+              -5.4774,
+              54.559
+            ],
+            [
+              -5.4938,
+              54.5617
+            ],
+            [
+              -5.4942,
+              54.5647
+            ],
+            [
+              -5.5023,
+              54.5639
+            ],
+            [
+              -5.5074,
+              54.5613
+            ],
+            [
+              -5.509,
+              54.5652
+            ],
+            [
+              -5.5173,
+              54.5628
+            ],
+            [
+              -5.5231,
+              54.5635
+            ],
+            [
+              -5.5282,
+              54.5582
+            ],
+            [
+              -5.5364,
+              54.5573
+            ],
+            [
+              -5.5362,
+              54.5534
+            ],
+            [
+              -5.5348,
+              54.5535
+            ],
+            [
+              -5.5373,
+              54.5474
+            ],
+            [
+              -5.5361,
+              54.5467
+            ],
+            [
+              -5.5387,
+              54.5451
+            ],
+            [
+              -5.5444,
+              54.5478
+            ],
+            [
+              -5.5554,
+              54.5447
+            ],
+            [
+              -5.5576,
+              54.5428
+            ],
+            [
+              -5.5566,
+              54.5421
+            ],
+            [
+              -5.5607,
+              54.5419
+            ],
+            [
+              -5.5723,
+              54.5439
+            ],
+            [
+              -5.5793,
+              54.547
+            ],
+            [
+              -5.5854,
+              54.5379
+            ],
+            [
+              -5.5903,
+              54.5357
+            ],
+            [
+              -5.5913,
+              54.5183
+            ],
+            [
+              -5.6067,
+              54.5187
+            ],
+            [
+              -5.6365,
+              54.5372
+            ],
+            [
+              -5.6514,
+              54.5584
+            ],
+            [
+              -5.6401,
+              54.5649
+            ],
+            [
+              -5.6324,
+              54.5729
+            ],
+            [
+              -5.624,
+              54.5776
+            ],
+            [
+              -5.6236,
+              54.5789
+            ],
+            [
+              -5.6257,
+              54.5795
+            ],
+            [
+              -5.623,
+              54.5821
+            ],
+            [
+              -5.6172,
+              54.5804
+            ],
+            [
+              -5.6172,
+              54.5849
+            ],
+            [
+              -5.6145,
+              54.5863
+            ],
+            [
+              -5.608,
+              54.5826
+            ],
+            [
+              -5.6028,
+              54.5846
+            ],
+            [
+              -5.5961,
+              54.5836
+            ],
+            [
+              -5.596,
+              54.5871
+            ],
+            [
+              -5.5926,
+              54.591
+            ],
+            [
+              -5.5885,
+              54.5912
+            ],
+            [
+              -5.5866,
+              54.5955
+            ],
+            [
+              -5.5772,
+              54.5918
+            ],
+            [
+              -5.5708,
+              54.5952
+            ],
+            [
+              -5.559,
+              54.5933
+            ],
+            [
+              -5.5506,
+              54.596
+            ],
+            [
+              -5.5439,
+              54.6034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "castle",
+      "name": "CASTLE",
+      "lgd": "Ards and North Down",
+      "population": 4029,
+      "male": 1926,
+      "female": 2103,
+      "age_0_15_pct": 16,
+      "age_16_64_pct": 60.7,
+      "age_65_plus_pct": 23.2,
+      "catholic_pct": 8.2,
+      "protestant_other_christian_pct": 52.6,
+      "other_religion_pct": 1.2,
+      "no_religion_pct": 36.4,
+      "born_ni_pct": 87.2,
+      "born_other_uk_pct": 6,
+      "born_roi_pct": 0.9,
+      "born_elsewhere_pct": 5.9,
+      "owner_occupied_pct": 57.4,
+      "social_rented_pct": 25.6,
+      "private_rented_pct": 17.1,
+      "no_qualifications_pct": 24.8,
+      "level_1_2_pct": 30.3,
+      "level_3_pct": 15.9,
+      "level_4_plus_pct": 26.6,
+      "very_good_good_health_pct": 72.3,
+      "fair_health_pct": 18.4,
+      "bad_very_bad_health_pct": 9.3,
+      "no_cars_pct": 28.9,
+      "one_car_pct": 45.5,
+      "two_plus_cars_pct": 25.6,
+      "work_from_home_pct": 18.1,
+      "drive_to_work_pct": 60,
+      "public_transport_pct": 7,
+      "walk_cycle_pct": 13.5,
+      "urban_rural": "Urban",
+      "deprivation_rank": 146,
+      "income_rank": 100,
+      "employment_rank": 161,
+      "health_rank": 167,
+      "education_rank": 76,
+      "access_rank": 415,
+      "living_env_rank": 382,
+      "crime_rank": 97,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6514,
+              54.6501
+            ],
+            [
+              -5.676,
+              54.6457
+            ],
+            [
+              -5.6756,
+              54.6557
+            ],
+            [
+              -5.6681,
+              54.6607
+            ],
+            [
+              -5.6632,
+              54.6609
+            ],
+            [
+              -5.665,
+              54.6591
+            ],
+            [
+              -5.6514,
+              54.6501
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "clandeboye",
+      "name": "CLANDEBOYE",
+      "lgd": "Ards and North Down",
+      "population": 4189,
+      "male": 2066,
+      "female": 2123,
+      "age_0_15_pct": 18.9,
+      "age_16_64_pct": 68,
+      "age_65_plus_pct": 13.1,
+      "catholic_pct": 8.5,
+      "protestant_other_christian_pct": 60,
+      "other_religion_pct": 1.4,
+      "no_religion_pct": 29.2,
+      "born_ni_pct": 87.6,
+      "born_other_uk_pct": 6.5,
+      "born_roi_pct": 0.7,
+      "born_elsewhere_pct": 5.2,
+      "owner_occupied_pct": 83.8,
+      "social_rented_pct": 4.7,
+      "private_rented_pct": 11.5,
+      "no_qualifications_pct": 13.4,
+      "level_1_2_pct": 25.1,
+      "level_3_pct": 18,
+      "level_4_plus_pct": 42,
+      "very_good_good_health_pct": 86.3,
+      "fair_health_pct": 9.5,
+      "bad_very_bad_health_pct": 4.2,
+      "no_cars_pct": 6.7,
+      "one_car_pct": 32.3,
+      "two_plus_cars_pct": 61.1,
+      "work_from_home_pct": 24.8,
+      "drive_to_work_pct": 69.5,
+      "public_transport_pct": 2.6,
+      "walk_cycle_pct": 2.5,
+      "urban_rural": "Urban",
+      "deprivation_rank": 400,
+      "income_rank": 332,
+      "employment_rank": 407,
+      "health_rank": 415,
+      "education_rank": 415,
+      "access_rank": 189,
+      "living_env_rank": 354,
+      "crime_rank": 220,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.7553,
+              54.6169
+            ],
+            [
+              -5.7633,
+              54.6206
+            ],
+            [
+              -5.7662,
+              54.624
+            ],
+            [
+              -5.7627,
+              54.6298
+            ],
+            [
+              -5.7584,
+              54.6307
+            ],
+            [
+              -5.7601,
+              54.6377
+            ],
+            [
+              -5.7598,
+              54.6455
+            ],
+            [
+              -5.7535,
+              54.6547
+            ],
+            [
+              -5.7383,
+              54.6481
+            ],
+            [
+              -5.7215,
+              54.6467
+            ],
+            [
+              -5.7212,
+              54.6479
+            ],
+            [
+              -5.7167,
+              54.6484
+            ],
+            [
+              -5.7137,
+              54.6467
+            ],
+            [
+              -5.7026,
+              54.6468
+            ],
+            [
+              -5.6935,
+              54.6429
+            ],
+            [
+              -5.6766,
+              54.6403
+            ],
+            [
+              -5.6743,
+              54.6306
+            ],
+            [
+              -5.6762,
+              54.6235
+            ],
+            [
+              -5.6857,
+              54.6178
+            ],
+            [
+              -5.7067,
+              54.6202
+            ],
+            [
+              -5.7086,
+              54.6237
+            ],
+            [
+              -5.7119,
+              54.6254
+            ],
+            [
+              -5.7268,
+              54.6277
+            ],
+            [
+              -5.7406,
+              54.625
+            ],
+            [
+              -5.7447,
+              54.623
+            ],
+            [
+              -5.7447,
+              54.6194
+            ],
+            [
+              -5.7485,
+              54.6202
+            ],
+            [
+              -5.7553,
+              54.6169
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "comber-north",
+      "name": "COMBER NORTH",
+      "lgd": "Ards and North Down",
+      "population": 3790,
+      "male": 1827,
+      "female": 1963,
+      "age_0_15_pct": 16.9,
+      "age_16_64_pct": 60.7,
+      "age_65_plus_pct": 22.4,
+      "catholic_pct": 4,
+      "protestant_other_christian_pct": 67.5,
+      "other_religion_pct": 0.9,
+      "no_religion_pct": 26.4,
+      "born_ni_pct": 91.7,
+      "born_other_uk_pct": 4.2,
+      "born_roi_pct": 0.6,
+      "born_elsewhere_pct": 3.4,
+      "owner_occupied_pct": 69.8,
+      "social_rented_pct": 21.1,
+      "private_rented_pct": 9.1,
+      "no_qualifications_pct": 24.6,
+      "level_1_2_pct": 32.9,
+      "level_3_pct": 15.6,
+      "level_4_plus_pct": 24.1,
+      "very_good_good_health_pct": 75.4,
+      "fair_health_pct": 16.1,
+      "bad_very_bad_health_pct": 8.5,
+      "no_cars_pct": 13.6,
+      "one_car_pct": 42.9,
+      "two_plus_cars_pct": 43.5,
+      "work_from_home_pct": 15.7,
+      "drive_to_work_pct": 74.5,
+      "public_transport_pct": 3.8,
+      "walk_cycle_pct": 4.9,
+      "urban_rural": "Urban",
+      "deprivation_rank": 311,
+      "income_rank": 352,
+      "employment_rank": 278,
+      "health_rank": 226,
+      "education_rank": 148,
+      "access_rank": 243,
+      "living_env_rank": 454,
+      "crime_rank": 256,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.7332,
+              54.5492
+            ],
+            [
+              -5.7367,
+              54.5525
+            ],
+            [
+              -5.7421,
+              54.5513
+            ],
+            [
+              -5.7447,
+              54.5521
+            ],
+            [
+              -5.7457,
+              54.5551
+            ],
+            [
+              -5.7543,
+              54.5568
+            ],
+            [
+              -5.7616,
+              54.5655
+            ],
+            [
+              -5.7471,
+              54.5677
+            ],
+            [
+              -5.748,
+              54.5689
+            ],
+            [
+              -5.7468,
+              54.57
+            ],
+            [
+              -5.7415,
+              54.5719
+            ],
+            [
+              -5.7282,
+              54.573
+            ],
+            [
+              -5.7266,
+              54.5691
+            ],
+            [
+              -5.7158,
+              54.5702
+            ],
+            [
+              -5.7165,
+              54.5667
+            ],
+            [
+              -5.7144,
+              54.5633
+            ],
+            [
+              -5.7098,
+              54.5647
+            ],
+            [
+              -5.6984,
+              54.5638
+            ],
+            [
+              -5.6976,
+              54.5612
+            ],
+            [
+              -5.6995,
+              54.559
+            ],
+            [
+              -5.7131,
+              54.5573
+            ],
+            [
+              -5.7128,
+              54.5556
+            ],
+            [
+              -5.717,
+              54.5541
+            ],
+            [
+              -5.7231,
+              54.5546
+            ],
+            [
+              -5.7332,
+              54.5492
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "comber-south",
+      "name": "COMBER SOUTH",
+      "lgd": "Ards and North Down",
+      "population": 3786,
+      "male": 1847,
+      "female": 1939,
+      "age_0_15_pct": 16.4,
+      "age_16_64_pct": 60.1,
+      "age_65_plus_pct": 23.5,
+      "catholic_pct": 5.8,
+      "protestant_other_christian_pct": 66.2,
+      "other_religion_pct": 0.8,
+      "no_religion_pct": 25.8,
+      "born_ni_pct": 91.6,
+      "born_other_uk_pct": 4.4,
+      "born_roi_pct": 1,
+      "born_elsewhere_pct": 3,
+      "owner_occupied_pct": 71.2,
+      "social_rented_pct": 17.3,
+      "private_rented_pct": 11.5,
+      "no_qualifications_pct": 20.1,
+      "level_1_2_pct": 27.7,
+      "level_3_pct": 13,
+      "level_4_plus_pct": 37.1,
+      "very_good_good_health_pct": 80.1,
+      "fair_health_pct": 14,
+      "bad_very_bad_health_pct": 5.9,
+      "no_cars_pct": 13.5,
+      "one_car_pct": 35.4,
+      "two_plus_cars_pct": 51.1,
+      "work_from_home_pct": 24.1,
+      "drive_to_work_pct": 67.6,
+      "public_transport_pct": 3,
+      "walk_cycle_pct": 4.1,
+      "urban_rural": "Mixed",
+      "deprivation_rank": 372,
+      "income_rank": 292,
+      "employment_rank": 359,
+      "health_rank": 376,
+      "education_rank": 391,
+      "access_rank": 185,
+      "living_env_rank": 415,
+      "crime_rank": 182,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.723,
+              54.4892
+            ],
+            [
+              -5.7282,
+              54.4904
+            ],
+            [
+              -5.7268,
+              54.4929
+            ],
+            [
+              -5.7287,
+              54.4956
+            ],
+            [
+              -5.7349,
+              54.4925
+            ],
+            [
+              -5.7362,
+              54.4949
+            ],
+            [
+              -5.7442,
+              54.4915
+            ],
+            [
+              -5.7547,
+              54.4959
+            ],
+            [
+              -5.7573,
+              54.494
+            ],
+            [
+              -5.775,
+              54.4918
+            ],
+            [
+              -5.7782,
+              54.5049
+            ],
+            [
+              -5.7819,
+              54.5075
+            ],
+            [
+              -5.7813,
+              54.5112
+            ],
+            [
+              -5.7753,
+              54.5164
+            ],
+            [
+              -5.7683,
+              54.5188
+            ],
+            [
+              -5.7663,
+              54.5239
+            ],
+            [
+              -5.7682,
+              54.5246
+            ],
+            [
+              -5.7683,
+              54.5287
+            ],
+            [
+              -5.7663,
+              54.5292
+            ],
+            [
+              -5.7664,
+              54.5349
+            ],
+            [
+              -5.7579,
+              54.5385
+            ],
+            [
+              -5.757,
+              54.54
+            ],
+            [
+              -5.76,
+              54.5413
+            ],
+            [
+              -5.758,
+              54.5441
+            ],
+            [
+              -5.7462,
+              54.5503
+            ],
+            [
+              -5.7367,
+              54.5525
+            ],
+            [
+              -5.7332,
+              54.5492
+            ],
+            [
+              -5.7231,
+              54.5546
+            ],
+            [
+              -5.717,
+              54.5541
+            ],
+            [
+              -5.7128,
+              54.5556
+            ],
+            [
+              -5.7131,
+              54.5573
+            ],
+            [
+              -5.7004,
+              54.5596
+            ],
+            [
+              -5.6514,
+              54.5584
+            ],
+            [
+              -5.6365,
+              54.5372
+            ],
+            [
+              -5.7002,
+              54.5384
+            ],
+            [
+              -5.7038,
+              54.5343
+            ],
+            [
+              -5.7099,
+              54.5326
+            ],
+            [
+              -5.7098,
+              54.53
+            ],
+            [
+              -5.7118,
+              54.5292
+            ],
+            [
+              -5.7101,
+              54.5258
+            ],
+            [
+              -5.7116,
+              54.5242
+            ],
+            [
+              -5.7098,
+              54.5234
+            ],
+            [
+              -5.7099,
+              54.5172
+            ],
+            [
+              -5.7077,
+              54.5155
+            ],
+            [
+              -5.7068,
+              54.5118
+            ],
+            [
+              -5.7124,
+              54.5092
+            ],
+            [
+              -5.7118,
+              54.507
+            ],
+            [
+              -5.7137,
+              54.505
+            ],
+            [
+              -5.7105,
+              54.5011
+            ],
+            [
+              -5.7144,
+              54.4983
+            ],
+            [
+              -5.7089,
+              54.496
+            ],
+            [
+              -5.7085,
+              54.4942
+            ],
+            [
+              -5.7153,
+              54.4914
+            ],
+            [
+              -5.7199,
+              54.4919
+            ],
+            [
+              -5.723,
+              54.4892
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "comber-west",
+      "name": "COMBER WEST",
+      "lgd": "Ards and North Down",
+      "population": 3807,
+      "male": 1855,
+      "female": 1952,
+      "age_0_15_pct": 13.5,
+      "age_16_64_pct": 59.5,
+      "age_65_plus_pct": 27,
+      "catholic_pct": 4.8,
+      "protestant_other_christian_pct": 63.8,
+      "other_religion_pct": 1.2,
+      "no_religion_pct": 28.8,
+      "born_ni_pct": 88.9,
+      "born_other_uk_pct": 5.2,
+      "born_roi_pct": 0.9,
+      "born_elsewhere_pct": 5.1,
+      "owner_occupied_pct": 73.4,
+      "social_rented_pct": 7.3,
+      "private_rented_pct": 19.3,
+      "no_qualifications_pct": 19.2,
+      "level_1_2_pct": 27.8,
+      "level_3_pct": 14.6,
+      "level_4_plus_pct": 35.5,
+      "very_good_good_health_pct": 78.6,
+      "fair_health_pct": 15.3,
+      "bad_very_bad_health_pct": 6.1,
+      "no_cars_pct": 11.8,
+      "one_car_pct": 43.1,
+      "two_plus_cars_pct": 45.1,
+      "work_from_home_pct": 23.1,
+      "drive_to_work_pct": 68.6,
+      "public_transport_pct": 3.4,
+      "walk_cycle_pct": 4.1,
+      "urban_rural": "Mixed",
+      "deprivation_rank": 396,
+      "income_rank": 290,
+      "employment_rank": 418,
+      "health_rank": 426,
+      "education_rank": 431,
+      "access_rank": 260,
+      "living_env_rank": 163,
+      "crime_rank": 273,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.781,
+              54.5357
+            ],
+            [
+              -5.7858,
+              54.5365
+            ],
+            [
+              -5.7841,
+              54.5398
+            ],
+            [
+              -5.7867,
+              54.5434
+            ],
+            [
+              -5.7931,
+              54.5459
+            ],
+            [
+              -5.7931,
+              54.5485
+            ],
+            [
+              -5.7909,
+              54.5501
+            ],
+            [
+              -5.7964,
+              54.552
+            ],
+            [
+              -5.7992,
+              54.5603
+            ],
+            [
+              -5.7951,
+              54.5648
+            ],
+            [
+              -5.7873,
+              54.5671
+            ],
+            [
+              -5.7904,
+              54.5689
+            ],
+            [
+              -5.7891,
+              54.5709
+            ],
+            [
+              -5.7845,
+              54.572
+            ],
+            [
+              -5.7804,
+              54.5754
+            ],
+            [
+              -5.7732,
+              54.5705
+            ],
+            [
+              -5.7679,
+              54.5704
+            ],
+            [
+              -5.7673,
+              54.5679
+            ],
+            [
+              -5.759,
+              54.5626
+            ],
+            [
+              -5.7555,
+              54.5575
+            ],
+            [
+              -5.7457,
+              54.5551
+            ],
+            [
+              -5.7447,
+              54.5521
+            ],
+            [
+              -5.7421,
+              54.5513
+            ],
+            [
+              -5.7511,
+              54.5486
+            ],
+            [
+              -5.7566,
+              54.5453
+            ],
+            [
+              -5.76,
+              54.5413
+            ],
+            [
+              -5.757,
+              54.54
+            ],
+            [
+              -5.7585,
+              54.5381
+            ],
+            [
+              -5.7623,
+              54.5371
+            ],
+            [
+              -5.768,
+              54.5408
+            ],
+            [
+              -5.7724,
+              54.5409
+            ],
+            [
+              -5.7746,
+              54.5374
+            ],
+            [
+              -5.781,
+              54.5357
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "conway-square",
+      "name": "CONWAY SQUARE",
+      "lgd": "Ards and North Down",
+      "population": 4317,
+      "male": 2087,
+      "female": 2230,
+      "age_0_15_pct": 14.9,
+      "age_16_64_pct": 63.5,
+      "age_65_plus_pct": 21.6,
+      "catholic_pct": 10.6,
+      "protestant_other_christian_pct": 50.4,
+      "other_religion_pct": 3.3,
+      "no_religion_pct": 34.1,
+      "born_ni_pct": 83.8,
+      "born_other_uk_pct": 5.8,
+      "born_roi_pct": 0.8,
+      "born_elsewhere_pct": 9.6,
+      "owner_occupied_pct": 42.6,
+      "social_rented_pct": 24.7,
+      "private_rented_pct": 32.8,
+      "no_qualifications_pct": 30.9,
+      "level_1_2_pct": 30.7,
+      "level_3_pct": 15.5,
+      "level_4_plus_pct": 19.9,
+      "very_good_good_health_pct": 68.3,
+      "fair_health_pct": 20.4,
+      "bad_very_bad_health_pct": 11.3,
+      "no_cars_pct": 37.9,
+      "one_car_pct": 46.5,
+      "two_plus_cars_pct": 15.7,
+      "work_from_home_pct": 14.5,
+      "drive_to_work_pct": 61.3,
+      "public_transport_pct": 7,
+      "walk_cycle_pct": 16.1,
+      "urban_rural": "Urban",
+      "deprivation_rank": 32,
+      "income_rank": 31,
+      "employment_rank": 49,
+      "health_rank": 62,
+      "education_rank": 48,
+      "access_rank": 435,
+      "living_env_rank": 153,
+      "crime_rank": 24,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6776,
+              54.573
+            ],
+            [
+              -5.6983,
+              54.5756
+            ],
+            [
+              -5.6981,
+              54.5873
+            ],
+            [
+              -5.7113,
+              54.5892
+            ],
+            [
+              -5.7011,
+              54.5933
+            ],
+            [
+              -5.7011,
+              54.5975
+            ],
+            [
+              -5.7029,
+              54.598
+            ],
+            [
+              -5.6861,
+              54.5973
+            ],
+            [
+              -5.6896,
+              54.5904
+            ],
+            [
+              -5.6718,
+              54.5792
+            ],
+            [
+              -5.6776,
+              54.573
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "cronstown",
+      "name": "CRONSTOWN",
+      "lgd": "Ards and North Down",
+      "population": 4479,
+      "male": 2201,
+      "female": 2280,
+      "age_0_15_pct": 17.5,
+      "age_16_64_pct": 65.9,
+      "age_65_plus_pct": 16.5,
+      "catholic_pct": 5.4,
+      "protestant_other_christian_pct": 59.9,
+      "other_religion_pct": 1.6,
+      "no_religion_pct": 31.7,
+      "born_ni_pct": 91.3,
+      "born_other_uk_pct": 4.4,
+      "born_roi_pct": 0.8,
+      "born_elsewhere_pct": 3.5,
+      "owner_occupied_pct": 92.5,
+      "social_rented_pct": 0.4,
+      "private_rented_pct": 7.2,
+      "no_qualifications_pct": 15.7,
+      "level_1_2_pct": 31.1,
+      "level_3_pct": 20.9,
+      "level_4_plus_pct": 30.1,
+      "very_good_good_health_pct": 82.7,
+      "fair_health_pct": 11.9,
+      "bad_very_bad_health_pct": 5.4,
+      "no_cars_pct": 4.2,
+      "one_car_pct": 35.2,
+      "two_plus_cars_pct": 60.5,
+      "work_from_home_pct": 19.2,
+      "drive_to_work_pct": 73.9,
+      "public_transport_pct": 3.2,
+      "walk_cycle_pct": 2.6,
+      "urban_rural": "Urban",
+      "deprivation_rank": 428,
+      "income_rank": 371,
+      "employment_rank": 420,
+      "health_rank": 381,
+      "education_rank": 380,
+      "access_rank": 312,
+      "living_env_rank": 243,
+      "crime_rank": 437,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6654,
+              54.5949
+            ],
+            [
+              -5.6712,
+              54.5957
+            ],
+            [
+              -5.672,
+              54.5982
+            ],
+            [
+              -5.6749,
+              54.5984
+            ],
+            [
+              -5.6768,
+              54.5999
+            ],
+            [
+              -5.6759,
+              54.6025
+            ],
+            [
+              -5.6794,
+              54.6022
+            ],
+            [
+              -5.6805,
+              54.6042
+            ],
+            [
+              -5.6843,
+              54.6044
+            ],
+            [
+              -5.6827,
+              54.6083
+            ],
+            [
+              -5.6755,
+              54.6066
+            ],
+            [
+              -5.6618,
+              54.6076
+            ],
+            [
+              -5.6661,
+              54.602
+            ],
+            [
+              -5.6641,
+              54.6013
+            ],
+            [
+              -5.6654,
+              54.5949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "cultra",
+      "name": "CULTRA",
+      "lgd": "Ards and North Down",
+      "population": 4007,
+      "male": 1975,
+      "female": 2033,
+      "age_0_15_pct": 15.8,
+      "age_16_64_pct": 57.1,
+      "age_65_plus_pct": 27.1,
+      "catholic_pct": 17.5,
+      "protestant_other_christian_pct": 49.8,
+      "other_religion_pct": 1.8,
+      "no_religion_pct": 29.8,
+      "born_ni_pct": 80.2,
+      "born_other_uk_pct": 9.9,
+      "born_roi_pct": 2.9,
+      "born_elsewhere_pct": 7.1,
+      "owner_occupied_pct": 89.9,
+      "social_rented_pct": 1.1,
+      "private_rented_pct": 9,
+      "no_qualifications_pct": 10.6,
+      "level_1_2_pct": 18.7,
+      "level_3_pct": 11.5,
+      "level_4_plus_pct": 56.8,
+      "very_good_good_health_pct": 87.5,
+      "fair_health_pct": 9.1,
+      "bad_very_bad_health_pct": 3.4,
+      "no_cars_pct": 4.7,
+      "one_car_pct": 34.3,
+      "two_plus_cars_pct": 61.1,
+      "work_from_home_pct": 35.8,
+      "drive_to_work_pct": 55,
+      "public_transport_pct": 4.9,
+      "walk_cycle_pct": 3,
+      "urban_rural": "Mixed",
+      "deprivation_rank": 385,
+      "income_rank": 406,
+      "employment_rank": 434,
+      "health_rank": 458,
+      "education_rank": 456,
+      "access_rank": 179,
+      "living_env_rank": 10,
+      "crime_rank": 382,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.7622,
+              54.6118
+            ],
+            [
+              -5.7645,
+              54.6132
+            ],
+            [
+              -5.7705,
+              54.612
+            ],
+            [
+              -5.771,
+              54.6133
+            ],
+            [
+              -5.7808,
+              54.6131
+            ],
+            [
+              -5.7864,
+              54.6196
+            ],
+            [
+              -5.7984,
+              54.6174
+            ],
+            [
+              -5.8011,
+              54.6212
+            ],
+            [
+              -5.7998,
+              54.6306
+            ],
+            [
+              -5.805,
+              54.6323
+            ],
+            [
+              -5.8098,
+              54.6359
+            ],
+            [
+              -5.8086,
+              54.6369
+            ],
+            [
+              -5.815,
+              54.6388
+            ],
+            [
+              -5.8084,
+              54.6429
+            ],
+            [
+              -5.8171,
+              54.6454
+            ],
+            [
+              -5.8298,
+              54.6453
+            ],
+            [
+              -5.8224,
+              54.6516
+            ],
+            [
+              -5.8054,
+              54.659
+            ],
+            [
+              -5.7917,
+              54.6615
+            ],
+            [
+              -5.777,
+              54.6663
+            ],
+            [
+              -5.7736,
+              54.666
+            ],
+            [
+              -5.7613,
+              54.6708
+            ],
+            [
+              -5.757,
+              54.6666
+            ],
+            [
+              -5.7649,
+              54.6622
+            ],
+            [
+              -5.7647,
+              54.6567
+            ],
+            [
+              -5.7535,
+              54.6547
+            ],
+            [
+              -5.7598,
+              54.6455
+            ],
+            [
+              -5.7601,
+              54.6377
+            ],
+            [
+              -5.7584,
+              54.6307
+            ],
+            [
+              -5.7627,
+              54.6298
+            ],
+            [
+              -5.7662,
+              54.624
+            ],
+            [
+              -5.7633,
+              54.6206
+            ],
+            [
+              -5.7553,
+              54.6169
+            ],
+            [
+              -5.7572,
+              54.6138
+            ],
+            [
+              -5.7622,
+              54.6118
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "donaghadee",
+      "name": "DONAGHADEE",
+      "lgd": "Ards and North Down",
+      "population": 3972,
+      "male": 1884,
+      "female": 2088,
+      "age_0_15_pct": 14.8,
+      "age_16_64_pct": 58.3,
+      "age_65_plus_pct": 26.9,
+      "catholic_pct": 4.9,
+      "protestant_other_christian_pct": 61.1,
+      "other_religion_pct": 0.8,
+      "no_religion_pct": 31.7,
+      "born_ni_pct": 86.4,
+      "born_other_uk_pct": 8.5,
+      "born_roi_pct": 1.1,
+      "born_elsewhere_pct": 4,
+      "owner_occupied_pct": 74.3,
+      "social_rented_pct": 10.3,
+      "private_rented_pct": 15.4,
+      "no_qualifications_pct": 19.7,
+      "level_1_2_pct": 28.3,
+      "level_3_pct": 17.7,
+      "level_4_plus_pct": 31.5,
+      "very_good_good_health_pct": 75.3,
+      "fair_health_pct": 16.2,
+      "bad_very_bad_health_pct": 8.6,
+      "no_cars_pct": 17.8,
+      "one_car_pct": 40.9,
+      "two_plus_cars_pct": 41.2,
+      "work_from_home_pct": 21.8,
+      "drive_to_work_pct": 67.3,
+      "public_transport_pct": 3.5,
+      "walk_cycle_pct": 5.9,
+      "urban_rural": "Urban",
+      "deprivation_rank": 331,
+      "income_rank": 277,
+      "employment_rank": 285,
+      "health_rank": 297,
+      "education_rank": 249,
+      "access_rank": 220,
+      "living_env_rank": 438,
+      "crime_rank": 241,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.5395,
+              54.6236
+            ],
+            [
+              -5.5428,
+              54.6264
+            ],
+            [
+              -5.5399,
+              54.6268
+            ],
+            [
+              -5.5444,
+              54.6306
+            ],
+            [
+              -5.5432,
+              54.6312
+            ],
+            [
+              -5.5444,
+              54.6327
+            ],
+            [
+              -5.5469,
+              54.6334
+            ],
+            [
+              -5.5469,
+              54.6351
+            ],
+            [
+              -5.5454,
+              54.6372
+            ],
+            [
+              -5.537,
+              54.6388
+            ],
+            [
+              -5.5399,
+              54.6424
+            ],
+            [
+              -5.5336,
+              54.643
+            ],
+            [
+              -5.5302,
+              54.645
+            ],
+            [
+              -5.5316,
+              54.6434
+            ],
+            [
+              -5.5295,
+              54.6423
+            ],
+            [
+              -5.5298,
+              54.64
+            ],
+            [
+              -5.5279,
+              54.64
+            ],
+            [
+              -5.5296,
+              54.639
+            ],
+            [
+              -5.5279,
+              54.6363
+            ],
+            [
+              -5.5317,
+              54.6343
+            ],
+            [
+              -5.5306,
+              54.6331
+            ],
+            [
+              -5.5318,
+              54.6294
+            ],
+            [
+              -5.5303,
+              54.6285
+            ],
+            [
+              -5.5331,
+              54.627
+            ],
+            [
+              -5.5334,
+              54.625
+            ],
+            [
+              -5.5395,
+              54.6236
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "glen",
+      "name": "GLEN",
+      "lgd": "Ards and North Down",
+      "population": 4521,
+      "male": 2173,
+      "female": 2348,
+      "age_0_15_pct": 18.1,
+      "age_16_64_pct": 61,
+      "age_65_plus_pct": 20.9,
+      "catholic_pct": 7.4,
+      "protestant_other_christian_pct": 58.1,
+      "other_religion_pct": 1.2,
+      "no_religion_pct": 32.2,
+      "born_ni_pct": 90.3,
+      "born_other_uk_pct": 4.7,
+      "born_roi_pct": 0.9,
+      "born_elsewhere_pct": 4.1,
+      "owner_occupied_pct": 73.4,
+      "social_rented_pct": 17.9,
+      "private_rented_pct": 8.7,
+      "no_qualifications_pct": 17.8,
+      "level_1_2_pct": 30.3,
+      "level_3_pct": 15.8,
+      "level_4_plus_pct": 33.9,
+      "very_good_good_health_pct": 79,
+      "fair_health_pct": 14.7,
+      "bad_very_bad_health_pct": 6.4,
+      "no_cars_pct": 14.4,
+      "one_car_pct": 41.1,
+      "two_plus_cars_pct": 44.5,
+      "work_from_home_pct": 21.1,
+      "drive_to_work_pct": 67.9,
+      "public_transport_pct": 3.7,
+      "walk_cycle_pct": 6.4,
+      "urban_rural": "Urban",
+      "deprivation_rank": 349,
+      "income_rank": 293,
+      "employment_rank": 339,
+      "health_rank": 335,
+      "education_rank": 219,
+      "access_rank": 272,
+      "living_env_rank": 370,
+      "crime_rank": 167,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6861,
+              54.5973
+            ],
+            [
+              -5.7029,
+              54.598
+            ],
+            [
+              -5.7104,
+              54.6119
+            ],
+            [
+              -5.7156,
+              54.6096
+            ],
+            [
+              -5.721,
+              54.6128
+            ],
+            [
+              -5.7215,
+              54.6138
+            ],
+            [
+              -5.7195,
+              54.6145
+            ],
+            [
+              -5.7216,
+              54.617
+            ],
+            [
+              -5.7236,
+              54.6172
+            ],
+            [
+              -5.7268,
+              54.6221
+            ],
+            [
+              -5.7213,
+              54.6267
+            ],
+            [
+              -5.7158,
+              54.6267
+            ],
+            [
+              -5.7086,
+              54.6237
+            ],
+            [
+              -5.7067,
+              54.6202
+            ],
+            [
+              -5.6857,
+              54.6178
+            ],
+            [
+              -5.6787,
+              54.6213
+            ],
+            [
+              -5.6784,
+              54.623
+            ],
+            [
+              -5.6745,
+              54.6238
+            ],
+            [
+              -5.6737,
+              54.6172
+            ],
+            [
+              -5.6762,
+              54.6123
+            ],
+            [
+              -5.6764,
+              54.607
+            ],
+            [
+              -5.6827,
+              54.6083
+            ],
+            [
+              -5.6843,
+              54.6044
+            ],
+            [
+              -5.6805,
+              54.6042
+            ],
+            [
+              -5.6795,
+              54.6019
+            ],
+            [
+              -5.6861,
+              54.5973
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "gregstown",
+      "name": "GREGSTOWN",
+      "lgd": "Ards and North Down",
+      "population": 3183,
+      "male": 1528,
+      "female": 1655,
+      "age_0_15_pct": 13.6,
+      "age_16_64_pct": 60.6,
+      "age_65_plus_pct": 25.7,
+      "catholic_pct": 7.5,
+      "protestant_other_christian_pct": 63.7,
+      "other_religion_pct": 1.5,
+      "no_religion_pct": 25.5,
+      "born_ni_pct": 90.3,
+      "born_other_uk_pct": 4.3,
+      "born_roi_pct": 1,
+      "born_elsewhere_pct": 4.4,
+      "owner_occupied_pct": 70.4,
+      "social_rented_pct": 18.2,
+      "private_rented_pct": 11.4,
+      "no_qualifications_pct": 26.2,
+      "level_1_2_pct": 29.3,
+      "level_3_pct": 15.4,
+      "level_4_plus_pct": 26.4,
+      "very_good_good_health_pct": 72.3,
+      "fair_health_pct": 17.4,
+      "bad_very_bad_health_pct": 10.4,
+      "no_cars_pct": 21.6,
+      "one_car_pct": 41.2,
+      "two_plus_cars_pct": 37.2,
+      "work_from_home_pct": 17.9,
+      "drive_to_work_pct": 67.9,
+      "public_transport_pct": 4.4,
+      "walk_cycle_pct": 8.8,
+      "urban_rural": "Urban",
+      "deprivation_rank": 265,
+      "income_rank": 209,
+      "employment_rank": 208,
+      "health_rank": 211,
+      "education_rank": 158,
+      "access_rank": 413,
+      "living_env_rank": 408,
+      "crime_rank": 257,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6718,
+              54.5792
+            ],
+            [
+              -5.6896,
+              54.5904
+            ],
+            [
+              -5.6868,
+              54.5942
+            ],
+            [
+              -5.6818,
+              54.5966
+            ],
+            [
+              -5.675,
+              54.596
+            ],
+            [
+              -5.6778,
+              54.5918
+            ],
+            [
+              -5.6696,
+              54.5864
+            ],
+            [
+              -5.6718,
+              54.5792
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "groomsport",
+      "name": "GROOMSPORT",
+      "lgd": "Ards and North Down",
+      "population": 3630,
+      "male": 1697,
+      "female": 1933,
+      "age_0_15_pct": 13.1,
+      "age_16_64_pct": 50.6,
+      "age_65_plus_pct": 36.3,
+      "catholic_pct": 6.5,
+      "protestant_other_christian_pct": 60.6,
+      "other_religion_pct": 0.8,
+      "no_religion_pct": 30.4,
+      "born_ni_pct": 86.6,
+      "born_other_uk_pct": 8.7,
+      "born_roi_pct": 1.6,
+      "born_elsewhere_pct": 3.1,
+      "owner_occupied_pct": 85.3,
+      "social_rented_pct": 4.9,
+      "private_rented_pct": 9.8,
+      "no_qualifications_pct": 18.3,
+      "level_1_2_pct": 29.7,
+      "level_3_pct": 13.8,
+      "level_4_plus_pct": 34.8,
+      "very_good_good_health_pct": 75.4,
+      "fair_health_pct": 17.3,
+      "bad_very_bad_health_pct": 7.3,
+      "no_cars_pct": 9.2,
+      "one_car_pct": 46.1,
+      "two_plus_cars_pct": 44.7,
+      "work_from_home_pct": 25,
+      "drive_to_work_pct": 67.4,
+      "public_transport_pct": 3.7,
+      "walk_cycle_pct": 2.9,
+      "urban_rural": "Mixed",
+      "deprivation_rank": 411,
+      "income_rank": 380,
+      "employment_rank": 358,
+      "health_rank": 368,
+      "education_rank": 381,
+      "access_rank": 223,
+      "living_env_rank": 453,
+      "crime_rank": 411,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.5895,
+              54.6489
+            ],
+            [
+              -5.5923,
+              54.6511
+            ],
+            [
+              -5.6079,
+              54.6504
+            ],
+            [
+              -5.6069,
+              54.6544
+            ],
+            [
+              -5.6095,
+              54.6588
+            ],
+            [
+              -5.6094,
+              54.6617
+            ],
+            [
+              -5.6109,
+              54.6623
+            ],
+            [
+              -5.616,
+              54.661
+            ],
+            [
+              -5.6213,
+              54.6617
+            ],
+            [
+              -5.6285,
+              54.659
+            ],
+            [
+              -5.6306,
+              54.6603
+            ],
+            [
+              -5.6298,
+              54.6622
+            ],
+            [
+              -5.6329,
+              54.6681
+            ],
+            [
+              -5.6342,
+              54.6679
+            ],
+            [
+              -5.6331,
+              54.6692
+            ],
+            [
+              -5.635,
+              54.6697
+            ],
+            [
+              -5.6343,
+              54.6721
+            ],
+            [
+              -5.6365,
+              54.6727
+            ],
+            [
+              -5.6359,
+              54.6759
+            ],
+            [
+              -5.6373,
+              54.6783
+            ],
+            [
+              -5.628,
+              54.6801
+            ],
+            [
+              -5.6288,
+              54.6793
+            ],
+            [
+              -5.6247,
+              54.6778
+            ],
+            [
+              -5.6209,
+              54.6797
+            ],
+            [
+              -5.6222,
+              54.6772
+            ],
+            [
+              -5.6178,
+              54.6762
+            ],
+            [
+              -5.6164,
+              54.6774
+            ],
+            [
+              -5.6154,
+              54.6756
+            ],
+            [
+              -5.6103,
+              54.6749
+            ],
+            [
+              -5.6028,
+              54.6775
+            ],
+            [
+              -5.5995,
+              54.6767
+            ],
+            [
+              -5.5974,
+              54.6787
+            ],
+            [
+              -5.5955,
+              54.6764
+            ],
+            [
+              -5.5931,
+              54.6767
+            ],
+            [
+              -5.5914,
+              54.6744
+            ],
+            [
+              -5.5895,
+              54.6746
+            ],
+            [
+              -5.5908,
+              54.6715
+            ],
+            [
+              -5.588,
+              54.6684
+            ],
+            [
+              -5.5932,
+              54.6673
+            ],
+            [
+              -5.587,
+              54.667
+            ],
+            [
+              -5.5858,
+              54.661
+            ],
+            [
+              -5.5901,
+              54.661
+            ],
+            [
+              -5.5901,
+              54.6573
+            ],
+            [
+              -5.586,
+              54.6541
+            ],
+            [
+              -5.586,
+              54.6515
+            ],
+            [
+              -5.5838,
+              54.6514
+            ],
+            [
+              -5.5895,
+              54.6489
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "harbour",
+      "name": "HARBOUR",
+      "lgd": "Ards and North Down",
+      "population": 4752,
+      "male": 2483,
+      "female": 2269,
+      "age_0_15_pct": 12.6,
+      "age_16_64_pct": 65.5,
+      "age_65_plus_pct": 22,
+      "catholic_pct": 14.3,
+      "protestant_other_christian_pct": 41.3,
+      "other_religion_pct": 1.9,
+      "no_religion_pct": 40.5,
+      "born_ni_pct": 74.2,
+      "born_other_uk_pct": 12.7,
+      "born_roi_pct": 2.3,
+      "born_elsewhere_pct": 10.8,
+      "owner_occupied_pct": 60,
+      "social_rented_pct": 6,
+      "private_rented_pct": 34,
+      "no_qualifications_pct": 14.2,
+      "level_1_2_pct": 22.6,
+      "level_3_pct": 14.9,
+      "level_4_plus_pct": 45.4,
+      "very_good_good_health_pct": 78.6,
+      "fair_health_pct": 14.5,
+      "bad_very_bad_health_pct": 6.9,
+      "no_cars_pct": 27.3,
+      "one_car_pct": 42.5,
+      "two_plus_cars_pct": 30.2,
+      "work_from_home_pct": 27.6,
+      "drive_to_work_pct": 48.7,
+      "public_transport_pct": 7.5,
+      "walk_cycle_pct": 14.6,
+      "urban_rural": "Urban",
+      "deprivation_rank": 228,
+      "income_rank": 200,
+      "employment_rank": 233,
+      "health_rank": 328,
+      "education_rank": 353,
+      "access_rank": 418,
+      "living_env_rank": 4,
+      "crime_rank": 15,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6752,
+              54.6566
+            ],
+            [
+              -5.6764,
+              54.6572
+            ],
+            [
+              -5.6748,
+              54.6607
+            ],
+            [
+              -5.6774,
+              54.6607
+            ],
+            [
+              -5.6774,
+              54.6648
+            ],
+            [
+              -5.6804,
+              54.6671
+            ],
+            [
+              -5.6798,
+              54.6688
+            ],
+            [
+              -5.6755,
+              54.6656
+            ],
+            [
+              -5.6714,
+              54.6663
+            ],
+            [
+              -5.6747,
+              54.6656
+            ],
+            [
+              -5.6723,
+              54.663
+            ],
+            [
+              -5.6694,
+              54.6635
+            ],
+            [
+              -5.6713,
+              54.6657
+            ],
+            [
+              -5.6678,
+              54.6656
+            ],
+            [
+              -5.6724,
+              54.6673
+            ],
+            [
+              -5.6644,
+              54.6662
+            ],
+            [
+              -5.6557,
+              54.671
+            ],
+            [
+              -5.6526,
+              54.6687
+            ],
+            [
+              -5.6533,
+              54.6664
+            ],
+            [
+              -5.6506,
+              54.665
+            ],
+            [
+              -5.653,
+              54.6618
+            ],
+            [
+              -5.6593,
+              54.6629
+            ],
+            [
+              -5.662,
+              54.6611
+            ],
+            [
+              -5.6681,
+              54.6607
+            ],
+            [
+              -5.6752,
+              54.6566
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "helens-bay",
+      "name": "HELEN'S BAY",
+      "lgd": "Ards and North Down",
+      "population": 3901,
+      "male": 1845,
+      "female": 2053,
+      "age_0_15_pct": 15,
+      "age_16_64_pct": 51.5,
+      "age_65_plus_pct": 33.4,
+      "catholic_pct": 10.5,
+      "protestant_other_christian_pct": 55.1,
+      "other_religion_pct": 1.6,
+      "no_religion_pct": 31.2,
+      "born_ni_pct": 82.2,
+      "born_other_uk_pct": 10.7,
+      "born_roi_pct": 2.5,
+      "born_elsewhere_pct": 4.6,
+      "owner_occupied_pct": 83,
+      "social_rented_pct": 9,
+      "private_rented_pct": 8,
+      "no_qualifications_pct": 12.3,
+      "level_1_2_pct": 20.5,
+      "level_3_pct": 12.4,
+      "level_4_plus_pct": 51.6,
+      "very_good_good_health_pct": 82.2,
+      "fair_health_pct": 13.2,
+      "bad_very_bad_health_pct": 4.7,
+      "no_cars_pct": 7.1,
+      "one_car_pct": 41.6,
+      "two_plus_cars_pct": 51.3,
+      "work_from_home_pct": 33.7,
+      "drive_to_work_pct": 57.2,
+      "public_transport_pct": 4.6,
+      "walk_cycle_pct": 2.3,
+      "urban_rural": "Mixed",
+      "deprivation_rank": 442,
+      "income_rank": 445,
+      "employment_rank": 446,
+      "health_rank": 457,
+      "education_rank": 458,
+      "access_rank": 182,
+      "living_env_rank": 199,
+      "crime_rank": 371,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.7292,
+              54.6468
+            ],
+            [
+              -5.7392,
+              54.6484
+            ],
+            [
+              -5.7579,
+              54.6562
+            ],
+            [
+              -5.7647,
+              54.6567
+            ],
+            [
+              -5.7649,
+              54.6622
+            ],
+            [
+              -5.757,
+              54.6666
+            ],
+            [
+              -5.7613,
+              54.6708
+            ],
+            [
+              -5.741,
+              54.6776
+            ],
+            [
+              -5.7386,
+              54.6766
+            ],
+            [
+              -5.7386,
+              54.674
+            ],
+            [
+              -5.7338,
+              54.6719
+            ],
+            [
+              -5.7305,
+              54.6726
+            ],
+            [
+              -5.729,
+              54.6703
+            ],
+            [
+              -5.7207,
+              54.667
+            ],
+            [
+              -5.6979,
+              54.6684
+            ],
+            [
+              -5.6928,
+              54.6658
+            ],
+            [
+              -5.6964,
+              54.6633
+            ],
+            [
+              -5.6977,
+              54.6603
+            ],
+            [
+              -5.7186,
+              54.6608
+            ],
+            [
+              -5.7166,
+              54.6531
+            ],
+            [
+              -5.7117,
+              54.6517
+            ],
+            [
+              -5.714,
+              54.6496
+            ],
+            [
+              -5.7136,
+              54.6477
+            ],
+            [
+              -5.7292,
+              54.6468
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "holywood",
+      "name": "HOLYWOOD",
+      "lgd": "Ards and North Down",
+      "population": 4065,
+      "male": 1949,
+      "female": 2116,
+      "age_0_15_pct": 15.5,
+      "age_16_64_pct": 57.8,
+      "age_65_plus_pct": 26.7,
+      "catholic_pct": 22.7,
+      "protestant_other_christian_pct": 43.2,
+      "other_religion_pct": 1.5,
+      "no_religion_pct": 31.1,
+      "born_ni_pct": 81,
+      "born_other_uk_pct": 9.9,
+      "born_roi_pct": 3.6,
+      "born_elsewhere_pct": 5.5,
+      "owner_occupied_pct": 74.5,
+      "social_rented_pct": 12.9,
+      "private_rented_pct": 12.6,
+      "no_qualifications_pct": 14.9,
+      "level_1_2_pct": 19.7,
+      "level_3_pct": 12.8,
+      "level_4_plus_pct": 50.6,
+      "very_good_good_health_pct": 80.8,
+      "fair_health_pct": 12.5,
+      "bad_very_bad_health_pct": 6.7,
+      "no_cars_pct": 16,
+      "one_car_pct": 41.7,
+      "two_plus_cars_pct": 42.3,
+      "work_from_home_pct": 33.1,
+      "drive_to_work_pct": 52.4,
+      "public_transport_pct": 6,
+      "walk_cycle_pct": 6.7,
+      "urban_rural": "Urban",
+      "deprivation_rank": 401,
+      "income_rank": 355,
+      "employment_rank": 413,
+      "health_rank": 442,
+      "education_rank": 437,
+      "access_rank": 288,
+      "living_env_rank": 95,
+      "crime_rank": 165,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8394,
+              54.6419
+            ],
+            [
+              -5.8254,
+              54.6453
+            ],
+            [
+              -5.8171,
+              54.6454
+            ],
+            [
+              -5.8084,
+              54.6429
+            ],
+            [
+              -5.815,
+              54.6388
+            ],
+            [
+              -5.8086,
+              54.6369
+            ],
+            [
+              -5.8098,
+              54.6359
+            ],
+            [
+              -5.805,
+              54.6323
+            ],
+            [
+              -5.7998,
+              54.6306
+            ],
+            [
+              -5.8011,
+              54.6212
+            ],
+            [
+              -5.7975,
+              54.6166
+            ],
+            [
+              -5.8075,
+              54.6165
+            ],
+            [
+              -5.8146,
+              54.6137
+            ],
+            [
+              -5.8193,
+              54.6188
+            ],
+            [
+              -5.8295,
+              54.6207
+            ],
+            [
+              -5.826,
+              54.6247
+            ],
+            [
+              -5.8292,
+              54.6267
+            ],
+            [
+              -5.8212,
+              54.6342
+            ],
+            [
+              -5.8394,
+              54.6419
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "kilcooley",
+      "name": "KILCOOLEY",
+      "lgd": "Ards and North Down",
+      "population": 4425,
+      "male": 2076,
+      "female": 2349,
+      "age_0_15_pct": 20.4,
+      "age_16_64_pct": 63.6,
+      "age_65_plus_pct": 16,
+      "catholic_pct": 7.1,
+      "protestant_other_christian_pct": 54.4,
+      "other_religion_pct": 1.4,
+      "no_religion_pct": 35.9,
+      "born_ni_pct": 87,
+      "born_other_uk_pct": 7.6,
+      "born_roi_pct": 1,
+      "born_elsewhere_pct": 4.4,
+      "owner_occupied_pct": 48.8,
+      "social_rented_pct": 33.7,
+      "private_rented_pct": 17.5,
+      "no_qualifications_pct": 26.9,
+      "level_1_2_pct": 33.8,
+      "level_3_pct": 17.4,
+      "level_4_plus_pct": 19.3,
+      "very_good_good_health_pct": 71,
+      "fair_health_pct": 17.4,
+      "bad_very_bad_health_pct": 11.7,
+      "no_cars_pct": 28.8,
+      "one_car_pct": 48,
+      "two_plus_cars_pct": 23.1,
+      "work_from_home_pct": 16.1,
+      "drive_to_work_pct": 65.7,
+      "public_transport_pct": 7.9,
+      "walk_cycle_pct": 9.3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 72,
+      "income_rank": 75,
+      "employment_rank": 105,
+      "health_rank": 67,
+      "education_rank": 32,
+      "access_rank": 295,
+      "living_env_rank": 395,
+      "crime_rank": 102,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6935,
+              54.6437
+            ],
+            [
+              -5.7026,
+              54.6468
+            ],
+            [
+              -5.7137,
+              54.6467
+            ],
+            [
+              -5.714,
+              54.6496
+            ],
+            [
+              -5.7082,
+              54.6528
+            ],
+            [
+              -5.7071,
+              54.6516
+            ],
+            [
+              -5.6945,
+              54.6542
+            ],
+            [
+              -5.6869,
+              54.6483
+            ],
+            [
+              -5.6935,
+              54.6437
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "killinchy",
+      "name": "KILLINCHY",
+      "lgd": "Ards and North Down",
+      "population": 3737,
+      "male": 1861,
+      "female": 1876,
+      "age_0_15_pct": 16.1,
+      "age_16_64_pct": 59.3,
+      "age_65_plus_pct": 24.6,
+      "catholic_pct": 5.2,
+      "protestant_other_christian_pct": 64.4,
+      "other_religion_pct": 0.9,
+      "no_religion_pct": 28.1,
+      "born_ni_pct": 88.4,
+      "born_other_uk_pct": 6.8,
+      "born_roi_pct": 1.2,
+      "born_elsewhere_pct": 3.6,
+      "owner_occupied_pct": 86.8,
+      "social_rented_pct": 3.1,
+      "private_rented_pct": 10.1,
+      "no_qualifications_pct": 14.2,
+      "level_1_2_pct": 23.2,
+      "level_3_pct": 16.3,
+      "level_4_plus_pct": 44.3,
+      "very_good_good_health_pct": 83.4,
+      "fair_health_pct": 11.9,
+      "bad_very_bad_health_pct": 4.7,
+      "no_cars_pct": 6,
+      "one_car_pct": 28.3,
+      "two_plus_cars_pct": 65.6,
+      "work_from_home_pct": 29.4,
+      "drive_to_work_pct": 66.1,
+      "public_transport_pct": 1,
+      "walk_cycle_pct": 2.9,
+      "urban_rural": "Rural",
+      "deprivation_rank": 341,
+      "income_rank": 295,
+      "employment_rank": 447,
+      "health_rank": 454,
+      "education_rank": 442,
+      "access_rank": 39,
+      "living_env_rank": 41,
+      "crime_rank": 433,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.7017,
+              54.4464
+            ],
+            [
+              -5.7229,
+              54.4477
+            ],
+            [
+              -5.7328,
+              54.4541
+            ],
+            [
+              -5.7322,
+              54.4622
+            ],
+            [
+              -5.736,
+              54.4639
+            ],
+            [
+              -5.7448,
+              54.4644
+            ],
+            [
+              -5.7574,
+              54.4599
+            ],
+            [
+              -5.7617,
+              54.4644
+            ],
+            [
+              -5.7646,
+              54.4651
+            ],
+            [
+              -5.761,
+              54.4667
+            ],
+            [
+              -5.7653,
+              54.4704
+            ],
+            [
+              -5.7631,
+              54.4715
+            ],
+            [
+              -5.7644,
+              54.4774
+            ],
+            [
+              -5.7595,
+              54.4939
+            ],
+            [
+              -5.7547,
+              54.4959
+            ],
+            [
+              -5.7442,
+              54.4915
+            ],
+            [
+              -5.7362,
+              54.4949
+            ],
+            [
+              -5.7349,
+              54.4925
+            ],
+            [
+              -5.7287,
+              54.4956
+            ],
+            [
+              -5.7268,
+              54.4929
+            ],
+            [
+              -5.7284,
+              54.4917
+            ],
+            [
+              -5.7279,
+              54.4901
+            ],
+            [
+              -5.7224,
+              54.4892
+            ],
+            [
+              -5.7199,
+              54.4919
+            ],
+            [
+              -5.7153,
+              54.4914
+            ],
+            [
+              -5.7085,
+              54.4942
+            ],
+            [
+              -5.7089,
+              54.496
+            ],
+            [
+              -5.7144,
+              54.4983
+            ],
+            [
+              -5.7105,
+              54.5011
+            ],
+            [
+              -5.7137,
+              54.505
+            ],
+            [
+              -5.7118,
+              54.507
+            ],
+            [
+              -5.7124,
+              54.5092
+            ],
+            [
+              -5.7068,
+              54.5118
+            ],
+            [
+              -5.7077,
+              54.5155
+            ],
+            [
+              -5.7099,
+              54.5172
+            ],
+            [
+              -5.7098,
+              54.5234
+            ],
+            [
+              -5.7116,
+              54.5242
+            ],
+            [
+              -5.7101,
+              54.5258
+            ],
+            [
+              -5.7118,
+              54.5292
+            ],
+            [
+              -5.7098,
+              54.53
+            ],
+            [
+              -5.7099,
+              54.5326
+            ],
+            [
+              -5.7038,
+              54.5343
+            ],
+            [
+              -5.7002,
+              54.5384
+            ],
+            [
+              -5.6365,
+              54.5372
+            ],
+            [
+              -5.6067,
+              54.5187
+            ],
+            [
+              -5.5902,
+              54.4782
+            ],
+            [
+              -5.5838,
+              54.4495
+            ],
+            [
+              -5.6139,
+              54.4639
+            ],
+            [
+              -5.6245,
+              54.4637
+            ],
+            [
+              -5.6282,
+              54.465
+            ],
+            [
+              -5.6326,
+              54.4641
+            ],
+            [
+              -5.6363,
+              54.4584
+            ],
+            [
+              -5.6385,
+              54.4575
+            ],
+            [
+              -5.6485,
+              54.4606
+            ],
+            [
+              -5.6573,
+              54.4598
+            ],
+            [
+              -5.6618,
+              54.4614
+            ],
+            [
+              -5.6689,
+              54.4605
+            ],
+            [
+              -5.6716,
+              54.4591
+            ],
+            [
+              -5.6703,
+              54.4583
+            ],
+            [
+              -5.6715,
+              54.4577
+            ],
+            [
+              -5.6778,
+              54.4584
+            ],
+            [
+              -5.6776,
+              54.4561
+            ],
+            [
+              -5.6811,
+              54.4553
+            ],
+            [
+              -5.6814,
+              54.4535
+            ],
+            [
+              -5.6902,
+              54.4553
+            ],
+            [
+              -5.6919,
+              54.4548
+            ],
+            [
+              -5.693,
+              54.4498
+            ],
+            [
+              -5.6993,
+              54.4506
+            ],
+            [
+              -5.7017,
+              54.4464
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "kircubbin",
+      "name": "KIRCUBBIN",
+      "lgd": "Ards and North Down",
+      "population": 4396,
+      "male": 2194,
+      "female": 2202,
+      "age_0_15_pct": 17.7,
+      "age_16_64_pct": 62.9,
+      "age_65_plus_pct": 19.4,
+      "catholic_pct": 45.2,
+      "protestant_other_christian_pct": 32.8,
+      "other_religion_pct": 0.7,
+      "no_religion_pct": 20.1,
+      "born_ni_pct": 90.5,
+      "born_other_uk_pct": 6.3,
+      "born_roi_pct": 0.9,
+      "born_elsewhere_pct": 2.2,
+      "owner_occupied_pct": 74.2,
+      "social_rented_pct": 8.2,
+      "private_rented_pct": 17.6,
+      "no_qualifications_pct": 20.8,
+      "level_1_2_pct": 33,
+      "level_3_pct": 16.7,
+      "level_4_plus_pct": 26.8,
+      "very_good_good_health_pct": 76.7,
+      "fair_health_pct": 15.9,
+      "bad_very_bad_health_pct": 7.4,
+      "no_cars_pct": 10.5,
+      "one_car_pct": 35.8,
+      "two_plus_cars_pct": 53.7,
+      "work_from_home_pct": 22,
+      "drive_to_work_pct": 71.9,
+      "public_transport_pct": 1.6,
+      "walk_cycle_pct": 3.1,
+      "urban_rural": "Rural",
+      "deprivation_rank": 244,
+      "income_rank": 215,
+      "employment_rank": 238,
+      "health_rank": 246,
+      "education_rank": 171,
+      "access_rank": 125,
+      "living_env_rank": 319,
+      "crime_rank": 234,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.5057,
+              54.4952
+            ],
+            [
+              -5.4983,
+              54.4933
+            ],
+            [
+              -5.5024,
+              54.4879
+            ],
+            [
+              -5.5071,
+              54.4845
+            ],
+            [
+              -5.5026,
+              54.4789
+            ],
+            [
+              -5.5052,
+              54.4764
+            ],
+            [
+              -5.5026,
+              54.4754
+            ],
+            [
+              -5.5024,
+              54.4717
+            ],
+            [
+              -5.4951,
+              54.4643
+            ],
+            [
+              -5.4997,
+              54.4632
+            ],
+            [
+              -5.5029,
+              54.461
+            ],
+            [
+              -5.5024,
+              54.4597
+            ],
+            [
+              -5.4965,
+              54.4583
+            ],
+            [
+              -5.4931,
+              54.453
+            ],
+            [
+              -5.4907,
+              54.4525
+            ],
+            [
+              -5.4832,
+              54.4568
+            ],
+            [
+              -5.47,
+              54.4572
+            ],
+            [
+              -5.4671,
+              54.4482
+            ],
+            [
+              -5.4619,
+              54.4477
+            ],
+            [
+              -5.4624,
+              54.4497
+            ],
+            [
+              -5.4512,
+              54.4495
+            ],
+            [
+              -5.4504,
+              54.4485
+            ],
+            [
+              -5.4533,
+              54.4444
+            ],
+            [
+              -5.4522,
+              54.4435
+            ],
+            [
+              -5.4553,
+              54.4394
+            ],
+            [
+              -5.4626,
+              54.4391
+            ],
+            [
+              -5.477,
+              54.4329
+            ],
+            [
+              -5.4802,
+              54.4275
+            ],
+            [
+              -5.4774,
+              54.4231
+            ],
+            [
+              -5.4986,
+              54.4227
+            ],
+            [
+              -5.5019,
+              54.4186
+            ],
+            [
+              -5.5115,
+              54.4148
+            ],
+            [
+              -5.5212,
+              54.4136
+            ],
+            [
+              -5.5201,
+              54.4111
+            ],
+            [
+              -5.5312,
+              54.4065
+            ],
+            [
+              -5.5469,
+              54.4061
+            ],
+            [
+              -5.5529,
+              54.4002
+            ],
+            [
+              -5.573,
+              54.3946
+            ],
+            [
+              -5.5867,
+              54.3948
+            ],
+            [
+              -5.5955,
+              54.4069
+            ],
+            [
+              -5.5838,
+              54.4495
+            ],
+            [
+              -5.5902,
+              54.4782
+            ],
+            [
+              -5.5386,
+              54.4951
+            ],
+            [
+              -5.5339,
+              54.498
+            ],
+            [
+              -5.5237,
+              54.4987
+            ],
+            [
+              -5.511,
+              54.4932
+            ],
+            [
+              -5.5057,
+              54.4952
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "loughries",
+      "name": "LOUGHRIES",
+      "lgd": "Ards and North Down",
+      "population": 4170,
+      "male": 2047,
+      "female": 2123,
+      "age_0_15_pct": 16.9,
+      "age_16_64_pct": 60.4,
+      "age_65_plus_pct": 22.7,
+      "catholic_pct": 4.1,
+      "protestant_other_christian_pct": 63.5,
+      "other_religion_pct": 0.6,
+      "no_religion_pct": 30.4,
+      "born_ni_pct": 89.3,
+      "born_other_uk_pct": 6.8,
+      "born_roi_pct": 0.9,
+      "born_elsewhere_pct": 2.9,
+      "owner_occupied_pct": 88.1,
+      "social_rented_pct": 2.4,
+      "private_rented_pct": 9.5,
+      "no_qualifications_pct": 19.1,
+      "level_1_2_pct": 30.1,
+      "level_3_pct": 16.6,
+      "level_4_plus_pct": 31.9,
+      "very_good_good_health_pct": 78.2,
+      "fair_health_pct": 14.6,
+      "bad_very_bad_health_pct": 7.2,
+      "no_cars_pct": 6,
+      "one_car_pct": 35.8,
+      "two_plus_cars_pct": 58.3,
+      "work_from_home_pct": 23.4,
+      "drive_to_work_pct": 70.5,
+      "public_transport_pct": 1.9,
+      "walk_cycle_pct": 2.5,
+      "urban_rural": "Mixed",
+      "deprivation_rank": 346,
+      "income_rank": 266,
+      "employment_rank": 371,
+      "health_rank": 356,
+      "education_rank": 224,
+      "access_rank": 170,
+      "living_env_rank": 323,
+      "crime_rank": 303,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6514,
+              54.5584
+            ],
+            [
+              -5.6779,
+              54.5726
+            ],
+            [
+              -5.6706,
+              54.5802
+            ],
+            [
+              -5.6704,
+              54.5867
+            ],
+            [
+              -5.6652,
+              54.59
+            ],
+            [
+              -5.6606,
+              54.5897
+            ],
+            [
+              -5.6589,
+              54.5919
+            ],
+            [
+              -5.6609,
+              54.5935
+            ],
+            [
+              -5.6579,
+              54.5942
+            ],
+            [
+              -5.6648,
+              54.5949
+            ],
+            [
+              -5.6641,
+              54.6013
+            ],
+            [
+              -5.6661,
+              54.602
+            ],
+            [
+              -5.6618,
+              54.6076
+            ],
+            [
+              -5.6766,
+              54.6067
+            ],
+            [
+              -5.6762,
+              54.6123
+            ],
+            [
+              -5.6737,
+              54.6172
+            ],
+            [
+              -5.6745,
+              54.6239
+            ],
+            [
+              -5.669,
+              54.6229
+            ],
+            [
+              -5.6608,
+              54.6181
+            ],
+            [
+              -5.6589,
+              54.6149
+            ],
+            [
+              -5.6456,
+              54.619
+            ],
+            [
+              -5.6359,
+              54.6246
+            ],
+            [
+              -5.6308,
+              54.6295
+            ],
+            [
+              -5.6214,
+              54.6293
+            ],
+            [
+              -5.6203,
+              54.6261
+            ],
+            [
+              -5.5969,
+              54.6226
+            ],
+            [
+              -5.594,
+              54.6265
+            ],
+            [
+              -5.5893,
+              54.6263
+            ],
+            [
+              -5.5754,
+              54.6308
+            ],
+            [
+              -5.5716,
+              54.6304
+            ],
+            [
+              -5.567,
+              54.633
+            ],
+            [
+              -5.5651,
+              54.6314
+            ],
+            [
+              -5.5665,
+              54.6301
+            ],
+            [
+              -5.5632,
+              54.63
+            ],
+            [
+              -5.5602,
+              54.6327
+            ],
+            [
+              -5.555,
+              54.6313
+            ],
+            [
+              -5.5577,
+              54.6301
+            ],
+            [
+              -5.5513,
+              54.6198
+            ],
+            [
+              -5.535,
+              54.6251
+            ],
+            [
+              -5.5334,
+              54.625
+            ],
+            [
+              -5.5341,
+              54.6224
+            ],
+            [
+              -5.5328,
+              54.6212
+            ],
+            [
+              -5.5298,
+              54.621
+            ],
+            [
+              -5.5292,
+              54.6195
+            ],
+            [
+              -5.5318,
+              54.6188
+            ],
+            [
+              -5.5323,
+              54.6171
+            ],
+            [
+              -5.5281,
+              54.6134
+            ],
+            [
+              -5.528,
+              54.6098
+            ],
+            [
+              -5.5276,
+              54.6094
+            ],
+            [
+              -5.5273,
+              54.6095
+            ],
+            [
+              -5.5269,
+              54.6096
+            ],
+            [
+              -5.5266,
+              54.6096
+            ],
+            [
+              -5.5263,
+              54.6095
+            ],
+            [
+              -5.5259,
+              54.6092
+            ],
+            [
+              -5.5257,
+              54.6086
+            ],
+            [
+              -5.5273,
+              54.6095
+            ],
+            [
+              -5.5269,
+              54.6082
+            ],
+            [
+              -5.5439,
+              54.6034
+            ],
+            [
+              -5.5506,
+              54.596
+            ],
+            [
+              -5.559,
+              54.5933
+            ],
+            [
+              -5.5708,
+              54.5952
+            ],
+            [
+              -5.5772,
+              54.5918
+            ],
+            [
+              -5.5866,
+              54.5955
+            ],
+            [
+              -5.5885,
+              54.5912
+            ],
+            [
+              -5.5926,
+              54.591
+            ],
+            [
+              -5.596,
+              54.5871
+            ],
+            [
+              -5.5961,
+              54.5836
+            ],
+            [
+              -5.6028,
+              54.5846
+            ],
+            [
+              -5.608,
+              54.5826
+            ],
+            [
+              -5.6145,
+              54.5863
+            ],
+            [
+              -5.6172,
+              54.5849
+            ],
+            [
+              -5.6172,
+              54.5804
+            ],
+            [
+              -5.623,
+              54.5821
+            ],
+            [
+              -5.6257,
+              54.5795
+            ],
+            [
+              -5.6236,
+              54.5789
+            ],
+            [
+              -5.624,
+              54.5776
+            ],
+            [
+              -5.6324,
+              54.5729
+            ],
+            [
+              -5.6401,
+              54.5649
+            ],
+            [
+              -5.6514,
+              54.5584
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "loughview",
+      "name": "LOUGHVIEW",
+      "lgd": "Ards and North Down",
+      "population": 4662,
+      "male": 2242,
+      "female": 2421,
+      "age_0_15_pct": 18.7,
+      "age_16_64_pct": 62.1,
+      "age_65_plus_pct": 19.3,
+      "catholic_pct": 20.8,
+      "protestant_other_christian_pct": 42.6,
+      "other_religion_pct": 2.1,
+      "no_religion_pct": 32.8,
+      "born_ni_pct": 77.2,
+      "born_other_uk_pct": 13.5,
+      "born_roi_pct": 2.1,
+      "born_elsewhere_pct": 7.2,
+      "owner_occupied_pct": 56.2,
+      "social_rented_pct": 22.4,
+      "private_rented_pct": 21.3,
+      "no_qualifications_pct": 20.4,
+      "level_1_2_pct": 25,
+      "level_3_pct": 13.8,
+      "level_4_plus_pct": 38.2,
+      "very_good_good_health_pct": 77.8,
+      "fair_health_pct": 14.2,
+      "bad_very_bad_health_pct": 8,
+      "no_cars_pct": 25,
+      "one_car_pct": 47,
+      "two_plus_cars_pct": 28,
+      "work_from_home_pct": 27,
+      "drive_to_work_pct": 52.2,
+      "public_transport_pct": 6.4,
+      "walk_cycle_pct": 13.3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 259,
+      "income_rank": 167,
+      "employment_rank": 333,
+      "health_rank": 274,
+      "education_rank": 180,
+      "access_rank": 284,
+      "living_env_rank": 60,
+      "crime_rank": 247,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8394,
+              54.6419
+            ],
+            [
+              -5.8212,
+              54.6342
+            ],
+            [
+              -5.8292,
+              54.6267
+            ],
+            [
+              -5.826,
+              54.6247
+            ],
+            [
+              -5.8295,
+              54.6207
+            ],
+            [
+              -5.8193,
+              54.6188
+            ],
+            [
+              -5.8146,
+              54.6137
+            ],
+            [
+              -5.8307,
+              54.6106
+            ],
+            [
+              -5.8293,
+              54.6168
+            ],
+            [
+              -5.8427,
+              54.6172
+            ],
+            [
+              -5.8477,
+              54.6195
+            ],
+            [
+              -5.8457,
+              54.6208
+            ],
+            [
+              -5.8466,
+              54.6214
+            ],
+            [
+              -5.8508,
+              54.6208
+            ],
+            [
+              -5.8585,
+              54.6236
+            ],
+            [
+              -5.8536,
+              54.6282
+            ],
+            [
+              -5.8551,
+              54.6337
+            ],
+            [
+              -5.8533,
+              54.6356
+            ],
+            [
+              -5.8471,
+              54.6401
+            ],
+            [
+              -5.8394,
+              54.6419
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "movilla",
+      "name": "MOVILLA",
+      "lgd": "Ards and North Down",
+      "population": 4244,
+      "male": 2077,
+      "female": 2167,
+      "age_0_15_pct": 20.7,
+      "age_16_64_pct": 68,
+      "age_65_plus_pct": 11.3,
+      "catholic_pct": 5.5,
+      "protestant_other_christian_pct": 57.3,
+      "other_religion_pct": 1,
+      "no_religion_pct": 34.5,
+      "born_ni_pct": 89.5,
+      "born_other_uk_pct": 5.9,
+      "born_roi_pct": 0.5,
+      "born_elsewhere_pct": 4,
+      "owner_occupied_pct": 65.1,
+      "social_rented_pct": 21,
+      "private_rented_pct": 13.9,
+      "no_qualifications_pct": 21.2,
+      "level_1_2_pct": 34,
+      "level_3_pct": 19.9,
+      "level_4_plus_pct": 23.2,
+      "very_good_good_health_pct": 77.5,
+      "fair_health_pct": 14.9,
+      "bad_very_bad_health_pct": 7.6,
+      "no_cars_pct": 15.3,
+      "one_car_pct": 44.6,
+      "two_plus_cars_pct": 40.1,
+      "work_from_home_pct": 15,
+      "drive_to_work_pct": 74.8,
+      "public_transport_pct": 4.8,
+      "walk_cycle_pct": 4.7,
+      "urban_rural": "Urban",
+      "deprivation_rank": 180,
+      "income_rank": 162,
+      "employment_rank": 169,
+      "health_rank": 172,
+      "education_rank": 73,
+      "access_rank": 285,
+      "living_env_rank": 456,
+      "crime_rank": 189,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6704,
+              54.5867
+            ],
+            [
+              -5.6778,
+              54.5918
+            ],
+            [
+              -5.675,
+              54.596
+            ],
+            [
+              -5.6818,
+              54.5966
+            ],
+            [
+              -5.6868,
+              54.5942
+            ],
+            [
+              -5.6859,
+              54.5983
+            ],
+            [
+              -5.6794,
+              54.6022
+            ],
+            [
+              -5.6761,
+              54.6025
+            ],
+            [
+              -5.6768,
+              54.5999
+            ],
+            [
+              -5.672,
+              54.5982
+            ],
+            [
+              -5.6712,
+              54.5957
+            ],
+            [
+              -5.6579,
+              54.5942
+            ],
+            [
+              -5.6609,
+              54.5935
+            ],
+            [
+              -5.6589,
+              54.5919
+            ],
+            [
+              -5.6606,
+              54.5897
+            ],
+            [
+              -5.6652,
+              54.59
+            ],
+            [
+              -5.6704,
+              54.5867
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "portaferry",
+      "name": "PORTAFERRY",
+      "lgd": "Ards and North Down",
+      "population": 3544,
+      "male": 1793,
+      "female": 1751,
+      "age_0_15_pct": 16.1,
+      "age_16_64_pct": 63,
+      "age_65_plus_pct": 21,
+      "catholic_pct": 74.3,
+      "protestant_other_christian_pct": 12.3,
+      "other_religion_pct": 0.3,
+      "no_religion_pct": 11.9,
+      "born_ni_pct": 91.1,
+      "born_other_uk_pct": 5.8,
+      "born_roi_pct": 1.3,
+      "born_elsewhere_pct": 1.7,
+      "owner_occupied_pct": 64.3,
+      "social_rented_pct": 15.5,
+      "private_rented_pct": 20.2,
+      "no_qualifications_pct": 21.2,
+      "level_1_2_pct": 33.8,
+      "level_3_pct": 14.8,
+      "level_4_plus_pct": 28.4,
+      "very_good_good_health_pct": 73.5,
+      "fair_health_pct": 15.7,
+      "bad_very_bad_health_pct": 10.8,
+      "no_cars_pct": 18.3,
+      "one_car_pct": 40.9,
+      "two_plus_cars_pct": 40.8,
+      "work_from_home_pct": 18.9,
+      "drive_to_work_pct": 69.6,
+      "public_transport_pct": 2.6,
+      "walk_cycle_pct": 8.1,
+      "urban_rural": "Rural",
+      "deprivation_rank": 155,
+      "income_rank": 235,
+      "employment_rank": 77,
+      "health_rank": 129,
+      "education_rank": 170,
+      "access_rank": 140,
+      "living_env_rank": 309,
+      "crime_rank": 227,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.497,
+              54.3331
+            ],
+            [
+              -5.516,
+              54.3243
+            ],
+            [
+              -5.5331,
+              54.3418
+            ],
+            [
+              -5.5484,
+              54.3738
+            ],
+            [
+              -5.5845,
+              54.3917
+            ],
+            [
+              -5.5867,
+              54.3948
+            ],
+            [
+              -5.573,
+              54.3946
+            ],
+            [
+              -5.5529,
+              54.4002
+            ],
+            [
+              -5.5469,
+              54.4061
+            ],
+            [
+              -5.5312,
+              54.4065
+            ],
+            [
+              -5.5201,
+              54.4111
+            ],
+            [
+              -5.5212,
+              54.4136
+            ],
+            [
+              -5.5115,
+              54.4148
+            ],
+            [
+              -5.5019,
+              54.4186
+            ],
+            [
+              -5.4986,
+              54.4227
+            ],
+            [
+              -5.4855,
+              54.4234
+            ],
+            [
+              -5.4836,
+              54.4222
+            ],
+            [
+              -5.4726,
+              54.4237
+            ],
+            [
+              -5.4721,
+              54.4188
+            ],
+            [
+              -5.4683,
+              54.4186
+            ],
+            [
+              -5.4628,
+              54.4114
+            ],
+            [
+              -5.464,
+              54.4105
+            ],
+            [
+              -5.4628,
+              54.4099
+            ],
+            [
+              -5.464,
+              54.4072
+            ],
+            [
+              -5.4627,
+              54.406
+            ],
+            [
+              -5.4642,
+              54.4044
+            ],
+            [
+              -5.4631,
+              54.404
+            ],
+            [
+              -5.4652,
+              54.403
+            ],
+            [
+              -5.464,
+              54.4023
+            ],
+            [
+              -5.4653,
+              54.4002
+            ],
+            [
+              -5.4632,
+              54.4005
+            ],
+            [
+              -5.4651,
+              54.3994
+            ],
+            [
+              -5.4636,
+              54.399
+            ],
+            [
+              -5.4644,
+              54.3971
+            ],
+            [
+              -5.4618,
+              54.397
+            ],
+            [
+              -5.4619,
+              54.394
+            ],
+            [
+              -5.4581,
+              54.393
+            ],
+            [
+              -5.4604,
+              54.391
+            ],
+            [
+              -5.4595,
+              54.3883
+            ],
+            [
+              -5.4621,
+              54.3835
+            ],
+            [
+              -5.4686,
+              54.3829
+            ],
+            [
+              -5.4703,
+              54.3814
+            ],
+            [
+              -5.4735,
+              54.3849
+            ],
+            [
+              -5.4817,
+              54.384
+            ],
+            [
+              -5.4897,
+              54.3764
+            ],
+            [
+              -5.4849,
+              54.3741
+            ],
+            [
+              -5.487,
+              54.3732
+            ],
+            [
+              -5.4863,
+              54.3718
+            ],
+            [
+              -5.4924,
+              54.3696
+            ],
+            [
+              -5.493,
+              54.3652
+            ],
+            [
+              -5.4885,
+              54.3633
+            ],
+            [
+              -5.4837,
+              54.3655
+            ],
+            [
+              -5.4803,
+              54.362
+            ],
+            [
+              -5.4807,
+              54.3585
+            ],
+            [
+              -5.4835,
+              54.3555
+            ],
+            [
+              -5.4899,
+              54.3579
+            ],
+            [
+              -5.493,
+              54.3545
+            ],
+            [
+              -5.4928,
+              54.3516
+            ],
+            [
+              -5.4982,
+              54.3515
+            ],
+            [
+              -5.4951,
+              54.3473
+            ],
+            [
+              -5.4993,
+              54.3433
+            ],
+            [
+              -5.4965,
+              54.342
+            ],
+            [
+              -5.4995,
+              54.3411
+            ],
+            [
+              -5.4996,
+              54.3381
+            ],
+            [
+              -5.4958,
+              54.3353
+            ],
+            [
+              -5.4978,
+              54.334
+            ],
+            [
+              -5.4971,
+              54.3338
+            ],
+            [
+              -5.497,
+              54.3331
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "portavogie",
+      "name": "PORTAVOGIE",
+      "lgd": "Ards and North Down",
+      "population": 3865,
+      "male": 1911,
+      "female": 1954,
+      "age_0_15_pct": 18.9,
+      "age_16_64_pct": 61.8,
+      "age_65_plus_pct": 19.3,
+      "catholic_pct": 7,
+      "protestant_other_christian_pct": 65.1,
+      "other_religion_pct": 0.9,
+      "no_religion_pct": 25.8,
+      "born_ni_pct": 89.3,
+      "born_other_uk_pct": 7.6,
+      "born_roi_pct": 0.6,
+      "born_elsewhere_pct": 2.5,
+      "owner_occupied_pct": 77,
+      "social_rented_pct": 5.9,
+      "private_rented_pct": 17,
+      "no_qualifications_pct": 26.7,
+      "level_1_2_pct": 32.8,
+      "level_3_pct": 17.8,
+      "level_4_plus_pct": 20.8,
+      "very_good_good_health_pct": 74.4,
+      "fair_health_pct": 16.7,
+      "bad_very_bad_health_pct": 8.9,
+      "no_cars_pct": 10.7,
+      "one_car_pct": 38.8,
+      "two_plus_cars_pct": 50.5,
+      "work_from_home_pct": 16.1,
+      "drive_to_work_pct": 76.7,
+      "public_transport_pct": 1.7,
+      "walk_cycle_pct": 3.9,
+      "urban_rural": "Rural",
+      "deprivation_rank": 122,
+      "income_rank": 115,
+      "employment_rank": 114,
+      "health_rank": 143,
+      "education_rank": 111,
+      "access_rank": 124,
+      "living_env_rank": 385,
+      "crime_rank": 207,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.4619,
+              54.4477
+            ],
+            [
+              -5.4671,
+              54.4482
+            ],
+            [
+              -5.47,
+              54.4572
+            ],
+            [
+              -5.4832,
+              54.4568
+            ],
+            [
+              -5.4905,
+              54.4525
+            ],
+            [
+              -5.4931,
+              54.453
+            ],
+            [
+              -5.4965,
+              54.4583
+            ],
+            [
+              -5.5024,
+              54.4597
+            ],
+            [
+              -5.5029,
+              54.461
+            ],
+            [
+              -5.4997,
+              54.4632
+            ],
+            [
+              -5.4951,
+              54.4643
+            ],
+            [
+              -5.5024,
+              54.4717
+            ],
+            [
+              -5.5026,
+              54.4754
+            ],
+            [
+              -5.5052,
+              54.4764
+            ],
+            [
+              -5.5026,
+              54.4789
+            ],
+            [
+              -5.5071,
+              54.4845
+            ],
+            [
+              -5.5024,
+              54.4879
+            ],
+            [
+              -5.4983,
+              54.4933
+            ],
+            [
+              -5.4992,
+              54.494
+            ],
+            [
+              -5.4957,
+              54.4943
+            ],
+            [
+              -5.4958,
+              54.4963
+            ],
+            [
+              -5.4898,
+              54.4958
+            ],
+            [
+              -5.4764,
+              54.4913
+            ],
+            [
+              -5.4715,
+              54.4913
+            ],
+            [
+              -5.4692,
+              54.4928
+            ],
+            [
+              -5.4704,
+              54.4953
+            ],
+            [
+              -5.463,
+              54.495
+            ],
+            [
+              -5.4653,
+              54.4973
+            ],
+            [
+              -5.4632,
+              54.4979
+            ],
+            [
+              -5.4543,
+              54.4927
+            ],
+            [
+              -5.4433,
+              54.4893
+            ],
+            [
+              -5.4387,
+              54.4902
+            ],
+            [
+              -5.4406,
+              54.4911
+            ],
+            [
+              -5.4378,
+              54.4905
+            ],
+            [
+              -5.4329,
+              54.4876
+            ],
+            [
+              -5.4338,
+              54.4845
+            ],
+            [
+              -5.4384,
+              54.4814
+            ],
+            [
+              -5.4388,
+              54.4772
+            ],
+            [
+              -5.441,
+              54.4775
+            ],
+            [
+              -5.442,
+              54.4756
+            ],
+            [
+              -5.4416,
+              54.4729
+            ],
+            [
+              -5.437,
+              54.4724
+            ],
+            [
+              -5.4357,
+              54.4705
+            ],
+            [
+              -5.4371,
+              54.4695
+            ],
+            [
+              -5.4364,
+              54.4654
+            ],
+            [
+              -5.44,
+              54.4594
+            ],
+            [
+              -5.4362,
+              54.4573
+            ],
+            [
+              -5.4387,
+              54.4578
+            ],
+            [
+              -5.4364,
+              54.457
+            ],
+            [
+              -5.4392,
+              54.4575
+            ],
+            [
+              -5.4383,
+              54.4571
+            ],
+            [
+              -5.4398,
+              54.4564
+            ],
+            [
+              -5.4356,
+              54.4571
+            ],
+            [
+              -5.4494,
+              54.452
+            ],
+            [
+              -5.4512,
+              54.4495
+            ],
+            [
+              -5.4624,
+              54.4497
+            ],
+            [
+              -5.4619,
+              54.4477
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "rathgael",
+      "name": "RATHGAEL",
+      "lgd": "Ards and North Down",
+      "population": 3684,
+      "male": 1806,
+      "female": 1878,
+      "age_0_15_pct": 17,
+      "age_16_64_pct": 63.4,
+      "age_65_plus_pct": 19.6,
+      "catholic_pct": 11.7,
+      "protestant_other_christian_pct": 50.1,
+      "other_religion_pct": 1.4,
+      "no_religion_pct": 35.5,
+      "born_ni_pct": 84.8,
+      "born_other_uk_pct": 7.5,
+      "born_roi_pct": 1,
+      "born_elsewhere_pct": 6.6,
+      "owner_occupied_pct": 75.4,
+      "social_rented_pct": 4.4,
+      "private_rented_pct": 20.2,
+      "no_qualifications_pct": 19,
+      "level_1_2_pct": 30.5,
+      "level_3_pct": 17.7,
+      "level_4_plus_pct": 30.2,
+      "very_good_good_health_pct": 77.5,
+      "fair_health_pct": 15,
+      "bad_very_bad_health_pct": 7.5,
+      "no_cars_pct": 18.2,
+      "one_car_pct": 47.9,
+      "two_plus_cars_pct": 33.9,
+      "work_from_home_pct": 21.2,
+      "drive_to_work_pct": 62.4,
+      "public_transport_pct": 5.2,
+      "walk_cycle_pct": 10.3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 293,
+      "income_rank": 187,
+      "employment_rank": 293,
+      "health_rank": 301,
+      "education_rank": 228,
+      "access_rank": 392,
+      "living_env_rank": 268,
+      "crime_rank": 104,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.677,
+              54.6403
+            ],
+            [
+              -5.6875,
+              54.6419
+            ],
+            [
+              -5.6943,
+              54.6432
+            ],
+            [
+              -5.6788,
+              54.6549
+            ],
+            [
+              -5.6798,
+              54.6563
+            ],
+            [
+              -5.6764,
+              54.6572
+            ],
+            [
+              -5.6752,
+              54.6566
+            ],
+            [
+              -5.677,
+              54.6403
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "rathmore",
+      "name": "RATHMORE",
+      "lgd": "Ards and North Down",
+      "population": 3699,
+      "male": 1758,
+      "female": 1941,
+      "age_0_15_pct": 14.6,
+      "age_16_64_pct": 55,
+      "age_65_plus_pct": 30.4,
+      "catholic_pct": 11.1,
+      "protestant_other_christian_pct": 58.9,
+      "other_religion_pct": 1.1,
+      "no_religion_pct": 27.3,
+      "born_ni_pct": 87.7,
+      "born_other_uk_pct": 6.4,
+      "born_roi_pct": 1.8,
+      "born_elsewhere_pct": 4.2,
+      "owner_occupied_pct": 86.5,
+      "social_rented_pct": 0.7,
+      "private_rented_pct": 12.8,
+      "no_qualifications_pct": 16.3,
+      "level_1_2_pct": 27.7,
+      "level_3_pct": 15.6,
+      "level_4_plus_pct": 36.9,
+      "very_good_good_health_pct": 79.5,
+      "fair_health_pct": 14.7,
+      "bad_very_bad_health_pct": 5.8,
+      "no_cars_pct": 11.2,
+      "one_car_pct": 46.8,
+      "two_plus_cars_pct": 42,
+      "work_from_home_pct": 23.1,
+      "drive_to_work_pct": 66.1,
+      "public_transport_pct": 5.4,
+      "walk_cycle_pct": 4.6,
+      "urban_rural": "Urban",
+      "deprivation_rank": 425,
+      "income_rank": 416,
+      "employment_rank": 399,
+      "health_rank": 399,
+      "education_rank": 389,
+      "access_rank": 254,
+      "living_env_rank": 224,
+      "crime_rank": 383,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.7118,
+              54.6515
+            ],
+            [
+              -5.7166,
+              54.6531
+            ],
+            [
+              -5.7186,
+              54.6608
+            ],
+            [
+              -5.695,
+              54.6601
+            ],
+            [
+              -5.6965,
+              54.6569
+            ],
+            [
+              -5.6945,
+              54.6542
+            ],
+            [
+              -5.7118,
+              54.6515
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "scrabo",
+      "name": "SCRABO",
+      "lgd": "Ards and North Down",
+      "population": 4257,
+      "male": 2099,
+      "female": 2158,
+      "age_0_15_pct": 15.3,
+      "age_16_64_pct": 56,
+      "age_65_plus_pct": 28.8,
+      "catholic_pct": 6.3,
+      "protestant_other_christian_pct": 63.9,
+      "other_religion_pct": 1.3,
+      "no_religion_pct": 26.9,
+      "born_ni_pct": 89.1,
+      "born_other_uk_pct": 6.3,
+      "born_roi_pct": 1.2,
+      "born_elsewhere_pct": 3.4,
+      "owner_occupied_pct": 81.1,
+      "social_rented_pct": 7.1,
+      "private_rented_pct": 11.7,
+      "no_qualifications_pct": 19,
+      "level_1_2_pct": 25.1,
+      "level_3_pct": 12.5,
+      "level_4_plus_pct": 40.7,
+      "very_good_good_health_pct": 78.8,
+      "fair_health_pct": 14.3,
+      "bad_very_bad_health_pct": 6.9,
+      "no_cars_pct": 12.3,
+      "one_car_pct": 39.4,
+      "two_plus_cars_pct": 48.3,
+      "work_from_home_pct": 26.3,
+      "drive_to_work_pct": 63.3,
+      "public_transport_pct": 3.9,
+      "walk_cycle_pct": 5,
+      "urban_rural": "Mixed",
+      "deprivation_rank": 365,
+      "income_rank": 356,
+      "employment_rank": 349,
+      "health_rank": 351,
+      "education_rank": 376,
+      "access_rank": 215,
+      "living_env_rank": 189,
+      "crime_rank": 107,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.7619,
+              54.565
+            ],
+            [
+              -5.7673,
+              54.5679
+            ],
+            [
+              -5.7679,
+              54.5704
+            ],
+            [
+              -5.7733,
+              54.5706
+            ],
+            [
+              -5.78,
+              54.5761
+            ],
+            [
+              -5.7726,
+              54.5768
+            ],
+            [
+              -5.7702,
+              54.5754
+            ],
+            [
+              -5.7667,
+              54.5768
+            ],
+            [
+              -5.7643,
+              54.5805
+            ],
+            [
+              -5.7575,
+              54.5814
+            ],
+            [
+              -5.7577,
+              54.5848
+            ],
+            [
+              -5.7619,
+              54.5853
+            ],
+            [
+              -5.7643,
+              54.5868
+            ],
+            [
+              -5.7669,
+              54.5917
+            ],
+            [
+              -5.7691,
+              54.5914
+            ],
+            [
+              -5.7699,
+              54.5938
+            ],
+            [
+              -5.7735,
+              54.594
+            ],
+            [
+              -5.772,
+              54.5996
+            ],
+            [
+              -5.7688,
+              54.6006
+            ],
+            [
+              -5.7676,
+              54.6037
+            ],
+            [
+              -5.7683,
+              54.609
+            ],
+            [
+              -5.7706,
+              54.612
+            ],
+            [
+              -5.7645,
+              54.6132
+            ],
+            [
+              -5.7623,
+              54.6117
+            ],
+            [
+              -5.7572,
+              54.6137
+            ],
+            [
+              -5.7523,
+              54.6187
+            ],
+            [
+              -5.7485,
+              54.6202
+            ],
+            [
+              -5.7447,
+              54.6194
+            ],
+            [
+              -5.7447,
+              54.623
+            ],
+            [
+              -5.7406,
+              54.625
+            ],
+            [
+              -5.7268,
+              54.6277
+            ],
+            [
+              -5.7206,
+              54.627
+            ],
+            [
+              -5.7271,
+              54.621
+            ],
+            [
+              -5.7196,
+              54.6146
+            ],
+            [
+              -5.7215,
+              54.6138
+            ],
+            [
+              -5.721,
+              54.6128
+            ],
+            [
+              -5.7156,
+              54.6096
+            ],
+            [
+              -5.7104,
+              54.6119
+            ],
+            [
+              -5.7029,
+              54.5978
+            ],
+            [
+              -5.7007,
+              54.5964
+            ],
+            [
+              -5.7011,
+              54.5933
+            ],
+            [
+              -5.7127,
+              54.5884
+            ],
+            [
+              -5.7082,
+              54.5783
+            ],
+            [
+              -5.7188,
+              54.5778
+            ],
+            [
+              -5.7195,
+              54.5766
+            ],
+            [
+              -5.7159,
+              54.5702
+            ],
+            [
+              -5.7266,
+              54.5691
+            ],
+            [
+              -5.7273,
+              54.5727
+            ],
+            [
+              -5.7326,
+              54.573
+            ],
+            [
+              -5.7355,
+              54.5714
+            ],
+            [
+              -5.7435,
+              54.5714
+            ],
+            [
+              -5.748,
+              54.5689
+            ],
+            [
+              -5.7471,
+              54.5677
+            ],
+            [
+              -5.7533,
+              54.5659
+            ],
+            [
+              -5.7594,
+              54.5666
+            ],
+            [
+              -5.7619,
+              54.565
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "silverbirch",
+      "name": "SILVERBIRCH",
+      "lgd": "Ards and North Down",
+      "population": 3729,
+      "male": 1816,
+      "female": 1913,
+      "age_0_15_pct": 16.3,
+      "age_16_64_pct": 62.2,
+      "age_65_plus_pct": 21.6,
+      "catholic_pct": 7.9,
+      "protestant_other_christian_pct": 56.4,
+      "other_religion_pct": 1.6,
+      "no_religion_pct": 33,
+      "born_ni_pct": 87.9,
+      "born_other_uk_pct": 7.3,
+      "born_roi_pct": 1.2,
+      "born_elsewhere_pct": 3.6,
+      "owner_occupied_pct": 87.7,
+      "social_rented_pct": 0.5,
+      "private_rented_pct": 11.7,
+      "no_qualifications_pct": 14,
+      "level_1_2_pct": 31.9,
+      "level_3_pct": 19.2,
+      "level_4_plus_pct": 32.4,
+      "very_good_good_health_pct": 81,
+      "fair_health_pct": 13.4,
+      "bad_very_bad_health_pct": 5.7,
+      "no_cars_pct": 7.7,
+      "one_car_pct": 43.1,
+      "two_plus_cars_pct": 49.2,
+      "work_from_home_pct": 19.7,
+      "drive_to_work_pct": 72.6,
+      "public_transport_pct": 3.7,
+      "walk_cycle_pct": 3.1,
+      "urban_rural": "Urban",
+      "deprivation_rank": 417,
+      "income_rank": 394,
+      "employment_rank": 386,
+      "health_rank": 358,
+      "education_rank": 342,
+      "access_rank": 310,
+      "living_env_rank": 403,
+      "crime_rank": 280,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6455,
+              54.6433
+            ],
+            [
+              -5.6474,
+              54.6461
+            ],
+            [
+              -5.6435,
+              54.6499
+            ],
+            [
+              -5.6434,
+              54.652
+            ],
+            [
+              -5.6356,
+              54.6562
+            ],
+            [
+              -5.633,
+              54.6526
+            ],
+            [
+              -5.6282,
+              54.6519
+            ],
+            [
+              -5.6335,
+              54.6464
+            ],
+            [
+              -5.6417,
+              54.6457
+            ],
+            [
+              -5.6413,
+              54.6444
+            ],
+            [
+              -5.6455,
+              54.6433
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "silverstream",
+      "name": "SILVERSTREAM",
+      "lgd": "Ards and North Down",
+      "population": 3960,
+      "male": 1950,
+      "female": 2009,
+      "age_0_15_pct": 17.7,
+      "age_16_64_pct": 63.1,
+      "age_65_plus_pct": 19.2,
+      "catholic_pct": 14.8,
+      "protestant_other_christian_pct": 47.2,
+      "other_religion_pct": 1.7,
+      "no_religion_pct": 35.1,
+      "born_ni_pct": 81.3,
+      "born_other_uk_pct": 7.3,
+      "born_roi_pct": 1.1,
+      "born_elsewhere_pct": 10.4,
+      "owner_occupied_pct": 65.4,
+      "social_rented_pct": 9,
+      "private_rented_pct": 25.6,
+      "no_qualifications_pct": 20.4,
+      "level_1_2_pct": 28.2,
+      "level_3_pct": 16.2,
+      "level_4_plus_pct": 32.4,
+      "very_good_good_health_pct": 77.7,
+      "fair_health_pct": 15.3,
+      "bad_very_bad_health_pct": 6.9,
+      "no_cars_pct": 21.5,
+      "one_car_pct": 50.4,
+      "two_plus_cars_pct": 28.1,
+      "work_from_home_pct": 20.7,
+      "drive_to_work_pct": 61.6,
+      "public_transport_pct": 7.2,
+      "walk_cycle_pct": 9.5,
+      "urban_rural": "Urban",
+      "deprivation_rank": 292,
+      "income_rank": 274,
+      "employment_rank": 298,
+      "health_rank": 209,
+      "education_rank": 130,
+      "access_rank": 396,
+      "living_env_rank": 425,
+      "crime_rank": 138,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6869,
+              54.6483
+            ],
+            [
+              -5.6964,
+              54.6565
+            ],
+            [
+              -5.695,
+              54.6601
+            ],
+            [
+              -5.6977,
+              54.6603
+            ],
+            [
+              -5.6964,
+              54.6633
+            ],
+            [
+              -5.6903,
+              54.6575
+            ],
+            [
+              -5.6798,
+              54.6563
+            ],
+            [
+              -5.6788,
+              54.6549
+            ],
+            [
+              -5.6869,
+              54.6483
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "warren",
+      "name": "WARREN",
+      "lgd": "Ards and North Down",
+      "population": 4309,
+      "male": 2103,
+      "female": 2206,
+      "age_0_15_pct": 15.3,
+      "age_16_64_pct": 58.7,
+      "age_65_plus_pct": 26,
+      "catholic_pct": 4.9,
+      "protestant_other_christian_pct": 62.4,
+      "other_religion_pct": 0.8,
+      "no_religion_pct": 30.5,
+      "born_ni_pct": 86.5,
+      "born_other_uk_pct": 9,
+      "born_roi_pct": 1,
+      "born_elsewhere_pct": 3.4,
+      "owner_occupied_pct": 71.9,
+      "social_rented_pct": 15.1,
+      "private_rented_pct": 13.1,
+      "no_qualifications_pct": 17.3,
+      "level_1_2_pct": 27.8,
+      "level_3_pct": 15.5,
+      "level_4_plus_pct": 36.9,
+      "very_good_good_health_pct": 79.5,
+      "fair_health_pct": 13.7,
+      "bad_very_bad_health_pct": 6.9,
+      "no_cars_pct": 14.9,
+      "one_car_pct": 36.1,
+      "two_plus_cars_pct": 49,
+      "work_from_home_pct": 23.6,
+      "drive_to_work_pct": 67.1,
+      "public_transport_pct": 2.9,
+      "walk_cycle_pct": 5.1,
+      "urban_rural": "Mixed",
+      "deprivation_rank": 291,
+      "income_rank": 193,
+      "employment_rank": 246,
+      "health_rank": 323,
+      "education_rank": 302,
+      "access_rank": 204,
+      "living_env_rank": 366,
+      "crime_rank": 193,
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -5.5838,
+                54.6776
+              ],
+              [
+                -5.5817,
+                54.6752
+              ],
+              [
+                -5.5764,
+                54.6751
+              ],
+              [
+                -5.5742,
+                54.6713
+              ],
+              [
+                -5.5752,
+                54.6701
+              ],
+              [
+                -5.5733,
+                54.6698
+              ],
+              [
+                -5.5721,
+                54.6671
+              ],
+              [
+                -5.5695,
+                54.6672
+              ],
+              [
+                -5.5713,
+                54.6665
+              ],
+              [
+                -5.57,
+                54.6653
+              ],
+              [
+                -5.568,
+                54.6661
+              ],
+              [
+                -5.5689,
+                54.664
+              ],
+              [
+                -5.5675,
+                54.6632
+              ],
+              [
+                -5.5529,
+                54.6555
+              ],
+              [
+                -5.5414,
+                54.6545
+              ],
+              [
+                -5.542,
+                54.6526
+              ],
+              [
+                -5.5406,
+                54.653
+              ],
+              [
+                -5.5405,
+                54.6528
+              ],
+              [
+                -5.5426,
+                54.6522
+              ],
+              [
+                -5.5415,
+                54.6515
+              ],
+              [
+                -5.5424,
+                54.651
+              ],
+              [
+                -5.5368,
+                54.6432
+              ],
+              [
+                -5.5399,
+                54.6424
+              ],
+              [
+                -5.537,
+                54.6388
+              ],
+              [
+                -5.5458,
+                54.637
+              ],
+              [
+                -5.547,
+                54.6337
+              ],
+              [
+                -5.5432,
+                54.6312
+              ],
+              [
+                -5.5444,
+                54.6306
+              ],
+              [
+                -5.5399,
+                54.6268
+              ],
+              [
+                -5.5428,
+                54.6264
+              ],
+              [
+                -5.5395,
+                54.6236
+              ],
+              [
+                -5.5513,
+                54.6198
+              ],
+              [
+                -5.5577,
+                54.6301
+              ],
+              [
+                -5.555,
+                54.6313
+              ],
+              [
+                -5.5602,
+                54.6327
+              ],
+              [
+                -5.5632,
+                54.63
+              ],
+              [
+                -5.5665,
+                54.6301
+              ],
+              [
+                -5.5651,
+                54.6314
+              ],
+              [
+                -5.567,
+                54.633
+              ],
+              [
+                -5.5716,
+                54.6304
+              ],
+              [
+                -5.5754,
+                54.6308
+              ],
+              [
+                -5.5893,
+                54.6263
+              ],
+              [
+                -5.594,
+                54.6265
+              ],
+              [
+                -5.5969,
+                54.6226
+              ],
+              [
+                -5.6207,
+                54.6263
+              ],
+              [
+                -5.6231,
+                54.6317
+              ],
+              [
+                -5.6204,
+                54.6361
+              ],
+              [
+                -5.6195,
+                54.6417
+              ],
+              [
+                -5.6139,
+                54.6451
+              ],
+              [
+                -5.6108,
+                54.6498
+              ],
+              [
+                -5.5923,
+                54.6511
+              ],
+              [
+                -5.5895,
+                54.6489
+              ],
+              [
+                -5.587,
+                54.649
+              ],
+              [
+                -5.5838,
+                54.6514
+              ],
+              [
+                -5.586,
+                54.6515
+              ],
+              [
+                -5.586,
+                54.6541
+              ],
+              [
+                -5.5901,
+                54.6573
+              ],
+              [
+                -5.5901,
+                54.661
+              ],
+              [
+                -5.5858,
+                54.661
+              ],
+              [
+                -5.587,
+                54.667
+              ],
+              [
+                -5.5932,
+                54.6673
+              ],
+              [
+                -5.588,
+                54.6684
+              ],
+              [
+                -5.5908,
+                54.6715
+              ],
+              [
+                -5.5895,
+                54.6745
+              ],
+              [
+                -5.5838,
+                54.6776
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -5.5337,
+                54.6817
+              ],
+              [
+                -5.5288,
+                54.6791
+              ],
+              [
+                -5.5296,
+                54.6781
+              ],
+              [
+                -5.5216,
+                54.6766
+              ],
+              [
+                -5.5222,
+                54.6741
+              ],
+              [
+                -5.5202,
+                54.6736
+              ],
+              [
+                -5.5206,
+                54.6708
+              ],
+              [
+                -5.5265,
+                54.6689
+              ],
+              [
+                -5.5308,
+                54.6697
+              ],
+              [
+                -5.5361,
+                54.6742
+              ],
+              [
+                -5.5402,
+                54.6746
+              ],
+              [
+                -5.5435,
+                54.6727
+              ],
+              [
+                -5.5454,
+                54.6729
+              ],
+              [
+                -5.5422,
+                54.6759
+              ],
+              [
+                -5.5444,
+                54.6767
+              ],
+              [
+                -5.5441,
+                54.6784
+              ],
+              [
+                -5.5337,
+                54.6817
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -5.517,
+                54.6959
+              ],
+              [
+                -5.5163,
+                54.6955
+              ],
+              [
+                -5.5165,
+                54.6951
+              ],
+              [
+                -5.517,
+                54.6959
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -5.5165,
+                54.6949
+              ],
+              [
+                -5.5147,
+                54.696
+              ],
+              [
+                -5.5143,
+                54.6957
+              ],
+              [
+                -5.5165,
+                54.6949
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -5.5195,
+                54.6968
+              ],
+              [
+                -5.5183,
+                54.6963
+              ],
+              [
+                -5.5198,
+                54.6962
+              ],
+              [
+                -5.5195,
+                54.6968
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -5.5186,
+                54.6972
+              ],
+              [
+                -5.5174,
+                54.6966
+              ],
+              [
+                -5.5187,
+                54.6968
+              ],
+              [
+                -5.5186,
+                54.6972
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -5.5282,
+                54.6963
+              ],
+              [
+                -5.5222,
+                54.697
+              ],
+              [
+                -5.523,
+                54.6931
+              ],
+              [
+                -5.5258,
+                54.6927
+              ],
+              [
+                -5.5281,
+                54.6944
+              ],
+              [
+                -5.5282,
+                54.6963
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -5.5125,
+                54.6986
+              ],
+              [
+                -5.5119,
+                54.6974
+              ],
+              [
+                -5.5135,
+                54.6962
+              ],
+              [
+                -5.5125,
+                54.6986
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -5.5136,
+                54.6991
+              ],
+              [
+                -5.5137,
+                54.696
+              ],
+              [
+                -5.5167,
+                54.6965
+              ],
+              [
+                -5.5179,
+                54.6951
+              ],
+              [
+                -5.5169,
+                54.6947
+              ],
+              [
+                -5.5179,
+                54.6945
+              ],
+              [
+                -5.5194,
+                54.6955
+              ],
+              [
+                -5.5175,
+                54.696
+              ],
+              [
+                -5.5136,
+                54.6991
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "west-winds",
+      "name": "WEST WINDS",
+      "lgd": "Ards and North Down",
+      "population": 4467,
+      "male": 2107,
+      "female": 2360,
+      "age_0_15_pct": 19.8,
+      "age_16_64_pct": 63.8,
+      "age_65_plus_pct": 16.4,
+      "catholic_pct": 5.6,
+      "protestant_other_christian_pct": 60,
+      "other_religion_pct": 0.9,
+      "no_religion_pct": 31.5,
+      "born_ni_pct": 88.7,
+      "born_other_uk_pct": 6,
+      "born_roi_pct": 0.8,
+      "born_elsewhere_pct": 4.5,
+      "owner_occupied_pct": 43.9,
+      "social_rented_pct": 41.7,
+      "private_rented_pct": 14.4,
+      "no_qualifications_pct": 32,
+      "level_1_2_pct": 33.2,
+      "level_3_pct": 14.7,
+      "level_4_plus_pct": 17.5,
+      "very_good_good_health_pct": 68.8,
+      "fair_health_pct": 18.8,
+      "bad_very_bad_health_pct": 12.5,
+      "no_cars_pct": 32.8,
+      "one_car_pct": 43.5,
+      "two_plus_cars_pct": 23.8,
+      "work_from_home_pct": 12.2,
+      "drive_to_work_pct": 70.1,
+      "public_transport_pct": 5.3,
+      "walk_cycle_pct": 11.6,
+      "urban_rural": "Urban",
+      "deprivation_rank": 34,
+      "income_rank": 34,
+      "employment_rank": 51,
+      "health_rank": 69,
+      "education_rank": 26,
+      "access_rank": 230,
+      "living_env_rank": 443,
+      "crime_rank": 125,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6995,
+              54.559
+            ],
+            [
+              -5.6976,
+              54.5612
+            ],
+            [
+              -5.6988,
+              54.5643
+            ],
+            [
+              -5.7098,
+              54.5647
+            ],
+            [
+              -5.7144,
+              54.5633
+            ],
+            [
+              -5.7165,
+              54.5667
+            ],
+            [
+              -5.7158,
+              54.5701
+            ],
+            [
+              -5.7195,
+              54.5766
+            ],
+            [
+              -5.7188,
+              54.5778
+            ],
+            [
+              -5.7082,
+              54.5783
+            ],
+            [
+              -5.7122,
+              54.589
+            ],
+            [
+              -5.6981,
+              54.5873
+            ],
+            [
+              -5.6983,
+              54.5756
+            ],
+            [
+              -5.6776,
+              54.573
+            ],
+            [
+              -5.6514,
+              54.5584
+            ],
+            [
+              -5.6995,
+              54.559
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

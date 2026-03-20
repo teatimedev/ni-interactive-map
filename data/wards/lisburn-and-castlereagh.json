@@ -1,0 +1,7450 @@
+{
+  "lgd": "Lisburn and Castlereagh",
+  "lgdSlug": "lisburn-and-castlereagh",
+  "wards": [
+    {
+      "slug": "ballinderry",
+      "name": "BALLINDERRY",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3921,
+      "male": 2004,
+      "female": 1917,
+      "age_0_15_pct": 19.9,
+      "age_16_64_pct": 65,
+      "age_65_plus_pct": 15,
+      "catholic_pct": 21.7,
+      "protestant_other_christian_pct": 55,
+      "other_religion_pct": 0.7,
+      "no_religion_pct": 21.4,
+      "born_ni_pct": 90.8,
+      "born_other_uk_pct": 4.8,
+      "born_roi_pct": 1,
+      "born_elsewhere_pct": 3.4,
+      "owner_occupied_pct": 86,
+      "social_rented_pct": 2.4,
+      "private_rented_pct": 11.6,
+      "no_qualifications_pct": 15.9,
+      "level_1_2_pct": 25.3,
+      "level_3_pct": 17.2,
+      "level_4_plus_pct": 40,
+      "very_good_good_health_pct": 83.7,
+      "fair_health_pct": 11.3,
+      "bad_very_bad_health_pct": 4.9,
+      "no_cars_pct": 4.6,
+      "one_car_pct": 30.3,
+      "two_plus_cars_pct": 65.1,
+      "work_from_home_pct": 24.8,
+      "drive_to_work_pct": 70.3,
+      "public_transport_pct": 2.2,
+      "walk_cycle_pct": 1.6,
+      "urban_rural": "Rural",
+      "deprivation_rank": 399,
+      "income_rank": 368,
+      "employment_rank": 423,
+      "health_rank": 424,
+      "education_rank": 378,
+      "access_rank": 95,
+      "living_env_rank": 386,
+      "crime_rank": 431,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.2561,
+              54.5043
+            ],
+            [
+              -6.2599,
+              54.5071
+            ],
+            [
+              -6.2541,
+              54.5084
+            ],
+            [
+              -6.271,
+              54.5179
+            ],
+            [
+              -6.2732,
+              54.5196
+            ],
+            [
+              -6.2732,
+              54.5232
+            ],
+            [
+              -6.275,
+              54.5236
+            ],
+            [
+              -6.2713,
+              54.5259
+            ],
+            [
+              -6.269,
+              54.5309
+            ],
+            [
+              -6.271,
+              54.5338
+            ],
+            [
+              -6.2755,
+              54.534
+            ],
+            [
+              -6.2739,
+              54.5353
+            ],
+            [
+              -6.2777,
+              54.5382
+            ],
+            [
+              -6.2741,
+              54.5415
+            ],
+            [
+              -6.2774,
+              54.5491
+            ],
+            [
+              -6.2777,
+              54.5574
+            ],
+            [
+              -6.2636,
+              54.5632
+            ],
+            [
+              -6.2512,
+              54.5606
+            ],
+            [
+              -6.2425,
+              54.563
+            ],
+            [
+              -6.2415,
+              54.5594
+            ],
+            [
+              -6.2349,
+              54.5581
+            ],
+            [
+              -6.2302,
+              54.565
+            ],
+            [
+              -6.2275,
+              54.5665
+            ],
+            [
+              -6.2208,
+              54.5632
+            ],
+            [
+              -6.2144,
+              54.5639
+            ],
+            [
+              -6.2122,
+              54.5661
+            ],
+            [
+              -6.2056,
+              54.5641
+            ],
+            [
+              -6.1963,
+              54.5664
+            ],
+            [
+              -6.1872,
+              54.5655
+            ],
+            [
+              -6.1788,
+              54.5666
+            ],
+            [
+              -6.1744,
+              54.5632
+            ],
+            [
+              -6.1783,
+              54.5596
+            ],
+            [
+              -6.1922,
+              54.5547
+            ],
+            [
+              -6.1927,
+              54.5523
+            ],
+            [
+              -6.1964,
+              54.5516
+            ],
+            [
+              -6.1922,
+              54.5486
+            ],
+            [
+              -6.1918,
+              54.5444
+            ],
+            [
+              -6.1801,
+              54.5409
+            ],
+            [
+              -6.1826,
+              54.5381
+            ],
+            [
+              -6.1678,
+              54.536
+            ],
+            [
+              -6.1696,
+              54.5351
+            ],
+            [
+              -6.1656,
+              54.533
+            ],
+            [
+              -6.1688,
+              54.5297
+            ],
+            [
+              -6.1856,
+              54.5245
+            ],
+            [
+              -6.1856,
+              54.5219
+            ],
+            [
+              -6.1901,
+              54.5176
+            ],
+            [
+              -6.1947,
+              54.5174
+            ],
+            [
+              -6.1934,
+              54.5136
+            ],
+            [
+              -6.2,
+              54.515
+            ],
+            [
+              -6.202,
+              54.5132
+            ],
+            [
+              -6.2001,
+              54.5126
+            ],
+            [
+              -6.2078,
+              54.5089
+            ],
+            [
+              -6.2071,
+              54.508
+            ],
+            [
+              -6.2211,
+              54.5087
+            ],
+            [
+              -6.2247,
+              54.5111
+            ],
+            [
+              -6.2237,
+              54.5139
+            ],
+            [
+              -6.2263,
+              54.5142
+            ],
+            [
+              -6.2288,
+              54.5106
+            ],
+            [
+              -6.2364,
+              54.5109
+            ],
+            [
+              -6.2378,
+              54.5096
+            ],
+            [
+              -6.2427,
+              54.511
+            ],
+            [
+              -6.2513,
+              54.5043
+            ],
+            [
+              -6.2561,
+              54.5043
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ballyhanwood",
+      "name": "BALLYHANWOOD",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3028,
+      "male": 1483,
+      "female": 1545,
+      "age_0_15_pct": 14.4,
+      "age_16_64_pct": 61.8,
+      "age_65_plus_pct": 23.8,
+      "catholic_pct": 6,
+      "protestant_other_christian_pct": 61.9,
+      "other_religion_pct": 1.1,
+      "no_religion_pct": 29.6,
+      "born_ni_pct": 88.8,
+      "born_other_uk_pct": 5.2,
+      "born_roi_pct": 1.3,
+      "born_elsewhere_pct": 4.7,
+      "owner_occupied_pct": 84.3,
+      "social_rented_pct": 4.9,
+      "private_rented_pct": 10.8,
+      "no_qualifications_pct": 15.7,
+      "level_1_2_pct": 26.4,
+      "level_3_pct": 15.9,
+      "level_4_plus_pct": 39.3,
+      "very_good_good_health_pct": 80.6,
+      "fair_health_pct": 13.6,
+      "bad_very_bad_health_pct": 5.8,
+      "no_cars_pct": 8.6,
+      "one_car_pct": 43.9,
+      "two_plus_cars_pct": 47.4,
+      "work_from_home_pct": 24.2,
+      "drive_to_work_pct": 65.3,
+      "public_transport_pct": 4.3,
+      "walk_cycle_pct": 5.3,
+      "urban_rural": "Mixed",
+      "deprivation_rank": 413,
+      "income_rank": 403,
+      "employment_rank": 425,
+      "health_rank": 407,
+      "education_rank": 426,
+      "access_rank": 202,
+      "living_env_rank": 144,
+      "crime_rank": 307,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8059,
+              54.5534
+            ],
+            [
+              -5.8063,
+              54.5565
+            ],
+            [
+              -5.8192,
+              54.5565
+            ],
+            [
+              -5.8265,
+              54.5585
+            ],
+            [
+              -5.8313,
+              54.5617
+            ],
+            [
+              -5.8396,
+              54.5617
+            ],
+            [
+              -5.8422,
+              54.5655
+            ],
+            [
+              -5.8465,
+              54.5652
+            ],
+            [
+              -5.8478,
+              54.5627
+            ],
+            [
+              -5.8546,
+              54.561
+            ],
+            [
+              -5.8666,
+              54.5673
+            ],
+            [
+              -5.8569,
+              54.5683
+            ],
+            [
+              -5.8543,
+              54.573
+            ],
+            [
+              -5.8485,
+              54.574
+            ],
+            [
+              -5.8403,
+              54.5786
+            ],
+            [
+              -5.8332,
+              54.5772
+            ],
+            [
+              -5.823,
+              54.5816
+            ],
+            [
+              -5.8263,
+              54.5883
+            ],
+            [
+              -5.8235,
+              54.5904
+            ],
+            [
+              -5.8065,
+              54.5882
+            ],
+            [
+              -5.8049,
+              54.5893
+            ],
+            [
+              -5.7939,
+              54.5818
+            ],
+            [
+              -5.7903,
+              54.5833
+            ],
+            [
+              -5.7796,
+              54.5751
+            ],
+            [
+              -5.789,
+              54.571
+            ],
+            [
+              -5.7904,
+              54.5689
+            ],
+            [
+              -5.7873,
+              54.5671
+            ],
+            [
+              -5.7964,
+              54.5639
+            ],
+            [
+              -5.7991,
+              54.5606
+            ],
+            [
+              -5.7983,
+              54.555
+            ],
+            [
+              -5.8059,
+              54.5534
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ballymacash",
+      "name": "BALLYMACASH",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3137,
+      "male": 1477,
+      "female": 1660,
+      "age_0_15_pct": 19.1,
+      "age_16_64_pct": 55.6,
+      "age_65_plus_pct": 25.3,
+      "catholic_pct": 16.5,
+      "protestant_other_christian_pct": 55.6,
+      "other_religion_pct": 1.5,
+      "no_religion_pct": 25.3,
+      "born_ni_pct": 87.5,
+      "born_other_uk_pct": 6.1,
+      "born_roi_pct": 1.7,
+      "born_elsewhere_pct": 4.6,
+      "owner_occupied_pct": 78.4,
+      "social_rented_pct": 11.9,
+      "private_rented_pct": 9.6,
+      "no_qualifications_pct": 18,
+      "level_1_2_pct": 27.4,
+      "level_3_pct": 16,
+      "level_4_plus_pct": 35.5,
+      "very_good_good_health_pct": 78.8,
+      "fair_health_pct": 14.6,
+      "bad_very_bad_health_pct": 6.7,
+      "no_cars_pct": 10.7,
+      "one_car_pct": 41.7,
+      "two_plus_cars_pct": 47.6,
+      "work_from_home_pct": 19.6,
+      "drive_to_work_pct": 70.5,
+      "public_transport_pct": 4.3,
+      "walk_cycle_pct": 4.6,
+      "urban_rural": "Urban",
+      "deprivation_rank": 373,
+      "income_rank": 427,
+      "employment_rank": 404,
+      "health_rank": 410,
+      "education_rank": 289,
+      "access_rank": 329,
+      "living_env_rank": 15,
+      "crime_rank": 219,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0674,
+              54.5168
+            ],
+            [
+              -6.0729,
+              54.5211
+            ],
+            [
+              -6.0725,
+              54.5286
+            ],
+            [
+              -6.0652,
+              54.5299
+            ],
+            [
+              -6.0602,
+              54.5262
+            ],
+            [
+              -6.0566,
+              54.526
+            ],
+            [
+              -6.0565,
+              54.5223
+            ],
+            [
+              -6.059,
+              54.521
+            ],
+            [
+              -6.0667,
+              54.5226
+            ],
+            [
+              -6.0674,
+              54.5168
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ballymacbrennan",
+      "name": "BALLYMACBRENNAN",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3081,
+      "male": 1532,
+      "female": 1549,
+      "age_0_15_pct": 16.9,
+      "age_16_64_pct": 61.8,
+      "age_65_plus_pct": 21.3,
+      "catholic_pct": 10.9,
+      "protestant_other_christian_pct": 65.8,
+      "other_religion_pct": 0.7,
+      "no_religion_pct": 21.4,
+      "born_ni_pct": 90,
+      "born_other_uk_pct": 5.3,
+      "born_roi_pct": 1.9,
+      "born_elsewhere_pct": 2.7,
+      "owner_occupied_pct": 87.8,
+      "social_rented_pct": 2.9,
+      "private_rented_pct": 9.3,
+      "no_qualifications_pct": 14.2,
+      "level_1_2_pct": 24.7,
+      "level_3_pct": 14.7,
+      "level_4_plus_pct": 44.4,
+      "very_good_good_health_pct": 83.8,
+      "fair_health_pct": 11.5,
+      "bad_very_bad_health_pct": 4.7,
+      "no_cars_pct": 4,
+      "one_car_pct": 27.9,
+      "two_plus_cars_pct": 68.1,
+      "work_from_home_pct": 26.3,
+      "drive_to_work_pct": 69.9,
+      "public_transport_pct": 1.4,
+      "walk_cycle_pct": 1.7,
+      "urban_rural": "Rural",
+      "deprivation_rank": 393,
+      "income_rank": 404,
+      "employment_rank": 448,
+      "health_rank": 445,
+      "education_rank": 453,
+      "access_rank": 84,
+      "living_env_rank": 70,
+      "crime_rank": 455,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9453,
+              54.4143
+            ],
+            [
+              -5.9523,
+              54.4174
+            ],
+            [
+              -5.9653,
+              54.4195
+            ],
+            [
+              -5.9697,
+              54.4222
+            ],
+            [
+              -5.9691,
+              54.4238
+            ],
+            [
+              -5.982,
+              54.4294
+            ],
+            [
+              -5.9963,
+              54.4285
+            ],
+            [
+              -6.0012,
+              54.4338
+            ],
+            [
+              -6.0113,
+              54.4368
+            ],
+            [
+              -6.0083,
+              54.4407
+            ],
+            [
+              -5.9987,
+              54.4416
+            ],
+            [
+              -5.9938,
+              54.4464
+            ],
+            [
+              -5.999,
+              54.4473
+            ],
+            [
+              -5.9988,
+              54.4523
+            ],
+            [
+              -6.0017,
+              54.4529
+            ],
+            [
+              -5.9956,
+              54.4568
+            ],
+            [
+              -5.9989,
+              54.4579
+            ],
+            [
+              -5.999,
+              54.4606
+            ],
+            [
+              -5.9929,
+              54.4637
+            ],
+            [
+              -5.9921,
+              54.4645
+            ],
+            [
+              -5.9937,
+              54.4666
+            ],
+            [
+              -5.9907,
+              54.4667
+            ],
+            [
+              -5.9899,
+              54.4685
+            ],
+            [
+              -5.9858,
+              54.4659
+            ],
+            [
+              -5.9826,
+              54.4667
+            ],
+            [
+              -5.974,
+              54.4625
+            ],
+            [
+              -5.961,
+              54.4599
+            ],
+            [
+              -5.9558,
+              54.4636
+            ],
+            [
+              -5.9504,
+              54.4626
+            ],
+            [
+              -5.9444,
+              54.4648
+            ],
+            [
+              -5.9418,
+              54.4673
+            ],
+            [
+              -5.9441,
+              54.4687
+            ],
+            [
+              -5.9425,
+              54.4725
+            ],
+            [
+              -5.951,
+              54.4772
+            ],
+            [
+              -5.9511,
+              54.484
+            ],
+            [
+              -5.9551,
+              54.4859
+            ],
+            [
+              -5.9503,
+              54.4871
+            ],
+            [
+              -5.9508,
+              54.4885
+            ],
+            [
+              -5.9467,
+              54.493
+            ],
+            [
+              -5.9478,
+              54.4938
+            ],
+            [
+              -5.9418,
+              54.4953
+            ],
+            [
+              -5.9304,
+              54.5025
+            ],
+            [
+              -5.9188,
+              54.4961
+            ],
+            [
+              -5.9097,
+              54.4978
+            ],
+            [
+              -5.9001,
+              54.4966
+            ],
+            [
+              -5.8944,
+              54.4985
+            ],
+            [
+              -5.8924,
+              54.4962
+            ],
+            [
+              -5.8882,
+              54.4969
+            ],
+            [
+              -5.8814,
+              54.4935
+            ],
+            [
+              -5.8833,
+              54.4883
+            ],
+            [
+              -5.8827,
+              54.4843
+            ],
+            [
+              -5.8789,
+              54.4797
+            ],
+            [
+              -5.8716,
+              54.4791
+            ],
+            [
+              -5.8737,
+              54.4778
+            ],
+            [
+              -5.8724,
+              54.4758
+            ],
+            [
+              -5.8762,
+              54.473
+            ],
+            [
+              -5.8764,
+              54.4672
+            ],
+            [
+              -5.8906,
+              54.4654
+            ],
+            [
+              -5.9034,
+              54.4615
+            ],
+            [
+              -5.9038,
+              54.4587
+            ],
+            [
+              -5.9002,
+              54.4567
+            ],
+            [
+              -5.8997,
+              54.4547
+            ],
+            [
+              -5.9057,
+              54.4517
+            ],
+            [
+              -5.9066,
+              54.4496
+            ],
+            [
+              -5.9154,
+              54.45
+            ],
+            [
+              -5.9147,
+              54.4483
+            ],
+            [
+              -5.9179,
+              54.4475
+            ],
+            [
+              -5.9163,
+              54.4467
+            ],
+            [
+              -5.9181,
+              54.4439
+            ],
+            [
+              -5.917,
+              54.441
+            ],
+            [
+              -5.9197,
+              54.4393
+            ],
+            [
+              -5.9161,
+              54.4368
+            ],
+            [
+              -5.9164,
+              54.4346
+            ],
+            [
+              -5.9148,
+              54.4333
+            ],
+            [
+              -5.9296,
+              54.4303
+            ],
+            [
+              -5.9307,
+              54.4291
+            ],
+            [
+              -5.9243,
+              54.4239
+            ],
+            [
+              -5.9306,
+              54.4217
+            ],
+            [
+              -5.9324,
+              54.4201
+            ],
+            [
+              -5.9314,
+              54.4195
+            ],
+            [
+              -5.9377,
+              54.416
+            ],
+            [
+              -5.9453,
+              54.4143
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ballymacoss",
+      "name": "BALLYMACOSS",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 5975,
+      "male": 2856,
+      "female": 3119,
+      "age_0_15_pct": 23.8,
+      "age_16_64_pct": 68.5,
+      "age_65_plus_pct": 7.7,
+      "catholic_pct": 16.3,
+      "protestant_other_christian_pct": 52.2,
+      "other_religion_pct": 1.5,
+      "no_religion_pct": 29.1,
+      "born_ni_pct": 85.4,
+      "born_other_uk_pct": 5.1,
+      "born_roi_pct": 0.9,
+      "born_elsewhere_pct": 8.6,
+      "owner_occupied_pct": 59.8,
+      "social_rented_pct": 30.7,
+      "private_rented_pct": 9.4,
+      "no_qualifications_pct": 21,
+      "level_1_2_pct": 27.3,
+      "level_3_pct": 18.2,
+      "level_4_plus_pct": 32.1,
+      "very_good_good_health_pct": 82.3,
+      "fair_health_pct": 10.8,
+      "bad_very_bad_health_pct": 6.9,
+      "no_cars_pct": 15,
+      "one_car_pct": 44.2,
+      "two_plus_cars_pct": 40.8,
+      "work_from_home_pct": 17.8,
+      "drive_to_work_pct": 73.3,
+      "public_transport_pct": 3.3,
+      "walk_cycle_pct": 4.7,
+      "urban_rural": "Urban",
+      "deprivation_rank": 197,
+      "income_rank": 251,
+      "employment_rank": 177,
+      "health_rank": 124,
+      "education_rank": 124,
+      "access_rank": 197,
+      "living_env_rank": 418,
+      "crime_rank": 211,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.086,
+              54.5144
+            ],
+            [
+              -6.0941,
+              54.5144
+            ],
+            [
+              -6.0933,
+              54.5169
+            ],
+            [
+              -6.0989,
+              54.5209
+            ],
+            [
+              -6.0989,
+              54.523
+            ],
+            [
+              -6.0872,
+              54.5232
+            ],
+            [
+              -6.0727,
+              54.5275
+            ],
+            [
+              -6.0733,
+              54.5229
+            ],
+            [
+              -6.0716,
+              54.5191
+            ],
+            [
+              -6.086,
+              54.5144
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "beechill",
+      "name": "BEECHILL",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3384,
+      "male": 1696,
+      "female": 1687,
+      "age_0_15_pct": 15.1,
+      "age_16_64_pct": 67.6,
+      "age_65_plus_pct": 17.3,
+      "catholic_pct": 42.2,
+      "protestant_other_christian_pct": 30.9,
+      "other_religion_pct": 3.1,
+      "no_religion_pct": 22.2,
+      "born_ni_pct": 87.3,
+      "born_other_uk_pct": 3.7,
+      "born_roi_pct": 2.5,
+      "born_elsewhere_pct": 6.6,
+      "owner_occupied_pct": 80,
+      "social_rented_pct": 9.1,
+      "private_rented_pct": 10.9,
+      "no_qualifications_pct": 12.9,
+      "level_1_2_pct": 19.3,
+      "level_3_pct": 13.1,
+      "level_4_plus_pct": 53,
+      "very_good_good_health_pct": 82,
+      "fair_health_pct": 11.4,
+      "bad_very_bad_health_pct": 6.6,
+      "no_cars_pct": 7.1,
+      "one_car_pct": 38.6,
+      "two_plus_cars_pct": 54.4,
+      "work_from_home_pct": 30.2,
+      "drive_to_work_pct": 59.6,
+      "public_transport_pct": 6.5,
+      "walk_cycle_pct": 3.4,
+      "urban_rural": "Urban",
+      "deprivation_rank": 440,
+      "income_rank": 455,
+      "employment_rank": 385,
+      "health_rank": 352,
+      "education_rank": 457,
+      "access_rank": 206,
+      "living_env_rank": 461,
+      "crime_rank": 453,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9042,
+              54.5339
+            ],
+            [
+              -5.9118,
+              54.5364
+            ],
+            [
+              -5.92,
+              54.5357
+            ],
+            [
+              -5.9266,
+              54.5395
+            ],
+            [
+              -5.9332,
+              54.5402
+            ],
+            [
+              -5.932,
+              54.5437
+            ],
+            [
+              -5.9295,
+              54.5452
+            ],
+            [
+              -5.9316,
+              54.5461
+            ],
+            [
+              -5.9176,
+              54.5546
+            ],
+            [
+              -5.9192,
+              54.5533
+            ],
+            [
+              -5.9061,
+              54.5486
+            ],
+            [
+              -5.9025,
+              54.544
+            ],
+            [
+              -5.8992,
+              54.5383
+            ],
+            [
+              -5.9042,
+              54.5339
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "blaris",
+      "name": "BLARIS",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3415,
+      "male": 1662,
+      "female": 1753,
+      "age_0_15_pct": 16.4,
+      "age_16_64_pct": 62.8,
+      "age_65_plus_pct": 20.8,
+      "catholic_pct": 18.4,
+      "protestant_other_christian_pct": 54.5,
+      "other_religion_pct": 1.8,
+      "no_religion_pct": 24.5,
+      "born_ni_pct": 85.6,
+      "born_other_uk_pct": 5.3,
+      "born_roi_pct": 1.4,
+      "born_elsewhere_pct": 7.7,
+      "owner_occupied_pct": 68.3,
+      "social_rented_pct": 11.4,
+      "private_rented_pct": 20.3,
+      "no_qualifications_pct": 20.4,
+      "level_1_2_pct": 26.1,
+      "level_3_pct": 15.6,
+      "level_4_plus_pct": 35.5,
+      "very_good_good_health_pct": 78.7,
+      "fair_health_pct": 14.9,
+      "bad_very_bad_health_pct": 6.4,
+      "no_cars_pct": 16.2,
+      "one_car_pct": 44.2,
+      "two_plus_cars_pct": 39.6,
+      "work_from_home_pct": 17,
+      "drive_to_work_pct": 71.1,
+      "public_transport_pct": 4,
+      "walk_cycle_pct": 6.9,
+      "urban_rural": "Mixed",
+      "deprivation_rank": 329,
+      "income_rank": 318,
+      "employment_rank": 300,
+      "health_rank": 334,
+      "education_rank": 234,
+      "access_rank": 259,
+      "living_env_rank": 157,
+      "crime_rank": 147,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0141,
+              54.4946
+            ],
+            [
+              -6.0248,
+              54.4917
+            ],
+            [
+              -6.0253,
+              54.4878
+            ],
+            [
+              -6.0335,
+              54.4881
+            ],
+            [
+              -6.0358,
+              54.4854
+            ],
+            [
+              -6.0446,
+              54.4838
+            ],
+            [
+              -6.0663,
+              54.4866
+            ],
+            [
+              -6.0689,
+              54.4822
+            ],
+            [
+              -6.0725,
+              54.4815
+            ],
+            [
+              -6.0849,
+              54.4885
+            ],
+            [
+              -6.0909,
+              54.4846
+            ],
+            [
+              -6.0978,
+              54.4965
+            ],
+            [
+              -6.0968,
+              54.5008
+            ],
+            [
+              -6.0745,
+              54.506
+            ],
+            [
+              -6.0667,
+              54.5043
+            ],
+            [
+              -6.0637,
+              54.5022
+            ],
+            [
+              -6.0649,
+              54.5002
+            ],
+            [
+              -6.0586,
+              54.4975
+            ],
+            [
+              -6.0541,
+              54.4996
+            ],
+            [
+              -6.0512,
+              54.4987
+            ],
+            [
+              -6.0417,
+              54.5045
+            ],
+            [
+              -6.0395,
+              54.5073
+            ],
+            [
+              -6.0402,
+              54.5089
+            ],
+            [
+              -6.0382,
+              54.5099
+            ],
+            [
+              -6.028,
+              54.5054
+            ],
+            [
+              -6.0219,
+              54.4972
+            ],
+            [
+              -6.0141,
+              54.4946
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "cairnshill",
+      "name": "CAIRNSHILL",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3513,
+      "male": 1733,
+      "female": 1781,
+      "age_0_15_pct": 19.9,
+      "age_16_64_pct": 67.4,
+      "age_65_plus_pct": 12.7,
+      "catholic_pct": 47.4,
+      "protestant_other_christian_pct": 26.3,
+      "other_religion_pct": 3.1,
+      "no_religion_pct": 22.1,
+      "born_ni_pct": 87.6,
+      "born_other_uk_pct": 3.4,
+      "born_roi_pct": 2.6,
+      "born_elsewhere_pct": 6.4,
+      "owner_occupied_pct": 90.2,
+      "social_rented_pct": 0.4,
+      "private_rented_pct": 9.5,
+      "no_qualifications_pct": 10,
+      "level_1_2_pct": 18.7,
+      "level_3_pct": 13.3,
+      "level_4_plus_pct": 56,
+      "very_good_good_health_pct": 88.8,
+      "fair_health_pct": 8.2,
+      "bad_very_bad_health_pct": 3.1,
+      "no_cars_pct": 5.2,
+      "one_car_pct": 39.4,
+      "two_plus_cars_pct": 55.4,
+      "work_from_home_pct": 29.5,
+      "drive_to_work_pct": 62,
+      "public_transport_pct": 5.8,
+      "walk_cycle_pct": 2.5,
+      "urban_rural": "Urban",
+      "deprivation_rank": 456,
+      "income_rank": 458,
+      "employment_rank": 459,
+      "health_rank": 452,
+      "education_rank": 447,
+      "access_rank": 245,
+      "living_env_rank": 197,
+      "crime_rank": 445,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8906,
+              54.5431
+            ],
+            [
+              -5.8906,
+              54.5459
+            ],
+            [
+              -5.8935,
+              54.5463
+            ],
+            [
+              -5.8932,
+              54.5485
+            ],
+            [
+              -5.8951,
+              54.5484
+            ],
+            [
+              -5.8972,
+              54.5516
+            ],
+            [
+              -5.9021,
+              54.5542
+            ],
+            [
+              -5.8924,
+              54.5564
+            ],
+            [
+              -5.8895,
+              54.5542
+            ],
+            [
+              -5.8896,
+              54.5503
+            ],
+            [
+              -5.8868,
+              54.551
+            ],
+            [
+              -5.885,
+              54.5497
+            ],
+            [
+              -5.8847,
+              54.5465
+            ],
+            [
+              -5.88,
+              54.5451
+            ],
+            [
+              -5.8906,
+              54.5431
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "carrowreagh",
+      "name": "CARROWREAGH",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 6124,
+      "male": 3002,
+      "female": 3122,
+      "age_0_15_pct": 20.9,
+      "age_16_64_pct": 68.2,
+      "age_65_plus_pct": 10.9,
+      "catholic_pct": 6.9,
+      "protestant_other_christian_pct": 58.8,
+      "other_religion_pct": 1.3,
+      "no_religion_pct": 31.9,
+      "born_ni_pct": 88.4,
+      "born_other_uk_pct": 4.7,
+      "born_roi_pct": 0.7,
+      "born_elsewhere_pct": 6.3,
+      "owner_occupied_pct": 87,
+      "social_rented_pct": 5,
+      "private_rented_pct": 8.1,
+      "no_qualifications_pct": 13.8,
+      "level_1_2_pct": 24.1,
+      "level_3_pct": 16.9,
+      "level_4_plus_pct": 43.6,
+      "very_good_good_health_pct": 84.6,
+      "fair_health_pct": 10.5,
+      "bad_very_bad_health_pct": 4.9,
+      "no_cars_pct": 8.4,
+      "one_car_pct": 38.9,
+      "two_plus_cars_pct": 52.7,
+      "work_from_home_pct": 25.1,
+      "drive_to_work_pct": 62.7,
+      "public_transport_pct": 7.5,
+      "walk_cycle_pct": 3.7,
+      "urban_rural": "Urban",
+      "deprivation_rank": 427,
+      "income_rank": 436,
+      "employment_rank": 421,
+      "health_rank": 346,
+      "education_rank": 305,
+      "access_rank": 268,
+      "living_env_rank": 452,
+      "crime_rank": 356,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.7702,
+              54.5754
+            ],
+            [
+              -5.7726,
+              54.5768
+            ],
+            [
+              -5.78,
+              54.5761
+            ],
+            [
+              -5.789,
+              54.5811
+            ],
+            [
+              -5.7903,
+              54.5833
+            ],
+            [
+              -5.787,
+              54.5856
+            ],
+            [
+              -5.7859,
+              54.5898
+            ],
+            [
+              -5.7896,
+              54.5927
+            ],
+            [
+              -5.7836,
+              54.5943
+            ],
+            [
+              -5.7985,
+              54.5948
+            ],
+            [
+              -5.7962,
+              54.5965
+            ],
+            [
+              -5.7981,
+              54.598
+            ],
+            [
+              -5.7978,
+              54.6017
+            ],
+            [
+              -5.8005,
+              54.6068
+            ],
+            [
+              -5.7986,
+              54.6101
+            ],
+            [
+              -5.798,
+              54.6175
+            ],
+            [
+              -5.7864,
+              54.6196
+            ],
+            [
+              -5.7808,
+              54.6131
+            ],
+            [
+              -5.7708,
+              54.6131
+            ],
+            [
+              -5.7676,
+              54.6037
+            ],
+            [
+              -5.7688,
+              54.6006
+            ],
+            [
+              -5.772,
+              54.5996
+            ],
+            [
+              -5.7735,
+              54.594
+            ],
+            [
+              -5.7699,
+              54.5938
+            ],
+            [
+              -5.7691,
+              54.5914
+            ],
+            [
+              -5.7669,
+              54.5917
+            ],
+            [
+              -5.7643,
+              54.5868
+            ],
+            [
+              -5.7619,
+              54.5853
+            ],
+            [
+              -5.7577,
+              54.5848
+            ],
+            [
+              -5.7575,
+              54.5814
+            ],
+            [
+              -5.7643,
+              54.5805
+            ],
+            [
+              -5.7667,
+              54.5768
+            ],
+            [
+              -5.7702,
+              54.5754
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "carryduff-east",
+      "name": "CARRYDUFF EAST",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3823,
+      "male": 1851,
+      "female": 1973,
+      "age_0_15_pct": 19.5,
+      "age_16_64_pct": 62.3,
+      "age_65_plus_pct": 18.2,
+      "catholic_pct": 39.6,
+      "protestant_other_christian_pct": 38.8,
+      "other_religion_pct": 1.7,
+      "no_religion_pct": 18.8,
+      "born_ni_pct": 89.1,
+      "born_other_uk_pct": 3.8,
+      "born_roi_pct": 1.9,
+      "born_elsewhere_pct": 5.3,
+      "owner_occupied_pct": 78.3,
+      "social_rented_pct": 10.2,
+      "private_rented_pct": 11.5,
+      "no_qualifications_pct": 16,
+      "level_1_2_pct": 23.2,
+      "level_3_pct": 15.3,
+      "level_4_plus_pct": 44,
+      "very_good_good_health_pct": 81.7,
+      "fair_health_pct": 12.7,
+      "bad_very_bad_health_pct": 5.6,
+      "no_cars_pct": 10.8,
+      "one_car_pct": 36,
+      "two_plus_cars_pct": 53.2,
+      "work_from_home_pct": 26.6,
+      "drive_to_work_pct": 64.3,
+      "public_transport_pct": 4.3,
+      "walk_cycle_pct": 4.2,
+      "urban_rural": "Mixed",
+      "deprivation_rank": 420,
+      "income_rank": 421,
+      "employment_rank": 362,
+      "health_rank": 345,
+      "education_rank": 435,
+      "access_rank": 200,
+      "living_env_rank": 426,
+      "crime_rank": 416,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8716,
+              54.4791
+            ],
+            [
+              -5.8789,
+              54.4797
+            ],
+            [
+              -5.8827,
+              54.4843
+            ],
+            [
+              -5.8833,
+              54.4883
+            ],
+            [
+              -5.8814,
+              54.4935
+            ],
+            [
+              -5.8842,
+              54.4955
+            ],
+            [
+              -5.8924,
+              54.4962
+            ],
+            [
+              -5.8944,
+              54.4985
+            ],
+            [
+              -5.898,
+              54.4973
+            ],
+            [
+              -5.8887,
+              54.5158
+            ],
+            [
+              -5.89,
+              54.516
+            ],
+            [
+              -5.8886,
+              54.5184
+            ],
+            [
+              -5.8895,
+              54.5199
+            ],
+            [
+              -5.8875,
+              54.52
+            ],
+            [
+              -5.8903,
+              54.5252
+            ],
+            [
+              -5.8855,
+              54.5261
+            ],
+            [
+              -5.881,
+              54.5242
+            ],
+            [
+              -5.8755,
+              54.5182
+            ],
+            [
+              -5.8766,
+              54.518
+            ],
+            [
+              -5.8754,
+              54.5159
+            ],
+            [
+              -5.8724,
+              54.5181
+            ],
+            [
+              -5.8647,
+              54.5162
+            ],
+            [
+              -5.8649,
+              54.512
+            ],
+            [
+              -5.862,
+              54.5107
+            ],
+            [
+              -5.8451,
+              54.507
+            ],
+            [
+              -5.8294,
+              54.5094
+            ],
+            [
+              -5.8284,
+              54.5073
+            ],
+            [
+              -5.8329,
+              54.5047
+            ],
+            [
+              -5.83,
+              54.503
+            ],
+            [
+              -5.8331,
+              54.5013
+            ],
+            [
+              -5.8296,
+              54.4989
+            ],
+            [
+              -5.8271,
+              54.4997
+            ],
+            [
+              -5.8244,
+              54.4967
+            ],
+            [
+              -5.8234,
+              54.4953
+            ],
+            [
+              -5.8257,
+              54.4923
+            ],
+            [
+              -5.8311,
+              54.4892
+            ],
+            [
+              -5.8423,
+              54.4924
+            ],
+            [
+              -5.8462,
+              54.49
+            ],
+            [
+              -5.8455,
+              54.4851
+            ],
+            [
+              -5.8475,
+              54.4844
+            ],
+            [
+              -5.8523,
+              54.4873
+            ],
+            [
+              -5.8568,
+              54.4863
+            ],
+            [
+              -5.8599,
+              54.481
+            ],
+            [
+              -5.8584,
+              54.4791
+            ],
+            [
+              -5.8687,
+              54.4804
+            ],
+            [
+              -5.8716,
+              54.4791
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "carryduff-west",
+      "name": "CARRYDUFF WEST",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3351,
+      "male": 1632,
+      "female": 1719,
+      "age_0_15_pct": 19.8,
+      "age_16_64_pct": 63.4,
+      "age_65_plus_pct": 16.8,
+      "catholic_pct": 50.1,
+      "protestant_other_christian_pct": 28,
+      "other_religion_pct": 0.8,
+      "no_religion_pct": 20.1,
+      "born_ni_pct": 89.1,
+      "born_other_uk_pct": 4.3,
+      "born_roi_pct": 2,
+      "born_elsewhere_pct": 4.6,
+      "owner_occupied_pct": 86.5,
+      "social_rented_pct": 0.2,
+      "private_rented_pct": 13.3,
+      "no_qualifications_pct": 11.5,
+      "level_1_2_pct": 23.1,
+      "level_3_pct": 16.2,
+      "level_4_plus_pct": 46.8,
+      "very_good_good_health_pct": 85.9,
+      "fair_health_pct": 9.6,
+      "bad_very_bad_health_pct": 4.5,
+      "no_cars_pct": 5.5,
+      "one_car_pct": 42,
+      "two_plus_cars_pct": 52.6,
+      "work_from_home_pct": 26.8,
+      "drive_to_work_pct": 64.3,
+      "public_transport_pct": 4.8,
+      "walk_cycle_pct": 3.2,
+      "urban_rural": "Urban",
+      "deprivation_rank": 451,
+      "income_rank": 452,
+      "employment_rank": 438,
+      "health_rank": 430,
+      "education_rank": 446,
+      "access_rank": 227,
+      "living_env_rank": 259,
+      "crime_rank": 381,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9071,
+              54.5193
+            ],
+            [
+              -5.9198,
+              54.5189
+            ],
+            [
+              -5.9199,
+              54.5217
+            ],
+            [
+              -5.9173,
+              54.5232
+            ],
+            [
+              -5.9213,
+              54.527
+            ],
+            [
+              -5.9201,
+              54.5286
+            ],
+            [
+              -5.9223,
+              54.5308
+            ],
+            [
+              -5.9187,
+              54.5339
+            ],
+            [
+              -5.9202,
+              54.5358
+            ],
+            [
+              -5.9118,
+              54.5364
+            ],
+            [
+              -5.9056,
+              54.5345
+            ],
+            [
+              -5.8972,
+              54.5289
+            ],
+            [
+              -5.8927,
+              54.5279
+            ],
+            [
+              -5.8885,
+              54.523
+            ],
+            [
+              -5.8875,
+              54.52
+            ],
+            [
+              -5.8895,
+              54.5199
+            ],
+            [
+              -5.8886,
+              54.5184
+            ],
+            [
+              -5.89,
+              54.516
+            ],
+            [
+              -5.8887,
+              54.5158
+            ],
+            [
+              -5.898,
+              54.4973
+            ],
+            [
+              -5.906,
+              54.4966
+            ],
+            [
+              -5.9015,
+              54.4972
+            ],
+            [
+              -5.8971,
+              54.5007
+            ],
+            [
+              -5.8992,
+              54.5048
+            ],
+            [
+              -5.8985,
+              54.5092
+            ],
+            [
+              -5.9031,
+              54.5127
+            ],
+            [
+              -5.9032,
+              54.5151
+            ],
+            [
+              -5.9077,
+              54.5169
+            ],
+            [
+              -5.9071,
+              54.5193
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "derryaghy",
+      "name": "DERRYAGHY",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 4627,
+      "male": 2265,
+      "female": 2362,
+      "age_0_15_pct": 19,
+      "age_16_64_pct": 64.7,
+      "age_65_plus_pct": 16.3,
+      "catholic_pct": 43.8,
+      "protestant_other_christian_pct": 29.8,
+      "other_religion_pct": 2.6,
+      "no_religion_pct": 22,
+      "born_ni_pct": 85.9,
+      "born_other_uk_pct": 4.9,
+      "born_roi_pct": 2,
+      "born_elsewhere_pct": 7.2,
+      "owner_occupied_pct": 61.3,
+      "social_rented_pct": 21.1,
+      "private_rented_pct": 17.6,
+      "no_qualifications_pct": 20,
+      "level_1_2_pct": 24.1,
+      "level_3_pct": 14.5,
+      "level_4_plus_pct": 38.9,
+      "very_good_good_health_pct": 78.2,
+      "fair_health_pct": 13,
+      "bad_very_bad_health_pct": 8.7,
+      "no_cars_pct": 18.3,
+      "one_car_pct": 46.9,
+      "two_plus_cars_pct": 34.8,
+      "work_from_home_pct": 21.2,
+      "drive_to_work_pct": 64.8,
+      "public_transport_pct": 9.3,
+      "walk_cycle_pct": 3.9,
+      "urban_rural": "Mixed",
+      "deprivation_rank": 302,
+      "income_rank": 325,
+      "employment_rank": 236,
+      "health_rank": 229,
+      "education_rank": 198,
+      "access_rank": 270,
+      "living_env_rank": 442,
+      "crime_rank": 214,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0602,
+              54.5563
+            ],
+            [
+              -6.0577,
+              54.5542
+            ],
+            [
+              -6.0475,
+              54.5512
+            ],
+            [
+              -6.0412,
+              54.5468
+            ],
+            [
+              -6.0373,
+              54.5484
+            ],
+            [
+              -6.0287,
+              54.5474
+            ],
+            [
+              -6.0272,
+              54.5457
+            ],
+            [
+              -6.0202,
+              54.5478
+            ],
+            [
+              -6.0166,
+              54.5508
+            ],
+            [
+              -6.0102,
+              54.548
+            ],
+            [
+              -6.0115,
+              54.5455
+            ],
+            [
+              -6.0156,
+              54.5432
+            ],
+            [
+              -6.0125,
+              54.5408
+            ],
+            [
+              -6.014,
+              54.5388
+            ],
+            [
+              -6.0176,
+              54.5369
+            ],
+            [
+              -6.0221,
+              54.5379
+            ],
+            [
+              -6.028,
+              54.532
+            ],
+            [
+              -6.0325,
+              54.5322
+            ],
+            [
+              -6.0378,
+              54.5387
+            ],
+            [
+              -6.0404,
+              54.538
+            ],
+            [
+              -6.043,
+              54.5406
+            ],
+            [
+              -6.0531,
+              54.5434
+            ],
+            [
+              -6.0519,
+              54.5473
+            ],
+            [
+              -6.0544,
+              54.5477
+            ],
+            [
+              -6.0545,
+              54.5491
+            ],
+            [
+              -6.0634,
+              54.5557
+            ],
+            [
+              -6.0602,
+              54.5563
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "dromara",
+      "name": "DROMARA",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3460,
+      "male": 1728,
+      "female": 1732,
+      "age_0_15_pct": 20.2,
+      "age_16_64_pct": 62,
+      "age_65_plus_pct": 17.8,
+      "catholic_pct": 12.4,
+      "protestant_other_christian_pct": 64.5,
+      "other_religion_pct": 0.6,
+      "no_religion_pct": 20.9,
+      "born_ni_pct": 91.4,
+      "born_other_uk_pct": 4.7,
+      "born_roi_pct": 1.3,
+      "born_elsewhere_pct": 2.6,
+      "owner_occupied_pct": 83.6,
+      "social_rented_pct": 2.5,
+      "private_rented_pct": 13.9,
+      "no_qualifications_pct": 16.7,
+      "level_1_2_pct": 27.2,
+      "level_3_pct": 17.2,
+      "level_4_plus_pct": 37,
+      "very_good_good_health_pct": 83,
+      "fair_health_pct": 11.7,
+      "bad_very_bad_health_pct": 5.3,
+      "no_cars_pct": 4.9,
+      "one_car_pct": 29.1,
+      "two_plus_cars_pct": 65.9,
+      "work_from_home_pct": 24.7,
+      "drive_to_work_pct": 71.2,
+      "public_transport_pct": 0.9,
+      "walk_cycle_pct": 1.9,
+      "urban_rural": "Rural",
+      "deprivation_rank": 352,
+      "income_rank": 298,
+      "employment_rank": 390,
+      "health_rank": 383,
+      "education_rank": 419,
+      "access_rank": 111,
+      "living_env_rank": 50,
+      "crime_rank": 375,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.029,
+              54.4327
+            ],
+            [
+              -6.0196,
+              54.4346
+            ],
+            [
+              -6.0144,
+              54.4325
+            ],
+            [
+              -6.0021,
+              54.434
+            ],
+            [
+              -5.9963,
+              54.4285
+            ],
+            [
+              -5.982,
+              54.4294
+            ],
+            [
+              -5.9691,
+              54.4238
+            ],
+            [
+              -5.9697,
+              54.4222
+            ],
+            [
+              -5.9653,
+              54.4195
+            ],
+            [
+              -5.9523,
+              54.4174
+            ],
+            [
+              -5.9453,
+              54.4143
+            ],
+            [
+              -5.9439,
+              54.4044
+            ],
+            [
+              -5.9507,
+              54.4037
+            ],
+            [
+              -5.9445,
+              54.3982
+            ],
+            [
+              -5.9391,
+              54.3981
+            ],
+            [
+              -5.9373,
+              54.3915
+            ],
+            [
+              -5.9405,
+              54.3908
+            ],
+            [
+              -5.9409,
+              54.3881
+            ],
+            [
+              -5.9404,
+              54.3847
+            ],
+            [
+              -5.9384,
+              54.3839
+            ],
+            [
+              -5.95,
+              54.3795
+            ],
+            [
+              -5.9703,
+              54.3844
+            ],
+            [
+              -5.9919,
+              54.3741
+            ],
+            [
+              -6.0185,
+              54.3705
+            ],
+            [
+              -6.0222,
+              54.3732
+            ],
+            [
+              -6.0197,
+              54.3759
+            ],
+            [
+              -6.0207,
+              54.3775
+            ],
+            [
+              -6.0325,
+              54.3784
+            ],
+            [
+              -6.0383,
+              54.3771
+            ],
+            [
+              -6.044,
+              54.3808
+            ],
+            [
+              -6.0371,
+              54.3843
+            ],
+            [
+              -6.0483,
+              54.3865
+            ],
+            [
+              -6.0503,
+              54.3885
+            ],
+            [
+              -6.054,
+              54.3876
+            ],
+            [
+              -6.0545,
+              54.3858
+            ],
+            [
+              -6.0642,
+              54.3872
+            ],
+            [
+              -6.0634,
+              54.3886
+            ],
+            [
+              -6.0654,
+              54.3901
+            ],
+            [
+              -6.0634,
+              54.3934
+            ],
+            [
+              -6.0649,
+              54.3987
+            ],
+            [
+              -6.0547,
+              54.4005
+            ],
+            [
+              -6.0539,
+              54.4027
+            ],
+            [
+              -6.0637,
+              54.4077
+            ],
+            [
+              -6.077,
+              54.4117
+            ],
+            [
+              -6.0644,
+              54.4155
+            ],
+            [
+              -6.0641,
+              54.4176
+            ],
+            [
+              -6.0447,
+              54.4217
+            ],
+            [
+              -6.0436,
+              54.4273
+            ],
+            [
+              -6.0472,
+              54.4311
+            ],
+            [
+              -6.0521,
+              54.4332
+            ],
+            [
+              -6.0526,
+              54.4372
+            ],
+            [
+              -6.0461,
+              54.4392
+            ],
+            [
+              -6.0417,
+              54.4384
+            ],
+            [
+              -6.0416,
+              54.4366
+            ],
+            [
+              -6.0332,
+              54.4366
+            ],
+            [
+              -6.0339,
+              54.434
+            ],
+            [
+              -6.029,
+              54.4327
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "drumbo",
+      "name": "DRUMBO",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3039,
+      "male": 1493,
+      "female": 1546,
+      "age_0_15_pct": 19.1,
+      "age_16_64_pct": 58.3,
+      "age_65_plus_pct": 22.6,
+      "catholic_pct": 20.8,
+      "protestant_other_christian_pct": 54.6,
+      "other_religion_pct": 1.3,
+      "no_religion_pct": 22.2,
+      "born_ni_pct": 89,
+      "born_other_uk_pct": 6.1,
+      "born_roi_pct": 1.9,
+      "born_elsewhere_pct": 3,
+      "owner_occupied_pct": 88.5,
+      "social_rented_pct": 3.9,
+      "private_rented_pct": 7.7,
+      "no_qualifications_pct": 12.3,
+      "level_1_2_pct": 19.8,
+      "level_3_pct": 12.3,
+      "level_4_plus_pct": 53.8,
+      "very_good_good_health_pct": 86.1,
+      "fair_health_pct": 10.4,
+      "bad_very_bad_health_pct": 3.6,
+      "no_cars_pct": 4.6,
+      "one_car_pct": 28,
+      "two_plus_cars_pct": 67.4,
+      "work_from_home_pct": 29.9,
+      "drive_to_work_pct": 65.6,
+      "public_transport_pct": 1.4,
+      "walk_cycle_pct": 2.2,
+      "urban_rural": "Rural",
+      "deprivation_rank": 380,
+      "income_rank": 358,
+      "employment_rank": 456,
+      "health_rank": 460,
+      "education_rank": 459,
+      "access_rank": 142,
+      "living_env_rank": 36,
+      "crime_rank": 222,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9198,
+              54.5189
+            ],
+            [
+              -5.9071,
+              54.5193
+            ],
+            [
+              -5.9077,
+              54.5169
+            ],
+            [
+              -5.9032,
+              54.5151
+            ],
+            [
+              -5.9031,
+              54.5127
+            ],
+            [
+              -5.899,
+              54.5103
+            ],
+            [
+              -5.8992,
+              54.5048
+            ],
+            [
+              -5.8971,
+              54.5007
+            ],
+            [
+              -5.9015,
+              54.4972
+            ],
+            [
+              -5.913,
+              54.4977
+            ],
+            [
+              -5.9188,
+              54.4961
+            ],
+            [
+              -5.9304,
+              54.5025
+            ],
+            [
+              -5.9422,
+              54.4952
+            ],
+            [
+              -5.9583,
+              54.4917
+            ],
+            [
+              -5.9788,
+              54.4943
+            ],
+            [
+              -5.9829,
+              54.4966
+            ],
+            [
+              -5.9821,
+              54.4972
+            ],
+            [
+              -5.9866,
+              54.5021
+            ],
+            [
+              -5.9825,
+              54.5024
+            ],
+            [
+              -5.9787,
+              54.5061
+            ],
+            [
+              -5.9807,
+              54.5082
+            ],
+            [
+              -5.9739,
+              54.5111
+            ],
+            [
+              -5.9763,
+              54.5133
+            ],
+            [
+              -5.9758,
+              54.5156
+            ],
+            [
+              -5.9817,
+              54.5157
+            ],
+            [
+              -5.9862,
+              54.5189
+            ],
+            [
+              -5.9871,
+              54.5217
+            ],
+            [
+              -5.9941,
+              54.521
+            ],
+            [
+              -6.0002,
+              54.5236
+            ],
+            [
+              -6.0004,
+              54.5269
+            ],
+            [
+              -6.0032,
+              54.526
+            ],
+            [
+              -5.9937,
+              54.5429
+            ],
+            [
+              -5.9892,
+              54.5416
+            ],
+            [
+              -5.9873,
+              54.5373
+            ],
+            [
+              -5.984,
+              54.5366
+            ],
+            [
+              -5.984,
+              54.5351
+            ],
+            [
+              -5.978,
+              54.5353
+            ],
+            [
+              -5.9779,
+              54.5324
+            ],
+            [
+              -5.9757,
+              54.5306
+            ],
+            [
+              -5.9749,
+              54.5317
+            ],
+            [
+              -5.9728,
+              54.5308
+            ],
+            [
+              -5.9718,
+              54.5328
+            ],
+            [
+              -5.9694,
+              54.5323
+            ],
+            [
+              -5.9661,
+              54.5361
+            ],
+            [
+              -5.9595,
+              54.5387
+            ],
+            [
+              -5.9563,
+              54.5354
+            ],
+            [
+              -5.9454,
+              54.5383
+            ],
+            [
+              -5.9452,
+              54.5406
+            ],
+            [
+              -5.9414,
+              54.5437
+            ],
+            [
+              -5.922,
+              54.5375
+            ],
+            [
+              -5.9187,
+              54.5339
+            ],
+            [
+              -5.9223,
+              54.5308
+            ],
+            [
+              -5.9201,
+              54.5286
+            ],
+            [
+              -5.9214,
+              54.5271
+            ],
+            [
+              -5.9173,
+              54.5232
+            ],
+            [
+              -5.9199,
+              54.5217
+            ],
+            [
+              -5.9198,
+              54.5189
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "dundonald",
+      "name": "DUNDONALD",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3105,
+      "male": 1491,
+      "female": 1614,
+      "age_0_15_pct": 14.1,
+      "age_16_64_pct": 67.6,
+      "age_65_plus_pct": 18.3,
+      "catholic_pct": 9.6,
+      "protestant_other_christian_pct": 58.9,
+      "other_religion_pct": 1.7,
+      "no_religion_pct": 28.6,
+      "born_ni_pct": 83.8,
+      "born_other_uk_pct": 5.2,
+      "born_roi_pct": 1.2,
+      "born_elsewhere_pct": 9.9,
+      "owner_occupied_pct": 74.4,
+      "social_rented_pct": 11.9,
+      "private_rented_pct": 13.7,
+      "no_qualifications_pct": 15.4,
+      "level_1_2_pct": 28.3,
+      "level_3_pct": 17.1,
+      "level_4_plus_pct": 36.6,
+      "very_good_good_health_pct": 79.3,
+      "fair_health_pct": 14.3,
+      "bad_very_bad_health_pct": 6.4,
+      "no_cars_pct": 16.6,
+      "one_car_pct": 44.1,
+      "two_plus_cars_pct": 39.3,
+      "work_from_home_pct": 19.4,
+      "drive_to_work_pct": 58.6,
+      "public_transport_pct": 7.9,
+      "walk_cycle_pct": 13.1,
+      "urban_rural": "Urban",
+      "deprivation_rank": 437,
+      "income_rank": 438,
+      "employment_rank": 393,
+      "health_rank": 341,
+      "education_rank": 398,
+      "access_rank": 319,
+      "living_env_rank": 451,
+      "crime_rank": 318,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8149,
+              54.5897
+            ],
+            [
+              -5.8177,
+              54.5903
+            ],
+            [
+              -5.8174,
+              54.5927
+            ],
+            [
+              -5.8196,
+              54.5943
+            ],
+            [
+              -5.8161,
+              54.5948
+            ],
+            [
+              -5.8169,
+              54.5963
+            ],
+            [
+              -5.813,
+              54.5983
+            ],
+            [
+              -5.8159,
+              54.5989
+            ],
+            [
+              -5.8122,
+              54.6012
+            ],
+            [
+              -5.8111,
+              54.6072
+            ],
+            [
+              -5.8077,
+              54.6094
+            ],
+            [
+              -5.8091,
+              54.6156
+            ],
+            [
+              -5.7975,
+              54.6166
+            ],
+            [
+              -5.8005,
+              54.6068
+            ],
+            [
+              -5.7978,
+              54.6017
+            ],
+            [
+              -5.7976,
+              54.5969
+            ],
+            [
+              -5.808,
+              54.5944
+            ],
+            [
+              -5.8087,
+              54.5926
+            ],
+            [
+              -5.811,
+              54.5933
+            ],
+            [
+              -5.8149,
+              54.5897
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "enler",
+      "name": "ENLER",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3205,
+      "male": 1547,
+      "female": 1658,
+      "age_0_15_pct": 19.3,
+      "age_16_64_pct": 64.3,
+      "age_65_plus_pct": 16.4,
+      "catholic_pct": 3.3,
+      "protestant_other_christian_pct": 64,
+      "other_religion_pct": 0.8,
+      "no_religion_pct": 30.2,
+      "born_ni_pct": 90.2,
+      "born_other_uk_pct": 4.6,
+      "born_roi_pct": 0.3,
+      "born_elsewhere_pct": 4.9,
+      "owner_occupied_pct": 51,
+      "social_rented_pct": 35.5,
+      "private_rented_pct": 13.6,
+      "no_qualifications_pct": 31,
+      "level_1_2_pct": 31.6,
+      "level_3_pct": 16.6,
+      "level_4_plus_pct": 18.7,
+      "very_good_good_health_pct": 70.7,
+      "fair_health_pct": 17.6,
+      "bad_very_bad_health_pct": 11.7,
+      "no_cars_pct": 28.5,
+      "one_car_pct": 47.7,
+      "two_plus_cars_pct": 23.7,
+      "work_from_home_pct": 12.2,
+      "drive_to_work_pct": 63.5,
+      "public_transport_pct": 12.2,
+      "walk_cycle_pct": 11,
+      "urban_rural": "Urban",
+      "deprivation_rank": 143,
+      "income_rank": 316,
+      "employment_rank": 120,
+      "health_rank": 58,
+      "education_rank": 40,
+      "access_rank": 350,
+      "living_env_rank": 427,
+      "crime_rank": 168,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.7939,
+              54.5818
+            ],
+            [
+              -5.8,
+              54.5864
+            ],
+            [
+              -5.7986,
+              54.5864
+            ],
+            [
+              -5.7978,
+              54.5903
+            ],
+            [
+              -5.7885,
+              54.5915
+            ],
+            [
+              -5.7859,
+              54.5898
+            ],
+            [
+              -5.7882,
+              54.584
+            ],
+            [
+              -5.7939,
+              54.5818
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "galwally",
+      "name": "GALWALLY",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3040,
+      "male": 1425,
+      "female": 1615,
+      "age_0_15_pct": 17,
+      "age_16_64_pct": 63.4,
+      "age_65_plus_pct": 19.6,
+      "catholic_pct": 43.6,
+      "protestant_other_christian_pct": 27.1,
+      "other_religion_pct": 1.4,
+      "no_religion_pct": 26.5,
+      "born_ni_pct": 87.2,
+      "born_other_uk_pct": 3.9,
+      "born_roi_pct": 2.6,
+      "born_elsewhere_pct": 6.3,
+      "owner_occupied_pct": 85.1,
+      "social_rented_pct": 2.7,
+      "private_rented_pct": 12.3,
+      "no_qualifications_pct": 14.4,
+      "level_1_2_pct": 19,
+      "level_3_pct": 12.9,
+      "level_4_plus_pct": 51.5,
+      "very_good_good_health_pct": 82.8,
+      "fair_health_pct": 12.1,
+      "bad_very_bad_health_pct": 5.1,
+      "no_cars_pct": 11.5,
+      "one_car_pct": 48.9,
+      "two_plus_cars_pct": 39.7,
+      "work_from_home_pct": 30.6,
+      "drive_to_work_pct": 58.5,
+      "public_transport_pct": 6.4,
+      "walk_cycle_pct": 3.8,
+      "urban_rural": "Urban",
+      "deprivation_rank": 460,
+      "income_rank": 461,
+      "employment_rank": 440,
+      "health_rank": 435,
+      "education_rank": 433,
+      "access_rank": 387,
+      "living_env_rank": 328,
+      "crime_rank": 235,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9053,
+              54.5656
+            ],
+            [
+              -5.9063,
+              54.564
+            ],
+            [
+              -5.9032,
+              54.5628
+            ],
+            [
+              -5.8892,
+              54.5618
+            ],
+            [
+              -5.893,
+              54.5561
+            ],
+            [
+              -5.9019,
+              54.5541
+            ],
+            [
+              -5.9039,
+              54.5559
+            ],
+            [
+              -5.9077,
+              54.5558
+            ],
+            [
+              -5.9128,
+              54.5659
+            ],
+            [
+              -5.9088,
+              54.5668
+            ],
+            [
+              -5.9053,
+              54.5656
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "glenavy",
+      "name": "GLENAVY",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 4079,
+      "male": 2012,
+      "female": 2066,
+      "age_0_15_pct": 23.6,
+      "age_16_64_pct": 65.3,
+      "age_65_plus_pct": 11.1,
+      "catholic_pct": 71.5,
+      "protestant_other_christian_pct": 16.7,
+      "other_religion_pct": 0.3,
+      "no_religion_pct": 10.9,
+      "born_ni_pct": 92.9,
+      "born_other_uk_pct": 3.5,
+      "born_roi_pct": 1.4,
+      "born_elsewhere_pct": 2.2,
+      "owner_occupied_pct": 84.3,
+      "social_rented_pct": 4,
+      "private_rented_pct": 11.8,
+      "no_qualifications_pct": 14.2,
+      "level_1_2_pct": 26.4,
+      "level_3_pct": 19.8,
+      "level_4_plus_pct": 38,
+      "very_good_good_health_pct": 85,
+      "fair_health_pct": 10.1,
+      "bad_very_bad_health_pct": 4.9,
+      "no_cars_pct": 4.6,
+      "one_car_pct": 31.8,
+      "two_plus_cars_pct": 63.6,
+      "work_from_home_pct": 21.5,
+      "drive_to_work_pct": 73.2,
+      "public_transport_pct": 2.6,
+      "walk_cycle_pct": 2,
+      "urban_rural": "Rural",
+      "deprivation_rank": 382,
+      "income_rank": 382,
+      "employment_rank": 397,
+      "health_rank": 315,
+      "education_rank": 369,
+      "access_rank": 147,
+      "living_env_rank": 358,
+      "crime_rank": 253,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.1763,
+              54.5646
+            ],
+            [
+              -6.1788,
+              54.5666
+            ],
+            [
+              -6.1872,
+              54.5655
+            ],
+            [
+              -6.1963,
+              54.5664
+            ],
+            [
+              -6.2056,
+              54.5641
+            ],
+            [
+              -6.2122,
+              54.5661
+            ],
+            [
+              -6.2144,
+              54.5639
+            ],
+            [
+              -6.2208,
+              54.5632
+            ],
+            [
+              -6.2275,
+              54.5665
+            ],
+            [
+              -6.2302,
+              54.565
+            ],
+            [
+              -6.2349,
+              54.5581
+            ],
+            [
+              -6.2415,
+              54.5594
+            ],
+            [
+              -6.2425,
+              54.563
+            ],
+            [
+              -6.2512,
+              54.5606
+            ],
+            [
+              -6.2636,
+              54.5632
+            ],
+            [
+              -6.2777,
+              54.5574
+            ],
+            [
+              -6.2908,
+              54.5614
+            ],
+            [
+              -6.3046,
+              54.5729
+            ],
+            [
+              -6.2812,
+              54.58
+            ],
+            [
+              -6.2945,
+              54.5967
+            ],
+            [
+              -6.2637,
+              54.5979
+            ],
+            [
+              -6.2537,
+              54.5895
+            ],
+            [
+              -6.237,
+              54.5879
+            ],
+            [
+              -6.2324,
+              54.5905
+            ],
+            [
+              -6.2293,
+              54.5905
+            ],
+            [
+              -6.2287,
+              54.5924
+            ],
+            [
+              -6.231,
+              54.5937
+            ],
+            [
+              -6.2291,
+              54.5941
+            ],
+            [
+              -6.2299,
+              54.5968
+            ],
+            [
+              -6.2175,
+              54.602
+            ],
+            [
+              -6.2099,
+              54.5986
+            ],
+            [
+              -6.2061,
+              54.6007
+            ],
+            [
+              -6.2001,
+              54.5996
+            ],
+            [
+              -6.1968,
+              54.6017
+            ],
+            [
+              -6.1919,
+              54.6004
+            ],
+            [
+              -6.1921,
+              54.6024
+            ],
+            [
+              -6.1861,
+              54.6039
+            ],
+            [
+              -6.1693,
+              54.6041
+            ],
+            [
+              -6.1666,
+              54.603
+            ],
+            [
+              -6.1675,
+              54.6002
+            ],
+            [
+              -6.1609,
+              54.5966
+            ],
+            [
+              -6.1591,
+              54.5934
+            ],
+            [
+              -6.1635,
+              54.5912
+            ],
+            [
+              -6.1702,
+              54.5916
+            ],
+            [
+              -6.1744,
+              54.5883
+            ],
+            [
+              -6.175,
+              54.5861
+            ],
+            [
+              -6.1557,
+              54.5789
+            ],
+            [
+              -6.1464,
+              54.5721
+            ],
+            [
+              -6.1398,
+              54.5707
+            ],
+            [
+              -6.1412,
+              54.5682
+            ],
+            [
+              -6.1519,
+              54.5699
+            ],
+            [
+              -6.1564,
+              54.571
+            ],
+            [
+              -6.1593,
+              54.5737
+            ],
+            [
+              -6.1621,
+              54.5711
+            ],
+            [
+              -6.1654,
+              54.5721
+            ],
+            [
+              -6.169,
+              54.566
+            ],
+            [
+              -6.1668,
+              54.5646
+            ],
+            [
+              -6.1679,
+              54.5636
+            ],
+            [
+              -6.1707,
+              54.5651
+            ],
+            [
+              -6.1763,
+              54.5646
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "grahams-bridge",
+      "name": "GRAHAM'S BRIDGE",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3312,
+      "male": 1557,
+      "female": 1755,
+      "age_0_15_pct": 18.7,
+      "age_16_64_pct": 61.5,
+      "age_65_plus_pct": 19.9,
+      "catholic_pct": 5.9,
+      "protestant_other_christian_pct": 60.2,
+      "other_religion_pct": 1.4,
+      "no_religion_pct": 30.5,
+      "born_ni_pct": 85.4,
+      "born_other_uk_pct": 5.1,
+      "born_roi_pct": 0.7,
+      "born_elsewhere_pct": 8.8,
+      "owner_occupied_pct": 55.1,
+      "social_rented_pct": 25.9,
+      "private_rented_pct": 19,
+      "no_qualifications_pct": 25.5,
+      "level_1_2_pct": 30.7,
+      "level_3_pct": 13.4,
+      "level_4_plus_pct": 28,
+      "very_good_good_health_pct": 74.5,
+      "fair_health_pct": 16.2,
+      "bad_very_bad_health_pct": 9.3,
+      "no_cars_pct": 28.3,
+      "one_car_pct": 45,
+      "two_plus_cars_pct": 26.7,
+      "work_from_home_pct": 16.9,
+      "drive_to_work_pct": 59.3,
+      "public_transport_pct": 8.7,
+      "walk_cycle_pct": 14,
+      "urban_rural": "Urban",
+      "deprivation_rank": 199,
+      "income_rank": 249,
+      "employment_rank": 190,
+      "health_rank": 121,
+      "education_rank": 74,
+      "access_rank": 438,
+      "living_env_rank": 383,
+      "crime_rank": 188,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.7894,
+              54.5914
+            ],
+            [
+              -5.7978,
+              54.5903
+            ],
+            [
+              -5.7986,
+              54.5863
+            ],
+            [
+              -5.8049,
+              54.5893
+            ],
+            [
+              -5.8065,
+              54.5882
+            ],
+            [
+              -5.815,
+              54.59
+            ],
+            [
+              -5.811,
+              54.5933
+            ],
+            [
+              -5.8087,
+              54.5926
+            ],
+            [
+              -5.808,
+              54.5944
+            ],
+            [
+              -5.7976,
+              54.5969
+            ],
+            [
+              -5.7962,
+              54.5965
+            ],
+            [
+              -5.7985,
+              54.5948
+            ],
+            [
+              -5.7836,
+              54.5943
+            ],
+            [
+              -5.7892,
+              54.5932
+            ],
+            [
+              -5.7894,
+              54.5914
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "harmony-hill",
+      "name": "HARMONY HILL",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3022,
+      "male": 1507,
+      "female": 1515,
+      "age_0_15_pct": 15.4,
+      "age_16_64_pct": 59,
+      "age_65_plus_pct": 25.6,
+      "catholic_pct": 27.5,
+      "protestant_other_christian_pct": 45.9,
+      "other_religion_pct": 2,
+      "no_religion_pct": 23.3,
+      "born_ni_pct": 84.6,
+      "born_other_uk_pct": 8.3,
+      "born_roi_pct": 1.4,
+      "born_elsewhere_pct": 5.7,
+      "owner_occupied_pct": 80.3,
+      "social_rented_pct": 6.4,
+      "private_rented_pct": 13.3,
+      "no_qualifications_pct": 15.8,
+      "level_1_2_pct": 26,
+      "level_3_pct": 14.9,
+      "level_4_plus_pct": 40.3,
+      "very_good_good_health_pct": 80.9,
+      "fair_health_pct": 13.2,
+      "bad_very_bad_health_pct": 5.9,
+      "no_cars_pct": 14.2,
+      "one_car_pct": 43.3,
+      "two_plus_cars_pct": 42.5,
+      "work_from_home_pct": 22.1,
+      "drive_to_work_pct": 64.4,
+      "public_transport_pct": 6.4,
+      "walk_cycle_pct": 6.2,
+      "urban_rural": "Urban",
+      "deprivation_rank": 444,
+      "income_rank": 449,
+      "employment_rank": 403,
+      "health_rank": 403,
+      "education_rank": 421,
+      "access_rank": 409,
+      "living_env_rank": 155,
+      "crime_rank": 290,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0362,
+              54.5157
+            ],
+            [
+              -6.038,
+              54.5224
+            ],
+            [
+              -6.0419,
+              54.5228
+            ],
+            [
+              -6.0431,
+              54.5276
+            ],
+            [
+              -6.0402,
+              54.5276
+            ],
+            [
+              -6.0385,
+              54.5253
+            ],
+            [
+              -6.0336,
+              54.5287
+            ],
+            [
+              -6.036,
+              54.5306
+            ],
+            [
+              -6.0312,
+              54.5327
+            ],
+            [
+              -6.0281,
+              54.5321
+            ],
+            [
+              -6.0301,
+              54.5284
+            ],
+            [
+              -6.03,
+              54.52
+            ],
+            [
+              -6.0362,
+              54.5157
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "hilden",
+      "name": "HILDEN",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3902,
+      "male": 1881,
+      "female": 2022,
+      "age_0_15_pct": 17.6,
+      "age_16_64_pct": 64.5,
+      "age_65_plus_pct": 17.9,
+      "catholic_pct": 18.9,
+      "protestant_other_christian_pct": 48.9,
+      "other_religion_pct": 1.9,
+      "no_religion_pct": 28.6,
+      "born_ni_pct": 81.8,
+      "born_other_uk_pct": 6,
+      "born_roi_pct": 1.3,
+      "born_elsewhere_pct": 11,
+      "owner_occupied_pct": 43.6,
+      "social_rented_pct": 32.7,
+      "private_rented_pct": 23.6,
+      "no_qualifications_pct": 28.6,
+      "level_1_2_pct": 30.8,
+      "level_3_pct": 15.2,
+      "level_4_plus_pct": 22.3,
+      "very_good_good_health_pct": 71.9,
+      "fair_health_pct": 17.5,
+      "bad_very_bad_health_pct": 10.6,
+      "no_cars_pct": 35.9,
+      "one_car_pct": 46.8,
+      "two_plus_cars_pct": 17.3,
+      "work_from_home_pct": 12.6,
+      "drive_to_work_pct": 62.5,
+      "public_transport_pct": 9.1,
+      "walk_cycle_pct": 14.6,
+      "urban_rural": "Urban",
+      "deprivation_rank": 113,
+      "income_rank": 145,
+      "employment_rank": 149,
+      "health_rank": 127,
+      "education_rank": 45,
+      "access_rank": 445,
+      "living_env_rank": 94,
+      "crime_rank": 45,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0419,
+              54.5058
+            ],
+            [
+              -6.051,
+              54.5084
+            ],
+            [
+              -6.0528,
+              54.513
+            ],
+            [
+              -6.0412,
+              54.5137
+            ],
+            [
+              -6.0399,
+              54.5125
+            ],
+            [
+              -6.03,
+              54.5199
+            ],
+            [
+              -6.0301,
+              54.5269
+            ],
+            [
+              -6.0249,
+              54.5276
+            ],
+            [
+              -6.0272,
+              54.5248
+            ],
+            [
+              -6.023,
+              54.5234
+            ],
+            [
+              -6.0211,
+              54.5194
+            ],
+            [
+              -6.0236,
+              54.5173
+            ],
+            [
+              -6.024,
+              54.5138
+            ],
+            [
+              -6.0314,
+              54.5115
+            ],
+            [
+              -6.0366,
+              54.5117
+            ],
+            [
+              -6.0419,
+              54.5058
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "hillhall",
+      "name": "HILLHALL",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 4065,
+      "male": 1979,
+      "female": 2088,
+      "age_0_15_pct": 21.8,
+      "age_16_64_pct": 60.6,
+      "age_65_plus_pct": 17.5,
+      "catholic_pct": 12.3,
+      "protestant_other_christian_pct": 56.7,
+      "other_religion_pct": 2.1,
+      "no_religion_pct": 27.5,
+      "born_ni_pct": 85.7,
+      "born_other_uk_pct": 5.5,
+      "born_roi_pct": 1.4,
+      "born_elsewhere_pct": 7.4,
+      "owner_occupied_pct": 66.3,
+      "social_rented_pct": 20.9,
+      "private_rented_pct": 12.8,
+      "no_qualifications_pct": 21.5,
+      "level_1_2_pct": 24.8,
+      "level_3_pct": 12.8,
+      "level_4_plus_pct": 38.8,
+      "very_good_good_health_pct": 80,
+      "fair_health_pct": 13.6,
+      "bad_very_bad_health_pct": 6.3,
+      "no_cars_pct": 19.7,
+      "one_car_pct": 39.5,
+      "two_plus_cars_pct": 40.8,
+      "work_from_home_pct": 20.5,
+      "drive_to_work_pct": 66.5,
+      "public_transport_pct": 4.3,
+      "walk_cycle_pct": 8,
+      "urban_rural": "Mixed",
+      "deprivation_rank": 322,
+      "income_rank": 326,
+      "employment_rank": 265,
+      "health_rank": 251,
+      "education_rank": 225,
+      "access_rank": 209,
+      "living_env_rank": 351,
+      "crime_rank": 285,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9845,
+              54.4992
+            ],
+            [
+              -5.9949,
+              54.5004
+            ],
+            [
+              -6.0058,
+              54.4972
+            ],
+            [
+              -6.009,
+              54.4985
+            ],
+            [
+              -6.0141,
+              54.4946
+            ],
+            [
+              -6.0219,
+              54.4972
+            ],
+            [
+              -6.028,
+              54.5054
+            ],
+            [
+              -6.0382,
+              54.5099
+            ],
+            [
+              -6.0355,
+              54.5122
+            ],
+            [
+              -6.0316,
+              54.5115
+            ],
+            [
+              -6.0242,
+              54.5136
+            ],
+            [
+              -6.0233,
+              54.5175
+            ],
+            [
+              -6.0174,
+              54.5206
+            ],
+            [
+              -6.0166,
+              54.5179
+            ],
+            [
+              -6.0112,
+              54.5149
+            ],
+            [
+              -6.0032,
+              54.526
+            ],
+            [
+              -6.0004,
+              54.5269
+            ],
+            [
+              -6.0002,
+              54.5236
+            ],
+            [
+              -5.9941,
+              54.521
+            ],
+            [
+              -5.9871,
+              54.5217
+            ],
+            [
+              -5.9862,
+              54.5189
+            ],
+            [
+              -5.9817,
+              54.5157
+            ],
+            [
+              -5.9758,
+              54.5156
+            ],
+            [
+              -5.9763,
+              54.5133
+            ],
+            [
+              -5.9739,
+              54.5111
+            ],
+            [
+              -5.9807,
+              54.5082
+            ],
+            [
+              -5.9787,
+              54.5061
+            ],
+            [
+              -5.9825,
+              54.5024
+            ],
+            [
+              -5.9866,
+              54.5021
+            ],
+            [
+              -5.9845,
+              54.4992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "hillsborough",
+      "name": "HILLSBOROUGH",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3312,
+      "male": 1640,
+      "female": 1674,
+      "age_0_15_pct": 14.8,
+      "age_16_64_pct": 57.3,
+      "age_65_plus_pct": 28,
+      "catholic_pct": 10.4,
+      "protestant_other_christian_pct": 66.9,
+      "other_religion_pct": 1.4,
+      "no_religion_pct": 20.2,
+      "born_ni_pct": 86.6,
+      "born_other_uk_pct": 6.9,
+      "born_roi_pct": 2.6,
+      "born_elsewhere_pct": 4,
+      "owner_occupied_pct": 79.9,
+      "social_rented_pct": 6.5,
+      "private_rented_pct": 13.5,
+      "no_qualifications_pct": 15.8,
+      "level_1_2_pct": 20.3,
+      "level_3_pct": 12.4,
+      "level_4_plus_pct": 49.4,
+      "very_good_good_health_pct": 82.8,
+      "fair_health_pct": 12.6,
+      "bad_very_bad_health_pct": 4.6,
+      "no_cars_pct": 10,
+      "one_car_pct": 37.7,
+      "two_plus_cars_pct": 52.3,
+      "work_from_home_pct": 28.2,
+      "drive_to_work_pct": 63.8,
+      "public_transport_pct": 3.6,
+      "walk_cycle_pct": 3.3,
+      "urban_rural": "Rural",
+      "deprivation_rank": 431,
+      "income_rank": 387,
+      "employment_rank": 451,
+      "health_rank": 448,
+      "education_rank": 455,
+      "access_rank": 180,
+      "living_env_rank": 186,
+      "crime_rank": 361,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0771,
+              54.4095
+            ],
+            [
+              -6.0864,
+              54.4101
+            ],
+            [
+              -6.087,
+              54.4127
+            ],
+            [
+              -6.0942,
+              54.4186
+            ],
+            [
+              -6.1115,
+              54.4239
+            ],
+            [
+              -6.1225,
+              54.4315
+            ],
+            [
+              -6.1284,
+              54.433
+            ],
+            [
+              -6.125,
+              54.4342
+            ],
+            [
+              -6.1244,
+              54.4375
+            ],
+            [
+              -6.1188,
+              54.4385
+            ],
+            [
+              -6.1198,
+              54.4421
+            ],
+            [
+              -6.1141,
+              54.443
+            ],
+            [
+              -6.1084,
+              54.4469
+            ],
+            [
+              -6.1026,
+              54.4563
+            ],
+            [
+              -6.0877,
+              54.4696
+            ],
+            [
+              -6.0777,
+              54.473
+            ],
+            [
+              -6.0793,
+              54.471
+            ],
+            [
+              -6.0735,
+              54.469
+            ],
+            [
+              -6.0678,
+              54.4637
+            ],
+            [
+              -6.0661,
+              54.4646
+            ],
+            [
+              -6.0615,
+              54.4627
+            ],
+            [
+              -6.0636,
+              54.4619
+            ],
+            [
+              -6.0572,
+              54.4592
+            ],
+            [
+              -6.0581,
+              54.4572
+            ],
+            [
+              -6.0468,
+              54.4601
+            ],
+            [
+              -6.0477,
+              54.4582
+            ],
+            [
+              -6.042,
+              54.457
+            ],
+            [
+              -6.0423,
+              54.4554
+            ],
+            [
+              -6.0396,
+              54.4548
+            ],
+            [
+              -6.0402,
+              54.4519
+            ],
+            [
+              -6.0384,
+              54.4515
+            ],
+            [
+              -6.0391,
+              54.448
+            ],
+            [
+              -6.0419,
+              54.4491
+            ],
+            [
+              -6.0423,
+              54.4474
+            ],
+            [
+              -6.0444,
+              54.4475
+            ],
+            [
+              -6.0515,
+              54.4425
+            ],
+            [
+              -6.0461,
+              54.4392
+            ],
+            [
+              -6.0528,
+              54.4371
+            ],
+            [
+              -6.0521,
+              54.4332
+            ],
+            [
+              -6.0472,
+              54.4311
+            ],
+            [
+              -6.0436,
+              54.4273
+            ],
+            [
+              -6.0447,
+              54.4217
+            ],
+            [
+              -6.0642,
+              54.4176
+            ],
+            [
+              -6.0645,
+              54.4155
+            ],
+            [
+              -6.0758,
+              54.4125
+            ],
+            [
+              -6.0771,
+              54.4095
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "knockbracken",
+      "name": "KNOCKBRACKEN",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3534,
+      "male": 1720,
+      "female": 1814,
+      "age_0_15_pct": 19.3,
+      "age_16_64_pct": 62.4,
+      "age_65_plus_pct": 18.3,
+      "catholic_pct": 51.4,
+      "protestant_other_christian_pct": 23.2,
+      "other_religion_pct": 3.2,
+      "no_religion_pct": 20.8,
+      "born_ni_pct": 85.4,
+      "born_other_uk_pct": 4.2,
+      "born_roi_pct": 3,
+      "born_elsewhere_pct": 7.4,
+      "owner_occupied_pct": 89.4,
+      "social_rented_pct": 1.7,
+      "private_rented_pct": 8.8,
+      "no_qualifications_pct": 11.3,
+      "level_1_2_pct": 17.5,
+      "level_3_pct": 11.9,
+      "level_4_plus_pct": 57.3,
+      "very_good_good_health_pct": 86.5,
+      "fair_health_pct": 9.9,
+      "bad_very_bad_health_pct": 3.6,
+      "no_cars_pct": 5.5,
+      "one_car_pct": 38.1,
+      "two_plus_cars_pct": 56.3,
+      "work_from_home_pct": 29.4,
+      "drive_to_work_pct": 60.2,
+      "public_transport_pct": 6.4,
+      "walk_cycle_pct": 3.1,
+      "urban_rural": "Urban",
+      "deprivation_rank": 443,
+      "income_rank": 440,
+      "employment_rank": 454,
+      "health_rank": 451,
+      "education_rank": 448,
+      "access_rank": 240,
+      "living_env_rank": 184,
+      "crime_rank": 252,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8798,
+              54.525
+            ],
+            [
+              -5.8855,
+              54.5261
+            ],
+            [
+              -5.8903,
+              54.5252
+            ],
+            [
+              -5.893,
+              54.5281
+            ],
+            [
+              -5.9039,
+              54.5332
+            ],
+            [
+              -5.8992,
+              54.5383
+            ],
+            [
+              -5.9065,
+              54.5492
+            ],
+            [
+              -5.9009,
+              54.5506
+            ],
+            [
+              -5.9055,
+              54.5523
+            ],
+            [
+              -5.9035,
+              54.5553
+            ],
+            [
+              -5.8972,
+              54.5516
+            ],
+            [
+              -5.8951,
+              54.5484
+            ],
+            [
+              -5.8932,
+              54.5485
+            ],
+            [
+              -5.8935,
+              54.5463
+            ],
+            [
+              -5.8906,
+              54.5459
+            ],
+            [
+              -5.8905,
+              54.5431
+            ],
+            [
+              -5.8806,
+              54.5447
+            ],
+            [
+              -5.8786,
+              54.5396
+            ],
+            [
+              -5.8748,
+              54.5383
+            ],
+            [
+              -5.8768,
+              54.5312
+            ],
+            [
+              -5.8814,
+              54.5276
+            ],
+            [
+              -5.8798,
+              54.525
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "knockmore",
+      "name": "KNOCKMORE",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 4658,
+      "male": 2283,
+      "female": 2375,
+      "age_0_15_pct": 21.9,
+      "age_16_64_pct": 64,
+      "age_65_plus_pct": 14.1,
+      "catholic_pct": 23.7,
+      "protestant_other_christian_pct": 48.2,
+      "other_religion_pct": 1.4,
+      "no_religion_pct": 24.7,
+      "born_ni_pct": 84.6,
+      "born_other_uk_pct": 5.8,
+      "born_roi_pct": 0.8,
+      "born_elsewhere_pct": 8.8,
+      "owner_occupied_pct": 62.3,
+      "social_rented_pct": 19.5,
+      "private_rented_pct": 18.2,
+      "no_qualifications_pct": 23.8,
+      "level_1_2_pct": 29.5,
+      "level_3_pct": 16,
+      "level_4_plus_pct": 28.3,
+      "very_good_good_health_pct": 78.3,
+      "fair_health_pct": 13,
+      "bad_very_bad_health_pct": 8.6,
+      "no_cars_pct": 14.7,
+      "one_car_pct": 47,
+      "two_plus_cars_pct": 38.3,
+      "work_from_home_pct": 15.6,
+      "drive_to_work_pct": 72.4,
+      "public_transport_pct": 3.8,
+      "walk_cycle_pct": 7.3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 247,
+      "income_rank": 303,
+      "employment_rank": 240,
+      "health_rank": 185,
+      "education_rank": 95,
+      "access_rank": 231,
+      "living_env_rank": 294,
+      "crime_rank": 187,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0716,
+              54.5191
+            ],
+            [
+              -6.064,
+              54.5164
+            ],
+            [
+              -6.0657,
+              54.5136
+            ],
+            [
+              -6.0642,
+              54.5116
+            ],
+            [
+              -6.079,
+              54.5095
+            ],
+            [
+              -6.0784,
+              54.5081
+            ],
+            [
+              -6.0744,
+              54.508
+            ],
+            [
+              -6.0727,
+              54.5056
+            ],
+            [
+              -6.0823,
+              54.5051
+            ],
+            [
+              -6.0872,
+              54.5033
+            ],
+            [
+              -6.0868,
+              54.5023
+            ],
+            [
+              -6.1011,
+              54.4992
+            ],
+            [
+              -6.1065,
+              54.4995
+            ],
+            [
+              -6.1089,
+              54.5017
+            ],
+            [
+              -6.1176,
+              54.5022
+            ],
+            [
+              -6.1099,
+              54.5043
+            ],
+            [
+              -6.1112,
+              54.51
+            ],
+            [
+              -6.1059,
+              54.5118
+            ],
+            [
+              -6.1098,
+              54.5182
+            ],
+            [
+              -6.0959,
+              54.519
+            ],
+            [
+              -6.0932,
+              54.5169
+            ],
+            [
+              -6.0941,
+              54.5144
+            ],
+            [
+              -6.086,
+              54.5144
+            ],
+            [
+              -6.0716,
+              54.5191
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "lagan",
+      "name": "LAGAN",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3477,
+      "male": 1757,
+      "female": 1720,
+      "age_0_15_pct": 18.9,
+      "age_16_64_pct": 62.2,
+      "age_65_plus_pct": 19,
+      "catholic_pct": 16.2,
+      "protestant_other_christian_pct": 61.4,
+      "other_religion_pct": 1.1,
+      "no_religion_pct": 19.9,
+      "born_ni_pct": 88.7,
+      "born_other_uk_pct": 5.8,
+      "born_roi_pct": 1.9,
+      "born_elsewhere_pct": 3.7,
+      "owner_occupied_pct": 80.4,
+      "social_rented_pct": 5.6,
+      "private_rented_pct": 14,
+      "no_qualifications_pct": 17.5,
+      "level_1_2_pct": 23.6,
+      "level_3_pct": 13.9,
+      "level_4_plus_pct": 42.6,
+      "very_good_good_health_pct": 85,
+      "fair_health_pct": 10.7,
+      "bad_very_bad_health_pct": 4.3,
+      "no_cars_pct": 7.7,
+      "one_car_pct": 32.4,
+      "two_plus_cars_pct": 60,
+      "work_from_home_pct": 25.6,
+      "drive_to_work_pct": 66.9,
+      "public_transport_pct": 3.4,
+      "walk_cycle_pct": 3.1,
+      "urban_rural": "Rural",
+      "deprivation_rank": 381,
+      "income_rank": 384,
+      "employment_rank": 408,
+      "health_rank": 385,
+      "education_rank": 399,
+      "access_rank": 122,
+      "living_env_rank": 178,
+      "crime_rank": 218,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.2088,
+              54.4324
+            ],
+            [
+              -6.2123,
+              54.4368
+            ],
+            [
+              -6.2117,
+              54.4402
+            ],
+            [
+              -6.2137,
+              54.4408
+            ],
+            [
+              -6.2088,
+              54.445
+            ],
+            [
+              -6.2168,
+              54.4494
+            ],
+            [
+              -6.2156,
+              54.4503
+            ],
+            [
+              -6.2173,
+              54.4512
+            ],
+            [
+              -6.2167,
+              54.4523
+            ],
+            [
+              -6.2243,
+              54.4528
+            ],
+            [
+              -6.2237,
+              54.4542
+            ],
+            [
+              -6.2424,
+              54.465
+            ],
+            [
+              -6.239,
+              54.4665
+            ],
+            [
+              -6.2423,
+              54.4679
+            ],
+            [
+              -6.242,
+              54.47
+            ],
+            [
+              -6.2276,
+              54.4725
+            ],
+            [
+              -6.2178,
+              54.47
+            ],
+            [
+              -6.2099,
+              54.4729
+            ],
+            [
+              -6.2185,
+              54.474
+            ],
+            [
+              -6.2253,
+              54.4773
+            ],
+            [
+              -6.2285,
+              54.4798
+            ],
+            [
+              -6.2214,
+              54.4832
+            ],
+            [
+              -6.2212,
+              54.4858
+            ],
+            [
+              -6.2278,
+              54.4873
+            ],
+            [
+              -6.2332,
+              54.491
+            ],
+            [
+              -6.2388,
+              54.4913
+            ],
+            [
+              -6.2409,
+              54.4931
+            ],
+            [
+              -6.2391,
+              54.4946
+            ],
+            [
+              -6.2421,
+              54.4982
+            ],
+            [
+              -6.2412,
+              54.5007
+            ],
+            [
+              -6.2513,
+              54.5043
+            ],
+            [
+              -6.2427,
+              54.511
+            ],
+            [
+              -6.2378,
+              54.5096
+            ],
+            [
+              -6.2364,
+              54.5109
+            ],
+            [
+              -6.2289,
+              54.5106
+            ],
+            [
+              -6.2254,
+              54.5142
+            ],
+            [
+              -6.2237,
+              54.5139
+            ],
+            [
+              -6.2253,
+              54.5123
+            ],
+            [
+              -6.2234,
+              54.5098
+            ],
+            [
+              -6.215,
+              54.5075
+            ],
+            [
+              -6.2144,
+              54.5086
+            ],
+            [
+              -6.2071,
+              54.508
+            ],
+            [
+              -6.2078,
+              54.5089
+            ],
+            [
+              -6.205,
+              54.5105
+            ],
+            [
+              -6.1986,
+              54.5124
+            ],
+            [
+              -6.1972,
+              54.5099
+            ],
+            [
+              -6.1991,
+              54.505
+            ],
+            [
+              -6.1982,
+              54.5025
+            ],
+            [
+              -6.193,
+              54.5025
+            ],
+            [
+              -6.194,
+              54.5014
+            ],
+            [
+              -6.1924,
+              54.5005
+            ],
+            [
+              -6.1889,
+              54.5018
+            ],
+            [
+              -6.1832,
+              54.5008
+            ],
+            [
+              -6.1784,
+              54.5031
+            ],
+            [
+              -6.1727,
+              54.5005
+            ],
+            [
+              -6.153,
+              54.4986
+            ],
+            [
+              -6.1485,
+              54.4951
+            ],
+            [
+              -6.1487,
+              54.4887
+            ],
+            [
+              -6.141,
+              54.4879
+            ],
+            [
+              -6.1516,
+              54.4825
+            ],
+            [
+              -6.1474,
+              54.4776
+            ],
+            [
+              -6.1492,
+              54.4736
+            ],
+            [
+              -6.1466,
+              54.4731
+            ],
+            [
+              -6.1359,
+              54.4641
+            ],
+            [
+              -6.1348,
+              54.465
+            ],
+            [
+              -6.1256,
+              54.4614
+            ],
+            [
+              -6.1221,
+              54.4561
+            ],
+            [
+              -6.123,
+              54.4527
+            ],
+            [
+              -6.1158,
+              54.4475
+            ],
+            [
+              -6.1158,
+              54.4435
+            ],
+            [
+              -6.1198,
+              54.4421
+            ],
+            [
+              -6.1188,
+              54.4385
+            ],
+            [
+              -6.1244,
+              54.4375
+            ],
+            [
+              -6.125,
+              54.4342
+            ],
+            [
+              -6.1284,
+              54.4332
+            ],
+            [
+              -6.1358,
+              54.4361
+            ],
+            [
+              -6.1589,
+              54.4342
+            ],
+            [
+              -6.1608,
+              54.4373
+            ],
+            [
+              -6.1542,
+              54.4414
+            ],
+            [
+              -6.1565,
+              54.4442
+            ],
+            [
+              -6.1629,
+              54.4441
+            ],
+            [
+              -6.1805,
+              54.4411
+            ],
+            [
+              -6.1851,
+              54.438
+            ],
+            [
+              -6.1998,
+              54.4385
+            ],
+            [
+              -6.2022,
+              54.4376
+            ],
+            [
+              -6.201,
+              54.4355
+            ],
+            [
+              -6.2022,
+              54.434
+            ],
+            [
+              -6.2088,
+              54.4324
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "lagan-valley",
+      "name": "LAGAN VALLEY",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3397,
+      "male": 1610,
+      "female": 1787,
+      "age_0_15_pct": 18.5,
+      "age_16_64_pct": 61.9,
+      "age_65_plus_pct": 19.6,
+      "catholic_pct": 18.8,
+      "protestant_other_christian_pct": 51,
+      "other_religion_pct": 2.3,
+      "no_religion_pct": 25.2,
+      "born_ni_pct": 81.5,
+      "born_other_uk_pct": 6.3,
+      "born_roi_pct": 1.2,
+      "born_elsewhere_pct": 11.1,
+      "owner_occupied_pct": 48.8,
+      "social_rented_pct": 34.3,
+      "private_rented_pct": 16.9,
+      "no_qualifications_pct": 28.8,
+      "level_1_2_pct": 29.4,
+      "level_3_pct": 14.4,
+      "level_4_plus_pct": 23.4,
+      "very_good_good_health_pct": 72,
+      "fair_health_pct": 17.1,
+      "bad_very_bad_health_pct": 10.9,
+      "no_cars_pct": 32.3,
+      "one_car_pct": 45.4,
+      "two_plus_cars_pct": 22.3,
+      "work_from_home_pct": 10.8,
+      "drive_to_work_pct": 64.5,
+      "public_transport_pct": 5.9,
+      "walk_cycle_pct": 17.4,
+      "urban_rural": "Urban",
+      "deprivation_rank": 110,
+      "income_rank": 139,
+      "employment_rank": 90,
+      "health_rank": 102,
+      "education_rank": 91,
+      "access_rank": 377,
+      "living_env_rank": 206,
+      "crime_rank": 76,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0563,
+              54.4976
+            ],
+            [
+              -6.0651,
+              54.5004
+            ],
+            [
+              -6.0576,
+              54.5028
+            ],
+            [
+              -6.0577,
+              54.5094
+            ],
+            [
+              -6.052,
+              54.5104
+            ],
+            [
+              -6.0504,
+              54.5081
+            ],
+            [
+              -6.0417,
+              54.5058
+            ],
+            [
+              -6.0471,
+              54.5005
+            ],
+            [
+              -6.0515,
+              54.4986
+            ],
+            [
+              -6.0541,
+              54.4996
+            ],
+            [
+              -6.0563,
+              54.4976
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "lambeg",
+      "name": "LAMBEG",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3817,
+      "male": 1854,
+      "female": 1963,
+      "age_0_15_pct": 19.1,
+      "age_16_64_pct": 64.1,
+      "age_65_plus_pct": 16.8,
+      "catholic_pct": 8.4,
+      "protestant_other_christian_pct": 57.9,
+      "other_religion_pct": 3.6,
+      "no_religion_pct": 28.5,
+      "born_ni_pct": 86.1,
+      "born_other_uk_pct": 5.3,
+      "born_roi_pct": 1.1,
+      "born_elsewhere_pct": 7.5,
+      "owner_occupied_pct": 53.3,
+      "social_rented_pct": 31.6,
+      "private_rented_pct": 15.1,
+      "no_qualifications_pct": 25.9,
+      "level_1_2_pct": 29.8,
+      "level_3_pct": 15.9,
+      "level_4_plus_pct": 26.7,
+      "very_good_good_health_pct": 72.8,
+      "fair_health_pct": 17.3,
+      "bad_very_bad_health_pct": 9.9,
+      "no_cars_pct": 25.1,
+      "one_car_pct": 50.7,
+      "two_plus_cars_pct": 24.2,
+      "work_from_home_pct": 15.7,
+      "drive_to_work_pct": 65.4,
+      "public_transport_pct": 10,
+      "walk_cycle_pct": 7.6,
+      "urban_rural": "Mixed",
+      "deprivation_rank": 181,
+      "income_rank": 265,
+      "employment_rank": 165,
+      "health_rank": 155,
+      "education_rank": 57,
+      "access_rank": 257,
+      "living_env_rank": 181,
+      "crime_rank": 163,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0112,
+              54.5149
+            ],
+            [
+              -6.0166,
+              54.5179
+            ],
+            [
+              -6.0174,
+              54.5206
+            ],
+            [
+              -6.0211,
+              54.5191
+            ],
+            [
+              -6.0229,
+              54.5233
+            ],
+            [
+              -6.0272,
+              54.5247
+            ],
+            [
+              -6.0249,
+              54.5276
+            ],
+            [
+              -6.0301,
+              54.5269
+            ],
+            [
+              -6.029,
+              54.5309
+            ],
+            [
+              -6.0221,
+              54.5379
+            ],
+            [
+              -6.0176,
+              54.5369
+            ],
+            [
+              -6.0136,
+              54.5391
+            ],
+            [
+              -6.0125,
+              54.5409
+            ],
+            [
+              -6.0156,
+              54.5432
+            ],
+            [
+              -6.0105,
+              54.5475
+            ],
+            [
+              -6.0022,
+              54.5447
+            ],
+            [
+              -6.0005,
+              54.5454
+            ],
+            [
+              -5.9997,
+              54.5406
+            ],
+            [
+              -5.9937,
+              54.5429
+            ],
+            [
+              -5.9949,
+              54.5388
+            ],
+            [
+              -6.0112,
+              54.5149
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "lisnagarvey",
+      "name": "LISNAGARVEY",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 2939,
+      "male": 1428,
+      "female": 1508,
+      "age_0_15_pct": 13.4,
+      "age_16_64_pct": 56.9,
+      "age_65_plus_pct": 29.7,
+      "catholic_pct": 23,
+      "protestant_other_christian_pct": 53.9,
+      "other_religion_pct": 2.3,
+      "no_religion_pct": 19.9,
+      "born_ni_pct": 83.3,
+      "born_other_uk_pct": 7,
+      "born_roi_pct": 1.1,
+      "born_elsewhere_pct": 8.6,
+      "owner_occupied_pct": 76.8,
+      "social_rented_pct": 9.5,
+      "private_rented_pct": 13.8,
+      "no_qualifications_pct": 24.4,
+      "level_1_2_pct": 29.3,
+      "level_3_pct": 15.3,
+      "level_4_plus_pct": 27.7,
+      "very_good_good_health_pct": 74,
+      "fair_health_pct": 17.8,
+      "bad_very_bad_health_pct": 8.2,
+      "no_cars_pct": 17.4,
+      "one_car_pct": 48.3,
+      "two_plus_cars_pct": 34.2,
+      "work_from_home_pct": 15.6,
+      "drive_to_work_pct": 67,
+      "public_transport_pct": 6.4,
+      "walk_cycle_pct": 10.2,
+      "urban_rural": "Urban",
+      "deprivation_rank": 336,
+      "income_rank": 366,
+      "employment_rank": 279,
+      "health_rank": 290,
+      "education_rank": 151,
+      "access_rank": 390,
+      "living_env_rank": 230,
+      "crime_rank": 242,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0667,
+              54.5226
+            ],
+            [
+              -6.0568,
+              54.5193
+            ],
+            [
+              -6.0614,
+              54.5172
+            ],
+            [
+              -6.0547,
+              54.5154
+            ],
+            [
+              -6.052,
+              54.5104
+            ],
+            [
+              -6.0578,
+              54.5094
+            ],
+            [
+              -6.0595,
+              54.5122
+            ],
+            [
+              -6.0642,
+              54.5116
+            ],
+            [
+              -6.0657,
+              54.5136
+            ],
+            [
+              -6.0639,
+              54.5163
+            ],
+            [
+              -6.0674,
+              54.5168
+            ],
+            [
+              -6.0667,
+              54.5226
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "maghaberry",
+      "name": "MAGHABERRY",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 4782,
+      "male": 2639,
+      "female": 2143,
+      "age_0_15_pct": 19,
+      "age_16_64_pct": 68.7,
+      "age_65_plus_pct": 12.3,
+      "catholic_pct": 11.4,
+      "protestant_other_christian_pct": 60.9,
+      "other_religion_pct": 1.3,
+      "no_religion_pct": 22.4,
+      "born_ni_pct": 87.8,
+      "born_other_uk_pct": 5.4,
+      "born_roi_pct": 2.1,
+      "born_elsewhere_pct": 4.7,
+      "owner_occupied_pct": 91.1,
+      "social_rented_pct": 1.4,
+      "private_rented_pct": 7.4,
+      "no_qualifications_pct": 15.7,
+      "level_1_2_pct": 27.9,
+      "level_3_pct": 17.8,
+      "level_4_plus_pct": 36.5,
+      "very_good_good_health_pct": 83.1,
+      "fair_health_pct": 11.9,
+      "bad_very_bad_health_pct": 5,
+      "no_cars_pct": 2.8,
+      "one_car_pct": 27,
+      "two_plus_cars_pct": 70.2,
+      "work_from_home_pct": 20,
+      "drive_to_work_pct": 73.6,
+      "public_transport_pct": 3.4,
+      "walk_cycle_pct": 2.4,
+      "urban_rural": "Rural",
+      "deprivation_rank": 406,
+      "income_rank": 408,
+      "employment_rank": 441,
+      "health_rank": 369,
+      "education_rank": 393,
+      "access_rank": 148,
+      "living_env_rank": 196,
+      "crime_rank": 300,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.1414,
+              54.488
+            ],
+            [
+              -6.1487,
+              54.4887
+            ],
+            [
+              -6.1485,
+              54.4951
+            ],
+            [
+              -6.153,
+              54.4986
+            ],
+            [
+              -6.156,
+              54.4984
+            ],
+            [
+              -6.1549,
+              54.4993
+            ],
+            [
+              -6.1727,
+              54.5005
+            ],
+            [
+              -6.1783,
+              54.5031
+            ],
+            [
+              -6.1832,
+              54.5008
+            ],
+            [
+              -6.1889,
+              54.5018
+            ],
+            [
+              -6.1924,
+              54.5005
+            ],
+            [
+              -6.194,
+              54.5014
+            ],
+            [
+              -6.193,
+              54.5025
+            ],
+            [
+              -6.1982,
+              54.5025
+            ],
+            [
+              -6.1991,
+              54.505
+            ],
+            [
+              -6.1974,
+              54.511
+            ],
+            [
+              -6.202,
+              54.5132
+            ],
+            [
+              -6.2,
+              54.515
+            ],
+            [
+              -6.1934,
+              54.5136
+            ],
+            [
+              -6.1947,
+              54.5174
+            ],
+            [
+              -6.1901,
+              54.5176
+            ],
+            [
+              -6.1856,
+              54.5219
+            ],
+            [
+              -6.1856,
+              54.5245
+            ],
+            [
+              -6.1688,
+              54.5297
+            ],
+            [
+              -6.1656,
+              54.533
+            ],
+            [
+              -6.1696,
+              54.5351
+            ],
+            [
+              -6.161,
+              54.5353
+            ],
+            [
+              -6.1593,
+              54.5397
+            ],
+            [
+              -6.152,
+              54.5442
+            ],
+            [
+              -6.1436,
+              54.5432
+            ],
+            [
+              -6.1457,
+              54.5385
+            ],
+            [
+              -6.1428,
+              54.537
+            ],
+            [
+              -6.1444,
+              54.535
+            ],
+            [
+              -6.1365,
+              54.5341
+            ],
+            [
+              -6.1367,
+              54.537
+            ],
+            [
+              -6.1335,
+              54.5387
+            ],
+            [
+              -6.1241,
+              54.5346
+            ],
+            [
+              -6.1243,
+              54.532
+            ],
+            [
+              -6.1304,
+              54.5271
+            ],
+            [
+              -6.1289,
+              54.5241
+            ],
+            [
+              -6.1202,
+              54.524
+            ],
+            [
+              -6.1155,
+              54.5268
+            ],
+            [
+              -6.1168,
+              54.5284
+            ],
+            [
+              -6.1143,
+              54.5311
+            ],
+            [
+              -6.1151,
+              54.5336
+            ],
+            [
+              -6.1101,
+              54.5349
+            ],
+            [
+              -6.1101,
+              54.5289
+            ],
+            [
+              -6.1074,
+              54.5272
+            ],
+            [
+              -6.1043,
+              54.5297
+            ],
+            [
+              -6.0943,
+              54.5284
+            ],
+            [
+              -6.0948,
+              54.5253
+            ],
+            [
+              -6.0992,
+              54.5225
+            ],
+            [
+              -6.097,
+              54.5191
+            ],
+            [
+              -6.1098,
+              54.5182
+            ],
+            [
+              -6.1059,
+              54.5118
+            ],
+            [
+              -6.1112,
+              54.51
+            ],
+            [
+              -6.1099,
+              54.5043
+            ],
+            [
+              -6.1304,
+              54.5019
+            ],
+            [
+              -6.1314,
+              54.5002
+            ],
+            [
+              -6.1298,
+              54.4996
+            ],
+            [
+              -6.1315,
+              54.4995
+            ],
+            [
+              -6.1305,
+              54.4974
+            ],
+            [
+              -6.1348,
+              54.4957
+            ],
+            [
+              -6.1414,
+              54.488
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "magheralave",
+      "name": "MAGHERALAVE",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 4255,
+      "male": 2049,
+      "female": 2206,
+      "age_0_15_pct": 20.5,
+      "age_16_64_pct": 61.8,
+      "age_65_plus_pct": 17.7,
+      "catholic_pct": 41.5,
+      "protestant_other_christian_pct": 34.5,
+      "other_religion_pct": 1.2,
+      "no_religion_pct": 21.9,
+      "born_ni_pct": 88.3,
+      "born_other_uk_pct": 5.9,
+      "born_roi_pct": 1.3,
+      "born_elsewhere_pct": 4.5,
+      "owner_occupied_pct": 83.6,
+      "social_rented_pct": 6.2,
+      "private_rented_pct": 10.2,
+      "no_qualifications_pct": 14.6,
+      "level_1_2_pct": 23.9,
+      "level_3_pct": 14.9,
+      "level_4_plus_pct": 44.4,
+      "very_good_good_health_pct": 83.9,
+      "fair_health_pct": 11,
+      "bad_very_bad_health_pct": 5.2,
+      "no_cars_pct": 7.8,
+      "one_car_pct": 42,
+      "two_plus_cars_pct": 50.2,
+      "work_from_home_pct": 23.1,
+      "drive_to_work_pct": 68.8,
+      "public_transport_pct": 4.5,
+      "walk_cycle_pct": 3,
+      "urban_rural": "Urban",
+      "deprivation_rank": 435,
+      "income_rank": 435,
+      "employment_rank": 406,
+      "health_rank": 398,
+      "education_rank": 337,
+      "access_rank": 331,
+      "living_env_rank": 241,
+      "crime_rank": 422,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.05,
+              54.5429
+            ],
+            [
+              -6.043,
+              54.5406
+            ],
+            [
+              -6.0404,
+              54.538
+            ],
+            [
+              -6.0378,
+              54.5387
+            ],
+            [
+              -6.0318,
+              54.5322
+            ],
+            [
+              -6.036,
+              54.5306
+            ],
+            [
+              -6.0336,
+              54.5287
+            ],
+            [
+              -6.0364,
+              54.5278
+            ],
+            [
+              -6.0372,
+              54.5257
+            ],
+            [
+              -6.0385,
+              54.5253
+            ],
+            [
+              -6.0403,
+              54.5276
+            ],
+            [
+              -6.051,
+              54.5269
+            ],
+            [
+              -6.053,
+              54.5386
+            ],
+            [
+              -6.0556,
+              54.5413
+            ],
+            [
+              -6.0532,
+              54.5419
+            ],
+            [
+              -6.0556,
+              54.5435
+            ],
+            [
+              -6.05,
+              54.5429
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "maze",
+      "name": "MAZE",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3228,
+      "male": 1600,
+      "female": 1631,
+      "age_0_15_pct": 19.8,
+      "age_16_64_pct": 62,
+      "age_65_plus_pct": 18.2,
+      "catholic_pct": 11.2,
+      "protestant_other_christian_pct": 65.4,
+      "other_religion_pct": 1.2,
+      "no_religion_pct": 20.8,
+      "born_ni_pct": 90.7,
+      "born_other_uk_pct": 5.3,
+      "born_roi_pct": 1.5,
+      "born_elsewhere_pct": 2.5,
+      "owner_occupied_pct": 81.5,
+      "social_rented_pct": 6.2,
+      "private_rented_pct": 12.3,
+      "no_qualifications_pct": 16.5,
+      "level_1_2_pct": 23.9,
+      "level_3_pct": 14.9,
+      "level_4_plus_pct": 41.7,
+      "very_good_good_health_pct": 83.3,
+      "fair_health_pct": 11.5,
+      "bad_very_bad_health_pct": 5.1,
+      "no_cars_pct": 5.6,
+      "one_car_pct": 34,
+      "two_plus_cars_pct": 60.3,
+      "work_from_home_pct": 22.1,
+      "drive_to_work_pct": 72.5,
+      "public_transport_pct": 2.6,
+      "walk_cycle_pct": 1.9,
+      "urban_rural": "Rural",
+      "deprivation_rank": 424,
+      "income_rank": 423,
+      "employment_rank": 416,
+      "health_rank": 431,
+      "education_rank": 413,
+      "access_rank": 165,
+      "living_env_rank": 272,
+      "crime_rank": 365,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.1065,
+              54.4995
+            ],
+            [
+              -6.0974,
+              54.5004
+            ],
+            [
+              -6.0976,
+              54.4954
+            ],
+            [
+              -6.0909,
+              54.4846
+            ],
+            [
+              -6.0849,
+              54.4885
+            ],
+            [
+              -6.0731,
+              54.4815
+            ],
+            [
+              -6.0689,
+              54.4822
+            ],
+            [
+              -6.0756,
+              54.4742
+            ],
+            [
+              -6.0879,
+              54.4693
+            ],
+            [
+              -6.1028,
+              54.4562
+            ],
+            [
+              -6.1078,
+              54.4474
+            ],
+            [
+              -6.1141,
+              54.443
+            ],
+            [
+              -6.1165,
+              54.4445
+            ],
+            [
+              -6.1168,
+              54.4493
+            ],
+            [
+              -6.123,
+              54.4527
+            ],
+            [
+              -6.1221,
+              54.4561
+            ],
+            [
+              -6.1256,
+              54.4613
+            ],
+            [
+              -6.1348,
+              54.465
+            ],
+            [
+              -6.1359,
+              54.4641
+            ],
+            [
+              -6.1466,
+              54.4731
+            ],
+            [
+              -6.1492,
+              54.4736
+            ],
+            [
+              -6.1474,
+              54.4776
+            ],
+            [
+              -6.1516,
+              54.4825
+            ],
+            [
+              -6.1411,
+              54.4876
+            ],
+            [
+              -6.1349,
+              54.4956
+            ],
+            [
+              -6.1305,
+              54.4974
+            ],
+            [
+              -6.1315,
+              54.4995
+            ],
+            [
+              -6.1298,
+              54.4996
+            ],
+            [
+              -6.1314,
+              54.5002
+            ],
+            [
+              -6.1304,
+              54.5019
+            ],
+            [
+              -6.1163,
+              54.5033
+            ],
+            [
+              -6.1176,
+              54.5022
+            ],
+            [
+              -6.1089,
+              54.5017
+            ],
+            [
+              -6.1065,
+              54.4995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "moira",
+      "name": "MOIRA",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3747,
+      "male": 1822,
+      "female": 1925,
+      "age_0_15_pct": 16.9,
+      "age_16_64_pct": 63.4,
+      "age_65_plus_pct": 19.8,
+      "catholic_pct": 18.4,
+      "protestant_other_christian_pct": 54,
+      "other_religion_pct": 1.1,
+      "no_religion_pct": 25.4,
+      "born_ni_pct": 85.4,
+      "born_other_uk_pct": 7.7,
+      "born_roi_pct": 2.1,
+      "born_elsewhere_pct": 4.9,
+      "owner_occupied_pct": 81.6,
+      "social_rented_pct": 1.6,
+      "private_rented_pct": 16.8,
+      "no_qualifications_pct": 14.3,
+      "level_1_2_pct": 19.7,
+      "level_3_pct": 14,
+      "level_4_plus_pct": 50.2,
+      "very_good_good_health_pct": 84.9,
+      "fair_health_pct": 10.2,
+      "bad_very_bad_health_pct": 4.9,
+      "no_cars_pct": 6.4,
+      "one_car_pct": 39.8,
+      "two_plus_cars_pct": 53.7,
+      "work_from_home_pct": 25.7,
+      "drive_to_work_pct": 66.5,
+      "public_transport_pct": 3.8,
+      "walk_cycle_pct": 3.3,
+      "urban_rural": "Rural",
+      "deprivation_rank": 450,
+      "income_rank": 413,
+      "employment_rank": 442,
+      "health_rank": 443,
+      "education_rank": 438,
+      "access_rank": 225,
+      "living_env_rank": 441,
+      "crime_rank": 316,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.2414,
+              54.4701
+            ],
+            [
+              -6.2407,
+              54.4728
+            ],
+            [
+              -6.2424,
+              54.4753
+            ],
+            [
+              -6.2472,
+              54.4753
+            ],
+            [
+              -6.2508,
+              54.4765
+            ],
+            [
+              -6.2509,
+              54.478
+            ],
+            [
+              -6.2581,
+              54.4795
+            ],
+            [
+              -6.2555,
+              54.4816
+            ],
+            [
+              -6.2567,
+              54.4826
+            ],
+            [
+              -6.2532,
+              54.4879
+            ],
+            [
+              -6.2476,
+              54.4881
+            ],
+            [
+              -6.2496,
+              54.4899
+            ],
+            [
+              -6.2492,
+              54.4917
+            ],
+            [
+              -6.2332,
+              54.491
+            ],
+            [
+              -6.2278,
+              54.4873
+            ],
+            [
+              -6.2212,
+              54.4858
+            ],
+            [
+              -6.2214,
+              54.4832
+            ],
+            [
+              -6.2285,
+              54.4798
+            ],
+            [
+              -6.2185,
+              54.474
+            ],
+            [
+              -6.2099,
+              54.4729
+            ],
+            [
+              -6.2178,
+              54.47
+            ],
+            [
+              -6.2276,
+              54.4725
+            ],
+            [
+              -6.2414,
+              54.4701
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "moneyreagh",
+      "name": "MONEYREAGH",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3125,
+      "male": 1543,
+      "female": 1582,
+      "age_0_15_pct": 17.5,
+      "age_16_64_pct": 60.4,
+      "age_65_plus_pct": 22.1,
+      "catholic_pct": 6.9,
+      "protestant_other_christian_pct": 67.6,
+      "other_religion_pct": 0.9,
+      "no_religion_pct": 22.9,
+      "born_ni_pct": 93.3,
+      "born_other_uk_pct": 3.2,
+      "born_roi_pct": 1.1,
+      "born_elsewhere_pct": 2.3,
+      "owner_occupied_pct": 87.8,
+      "social_rented_pct": 4.3,
+      "private_rented_pct": 7.9,
+      "no_qualifications_pct": 18.6,
+      "level_1_2_pct": 26.9,
+      "level_3_pct": 16.3,
+      "level_4_plus_pct": 35.8,
+      "very_good_good_health_pct": 80.9,
+      "fair_health_pct": 12.7,
+      "bad_very_bad_health_pct": 6.4,
+      "no_cars_pct": 6.4,
+      "one_car_pct": 33,
+      "two_plus_cars_pct": 60.6,
+      "work_from_home_pct": 24,
+      "drive_to_work_pct": 69.7,
+      "public_transport_pct": 3,
+      "walk_cycle_pct": 2.8,
+      "urban_rural": "Rural",
+      "deprivation_rank": 415,
+      "income_rank": 428,
+      "employment_rank": 400,
+      "health_rank": 393,
+      "education_rank": 414,
+      "access_rank": 172,
+      "living_env_rank": 185,
+      "crime_rank": 423,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8294,
+              54.5094
+            ],
+            [
+              -5.8466,
+              54.5072
+            ],
+            [
+              -5.8622,
+              54.5108
+            ],
+            [
+              -5.8649,
+              54.512
+            ],
+            [
+              -5.8647,
+              54.5162
+            ],
+            [
+              -5.8682,
+              54.5173
+            ],
+            [
+              -5.8724,
+              54.5181
+            ],
+            [
+              -5.8754,
+              54.5159
+            ],
+            [
+              -5.8766,
+              54.518
+            ],
+            [
+              -5.8755,
+              54.5182
+            ],
+            [
+              -5.881,
+              54.5242
+            ],
+            [
+              -5.8798,
+              54.525
+            ],
+            [
+              -5.8814,
+              54.5276
+            ],
+            [
+              -5.8768,
+              54.5312
+            ],
+            [
+              -5.8748,
+              54.5383
+            ],
+            [
+              -5.8786,
+              54.5396
+            ],
+            [
+              -5.8809,
+              54.5444
+            ],
+            [
+              -5.88,
+              54.5451
+            ],
+            [
+              -5.8847,
+              54.5465
+            ],
+            [
+              -5.8851,
+              54.5498
+            ],
+            [
+              -5.8876,
+              54.5512
+            ],
+            [
+              -5.8896,
+              54.5503
+            ],
+            [
+              -5.8895,
+              54.5542
+            ],
+            [
+              -5.8926,
+              54.5564
+            ],
+            [
+              -5.89,
+              54.5613
+            ],
+            [
+              -5.8665,
+              54.5676
+            ],
+            [
+              -5.8546,
+              54.561
+            ],
+            [
+              -5.8478,
+              54.5627
+            ],
+            [
+              -5.8465,
+              54.5652
+            ],
+            [
+              -5.8422,
+              54.5655
+            ],
+            [
+              -5.8396,
+              54.5617
+            ],
+            [
+              -5.8313,
+              54.5617
+            ],
+            [
+              -5.8265,
+              54.5585
+            ],
+            [
+              -5.8155,
+              54.5556
+            ],
+            [
+              -5.8063,
+              54.5565
+            ],
+            [
+              -5.8053,
+              54.553
+            ],
+            [
+              -5.7983,
+              54.555
+            ],
+            [
+              -5.7957,
+              54.5514
+            ],
+            [
+              -5.7909,
+              54.5502
+            ],
+            [
+              -5.7948,
+              54.5445
+            ],
+            [
+              -5.8038,
+              54.5442
+            ],
+            [
+              -5.8094,
+              54.5396
+            ],
+            [
+              -5.81,
+              54.5373
+            ],
+            [
+              -5.8177,
+              54.536
+            ],
+            [
+              -5.8152,
+              54.5344
+            ],
+            [
+              -5.8161,
+              54.5327
+            ],
+            [
+              -5.8151,
+              54.5318
+            ],
+            [
+              -5.8189,
+              54.528
+            ],
+            [
+              -5.8247,
+              54.5276
+            ],
+            [
+              -5.8305,
+              54.5201
+            ],
+            [
+              -5.827,
+              54.5144
+            ],
+            [
+              -5.8302,
+              54.512
+            ],
+            [
+              -5.8294,
+              54.5094
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "newtownbreda",
+      "name": "NEWTOWNBREDA",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 2843,
+      "male": 1361,
+      "female": 1481,
+      "age_0_15_pct": 18.3,
+      "age_16_64_pct": 61.8,
+      "age_65_plus_pct": 19.9,
+      "catholic_pct": 37.6,
+      "protestant_other_christian_pct": 30.6,
+      "other_religion_pct": 2.2,
+      "no_religion_pct": 28.4,
+      "born_ni_pct": 85.1,
+      "born_other_uk_pct": 4.4,
+      "born_roi_pct": 2.9,
+      "born_elsewhere_pct": 7.5,
+      "owner_occupied_pct": 79,
+      "social_rented_pct": 6.8,
+      "private_rented_pct": 14.2,
+      "no_qualifications_pct": 14.1,
+      "level_1_2_pct": 20.6,
+      "level_3_pct": 12.3,
+      "level_4_plus_pct": 50.9,
+      "very_good_good_health_pct": 81.2,
+      "fair_health_pct": 13,
+      "bad_very_bad_health_pct": 5.9,
+      "no_cars_pct": 12.7,
+      "one_car_pct": 48.6,
+      "two_plus_cars_pct": 38.6,
+      "work_from_home_pct": 27.3,
+      "drive_to_work_pct": 58.6,
+      "public_transport_pct": 7.4,
+      "walk_cycle_pct": 5.8,
+      "urban_rural": "Urban",
+      "deprivation_rank": 447,
+      "income_rank": 431,
+      "employment_rank": 401,
+      "health_rank": 401,
+      "education_rank": 387,
+      "access_rank": 385,
+      "living_env_rank": 280,
+      "crime_rank": 338,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9063,
+              54.5486
+            ],
+            [
+              -5.9133,
+              54.5504
+            ],
+            [
+              -5.9192,
+              54.5533
+            ],
+            [
+              -5.9097,
+              54.5613
+            ],
+            [
+              -5.9077,
+              54.5558
+            ],
+            [
+              -5.9033,
+              54.5554
+            ],
+            [
+              -5.9055,
+              54.5523
+            ],
+            [
+              -5.9009,
+              54.5506
+            ],
+            [
+              -5.9063,
+              54.5486
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "old-warren",
+      "name": "OLD WARREN",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 4122,
+      "male": 1983,
+      "female": 2138,
+      "age_0_15_pct": 22.5,
+      "age_16_64_pct": 63.7,
+      "age_65_plus_pct": 13.9,
+      "catholic_pct": 27.5,
+      "protestant_other_christian_pct": 42.4,
+      "other_religion_pct": 1.8,
+      "no_religion_pct": 26.5,
+      "born_ni_pct": 82.4,
+      "born_other_uk_pct": 5.8,
+      "born_roi_pct": 0.6,
+      "born_elsewhere_pct": 11.2,
+      "owner_occupied_pct": 39.7,
+      "social_rented_pct": 45.5,
+      "private_rented_pct": 14.8,
+      "no_qualifications_pct": 32.2,
+      "level_1_2_pct": 31.7,
+      "level_3_pct": 15.3,
+      "level_4_plus_pct": 18.1,
+      "very_good_good_health_pct": 71.8,
+      "fair_health_pct": 17.7,
+      "bad_very_bad_health_pct": 10.6,
+      "no_cars_pct": 33.3,
+      "one_car_pct": 46.5,
+      "two_plus_cars_pct": 20.2,
+      "work_from_home_pct": 8.9,
+      "drive_to_work_pct": 66.9,
+      "public_transport_pct": 6.1,
+      "walk_cycle_pct": 17.6,
+      "urban_rural": "Urban",
+      "deprivation_rank": 58,
+      "income_rank": 80,
+      "employment_rank": 72,
+      "health_rank": 46,
+      "education_rank": 41,
+      "access_rank": 349,
+      "living_env_rank": 150,
+      "crime_rank": 85,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0578,
+              54.5094
+            ],
+            [
+              -6.0576,
+              54.5028
+            ],
+            [
+              -6.0607,
+              54.501
+            ],
+            [
+              -6.0637,
+              54.5012
+            ],
+            [
+              -6.0671,
+              54.5045
+            ],
+            [
+              -6.0721,
+              54.5051
+            ],
+            [
+              -6.0744,
+              54.508
+            ],
+            [
+              -6.0792,
+              54.5085
+            ],
+            [
+              -6.0595,
+              54.5122
+            ],
+            [
+              -6.0578,
+              54.5094
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "ravernet",
+      "name": "RAVERNET",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3096,
+      "male": 1552,
+      "female": 1545,
+      "age_0_15_pct": 17.9,
+      "age_16_64_pct": 60.3,
+      "age_65_plus_pct": 21.7,
+      "catholic_pct": 8.3,
+      "protestant_other_christian_pct": 71.1,
+      "other_religion_pct": 0.6,
+      "no_religion_pct": 18.5,
+      "born_ni_pct": 90.3,
+      "born_other_uk_pct": 5,
+      "born_roi_pct": 2,
+      "born_elsewhere_pct": 2.7,
+      "owner_occupied_pct": 88.8,
+      "social_rented_pct": 3.4,
+      "private_rented_pct": 7.8,
+      "no_qualifications_pct": 12.2,
+      "level_1_2_pct": 23,
+      "level_3_pct": 13.5,
+      "level_4_plus_pct": 48.8,
+      "very_good_good_health_pct": 85.9,
+      "fair_health_pct": 10.6,
+      "bad_very_bad_health_pct": 3.5,
+      "no_cars_pct": 3.8,
+      "one_car_pct": 27.1,
+      "two_plus_cars_pct": 69.1,
+      "work_from_home_pct": 26,
+      "drive_to_work_pct": 67.7,
+      "public_transport_pct": 2.4,
+      "walk_cycle_pct": 2.2,
+      "urban_rural": "Rural",
+      "deprivation_rank": 395,
+      "income_rank": 411,
+      "employment_rank": 453,
+      "health_rank": 456,
+      "education_rank": 461,
+      "access_rank": 63,
+      "living_env_rank": 116,
+      "crime_rank": 461,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.9845,
+              54.4992
+            ],
+            [
+              -5.9788,
+              54.4943
+            ],
+            [
+              -5.9583,
+              54.4917
+            ],
+            [
+              -5.9467,
+              54.493
+            ],
+            [
+              -5.9508,
+              54.4885
+            ],
+            [
+              -5.9503,
+              54.4871
+            ],
+            [
+              -5.9551,
+              54.4859
+            ],
+            [
+              -5.9511,
+              54.484
+            ],
+            [
+              -5.951,
+              54.4772
+            ],
+            [
+              -5.9425,
+              54.4725
+            ],
+            [
+              -5.9441,
+              54.4687
+            ],
+            [
+              -5.9418,
+              54.4673
+            ],
+            [
+              -5.9498,
+              54.4627
+            ],
+            [
+              -5.9559,
+              54.4636
+            ],
+            [
+              -5.961,
+              54.4599
+            ],
+            [
+              -5.974,
+              54.4625
+            ],
+            [
+              -5.9826,
+              54.4667
+            ],
+            [
+              -5.9858,
+              54.4659
+            ],
+            [
+              -5.9905,
+              54.4685
+            ],
+            [
+              -5.9907,
+              54.4667
+            ],
+            [
+              -5.9937,
+              54.4666
+            ],
+            [
+              -5.9921,
+              54.4645
+            ],
+            [
+              -5.9929,
+              54.4637
+            ],
+            [
+              -5.999,
+              54.4606
+            ],
+            [
+              -5.9989,
+              54.4579
+            ],
+            [
+              -5.9956,
+              54.4568
+            ],
+            [
+              -6.0017,
+              54.4529
+            ],
+            [
+              -5.9988,
+              54.4523
+            ],
+            [
+              -5.999,
+              54.4473
+            ],
+            [
+              -5.9938,
+              54.4464
+            ],
+            [
+              -5.9987,
+              54.4416
+            ],
+            [
+              -6.0029,
+              54.442
+            ],
+            [
+              -6.0092,
+              54.44
+            ],
+            [
+              -6.0113,
+              54.4368
+            ],
+            [
+              -6.005,
+              54.4344
+            ],
+            [
+              -6.0092,
+              54.4328
+            ],
+            [
+              -6.0144,
+              54.4325
+            ],
+            [
+              -6.0196,
+              54.4346
+            ],
+            [
+              -6.029,
+              54.4327
+            ],
+            [
+              -6.0339,
+              54.434
+            ],
+            [
+              -6.0332,
+              54.4366
+            ],
+            [
+              -6.0416,
+              54.4366
+            ],
+            [
+              -6.0417,
+              54.4384
+            ],
+            [
+              -6.0441,
+              54.438
+            ],
+            [
+              -6.0515,
+              54.4425
+            ],
+            [
+              -6.0444,
+              54.4475
+            ],
+            [
+              -6.0423,
+              54.4474
+            ],
+            [
+              -6.0419,
+              54.4491
+            ],
+            [
+              -6.0391,
+              54.448
+            ],
+            [
+              -6.0396,
+              54.4548
+            ],
+            [
+              -6.0423,
+              54.4554
+            ],
+            [
+              -6.042,
+              54.457
+            ],
+            [
+              -6.0473,
+              54.4578
+            ],
+            [
+              -6.0468,
+              54.4601
+            ],
+            [
+              -6.0581,
+              54.4572
+            ],
+            [
+              -6.0572,
+              54.4592
+            ],
+            [
+              -6.0636,
+              54.4619
+            ],
+            [
+              -6.0615,
+              54.4627
+            ],
+            [
+              -6.0661,
+              54.4646
+            ],
+            [
+              -6.0678,
+              54.4637
+            ],
+            [
+              -6.0735,
+              54.469
+            ],
+            [
+              -6.0793,
+              54.471
+            ],
+            [
+              -6.0724,
+              54.4768
+            ],
+            [
+              -6.0663,
+              54.4866
+            ],
+            [
+              -6.0421,
+              54.4841
+            ],
+            [
+              -6.0358,
+              54.4854
+            ],
+            [
+              -6.0335,
+              54.4881
+            ],
+            [
+              -6.0253,
+              54.4878
+            ],
+            [
+              -6.0248,
+              54.4917
+            ],
+            [
+              -6.0146,
+              54.4942
+            ],
+            [
+              -6.009,
+              54.4985
+            ],
+            [
+              -6.0058,
+              54.4972
+            ],
+            [
+              -5.9949,
+              54.5004
+            ],
+            [
+              -5.9845,
+              54.4992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "stonyford",
+      "name": "STONYFORD",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3149,
+      "male": 1618,
+      "female": 1531,
+      "age_0_15_pct": 18.9,
+      "age_16_64_pct": 64.5,
+      "age_65_plus_pct": 16.5,
+      "catholic_pct": 35.4,
+      "protestant_other_christian_pct": 46.3,
+      "other_religion_pct": 0.4,
+      "no_religion_pct": 15.8,
+      "born_ni_pct": 91.6,
+      "born_other_uk_pct": 5,
+      "born_roi_pct": 1.4,
+      "born_elsewhere_pct": 2,
+      "owner_occupied_pct": 89.6,
+      "social_rented_pct": 1.4,
+      "private_rented_pct": 9,
+      "no_qualifications_pct": 18.8,
+      "level_1_2_pct": 28,
+      "level_3_pct": 18.5,
+      "level_4_plus_pct": 32.5,
+      "very_good_good_health_pct": 81.8,
+      "fair_health_pct": 12.7,
+      "bad_very_bad_health_pct": 5.5,
+      "no_cars_pct": 4.1,
+      "one_car_pct": 29.5,
+      "two_plus_cars_pct": 66.4,
+      "work_from_home_pct": 21.4,
+      "drive_to_work_pct": 73.3,
+      "public_transport_pct": 1.9,
+      "walk_cycle_pct": 1.6,
+      "urban_rural": "Rural",
+      "deprivation_rank": 312,
+      "income_rank": 359,
+      "employment_rank": 376,
+      "health_rank": 390,
+      "education_rank": 303,
+      "access_rank": 45,
+      "living_env_rank": 54,
+      "crime_rank": 268,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0455,
+              54.6059
+            ],
+            [
+              -6.0443,
+              54.6011
+            ],
+            [
+              -6.0395,
+              54.5935
+            ],
+            [
+              -6.0408,
+              54.5905
+            ],
+            [
+              -6.0455,
+              54.5882
+            ],
+            [
+              -6.043,
+              54.5846
+            ],
+            [
+              -6.0442,
+              54.5817
+            ],
+            [
+              -6.0412,
+              54.5709
+            ],
+            [
+              -6.0442,
+              54.5697
+            ],
+            [
+              -6.0449,
+              54.5676
+            ],
+            [
+              -6.0427,
+              54.5672
+            ],
+            [
+              -6.041,
+              54.5642
+            ],
+            [
+              -6.0419,
+              54.5633
+            ],
+            [
+              -6.0556,
+              54.5598
+            ],
+            [
+              -6.0582,
+              54.5618
+            ],
+            [
+              -6.0575,
+              54.5644
+            ],
+            [
+              -6.0624,
+              54.5687
+            ],
+            [
+              -6.0808,
+              54.5665
+            ],
+            [
+              -6.0971,
+              54.5586
+            ],
+            [
+              -6.1118,
+              54.5615
+            ],
+            [
+              -6.113,
+              54.5589
+            ],
+            [
+              -6.1118,
+              54.5563
+            ],
+            [
+              -6.113,
+              54.556
+            ],
+            [
+              -6.1003,
+              54.5503
+            ],
+            [
+              -6.1065,
+              54.5484
+            ],
+            [
+              -6.1112,
+              54.545
+            ],
+            [
+              -6.1022,
+              54.5413
+            ],
+            [
+              -6.1052,
+              54.5374
+            ],
+            [
+              -6.1009,
+              54.5359
+            ],
+            [
+              -6.0949,
+              54.5289
+            ],
+            [
+              -6.1043,
+              54.5297
+            ],
+            [
+              -6.1074,
+              54.5272
+            ],
+            [
+              -6.1101,
+              54.5289
+            ],
+            [
+              -6.1101,
+              54.5349
+            ],
+            [
+              -6.1151,
+              54.5336
+            ],
+            [
+              -6.1143,
+              54.5311
+            ],
+            [
+              -6.1168,
+              54.5284
+            ],
+            [
+              -6.1155,
+              54.5268
+            ],
+            [
+              -6.1202,
+              54.524
+            ],
+            [
+              -6.1288,
+              54.5241
+            ],
+            [
+              -6.1304,
+              54.5271
+            ],
+            [
+              -6.1243,
+              54.532
+            ],
+            [
+              -6.1241,
+              54.5346
+            ],
+            [
+              -6.1335,
+              54.5387
+            ],
+            [
+              -6.1367,
+              54.537
+            ],
+            [
+              -6.1365,
+              54.5341
+            ],
+            [
+              -6.1444,
+              54.535
+            ],
+            [
+              -6.1428,
+              54.537
+            ],
+            [
+              -6.1457,
+              54.5385
+            ],
+            [
+              -6.1436,
+              54.5432
+            ],
+            [
+              -6.152,
+              54.5442
+            ],
+            [
+              -6.1593,
+              54.5397
+            ],
+            [
+              -6.1598,
+              54.5361
+            ],
+            [
+              -6.1636,
+              54.5343
+            ],
+            [
+              -6.1826,
+              54.5381
+            ],
+            [
+              -6.1801,
+              54.5409
+            ],
+            [
+              -6.1918,
+              54.5444
+            ],
+            [
+              -6.1922,
+              54.5486
+            ],
+            [
+              -6.1964,
+              54.5516
+            ],
+            [
+              -6.1927,
+              54.5523
+            ],
+            [
+              -6.1922,
+              54.5547
+            ],
+            [
+              -6.1782,
+              54.5596
+            ],
+            [
+              -6.1744,
+              54.5629
+            ],
+            [
+              -6.1763,
+              54.5646
+            ],
+            [
+              -6.1707,
+              54.5651
+            ],
+            [
+              -6.1679,
+              54.5636
+            ],
+            [
+              -6.1668,
+              54.5646
+            ],
+            [
+              -6.169,
+              54.566
+            ],
+            [
+              -6.1654,
+              54.5721
+            ],
+            [
+              -6.1621,
+              54.5711
+            ],
+            [
+              -6.1592,
+              54.5737
+            ],
+            [
+              -6.1564,
+              54.571
+            ],
+            [
+              -6.1522,
+              54.5699
+            ],
+            [
+              -6.1412,
+              54.5682
+            ],
+            [
+              -6.14,
+              54.5696
+            ],
+            [
+              -6.1397,
+              54.5709
+            ],
+            [
+              -6.1466,
+              54.5722
+            ],
+            [
+              -6.1557,
+              54.5789
+            ],
+            [
+              -6.175,
+              54.5861
+            ],
+            [
+              -6.1744,
+              54.5883
+            ],
+            [
+              -6.1702,
+              54.5916
+            ],
+            [
+              -6.1635,
+              54.5912
+            ],
+            [
+              -6.1591,
+              54.5934
+            ],
+            [
+              -6.1609,
+              54.5966
+            ],
+            [
+              -6.1675,
+              54.6002
+            ],
+            [
+              -6.1666,
+              54.603
+            ],
+            [
+              -6.1695,
+              54.6043
+            ],
+            [
+              -6.1619,
+              54.6056
+            ],
+            [
+              -6.1555,
+              54.6105
+            ],
+            [
+              -6.1455,
+              54.6111
+            ],
+            [
+              -6.1493,
+              54.6149
+            ],
+            [
+              -6.1482,
+              54.6207
+            ],
+            [
+              -6.1405,
+              54.6188
+            ],
+            [
+              -6.137,
+              54.6207
+            ],
+            [
+              -6.1362,
+              54.6196
+            ],
+            [
+              -6.1378,
+              54.619
+            ],
+            [
+              -6.1337,
+              54.6178
+            ],
+            [
+              -6.1229,
+              54.6176
+            ],
+            [
+              -6.1195,
+              54.6199
+            ],
+            [
+              -6.1152,
+              54.6203
+            ],
+            [
+              -6.1139,
+              54.6222
+            ],
+            [
+              -6.1013,
+              54.6216
+            ],
+            [
+              -6.0873,
+              54.6244
+            ],
+            [
+              -6.081,
+              54.6229
+            ],
+            [
+              -6.0782,
+              54.6197
+            ],
+            [
+              -6.0689,
+              54.6188
+            ],
+            [
+              -6.0656,
+              54.614
+            ],
+            [
+              -6.0455,
+              54.6059
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "wallace-park",
+      "name": "WALLACE PARK",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 3862,
+      "male": 2028,
+      "female": 1835,
+      "age_0_15_pct": 16.1,
+      "age_16_64_pct": 60,
+      "age_65_plus_pct": 23.9,
+      "catholic_pct": 19,
+      "protestant_other_christian_pct": 47.9,
+      "other_religion_pct": 1.6,
+      "no_religion_pct": 30.1,
+      "born_ni_pct": 72.6,
+      "born_other_uk_pct": 18.1,
+      "born_roi_pct": 1.6,
+      "born_elsewhere_pct": 7.7,
+      "owner_occupied_pct": 80.7,
+      "social_rented_pct": 3.5,
+      "private_rented_pct": 15.8,
+      "no_qualifications_pct": 14.6,
+      "level_1_2_pct": 23.9,
+      "level_3_pct": 17.8,
+      "level_4_plus_pct": 40.9,
+      "very_good_good_health_pct": 83.7,
+      "fair_health_pct": 11.5,
+      "bad_very_bad_health_pct": 4.8,
+      "no_cars_pct": 10.2,
+      "one_car_pct": 43.5,
+      "two_plus_cars_pct": 46.3,
+      "work_from_home_pct": 38,
+      "drive_to_work_pct": 46.8,
+      "public_transport_pct": 5.2,
+      "walk_cycle_pct": 9,
+      "urban_rural": "Urban",
+      "deprivation_rank": 441,
+      "income_rank": 451,
+      "employment_rank": 458,
+      "health_rank": 450,
+      "education_rank": 417,
+      "access_rank": 301,
+      "living_env_rank": 77,
+      "crime_rank": 357,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0399,
+              54.5125
+            ],
+            [
+              -6.0412,
+              54.5137
+            ],
+            [
+              -6.0528,
+              54.513
+            ],
+            [
+              -6.0548,
+              54.5154
+            ],
+            [
+              -6.0614,
+              54.5172
+            ],
+            [
+              -6.0568,
+              54.5193
+            ],
+            [
+              -6.059,
+              54.521
+            ],
+            [
+              -6.0565,
+              54.5223
+            ],
+            [
+              -6.0568,
+              54.5257
+            ],
+            [
+              -6.0534,
+              54.5303
+            ],
+            [
+              -6.0518,
+              54.5308
+            ],
+            [
+              -6.051,
+              54.5269
+            ],
+            [
+              -6.0431,
+              54.5276
+            ],
+            [
+              -6.0419,
+              54.5228
+            ],
+            [
+              -6.038,
+              54.5224
+            ],
+            [
+              -6.0363,
+              54.5155
+            ],
+            [
+              -6.0399,
+              54.5125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "white-mountain",
+      "name": "WHITE MOUNTAIN",
+      "lgd": "Lisburn and Castlereagh",
+      "population": 6138,
+      "male": 3029,
+      "female": 3109,
+      "age_0_15_pct": 22.9,
+      "age_16_64_pct": 67.3,
+      "age_65_plus_pct": 9.8,
+      "catholic_pct": 35.1,
+      "protestant_other_christian_pct": 42.2,
+      "other_religion_pct": 1.2,
+      "no_religion_pct": 20.7,
+      "born_ni_pct": 89.2,
+      "born_other_uk_pct": 4.5,
+      "born_roi_pct": 1.5,
+      "born_elsewhere_pct": 4.8,
+      "owner_occupied_pct": 85.9,
+      "social_rented_pct": 3.2,
+      "private_rented_pct": 10.8,
+      "no_qualifications_pct": 11.8,
+      "level_1_2_pct": 24.5,
+      "level_3_pct": 17,
+      "level_4_plus_pct": 45.4,
+      "very_good_good_health_pct": 88.5,
+      "fair_health_pct": 8.1,
+      "bad_very_bad_health_pct": 3.4,
+      "no_cars_pct": 5.4,
+      "one_car_pct": 35.1,
+      "two_plus_cars_pct": 59.5,
+      "work_from_home_pct": 21.9,
+      "drive_to_work_pct": 72,
+      "public_transport_pct": 3.7,
+      "walk_cycle_pct": 1.8,
+      "urban_rural": "Mixed",
+      "deprivation_rank": 433,
+      "income_rank": 415,
+      "employment_rank": 450,
+      "health_rank": 423,
+      "education_rank": 404,
+      "access_rank": 190,
+      "living_env_rank": 218,
+      "crime_rank": 428,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0872,
+              54.5232
+            ],
+            [
+              -6.0975,
+              54.5234
+            ],
+            [
+              -6.0948,
+              54.5253
+            ],
+            [
+              -6.0943,
+              54.5284
+            ],
+            [
+              -6.1009,
+              54.5359
+            ],
+            [
+              -6.1052,
+              54.5374
+            ],
+            [
+              -6.1022,
+              54.5413
+            ],
+            [
+              -6.1112,
+              54.545
+            ],
+            [
+              -6.1065,
+              54.5484
+            ],
+            [
+              -6.1003,
+              54.5503
+            ],
+            [
+              -6.113,
+              54.556
+            ],
+            [
+              -6.1118,
+              54.5563
+            ],
+            [
+              -6.113,
+              54.5589
+            ],
+            [
+              -6.1118,
+              54.5615
+            ],
+            [
+              -6.0971,
+              54.5586
+            ],
+            [
+              -6.0793,
+              54.5669
+            ],
+            [
+              -6.0611,
+              54.5684
+            ],
+            [
+              -6.0575,
+              54.5644
+            ],
+            [
+              -6.0582,
+              54.5618
+            ],
+            [
+              -6.0556,
+              54.5598
+            ],
+            [
+              -6.0634,
+              54.5557
+            ],
+            [
+              -6.0545,
+              54.5491
+            ],
+            [
+              -6.0544,
+              54.5477
+            ],
+            [
+              -6.0519,
+              54.5473
+            ],
+            [
+              -6.0534,
+              54.5438
+            ],
+            [
+              -6.0556,
+              54.5435
+            ],
+            [
+              -6.0532,
+              54.5419
+            ],
+            [
+              -6.0556,
+              54.5413
+            ],
+            [
+              -6.053,
+              54.5386
+            ],
+            [
+              -6.0518,
+              54.5308
+            ],
+            [
+              -6.0566,
+              54.526
+            ],
+            [
+              -6.0602,
+              54.5262
+            ],
+            [
+              -6.0652,
+              54.5299
+            ],
+            [
+              -6.0872,
+              54.5232
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
