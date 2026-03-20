@@ -82,10 +82,12 @@ export default function WardRankCard({ ward, districtSlug }: WardRankCardProps) 
       {showBreakdown && (
         <div className="score-breakdown">
           <div className="score-breakdown-desc">
-            Weighted average of 6 deprivation domains. Each domain ranks all 462 NI wards — higher score = less deprived.
+            Scores are derived from NIMDM 2017 deprivation rankings across 462 NI wards.
+            A rank of 1 means most deprived (score 0), rank 462 means least deprived (score 100).
+            The livability score is a weighted average of {domains.length} domains.
           </div>
           {domains.map((d) => (
-            <div key={d.key} className="score-domain-row" title={d.description}>
+            <div key={d.key} className="score-domain-row" title={`${d.description} — Ranked ${d.rank} of 462 wards${d.rank <= 46 ? " (bottom 10%)" : d.rank >= 416 ? " (top 10%)" : ""}`}>
               <div className="score-domain-label">{d.label}</div>
               <div className="score-domain-bar">
                 <div
@@ -93,7 +95,7 @@ export default function WardRankCard({ ward, districtSlug }: WardRankCardProps) 
                   style={{ width: `${d.score}%`, background: scoreColor(d.score) }}
                 />
               </div>
-              <div className="score-domain-value">{d.score}</div>
+              <div className="score-domain-value">#{d.rank}</div>
               <div className="score-domain-weight">{Math.round(d.weight * 100)}%</div>
             </div>
           ))}
