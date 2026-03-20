@@ -5,30 +5,18 @@ import { fmt, fmtPct, fmtMoney } from "@/lib/utils";
 import { getPartyColor } from "@/lib/colors";
 import StatCard from "@/components/ui/StatCard";
 import StatRow from "@/components/ui/StatRow";
+import SectionWrapper from "@/components/ui/SectionWrapper";
 import DeprivationMeter from "@/components/ui/DeprivationMeter";
+import WardRankCard from "@/components/ui/WardRankCard";
+import WardTags from "@/components/ui/WardTags";
+import SimilarWards from "@/components/ui/SimilarWards";
 import DonutChart from "@/components/Charts/DonutChart";
 import BarChart from "@/components/Charts/BarChart";
 
 interface OverviewTabProps {
   data: District | null;
   ward: Ward | null;
-}
-
-function SectionWrapper({
-  title,
-  children,
-}: {
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div className="stat-section">
-      <h3 >
-        {title}
-      </h3>
-      {children}
-    </div>
-  );
+  districtSlug?: string;
 }
 
 function DistrictOverview({ data }: { data: District }) {
@@ -50,7 +38,7 @@ function DistrictOverview({ data }: { data: District }) {
 
   return (
     <>
-      <SectionWrapper title="Population">
+      <SectionWrapper title="Population" source="Census 2021">
         <div className="stat-cards">
           <StatCard value={fmt(data.population)} label="People" />
           <StatCard
@@ -70,11 +58,11 @@ function DistrictOverview({ data }: { data: District }) {
         />
       </SectionWrapper>
 
-      <SectionWrapper title="Age Breakdown">
+      <SectionWrapper title="Age Breakdown" source="Census 2021">
         <DonutChart segments={ageSegments} />
       </SectionWrapper>
 
-      <SectionWrapper title="Economy">
+      <SectionWrapper title="Economy" source="ASHE 2024 / Census 2021">
         <StatRow
           label="Median Earnings"
           value={fmtMoney(data.median_annual_earnings_residence)}
@@ -97,7 +85,7 @@ function DistrictOverview({ data }: { data: District }) {
         <DeprivationMeter position={data.nimdm_pct_in_top100 * (100 / 30)} />
       </SectionWrapper>
 
-      <SectionWrapper title="2022 Assembly Election">
+      <SectionWrapper title="2022 Assembly Election" source="Electoral Office NI 2022">
         {data.assembly_2022.note && (
           <p className="text-[11px] text-[#888] mb-2">
             {data.assembly_2022.note}
@@ -109,7 +97,7 @@ function DistrictOverview({ data }: { data: District }) {
   );
 }
 
-function WardOverview({ ward }: { ward: Ward }) {
+function WardOverview({ ward, districtSlug }: { ward: Ward; districtSlug: string }) {
   const ageSegments = [
     { label: "0-15", value: ward.age_0_15_pct, color: "#4a7c8a" },
     { label: "16-64", value: ward.age_16_64_pct, color: "#2980b9" },
@@ -130,7 +118,11 @@ function WardOverview({ ward }: { ward: Ward }) {
 
   return (
     <>
-      <SectionWrapper title="Population">
+      <div className="stat-section">
+        <WardRankCard ward={ward} districtSlug={districtSlug} />
+      </div>
+
+      <SectionWrapper title="Population" source="Census 2021">
         <div className="stat-cards" style={{ gridTemplateColumns: "1fr 1fr 1fr" }}>
           <StatCard value={fmt(ward.population)} label="People" />
           <StatCard value={fmt(ward.male)} label="Male" />
@@ -141,11 +133,11 @@ function WardOverview({ ward }: { ward: Ward }) {
         )}
       </SectionWrapper>
 
-      <SectionWrapper title="Age Breakdown">
+      <SectionWrapper title="Age Breakdown" source="Census 2021">
         <DonutChart segments={ageSegments} />
       </SectionWrapper>
 
-      <SectionWrapper title="Deprivation">
+      <SectionWrapper title="Deprivation" source="NIMDM 2017">
         <StatRow
           label="Overall Rank"
           value={`${ward.deprivation_rank} of 462`}
@@ -161,13 +153,19 @@ function WardOverview({ ward }: { ward: Ward }) {
           ))}
         </div>
       </SectionWrapper>
+
+      <WardTags wardSlug={ward.slug} lgdSlug={districtSlug} />
+
+      <SectionWrapper title="Explore">
+        <SimilarWards ward={ward} districtSlug={districtSlug} />
+      </SectionWrapper>
     </>
   );
 }
 
-export default function OverviewTab({ data, ward }: OverviewTabProps) {
-  if (ward) {
-    return <WardOverview ward={ward} />;
+export default function OverviewTab({ data, ward, districtSlug }: OverviewTabProps) {
+  if (ward && districtSlug) {
+    return <WardOverview ward={ward} districtSlug={districtSlug} />;
   }
   if (data) {
     return <DistrictOverview data={data} />;
