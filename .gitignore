@@ -1,2 +1,9 @@
 node_modules/
 .DS_Store
+
+# Next.js
+.next/
+out/
+
+# Misc
+.superpowers/
