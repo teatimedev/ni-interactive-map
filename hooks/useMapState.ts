@@ -13,6 +13,7 @@ interface MapState {
   currentView: MapView;
   selectedDistrict: string | null;
   selectedWard: string | null;
+  wardCache: Map<string, WardCache>;
   isLoadingWards: boolean;
 }
 
@@ -39,6 +40,7 @@ export function useMapStateProvider(): MapStateContextValue {
   const [selectedDistrict, setSelectedDistrict] = useState<string | null>(null);
   const [selectedWard, setSelectedWard] = useState<string | null>(null);
   const [isLoadingWards, setIsLoadingWards] = useState(false);
+  const [wardCache, setWardCache] = useState<Map<string, WardCache>>(new Map());
 
   const cacheRef = useRef<Map<string, WardCache>>(new Map());
 
@@ -85,6 +87,8 @@ export function useMapStateProvider(): MapStateContextValue {
 
       const entry: WardCache = { wards, geoJSON };
       cacheRef.current.set(lgdSlug, entry);
+      // Create a new Map reference so React re-renders consumers
+      setWardCache(new Map(cacheRef.current));
       return entry;
     } catch {
       return null;
@@ -97,6 +101,7 @@ export function useMapStateProvider(): MapStateContextValue {
     currentView,
     selectedDistrict,
     selectedWard,
+    wardCache,
     isLoadingWards,
     setView,
     selectDistrict,

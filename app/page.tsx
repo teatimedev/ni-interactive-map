@@ -25,10 +25,19 @@ const MapContainer = dynamic(() => import("@/components/Map/MapContainer"), {
 });
 
 const DistrictLayer = dynamic(() => import("@/components/Map/DistrictLayer"), { ssr: false });
+const WardLayer = dynamic(() => import("@/components/Map/WardLayer"), { ssr: false });
 const MapController = dynamic(() => import("@/components/Map/MapController"), { ssr: false });
 
 function MapApp() {
-  const { currentView, selectedDistrict, selectDistrict, selectWard, setView } = useMapState();
+  const {
+    currentView,
+    selectedDistrict,
+    selectedWard,
+    wardCache,
+    selectDistrict,
+    selectWard,
+    setView,
+  } = useMapState();
   const comparison = useComparison();
 
   const [panelOpen, setPanelOpen] = useState(false);
@@ -56,8 +65,53 @@ function MapApp() {
     ? (districts.find((d) => d.slug === selectedDistrict) ?? null)
     : null;
 
-  const tabs = districtData
-    ? [
+  // Look up ward data when a ward is selected
+  const wardData =
+    selectedWard && selectedDistrict
+      ? (wardCache.get(selectedDistrict)?.wards.find((w) => w.slug === selectedWard) ?? null)
+      : null;
+
+  // Build tabs depending on whether a ward is selected
+  const tabs = (() => {
+    if (selectedWard && wardData) {
+      // Ward tabs — 6 tabs, no Crime
+      return [
+        {
+          id: "overview",
+          label: "Overview",
+          content: <OverviewTab data={null} ward={wardData} />,
+        },
+        {
+          id: "demographics",
+          label: "Demographics",
+          content: <DemographicsTab data={null} ward={wardData} />,
+        },
+        {
+          id: "housing",
+          label: "Housing",
+          content: <HousingTab data={null} ward={wardData} />,
+        },
+        {
+          id: "health",
+          label: "Health",
+          content: <HealthTab data={null} ward={wardData} />,
+        },
+        {
+          id: "education",
+          label: "Education",
+          content: <EducationTab data={null} ward={wardData} />,
+        },
+        {
+          id: "transport",
+          label: "Transport",
+          content: <TransportTab data={null} ward={wardData} />,
+        },
+      ];
+    }
+
+    if (districtData) {
+      // District tabs — 7 tabs including Crime
+      return [
         {
           id: "overview",
           label: "Overview",
@@ -93,14 +147,24 @@ function MapApp() {
           label: "Transport",
           content: <TransportTab data={districtData} ward={null} />,
         },
-      ]
-    : [];
+      ];
+    }
+
+    return [];
+  })();
+
+  // Panel title and subtitle
+  const panelTitle = wardData ? wardData.name : (districtData?.name ?? "");
+  const panelSubtitle = wardData
+    ? `Ward — ${districtData?.name ?? ""}`
+    : "Local Government District";
 
   return (
     <>
       {/* Map */}
       <MapContainer>
         <DistrictLayer />
+        <WardLayer />
         <MapController />
       </MapContainer>
 
@@ -138,8 +202,8 @@ function MapApp() {
       <StatsPanel
         isOpen={panelOpen}
         onClose={handleClose}
-        title={districtData?.name ?? ""}
-        subtitle="Local Government District"
+        title={panelTitle}
+        subtitle={panelSubtitle}
         tabs={tabs}
       />
     </>
