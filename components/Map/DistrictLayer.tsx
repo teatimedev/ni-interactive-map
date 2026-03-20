@@ -7,7 +7,7 @@ import type { Feature, GeoJsonObject } from "geojson";
 import { useMapState } from "@/hooks/useMapState";
 import { useChoropleth } from "@/hooks/useChoropleth";
 import { useComparison } from "@/hooks/useComparison";
-import { getChoroplethColor, CHOROPLETH_CONFIGS } from "@/lib/colors";
+import { choroplethColorFromT, computeRankMap, CHOROPLETH_CONFIGS } from "@/lib/colors";
 import { slugify } from "@/lib/utils";
 import districts from "@/data/districts";
 import geoDistrictsData from "@/data/geo-districts.json";
@@ -38,57 +38,48 @@ export default function DistrictLayer() {
   // Only render when on district view
   if (currentView !== "districts") return null;
 
-  function getStyle(feature?: Feature): PathOptions {
-    if (!metric || !feature?.properties?.name) return DEFAULT_STYLE;
+  // Precompute rank map for the active metric — guarantees full color spread
+  const rankMap = (() => {
+    if (!metric) return null;
+    const config = CHOROPLETH_CONFIGS[metric];
+    const values = districts.map((d) => config.key(d) ?? null);
+    return computeRankMap(values);
+  })();
 
+  function getDistrictT(feature?: Feature): number | null {
+    if (!metric || !feature?.properties?.name || !rankMap) return null;
     const config = CHOROPLETH_CONFIGS[metric];
     const districtName = feature.properties.name as string;
     const district = districts.find(
       (d) => d.name === districtName || slugify(d.name) === slugify(districtName)
     );
-
-    if (!district) return DEFAULT_STYLE;
-
+    if (!district) return null;
     const val = config.key(district);
-    const fillColor = getChoroplethColor(
-      val ?? null,
-      config.color,
-      config.min,
-      config.max
-    );
+    if (val == null) return null;
+    return rankMap.get(val) ?? null;
+  }
 
+  function getStyle(feature?: Feature): PathOptions {
+    const t = getDistrictT(feature);
+    if (t === null || !metric) return DEFAULT_STYLE;
     return {
       color: "#555",
       weight: 1.5,
-      fillColor,
+      fillColor: choroplethColorFromT(t, CHOROPLETH_CONFIGS[metric].color),
       fillOpacity: 0.85,
     };
   }
 
   function getHoverStyle(feature?: Feature): PathOptions {
-    if (!metric || !feature?.properties?.name) return HOVER_STYLE;
-
-    const config = CHOROPLETH_CONFIGS[metric];
-    const districtName = feature.properties.name as string;
-    const district = districts.find(
-      (d) => d.name === districtName || slugify(d.name) === slugify(districtName)
-    );
-
-    if (!district) return HOVER_STYLE;
-
-    const val = config.key(district);
-    const fillColor = getChoroplethColor(
-      val ?? null,
-      config.color,
-      config.min,
-      config.max
-    );
-
+    const t = getDistrictT(feature);
+    if (t === null || !metric) return HOVER_STYLE;
+    // Brighten on hover by adding 0.1 to t
+    const tHover = Math.min(1, t + 0.1);
     return {
       color: "#aaa",
       weight: 2.5,
-      fillColor,
-      fillOpacity: 0.9,
+      fillColor: choroplethColorFromT(tHover, CHOROPLETH_CONFIGS[metric].color),
+      fillOpacity: 0.95,
     };
   }
 

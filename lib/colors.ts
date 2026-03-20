@@ -119,23 +119,14 @@ export const CHOROPLETH_CONFIGS: Record<ChoroplethMetric, ChoroplethConfigFull> 
   },
 };
 
-export function getChoroplethColor(
-  val: number | null,
-  color: [number, number, number],
-  min: number,
-  max: number
-): string {
-  if (val == null) return "#2a2a2a";
-  const t = Math.max(0, Math.min(1, (val - min) / (max - min)));
+/**
+ * Convert a metric color to HSL parameters (cached per color).
+ */
+function colorToHSL(color: [number, number, number]): { h: number; s: number } {
   const [r, g, b] = color;
-
-  // Use HSL: keep the hue constant, vary lightness from 18% (low) to 55% (high).
-  // This guarantees every value is visibly tinted and distinct from the #1a1a1a background.
   const maxCh = Math.max(r, g, b);
   const minCh = Math.min(r, g, b);
   const delta = maxCh - minCh;
-
-  // Compute hue from the RGB color
   let h = 0;
   if (delta > 0) {
     if (maxCh === r) h = ((g - b) / delta) % 6;
@@ -144,16 +135,54 @@ export function getChoroplethColor(
     h = Math.round(h * 60);
     if (h < 0) h += 360;
   }
-
-  // Saturation from the original color
   const s = Math.round((delta / Math.max(maxCh, 1)) * 100);
+  return { h, s };
+}
 
-  // Lightness: low = 42%, high = 68%
-  // Blue hues need ~40%+ lightness to be clearly visible on dark backgrounds.
-  // Higher floor sacrifices some range but guarantees immediate readability.
-  const lMin = 42;
-  const lMax = 68;
-  const l = Math.round(lMin + t * (lMax - lMin));
-
+/**
+ * Color a single value using a pre-computed rank (0-1).
+ * Pass `t` as a rank-normalized value, not a raw data value.
+ */
+export function choroplethColorFromT(
+  t: number,
+  color: [number, number, number],
+): string {
+  const { h, s } = colorToHSL(color);
+  // Lightness: 38% (low rank) to 70% (high rank)
+  const l = Math.round(38 + t * 32);
   return `hsl(${h}, ${s}%, ${l}%)`;
+}
+
+/**
+ * Compute rank-based normalization for a set of values.
+ * Returns a Map from value to its normalized position (0-1).
+ * Ties get the same rank. Guarantees full spread across the color range.
+ */
+export function computeRankMap(values: (number | null)[]): Map<number, number> {
+  const valid = values.filter((v): v is number => v != null);
+  if (valid.length === 0) return new Map();
+
+  const sorted = [...new Set(valid)].sort((a, b) => a - b);
+  const max = sorted.length - 1;
+  const map = new Map<number, number>();
+
+  sorted.forEach((val, i) => {
+    map.set(val, max > 0 ? i / max : 0.5);
+  });
+
+  return map;
+}
+
+/**
+ * Legacy function kept for compatibility — uses linear normalization.
+ */
+export function getChoroplethColor(
+  val: number | null,
+  color: [number, number, number],
+  min: number,
+  max: number
+): string {
+  if (val == null) return "#2a2a2a";
+  const t = Math.max(0, Math.min(1, (val - min) / (max - min)));
+  return choroplethColorFromT(t, color);
 }

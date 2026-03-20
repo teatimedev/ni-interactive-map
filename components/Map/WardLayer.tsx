@@ -5,7 +5,7 @@ import type { Layer, LeafletMouseEvent, PathOptions } from "leaflet";
 import type { Feature } from "geojson";
 import { useMapState } from "@/hooks/useMapState";
 import { useChoropleth } from "@/hooks/useChoropleth";
-import { getChoroplethColor, CHOROPLETH_CONFIGS } from "@/lib/colors";
+import { choroplethColorFromT, computeRankMap, CHOROPLETH_CONFIGS } from "@/lib/colors";
 
 const DEFAULT_STYLE: PathOptions = {
   color: "#555",
@@ -37,58 +37,47 @@ export default function WardLayer() {
 
   const { geoJSON, wards } = cached;
 
-  function getWardValue(feature: Feature): number | null {
+  // Precompute rank map for all wards in this district
+  const wardRankMap = (() => {
     if (!metric) return null;
     const config = CHOROPLETH_CONFIGS[metric];
     if (!config.wardKey) return null;
+    const values = wards.map((w) => config.wardKey!(w) ?? null);
+    return computeRankMap(values);
+  })();
 
-    const name = feature.properties?.name as string | undefined;
-    if (!name) return null;
-
+  function getWardT(feature?: Feature): number | null {
+    if (!metric || !feature?.properties?.name || !wardRankMap) return null;
+    const config = CHOROPLETH_CONFIGS[metric];
+    if (!config.wardKey) return null;
+    const name = feature.properties.name as string;
     const ward = wards.find((w) => w.name === name);
     if (!ward) return null;
-
     const val = config.wardKey(ward);
-    return val ?? null;
+    if (val == null) return null;
+    return wardRankMap.get(val) ?? null;
   }
 
   function getStyle(feature?: Feature): PathOptions {
-    if (!feature || !metric) return DEFAULT_STYLE;
-
-    const config = CHOROPLETH_CONFIGS[metric];
-    if (!config.wardKey) return DEFAULT_STYLE;
-
-    const val = getWardValue(feature);
-    if (val === null) return DEFAULT_STYLE;
-
-    const wardMin = config.wardMin ?? config.min;
-    const wardMax = config.wardMax ?? config.max;
-
+    const t = getWardT(feature);
+    if (t === null || !metric) return DEFAULT_STYLE;
     return {
       color: "#555",
       weight: 1,
-      fillColor: getChoroplethColor(val, config.color, wardMin, wardMax),
+      fillColor: choroplethColorFromT(t, CHOROPLETH_CONFIGS[metric].color),
       fillOpacity: 0.85,
     };
   }
 
   function getHoverStyle(feature?: Feature): PathOptions {
-    if (!feature || !metric) return HOVER_STYLE;
-
-    const config = CHOROPLETH_CONFIGS[metric];
-    if (!config.wardKey) return HOVER_STYLE;
-
-    const val = getWardValue(feature);
-    if (val === null) return HOVER_STYLE;
-
-    const wardMin = config.wardMin ?? config.min;
-    const wardMax = config.wardMax ?? config.max;
-
+    const t = getWardT(feature);
+    if (t === null || !metric) return HOVER_STYLE;
+    const tHover = Math.min(1, t + 0.1);
     return {
       color: "#999",
       weight: 2,
-      fillColor: getChoroplethColor(val, config.color, wardMin, wardMax),
-      fillOpacity: 0.85,
+      fillColor: choroplethColorFromT(tHover, CHOROPLETH_CONFIGS[metric].color),
+      fillOpacity: 0.95,
     };
   }
 
@@ -100,8 +89,10 @@ export default function WardLayer() {
     const config = CHOROPLETH_CONFIGS[metric];
     if (!config.wardKey) return name;
 
-    const val = getWardValue(feature);
-    if (val === null) return name;
+    const ward = wards.find((w) => w.name === name);
+    if (!ward) return name;
+    const val = config.wardKey(ward);
+    if (val == null) return name;
 
     const formatted =
       metric === "population_density"
