@@ -27,6 +27,8 @@ const MapContainer = dynamic(() => import("@/components/Map/MapContainer"), {
 const DistrictLayer = dynamic(() => import("@/components/Map/DistrictLayer"), { ssr: false });
 const WardLayer = dynamic(() => import("@/components/Map/WardLayer"), { ssr: false });
 const MapController = dynamic(() => import("@/components/Map/MapController"), { ssr: false });
+const ChoroplethControls = dynamic(() => import("@/components/Map/ChoroplethControls"), { ssr: false });
+const Legend = dynamic(() => import("@/components/ui/Legend"), { ssr: false });
 
 function MapApp() {
   const {
@@ -197,6 +199,12 @@ function MapApp() {
           ← All Districts
         </button>
       )}
+
+      {/* Choropleth controls — top-right below title */}
+      <ChoroplethControls />
+
+      {/* Legend — bottom-right */}
+      <Legend />
 
       {/* Stats panel */}
       <StatsPanel
