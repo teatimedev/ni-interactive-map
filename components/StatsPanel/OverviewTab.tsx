@@ -9,6 +9,7 @@ import SectionWrapper from "@/components/ui/SectionWrapper";
 import DeprivationMeter from "@/components/ui/DeprivationMeter";
 import WardRankCard from "@/components/ui/WardRankCard";
 import WardTags from "@/components/ui/WardTags";
+import SimilarWards from "@/components/ui/SimilarWards";
 import DonutChart from "@/components/Charts/DonutChart";
 import BarChart from "@/components/Charts/BarChart";
 
@@ -130,6 +131,22 @@ function WardOverview({ ward, districtSlug }: { ward: Ward; districtSlug: string
         {ward.urban_rural && (
           <p className="text-[12px] text-[#999] mt-1">{ward.urban_rural}</p>
         )}
+        {ward.population_2011 != null && (() => {
+          const pctChange = ((ward.population - ward.population_2011) / ward.population_2011) * 100;
+          return (
+            <StatRow
+              label="Since 2011"
+              value={<>
+                <span style={{ color: pctChange > 0 ? "var(--positive)" : "var(--negative)" }}>
+                  {pctChange > 0 ? "+" : ""}{pctChange.toFixed(1)}%
+                </span>
+                <span style={{ fontSize: 10, color: "var(--text-muted)", marginLeft: 4 }}>
+                  ({ward.population_2011.toLocaleString()} → {ward.population.toLocaleString()})
+                </span>
+              </>}
+            />
+          );
+        })()}
       </SectionWrapper>
 
       <SectionWrapper title="Age Breakdown" source="Census 2021">
@@ -154,6 +171,10 @@ function WardOverview({ ward, districtSlug }: { ward: Ward; districtSlug: string
       </SectionWrapper>
 
       <WardTags wardSlug={ward.slug} lgdSlug={districtSlug} />
+
+      <SectionWrapper title="Explore">
+        <SimilarWards ward={ward} districtSlug={districtSlug} />
+      </SectionWrapper>
     </>
   );
 }

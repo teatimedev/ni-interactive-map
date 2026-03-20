@@ -8,6 +8,7 @@ const WARD_STATS = {
   "Antrim and Newtownabbey": {
     "ABBEY": {
       population: 3355,
+      population_2011: 4091,
       male: 1608,
       female: 1747,
       age_0_15_pct: 17.4,
@@ -50,6 +51,7 @@ const WARD_STATS = {
     },
     "ALDERGROVE": {
       population: 4684,
+      population_2011: 4462,
       male: 2605,
       female: 2079,
       age_0_15_pct: 16.9,
@@ -92,6 +94,7 @@ const WARD_STATS = {
     },
     "ANTRIM CENTRE": {
       population: 4093,
+      population_2011: 3722,
       male: 2061,
       female: 2033,
       age_0_15_pct: 14.4,
@@ -134,6 +137,7 @@ const WARD_STATS = {
     },
     "BALLYCLARE EAST": {
       population: 4142,
+      population_2011: 3893,
       male: 2008,
       female: 2134,
       age_0_15_pct: 18.8,
@@ -176,6 +180,7 @@ const WARD_STATS = {
     },
     "BALLYCLARE WEST": {
       population: 4044,
+      population_2011: 3564,
       male: 1947,
       female: 2094,
       age_0_15_pct: 19.9,
@@ -218,6 +223,7 @@ const WARD_STATS = {
     },
     "BALLYDUFF": {
       population: 3020,
+      population_2011: 3116,
       male: 1467,
       female: 1553,
       age_0_15_pct: 15.2,
@@ -260,6 +266,7 @@ const WARD_STATS = {
     },
     "BALLYHENRY": {
       population: 2711,
+      population_2011: 2873,
       male: 1357,
       female: 1354,
       age_0_15_pct: 18.3,
@@ -302,6 +309,7 @@ const WARD_STATS = {
     },
     "BALLYNURE": {
       population: 3610,
+      population_2011: 3368,
       male: 1769,
       female: 1841,
       age_0_15_pct: 17.9,
@@ -344,6 +352,7 @@ const WARD_STATS = {
     },
     "BALLYROBERT": {
       population: 3810,
+      population_2011: 3363,
       male: 1854,
       female: 1956,
       age_0_15_pct: 18.3,
@@ -386,6 +395,7 @@ const WARD_STATS = {
     },
     "BURNTHILL": {
       population: 3715,
+      population_2011: 3446,
       male: 1724,
       female: 1991,
       age_0_15_pct: 17.3,
@@ -428,6 +438,7 @@ const WARD_STATS = {
     },
     "CARNMONEY": {
       population: 2607,
+      population_2011: 2806,
       male: 1261,
       female: 1347,
       age_0_15_pct: 14.0,
@@ -470,6 +481,7 @@ const WARD_STATS = {
     },
     "CARNMONEY HILL": {
       population: 3305,
+      population_2011: 3226,
       male: 1611,
       female: 1694,
       age_0_15_pct: 18.2,
@@ -512,6 +524,7 @@ const WARD_STATS = {
     },
     "CLADY": {
       population: 3834,
+      population_2011: 3376,
       male: 1925,
       female: 1909,
       age_0_15_pct: 20.3,
@@ -554,6 +567,7 @@ const WARD_STATS = {
     },
     "COLLINBRIDGE": {
       population: 2927,
+      population_2011: 2961,
       male: 1481,
       female: 1446,
       age_0_15_pct: 17.4,
@@ -596,6 +610,7 @@ const WARD_STATS = {
     },
     "CRANFIELD": {
       population: 3175,
+      population_2011: 3144,
       male: 1549,
       female: 1626,
       age_0_15_pct: 19.6,
@@ -638,6 +653,7 @@ const WARD_STATS = {
     },
     "CRUMLIN": {
       population: 3705,
+      population_2011: 3918,
       male: 1822,
       female: 1883,
       age_0_15_pct: 19.8,
@@ -680,6 +696,7 @@ const WARD_STATS = {
     },
     "DOAGH": {
       population: 3471,
+      population_2011: 3343,
       male: 1718,
       female: 1753,
       age_0_15_pct: 18.5,
@@ -722,6 +739,7 @@ const WARD_STATS = {
     },
     "FAIRVIEW": {
       population: 3115,
+      population_2011: 3055,
       male: 1476,
       female: 1639,
       age_0_15_pct: 19.2,
@@ -764,6 +782,7 @@ const WARD_STATS = {
     },
     "FOUNTAIN HILL": {
       population: 3465,
+      population_2011: 3122,
       male: 1653,
       female: 1812,
       age_0_15_pct: 17.8,
@@ -806,6 +825,7 @@ const WARD_STATS = {
     },
     "GLEBE": {
       population: 3042,
+      population_2011: 3726,
       male: 1479,
       female: 1563,
       age_0_15_pct: 18.0,
@@ -848,6 +868,7 @@ const WARD_STATS = {
     },
     "GLENGORMLEY": {
       population: 3421,
+      population_2011: 3377,
       male: 1617,
       female: 1804,
       age_0_15_pct: 17.4,
@@ -890,6 +911,7 @@ const WARD_STATS = {
     },
     "GREYSTONE": {
       population: 3072,
+      population_2011: 3366,
       male: 1504,
       female: 1568,
       age_0_15_pct: 20.5,
@@ -932,6 +954,7 @@ const WARD_STATS = {
     },
     "HIGHTOWN": {
       population: 3126,
+      population_2011: 2942,
       male: 1575,
       female: 1551,
       age_0_15_pct: 18.2,
@@ -974,6 +997,7 @@ const WARD_STATS = {
     },
     "JORDANSTOWN": {
       population: 3244,
+      population_2011: 3385,
       male: 1624,
       female: 1620,
       age_0_15_pct: 17.5,
@@ -1016,6 +1040,7 @@ const WARD_STATS = {
     },
     "MALLUSK": {
       population: 6279,
+      population_2011: 4635,
       male: 3139,
       female: 3140,
       age_0_15_pct: 25.6,
@@ -1058,6 +1083,7 @@ const WARD_STATS = {
     },
     "MONKSTOWN": {
       population: 3726,
+      population_2011: 3613,
       male: 1815,
       female: 1911,
       age_0_15_pct: 21.3,
@@ -1100,6 +1126,7 @@ const WARD_STATS = {
     },
     "MOSSLEY": {
       population: 3708,
+      population_2011: 3639,
       male: 1789,
       female: 1919,
       age_0_15_pct: 18.1,
@@ -1142,6 +1169,7 @@ const WARD_STATS = {
     },
     "O'NEILL": {
       population: 3328,
+      population_2011: 3213,
       male: 1624,
       female: 1704,
       age_0_15_pct: 18.9,
@@ -1184,6 +1212,7 @@ const WARD_STATS = {
     },
     "PARKGATE": {
       population: 3259,
+      population_2011: 3109,
       male: 1642,
       female: 1617,
       age_0_15_pct: 15.3,
@@ -1226,6 +1255,7 @@ const WARD_STATS = {
     },
     "RANDALSTOWN": {
       population: 3734,
+      population_2011: 3683,
       male: 1832,
       female: 1902,
       age_0_15_pct: 18.1,
@@ -1268,6 +1298,7 @@ const WARD_STATS = {
     },
     "RATHCOOLE": {
       population: 3377,
+      population_2011: 3303,
       male: 1558,
       female: 1819,
       age_0_15_pct: 21.7,
@@ -1310,6 +1341,7 @@ const WARD_STATS = {
     },
     "ROSTULLA": {
       population: 3921,
+      population_2011: 4364,
       male: 1935,
       female: 1986,
       age_0_15_pct: 14.3,
@@ -1352,6 +1384,7 @@ const WARD_STATS = {
     },
     "SHILVODAN": {
       population: 3896,
+      population_2011: 3396,
       male: 1944,
       female: 1952,
       age_0_15_pct: 22.7,
@@ -1394,6 +1427,7 @@ const WARD_STATS = {
     },
     "SPRINGFARM": {
       population: 5543,
+      population_2011: 4883,
       male: 2754,
       female: 2791,
       age_0_15_pct: 24.2,
@@ -1436,6 +1470,7 @@ const WARD_STATS = {
     },
     "STEEPLE": {
       population: 3794,
+      population_2011: 3556,
       male: 1769,
       female: 2025,
       age_0_15_pct: 19.5,
@@ -1478,6 +1513,7 @@ const WARD_STATS = {
     },
     "STILES": {
       population: 3987,
+      population_2011: 3838,
       male: 1934,
       female: 2053,
       age_0_15_pct: 19.2,
@@ -1520,6 +1556,7 @@ const WARD_STATS = {
     },
     "TEMPLEPATRICK": {
       population: 3521,
+      population_2011: 3147,
       male: 1717,
       female: 1804,
       age_0_15_pct: 16.7,
@@ -1562,6 +1599,7 @@ const WARD_STATS = {
     },
     "TOOME": {
       population: 3936,
+      population_2011: 3606,
       male: 2011,
       female: 1925,
       age_0_15_pct: 21.0,
@@ -1604,6 +1642,7 @@ const WARD_STATS = {
     },
     "VALLEY": {
       population: 3717,
+      population_2011: 3498,
       male: 1764,
       female: 1953,
       age_0_15_pct: 21.1,
@@ -1646,6 +1685,7 @@ const WARD_STATS = {
     },
     "WHITEHOUSE": {
       population: 3221,
+      population_2011: 2832,
       male: 1570,
       female: 1651,
       age_0_15_pct: 15.6,
@@ -1690,6 +1730,7 @@ const WARD_STATS = {
   "Ards and North Down": {
     "BALLYCROCHAN": {
       population: 3118,
+      population_2011: 3184,
       male: 1505,
       female: 1613,
       age_0_15_pct: 15.5,
@@ -1732,6 +1773,7 @@ const WARD_STATS = {
     },
     "BALLYGOWAN": {
       population: 4368,
+      population_2011: 4042,
       male: 2167,
       female: 2201,
       age_0_15_pct: 17.7,
@@ -1774,6 +1816,7 @@ const WARD_STATS = {
     },
     "BALLYGRAINEY": {
       population: 6301,
+      population_2011: 4803,
       male: 3000,
       female: 3301,
       age_0_15_pct: 24.5,
@@ -1816,6 +1859,7 @@ const WARD_STATS = {
     },
     "BALLYHOLME": {
       population: 3891,
+      population_2011: 3784,
       male: 1881,
       female: 2010,
       age_0_15_pct: 16.2,
@@ -1858,6 +1902,7 @@ const WARD_STATS = {
     },
     "BALLYMAGEE": {
       population: 4119,
+      population_2011: 4212,
       male: 2040,
       female: 2079,
       age_0_15_pct: 18.9,
@@ -1900,6 +1945,7 @@ const WARD_STATS = {
     },
     "BALLYWALTER": {
       population: 4647,
+      population_2011: 4387,
       male: 2278,
       female: 2369,
       age_0_15_pct: 16.6,
@@ -1942,6 +1988,7 @@ const WARD_STATS = {
     },
     "BLOOMFIELD": {
       population: 4188,
+      population_2011: 3988,
       male: 2031,
       female: 2157,
       age_0_15_pct: 21.0,
@@ -1984,6 +2031,7 @@ const WARD_STATS = {
     },
     "BROADWAY": {
       population: 3421,
+      population_2011: 3644,
       male: 1669,
       female: 1752,
       age_0_15_pct: 14.4,
@@ -2026,6 +2074,7 @@ const WARD_STATS = {
     },
     "BRYANSBURN": {
       population: 3759,
+      population_2011: 3690,
       male: 1847,
       female: 1912,
       age_0_15_pct: 15.3,
@@ -2068,6 +2117,7 @@ const WARD_STATS = {
     },
     "CARROWDORE": {
       population: 4260,
+      population_2011: 4071,
       male: 2100,
       female: 2160,
       age_0_15_pct: 17.2,
@@ -2110,6 +2160,7 @@ const WARD_STATS = {
     },
     "CASTLE": {
       population: 4029,
+      population_2011: 4016,
       male: 1926,
       female: 2103,
       age_0_15_pct: 16.0,
@@ -2152,6 +2203,7 @@ const WARD_STATS = {
     },
     "CLANDEBOYE": {
       population: 4189,
+      population_2011: 3702,
       male: 2066,
       female: 2123,
       age_0_15_pct: 18.9,
@@ -2194,6 +2246,7 @@ const WARD_STATS = {
     },
     "COMBER NORTH": {
       population: 3790,
+      population_2011: 3751,
       male: 1827,
       female: 1963,
       age_0_15_pct: 16.9,
@@ -2236,6 +2289,7 @@ const WARD_STATS = {
     },
     "COMBER SOUTH": {
       population: 3786,
+      population_2011: 3539,
       male: 1847,
       female: 1939,
       age_0_15_pct: 16.4,
@@ -2278,6 +2332,7 @@ const WARD_STATS = {
     },
     "COMBER WEST": {
       population: 3807,
+      population_2011: 3594,
       male: 1855,
       female: 1952,
       age_0_15_pct: 13.5,
@@ -2320,6 +2375,7 @@ const WARD_STATS = {
     },
     "CONWAY SQUARE": {
       population: 4317,
+      population_2011: 4032,
       male: 2087,
       female: 2230,
       age_0_15_pct: 14.9,
@@ -2362,6 +2418,7 @@ const WARD_STATS = {
     },
     "CRONSTOWN": {
       population: 4479,
+      population_2011: 4491,
       male: 2201,
       female: 2280,
       age_0_15_pct: 17.5,
@@ -2404,6 +2461,7 @@ const WARD_STATS = {
     },
     "CULTRA": {
       population: 4007,
+      population_2011: 3753,
       male: 1975,
       female: 2033,
       age_0_15_pct: 15.8,
@@ -2446,6 +2504,7 @@ const WARD_STATS = {
     },
     "DONAGHADEE": {
       population: 3972,
+      population_2011: 4072,
       male: 1884,
       female: 2088,
       age_0_15_pct: 14.8,
@@ -2488,6 +2547,7 @@ const WARD_STATS = {
     },
     "GLEN": {
       population: 4521,
+      population_2011: 4028,
       male: 2173,
       female: 2348,
       age_0_15_pct: 18.1,
@@ -2530,6 +2590,7 @@ const WARD_STATS = {
     },
     "GREGSTOWN": {
       population: 3183,
+      population_2011: 3456,
       male: 1528,
       female: 1655,
       age_0_15_pct: 13.6,
@@ -2572,6 +2633,7 @@ const WARD_STATS = {
     },
     "GROOMSPORT": {
       population: 3630,
+      population_2011: 3606,
       male: 1697,
       female: 1933,
       age_0_15_pct: 13.1,
@@ -2614,6 +2676,7 @@ const WARD_STATS = {
     },
     "HARBOUR": {
       population: 4752,
+      population_2011: 4546,
       male: 2483,
       female: 2269,
       age_0_15_pct: 12.6,
@@ -2656,6 +2719,7 @@ const WARD_STATS = {
     },
     "HELEN'S BAY": {
       population: 3901,
+      population_2011: 3541,
       male: 1845,
       female: 2053,
       age_0_15_pct: 15.0,
@@ -2698,6 +2762,7 @@ const WARD_STATS = {
     },
     "HOLYWOOD": {
       population: 4065,
+      population_2011: 4161,
       male: 1949,
       female: 2116,
       age_0_15_pct: 15.5,
@@ -2740,6 +2805,7 @@ const WARD_STATS = {
     },
     "KILCOOLEY": {
       population: 4425,
+      population_2011: 4185,
       male: 2076,
       female: 2349,
       age_0_15_pct: 20.4,
@@ -2782,6 +2848,7 @@ const WARD_STATS = {
     },
     "KILLINCHY": {
       population: 3737,
+      population_2011: 3490,
       male: 1861,
       female: 1876,
       age_0_15_pct: 16.1,
@@ -2824,6 +2891,7 @@ const WARD_STATS = {
     },
     "KIRCUBBIN": {
       population: 4396,
+      population_2011: 4154,
       male: 2194,
       female: 2202,
       age_0_15_pct: 17.7,
@@ -2866,6 +2934,7 @@ const WARD_STATS = {
     },
     "LOUGHRIES": {
       population: 4170,
+      population_2011: 3691,
       male: 2047,
       female: 2123,
       age_0_15_pct: 16.9,
@@ -2908,6 +2977,7 @@ const WARD_STATS = {
     },
     "LOUGHVIEW": {
       population: 4662,
+      population_2011: 5250,
       male: 2242,
       female: 2421,
       age_0_15_pct: 18.7,
@@ -2950,6 +3020,7 @@ const WARD_STATS = {
     },
     "MOVILLA": {
       population: 4244,
+      population_2011: 4065,
       male: 2077,
       female: 2167,
       age_0_15_pct: 20.7,
@@ -2992,6 +3063,7 @@ const WARD_STATS = {
     },
     "PORTAFERRY": {
       population: 3544,
+      population_2011: 3673,
       male: 1793,
       female: 1751,
       age_0_15_pct: 16.1,
@@ -3034,6 +3106,7 @@ const WARD_STATS = {
     },
     "PORTAVOGIE": {
       population: 3865,
+      population_2011: 3784,
       male: 1911,
       female: 1954,
       age_0_15_pct: 18.9,
@@ -3076,6 +3149,7 @@ const WARD_STATS = {
     },
     "RATHGAEL": {
       population: 3684,
+      population_2011: 3406,
       male: 1806,
       female: 1878,
       age_0_15_pct: 17.0,
@@ -3118,6 +3192,7 @@ const WARD_STATS = {
     },
     "RATHMORE": {
       population: 3699,
+      population_2011: 3627,
       male: 1758,
       female: 1941,
       age_0_15_pct: 14.6,
@@ -3160,6 +3235,7 @@ const WARD_STATS = {
     },
     "SCRABO": {
       population: 4257,
+      population_2011: 3728,
       male: 2099,
       female: 2158,
       age_0_15_pct: 15.3,
@@ -3202,6 +3278,7 @@ const WARD_STATS = {
     },
     "SILVERBIRCH": {
       population: 3729,
+      population_2011: 3991,
       male: 1816,
       female: 1913,
       age_0_15_pct: 16.3,
@@ -3244,6 +3321,7 @@ const WARD_STATS = {
     },
     "SILVERSTREAM": {
       population: 3960,
+      population_2011: 3868,
       male: 1950,
       female: 2009,
       age_0_15_pct: 17.7,
@@ -3286,6 +3364,7 @@ const WARD_STATS = {
     },
     "WARREN": {
       population: 4309,
+      population_2011: 3816,
       male: 2103,
       female: 2206,
       age_0_15_pct: 15.3,
@@ -3328,6 +3407,7 @@ const WARD_STATS = {
     },
     "WEST WINDS": {
       population: 4467,
+      population_2011: 4283,
       male: 2107,
       female: 2360,
       age_0_15_pct: 19.8,
@@ -3372,6 +3452,7 @@ const WARD_STATS = {
   "Armagh City, Banbridge and Craigavon": {
     "AGHAGALLON": {
       population: 5047,
+      population_2011: 4773,
       male: 2520,
       female: 2526,
       age_0_15_pct: 20.2,
@@ -3414,6 +3495,7 @@ const WARD_STATS = {
     },
     "BALLYBAY": {
       population: 5458,
+      population_2011: 4606,
       male: 2672,
       female: 2786,
       age_0_15_pct: 21.9,
@@ -3456,6 +3538,7 @@ const WARD_STATS = {
     },
     "BANBRIDGE EAST": {
       population: 4479,
+      population_2011: 4225,
       male: 2213,
       female: 2266,
       age_0_15_pct: 18.7,
@@ -3498,6 +3581,7 @@ const WARD_STATS = {
     },
     "BANBRIDGE NORTH": {
       population: 4272,
+      population_2011: 4251,
       male: 2077,
       female: 2195,
       age_0_15_pct: 16.9,
@@ -3540,6 +3624,7 @@ const WARD_STATS = {
     },
     "BANBRIDGE SOUTH": {
       population: 5043,
+      population_2011: 4667,
       male: 2463,
       female: 2580,
       age_0_15_pct: 18.3,
@@ -3582,6 +3667,7 @@ const WARD_STATS = {
     },
     "BANBRIDGE WEST": {
       population: 5431,
+      population_2011: 5440,
       male: 2668,
       female: 2763,
       age_0_15_pct: 20.6,
@@ -3624,6 +3710,7 @@ const WARD_STATS = {
     },
     "BLACKWATERTOWN": {
       population: 5502,
+      population_2011: 5123,
       male: 2822,
       female: 2680,
       age_0_15_pct: 21.6,
@@ -3666,6 +3753,7 @@ const WARD_STATS = {
     },
     "BLEARY": {
       population: 4981,
+      population_2011: 4512,
       male: 2480,
       female: 2501,
       age_0_15_pct: 20.3,
@@ -3708,6 +3796,7 @@ const WARD_STATS = {
     },
     "BROWNLOW": {
       population: 6626,
+      population_2011: 6219,
       male: 3257,
       female: 3369,
       age_0_15_pct: 25.2,
@@ -3750,6 +3839,7 @@ const WARD_STATS = {
     },
     "CATHEDRAL": {
       population: 5119,
+      population_2011: 4007,
       male: 2446,
       female: 2673,
       age_0_15_pct: 21.1,
@@ -3792,6 +3882,7 @@ const WARD_STATS = {
     },
     "CORCRAIN": {
       population: 5455,
+      population_2011: 5203,
       male: 2661,
       female: 2794,
       age_0_15_pct: 22.3,
@@ -3834,6 +3925,7 @@ const WARD_STATS = {
     },
     "CRAIGAVON CENTRE": {
       population: 6750,
+      population_2011: 5411,
       male: 3308,
       female: 3442,
       age_0_15_pct: 22.5,
@@ -3876,6 +3968,7 @@ const WARD_STATS = {
     },
     "DEMESNE": {
       population: 5705,
+      population_2011: 5023,
       male: 2758,
       female: 2947,
       age_0_15_pct: 21.8,
@@ -3918,6 +4011,7 @@ const WARD_STATS = {
     },
     "DERRYTRASNA": {
       population: 4981,
+      population_2011: 4711,
       male: 2517,
       female: 2464,
       age_0_15_pct: 21.2,
@@ -3960,6 +4054,7 @@ const WARD_STATS = {
     },
     "DONAGHCLONEY": {
       population: 4935,
+      population_2011: 4504,
       male: 2524,
       female: 2412,
       age_0_15_pct: 20.5,
@@ -4002,6 +4097,7 @@ const WARD_STATS = {
     },
     "DROMORE": {
       population: 4843,
+      population_2011: 2808,
       male: 2343,
       female: 2500,
       age_0_15_pct: 18.9,
@@ -4044,6 +4140,7 @@ const WARD_STATS = {
     },
     "GILFORD": {
       population: 4997,
+      population_2011: 4749,
       male: 2442,
       female: 2555,
       age_0_15_pct: 20.2,
@@ -4086,6 +4183,7 @@ const WARD_STATS = {
     },
     "GRANSHA": {
       population: 5155,
+      population_2011: 4652,
       male: 2609,
       female: 2546,
       age_0_15_pct: 22.6,
@@ -4128,6 +4226,7 @@ const WARD_STATS = {
     },
     "HAMILTONSBAWN": {
       population: 4969,
+      population_2011: 4525,
       male: 2438,
       female: 2531,
       age_0_15_pct: 20.2,
@@ -4170,6 +4269,7 @@ const WARD_STATS = {
     },
     "KEADY": {
       population: 5243,
+      population_2011: 4931,
       male: 2583,
       female: 2660,
       age_0_15_pct: 21.5,
@@ -4212,6 +4312,7 @@ const WARD_STATS = {
     },
     "KERNAN": {
       population: 5894,
+      population_2011: 4702,
       male: 2830,
       female: 3064,
       age_0_15_pct: 20.9,
@@ -4254,6 +4355,7 @@ const WARD_STATS = {
     },
     "KILLYCOMAIN": {
       population: 5247,
+      population_2011: 4450,
       male: 2734,
       female: 2513,
       age_0_15_pct: 15.9,
@@ -4296,6 +4398,7 @@ const WARD_STATS = {
     },
     "KNOCKNASHANE": {
       population: 4556,
+      population_2011: 4149,
       male: 2258,
       female: 2298,
       age_0_15_pct: 18.6,
@@ -4338,6 +4441,7 @@ const WARD_STATS = {
     },
     "LOUGH ROAD": {
       population: 5601,
+      population_2011: 4809,
       male: 2830,
       female: 2771,
       age_0_15_pct: 20.0,
@@ -4380,6 +4484,7 @@ const WARD_STATS = {
     },
     "LOUGHBRICKLAND": {
       population: 5711,
+      population_2011: 4974,
       male: 2848,
       female: 2863,
       age_0_15_pct: 22.3,
@@ -4422,6 +4527,7 @@ const WARD_STATS = {
     },
     "LOUGHGALL": {
       population: 5484,
+      population_2011: 5116,
       male: 2762,
       female: 2722,
       age_0_15_pct: 21.0,
@@ -4464,6 +4570,7 @@ const WARD_STATS = {
     },
     "MAGHERALIN": {
       population: 5368,
+      population_2011: 4415,
       male: 2643,
       female: 2725,
       age_0_15_pct: 21.5,
@@ -4506,6 +4613,7 @@ const WARD_STATS = {
     },
     "MAHON": {
       population: 5172,
+      population_2011: 4737,
       male: 2569,
       female: 2603,
       age_0_15_pct: 18.9,
@@ -4548,6 +4656,7 @@ const WARD_STATS = {
     },
     "MARKETHILL": {
       population: 5632,
+      population_2011: 4884,
       male: 2773,
       female: 2859,
       age_0_15_pct: 21.8,
@@ -4590,6 +4699,7 @@ const WARD_STATS = {
     },
     "MOURNEVIEW": {
       population: 5495,
+      population_2011: 5016,
       male: 2672,
       female: 2823,
       age_0_15_pct: 19.9,
@@ -4632,6 +4742,7 @@ const WARD_STATS = {
     },
     "NAVAN": {
       population: 5299,
+      population_2011: 4721,
       male: 2670,
       female: 2629,
       age_0_15_pct: 23.8,
@@ -4674,6 +4785,7 @@ const WARD_STATS = {
     },
     "PARKLAKE": {
       population: 5648,
+      population_2011: 5316,
       male: 2868,
       female: 2780,
       age_0_15_pct: 21.7,
@@ -4716,6 +4828,7 @@ const WARD_STATS = {
     },
     "QUILLY": {
       population: 4497,
+      population_2011: 4094,
       male: 2243,
       female: 2254,
       age_0_15_pct: 17.8,
@@ -4758,6 +4871,7 @@ const WARD_STATS = {
     },
     "RATHFRILAND": {
       population: 5009,
+      population_2011: 4793,
       male: 2472,
       female: 2537,
       age_0_15_pct: 21.6,
@@ -4800,6 +4914,7 @@ const WARD_STATS = {
     },
     "RICHHILL": {
       population: 4837,
+      population_2011: 4821,
       male: 2423,
       female: 2414,
       age_0_15_pct: 17.4,
@@ -4842,6 +4957,7 @@ const WARD_STATS = {
     },
     "SEAGAHAN": {
       population: 5603,
+      population_2011: 4932,
       male: 2818,
       female: 2785,
       age_0_15_pct: 24.3,
@@ -4884,6 +5000,7 @@ const WARD_STATS = {
     },
     "SHANKILL": {
       population: 6446,
+      population_2011: 6101,
       male: 3174,
       female: 3272,
       age_0_15_pct: 20.7,
@@ -4926,6 +5043,7 @@ const WARD_STATS = {
     },
     "TANDRAGEE": {
       population: 5171,
+      population_2011: 5068,
       male: 2557,
       female: 2614,
       age_0_15_pct: 20.6,
@@ -4968,6 +5086,7 @@ const WARD_STATS = {
     },
     "THE BIRCHES": {
       population: 6098,
+      population_2011: 5204,
       male: 3045,
       female: 3053,
       age_0_15_pct: 22.3,
@@ -5010,6 +5129,7 @@ const WARD_STATS = {
     },
     "THE MALL": {
       population: 5512,
+      population_2011: 4835,
       male: 2655,
       female: 2857,
       age_0_15_pct: 19.0,
@@ -5052,6 +5172,7 @@ const WARD_STATS = {
     },
     "WARINGSTOWN": {
       population: 5400,
+      population_2011: 4941,
       male: 2629,
       female: 2771,
       age_0_15_pct: 20.3,
@@ -5096,6 +5217,7 @@ const WARD_STATS = {
   "Belfast": {
     "ANDERSONSTOWN": {
       population: 4648,
+      population_2011: 4800,
       male: 2220,
       female: 2428,
       age_0_15_pct: 15.9,
@@ -5138,6 +5260,7 @@ const WARD_STATS = {
     },
     "ARDOYNE": {
       population: 5490,
+      population_2011: 5495,
       male: 2569,
       female: 2921,
       age_0_15_pct: 24.7,
@@ -5180,6 +5303,7 @@ const WARD_STATS = {
     },
     "BALLYGOMARTIN": {
       population: 5952,
+      population_2011: 5875,
       male: 2839,
       female: 3113,
       age_0_15_pct: 19.7,
@@ -5222,6 +5346,7 @@ const WARD_STATS = {
     },
     "BALLYMACARRETT": {
       population: 5905,
+      population_2011: 5398,
       male: 2866,
       female: 3039,
       age_0_15_pct: 21.7,
@@ -5264,6 +5389,7 @@ const WARD_STATS = {
     },
     "BALLYMURPHY": {
       population: 5131,
+      population_2011: 5186,
       male: 2381,
       female: 2749,
       age_0_15_pct: 23.3,
@@ -5306,6 +5432,7 @@ const WARD_STATS = {
     },
     "BALLYSILLAN": {
       population: 5289,
+      population_2011: 5044,
       male: 2557,
       female: 2732,
       age_0_15_pct: 19.6,
@@ -5348,6 +5475,7 @@ const WARD_STATS = {
     },
     "BEECHMOUNT": {
       population: 5394,
+      population_2011: 5837,
       male: 2571,
       female: 2823,
       age_0_15_pct: 22.4,
@@ -5390,6 +5518,7 @@ const WARD_STATS = {
     },
     "BEERSBRIDGE": {
       population: 6610,
+      population_2011: 6425,
       male: 3241,
       female: 3368,
       age_0_15_pct: 18.2,
@@ -5432,6 +5561,7 @@ const WARD_STATS = {
     },
     "BELLEVUE": {
       population: 5427,
+      population_2011: 5146,
       male: 2615,
       female: 2812,
       age_0_15_pct: 19.2,
@@ -5474,6 +5604,7 @@ const WARD_STATS = {
     },
     "BELMONT": {
       population: 4695,
+      population_2011: 4865,
       male: 2256,
       female: 2438,
       age_0_15_pct: 16.0,
@@ -5516,6 +5647,7 @@ const WARD_STATS = {
     },
     "BELVOIR": {
       population: 5359,
+      population_2011: 4940,
       male: 2661,
       female: 2698,
       age_0_15_pct: 16.9,
@@ -5558,6 +5690,7 @@ const WARD_STATS = {
     },
     "BLACKSTAFF": {
       population: 7547,
+      population_2011: 7151,
       male: 3958,
       female: 3589,
       age_0_15_pct: 16.5,
@@ -5600,6 +5733,7 @@ const WARD_STATS = {
     },
     "BLOOMFIELD": {
       population: 5894,
+      population_2011: 3988,
       male: 2968,
       female: 2926,
       age_0_15_pct: 14.8,
@@ -5642,6 +5776,7 @@ const WARD_STATS = {
     },
     "CAVEHILL": {
       population: 4434,
+      population_2011: 4286,
       male: 2162,
       female: 2272,
       age_0_15_pct: 19.9,
@@ -5684,6 +5819,7 @@ const WARD_STATS = {
     },
     "CENTRAL": {
       population: 15446,
+      population_2011: 11449,
       male: 8062,
       female: 7384,
       age_0_15_pct: 9.0,
@@ -5726,6 +5862,7 @@ const WARD_STATS = {
     },
     "CHICHESTER PARK": {
       population: 5409,
+      population_2011: 5562,
       male: 2713,
       female: 2696,
       age_0_15_pct: 17.9,
@@ -5768,6 +5905,7 @@ const WARD_STATS = {
     },
     "CLIFTONVILLE": {
       population: 5657,
+      population_2011: 5329,
       male: 2697,
       female: 2960,
       age_0_15_pct: 21.8,
@@ -5810,6 +5948,7 @@ const WARD_STATS = {
     },
     "CLONARD": {
       population: 5999,
+      population_2011: 5768,
       male: 2798,
       female: 3202,
       age_0_15_pct: 20.2,
@@ -5852,6 +5991,7 @@ const WARD_STATS = {
     },
     "COLLIN GLEN": {
       population: 5656,
+      population_2011: 5702,
       male: 2747,
       female: 2908,
       age_0_15_pct: 21.7,
@@ -5894,6 +6034,7 @@ const WARD_STATS = {
     },
     "CONNSWATER": {
       population: 5929,
+      population_2011: 5831,
       male: 2841,
       female: 3088,
       age_0_15_pct: 17.9,
@@ -5936,6 +6077,7 @@ const WARD_STATS = {
     },
     "CREGAGH": {
       population: 4587,
+      population_2011: 4577,
       male: 2218,
       female: 2368,
       age_0_15_pct: 19.5,
@@ -5978,6 +6120,7 @@ const WARD_STATS = {
     },
     "DUNCAIRN": {
       population: 8338,
+      population_2011: 6478,
       male: 4206,
       female: 4130,
       age_0_15_pct: 16.9,
@@ -6020,6 +6163,7 @@ const WARD_STATS = {
     },
     "DUNMURRY": {
       population: 5207,
+      population_2011: 5470,
       male: 2584,
       female: 2623,
       age_0_15_pct: 16.1,
@@ -6062,6 +6206,7 @@ const WARD_STATS = {
     },
     "FALLS": {
       population: 5179,
+      population_2011: 5182,
       male: 2405,
       female: 2774,
       age_0_15_pct: 24.1,
@@ -6104,6 +6249,7 @@ const WARD_STATS = {
     },
     "FALLS PARK": {
       population: 4742,
+      population_2011: 4781,
       male: 2222,
       female: 2521,
       age_0_15_pct: 16.4,
@@ -6146,6 +6292,7 @@ const WARD_STATS = {
     },
     "FINAGHY": {
       population: 4525,
+      population_2011: 4551,
       male: 2204,
       female: 2324,
       age_0_15_pct: 17.0,
@@ -6188,6 +6335,7 @@ const WARD_STATS = {
     },
     "FORTH RIVER": {
       population: 4921,
+      population_2011: 4733,
       male: 2287,
       female: 2634,
       age_0_15_pct: 20.0,
@@ -6230,6 +6378,7 @@ const WARD_STATS = {
     },
     "FORTWILLIAM": {
       population: 4717,
+      population_2011: 4771,
       male: 2265,
       female: 2452,
       age_0_15_pct: 17.3,
@@ -6272,6 +6421,7 @@ const WARD_STATS = {
     },
     "GARNERVILLE": {
       population: 4788,
+      population_2011: 4852,
       male: 2278,
       female: 2510,
       age_0_15_pct: 17.4,
@@ -6314,6 +6464,7 @@ const WARD_STATS = {
     },
     "GILNAHIRK": {
       population: 5155,
+      population_2011: 5079,
       male: 2458,
       female: 2695,
       age_0_15_pct: 19.5,
@@ -6356,6 +6507,7 @@ const WARD_STATS = {
     },
     "HILLFOOT": {
       population: 4582,
+      population_2011: 4675,
       male: 2221,
       female: 2361,
       age_0_15_pct: 15.5,
@@ -6398,6 +6550,7 @@ const WARD_STATS = {
     },
     "INNISFAYLE": {
       population: 5315,
+      population_2011: 5229,
       male: 2565,
       female: 2749,
       age_0_15_pct: 17.1,
@@ -6440,6 +6593,7 @@ const WARD_STATS = {
     },
     "KNOCK": {
       population: 5011,
+      population_2011: 5169,
       male: 2367,
       female: 2643,
       age_0_15_pct: 16.9,
@@ -6482,6 +6636,7 @@ const WARD_STATS = {
     },
     "LADYBROOK": {
       population: 4817,
+      population_2011: 5078,
       male: 2327,
       female: 2490,
       age_0_15_pct: 17.3,
@@ -6524,6 +6679,7 @@ const WARD_STATS = {
     },
     "LAGMORE": {
       population: 8344,
+      population_2011: 7659,
       male: 3979,
       female: 4365,
       age_0_15_pct: 28.5,
@@ -6566,6 +6722,7 @@ const WARD_STATS = {
     },
     "LEGONIEL": {
       population: 6135,
+      population_2011: 5632,
       male: 2925,
       female: 3210,
       age_0_15_pct: 23.7,
@@ -6608,6 +6765,7 @@ const WARD_STATS = {
     },
     "MALONE": {
       population: 4811,
+      population_2011: 4765,
       male: 2361,
       female: 2450,
       age_0_15_pct: 16.2,
@@ -6650,6 +6808,7 @@ const WARD_STATS = {
     },
     "MEROK": {
       population: 4438,
+      population_2011: 4385,
       male: 2127,
       female: 2311,
       age_0_15_pct: 19.6,
@@ -6692,6 +6851,7 @@ const WARD_STATS = {
     },
     "MUSGRAVE": {
       population: 4836,
+      population_2011: 4927,
       male: 2336,
       female: 2500,
       age_0_15_pct: 15.1,
@@ -6734,6 +6894,7 @@ const WARD_STATS = {
     },
     "NEW LODGE": {
       population: 4881,
+      population_2011: 4951,
       male: 2442,
       female: 2439,
       age_0_15_pct: 18.7,
@@ -6776,6 +6937,7 @@ const WARD_STATS = {
     },
     "ORANGEFIELD": {
       population: 4756,
+      population_2011: 4768,
       male: 2347,
       female: 2409,
       age_0_15_pct: 16.8,
@@ -6818,6 +6980,7 @@ const WARD_STATS = {
     },
     "ORMEAU": {
       population: 6532,
+      population_2011: 6591,
       male: 3252,
       female: 3280,
       age_0_15_pct: 14.5,
@@ -6860,6 +7023,7 @@ const WARD_STATS = {
     },
     "POLEGLASS": {
       population: 6103,
+      population_2011: 5999,
       male: 2821,
       female: 3282,
       age_0_15_pct: 27.7,
@@ -6902,6 +7066,7 @@ const WARD_STATS = {
     },
     "RAVENHILL": {
       population: 4823,
+      population_2011: 4831,
       male: 2357,
       female: 2465,
       age_0_15_pct: 16.2,
@@ -6944,6 +7109,7 @@ const WARD_STATS = {
     },
     "ROSETTA": {
       population: 5793,
+      population_2011: 5636,
       male: 2787,
       female: 3006,
       age_0_15_pct: 16.1,
@@ -6986,6 +7152,7 @@ const WARD_STATS = {
     },
     "SANDOWN": {
       population: 4470,
+      population_2011: 4452,
       male: 2175,
       female: 2295,
       age_0_15_pct: 18.1,
@@ -7028,6 +7195,7 @@ const WARD_STATS = {
     },
     "SHANDON": {
       population: 5377,
+      population_2011: 5203,
       male: 2533,
       female: 2844,
       age_0_15_pct: 17.1,
@@ -7070,6 +7238,7 @@ const WARD_STATS = {
     },
     "SHANKILL": {
       population: 6445,
+      population_2011: 6101,
       male: 3029,
       female: 3416,
       age_0_15_pct: 21.5,
@@ -7112,6 +7281,7 @@ const WARD_STATS = {
     },
     "SHAW'S ROAD": {
       population: 5480,
+      population_2011: 5175,
       male: 2633,
       female: 2847,
       age_0_15_pct: 20.0,
@@ -7154,6 +7324,7 @@ const WARD_STATS = {
     },
     "STEWARTSTOWN": {
       population: 4579,
+      population_2011: 3108,
       male: 2171,
       female: 2408,
       age_0_15_pct: 16.9,
@@ -7196,6 +7367,7 @@ const WARD_STATS = {
     },
     "STORMONT": {
       population: 5045,
+      population_2011: 4987,
       male: 2435,
       female: 2610,
       age_0_15_pct: 16.7,
@@ -7238,6 +7410,7 @@ const WARD_STATS = {
     },
     "STRANMILLIS": {
       population: 8978,
+      population_2011: 8143,
       male: 4405,
       female: 4573,
       age_0_15_pct: 11.6,
@@ -7280,6 +7453,7 @@ const WARD_STATS = {
     },
     "SYDENHAM": {
       population: 5589,
+      population_2011: 5122,
       male: 2708,
       female: 2881,
       age_0_15_pct: 15.9,
@@ -7322,6 +7496,7 @@ const WARD_STATS = {
     },
     "TURF LODGE": {
       population: 4569,
+      population_2011: 4993,
       male: 2178,
       female: 2391,
       age_0_15_pct: 20.8,
@@ -7364,6 +7539,7 @@ const WARD_STATS = {
     },
     "TWINBROOK": {
       population: 4917,
+      population_2011: 4884,
       male: 2337,
       female: 2580,
       age_0_15_pct: 21.8,
@@ -7406,6 +7582,7 @@ const WARD_STATS = {
     },
     "UPPER MALONE": {
       population: 4974,
+      population_2011: 4841,
       male: 2359,
       female: 2615,
       age_0_15_pct: 18.9,
@@ -7448,6 +7625,7 @@ const WARD_STATS = {
     },
     "WATER WORKS": {
       population: 6910,
+      population_2011: 5779,
       male: 3379,
       female: 3531,
       age_0_15_pct: 22.4,
@@ -7490,6 +7668,7 @@ const WARD_STATS = {
     },
     "WINDSOR": {
       population: 11302,
+      population_2011: 10715,
       male: 6039,
       female: 5263,
       age_0_15_pct: 7.2,
@@ -7532,6 +7711,7 @@ const WARD_STATS = {
     },
     "WOODSTOCK": {
       population: 6431,
+      population_2011: 6084,
       male: 3200,
       female: 3231,
       age_0_15_pct: 18.0,
@@ -7574,6 +7754,7 @@ const WARD_STATS = {
     },
     "WOODVALE": {
       population: 5170,
+      population_2011: 4879,
       male: 2445,
       female: 2725,
       age_0_15_pct: 19.1,
@@ -7618,6 +7799,7 @@ const WARD_STATS = {
   "Causeway Coast and Glens": {
     "AGHADOWEY": {
       population: 3453,
+      population_2011: 3545,
       male: 1760,
       female: 1693,
       age_0_15_pct: 19.1,
@@ -7660,6 +7842,7 @@ const WARD_STATS = {
     },
     "ALTAHULLION": {
       population: 3191,
+      population_2011: 3083,
       male: 1625,
       female: 1566,
       age_0_15_pct: 21.3,
@@ -7702,6 +7885,7 @@ const WARD_STATS = {
     },
     "ATLANTIC": {
       population: 4536,
+      population_2011: 4254,
       male: 2152,
       female: 2384,
       age_0_15_pct: 15.9,
@@ -7744,6 +7928,7 @@ const WARD_STATS = {
     },
     "BALLYCASTLE": {
       population: 3397,
+      population_2011: 3334,
       male: 1670,
       female: 1727,
       age_0_15_pct: 17.4,
@@ -7786,6 +7971,7 @@ const WARD_STATS = {
     },
     "BALLYKELLY": {
       population: 3103,
+      population_2011: 3134,
       male: 1532,
       female: 1571,
       age_0_15_pct: 18.8,
@@ -7828,6 +8014,7 @@ const WARD_STATS = {
     },
     "BALLYMONEY EAST": {
       population: 3111,
+      population_2011: 3086,
       male: 1492,
       female: 1617,
       age_0_15_pct: 18.6,
@@ -7870,6 +8057,7 @@ const WARD_STATS = {
     },
     "BALLYMONEY NORTH": {
       population: 3401,
+      population_2011: 3478,
       male: 1592,
       female: 1809,
       age_0_15_pct: 15.8,
@@ -7912,6 +8100,7 @@ const WARD_STATS = {
     },
     "BALLYMONEY SOUTH": {
       population: 3386,
+      population_2011: 3108,
       male: 1608,
       female: 1778,
       age_0_15_pct: 18.8,
@@ -7954,6 +8143,7 @@ const WARD_STATS = {
     },
     "CASTLEROCK": {
       population: 3391,
+      population_2011: 3609,
       male: 1600,
       female: 1791,
       age_0_15_pct: 16.6,
@@ -7996,6 +8186,7 @@ const WARD_STATS = {
     },
     "CHURCHLAND": {
       population: 3643,
+      population_2011: 3685,
       male: 1786,
       female: 1857,
       age_0_15_pct: 15.3,
@@ -8038,6 +8229,7 @@ const WARD_STATS = {
     },
     "CLOGH MILLS": {
       population: 3645,
+      population_2011: 3764,
       male: 1812,
       female: 1833,
       age_0_15_pct: 18.6,
@@ -8080,6 +8272,7 @@ const WARD_STATS = {
     },
     "COOLESSAN": {
       population: 2920,
+      population_2011: 2959,
       male: 1407,
       female: 1513,
       age_0_15_pct: 19.0,
@@ -8122,6 +8315,7 @@ const WARD_STATS = {
     },
     "DERVOCK": {
       population: 3449,
+      population_2011: 3436,
       male: 1684,
       female: 1765,
       age_0_15_pct: 19.7,
@@ -8164,6 +8358,7 @@ const WARD_STATS = {
     },
     "DRUMSURN": {
       population: 3663,
+      population_2011: 3416,
       male: 1756,
       female: 1907,
       age_0_15_pct: 20.6,
@@ -8206,6 +8401,7 @@ const WARD_STATS = {
     },
     "DUNDOOAN": {
       population: 3910,
+      population_2011: 3800,
       male: 1907,
       female: 2003,
       age_0_15_pct: 15.6,
@@ -8248,6 +8444,7 @@ const WARD_STATS = {
     },
     "DUNGIVEN": {
       population: 3297,
+      population_2011: 3324,
       male: 1640,
       female: 1657,
       age_0_15_pct: 21.7,
@@ -8290,6 +8487,7 @@ const WARD_STATS = {
     },
     "DUNLOY": {
       population: 3625,
+      population_2011: 3576,
       male: 1822,
       female: 1803,
       age_0_15_pct: 21.2,
@@ -8332,6 +8530,7 @@ const WARD_STATS = {
     },
     "FEENY": {
       population: 3611,
+      population_2011: 3349,
       male: 1804,
       female: 1807,
       age_0_15_pct: 23.2,
@@ -8374,6 +8573,7 @@ const WARD_STATS = {
     },
     "GARVAGH": {
       population: 3514,
+      population_2011: 3355,
       male: 1745,
       female: 1769,
       age_0_15_pct: 22.0,
@@ -8416,6 +8616,7 @@ const WARD_STATS = {
     },
     "GIANT'S CAUSEWAY": {
       population: 3382,
+      population_2011: 3490,
       male: 1705,
       female: 1677,
       age_0_15_pct: 16.1,
@@ -8458,6 +8659,7 @@ const WARD_STATS = {
     },
     "GREYSTEEL": {
       population: 4642,
+      population_2011: 4314,
       male: 2355,
       female: 2287,
       age_0_15_pct: 22.1,
@@ -8500,6 +8702,7 @@ const WARD_STATS = {
     },
     "GREYSTONE": {
       population: 3486,
+      population_2011: 3366,
       male: 1692,
       female: 1794,
       age_0_15_pct: 20.4,
@@ -8542,6 +8745,7 @@ const WARD_STATS = {
     },
     "HOPEFIELD": {
       population: 3588,
+      population_2011: 3771,
       male: 1752,
       female: 1834,
       age_0_15_pct: 16.6,
@@ -8584,6 +8788,7 @@ const WARD_STATS = {
     },
     "KILREA": {
       population: 3751,
+      population_2011: 3574,
       male: 1872,
       female: 1879,
       age_0_15_pct: 20.5,
@@ -8626,6 +8831,7 @@ const WARD_STATS = {
     },
     "KINBANE": {
       population: 4041,
+      population_2011: 3667,
       male: 1993,
       female: 2049,
       age_0_15_pct: 19.0,
@@ -8668,6 +8874,7 @@ const WARD_STATS = {
     },
     "LOUGHGUILE and STRANOCUM": {
       population: 3678,
+      population_2011: null,
       male: 1875,
       female: 1803,
       age_0_15_pct: 20.5,
@@ -8710,6 +8917,7 @@ const WARD_STATS = {
     },
     "LURIGETHAN": {
       population: 2764,
+      population_2011: 2953,
       male: 1407,
       female: 1357,
       age_0_15_pct: 16.7,
@@ -8752,6 +8960,7 @@ const WARD_STATS = {
     },
     "MACOSQUIN": {
       population: 3431,
+      population_2011: 3177,
       male: 1702,
       female: 1729,
       age_0_15_pct: 18.1,
@@ -8794,6 +9003,7 @@ const WARD_STATS = {
     },
     "MAGILLIGAN": {
       population: 3481,
+      population_2011: 3708,
       male: 1918,
       female: 1563,
       age_0_15_pct: 13.4,
@@ -8836,6 +9046,7 @@ const WARD_STATS = {
     },
     "MOUNTSANDEL": {
       population: 3808,
+      population_2011: 3780,
       male: 1878,
       female: 1930,
       age_0_15_pct: 13.6,
@@ -8878,6 +9089,7 @@ const WARD_STATS = {
     },
     "PORTRUSH and DUNLUCE": {
       population: 2759,
+      population_2011: null,
       male: 1332,
       female: 1427,
       age_0_15_pct: 10.2,
@@ -8920,6 +9132,7 @@ const WARD_STATS = {
     },
     "PORTSTEWART": {
       population: 2915,
+      population_2011: 3327,
       male: 1425,
       female: 1490,
       age_0_15_pct: 11.6,
@@ -8962,6 +9175,7 @@ const WARD_STATS = {
     },
     "QUARRY": {
       population: 4457,
+      population_2011: 3988,
       male: 2094,
       female: 2365,
       age_0_15_pct: 23.7,
@@ -9004,6 +9218,7 @@ const WARD_STATS = {
     },
     "RASHARKIN": {
       population: 3906,
+      population_2011: 3918,
       male: 1928,
       female: 1978,
       age_0_15_pct: 21.2,
@@ -9046,6 +9261,7 @@ const WARD_STATS = {
     },
     "ROESIDE": {
       population: 2654,
+      population_2011: 2885,
       male: 1336,
       female: 1318,
       age_0_15_pct: 13.6,
@@ -9088,6 +9304,7 @@ const WARD_STATS = {
     },
     "ROUTE": {
       population: 3448,
+      population_2011: 3201,
       male: 1738,
       female: 1710,
       age_0_15_pct: 19.0,
@@ -9130,6 +9347,7 @@ const WARD_STATS = {
     },
     "TORR HEAD and RATHLIN": {
       population: 3597,
+      population_2011: null,
       male: 1832,
       female: 1765,
       age_0_15_pct: 18.4,
@@ -9172,6 +9390,7 @@ const WARD_STATS = {
     },
     "UNIVERSITY": {
       population: 3654,
+      population_2011: 3963,
       male: 1739,
       female: 1915,
       age_0_15_pct: 16.1,
@@ -9214,6 +9433,7 @@ const WARD_STATS = {
     },
     "WATERSIDE": {
       population: 4305,
+      population_2011: 4339,
       male: 2071,
       female: 2234,
       age_0_15_pct: 18.4,
@@ -9256,6 +9476,7 @@ const WARD_STATS = {
     },
     "WINDY HALL": {
       population: 3754,
+      population_2011: 3890,
       male: 1807,
       female: 1947,
       age_0_15_pct: 17.9,
@@ -9300,6 +9521,7 @@ const WARD_STATS = {
   "Derry City and Strabane": {
     "ARTIGARVAN": {
       population: 3639,
+      population_2011: 3473,
       male: 1779,
       female: 1860,
       age_0_15_pct: 20.4,
@@ -9342,6 +9564,7 @@ const WARD_STATS = {
     },
     "BALLYCOLMAN": {
       population: 3530,
+      population_2011: 3777,
       male: 1608,
       female: 1922,
       age_0_15_pct: 18.7,
@@ -9384,6 +9607,7 @@ const WARD_STATS = {
     },
     "BALLYMAGROARTY": {
       population: 3984,
+      population_2011: 4116,
       male: 1848,
       female: 2136,
       age_0_15_pct: 25.2,
@@ -9426,6 +9650,7 @@ const WARD_STATS = {
     },
     "BRANDYWELL": {
       population: 3185,
+      population_2011: 3439,
       male: 1546,
       female: 1639,
       age_0_15_pct: 18.4,
@@ -9468,6 +9693,7 @@ const WARD_STATS = {
     },
     "CARN HILL": {
       population: 2851,
+      population_2011: 3150,
       male: 1336,
       female: 1513,
       age_0_15_pct: 18.9,
@@ -9510,6 +9736,7 @@ const WARD_STATS = {
     },
     "CASTLEDERG": {
       population: 3443,
+      population_2011: 3446,
       male: 1651,
       female: 1792,
       age_0_15_pct: 18.5,
@@ -9552,6 +9779,7 @@ const WARD_STATS = {
     },
     "CAW": {
       population: 4334,
+      population_2011: 4298,
       male: 2107,
       female: 2227,
       age_0_15_pct: 20.2,
@@ -9594,6 +9822,7 @@ const WARD_STATS = {
     },
     "CITY WALLS": {
       population: 3242,
+      population_2011: 3567,
       male: 1753,
       female: 1489,
       age_0_15_pct: 12.2,
@@ -9636,6 +9865,7 @@ const WARD_STATS = {
     },
     "CLAUDY": {
       population: 3500,
+      population_2011: 3571,
       male: 1784,
       female: 1716,
       age_0_15_pct: 18.1,
@@ -9678,6 +9908,7 @@ const WARD_STATS = {
     },
     "CLONDERMOT": {
       population: 3848,
+      population_2011: 3580,
       male: 1890,
       female: 1958,
       age_0_15_pct: 17.5,
@@ -9720,6 +9951,7 @@ const WARD_STATS = {
     },
     "CREGGAN": {
       population: 3476,
+      population_2011: 3513,
       male: 1678,
       female: 1798,
       age_0_15_pct: 17.8,
@@ -9762,6 +9994,7 @@ const WARD_STATS = {
     },
     "CREGGAN SOUTH": {
       population: 3849,
+      population_2011: 3230,
       male: 1740,
       female: 2110,
       age_0_15_pct: 24.6,
@@ -9804,6 +10037,7 @@ const WARD_STATS = {
     },
     "CULMORE": {
       population: 4324,
+      population_2011: 4237,
       male: 2143,
       female: 2181,
       age_0_15_pct: 19.6,
@@ -9846,6 +10080,7 @@ const WARD_STATS = {
     },
     "DRUMAHOE": {
       population: 4497,
+      population_2011: 4143,
       male: 2195,
       female: 2302,
       age_0_15_pct: 22.1,
@@ -9888,6 +10123,7 @@ const WARD_STATS = {
     },
     "DUNNAMANAGH": {
       population: 3513,
+      population_2011: 3477,
       male: 1792,
       female: 1721,
       age_0_15_pct: 20.3,
@@ -9930,6 +10166,7 @@ const WARD_STATS = {
     },
     "EBRINGTON": {
       population: 4021,
+      population_2011: 3966,
       male: 1971,
       female: 2050,
       age_0_15_pct: 17.9,
@@ -9972,6 +10209,7 @@ const WARD_STATS = {
     },
     "EGLINTON": {
       population: 3910,
+      population_2011: 3937,
       male: 1905,
       female: 2005,
       age_0_15_pct: 20.4,
@@ -10014,6 +10252,7 @@ const WARD_STATS = {
     },
     "ENAGH": {
       population: 4393,
+      population_2011: 4074,
       male: 2186,
       female: 2207,
       age_0_15_pct: 22.1,
@@ -10056,6 +10295,7 @@ const WARD_STATS = {
     },
     "FINN": {
       population: 4321,
+      population_2011: 4201,
       male: 2127,
       female: 2194,
       age_0_15_pct: 23.1,
@@ -10098,6 +10338,7 @@ const WARD_STATS = {
     },
     "FOYLE SPRINGS": {
       population: 3043,
+      population_2011: 3189,
       male: 1510,
       female: 1531,
       age_0_15_pct: 14.6,
@@ -10140,6 +10381,7 @@ const WARD_STATS = {
     },
     "GALLIAGH": {
       population: 3749,
+      population_2011: 4119,
       male: 1783,
       female: 1966,
       age_0_15_pct: 21.2,
@@ -10182,6 +10424,7 @@ const WARD_STATS = {
     },
     "GLENDERG": {
       population: 3200,
+      population_2011: 3223,
       male: 1646,
       female: 1554,
       age_0_15_pct: 19.7,
@@ -10224,6 +10467,7 @@ const WARD_STATS = {
     },
     "GLENELLY VALLEY": {
       population: 3403,
+      population_2011: 3305,
       male: 1736,
       female: 1667,
       age_0_15_pct: 20.0,
@@ -10266,6 +10510,7 @@ const WARD_STATS = {
     },
     "KILFENNAN": {
       population: 4735,
+      population_2011: 4215,
       male: 2299,
       female: 2436,
       age_0_15_pct: 21.1,
@@ -10308,6 +10553,7 @@ const WARD_STATS = {
     },
     "LISNAGELVIN": {
       population: 3166,
+      population_2011: 3479,
       male: 1497,
       female: 1669,
       age_0_15_pct: 14.9,
@@ -10350,6 +10596,7 @@ const WARD_STATS = {
     },
     "MADAM'S BANK": {
       population: 2865,
+      population_2011: 3072,
       male: 1401,
       female: 1464,
       age_0_15_pct: 13.3,
@@ -10392,6 +10639,7 @@ const WARD_STATS = {
     },
     "NEW BUILDINGS": {
       population: 3831,
+      population_2011: 3663,
       male: 1836,
       female: 1995,
       age_0_15_pct: 20.9,
@@ -10434,6 +10682,7 @@ const WARD_STATS = {
     },
     "NEWTOWNSTEWART": {
       population: 3102,
+      population_2011: 3362,
       male: 1573,
       female: 1530,
       age_0_15_pct: 17.6,
@@ -10476,6 +10725,7 @@ const WARD_STATS = {
     },
     "NORTHLAND": {
       population: 4844,
+      population_2011: 5042,
       male: 2599,
       female: 2248,
       age_0_15_pct: 11.4,
@@ -10518,6 +10768,7 @@ const WARD_STATS = {
     },
     "PARK": {
       population: 3531,
+      population_2011: 3037,
       male: 1789,
       female: 1742,
       age_0_15_pct: 21.5,
@@ -10560,6 +10811,7 @@ const WARD_STATS = {
     },
     "SHANTALLOW": {
       population: 3667,
+      population_2011: 3553,
       male: 1747,
       female: 1920,
       age_0_15_pct: 21.8,
@@ -10602,6 +10854,7 @@ const WARD_STATS = {
     },
     "SHANTALLOW EAST": {
       population: 4266,
+      population_2011: 4354,
       male: 2020,
       female: 2246,
       age_0_15_pct: 19.9,
@@ -10644,6 +10897,7 @@ const WARD_STATS = {
     },
     "SHERIFF'S MOUNTAIN": {
       population: 3337,
+      population_2011: 3435,
       male: 1626,
       female: 1711,
       age_0_15_pct: 20.5,
@@ -10686,6 +10940,7 @@ const WARD_STATS = {
     },
     "SION MILLS": {
       population: 3732,
+      population_2011: 3702,
       male: 1814,
       female: 1917,
       age_0_15_pct: 19.1,
@@ -10728,6 +10983,7 @@ const WARD_STATS = {
     },
     "SKEOGE": {
       population: 6385,
+      population_2011: 4010,
       male: 2866,
       female: 3519,
       age_0_15_pct: 31.6,
@@ -10770,6 +11026,7 @@ const WARD_STATS = {
     },
     "SLIEVEKIRK": {
       population: 3576,
+      population_2011: 3512,
       male: 1841,
       female: 1735,
       age_0_15_pct: 19.8,
@@ -10812,6 +11069,7 @@ const WARD_STATS = {
     },
     "SPRINGTOWN": {
       population: 2883,
+      population_2011: 3240,
       male: 1349,
       female: 1534,
       age_0_15_pct: 16.7,
@@ -10854,6 +11112,7 @@ const WARD_STATS = {
     },
     "STRABANE NORTH": {
       population: 4006,
+      population_2011: 3555,
       male: 1993,
       female: 2013,
       age_0_15_pct: 20.3,
@@ -10896,6 +11155,7 @@ const WARD_STATS = {
     },
     "STRABANE WEST": {
       population: 3105,
+      population_2011: 3086,
       male: 1502,
       female: 1606,
       age_0_15_pct: 15.0,
@@ -10938,6 +11198,7 @@ const WARD_STATS = {
     },
     "VICTORIA": {
       population: 4468,
+      population_2011: 3814,
       male: 2194,
       female: 2274,
       age_0_15_pct: 23.3,
@@ -10982,6 +11243,7 @@ const WARD_STATS = {
   "Fermanagh and Omagh": {
     "BALLINAMALLARD": {
       population: 2947,
+      population_2011: 2946,
       male: 1471,
       female: 1476,
       age_0_15_pct: 17.7,
@@ -11024,6 +11286,7 @@ const WARD_STATS = {
     },
     "BELCOO and GARRISON": {
       population: 2644,
+      population_2011: null,
       male: 1338,
       female: 1306,
       age_0_15_pct: 17.6,
@@ -11066,6 +11329,7 @@ const WARD_STATS = {
     },
     "BELLEEK and BOA": {
       population: 3123,
+      population_2011: null,
       male: 1588,
       female: 1535,
       age_0_15_pct: 18.3,
@@ -11108,6 +11372,7 @@ const WARD_STATS = {
     },
     "BERAGH": {
       population: 2912,
+      population_2011: 2864,
       male: 1465,
       female: 1447,
       age_0_15_pct: 20.7,
@@ -11150,6 +11415,7 @@ const WARD_STATS = {
     },
     "BOHO CLEENISH and LETTERBREEN": {
       population: 3466,
+      population_2011: null,
       male: 1744,
       female: 1722,
       age_0_15_pct: 22.1,
@@ -11192,6 +11458,7 @@ const WARD_STATS = {
     },
     "BROOKEBOROUGH": {
       population: 2579,
+      population_2011: 2352,
       male: 1330,
       female: 1249,
       age_0_15_pct: 20.9,
@@ -11234,6 +11501,7 @@ const WARD_STATS = {
     },
     "CAMOWEN": {
       population: 3213,
+      population_2011: 3056,
       male: 1528,
       female: 1685,
       age_0_15_pct: 15.5,
@@ -11276,6 +11544,7 @@ const WARD_STATS = {
     },
     "CASTLECOOLE": {
       population: 3203,
+      population_2011: 3229,
       male: 1511,
       female: 1692,
       age_0_15_pct: 17.9,
@@ -11318,6 +11587,7 @@ const WARD_STATS = {
     },
     "COOLNAGARD": {
       population: 3410,
+      population_2011: 3469,
       male: 1687,
       female: 1723,
       age_0_15_pct: 19.1,
@@ -11360,6 +11630,7 @@ const WARD_STATS = {
     },
     "DERGMONEY": {
       population: 2587,
+      population_2011: 2458,
       male: 1304,
       female: 1283,
       age_0_15_pct: 14.7,
@@ -11402,6 +11673,7 @@ const WARD_STATS = {
     },
     "DERRYGONNELLY": {
       population: 2898,
+      population_2011: 2818,
       male: 1481,
       female: 1417,
       age_0_15_pct: 20.4,
@@ -11444,6 +11716,7 @@ const WARD_STATS = {
     },
     "DERRYLIN": {
       population: 2794,
+      population_2011: 2672,
       male: 1458,
       female: 1336,
       age_0_15_pct: 22.5,
@@ -11486,6 +11759,7 @@ const WARD_STATS = {
     },
     "DONAGH": {
       population: 2527,
+      population_2011: 2387,
       male: 1283,
       female: 1244,
       age_0_15_pct: 20.3,
@@ -11528,6 +11802,7 @@ const WARD_STATS = {
     },
     "DROMORE": {
       population: 2784,
+      population_2011: 2808,
       male: 1404,
       female: 1380,
       age_0_15_pct: 23.5,
@@ -11570,6 +11845,7 @@ const WARD_STATS = {
     },
     "DRUMNAKILLY": {
       population: 3184,
+      population_2011: 2984,
       male: 1581,
       female: 1603,
       age_0_15_pct: 23.9,
@@ -11612,6 +11888,7 @@ const WARD_STATS = {
     },
     "DRUMQUIN": {
       population: 2910,
+      population_2011: 2887,
       male: 1468,
       female: 1443,
       age_0_15_pct: 20.7,
@@ -11654,6 +11931,7 @@ const WARD_STATS = {
     },
     "EDERNEY and KESH": {
       population: 2774,
+      population_2011: null,
       male: 1381,
       female: 1393,
       age_0_15_pct: 18.8,
@@ -11696,6 +11974,7 @@ const WARD_STATS = {
     },
     "ERNE": {
       population: 3054,
+      population_2011: 3101,
       male: 1474,
       female: 1580,
       age_0_15_pct: 16.3,
@@ -11738,6 +12017,7 @@ const WARD_STATS = {
     },
     "FAIRY WATER": {
       population: 2826,
+      population_2011: 2838,
       male: 1432,
       female: 1394,
       age_0_15_pct: 17.8,
@@ -11780,6 +12060,7 @@ const WARD_STATS = {
     },
     "FINTONA": {
       population: 2553,
+      population_2011: 2511,
       male: 1299,
       female: 1254,
       age_0_15_pct: 20.9,
@@ -11822,6 +12103,7 @@ const WARD_STATS = {
     },
     "FLORENCE COURT and KINAWLEY": {
       population: 2883,
+      population_2011: null,
       male: 1473,
       female: 1410,
       age_0_15_pct: 20.9,
@@ -11864,6 +12146,7 @@ const WARD_STATS = {
     },
     "GORTIN": {
       population: 3304,
+      population_2011: 3295,
       male: 1620,
       female: 1684,
       age_0_15_pct: 21.4,
@@ -11906,6 +12189,7 @@ const WARD_STATS = {
     },
     "GORTRUSH": {
       population: 3217,
+      population_2011: 3210,
       male: 1531,
       female: 1686,
       age_0_15_pct: 18.3,
@@ -11948,6 +12232,7 @@ const WARD_STATS = {
     },
     "IRVINESTOWN": {
       population: 3387,
+      population_2011: 3306,
       male: 1636,
       female: 1751,
       age_0_15_pct: 20.3,
@@ -11990,6 +12275,7 @@ const WARD_STATS = {
     },
     "KILLYCLOGHER": {
       population: 3051,
+      population_2011: 3037,
       male: 1446,
       female: 1605,
       age_0_15_pct: 17.6,
@@ -12032,6 +12318,7 @@ const WARD_STATS = {
     },
     "LISBELLAW": {
       population: 3057,
+      population_2011: 3190,
       male: 1542,
       female: 1515,
       age_0_15_pct: 20.8,
@@ -12074,6 +12361,7 @@ const WARD_STATS = {
     },
     "LISNARRICK": {
       population: 3356,
+      population_2011: 3135,
       male: 1647,
       female: 1709,
       age_0_15_pct: 17.0,
@@ -12116,6 +12404,7 @@ const WARD_STATS = {
     },
     "LISNASKEA": {
       population: 2645,
+      population_2011: 2584,
       male: 1270,
       female: 1375,
       age_0_15_pct: 21.8,
@@ -12158,6 +12447,7 @@ const WARD_STATS = {
     },
     "MAGUIRESBRIDGE": {
       population: 3299,
+      population_2011: 3153,
       male: 1625,
       female: 1674,
       age_0_15_pct: 20.5,
@@ -12200,6 +12490,7 @@ const WARD_STATS = {
     },
     "NEWTOWNBUTLER": {
       population: 2567,
+      population_2011: 2500,
       male: 1334,
       female: 1233,
       age_0_15_pct: 22.6,
@@ -12242,6 +12533,7 @@ const WARD_STATS = {
     },
     "NEWTOWNSAVILLE": {
       population: 2977,
+      population_2011: 2709,
       male: 1523,
       female: 1454,
       age_0_15_pct: 21.7,
@@ -12284,6 +12576,7 @@ const WARD_STATS = {
     },
     "OWENKILLEW": {
       population: 2698,
+      population_2011: 2648,
       male: 1351,
       female: 1347,
       age_0_15_pct: 21.4,
@@ -12326,6 +12619,7 @@ const WARD_STATS = {
     },
     "PORTORA": {
       population: 3185,
+      population_2011: 3170,
       male: 1565,
       female: 1621,
       age_0_15_pct: 17.4,
@@ -12368,6 +12662,7 @@ const WARD_STATS = {
     },
     "ROSSLEA": {
       population: 2331,
+      population_2011: 2170,
       male: 1174,
       female: 1157,
       age_0_15_pct: 20.9,
@@ -12410,6 +12705,7 @@ const WARD_STATS = {
     },
     "ROSSORRY": {
       population: 2543,
+      population_2011: 2375,
       male: 1232,
       female: 1311,
       age_0_15_pct: 17.0,
@@ -12452,6 +12748,7 @@ const WARD_STATS = {
     },
     "SIXMILECROSS": {
       population: 2828,
+      population_2011: 2865,
       male: 1474,
       female: 1354,
       age_0_15_pct: 22.2,
@@ -12494,6 +12791,7 @@ const WARD_STATS = {
     },
     "STRULE": {
       population: 2971,
+      population_2011: 2734,
       male: 1477,
       female: 1494,
       age_0_15_pct: 18.8,
@@ -12536,6 +12834,7 @@ const WARD_STATS = {
     },
     "TEMPO": {
       population: 2878,
+      population_2011: 2517,
       male: 1479,
       female: 1398,
       age_0_15_pct: 21.4,
@@ -12578,6 +12877,7 @@ const WARD_STATS = {
     },
     "TERMON": {
       population: 2699,
+      population_2011: 2330,
       male: 1391,
       female: 1308,
       age_0_15_pct: 22.6,
@@ -12620,6 +12920,7 @@ const WARD_STATS = {
     },
     "TRILLICK": {
       population: 2552,
+      population_2011: 2640,
       male: 1315,
       female: 1237,
       age_0_15_pct: 23.0,
@@ -12664,6 +12965,7 @@ const WARD_STATS = {
   "Lisburn and Castlereagh": {
     "BALLINDERRY": {
       population: 3921,
+      population_2011: 3763,
       male: 2004,
       female: 1917,
       age_0_15_pct: 19.9,
@@ -12706,6 +13008,7 @@ const WARD_STATS = {
     },
     "BALLYHANWOOD": {
       population: 3028,
+      population_2011: 2811,
       male: 1483,
       female: 1545,
       age_0_15_pct: 14.4,
@@ -12748,6 +13051,7 @@ const WARD_STATS = {
     },
     "BALLYMACASH": {
       population: 3137,
+      population_2011: 3238,
       male: 1477,
       female: 1660,
       age_0_15_pct: 19.1,
@@ -12790,6 +13094,7 @@ const WARD_STATS = {
     },
     "BALLYMACBRENNAN": {
       population: 3081,
+      population_2011: 2963,
       male: 1532,
       female: 1549,
       age_0_15_pct: 16.9,
@@ -12832,6 +13137,7 @@ const WARD_STATS = {
     },
     "BALLYMACOSS": {
       population: 5975,
+      population_2011: 4195,
       male: 2856,
       female: 3119,
       age_0_15_pct: 23.8,
@@ -12874,6 +13180,7 @@ const WARD_STATS = {
     },
     "BEECHILL": {
       population: 3384,
+      population_2011: 3679,
       male: 1696,
       female: 1687,
       age_0_15_pct: 15.1,
@@ -12916,6 +13223,7 @@ const WARD_STATS = {
     },
     "BLARIS": {
       population: 3415,
+      population_2011: 3071,
       male: 1662,
       female: 1753,
       age_0_15_pct: 16.4,
@@ -12958,6 +13266,7 @@ const WARD_STATS = {
     },
     "CAIRNSHILL": {
       population: 3513,
+      population_2011: 3165,
       male: 1733,
       female: 1781,
       age_0_15_pct: 19.9,
@@ -13000,6 +13309,7 @@ const WARD_STATS = {
     },
     "CARROWREAGH": {
       population: 6124,
+      population_2011: 3652,
       male: 3002,
       female: 3122,
       age_0_15_pct: 20.9,
@@ -13042,6 +13352,7 @@ const WARD_STATS = {
     },
     "CARRYDUFF EAST": {
       population: 3823,
+      population_2011: 3521,
       male: 1851,
       female: 1973,
       age_0_15_pct: 19.5,
@@ -13084,6 +13395,7 @@ const WARD_STATS = {
     },
     "CARRYDUFF WEST": {
       population: 3351,
+      population_2011: 3395,
       male: 1632,
       female: 1719,
       age_0_15_pct: 19.8,
@@ -13126,6 +13438,7 @@ const WARD_STATS = {
     },
     "DERRYAGHY": {
       population: 4627,
+      population_2011: 4016,
       male: 2265,
       female: 2362,
       age_0_15_pct: 19.0,
@@ -13168,6 +13481,7 @@ const WARD_STATS = {
     },
     "DROMARA": {
       population: 3460,
+      population_2011: 3446,
       male: 1728,
       female: 1732,
       age_0_15_pct: 20.2,
@@ -13210,6 +13524,7 @@ const WARD_STATS = {
     },
     "DRUMBO": {
       population: 3039,
+      population_2011: 2968,
       male: 1493,
       female: 1546,
       age_0_15_pct: 19.1,
@@ -13252,6 +13567,7 @@ const WARD_STATS = {
     },
     "DUNDONALD": {
       population: 3105,
+      population_2011: 3047,
       male: 1491,
       female: 1614,
       age_0_15_pct: 14.1,
@@ -13294,6 +13610,7 @@ const WARD_STATS = {
     },
     "ENLER": {
       population: 3205,
+      population_2011: 3260,
       male: 1547,
       female: 1658,
       age_0_15_pct: 19.3,
@@ -13336,6 +13653,7 @@ const WARD_STATS = {
     },
     "GALWALLY": {
       population: 3040,
+      population_2011: 3205,
       male: 1425,
       female: 1615,
       age_0_15_pct: 17.0,
@@ -13378,6 +13696,7 @@ const WARD_STATS = {
     },
     "GLENAVY": {
       population: 4079,
+      population_2011: 3521,
       male: 2012,
       female: 2066,
       age_0_15_pct: 23.6,
@@ -13420,6 +13739,7 @@ const WARD_STATS = {
     },
     "GRAHAM'S BRIDGE": {
       population: 3312,
+      population_2011: 3019,
       male: 1557,
       female: 1755,
       age_0_15_pct: 18.7,
@@ -13462,6 +13782,7 @@ const WARD_STATS = {
     },
     "HARMONY HILL": {
       population: 3022,
+      population_2011: 3069,
       male: 1507,
       female: 1515,
       age_0_15_pct: 15.4,
@@ -13504,6 +13825,7 @@ const WARD_STATS = {
     },
     "HILDEN": {
       population: 3902,
+      population_2011: 3673,
       male: 1881,
       female: 2022,
       age_0_15_pct: 17.6,
@@ -13546,6 +13868,7 @@ const WARD_STATS = {
     },
     "HILLHALL": {
       population: 4065,
+      population_2011: 3506,
       male: 1979,
       female: 2088,
       age_0_15_pct: 21.8,
@@ -13588,6 +13911,7 @@ const WARD_STATS = {
     },
     "HILLSBOROUGH": {
       population: 3312,
+      population_2011: 3212,
       male: 1640,
       female: 1674,
       age_0_15_pct: 14.8,
@@ -13630,6 +13954,7 @@ const WARD_STATS = {
     },
     "KNOCKBRACKEN": {
       population: 3534,
+      population_2011: 3536,
       male: 1720,
       female: 1814,
       age_0_15_pct: 19.3,
@@ -13672,6 +13997,7 @@ const WARD_STATS = {
     },
     "KNOCKMORE": {
       population: 4658,
+      population_2011: 3930,
       male: 2283,
       female: 2375,
       age_0_15_pct: 21.9,
@@ -13714,6 +14040,7 @@ const WARD_STATS = {
     },
     "LAGAN": {
       population: 3477,
+      population_2011: 3133,
       male: 1757,
       female: 1720,
       age_0_15_pct: 18.9,
@@ -13756,6 +14083,7 @@ const WARD_STATS = {
     },
     "LAGAN VALLEY": {
       population: 3397,
+      population_2011: 3397,
       male: 1610,
       female: 1787,
       age_0_15_pct: 18.5,
@@ -13798,6 +14126,7 @@ const WARD_STATS = {
     },
     "LAMBEG": {
       population: 3817,
+      population_2011: 3394,
       male: 1854,
       female: 1963,
       age_0_15_pct: 19.1,
@@ -13840,6 +14169,7 @@ const WARD_STATS = {
     },
     "LISNAGARVEY": {
       population: 2939,
+      population_2011: 3126,
       male: 1428,
       female: 1508,
       age_0_15_pct: 13.4,
@@ -13882,6 +14212,7 @@ const WARD_STATS = {
     },
     "MAGHABERRY": {
       population: 4782,
+      population_2011: 3907,
       male: 2639,
       female: 2143,
       age_0_15_pct: 19.0,
@@ -13924,6 +14255,7 @@ const WARD_STATS = {
     },
     "MAGHERALAVE": {
       population: 4255,
+      population_2011: 3284,
       male: 2049,
       female: 2206,
       age_0_15_pct: 20.5,
@@ -13966,6 +14298,7 @@ const WARD_STATS = {
     },
     "MAZE": {
       population: 3228,
+      population_2011: 2977,
       male: 1600,
       female: 1631,
       age_0_15_pct: 19.8,
@@ -14008,6 +14341,7 @@ const WARD_STATS = {
     },
     "MOIRA": {
       population: 3747,
+      population_2011: 3724,
       male: 1822,
       female: 1925,
       age_0_15_pct: 16.9,
@@ -14050,6 +14384,7 @@ const WARD_STATS = {
     },
     "MONEYREAGH": {
       population: 3125,
+      population_2011: 2799,
       male: 1543,
       female: 1582,
       age_0_15_pct: 17.5,
@@ -14092,6 +14427,7 @@ const WARD_STATS = {
     },
     "NEWTOWNBREDA": {
       population: 2843,
+      population_2011: 2925,
       male: 1361,
       female: 1481,
       age_0_15_pct: 18.3,
@@ -14134,6 +14470,7 @@ const WARD_STATS = {
     },
     "OLD WARREN": {
       population: 4122,
+      population_2011: 4007,
       male: 1983,
       female: 2138,
       age_0_15_pct: 22.5,
@@ -14176,6 +14513,7 @@ const WARD_STATS = {
     },
     "RAVERNET": {
       population: 3096,
+      population_2011: 2817,
       male: 1552,
       female: 1545,
       age_0_15_pct: 17.9,
@@ -14218,6 +14556,7 @@ const WARD_STATS = {
     },
     "STONYFORD": {
       population: 3149,
+      population_2011: 2918,
       male: 1618,
       female: 1531,
       age_0_15_pct: 18.9,
@@ -14260,6 +14599,7 @@ const WARD_STATS = {
     },
     "WALLACE PARK": {
       population: 3862,
+      population_2011: 3859,
       male: 2028,
       female: 1835,
       age_0_15_pct: 16.1,
@@ -14302,6 +14642,7 @@ const WARD_STATS = {
     },
     "WHITE MOUNTAIN": {
       population: 6138,
+      population_2011: 4469,
       male: 3029,
       female: 3109,
       age_0_15_pct: 22.9,
@@ -14346,6 +14687,7 @@ const WARD_STATS = {
   "Mid Ulster": {
     "ARDBOE": {
       population: 3818,
+      population_2011: 3583,
       male: 1973,
       female: 1845,
       age_0_15_pct: 22.7,
@@ -14388,6 +14730,7 @@ const WARD_STATS = {
     },
     "AUGHER and CLOGHER": {
       population: 3460,
+      population_2011: null,
       male: 1734,
       female: 1726,
       age_0_15_pct: 21.4,
@@ -14430,6 +14773,7 @@ const WARD_STATS = {
     },
     "AUGHNACLOY": {
       population: 3696,
+      population_2011: 3346,
       male: 1848,
       female: 1848,
       age_0_15_pct: 22.6,
@@ -14472,6 +14816,7 @@ const WARD_STATS = {
     },
     "BALLYGAWLEY": {
       population: 3940,
+      population_2011: 3317,
       male: 2039,
       female: 1901,
       age_0_15_pct: 22.4,
@@ -14514,6 +14859,7 @@ const WARD_STATS = {
     },
     "BALLYMAGUIGAN": {
       population: 4144,
+      population_2011: 3736,
       male: 2071,
       female: 2074,
       age_0_15_pct: 22.6,
@@ -14556,6 +14902,7 @@ const WARD_STATS = {
     },
     "BALLYSAGGART": {
       population: 5062,
+      population_2011: 4355,
       male: 2644,
       female: 2418,
       age_0_15_pct: 21.9,
@@ -14598,6 +14945,7 @@ const WARD_STATS = {
     },
     "BELLAGHY": {
       population: 3879,
+      population_2011: 3573,
       male: 1925,
       female: 1954,
       age_0_15_pct: 24.3,
@@ -14640,6 +14988,7 @@ const WARD_STATS = {
     },
     "CALEDON": {
       population: 3963,
+      population_2011: 3520,
       male: 1997,
       female: 1966,
       age_0_15_pct: 22.8,
@@ -14682,6 +15031,7 @@ const WARD_STATS = {
     },
     "CASTLECAULFIELD": {
       population: 3759,
+      population_2011: 3216,
       male: 1931,
       female: 1828,
       age_0_15_pct: 21.8,
@@ -14724,6 +15074,7 @@ const WARD_STATS = {
     },
     "CASTLEDAWSON": {
       population: 3792,
+      population_2011: 3752,
       male: 1904,
       female: 1888,
       age_0_15_pct: 20.8,
@@ -14766,6 +15117,7 @@ const WARD_STATS = {
     },
     "COAGH": {
       population: 3371,
+      population_2011: 3188,
       male: 1677,
       female: 1694,
       age_0_15_pct: 23.4,
@@ -14808,6 +15160,7 @@ const WARD_STATS = {
     },
     "COALISLAND NORTH": {
       population: 3671,
+      population_2011: 3465,
       male: 1810,
       female: 1862,
       age_0_15_pct: 20.6,
@@ -14850,6 +15203,7 @@ const WARD_STATS = {
     },
     "COALISLAND SOUTH": {
       population: 4842,
+      population_2011: 4126,
       male: 2345,
       female: 2497,
       age_0_15_pct: 22.9,
@@ -14892,6 +15246,7 @@ const WARD_STATS = {
     },
     "COOKSTOWN EAST": {
       population: 3790,
+      population_2011: 3088,
       male: 1896,
       female: 1894,
       age_0_15_pct: 18.1,
@@ -14934,6 +15289,7 @@ const WARD_STATS = {
     },
     "COOKSTOWN SOUTH": {
       population: 3524,
+      population_2011: 3488,
       male: 1704,
       female: 1820,
       age_0_15_pct: 20.4,
@@ -14976,6 +15332,7 @@ const WARD_STATS = {
     },
     "COOKSTOWN WEST": {
       population: 3688,
+      population_2011: 3485,
       male: 1783,
       female: 1902,
       age_0_15_pct: 21.2,
@@ -15018,6 +15375,7 @@ const WARD_STATS = {
     },
     "COOLSHINNY": {
       population: 4048,
+      population_2011: 3447,
       male: 2051,
       female: 1997,
       age_0_15_pct: 20.8,
@@ -15060,6 +15418,7 @@ const WARD_STATS = {
     },
     "DONAGHMORE": {
       population: 3839,
+      population_2011: 3585,
       male: 1955,
       female: 1884,
       age_0_15_pct: 21.7,
@@ -15102,6 +15461,7 @@ const WARD_STATS = {
     },
     "DRAPERSTOWN": {
       population: 3266,
+      population_2011: 3002,
       male: 1681,
       female: 1585,
       age_0_15_pct: 23.1,
@@ -15144,6 +15504,7 @@ const WARD_STATS = {
     },
     "FIVEMILETOWN": {
       population: 3174,
+      population_2011: 3002,
       male: 1619,
       female: 1555,
       age_0_15_pct: 19.5,
@@ -15186,6 +15547,7 @@ const WARD_STATS = {
     },
     "GLEBE": {
       population: 3845,
+      population_2011: 3726,
       male: 1854,
       female: 1991,
       age_0_15_pct: 18.5,
@@ -15228,6 +15590,7 @@ const WARD_STATS = {
     },
     "KILLYMAN": {
       population: 3619,
+      population_2011: 3106,
       male: 1874,
       female: 1745,
       age_0_15_pct: 22.2,
@@ -15270,6 +15633,7 @@ const WARD_STATS = {
     },
     "KILLYMEAL": {
       population: 5003,
+      population_2011: 4114,
       male: 2500,
       female: 2502,
       age_0_15_pct: 23.1,
@@ -15312,6 +15676,7 @@ const WARD_STATS = {
     },
     "LISSAN": {
       population: 3594,
+      population_2011: 3482,
       male: 1790,
       female: 1804,
       age_0_15_pct: 21.5,
@@ -15354,6 +15719,7 @@ const WARD_STATS = {
     },
     "LOUGHRY": {
       population: 2955,
+      population_2011: 2982,
       male: 1466,
       female: 1489,
       age_0_15_pct: 19.5,
@@ -15396,6 +15762,7 @@ const WARD_STATS = {
     },
     "LOWER GLENSHANE": {
       population: 3153,
+      population_2011: 2917,
       male: 1586,
       female: 1567,
       age_0_15_pct: 21.9,
@@ -15438,6 +15805,7 @@ const WARD_STATS = {
     },
     "MAGHERA": {
       population: 3469,
+      population_2011: 3556,
       male: 1694,
       female: 1775,
       age_0_15_pct: 22.0,
@@ -15480,6 +15848,7 @@ const WARD_STATS = {
     },
     "MOY": {
       population: 3950,
+      population_2011: 3550,
       male: 1978,
       female: 1972,
       age_0_15_pct: 23.1,
@@ -15522,6 +15891,7 @@ const WARD_STATS = {
     },
     "MOYGASHEL": {
       population: 3606,
+      population_2011: 3330,
       male: 1780,
       female: 1826,
       age_0_15_pct: 18.7,
@@ -15564,6 +15934,7 @@ const WARD_STATS = {
     },
     "MULLAGHMORE": {
       population: 4408,
+      population_2011: 3902,
       male: 2218,
       female: 2190,
       age_0_15_pct: 21.3,
@@ -15606,6 +15977,7 @@ const WARD_STATS = {
     },
     "OAKLANDS": {
       population: 3413,
+      population_2011: 3167,
       male: 1714,
       female: 1699,
       age_0_15_pct: 23.0,
@@ -15648,6 +16020,7 @@ const WARD_STATS = {
     },
     "POMEROY": {
       population: 3879,
+      population_2011: 3620,
       male: 1951,
       female: 1928,
       age_0_15_pct: 23.5,
@@ -15690,6 +16063,7 @@ const WARD_STATS = {
     },
     "STEWARTSTOWN": {
       population: 3110,
+      population_2011: 3108,
       male: 1538,
       female: 1572,
       age_0_15_pct: 18.3,
@@ -15732,6 +16106,7 @@ const WARD_STATS = {
     },
     "SWATRAGH": {
       population: 3458,
+      population_2011: 3375,
       male: 1741,
       female: 1717,
       age_0_15_pct: 23.7,
@@ -15774,6 +16149,7 @@ const WARD_STATS = {
     },
     "TAMLAGHT O'CRILLY": {
       population: 3647,
+      population_2011: 3489,
       male: 1841,
       female: 1806,
       age_0_15_pct: 22.0,
@@ -15816,6 +16192,7 @@ const WARD_STATS = {
     },
     "THE LOUP": {
       population: 4260,
+      population_2011: 3820,
       male: 2137,
       female: 2123,
       age_0_15_pct: 24.3,
@@ -15858,6 +16235,7 @@ const WARD_STATS = {
     },
     "TOBERMORE": {
       population: 3458,
+      population_2011: 3456,
       male: 1709,
       female: 1749,
       age_0_15_pct: 20.3,
@@ -15900,6 +16278,7 @@ const WARD_STATS = {
     },
     "TOWN PARKS EAST": {
       population: 3557,
+      population_2011: 3569,
       male: 1712,
       female: 1845,
       age_0_15_pct: 19.3,
@@ -15942,6 +16321,7 @@ const WARD_STATS = {
     },
     "VALLEY": {
       population: 3443,
+      population_2011: 3498,
       male: 1724,
       female: 1719,
       age_0_15_pct: 21.0,
@@ -15984,6 +16364,7 @@ const WARD_STATS = {
     },
     "WASHING BAY": {
       population: 3738,
+      population_2011: 3403,
       male: 1896,
       female: 1842,
       age_0_15_pct: 23.8,
@@ -16028,6 +16409,7 @@ const WARD_STATS = {
   "Mid and East Antrim": {
     "ACADEMY": {
       population: 2567,
+      population_2011: 2623,
       male: 1217,
       female: 1350,
       age_0_15_pct: 11.6,
@@ -16070,6 +16452,7 @@ const WARD_STATS = {
     },
     "AHOGHILL": {
       population: 3607,
+      population_2011: 3513,
       male: 1737,
       female: 1870,
       age_0_15_pct: 18.3,
@@ -16112,6 +16495,7 @@ const WARD_STATS = {
     },
     "ARDEEVIN": {
       population: 3715,
+      population_2011: 3476,
       male: 1746,
       female: 1969,
       age_0_15_pct: 19.8,
@@ -16154,6 +16538,7 @@ const WARD_STATS = {
     },
     "BALLEE and HARRYVILLE": {
       population: 3588,
+      population_2011: null,
       male: 1698,
       female: 1890,
       age_0_15_pct: 18.4,
@@ -16196,6 +16581,7 @@ const WARD_STATS = {
     },
     "BALLYCARRY and GLYNN": {
       population: 3747,
+      population_2011: null,
       male: 1839,
       female: 1908,
       age_0_15_pct: 18.8,
@@ -16238,6 +16624,7 @@ const WARD_STATS = {
     },
     "BALLYKEEL": {
       population: 3026,
+      population_2011: 3179,
       male: 1441,
       female: 1585,
       age_0_15_pct: 19.5,
@@ -16280,6 +16667,7 @@ const WARD_STATS = {
     },
     "BONEYBEFORE": {
       population: 2864,
+      population_2011: 3083,
       male: 1388,
       female: 1476,
       age_0_15_pct: 12.8,
@@ -16322,6 +16710,7 @@ const WARD_STATS = {
     },
     "BRAIDWATER": {
       population: 3214,
+      population_2011: 3262,
       male: 1580,
       female: 1634,
       age_0_15_pct: 16.9,
@@ -16364,6 +16753,7 @@ const WARD_STATS = {
     },
     "BROUGHSHANE": {
       population: 3726,
+      population_2011: 3521,
       male: 1800,
       female: 1926,
       age_0_15_pct: 16.4,
@@ -16406,6 +16796,7 @@ const WARD_STATS = {
     },
     "BURLEIGH HILL": {
       population: 2594,
+      population_2011: 2862,
       male: 1259,
       female: 1335,
       age_0_15_pct: 10.6,
@@ -16448,6 +16839,7 @@ const WARD_STATS = {
     },
     "CAIRNCASTLE": {
       population: 3237,
+      population_2011: 3362,
       male: 1585,
       female: 1649,
       age_0_15_pct: 13.7,
@@ -16490,6 +16882,7 @@ const WARD_STATS = {
     },
     "CARNLOUGH and GLENARM": {
       population: 3137,
+      population_2011: null,
       male: 1564,
       female: 1573,
       age_0_15_pct: 16.6,
@@ -16532,6 +16925,7 @@ const WARD_STATS = {
     },
     "CASTLE": {
       population: 3913,
+      population_2011: 4016,
       male: 1884,
       female: 2028,
       age_0_15_pct: 13.8,
@@ -16574,6 +16968,7 @@ const WARD_STATS = {
     },
     "CASTLE DEMESNE": {
       population: 4446,
+      population_2011: 3281,
       male: 2297,
       female: 2149,
       age_0_15_pct: 18.2,
@@ -16616,6 +17011,7 @@ const WARD_STATS = {
     },
     "CRAIGYHILL": {
       population: 3920,
+      population_2011: 3951,
       male: 1850,
       female: 2071,
       age_0_15_pct: 19.9,
@@ -16658,6 +17054,7 @@ const WARD_STATS = {
     },
     "CULLYBACKEY": {
       population: 2869,
+      population_2011: 2827,
       male: 1393,
       female: 1475,
       age_0_15_pct: 15.5,
@@ -16700,6 +17097,7 @@ const WARD_STATS = {
     },
     "CURRAN and INVER": {
       population: 3384,
+      population_2011: null,
       male: 1722,
       female: 1662,
       age_0_15_pct: 12.4,
@@ -16742,6 +17140,7 @@ const WARD_STATS = {
     },
     "FAIR GREEN": {
       population: 4262,
+      population_2011: 3903,
       male: 2092,
       female: 2170,
       age_0_15_pct: 21.7,
@@ -16784,6 +17183,7 @@ const WARD_STATS = {
     },
     "GALGORM": {
       population: 3254,
+      population_2011: 3164,
       male: 1554,
       female: 1701,
       age_0_15_pct: 16.7,
@@ -16826,6 +17226,7 @@ const WARD_STATS = {
     },
     "GARDENMORE": {
       population: 3290,
+      population_2011: 3424,
       male: 1604,
       female: 1686,
       age_0_15_pct: 14.6,
@@ -16868,6 +17269,7 @@ const WARD_STATS = {
     },
     "GLENRAVEL": {
       population: 3595,
+      population_2011: 3394,
       male: 1814,
       female: 1781,
       age_0_15_pct: 21.8,
@@ -16910,6 +17312,7 @@ const WARD_STATS = {
     },
     "GLENWHIRRY": {
       population: 3160,
+      population_2011: 3047,
       male: 1617,
       female: 1541,
       age_0_15_pct: 17.4,
@@ -16952,6 +17355,7 @@ const WARD_STATS = {
     },
     "GORTALEE": {
       population: 3693,
+      population_2011: 3328,
       male: 1801,
       female: 1892,
       age_0_15_pct: 19.4,
@@ -16994,6 +17398,7 @@ const WARD_STATS = {
     },
     "GRANGE": {
       population: 3720,
+      population_2011: 3461,
       male: 1860,
       female: 1860,
       age_0_15_pct: 22.0,
@@ -17036,6 +17441,7 @@ const WARD_STATS = {
     },
     "GREENISLAND": {
       population: 3446,
+      population_2011: 3118,
       male: 1693,
       female: 1753,
       age_0_15_pct: 15.9,
@@ -17078,6 +17484,7 @@ const WARD_STATS = {
     },
     "ISLANDMAGEE": {
       population: 3048,
+      population_2011: 3167,
       male: 1514,
       female: 1534,
       age_0_15_pct: 15.0,
@@ -17120,6 +17527,7 @@ const WARD_STATS = {
     },
     "KELLS": {
       population: 3453,
+      population_2011: 3355,
       male: 1730,
       female: 1723,
       age_0_15_pct: 18.6,
@@ -17162,6 +17570,7 @@ const WARD_STATS = {
     },
     "KILROOT": {
       population: 4254,
+      population_2011: 4168,
       male: 2107,
       female: 2147,
       age_0_15_pct: 19.1,
@@ -17204,6 +17613,7 @@ const WARD_STATS = {
     },
     "KILWAUGHTER": {
       population: 4791,
+      population_2011: 4065,
       male: 2381,
       female: 2411,
       age_0_15_pct: 20.1,
@@ -17246,6 +17656,7 @@ const WARD_STATS = {
     },
     "KIRKINRIOLA": {
       population: 3228,
+      population_2011: 3024,
       male: 1653,
       female: 1575,
       age_0_15_pct: 18.6,
@@ -17288,6 +17699,7 @@ const WARD_STATS = {
     },
     "LOVE LANE": {
       population: 3033,
+      population_2011: 3241,
       male: 1445,
       female: 1588,
       age_0_15_pct: 13.5,
@@ -17330,6 +17742,7 @@ const WARD_STATS = {
     },
     "MAINE": {
       population: 3044,
+      population_2011: 2983,
       male: 1518,
       female: 1526,
       age_0_15_pct: 19.0,
@@ -17372,6 +17785,7 @@ const WARD_STATS = {
     },
     "PARK": {
       population: 2921,
+      population_2011: 3037,
       male: 1360,
       female: 1561,
       age_0_15_pct: 14.9,
@@ -17414,6 +17828,7 @@ const WARD_STATS = {
     },
     "PORTGLENONE": {
       population: 3351,
+      population_2011: 3133,
       male: 1666,
       female: 1686,
       age_0_15_pct: 20.1,
@@ -17456,6 +17871,7 @@ const WARD_STATS = {
     },
     "SLEMISH": {
       population: 3207,
+      population_2011: 2980,
       male: 1612,
       female: 1596,
       age_0_15_pct: 18.7,
@@ -17498,6 +17914,7 @@ const WARD_STATS = {
     },
     "SUNNYLANDS": {
       population: 4097,
+      population_2011: 4187,
       male: 1946,
       female: 2151,
       age_0_15_pct: 21.9,
@@ -17540,6 +17957,7 @@ const WARD_STATS = {
     },
     "THE MAIDENS": {
       population: 3438,
+      population_2011: 3640,
       male: 1662,
       female: 1776,
       age_0_15_pct: 16.2,
@@ -17582,6 +18000,7 @@ const WARD_STATS = {
     },
     "VICTORIA": {
       population: 4394,
+      population_2011: 3814,
       male: 2103,
       female: 2293,
       age_0_15_pct: 18.6,
@@ -17624,6 +18043,7 @@ const WARD_STATS = {
     },
     "WHITEHEAD SOUTH": {
       population: 3345,
+      population_2011: 3599,
       male: 1609,
       female: 1736,
       age_0_15_pct: 14.5,
@@ -17666,6 +18086,7 @@ const WARD_STATS = {
     },
     "WOODBURN": {
       population: 3428,
+      population_2011: 3603,
       male: 1718,
       female: 1710,
       age_0_15_pct: 14.6,
@@ -17710,6 +18131,7 @@ const WARD_STATS = {
   "Newry, Mourne and Down": {
     "ABBEY": {
       population: 4082,
+      population_2011: 4091,
       male: 2018,
       female: 2064,
       age_0_15_pct: 17.6,
@@ -17752,6 +18174,7 @@ const WARD_STATS = {
     },
     "ANNALONG": {
       population: 4347,
+      population_2011: 4018,
       male: 2217,
       female: 2130,
       age_0_15_pct: 20.5,
@@ -17794,6 +18217,7 @@ const WARD_STATS = {
     },
     "BALLYBOT": {
       population: 5351,
+      population_2011: 5064,
       male: 2625,
       female: 2726,
       age_0_15_pct: 20.0,
@@ -17836,6 +18260,7 @@ const WARD_STATS = {
     },
     "BALLYDUGAN": {
       population: 3771,
+      population_2011: 4148,
       male: 1910,
       female: 1861,
       age_0_15_pct: 20.5,
@@ -17878,6 +18303,7 @@ const WARD_STATS = {
     },
     "BALLYNAHINCH": {
       population: 4681,
+      population_2011: 4278,
       male: 2276,
       female: 2405,
       age_0_15_pct: 19.0,
@@ -17920,6 +18346,7 @@ const WARD_STATS = {
     },
     "BALLYWARD": {
       population: 4499,
+      population_2011: 4093,
       male: 2308,
       female: 2190,
       age_0_15_pct: 20.7,
@@ -17962,6 +18389,7 @@ const WARD_STATS = {
     },
     "BESSBROOK": {
       population: 5535,
+      population_2011: 4582,
       male: 2743,
       female: 2792,
       age_0_15_pct: 23.2,
@@ -18004,6 +18432,7 @@ const WARD_STATS = {
     },
     "BINNIAN": {
       population: 4303,
+      population_2011: 4017,
       male: 2202,
       female: 2104,
       age_0_15_pct: 21.0,
@@ -18046,6 +18475,7 @@ const WARD_STATS = {
     },
     "BURREN": {
       population: 4317,
+      population_2011: 3989,
       male: 2147,
       female: 2170,
       age_0_15_pct: 21.8,
@@ -18088,6 +18518,7 @@ const WARD_STATS = {
     },
     "CAMLOUGH": {
       population: 4147,
+      population_2011: 3836,
       male: 2032,
       female: 2115,
       age_0_15_pct: 23.3,
@@ -18130,6 +18561,7 @@ const WARD_STATS = {
     },
     "CASTLEWELLAN": {
       population: 4479,
+      population_2011: 4318,
       male: 2202,
       female: 2274,
       age_0_15_pct: 22.5,
@@ -18172,6 +18604,7 @@ const WARD_STATS = {
     },
     "CATHEDRAL": {
       population: 4217,
+      population_2011: 4007,
       male: 2076,
       female: 2141,
       age_0_15_pct: 22.2,
@@ -18214,6 +18647,7 @@ const WARD_STATS = {
     },
     "CROSSGAR and KILLYLEAGH": {
       population: 4404,
+      population_2011: null,
       male: 2134,
       female: 2270,
       age_0_15_pct: 18.6,
@@ -18256,6 +18690,7 @@ const WARD_STATS = {
     },
     "CROSSMAGLEN": {
       population: 3973,
+      population_2011: 3520,
       male: 1965,
       female: 2008,
       age_0_15_pct: 24.2,
@@ -18298,6 +18733,7 @@ const WARD_STATS = {
     },
     "DAMOLLY": {
       population: 4389,
+      population_2011: 4411,
       male: 2136,
       female: 2253,
       age_0_15_pct: 20.2,
@@ -18340,6 +18776,7 @@ const WARD_STATS = {
     },
     "DERRYBOY": {
       population: 4045,
+      population_2011: 4010,
       male: 1995,
       female: 2050,
       age_0_15_pct: 18.1,
@@ -18382,6 +18819,7 @@ const WARD_STATS = {
     },
     "DERRYLECKAGH": {
       population: 4906,
+      population_2011: 4378,
       male: 2433,
       female: 2473,
       age_0_15_pct: 23.9,
@@ -18424,6 +18862,7 @@ const WARD_STATS = {
     },
     "DONARD": {
       population: 3757,
+      population_2011: 3873,
       male: 1781,
       female: 1976,
       age_0_15_pct: 15.8,
@@ -18466,6 +18905,7 @@ const WARD_STATS = {
     },
     "DRUMALANE": {
       population: 5018,
+      population_2011: 4747,
       male: 2499,
       female: 2519,
       age_0_15_pct: 20.7,
@@ -18508,6 +18948,7 @@ const WARD_STATS = {
     },
     "DRUMANESS": {
       population: 4142,
+      population_2011: 3969,
       male: 2035,
       female: 2107,
       age_0_15_pct: 20.7,
@@ -18550,6 +18991,7 @@ const WARD_STATS = {
     },
     "DUNDRUM": {
       population: 4501,
+      population_2011: 4239,
       male: 2223,
       female: 2277,
       age_0_15_pct: 20.3,
@@ -18592,6 +19034,7 @@ const WARD_STATS = {
     },
     "FATHOM": {
       population: 4444,
+      population_2011: 3887,
       male: 2242,
       female: 2202,
       age_0_15_pct: 21.3,
@@ -18634,6 +19077,7 @@ const WARD_STATS = {
     },
     "FORKHILL": {
       population: 4174,
+      population_2011: 3844,
       male: 2088,
       female: 2086,
       age_0_15_pct: 22.8,
@@ -18676,6 +19120,7 @@ const WARD_STATS = {
     },
     "HILLTOWN": {
       population: 5134,
+      population_2011: 4754,
       male: 2579,
       female: 2555,
       age_0_15_pct: 23.1,
@@ -18718,6 +19163,7 @@ const WARD_STATS = {
     },
     "KILKEEL": {
       population: 3931,
+      population_2011: 3838,
       male: 1874,
       female: 2058,
       age_0_15_pct: 20.9,
@@ -18760,6 +19206,7 @@ const WARD_STATS = {
     },
     "KILMORE": {
       population: 3974,
+      population_2011: 3896,
       male: 1947,
       female: 2028,
       age_0_15_pct: 15.8,
@@ -18802,6 +19249,7 @@ const WARD_STATS = {
     },
     "KNOCKNASHINNA": {
       population: 4679,
+      population_2011: 4568,
       male: 2216,
       female: 2464,
       age_0_15_pct: 20.5,
@@ -18844,6 +19292,7 @@ const WARD_STATS = {
     },
     "LECALE": {
       population: 4387,
+      population_2011: 4241,
       male: 2106,
       female: 2281,
       age_0_15_pct: 20.1,
@@ -18886,6 +19335,7 @@ const WARD_STATS = {
     },
     "LISNACREE": {
       population: 4731,
+      population_2011: 4619,
       male: 2400,
       female: 2331,
       age_0_15_pct: 21.4,
@@ -18928,6 +19378,7 @@ const WARD_STATS = {
     },
     "MAYOBRIDGE": {
       population: 5314,
+      population_2011: 4837,
       male: 2700,
       female: 2614,
       age_0_15_pct: 23.9,
@@ -18970,6 +19421,7 @@ const WARD_STATS = {
     },
     "MULLAGHBANE": {
       population: 4441,
+      population_2011: 3954,
       male: 2201,
       female: 2238,
       age_0_15_pct: 24.1,
@@ -19012,6 +19464,7 @@ const WARD_STATS = {
     },
     "MURLOUGH": {
       population: 4837,
+      population_2011: 4076,
       male: 2298,
       female: 2540,
       age_0_15_pct: 19.9,
@@ -19054,6 +19507,7 @@ const WARD_STATS = {
     },
     "NEWTOWNHAMILTON": {
       population: 4417,
+      population_2011: 3837,
       male: 2205,
       female: 2212,
       age_0_15_pct: 25.6,
@@ -19096,6 +19550,7 @@ const WARD_STATS = {
     },
     "QUOILE": {
       population: 4172,
+      population_2011: 3778,
       male: 2044,
       female: 2128,
       age_0_15_pct: 18.7,
@@ -19138,6 +19593,7 @@ const WARD_STATS = {
     },
     "ROSTREVOR": {
       population: 4343,
+      population_2011: 4426,
       male: 2120,
       female: 2223,
       age_0_15_pct: 17.2,
@@ -19180,6 +19636,7 @@ const WARD_STATS = {
     },
     "SAINTFIELD": {
       population: 4118,
+      population_2011: 3934,
       male: 1990,
       female: 2128,
       age_0_15_pct: 17.9,
@@ -19222,6 +19679,7 @@ const WARD_STATS = {
     },
     "ST. PATRICK'S": {
       population: 4664,
+      population_2011: 4828,
       male: 2293,
       female: 2371,
       age_0_15_pct: 19.3,
@@ -19264,6 +19722,7 @@ const WARD_STATS = {
     },
     "STRANGFORD": {
       population: 4460,
+      population_2011: 3887,
       male: 2312,
       female: 2148,
       age_0_15_pct: 19.9,
@@ -19306,6 +19765,7 @@ const WARD_STATS = {
     },
     "TOLLYMORE": {
       population: 4303,
+      population_2011: 3948,
       male: 2168,
       female: 2135,
       age_0_15_pct: 22.8,
@@ -19348,6 +19808,7 @@ const WARD_STATS = {
     },
     "WARRENPOINT": {
       population: 4614,
+      population_2011: 4772,
       male: 2263,
       female: 2351,
       age_0_15_pct: 16.8,
@@ -19390,6 +19851,7 @@ const WARD_STATS = {
     },
     "WHITECROSS": {
       population: 4065,
+      population_2011: 4015,
       male: 2053,
       female: 2012,
       age_0_15_pct: 22.0,

@@ -93,7 +93,7 @@ function WardDemographics({ ward }: { ward: Ward }) {
         const pctChange = ((ward.population - ward.population_2011) / ward.population_2011) * 100;
         const changeColor = pctChange >= 0 ? "#27ae60" : "#c0392b";
         return (
-          <SectionWrapper title="Population Change 2011 → 2021">
+          <SectionWrapper title="Population Change 2011 → 2021" source="Census 2011 / 2021">
             <div className="stat-cards">
               <StatCard value={fmt(ward.population_2011)} label="2011" />
               <StatCard value={fmt(ward.population)} label="2021" />

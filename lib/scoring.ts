@@ -3,12 +3,13 @@ import type { Ward } from "./types";
 const TOTAL_WARDS = 462;
 
 export const WEIGHTS = {
-  deprivation: 0.25,
-  health: 0.20,
-  education: 0.15,
-  crime: 0.15,
-  living_env: 0.15,
-  access: 0.10,
+  deprivation: 0.20,
+  income: 0.15,
+  health: 0.18,
+  education: 0.13,
+  crime: 0.13,
+  living_env: 0.12,
+  access: 0.09,
 } as const;
 
 function rankToScore(rank: number): number {
@@ -33,6 +34,14 @@ export function getDomainScores(ward: Ward): DomainScore[] {
       weight: WEIGHTS.deprivation,
       rank: ward.deprivation_rank,
       score: Math.round(rankToScore(ward.deprivation_rank)),
+    },
+    {
+      key: "income",
+      label: "Income",
+      description: "Income deprivation rate",
+      weight: WEIGHTS.income,
+      rank: ward.income_rank,
+      score: Math.round(rankToScore(ward.income_rank)),
     },
     {
       key: "health",
