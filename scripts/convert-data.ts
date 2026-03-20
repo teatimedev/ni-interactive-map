@@ -186,11 +186,9 @@ for (const [lgdName, wards] of Object.entries(WARD_STATS)) {
   };
 
   const fileName = `${lgdSlug}.json`;
-  fs.writeFileSync(
-    path.join(WARDS_DIR, fileName),
-    JSON.stringify(output, null, 2),
-    "utf8"
-  );
+  const jsonContent = JSON.stringify(output, null, 2);
+  fs.writeFileSync(path.join(WARDS_DIR, fileName), jsonContent, "utf8");
+  fs.writeFileSync(path.join(PUBLIC_WARDS_DIR, fileName), jsonContent, "utf8");
 
   totalWards += wardArray.length;
   filesWritten++;
