@@ -166,7 +166,7 @@ export default function Search() {
   return (
     <div
       ref={containerRef}
-      style={{ position: "fixed", top: 68, left: 16, zIndex: 1000 }}
+      className="search-container"
     >
       <div style={{ position: "relative" }}>
         <svg

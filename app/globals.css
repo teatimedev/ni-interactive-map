@@ -444,6 +444,12 @@ body {
 }
 
 /* ===== SEARCH ===== */
+.search-container {
+  position: fixed;
+  top: 68px;
+  left: 16px;
+  z-index: 1000;
+}
 .search-dropdown {
   animation: fadeIn 0.15s ease-out;
 }
@@ -896,6 +902,15 @@ input:focus-visible,
   .capsule-colour select {
     flex: 1;
     max-width: none;
+  }
+  /* Push search below stacked nav on mobile */
+  .search-container {
+    top: 180px;
+    left: 8px;
+    right: 8px;
+  }
+  .search-container input {
+    width: 100%;
   }
 }
 
