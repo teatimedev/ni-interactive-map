@@ -25,7 +25,9 @@ export default function Search() {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
   const [open, setOpen] = useState(false);
+  const [expanded, setExpanded] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const runSearch = useCallback(
@@ -84,7 +86,14 @@ export default function Search() {
       setOpen(false);
       setQuery("");
       setResults([]);
+      setExpanded(false);
     }
+  }
+
+  function handleSearchIconClick() {
+    setExpanded(true);
+    // Focus input on next tick after it becomes visible
+    setTimeout(() => inputRef.current?.focus(), 0);
   }
 
   function handleSelectDistrict(slug: string) {
@@ -114,6 +123,7 @@ export default function Search() {
         !containerRef.current.contains(e.target as Node)
       ) {
         setOpen(false);
+        setExpanded(false);
       }
     }
     document.addEventListener("mousedown", handleClickOutside);
@@ -132,11 +142,24 @@ export default function Search() {
       ref={containerRef}
       className="fixed top-4 left-[120px] z-[1000]"
     >
-      <div className="relative">
+      {/* Mobile: collapsed icon-only button when not expanded */}
+      {!expanded && (
+        <button
+          aria-label="Open search"
+          onClick={handleSearchIconClick}
+          className="sm:hidden flex items-center justify-center w-[44px] h-[44px] bg-[#2a2a2a] text-[#ccc] border border-[#444] rounded-md shadow-md hover:bg-[#3a3a3a]"
+        >
+          🔍
+        </button>
+      )}
+
+      {/* Full input — always visible on sm+, conditionally on mobile */}
+      <div className={`relative ${expanded ? "block" : "hidden sm:block"}`}>
         <span className="absolute left-2.5 top-1/2 -translate-y-1/2 text-[#666] pointer-events-none text-xs">
           🔍
         </span>
         <input
+          ref={inputRef}
           type="text"
           role="combobox"
           aria-label="Search districts and wards"
@@ -146,7 +169,7 @@ export default function Search() {
           onChange={handleChange}
           onKeyDown={handleKeyDown}
           placeholder="Search districts and wards..."
-          className="bg-[#2a2a2a] text-[#ccc] border border-[#444] rounded-md pl-7 pr-3 py-2 text-xs w-[200px] outline-none focus:border-[#666] transition-colors"
+          className="bg-[#2a2a2a] text-[#ccc] border border-[#444] rounded-md pl-7 pr-3 py-2 text-xs w-[200px] outline-none focus:border-[#666] transition-colors min-h-[44px]"
         />
       </div>
 

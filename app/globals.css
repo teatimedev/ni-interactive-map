@@ -63,3 +63,34 @@ body {
 .map-tooltip::before {
   display: none !important;
 }
+
+/* Accessibility: focus indicators */
+button:focus-visible,
+select:focus-visible,
+input:focus-visible,
+[role="tab"]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Screen-reader only utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Responsive: minimum font sizes on small screens */
+@media (max-width: 640px) {
+  .stat-section,
+  .tab-content,
+  .tab-btn {
+    font-size: max(14px, inherit);
+  }
+}

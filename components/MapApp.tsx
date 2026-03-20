@@ -14,6 +14,7 @@ import CrimeTab from "@/components/StatsPanel/CrimeTab";
 import EducationTab from "@/components/StatsPanel/EducationTab";
 import TransportTab from "@/components/StatsPanel/TransportTab";
 import { ComparisonContent } from "@/components/ComparePanel";
+import { LoadingSkeleton } from "@/components/ui/LoadingSkeleton";
 
 const ComparePanel = dynamic(() => import("@/components/ComparePanel"), { ssr: false });
 
@@ -44,6 +45,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     selectedDistrict,
     selectedWard,
     wardCache,
+    isLoadingWards,
     selectDistrict,
     selectWard,
     setView,
@@ -53,6 +55,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
 
   const [panelOpen, setPanelOpen] = useState(false);
   const [initialised, setInitialised] = useState(false);
+  const [wardLoadFailed, setWardLoadFailed] = useState(false);
 
   // Initialise from route props on first mount
   useEffect(() => {
@@ -65,7 +68,9 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     async function init() {
       selectDistrict(initialDistrict!);
       setView("district-detail");
-      await loadWardData(initialDistrict!);
+      setWardLoadFailed(false);
+      const result = await loadWardData(initialDistrict!);
+      if (!result) setWardLoadFailed(true);
 
       if (initialWard) {
         selectWard(initialWard);
@@ -88,7 +93,9 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     async function reinit() {
       selectDistrict(initialDistrict!);
       setView("district-detail");
-      await loadWardData(initialDistrict!);
+      setWardLoadFailed(false);
+      const result = await loadWardData(initialDistrict!);
+      if (!result) setWardLoadFailed(true);
 
       if (initialWard) {
         selectWard(initialWard);
@@ -129,6 +136,13 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     setPanelOpen(false);
   }
 
+  async function handleRetry() {
+    if (!selectedDistrict) return;
+    setWardLoadFailed(false);
+    const result = await loadWardData(selectedDistrict);
+    if (!result) setWardLoadFailed(true);
+  }
+
   // Look up district data from slug
   const districtData = selectedDistrict
     ? (districts.find((d) => d.slug === selectedDistrict) ?? null)
@@ -150,8 +164,41 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
       ? (districts.find((d) => d.slug === comparison.selections[1]) ?? null)
       : null;
 
+  // Loading skeleton tab (shown while wards are fetching)
+  const loadingTab = [
+    {
+      id: "loading",
+      label: "Loading…",
+      content: <LoadingSkeleton />,
+    },
+  ];
+
+  // Error tab (shown when ward fetch failed)
+  const errorTab = [
+    {
+      id: "error",
+      label: "Error",
+      content: (
+        <div className="px-5 py-8 text-center">
+          <div className="text-[#888] text-sm mb-3">Couldn&apos;t load ward data.</div>
+          <button
+            onClick={handleRetry}
+            className="px-3 py-1.5 bg-[#2a2a2a] text-[#ccc] border border-[#444] rounded text-xs hover:bg-[#3a3a3a] min-h-[44px]"
+          >
+            Tap to retry
+          </button>
+        </div>
+      ),
+    },
+  ];
+
   // Build tabs depending on whether a ward is selected
   const tabs = (() => {
+    // Show loading skeleton while ward data is being fetched
+    if (isLoadingWards && panelOpen) return loadingTab;
+    // Show error state if the ward fetch failed
+    if (wardLoadFailed && panelOpen) return errorTab;
+
     // Comparison takes priority when two districts are selected
     if (compDistrict1 && compDistrict2) {
       return [
@@ -267,8 +314,8 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
         <MapController />
       </MapContainer>
 
-      {/* Title overlay — top-right */}
-      <div className="fixed top-4 right-4 z-[1000] bg-[rgba(26,26,26,0.85)] border border-[#333] rounded-lg px-4 py-3 backdrop-blur-sm">
+      {/* Title overlay — top-right on desktop, bottom-centre on mobile */}
+      <div className="fixed top-4 right-4 z-[1000] bg-[rgba(26,26,26,0.85)] border border-[#333] rounded-lg px-4 py-3 backdrop-blur-sm max-sm:top-auto max-sm:bottom-4 max-sm:right-4 max-sm:left-4 max-sm:text-center">
         <h1 className="text-base font-semibold text-[#e0e0e0] tracking-wide">
           The Big Dirty NI Map
         </h1>
@@ -277,7 +324,9 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
 
       {/* Compare button — top-left */}
       <button
-        className={`fixed top-4 left-4 z-[1000] border rounded-md px-3.5 py-2 text-xs cursor-pointer shadow-md transition-all ${
+        aria-label="Toggle comparison mode"
+        aria-pressed={comparison.isComparing}
+        className={`fixed top-4 left-4 z-[1000] border rounded-md px-3.5 py-2 text-xs cursor-pointer shadow-md transition-all min-h-[44px] min-w-[44px] ${
           comparison.isComparing
             ? "bg-[#1a5276] border-[#2980b9] text-[#7fb3d3]"
             : "bg-[#2a2a2a] text-[#ccc] border-[#444] hover:bg-[#3a3a3a] hover:text-white hover:border-[#666]"
@@ -290,12 +339,19 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
       {/* Back button — top-left, offset — only shown when not on districts view */}
       {currentView !== "districts" && (
         <button
-          className="fixed top-4 left-[60px] z-[1000] bg-[#2a2a2a] text-[#ccc] border border-[#444] rounded-md px-4 py-2 text-sm cursor-pointer shadow-md hover:bg-[#3a3a3a] hover:text-white hover:border-[#666] transition-all flex items-center gap-1.5"
+          aria-label="Return to all districts"
+          className="fixed top-4 left-[60px] z-[1000] bg-[#2a2a2a] text-[#ccc] border border-[#444] rounded-md px-4 py-2 text-sm cursor-pointer shadow-md hover:bg-[#3a3a3a] hover:text-white hover:border-[#666] transition-all flex items-center gap-1.5 min-h-[44px]"
           onClick={handleBack}
         >
           ← All Districts
         </button>
       )}
+
+      {/* Accessible live region for screen readers */}
+      <div aria-live="polite" className="sr-only">
+        {selectedDistrict ? `Selected: ${districtData?.name ?? selectedDistrict}` : ""}
+        {selectedWard ? `, ${wardData?.name ?? selectedWard}` : ""}
+      </div>
 
       {/* Search bar — top-left after compare and back buttons */}
       <Search />
