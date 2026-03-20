@@ -111,12 +111,18 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [initialDistrict, initialWard]);
 
-  // Open panel when a district is selected
+  // Open panel when a district or ward is selected
   useEffect(() => {
     if (selectedDistrict !== null) {
       setPanelOpen(true);
     }
   }, [selectedDistrict]);
+
+  useEffect(() => {
+    if (selectedWard !== null) {
+      setPanelOpen(true);
+    }
+  }, [selectedWard]);
 
   // Open comparison panel when two districts are selected
   useEffect(() => {

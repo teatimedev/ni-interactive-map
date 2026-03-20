@@ -12,14 +12,21 @@ export default function ChoroplethControls() {
   }
 
   return (
-    <div className="fixed top-20 right-4 z-[1000] bg-[rgba(26,26,26,0.92)] border border-[#333] rounded-lg px-3.5 py-2.5 backdrop-blur-sm max-sm:top-auto max-sm:bottom-20 max-sm:right-2 max-sm:left-2">
-      <label className="text-[11px] text-[#888] uppercase tracking-wider block mb-1.5">
+    <div style={{
+      position: "fixed", top: 80, right: 16, zIndex: 1000,
+      background: "rgba(26,26,26,0.92)", border: "1px solid #333", borderRadius: 8,
+      padding: "10px 14px", backdropFilter: "blur(8px)",
+    }}>
+      <label style={{ fontSize: 11, color: "#888", textTransform: "uppercase", letterSpacing: 0.8, display: "block", marginBottom: 6 }}>
         Colour by
       </label>
       <select
         value={metric ?? ""}
         onChange={handleChange}
-        className="bg-[#2a2a2a] text-[#ccc] border border-[#444] rounded px-2 py-1.5 text-xs w-[180px] cursor-pointer min-h-[44px] max-sm:w-full"
+        style={{
+          background: "#2a2a2a", color: "#ccc", border: "1px solid #444", borderRadius: 4,
+          padding: "5px 8px", fontSize: 12, fontFamily: "inherit", width: 180, cursor: "pointer",
+        }}
       >
         <option value="">Default</option>
         <option value="population_density">Population Density</option>

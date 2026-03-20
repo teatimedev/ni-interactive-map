@@ -21,34 +21,28 @@ export default function Legend() {
   const config = CHOROPLETH_CONFIGS[metric];
 
   const isWardView = currentView !== "districts";
-  const min =
-    isWardView && config.wardMin !== undefined ? config.wardMin : config.min;
-  const max =
-    isWardView && config.wardMax !== undefined ? config.wardMax : config.max;
+  const min = isWardView && config.wardMin !== undefined ? config.wardMin : config.min;
+  const max = isWardView && config.wardMax !== undefined ? config.wardMax : config.max;
 
   const [r, g, b] = config.color;
   const base = 0.15;
-
   const colorLow = `rgb(${Math.round(r * base)}, ${Math.round(g * base)}, ${Math.round(b * base)})`;
-  const colorHigh = `rgb(${Math.round(r)}, ${Math.round(g)}, ${Math.round(b)})`;
-
+  const colorHigh = `rgb(${r}, ${g}, ${b})`;
   const gradient = `linear-gradient(to right, ${colorLow}, ${colorHigh})`;
 
-  const minLabel = formatLabel(min, metric);
-  const maxLabel = formatLabel(max, metric);
-
   return (
-    <div className="fixed bottom-8 right-4 z-[1000] bg-[rgba(26,26,26,0.92)] border border-[#333] rounded-lg px-3.5 py-2.5 backdrop-blur-sm min-w-[160px]">
-      <div className="text-[11px] text-[#888] uppercase tracking-wider mb-2">
+    <div style={{
+      position: "fixed", bottom: 30, right: 16, zIndex: 1000,
+      background: "rgba(26,26,26,0.92)", border: "1px solid #333", borderRadius: 8,
+      padding: "10px 14px", backdropFilter: "blur(8px)", minWidth: 160,
+    }}>
+      <div style={{ fontSize: 11, color: "#888", textTransform: "uppercase", letterSpacing: 0.8, marginBottom: 8 }}>
         {config.label}
       </div>
-      <div
-        className="w-full h-3 rounded-sm mb-1"
-        style={{ background: gradient }}
-      ></div>
-      <div className="flex justify-between text-[10px] text-[#777]">
-        <span>{minLabel}</span>
-        <span>{maxLabel}</span>
+      <div style={{ width: "100%", height: 12, borderRadius: 3, marginBottom: 4, background: gradient }} />
+      <div style={{ display: "flex", justifyContent: "space-between", fontSize: 10, color: "#777" }}>
+        <span>{formatLabel(min, metric)}</span>
+        <span>{formatLabel(max, metric)}</span>
       </div>
     </div>
   );
