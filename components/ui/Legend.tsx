@@ -25,8 +25,9 @@ export default function Legend() {
   const max = isWardView && config.wardMax !== undefined ? config.wardMax : config.max;
 
   const [r, g, b] = config.color;
-  const base = 0.15;
-  const colorLow = `rgb(${Math.round(r * base)}, ${Math.round(g * base)}, ${Math.round(b * base)})`;
+  // Match the getChoroplethColor function's low-end calculation
+  const baseBg = 30;
+  const colorLow = `rgb(${Math.round(baseBg + r * 0.15)}, ${Math.round(baseBg + g * 0.15)}, ${Math.round(baseBg + b * 0.15)})`;
   const colorHigh = `rgb(${r}, ${g}, ${b})`;
   const gradient = `linear-gradient(to right, ${colorLow}, ${colorHigh})`;
 

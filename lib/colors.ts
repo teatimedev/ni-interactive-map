@@ -125,10 +125,22 @@ export function getChoroplethColor(
   min: number,
   max: number
 ): string {
-  if (val == null) return "#333";
+  if (val == null) return "#2a2a2a";
   const t = Math.max(0, Math.min(1, (val - min) / (max - min)));
   const [r, g, b] = color;
-  const base = 0.15;
-  const intensity = base + t * (1 - base);
-  return `rgb(${Math.round(r * intensity)}, ${Math.round(g * intensity)}, ${Math.round(b * intensity)})`;
+
+  // Low end: a visible muted tint (blended with dark grey base)
+  // High end: full saturated color
+  // This ensures low values are clearly distinguishable from the black map background
+  const baseBg = 30; // dark grey floor — brighter than map bg (#1a1a1a = 26)
+  const lowR = baseBg + r * 0.15;
+  const lowG = baseBg + g * 0.15;
+  const lowB = baseBg + b * 0.15;
+
+  // Lerp from muted tint to full color
+  const outR = Math.round(lowR + (r - lowR) * t);
+  const outG = Math.round(lowG + (g - lowG) * t);
+  const outB = Math.round(lowB + (b - lowB) * t);
+
+  return `rgb(${outR}, ${outG}, ${outB})`;
 }
