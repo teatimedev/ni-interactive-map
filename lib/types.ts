@@ -148,6 +148,15 @@ export interface Ward {
   public_transport_pct: number;
   walk_cycle_pct: number;
   urban_rural?: string;
+  // Census 2011 baselines (for trend comparison)
+  population_2011?: number;
+  no_qualifications_2011_pct?: number;
+  level_4_plus_2011_pct?: number;
+  bad_very_bad_health_2011_pct?: number;
+  owner_occupied_2011_pct?: number;
+  no_cars_2011_pct?: number;
+  // Benefits (DfC quarterly statistics)
+  benefits_claimant_pct?: number;
   deprivation_rank: number;
   income_rank: number;
   employment_rank: number;
@@ -189,7 +198,8 @@ export type ChoroplethMetric =
   | "degree_pct"
   | "no_car_pct"
   | "catholic_pct"
-  | "protestant_pct";
+  | "protestant_pct"
+  | "livability";
 
 export interface ChoroplethConfig {
   key: string;
