@@ -960,6 +960,11 @@ input:focus-visible,
   border-radius: 20px; padding: 4px 10px 4px 12px;
   font-size: 12px;
 }
+.user-pill-admin {
+  display: flex; align-items: center; color: #f59e0b;
+  text-decoration: none; padding: 2px;
+}
+.user-pill-admin:hover { color: #fbbf24; }
 .user-pill-name { color: var(--text-primary); font-weight: 500; }
 .user-pill-signout {
   background: none; border: none; color: var(--text-muted);
