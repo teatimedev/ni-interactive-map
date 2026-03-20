@@ -22,8 +22,8 @@ function SectionWrapper({
   children: React.ReactNode;
 }) {
   return (
-    <div className="px-5 py-3.5 border-b border-[#2a2a2a]">
-      <h3 className="text-xs text-[#888] uppercase tracking-wider mb-2.5 font-medium">
+    <div className="stat-section">
+      <h3 >
         {title}
       </h3>
       {children}
@@ -51,7 +51,7 @@ function DistrictOverview({ data }: { data: District }) {
   return (
     <>
       <SectionWrapper title="Population">
-        <div className="grid grid-cols-2 gap-2 mb-2">
+        <div className="stat-cards">
           <StatCard value={fmt(data.population)} label="People" />
           <StatCard
             value={fmt(data.population_density_per_sq_km)}
@@ -131,7 +131,7 @@ function WardOverview({ ward }: { ward: Ward }) {
   return (
     <>
       <SectionWrapper title="Population">
-        <div className="grid grid-cols-3 gap-2 mb-2">
+        <div className="stat-cards" style={{ gridTemplateColumns: "1fr 1fr 1fr" }}>
           <StatCard value={fmt(ward.population)} label="People" />
           <StatCard value={fmt(ward.male)} label="Male" />
           <StatCard value={fmt(ward.female)} label="Female" />

@@ -19,8 +19,8 @@ function SectionWrapper({
   children: React.ReactNode;
 }) {
   return (
-    <div className="px-5 py-3.5 border-b border-[#2a2a2a]">
-      <h3 className="text-xs text-[#888] uppercase tracking-wider mb-2.5 font-medium">
+    <div className="stat-section">
+      <h3 >
         {title}
       </h3>
       {children}
@@ -51,7 +51,7 @@ function DistrictDemographics({ data }: { data: District }) {
   return (
     <>
       <SectionWrapper title="Population Change 2011 \u2192 2021">
-        <div className="grid grid-cols-2 gap-2 mb-2">
+        <div className="stat-cards">
           <StatCard value={fmt(d.population_2011)} label="2011" />
           <StatCard value={fmt(data.population)} label="2021" />
         </div>

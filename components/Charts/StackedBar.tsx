@@ -13,30 +13,23 @@ interface StackedBarProps {
 }
 
 export default function StackedBar({ segments }: StackedBarProps) {
-  const ariaLabel = segments
-    .map((s) => `${s.label}: ${fmtPct(s.pct)}`)
-    .join(", ");
-
   return (
-    <div role="img" aria-label={ariaLabel}>
-      <div className="flex flex-row rounded overflow-hidden" style={{ height: 14 }}>
+    <div role="img" aria-label={segments.map((s) => `${s.label}: ${fmtPct(s.pct)}`).join(", ")}>
+      <div className="h-bar-container">
         {segments.map((seg, i) => (
           <div
             key={i}
-            style={{ width: `${seg.pct}%`, backgroundColor: seg.color }}
+            className="h-bar-segment"
+            style={{ width: `${seg.pct}%`, background: seg.color }}
+            title={`${seg.label}: ${seg.pct}%`}
           />
         ))}
       </div>
-      <div className="flex flex-wrap gap-x-3 gap-y-1 mt-1.5">
+      <div className="h-bar-legend">
         {segments.map((seg, i) => (
-          <div key={i} className="flex items-center gap-1">
-            <span
-              className="inline-block w-2 h-2 rounded-sm flex-shrink-0"
-              style={{ backgroundColor: seg.color }}
-            />
-            <span className="text-[11px]">
-              {seg.label}: {fmtPct(seg.pct)}
-            </span>
+          <div key={i} className="h-bar-legend-item">
+            <div className="h-bar-legend-dot" style={{ background: seg.color }} />
+            {seg.label}: {fmtPct(seg.pct)}
           </div>
         ))}
       </div>

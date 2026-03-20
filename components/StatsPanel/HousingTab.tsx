@@ -18,8 +18,8 @@ function SectionWrapper({
   children: React.ReactNode;
 }) {
   return (
-    <div className="px-5 py-3.5 border-b border-[#2a2a2a]">
-      <h3 className="text-xs text-[#888] uppercase tracking-wider mb-2.5 font-medium">
+    <div className="stat-section">
+      <h3 >
         {title}
       </h3>
       {children}
@@ -39,7 +39,7 @@ function DistrictHousing({ data }: { data: District }) {
   return (
     <>
       <SectionWrapper title="House Prices">
-        <div className="grid grid-cols-2 gap-2 mb-2">
+        <div className="stat-cards">
           <StatCard value={fmtMoney(h.median_house_price)} label="Median" />
           <StatCard value={fmtMoney(h.avg_house_price)} label="Average" />
         </div>
@@ -70,7 +70,7 @@ function WardHousing({ ward }: { ward: Ward }) {
         <StackedBar segments={tenureSegments} />
       </SectionWrapper>
 
-      <div className="px-5 py-3.5 border-b border-[#2a2a2a]">
+      <div className="stat-section">
         <p className="text-[11px] text-[#888] italic">
           House prices are not available at ward level.
         </p>

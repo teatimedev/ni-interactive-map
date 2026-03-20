@@ -18,8 +18,8 @@ function SectionWrapper({
   children: React.ReactNode;
 }) {
   return (
-    <div className="px-5 py-3.5 border-b border-[#2a2a2a]">
-      <h3 className="text-xs text-[#888] uppercase tracking-wider mb-2.5 font-medium">
+    <div className="stat-section">
+      <h3 >
         {title}
       </h3>
       {children}
@@ -52,7 +52,7 @@ export default function CrimeTab({ data }: CrimeTabProps) {
   return (
     <>
       <SectionWrapper title="Recorded Crime">
-        <div className="grid grid-cols-2 gap-2 mb-2">
+        <div className="stat-cards">
           <StatCard value={fmt(c.total_recorded)} label="Total Offences" />
           <StatCard
             value={c.rate_per_1000.toFixed(1)}

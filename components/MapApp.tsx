@@ -311,36 +311,45 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
       <MapContainer>
         <DistrictLayer />
         <WardLayer />
-        <MapController />
+        <MapController onMapClick={() => { if (panelOpen && !comparison.isComparing) setPanelOpen(false); }} />
       </MapContainer>
 
-      {/* Title overlay — top-right on desktop, bottom-centre on mobile */}
-      <div className="fixed top-4 right-4 z-[1000] bg-[rgba(26,26,26,0.85)] border border-[#333] rounded-lg px-4 py-3 backdrop-blur-sm max-sm:top-auto max-sm:bottom-4 max-sm:right-4 max-sm:left-4 max-sm:text-center">
-        <h1 className="text-base font-semibold text-[#e0e0e0] tracking-wide">
+      {/* Title overlay — top-right, matches original */}
+      <div style={{ position: "fixed", top: 16, right: 16, zIndex: 1000, background: "rgba(26,26,26,0.85)", border: "1px solid #333", borderRadius: 8, padding: "12px 18px", backdropFilter: "blur(8px)" }}>
+        <h1 style={{ fontSize: 16, fontWeight: 600, color: "#e0e0e0", letterSpacing: 0.5 }}>
           The Big Dirty NI Map
         </h1>
-        <div className="text-[11px] text-[#888] mt-0.5">Interactive Boundary Map</div>
+        <div style={{ fontSize: 11, color: "#888", marginTop: 2 }}>Interactive Boundary Map</div>
       </div>
 
       {/* Compare button — top-left */}
       <button
         aria-label="Toggle comparison mode"
         aria-pressed={comparison.isComparing}
-        className={`fixed top-4 left-4 z-[1000] border rounded-md px-3.5 py-2 text-xs cursor-pointer shadow-md transition-all min-h-[44px] min-w-[44px] ${
-          comparison.isComparing
-            ? "bg-[#1a5276] border-[#2980b9] text-[#7fb3d3]"
-            : "bg-[#2a2a2a] text-[#ccc] border-[#444] hover:bg-[#3a3a3a] hover:text-white hover:border-[#666]"
-        }`}
+        style={{
+          position: "fixed", top: 16, left: 16, zIndex: 1000,
+          background: comparison.isComparing ? "#1a5276" : "#2a2a2a",
+          color: comparison.isComparing ? "#7fb3d3" : "#ccc",
+          border: `1px solid ${comparison.isComparing ? "#2980b9" : "#444"}`,
+          borderRadius: 6, padding: "8px 14px", fontSize: 12, cursor: "pointer",
+          fontFamily: "inherit", boxShadow: "0 2px 8px rgba(0,0,0,0.3)", transition: "all 0.2s",
+        }}
         onClick={() => comparison.toggleCompareMode()}
       >
         Compare
       </button>
 
-      {/* Back button — top-left, offset — only shown when not on districts view */}
+      {/* Back button — top-left, offset */}
       {currentView !== "districts" && (
         <button
           aria-label="Return to all districts"
-          className="fixed top-4 left-[60px] z-[1000] bg-[#2a2a2a] text-[#ccc] border border-[#444] rounded-md px-4 py-2 text-sm cursor-pointer shadow-md hover:bg-[#3a3a3a] hover:text-white hover:border-[#666] transition-all flex items-center gap-1.5 min-h-[44px]"
+          style={{
+            position: "fixed", top: 16, left: 60, zIndex: 1000,
+            background: "#2a2a2a", color: "#ccc", border: "1px solid #444",
+            borderRadius: 6, padding: "8px 16px", fontSize: 14, cursor: "pointer",
+            fontFamily: "inherit", boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
+            transition: "all 0.2s", display: "flex", alignItems: "center", gap: 6,
+          }}
           onClick={handleBack}
         >
           ← All Districts

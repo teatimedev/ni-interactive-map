@@ -9,23 +9,29 @@ const NI_BOUNDS: L.LatLngBoundsExpression = [
   [55.31, -5.43],
 ];
 
-export default function MapController() {
+export default function MapController({ onMapClick }: { onMapClick?: () => void }) {
   const map = useMap();
   const { currentView } = useMapState();
   const prevView = useRef(currentView);
 
   useEffect(() => {
-    // Only fly back to NI bounds when transitioning TO districts view,
-    // not on initial mount (map already starts centered on NI)
     if (currentView === "districts" && prevView.current !== "districts") {
       try {
         map.flyToBounds(NI_BOUNDS, { duration: 0.8, padding: [20, 20] });
       } catch {
-        // Map not ready yet, ignore
+        // Map not ready yet
       }
     }
     prevView.current = currentView;
   }, [currentView, map]);
+
+  // Click on empty map area closes the panel
+  useEffect(() => {
+    if (!onMapClick) return;
+    const handler = () => onMapClick();
+    map.on("click", handler);
+    return () => { map.off("click", handler); };
+  }, [map, onMapClick]);
 
   return null;
 }

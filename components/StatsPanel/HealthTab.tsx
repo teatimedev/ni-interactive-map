@@ -19,8 +19,8 @@ function SectionWrapper({
   children: React.ReactNode;
 }) {
   return (
-    <div className="px-5 py-3.5 border-b border-[#2a2a2a]">
-      <h3 className="text-xs text-[#888] uppercase tracking-wider mb-2.5 font-medium">
+    <div className="stat-section">
+      <h3 >
         {title}
       </h3>
       {children}
@@ -90,7 +90,7 @@ function WardHealth({ ward }: { ward: Ward }) {
         <BarChart items={healthBars} />
       </SectionWrapper>
 
-      <div className="px-5 py-3.5 border-b border-[#2a2a2a]">
+      <div className="stat-section">
         <p className="text-[11px] text-[#888] italic">
           Life expectancy and disability data not available at ward level.
         </p>
