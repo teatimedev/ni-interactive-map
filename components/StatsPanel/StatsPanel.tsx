@@ -1,6 +1,7 @@
 "use client";
 
 import { ReactNode, useEffect, useState } from "react";
+import BottomSheet from "./BottomSheet";
 
 interface Tab {
   id: string;
@@ -14,6 +15,7 @@ interface StatsPanelProps {
   title: string;
   subtitle?: string;
   tabs: Tab[];
+  population?: string;
 }
 
 export default function StatsPanel({
@@ -22,7 +24,17 @@ export default function StatsPanel({
   title,
   subtitle,
   tabs,
+  population,
 }: StatsPanelProps) {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 640);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
+
   const [activeTab, setActiveTab] = useState<string>(tabs[0]?.id ?? "");
 
   // Reset to first tab when tabs change
@@ -44,6 +56,19 @@ export default function StatsPanel({
       return () => document.removeEventListener("keydown", handleKeyDown);
     }
   }, [isOpen, onClose]);
+
+  if (isMobile) {
+    return (
+      <BottomSheet
+        isOpen={isOpen}
+        onClose={onClose}
+        title={title}
+        subtitle={subtitle}
+        tabs={tabs}
+        population={population}
+      />
+    );
+  }
 
   return (
     <div
