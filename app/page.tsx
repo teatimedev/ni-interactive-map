@@ -14,6 +14,9 @@ import HealthTab from "@/components/StatsPanel/HealthTab";
 import CrimeTab from "@/components/StatsPanel/CrimeTab";
 import EducationTab from "@/components/StatsPanel/EducationTab";
 import TransportTab from "@/components/StatsPanel/TransportTab";
+import { ComparisonContent } from "@/components/ComparePanel";
+
+const ComparePanel = dynamic(() => import("@/components/ComparePanel"), { ssr: false });
 
 const MapContainer = dynamic(() => import("@/components/Map/MapContainer"), {
   ssr: false,
@@ -51,6 +54,13 @@ function MapApp() {
     }
   }, [selectedDistrict]);
 
+  // Open comparison panel when two districts are selected
+  useEffect(() => {
+    if (comparison.selections.length === 2) {
+      setPanelOpen(true);
+    }
+  }, [comparison.selections]);
+
   function handleClose() {
     setPanelOpen(false);
   }
@@ -73,8 +83,29 @@ function MapApp() {
       ? (wardCache.get(selectedDistrict)?.wards.find((w) => w.slug === selectedWard) ?? null)
       : null;
 
+  // Comparison data — look up both districts when two are selected
+  const compDistrict1 =
+    comparison.selections.length === 2
+      ? (districts.find((d) => d.slug === comparison.selections[0]) ?? null)
+      : null;
+  const compDistrict2 =
+    comparison.selections.length === 2
+      ? (districts.find((d) => d.slug === comparison.selections[1]) ?? null)
+      : null;
+
   // Build tabs depending on whether a ward is selected
   const tabs = (() => {
+    // Comparison takes priority when two districts are selected
+    if (compDistrict1 && compDistrict2) {
+      return [
+        {
+          id: "comparison",
+          label: "Comparison",
+          content: <ComparisonContent district1={compDistrict1} district2={compDistrict2} />,
+        },
+      ];
+    }
+
     if (selectedWard && wardData) {
       // Ward tabs — 6 tabs, no Crime
       return [
@@ -156,10 +187,19 @@ function MapApp() {
   })();
 
   // Panel title and subtitle
-  const panelTitle = wardData ? wardData.name : (districtData?.name ?? "");
-  const panelSubtitle = wardData
-    ? `Ward — ${districtData?.name ?? ""}`
-    : "Local Government District";
+  const panelTitle =
+    compDistrict1 && compDistrict2
+      ? `${compDistrict1.name} vs ${compDistrict2.name}`
+      : wardData
+      ? wardData.name
+      : (districtData?.name ?? "");
+
+  const panelSubtitle =
+    compDistrict1 && compDistrict2
+      ? "Comparison"
+      : wardData
+      ? `Ward — ${districtData?.name ?? ""}`
+      : "Local Government District";
 
   return (
     <>
@@ -205,6 +245,9 @@ function MapApp() {
 
       {/* Legend — bottom-right */}
       <Legend />
+
+      {/* Comparison bottom bar */}
+      {comparison.isComparing && <ComparePanel />}
 
       {/* Stats panel */}
       <StatsPanel
