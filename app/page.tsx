@@ -1,9 +1,25 @@
+"use client";
+
+import dynamic from "next/dynamic";
+import { MapProvider } from "@/components/MapProvider";
+
+const MapContainer = dynamic(() => import("@/components/Map/MapContainer"), {
+  ssr: false,
+  loading: () => (
+    <div className="absolute inset-0 bg-[#1a1a1a] flex items-center justify-center">
+      <div className="text-[#888]">Loading map...</div>
+    </div>
+  ),
+});
+
+const DistrictLayer = dynamic(() => import("@/components/Map/DistrictLayer"), { ssr: false });
+
 export default function Home() {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <h1 className="text-2xl text-[var(--text-primary)]">
-        The Big Dirty NI Map
-      </h1>
-    </div>
+    <MapProvider>
+      <MapContainer>
+        <DistrictLayer />
+      </MapContainer>
+    </MapProvider>
   );
 }
