@@ -89,6 +89,24 @@ function WardDemographics({ ward }: { ward: Ward }) {
 
   return (
     <>
+      {ward.population_2011 != null && (() => {
+        const pctChange = ((ward.population - ward.population_2011) / ward.population_2011) * 100;
+        const changeColor = pctChange >= 0 ? "#27ae60" : "#c0392b";
+        return (
+          <SectionWrapper title="Population Change 2011 → 2021">
+            <div className="stat-cards">
+              <StatCard value={fmt(ward.population_2011)} label="2011" />
+              <StatCard value={fmt(ward.population)} label="2021" />
+            </div>
+            <p className="text-[12px] mt-1">
+              <span style={{ color: changeColor }}>
+                {pctChange >= 0 ? "+" : ""}{pctChange.toFixed(1)}%
+              </span>
+            </p>
+          </SectionWrapper>
+        );
+      })()}
+
       <SectionWrapper title="Religion">
         <StackedBar segments={religionSegments} />
       </SectionWrapper>

@@ -1,6 +1,8 @@
+import type { ReactNode } from "react";
+
 interface StatRowProps {
   label: string;
-  value: string;
+  value: ReactNode;
   className?: string;
 }
 

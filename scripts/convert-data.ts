@@ -35,10 +35,12 @@ function loadJsFile(filePath: string): Record<string, unknown> {
 const ROOT = path.resolve(__dirname, "..");
 const DATA_DIR = path.join(ROOT, "data");
 const WARDS_DIR = path.join(DATA_DIR, "wards");
+const PUBLIC_WARDS_DIR = path.join(ROOT, "public", "data", "wards");
 
 // Ensure output directories exist
 fs.mkdirSync(DATA_DIR, { recursive: true });
 fs.mkdirSync(WARDS_DIR, { recursive: true });
+fs.mkdirSync(PUBLIC_WARDS_DIR, { recursive: true });
 
 // ---------------------------------------------------------------------------
 // Load source files
