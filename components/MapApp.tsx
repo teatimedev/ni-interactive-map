@@ -16,6 +16,9 @@ import TransportTab from "@/components/StatsPanel/TransportTab";
 import { ComparisonContent } from "@/components/ComparePanel";
 import { LoadingSkeleton } from "@/components/ui/LoadingSkeleton";
 import PinCreator from "@/components/Map/PinCreator";
+import { useAuth } from "@/hooks/useAuth";
+import UserPill from "@/components/UserPill";
+import UsernamePicker from "@/components/UsernamePicker";
 
 const ComparePanel = dynamic(() => import("@/components/ComparePanel"), { ssr: false });
 
@@ -35,6 +38,7 @@ const ChoroplethControls = dynamic(() => import("@/components/Map/ChoroplethCont
 const Legend = dynamic(() => import("@/components/ui/Legend"), { ssr: false });
 const Search = dynamic(() => import("@/components/Search"), { ssr: false });
 const PinLayer = dynamic(() => import("@/components/Map/PinLayer"), { ssr: false });
+const AuthModal = dynamic(() => import("@/components/AuthModal"), { ssr: false });
 
 interface MapAppProps {
   initialDistrict?: string;
@@ -58,8 +62,10 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     clearPendingPin,
   } = useMapState();
   const comparison = useComparison();
+  const { user, username } = useAuth();
 
   const [panelOpen, setPanelOpen] = useState(false);
+  const [showAuthModal, setShowAuthModal] = useState(false);
   const [initialised, setInitialised] = useState(false);
   const [wardLoadFailed, setWardLoadFailed] = useState(false);
   const [pinRefreshKey, setPinRefreshKey] = useState(0);
@@ -149,6 +155,10 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
   }
 
   function handleTogglePinMode() {
+    if (!user) {
+      setShowAuthModal(true);
+      return;
+    }
     if (comparison.isComparing) comparison.toggleCompareMode();
     togglePinMode();
   }
@@ -265,6 +275,18 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
         </div>
 
         <div className="top-nav-right">
+          {user && username ? (
+            <UserPill />
+          ) : (
+            <button
+              className="capsule-btn"
+              onClick={() => setShowAuthModal(true)}
+              style={{ background: "var(--bg-control)", border: "1px solid var(--border-medium)", borderRadius: 20, padding: "4px 12px", fontSize: 12 }}
+            >
+              Sign in
+            </button>
+          )}
+
           <ChoroplethControls panelOpen={panelOpen} inline />
 
           <div className="capsule" style={{ gap: 3 }}>
@@ -335,6 +357,9 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
         subtitle={panelSubtitle}
         tabs={tabs}
       />
+
+      {showAuthModal && <AuthModal onClose={() => setShowAuthModal(false)} />}
+      <UsernamePicker />
     </div>
   );
 }
