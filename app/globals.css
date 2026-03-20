@@ -95,10 +95,10 @@ body {
 }
 .tab-bar::-webkit-scrollbar { display: none; }
 .tab-btn {
-  padding: 10px 14px; font-size: 11px; color: #777; background: none; border: none;
+  padding: 10px 6px; font-size: 10px; color: #777; background: none; border: none;
   border-bottom: 2px solid transparent; cursor: pointer; font-family: inherit;
-  white-space: nowrap; text-transform: uppercase; letter-spacing: 0.6px;
-  transition: color 0.2s, border-color 0.2s;
+  white-space: nowrap; text-transform: uppercase; letter-spacing: 0;
+  transition: color 0.2s, border-color 0.2s; flex-shrink: 0;
 }
 .tab-btn:hover { color: #aaa; }
 .tab-btn.active { color: #7fb3d3; border-bottom-color: #2980b9; }
