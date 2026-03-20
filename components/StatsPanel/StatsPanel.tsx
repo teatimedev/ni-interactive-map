@@ -72,11 +72,21 @@ export default function StatsPanel({
 
   return (
     <div
-      className="fixed top-0 bottom-0 z-50 flex flex-col bg-[#1a1a1a] text-white w-screen md:w-[360px] lg:w-[480px]"
       style={{
-        right: isOpen ? 0 : "-100%",
+        position: "fixed",
+        top: 0,
+        bottom: 0,
+        right: isOpen ? 0 : -480,
+        width: 480,
+        zIndex: 1001,
+        display: "flex",
+        flexDirection: "column",
+        background: "#1e1e1e",
+        color: "white",
+        borderLeft: "1px solid #333",
         transition: "right 350ms cubic-bezier(0.4, 0, 0.2, 1)",
         boxShadow: isOpen ? "-4px 0 20px rgba(0,0,0,0.4)" : "none",
+        overflowY: "auto",
       }}
     >
       {/* Close button */}
