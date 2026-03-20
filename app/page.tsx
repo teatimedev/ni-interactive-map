@@ -32,6 +32,7 @@ const WardLayer = dynamic(() => import("@/components/Map/WardLayer"), { ssr: fal
 const MapController = dynamic(() => import("@/components/Map/MapController"), { ssr: false });
 const ChoroplethControls = dynamic(() => import("@/components/Map/ChoroplethControls"), { ssr: false });
 const Legend = dynamic(() => import("@/components/ui/Legend"), { ssr: false });
+const Search = dynamic(() => import("@/components/Search"), { ssr: false });
 
 function MapApp() {
   const {
@@ -239,6 +240,9 @@ function MapApp() {
           ← All Districts
         </button>
       )}
+
+      {/* Search bar — top-left after compare and back buttons */}
+      <Search />
 
       {/* Choropleth controls — top-right below title */}
       <ChoroplethControls />
