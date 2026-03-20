@@ -38,8 +38,8 @@ export default function Legend() {
     if (h < 0) h += 360;
   }
   const s = Math.round((delta / Math.max(maxCh, 1)) * 100);
-  const colorLow = `hsl(${h}, ${s}%, 18%)`;
-  const colorHigh = `hsl(${h}, ${s}%, 55%)`;
+  const colorLow = `hsl(${h}, ${s}%, 42%)`;
+  const colorHigh = `hsl(${h}, ${s}%, 68%)`;
   const gradient = `linear-gradient(to right, ${colorLow}, ${colorHigh})`;
 
   return (

@@ -18,7 +18,7 @@ const HOVER_STYLE: PathOptions = {
   color: "#999",
   weight: 2,
   fillColor: "#4a4a4a",
-  fillOpacity: 0.65,
+  fillOpacity: 0.85,
 };
 
 export default function WardLayer() {
@@ -68,7 +68,7 @@ export default function WardLayer() {
       color: "#555",
       weight: 1,
       fillColor: getChoroplethColor(val, config.color, wardMin, wardMax),
-      fillOpacity: 0.65,
+      fillOpacity: 0.85,
     };
   }
 

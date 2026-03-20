@@ -61,7 +61,7 @@ export default function DistrictLayer() {
       color: "#555",
       weight: 1.5,
       fillColor,
-      fillOpacity: 0.75,
+      fillOpacity: 0.85,
     };
   }
 

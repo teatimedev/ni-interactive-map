@@ -148,9 +148,11 @@ export function getChoroplethColor(
   // Saturation from the original color
   const s = Math.round((delta / Math.max(maxCh, 1)) * 100);
 
-  // Lightness: low values = 18%, high values = 55%
-  const lMin = 18;
-  const lMax = 55;
+  // Lightness: low = 42%, high = 68%
+  // Blue hues need ~40%+ lightness to be clearly visible on dark backgrounds.
+  // Higher floor sacrifices some range but guarantees immediate readability.
+  const lMin = 42;
+  const lMax = 68;
   const l = Math.round(lMin + t * (lMax - lMin));
 
   return `hsl(${h}, ${s}%, ${l}%)`;
