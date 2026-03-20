@@ -4,28 +4,12 @@ import type { District, Ward } from "@/lib/types";
 import { fmtPct } from "@/lib/utils";
 import StatCard from "@/components/ui/StatCard";
 import StatRow from "@/components/ui/StatRow";
+import SectionWrapper from "@/components/ui/SectionWrapper";
 import BarChart from "@/components/Charts/BarChart";
 
 interface HealthTabProps {
   data: District | null;
   ward: Ward | null;
-}
-
-function SectionWrapper({
-  title,
-  children,
-}: {
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div className="stat-section">
-      <h3 >
-        {title}
-      </h3>
-      {children}
-    </div>
-  );
 }
 
 function DistrictHealth({ data }: { data: District }) {
@@ -41,7 +25,7 @@ function DistrictHealth({ data }: { data: District }) {
 
   return (
     <>
-      <SectionWrapper title="Life Expectancy">
+      <SectionWrapper title="Life Expectancy" source="NISRA Health Inequalities 2024">
         <div className="grid grid-cols-2 gap-2">
           <StatCard
             value={data.life_expectancy_male.toFixed(1)}
@@ -54,11 +38,11 @@ function DistrictHealth({ data }: { data: District }) {
         </div>
       </SectionWrapper>
 
-      <SectionWrapper title="General Health">
+      <SectionWrapper title="General Health" source="Census 2021">
         <BarChart items={healthBars} />
       </SectionWrapper>
 
-      <SectionWrapper title="Disability &amp; Care">
+      <SectionWrapper title="Disability &amp; Care" source="Census 2021">
         <StatRow
           label="Long-term condition"
           value={fmtPct(data.long_term_health_condition_pct)}

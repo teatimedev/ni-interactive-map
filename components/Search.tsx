@@ -20,12 +20,26 @@ interface WardResult {
 
 type SearchResult = DistrictResult | WardResult;
 
+function highlightMatch(text: string, query: string) {
+  if (!query) return <>{text}</>;
+  const lower = text.toLowerCase();
+  const idx = lower.indexOf(query.toLowerCase());
+  if (idx === -1) return <>{text}</>;
+  return (
+    <>
+      {text.slice(0, idx)}
+      <span className="search-result-highlight">{text.slice(idx, idx + query.length)}</span>
+      {text.slice(idx + query.length)}
+    </>
+  );
+}
+
 export default function Search() {
   const { wardCache, selectDistrict, selectWard, setView, loadWardData } = useMapState();
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
   const [open, setOpen] = useState(false);
-  const [expanded, setExpanded] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(-1);
   const containerRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -41,13 +55,11 @@ export default function Search() {
 
       const lower = trimmed.toLowerCase();
 
-      // Districts — always available, max 5
       const districtMatches: DistrictResult[] = districts
         .filter((d) => d.name.toLowerCase().includes(lower))
         .slice(0, 5)
         .map((d) => ({ type: "district", slug: d.slug, name: d.name }));
 
-      // Wards — only from loaded cache, max 5
       const wardMatches: WardResult[] = [];
       for (const [lgdSlug, cache] of wardCache.entries()) {
         if (wardMatches.length >= 5) break;
@@ -70,6 +82,7 @@ export default function Search() {
       const combined = [...districtMatches, ...wardMatches];
       setResults(combined);
       setOpen(combined.length > 0);
+      setActiveIndex(-1);
     },
     [wardCache]
   );
@@ -79,21 +92,6 @@ export default function Search() {
     setQuery(val);
     if (debounceRef.current) clearTimeout(debounceRef.current);
     debounceRef.current = setTimeout(() => runSearch(val), 100);
-  }
-
-  function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
-    if (e.key === "Escape") {
-      setOpen(false);
-      setQuery("");
-      setResults([]);
-      setExpanded(false);
-    }
-  }
-
-  function handleSearchIconClick() {
-    setExpanded(true);
-    // Focus input on next tick after it becomes visible
-    setTimeout(() => inputRef.current?.focus(), 0);
   }
 
   function handleSelectDistrict(slug: string) {
@@ -115,15 +113,40 @@ export default function Search() {
     loadWardData(lgdSlug);
   }
 
-  // Close on outside click
+  function selectResult(result: SearchResult) {
+    if (result.type === "district") {
+      handleSelectDistrict(result.slug);
+    } else {
+      handleSelectWard(result.lgdSlug, result.slug);
+    }
+  }
+
+  function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
+    if (e.key === "Escape") {
+      setOpen(false);
+      setQuery("");
+      setResults([]);
+      return;
+    }
+
+    if (!open || results.length === 0) return;
+
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setActiveIndex((prev) => (prev < results.length - 1 ? prev + 1 : 0));
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setActiveIndex((prev) => (prev > 0 ? prev - 1 : results.length - 1));
+    } else if (e.key === "Enter" && activeIndex >= 0) {
+      e.preventDefault();
+      selectResult(results[activeIndex]);
+    }
+  }
+
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
-      if (
-        containerRef.current &&
-        !containerRef.current.contains(e.target as Node)
-      ) {
+      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
         setOpen(false);
-        setExpanded(false);
       }
     }
     document.addEventListener("mousedown", handleClickOutside);
@@ -137,15 +160,29 @@ export default function Search() {
     (r): r is WardResult => r.type === "ward"
   );
 
+  // Track flat index for keyboard nav
+  let flatIndex = 0;
+
   return (
     <div
       ref={containerRef}
-      style={{ position: "fixed", top: 56, left: 16, zIndex: 1000 }}
+      style={{ position: "fixed", top: 68, left: 16, zIndex: 1000 }}
     >
       <div style={{ position: "relative" }}>
-        <span style={{ position: "absolute", left: 10, top: "50%", transform: "translateY(-50%)", color: "#666", pointerEvents: "none", fontSize: 12 }}>
-          🔍
-        </span>
+        <svg
+          style={{ position: "absolute", left: 10, top: "50%", transform: "translateY(-50%)", pointerEvents: "none" }}
+          width="14"
+          height="14"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#666"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <circle cx="11" cy="11" r="8" />
+          <line x1="21" y1="21" x2="16.65" y2="16.65" />
+        </svg>
         <input
           ref={inputRef}
           type="text"
@@ -153,46 +190,61 @@ export default function Search() {
           aria-label="Search districts and wards"
           aria-expanded={open}
           aria-autocomplete="list"
+          aria-activedescendant={activeIndex >= 0 ? `search-result-${activeIndex}` : undefined}
           value={query}
           onChange={handleChange}
           onKeyDown={handleKeyDown}
           placeholder="Search districts and wards..."
+          className="btn-map"
           style={{
-            background: "#2a2a2a", color: "#ccc", border: "1px solid #444", borderRadius: 6,
             paddingLeft: 28, paddingRight: 12, paddingTop: 8, paddingBottom: 8,
-            fontSize: 12, width: 220, fontFamily: "inherit", outline: "none",
+            width: 220, outline: "none",
           }}
         />
       </div>
 
       {open && results.length > 0 && (
-        <div style={{ background: "#2a2a2a", border: "1px solid #444", borderRadius: 6, marginTop: 4, boxShadow: "0 4px 12px rgba(0,0,0,0.4)", maxHeight: 300, overflowY: "auto" }}>
+        <div className="search-dropdown" style={{ background: "#2a2a2a", border: "1px solid #444", borderRadius: 6, marginTop: 4, boxShadow: "0 4px 12px rgba(0,0,0,0.4)", maxHeight: 300, overflowY: "auto" }} role="listbox">
           {districtResults.length > 0 && (
             <>
-              <div style={{ fontSize: 10, color: "#666", textTransform: "uppercase", padding: "6px 12px" }}>Districts</div>
-              {districtResults.map((r) => (
-                <button
-                  key={r.slug}
-                  style={{ width: "100%", textAlign: "left", padding: "8px 12px", fontSize: 12, color: "#ccc", cursor: "pointer", background: "none", border: "none", fontFamily: "inherit" }}
-                  onMouseDown={(e) => { e.preventDefault(); handleSelectDistrict(r.slug); }}
-                >
-                  {r.name}
-                </button>
-              ))}
+              <div className="search-group-label">Districts</div>
+              {districtResults.map((r) => {
+                const idx = flatIndex++;
+                return (
+                  <button
+                    key={r.slug}
+                    id={`search-result-${idx}`}
+                    role="option"
+                    aria-selected={activeIndex === idx}
+                    className={`search-result ${activeIndex === idx ? "active" : ""}`}
+                    onMouseDown={(e) => { e.preventDefault(); handleSelectDistrict(r.slug); }}
+                    onMouseEnter={() => setActiveIndex(idx)}
+                  >
+                    {highlightMatch(r.name, query)}
+                  </button>
+                );
+              })}
             </>
           )}
           {wardResults.length > 0 && (
             <>
-              <div style={{ fontSize: 10, color: "#666", textTransform: "uppercase", padding: "6px 12px" }}>Wards</div>
-              {wardResults.map((r) => (
-                <button
-                  key={`${r.lgdSlug}/${r.slug}`}
-                  style={{ width: "100%", textAlign: "left", padding: "8px 12px", fontSize: 12, color: "#ccc", cursor: "pointer", background: "none", border: "none", fontFamily: "inherit" }}
-                  onMouseDown={(e) => { e.preventDefault(); handleSelectWard(r.lgdSlug, r.slug); }}
-                >
-                  {r.name} <span style={{ color: "#666" }}>— {r.lgdName}</span>
-                </button>
-              ))}
+              <div className="search-group-label">Wards</div>
+              {wardResults.map((r) => {
+                const idx = flatIndex++;
+                return (
+                  <button
+                    key={`${r.lgdSlug}/${r.slug}`}
+                    id={`search-result-${idx}`}
+                    role="option"
+                    aria-selected={activeIndex === idx}
+                    className={`search-result ${activeIndex === idx ? "active" : ""}`}
+                    onMouseDown={(e) => { e.preventDefault(); handleSelectWard(r.lgdSlug, r.slug); }}
+                    onMouseEnter={() => setActiveIndex(idx)}
+                  >
+                    {highlightMatch(r.name, query)} <span className="search-result-sub">\u2014 {r.lgdName}</span>
+                  </button>
+                );
+              })}
             </>
           )}
         </div>

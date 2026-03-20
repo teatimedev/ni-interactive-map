@@ -75,6 +75,10 @@ export default function DistrictLayer() {
   }
 
   function getHoverStyle(feature?: Feature): PathOptions {
+    // Keep transparent when drilled into a district so wards stay visible
+    if (isDrillView) {
+      return { color: "#666", weight: 1.5, fillColor: "transparent", fillOpacity: 0 };
+    }
     const t = getDistrictT(feature);
     if (t === null || !metric) return HOVER_STYLE;
     // Brighten on hover by adding 0.1 to t
@@ -104,6 +108,8 @@ export default function DistrictLayer() {
     const formatted =
       metric === "median_income" || metric === "house_price"
         ? `£${val.toLocaleString()}`
+        : metric === "population_density"
+        ? val.toLocaleString()
         : metric === "crime_rate"
         ? val.toFixed(1)
         : `${val.toFixed(1)}%`;
@@ -113,6 +119,9 @@ export default function DistrictLayer() {
 
   function onEachFeature(feature: Feature, layer: Layer) {
     const path = layer as L.Path;
+
+    // In drill view, don't attach any event handlers so ward layer receives events
+    if (isDrillView) return;
 
     const tooltipContent = getTooltipContent(feature);
     if (tooltipContent) {

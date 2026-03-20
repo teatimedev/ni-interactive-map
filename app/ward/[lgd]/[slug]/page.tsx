@@ -62,7 +62,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${wardName} Ward, ${districtName} — The Big Dirty NI Map`,
       description: `Population, housing, health, education and transport data for ${wardName} ward in ${districtName}`,
-      images: ["/og-image.png"],
+      images: [`/api/og?type=ward&lgd=${lgd}&slug=${slug}`],
     },
   };
 }

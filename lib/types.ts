@@ -198,7 +198,8 @@ export type ChoroplethMetric =
   | "degree_pct"
   | "no_car_pct"
   | "catholic_pct"
-  | "protestant_pct";
+  | "protestant_pct"
+  | "livability";
 
 export interface ChoroplethConfig {
   key: string;

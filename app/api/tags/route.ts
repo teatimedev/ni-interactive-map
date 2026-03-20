@@ -1,18 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import { supabase, ALL_TAGS, validateCustomTag } from "@/lib/supabase";
-import crypto from "crypto";
-
-function hashIp(ip: string): string {
-  return crypto.createHash("sha256").update(ip + "ni-map-salt").digest("hex").slice(0, 16);
-}
-
-function getClientIp(request: NextRequest): string {
-  return (
-    request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ??
-    request.headers.get("x-real-ip") ??
-    "unknown"
-  );
-}
+import { supabase, supabaseServer, ALL_TAGS, validateCustomTag } from "@/lib/supabase";
+import { hashIp, getClientIp } from "@/lib/api-utils";
+import { getAuthUser, requireConfirmed } from "@/lib/auth";
 
 // GET /api/tags?lgd=belfast&ward=andersonstown
 export async function GET(request: NextRequest) {
@@ -30,7 +19,7 @@ export async function GET(request: NextRequest) {
 
   const { data, error } = await supabase
     .from("ward_tags")
-    .select("tag, category")
+    .select("id, tag, category, username, user_id")
     .eq("lgd_slug", lgd)
     .eq("ward_slug", ward);
 
@@ -38,19 +27,29 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
-  // Aggregate counts, preserving actual category from DB
-  const tagMap = new Map<string, { count: number; category: string }>();
-  for (const row of data ?? []) {
+  interface TagRow { id: number; tag: string; category: string; username: string | null; user_id: string | null; }
+
+  const tagMap = new Map<string, { count: number; category: string; usernames: string[]; ids: number[]; user_ids: string[] }>();
+  for (const row of (data as TagRow[]) ?? []) {
     const existing = tagMap.get(row.tag);
     if (existing) {
       existing.count++;
+      if (row.username && !existing.usernames.includes(row.username)) existing.usernames.push(row.username);
+      existing.ids.push(row.id);
+      if (row.user_id) existing.user_ids.push(row.user_id);
     } else {
-      tagMap.set(row.tag, { count: 1, category: row.category });
+      tagMap.set(row.tag, {
+        count: 1,
+        category: row.category,
+        usernames: row.username ? [row.username] : [],
+        ids: [row.id],
+        user_ids: row.user_id ? [row.user_id] : [],
+      });
     }
   }
 
   const tags = [...tagMap.entries()]
-    .map(([tag, { count, category }]) => ({ tag, count, category }))
+    .map(([tag, { count, category, usernames, ids, user_ids }]) => ({ tag, count, category, usernames, ids, user_ids }))
     .sort((a, b) => b.count - a.count);
 
   return NextResponse.json({ tags });
@@ -58,8 +57,28 @@ export async function GET(request: NextRequest) {
 
 // POST /api/tags
 export async function POST(request: NextRequest) {
-  if (!supabase) {
+  if (!supabase || !supabaseServer) {
     return NextResponse.json({ error: "Supabase not configured" }, { status: 503 });
+  }
+
+  const auth = await getAuthUser(request);
+  if (!auth) {
+    return NextResponse.json({ error: "Sign in to add tags" }, { status: 401 });
+  }
+
+  const confirmError = requireConfirmed(auth);
+  if (confirmError) {
+    return NextResponse.json({ error: confirmError }, { status: 403 });
+  }
+
+  const { data: profile } = await supabaseServer
+    .from("profiles")
+    .select("username")
+    .eq("user_id", auth.userId)
+    .single();
+
+  if (!profile?.username) {
+    return NextResponse.json({ error: "Set a username first" }, { status: 403 });
   }
 
   const body = await request.json();
@@ -84,24 +103,35 @@ export async function POST(request: NextRequest) {
 
   const ip = getClientIp(request);
   const ipHash = hashIp(ip);
-
-  // Rate limiting: 5 tags per hour per IP
   const oneHourAgo = new Date(Date.now() - 60 * 60 * 1000).toISOString();
-  const { count } = await supabase
+
+  // Rate limit by user (5/hour)
+  const { count: userCount } = await supabase
+    .from("ward_tags")
+    .select("*", { count: "exact", head: true })
+    .eq("user_id", auth.userId)
+    .gte("created_at", oneHourAgo);
+
+  if ((userCount ?? 0) >= 5) {
+    return NextResponse.json({ error: "Rate limit exceeded. Try again later." }, { status: 429 });
+  }
+
+  // Secondary IP rate limit
+  const { count: ipCount } = await supabase
     .from("ward_tags")
     .select("*", { count: "exact", head: true })
     .eq("ip_hash", ipHash)
     .gte("created_at", oneHourAgo);
 
-  if ((count ?? 0) >= 5) {
+  if ((ipCount ?? 0) >= 8) {
     return NextResponse.json({ error: "Rate limit exceeded. Try again later." }, { status: 429 });
   }
 
-  // Check for duplicate (same IP, same ward, same tag)
+  // Check for duplicate (same user, same ward, same tag)
   const { count: dupeCount } = await supabase
     .from("ward_tags")
     .select("*", { count: "exact", head: true })
-    .eq("ip_hash", ipHash)
+    .eq("user_id", auth.userId)
     .eq("lgd_slug", lgd)
     .eq("ward_slug", ward)
     .eq("tag", tag);
@@ -118,7 +148,51 @@ export async function POST(request: NextRequest) {
       tag: category === "custom" ? tag.trim() : tag,
       category,
       ip_hash: ipHash,
+      user_id: auth.userId,
+      username: profile.username,
     });
+
+  if (error) {
+    return NextResponse.json({ error: error.message }, { status: 500 });
+  }
+
+  return NextResponse.json({ success: true });
+}
+
+// DELETE /api/tags — delete a tag (owner or admin)
+export async function DELETE(request: NextRequest) {
+  if (!supabaseServer) {
+    return NextResponse.json({ error: "Supabase not configured" }, { status: 503 });
+  }
+
+  const auth = await getAuthUser(request);
+  if (!auth) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  const body = await request.json();
+  const { id } = body;
+
+  if (!id) {
+    return NextResponse.json({ error: "Missing tag id" }, { status: 400 });
+  }
+
+  if (!auth.isAdmin) {
+    const { data: tag } = await supabaseServer
+      .from("ward_tags")
+      .select("user_id")
+      .eq("id", id)
+      .single();
+
+    if (!tag || tag.user_id !== auth.userId) {
+      return NextResponse.json({ error: "Not authorized to delete this tag" }, { status: 403 });
+    }
+  }
+
+  const { error } = await supabaseServer
+    .from("ward_tags")
+    .delete()
+    .eq("id", id);
 
   if (error) {
     return NextResponse.json({ error: error.message }, { status: 500 });

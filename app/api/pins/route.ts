@@ -1,37 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import { supabase } from "@/lib/supabase";
-import crypto from "crypto";
-
-function hashIp(ip: string): string {
-  return crypto.createHash("sha256").update(ip + "ni-map-salt").digest("hex").slice(0, 16);
-}
-
-function getClientIp(request: NextRequest): string {
-  return (
-    request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ??
-    request.headers.get("x-real-ip") ??
-    "unknown"
-  );
-}
-
-const BLOCKED_WORDS = [
-  "fuck", "shit", "cunt", "nigger", "faggot", "retard", "spastic",
-  "kill", "bomb", "rape", "nazi", "kys",
-];
-
-function validateLabel(label: string): { valid: boolean; error?: string } {
-  const trimmed = label.trim();
-  if (trimmed.length < 3) return { valid: false, error: "Label must be at least 3 characters" };
-  if (trimmed.length > 50) return { valid: false, error: "Label must be at most 50 characters" };
-  if (!/^[a-zA-Z0-9\s'!?.,()-]+$/.test(trimmed)) {
-    return { valid: false, error: "Letters, numbers, spaces and basic punctuation only" };
-  }
-  const lower = trimmed.toLowerCase();
-  for (const word of BLOCKED_WORDS) {
-    if (lower.includes(word)) return { valid: false, error: "Label contains inappropriate content" };
-  }
-  return { valid: true };
-}
+import { supabase, supabaseServer } from "@/lib/supabase";
+import { hashIp, getClientIp, validateLabel } from "@/lib/api-utils";
+import { getAuthUser, requireConfirmed } from "@/lib/auth";
 
 // GET /api/pins
 export async function GET() {
@@ -41,7 +11,8 @@ export async function GET() {
 
   const { data, error } = await supabase
     .from("map_pins")
-    .select("id, lat, lng, label, created_at")
+    .select("id, lat, lng, label, username, user_id, created_at")
+    .eq("reported", false)
     .order("created_at", { ascending: false })
     .limit(200);
 
@@ -54,8 +25,30 @@ export async function GET() {
 
 // POST /api/pins
 export async function POST(request: NextRequest) {
-  if (!supabase) {
+  if (!supabase || !supabaseServer) {
     return NextResponse.json({ error: "Supabase not configured" }, { status: 503 });
+  }
+
+  const auth = await getAuthUser(request);
+  if (!auth) {
+    return NextResponse.json({ error: "Sign in to drop pins" }, { status: 401 });
+  }
+
+  // Block unconfirmed email+password users
+  const confirmError = requireConfirmed(auth);
+  if (confirmError) {
+    return NextResponse.json({ error: confirmError }, { status: 403 });
+  }
+
+  // Fetch username from profiles
+  const { data: profile } = await supabaseServer
+    .from("profiles")
+    .select("username")
+    .eq("user_id", auth.userId)
+    .single();
+
+  if (!profile?.username) {
+    return NextResponse.json({ error: "Set a username first" }, { status: 403 });
   }
 
   const body = await request.json();
@@ -77,17 +70,28 @@ export async function POST(request: NextRequest) {
 
   const ip = getClientIp(request);
   const ipHash = hashIp(ip);
-
-  // Rate limiting: 3 pins per hour per IP
   const oneHourAgo = new Date(Date.now() - 60 * 60 * 1000).toISOString();
-  const { count } = await supabase
+
+  // Rate limit by user (3/hour)
+  const { count: userCount } = await supabase
+    .from("map_pins")
+    .select("*", { count: "exact", head: true })
+    .eq("user_id", auth.userId)
+    .gte("created_at", oneHourAgo);
+
+  if ((userCount ?? 0) >= 3) {
+    return NextResponse.json({ error: "Rate limit: 3 pins per hour. Try later." }, { status: 429 });
+  }
+
+  // Secondary IP rate limit (prevents guest account spam)
+  const { count: ipCount } = await supabase
     .from("map_pins")
     .select("*", { count: "exact", head: true })
     .eq("ip_hash", ipHash)
     .gte("created_at", oneHourAgo);
 
-  if ((count ?? 0) >= 3) {
-    return NextResponse.json({ error: "Rate limit: 3 pins per hour. Try later." }, { status: 429 });
+  if ((ipCount ?? 0) >= 5) {
+    return NextResponse.json({ error: "Rate limit exceeded. Try later." }, { status: 429 });
   }
 
   const { error } = await supabase
@@ -97,7 +101,52 @@ export async function POST(request: NextRequest) {
       lng,
       label: label.trim(),
       ip_hash: ipHash,
+      user_id: auth.userId,
+      username: profile.username,
     });
+
+  if (error) {
+    return NextResponse.json({ error: error.message }, { status: 500 });
+  }
+
+  return NextResponse.json({ success: true });
+}
+
+// DELETE /api/pins — delete a pin (owner or admin)
+export async function DELETE(request: NextRequest) {
+  if (!supabaseServer) {
+    return NextResponse.json({ error: "Supabase not configured" }, { status: 503 });
+  }
+
+  const auth = await getAuthUser(request);
+  if (!auth) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  const body = await request.json();
+  const { id } = body;
+
+  if (!id) {
+    return NextResponse.json({ error: "Missing pin id" }, { status: 400 });
+  }
+
+  // Check ownership or admin
+  if (!auth.isAdmin) {
+    const { data: pin } = await supabaseServer
+      .from("map_pins")
+      .select("user_id")
+      .eq("id", id)
+      .single();
+
+    if (!pin || pin.user_id !== auth.userId) {
+      return NextResponse.json({ error: "Not authorized to delete this pin" }, { status: 403 });
+    }
+  }
+
+  const { error } = await supabaseServer
+    .from("map_pins")
+    .delete()
+    .eq("id", id);
 
   if (error) {
     return NextResponse.json({ error: error.message }, { status: 500 });

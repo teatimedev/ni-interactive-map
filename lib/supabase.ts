@@ -7,6 +7,14 @@ export const supabase = supabaseUrl && supabaseAnonKey
   ? createClient(supabaseUrl, supabaseAnonKey)
   : null;
 
+// Server-side client with service role key (for JWT verification and admin operations)
+// Bypasses RLS — API routes are the primary authorization gate, RLS is defense-in-depth
+const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY ?? "";
+
+export const supabaseServer = supabaseUrl && supabaseServiceKey
+  ? createClient(supabaseUrl, supabaseServiceKey)
+  : null;
+
 // Predefined tag categories and labels
 export const TAG_CATEGORIES = {
   vibe: {
