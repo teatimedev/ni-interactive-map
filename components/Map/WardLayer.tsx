@@ -92,8 +92,37 @@ export default function WardLayer() {
     };
   }
 
+  function getTooltipContent(feature: Feature): string {
+    const name = feature.properties?.name as string | undefined;
+    if (!name) return "";
+    if (!metric) return name;
+
+    const config = CHOROPLETH_CONFIGS[metric];
+    if (!config.wardKey) return name;
+
+    const val = getWardValue(feature);
+    if (val === null) return name;
+
+    const formatted =
+      metric === "population_density"
+        ? val.toLocaleString()
+        : `${val.toFixed(1)}%`;
+
+    return `${name}<br/><span style="color:#aaa">${config.label}: ${formatted}</span>`;
+  }
+
   function onEachFeature(feature: Feature, layer: Layer) {
     const path = layer as L.Path;
+
+    const tooltipContent = getTooltipContent(feature);
+    if (tooltipContent) {
+      (layer as L.Layer).bindTooltip(tooltipContent, {
+        sticky: true,
+        direction: "top",
+        offset: [0, -10],
+        className: "map-tooltip",
+      });
+    }
 
     path.on("mouseover", (_e: LeafletMouseEvent) => {
       path.setStyle(getHoverStyle(feature));

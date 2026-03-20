@@ -92,8 +92,42 @@ export default function DistrictLayer() {
     };
   }
 
+  function getTooltipContent(feature: Feature): string {
+    const name = feature.properties?.name as string | undefined;
+    if (!name) return "";
+    if (!metric) return name;
+
+    const config = CHOROPLETH_CONFIGS[metric];
+    const district = districts.find(
+      (d) => d.name === name || slugify(d.name) === slugify(name)
+    );
+    if (!district) return name;
+
+    const val = config.key(district);
+    if (val == null) return name;
+
+    const formatted =
+      metric === "median_income" || metric === "house_price"
+        ? `£${val.toLocaleString()}`
+        : metric === "crime_rate"
+        ? val.toFixed(1)
+        : `${val.toFixed(1)}%`;
+
+    return `${name}<br/><span style="color:#aaa">${config.label}: ${formatted}</span>`;
+  }
+
   function onEachFeature(feature: Feature, layer: Layer) {
     const path = layer as L.Path;
+
+    const tooltipContent = getTooltipContent(feature);
+    if (tooltipContent) {
+      (layer as L.Layer).bindTooltip(tooltipContent, {
+        sticky: true,
+        direction: "top",
+        offset: [0, -10],
+        className: "map-tooltip",
+      });
+    }
 
     path.on("mouseover", (e: LeafletMouseEvent) => {
       path.setStyle(getHoverStyle(feature));
