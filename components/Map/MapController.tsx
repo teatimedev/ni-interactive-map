@@ -11,7 +11,7 @@ const NI_BOUNDS: L.LatLngBoundsExpression = [
 
 export default function MapController({ onMapClick }: { onMapClick?: () => void }) {
   const map = useMap();
-  const { currentView } = useMapState();
+  const { currentView, isPinMode, setPendingPin } = useMapState();
   const prevView = useRef(currentView);
 
   useEffect(() => {
@@ -25,13 +25,18 @@ export default function MapController({ onMapClick }: { onMapClick?: () => void 
     prevView.current = currentView;
   }, [currentView, map]);
 
-  // Click on empty map area closes the panel
+  // Click on empty map area — either drop pin or close panel
   useEffect(() => {
-    if (!onMapClick) return;
-    const handler = () => onMapClick();
+    const handler = (e: L.LeafletMouseEvent) => {
+      if (isPinMode) {
+        setPendingPin({ lat: e.latlng.lat, lng: e.latlng.lng });
+      } else if (onMapClick) {
+        onMapClick();
+      }
+    };
     map.on("click", handler);
     return () => { map.off("click", handler); };
-  }, [map, onMapClick]);
+  }, [map, onMapClick, isPinMode, setPendingPin]);
 
   return null;
 }

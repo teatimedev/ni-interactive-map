@@ -4,27 +4,11 @@ import type { District } from "@/lib/types";
 import { fmt } from "@/lib/utils";
 import StatCard from "@/components/ui/StatCard";
 import StatRow from "@/components/ui/StatRow";
+import SectionWrapper from "@/components/ui/SectionWrapper";
 import BarChart from "@/components/Charts/BarChart";
 
 interface CrimeTabProps {
   data: District | null;
-}
-
-function SectionWrapper({
-  title,
-  children,
-}: {
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div className="stat-section">
-      <h3 >
-        {title}
-      </h3>
-      {children}
-    </div>
-  );
 }
 
 export default function CrimeTab({ data }: CrimeTabProps) {
@@ -51,7 +35,7 @@ export default function CrimeTab({ data }: CrimeTabProps) {
 
   return (
     <>
-      <SectionWrapper title="Recorded Crime">
+      <SectionWrapper title="Recorded Crime" source="PSNI 2024/25">
         <div className="stat-cards">
           <StatCard value={fmt(c.total_recorded)} label="Total Offences" />
           <StatCard

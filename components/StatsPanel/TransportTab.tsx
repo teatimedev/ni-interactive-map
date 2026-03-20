@@ -3,29 +3,13 @@
 import type { District, Ward } from "@/lib/types";
 import { fmtPct } from "@/lib/utils";
 import StatRow from "@/components/ui/StatRow";
+import SectionWrapper from "@/components/ui/SectionWrapper";
 import StackedBar from "@/components/Charts/StackedBar";
 import BarChart from "@/components/Charts/BarChart";
 
 interface TransportTabProps {
   data: District | null;
   ward: Ward | null;
-}
-
-function SectionWrapper({
-  title,
-  children,
-}: {
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div className="stat-section">
-      <h3 >
-        {title}
-      </h3>
-      {children}
-    </div>
-  );
 }
 
 function DistrictTransport({ data }: { data: District }) {
@@ -51,18 +35,18 @@ function DistrictTransport({ data }: { data: District }) {
 
   return (
     <>
-      <SectionWrapper title="Car Ownership">
+      <SectionWrapper title="Car Ownership" source="Census 2021">
         <StackedBar segments={carSegments} />
       </SectionWrapper>
 
       {travelBars.length > 0 && (
-        <SectionWrapper title="Travel to Work">
+        <SectionWrapper title="Travel to Work" source="Census 2021">
           <BarChart items={travelBars} />
         </SectionWrapper>
       )}
 
       {t.avg_broadband_mbps != null && (
-        <SectionWrapper title="Broadband">
+        <SectionWrapper title="Broadband" source="Ofcom 2024">
           <StatRow
             label="Avg download speed"
             value={`${t.avg_broadband_mbps.toFixed(1)} Mbps`}

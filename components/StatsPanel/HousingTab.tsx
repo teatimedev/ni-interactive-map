@@ -3,28 +3,12 @@
 import type { District, Ward } from "@/lib/types";
 import { fmtMoney } from "@/lib/utils";
 import StatCard from "@/components/ui/StatCard";
+import SectionWrapper from "@/components/ui/SectionWrapper";
 import StackedBar from "@/components/Charts/StackedBar";
 
 interface HousingTabProps {
   data: District | null;
   ward: Ward | null;
-}
-
-function SectionWrapper({
-  title,
-  children,
-}: {
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div className="stat-section">
-      <h3 >
-        {title}
-      </h3>
-      {children}
-    </div>
-  );
 }
 
 function DistrictHousing({ data }: { data: District }) {
@@ -50,7 +34,7 @@ function DistrictHousing({ data }: { data: District }) {
         )}
       </SectionWrapper>
 
-      <SectionWrapper title="Housing Tenure">
+      <SectionWrapper title="Housing Tenure" source="Census 2021">
         <StackedBar segments={tenureSegments} />
       </SectionWrapper>
     </>

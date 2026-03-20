@@ -1,4 +1,5 @@
 import type { District, Ward, ChoroplethMetric } from "./types";
+import { computeLivabilityScore } from "./scoring";
 
 // ===== PARTY COLORS =====
 export const PARTY_COLORS: Record<string, string> = {
@@ -116,6 +117,16 @@ export const CHOROPLETH_CONFIGS: Record<ChoroplethMetric, ChoroplethConfigFull> 
     wardMin: 0,
     wardMax: 100,
     color: [50, 80, 150],
+  },
+  livability: {
+    label: "Livability Score",
+    key: () => null,
+    wardKey: (w) => (w ? computeLivabilityScore(w) : null),
+    min: 0,
+    max: 100,
+    wardMin: 0,
+    wardMax: 100,
+    color: [39, 174, 96],
   },
 };
 

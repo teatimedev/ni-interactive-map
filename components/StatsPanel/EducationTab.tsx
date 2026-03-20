@@ -3,28 +3,12 @@
 import type { District, Ward } from "@/lib/types";
 import { fmtPct } from "@/lib/utils";
 import StatCard from "@/components/ui/StatCard";
+import SectionWrapper from "@/components/ui/SectionWrapper";
 import BarChart from "@/components/Charts/BarChart";
 
 interface EducationTabProps {
   data: District | null;
   ward: Ward | null;
-}
-
-function SectionWrapper({
-  title,
-  children,
-}: {
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div className="stat-section">
-      <h3 >
-        {title}
-      </h3>
-      {children}
-    </div>
-  );
 }
 
 function DistrictEducation({ data }: { data: District }) {
@@ -42,14 +26,14 @@ function DistrictEducation({ data }: { data: District }) {
 
   return (
     <>
-      <SectionWrapper title="Qualifications">
+      <SectionWrapper title="Qualifications" source="Census 2021">
         <div className="grid grid-cols-2 gap-2 mb-3">
           <StatCard value={fmtPct(e.degree_plus_pct)} label="Degree+" />
           <StatCard value={fmtPct(e.no_qualifications_pct)} label="No Quals" />
         </div>
       </SectionWrapper>
 
-      <SectionWrapper title="Qualification Breakdown">
+      <SectionWrapper title="Qualification Breakdown" source="Census 2021">
         <BarChart items={qualBars} />
       </SectionWrapper>
     </>

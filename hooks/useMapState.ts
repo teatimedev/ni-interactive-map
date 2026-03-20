@@ -15,6 +15,8 @@ interface MapState {
   selectedWard: string | null;
   wardCache: Map<string, WardCache>;
   isLoadingWards: boolean;
+  isPinMode: boolean;
+  pendingPin: { lat: number; lng: number } | null;
 }
 
 interface MapStateActions {
@@ -23,6 +25,9 @@ interface MapStateActions {
   selectWard: (slug: string | null) => void;
   loadWardData: (lgdSlug: string) => Promise<WardCache | null>;
   setLoadingWards: (loading: boolean) => void;
+  togglePinMode: () => void;
+  setPendingPin: (coords: { lat: number; lng: number } | null) => void;
+  clearPendingPin: () => void;
 }
 
 type MapStateContextValue = MapState & MapStateActions;
@@ -41,6 +46,8 @@ export function useMapStateProvider(): MapStateContextValue {
   const [selectedWard, setSelectedWard] = useState<string | null>(null);
   const [isLoadingWards, setIsLoadingWards] = useState(false);
   const [wardCache, setWardCache] = useState<Map<string, WardCache>>(new Map());
+  const [isPinMode, setIsPinMode] = useState(false);
+  const [pendingPin, setPendingPinState] = useState<{ lat: number; lng: number } | null>(null);
 
   const cacheRef = useRef<Map<string, WardCache>>(new Map());
 
@@ -58,6 +65,19 @@ export function useMapStateProvider(): MapStateContextValue {
 
   function setLoadingWards(loading: boolean) {
     setIsLoadingWards(loading);
+  }
+
+  function togglePinMode() {
+    setIsPinMode((prev) => !prev);
+    setPendingPinState(null);
+  }
+
+  function setPendingPin(coords: { lat: number; lng: number } | null) {
+    setPendingPinState(coords);
+  }
+
+  function clearPendingPin() {
+    setPendingPinState(null);
   }
 
   async function loadWardData(lgdSlug: string): Promise<WardCache | null> {
@@ -87,7 +107,6 @@ export function useMapStateProvider(): MapStateContextValue {
 
       const entry: WardCache = { wards, geoJSON };
       cacheRef.current.set(lgdSlug, entry);
-      // Create a new Map reference so React re-renders consumers
       setWardCache(new Map(cacheRef.current));
       return entry;
     } catch {
@@ -103,10 +122,15 @@ export function useMapStateProvider(): MapStateContextValue {
     selectedWard,
     wardCache,
     isLoadingWards,
+    isPinMode,
+    pendingPin,
     setView,
     selectDistrict,
     selectWard,
     loadWardData,
     setLoadingWards,
+    togglePinMode,
+    setPendingPin,
+    clearPendingPin,
   };
 }

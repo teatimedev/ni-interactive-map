@@ -15,6 +15,7 @@ import EducationTab from "@/components/StatsPanel/EducationTab";
 import TransportTab from "@/components/StatsPanel/TransportTab";
 import { ComparisonContent } from "@/components/ComparePanel";
 import { LoadingSkeleton } from "@/components/ui/LoadingSkeleton";
+import PinCreator from "@/components/Map/PinCreator";
 
 const ComparePanel = dynamic(() => import("@/components/ComparePanel"), { ssr: false });
 
@@ -33,6 +34,7 @@ const MapController = dynamic(() => import("@/components/Map/MapController"), { 
 const ChoroplethControls = dynamic(() => import("@/components/Map/ChoroplethControls"), { ssr: false });
 const Legend = dynamic(() => import("@/components/ui/Legend"), { ssr: false });
 const Search = dynamic(() => import("@/components/Search"), { ssr: false });
+const PinLayer = dynamic(() => import("@/components/Map/PinLayer"), { ssr: false });
 
 interface MapAppProps {
   initialDistrict?: string;
@@ -46,16 +48,21 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     selectedWard,
     wardCache,
     isLoadingWards,
+    isPinMode,
+    pendingPin,
     selectDistrict,
     selectWard,
     setView,
     loadWardData,
+    togglePinMode,
+    clearPendingPin,
   } = useMapState();
   const comparison = useComparison();
 
   const [panelOpen, setPanelOpen] = useState(false);
   const [initialised, setInitialised] = useState(false);
   const [wardLoadFailed, setWardLoadFailed] = useState(false);
+  const [pinRefreshKey, setPinRefreshKey] = useState(0);
 
   // Initialise from route props on first mount
   useEffect(() => {
@@ -85,7 +92,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Re-initialise when route props change (e.g. navigating between district pages)
+  // Re-initialise when route props change
   useEffect(() => {
     if (!initialised) return;
     if (!initialDistrict) return;
@@ -111,24 +118,16 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [initialDistrict, initialWard]);
 
-  // Open panel when a district or ward is selected
   useEffect(() => {
-    if (selectedDistrict !== null) {
-      setPanelOpen(true);
-    }
+    if (selectedDistrict !== null) setPanelOpen(true);
   }, [selectedDistrict]);
 
   useEffect(() => {
-    if (selectedWard !== null) {
-      setPanelOpen(true);
-    }
+    if (selectedWard !== null) setPanelOpen(true);
   }, [selectedWard]);
 
-  // Open comparison panel when two districts are selected
   useEffect(() => {
-    if (comparison.selections.length === 2) {
-      setPanelOpen(true);
-    }
+    if (comparison.selections.length === 2) setPanelOpen(true);
   }, [comparison.selections]);
 
   function handleClose() {
@@ -149,18 +148,30 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     if (!result) setWardLoadFailed(true);
   }
 
-  // Look up district data from slug
+  function handleTogglePinMode() {
+    if (comparison.isComparing) comparison.toggleCompareMode();
+    togglePinMode();
+  }
+
+  function handleToggleCompare() {
+    if (isPinMode) togglePinMode();
+    comparison.toggleCompareMode();
+  }
+
+  function handlePinCreated() {
+    clearPendingPin();
+    setPinRefreshKey((k) => k + 1);
+  }
+
   const districtData = selectedDistrict
     ? (districts.find((d) => d.slug === selectedDistrict) ?? null)
     : null;
 
-  // Look up ward data when a ward is selected
   const wardData =
     selectedWard && selectedDistrict
       ? (wardCache.get(selectedDistrict)?.wards.find((w) => w.slug === selectedWard) ?? null)
       : null;
 
-  // Comparison data — look up both districts when two are selected
   const compDistrict1 =
     comparison.selections.length === 2
       ? (districts.find((d) => d.slug === comparison.selections[0]) ?? null)
@@ -170,133 +181,57 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
       ? (districts.find((d) => d.slug === comparison.selections[1]) ?? null)
       : null;
 
-  // Loading skeleton tab (shown while wards are fetching)
-  const loadingTab = [
-    {
-      id: "loading",
-      label: "Loading…",
-      content: <LoadingSkeleton />,
-    },
-  ];
+  const loadingTab = [{ id: "loading", label: "Loading\u2026", content: <LoadingSkeleton /> }];
 
-  // Error tab (shown when ward fetch failed)
-  const errorTab = [
-    {
-      id: "error",
-      label: "Error",
-      content: (
-        <div className="px-5 py-8 text-center">
-          <div className="text-[#888] text-sm mb-3">Couldn&apos;t load ward data.</div>
-          <button
-            onClick={handleRetry}
-            className="px-3 py-1.5 bg-[#2a2a2a] text-[#ccc] border border-[#444] rounded text-xs hover:bg-[#3a3a3a] min-h-[44px]"
-          >
-            Tap to retry
-          </button>
-        </div>
-      ),
-    },
-  ];
+  const errorTab = [{
+    id: "error",
+    label: "Error",
+    content: (
+      <div className="px-5 py-8 text-center">
+        <div className="text-[#888] text-sm mb-3">Couldn&apos;t load ward data.</div>
+        <button onClick={handleRetry} className="btn-map min-h-[44px]">Tap to retry</button>
+      </div>
+    ),
+  }];
 
-  // Build tabs depending on whether a ward is selected
   const tabs = (() => {
-    // Show loading skeleton while ward data is being fetched
     if (isLoadingWards && panelOpen) return loadingTab;
-    // Show error state if the ward fetch failed
     if (wardLoadFailed && panelOpen) return errorTab;
 
-    // Comparison takes priority when two districts are selected
     if (compDistrict1 && compDistrict2) {
-      return [
-        {
-          id: "comparison",
-          label: "Comparison",
-          content: <ComparisonContent district1={compDistrict1} district2={compDistrict2} />,
-        },
-      ];
+      return [{
+        id: "comparison",
+        label: "Comparison",
+        content: <ComparisonContent district1={compDistrict1} district2={compDistrict2} />,
+      }];
     }
 
     if (selectedWard && wardData) {
-      // Ward tabs — 6 tabs, no Crime
       return [
-        {
-          id: "overview",
-          label: "Overview",
-          content: <OverviewTab data={null} ward={wardData} />,
-        },
-        {
-          id: "demographics",
-          label: "Demographics",
-          content: <DemographicsTab data={null} ward={wardData} />,
-        },
-        {
-          id: "housing",
-          label: "Housing",
-          content: <HousingTab data={null} ward={wardData} />,
-        },
-        {
-          id: "health",
-          label: "Health",
-          content: <HealthTab data={null} ward={wardData} />,
-        },
-        {
-          id: "education",
-          label: "Education",
-          content: <EducationTab data={null} ward={wardData} />,
-        },
-        {
-          id: "transport",
-          label: "Transport",
-          content: <TransportTab data={null} ward={wardData} />,
-        },
+        { id: "overview", label: "Overview", content: <OverviewTab data={null} ward={wardData} districtSlug={selectedDistrict ?? ""} /> },
+        { id: "demographics", label: "Demographics", content: <DemographicsTab data={null} ward={wardData} /> },
+        { id: "housing", label: "Housing", content: <HousingTab data={null} ward={wardData} /> },
+        { id: "health", label: "Health", content: <HealthTab data={null} ward={wardData} /> },
+        { id: "education", label: "Education", content: <EducationTab data={null} ward={wardData} /> },
+        { id: "transport", label: "Transport", content: <TransportTab data={null} ward={wardData} /> },
       ];
     }
 
     if (districtData) {
-      // District tabs — 7 tabs including Crime
       return [
-        {
-          id: "overview",
-          label: "Overview",
-          content: <OverviewTab data={districtData} ward={null} />,
-        },
-        {
-          id: "demographics",
-          label: "Demographics",
-          content: <DemographicsTab data={districtData} ward={null} />,
-        },
-        {
-          id: "housing",
-          label: "Housing",
-          content: <HousingTab data={districtData} ward={null} />,
-        },
-        {
-          id: "health",
-          label: "Health",
-          content: <HealthTab data={districtData} ward={null} />,
-        },
-        {
-          id: "crime",
-          label: "Crime",
-          content: <CrimeTab data={districtData} />,
-        },
-        {
-          id: "education",
-          label: "Education",
-          content: <EducationTab data={districtData} ward={null} />,
-        },
-        {
-          id: "transport",
-          label: "Transport",
-          content: <TransportTab data={districtData} ward={null} />,
-        },
+        { id: "overview", label: "Overview", content: <OverviewTab data={districtData} ward={null} /> },
+        { id: "demographics", label: "Demographics", content: <DemographicsTab data={districtData} ward={null} /> },
+        { id: "housing", label: "Housing", content: <HousingTab data={districtData} ward={null} /> },
+        { id: "health", label: "Health", content: <HealthTab data={districtData} ward={null} /> },
+        { id: "crime", label: "Crime", content: <CrimeTab data={districtData} /> },
+        { id: "education", label: "Education", content: <EducationTab data={districtData} ward={null} /> },
+        { id: "transport", label: "Transport", content: <TransportTab data={districtData} ward={null} /> },
       ];
     }
 
     return [];
   })();
 
-  // Panel title and subtitle
   const panelTitle =
     compDistrict1 && compDistrict2
       ? `${compDistrict1.name} vs ${compDistrict2.name}`
@@ -308,7 +243,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     compDistrict1 && compDistrict2
       ? "Comparison"
       : wardData
-      ? `Ward — ${districtData?.name ?? ""}`
+      ? `Ward \u2014 ${districtData?.name ?? ""}`
       : "Local Government District";
 
   return (
@@ -317,73 +252,82 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
       <MapContainer>
         <DistrictLayer />
         <WardLayer />
+        <PinLayer refreshKey={pinRefreshKey} />
         <MapController onMapClick={() => { if (panelOpen && !comparison.isComparing) setPanelOpen(false); }} />
       </MapContainer>
 
-      {/* Title overlay — top-right, matches original */}
-      <div style={{ position: "fixed", top: 16, right: 16, zIndex: 1000, background: "rgba(26,26,26,0.85)", border: "1px solid #333", borderRadius: 8, padding: "12px 18px", backdropFilter: "blur(8px)" }}>
-        <h1 style={{ fontSize: 16, fontWeight: 600, color: "#e0e0e0", letterSpacing: 0.5 }}>
-          The Big Dirty NI Map
-        </h1>
-        <div style={{ fontSize: 11, color: "#888", marginTop: 2 }}>Interactive Boundary Map</div>
-      </div>
+      {/* Floating capsule nav */}
+      <nav className="top-nav">
+        <div className="capsule capsule-brand">
+          <span className="capsule-dot" />
+          <span className="capsule-title">The Big Dirty NI Map</span>
+          <span className="capsule-sub">NI Boundary Map</span>
+        </div>
 
-      {/* Top-left controls row */}
-      <div style={{ position: "fixed", top: 16, left: 16, zIndex: 1000, display: "flex", gap: 8, alignItems: "center" }}>
-        {/* Compare button */}
-        <button
-          aria-label="Toggle comparison mode"
-          aria-pressed={comparison.isComparing}
-          style={{
-            background: comparison.isComparing ? "#1a5276" : "#2a2a2a",
-            color: comparison.isComparing ? "#7fb3d3" : "#ccc",
-            border: `1px solid ${comparison.isComparing ? "#2980b9" : "#444"}`,
-            borderRadius: 6, padding: "8px 14px", fontSize: 12, cursor: "pointer",
-            fontFamily: "inherit", boxShadow: "0 2px 8px rgba(0,0,0,0.3)", transition: "all 0.2s",
-            whiteSpace: "nowrap",
-          }}
-          onClick={() => comparison.toggleCompareMode()}
-        >
-          Compare
-        </button>
+        <div className="top-nav-right">
+          <ChoroplethControls panelOpen={panelOpen} inline />
 
-        {/* Back button */}
-        {currentView !== "districts" && (
-          <button
-            aria-label="Return to all districts"
-            style={{
-              background: "#2a2a2a", color: "#ccc", border: "1px solid #444",
-              borderRadius: 6, padding: "8px 16px", fontSize: 14, cursor: "pointer",
-              fontFamily: "inherit", boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
-              transition: "all 0.2s", display: "flex", alignItems: "center", gap: 6,
-              whiteSpace: "nowrap",
-            }}
-            onClick={handleBack}
-          >
-            ← All Districts
-          </button>
-        )}
-      </div>
+          <div className="capsule" style={{ gap: 3 }}>
+            <button
+              aria-label="Toggle comparison mode"
+              aria-pressed={comparison.isComparing}
+              className={`capsule-btn ${comparison.isComparing ? "active" : ""}`}
+              onClick={handleToggleCompare}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M16 3h5v5"/><path d="M8 21H3v-5"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg>
+              Compare
+            </button>
+            <span className="capsule-sep" />
+            <button
+              aria-label="Toggle pin dropping mode"
+              aria-pressed={isPinMode}
+              className={`capsule-btn ${isPinMode ? "pin-active" : ""}`}
+              onClick={handleTogglePinMode}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Drop Pin
+            </button>
+            {currentView !== "districts" && (
+              <>
+                <span className="capsule-sep" />
+                <button
+                  aria-label="Return to all districts"
+                  className="capsule-btn"
+                  onClick={handleBack}
+                >
+                  &larr; Back
+                </button>
+              </>
+            )}
+          </div>
+        </div>
+      </nav>
 
-      {/* Accessible live region for screen readers */}
+      {/* Pin mode hint */}
+      {isPinMode && !pendingPin && (
+        <div className="pin-hint">Tap the map to place your pin</div>
+      )}
+
+      {/* Pin creator popup */}
+      {pendingPin && (
+        <PinCreator
+          lat={pendingPin.lat}
+          lng={pendingPin.lng}
+          onCreated={handlePinCreated}
+          onCancel={clearPendingPin}
+        />
+      )}
+
       <div aria-live="polite" className="sr-only">
         {selectedDistrict ? `Selected: ${districtData?.name ?? selectedDistrict}` : ""}
         {selectedWard ? `, ${wardData?.name ?? selectedWard}` : ""}
       </div>
 
-      {/* Search bar — top-left after compare and back buttons */}
       <Search />
-
-      {/* Choropleth controls — top-right below title */}
-      <ChoroplethControls />
-
-      {/* Legend — bottom-right */}
       <Legend />
 
-      {/* Comparison bottom bar */}
       {comparison.isComparing && <ComparePanel />}
 
-      {/* Stats panel */}
       <StatsPanel
         isOpen={panelOpen}
         onClose={handleClose}

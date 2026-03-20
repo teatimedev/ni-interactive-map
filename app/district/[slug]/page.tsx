@@ -21,7 +21,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${name} — The Big Dirty NI Map`,
       description: `Population, crime, housing, deprivation and more for ${name}`,
-      images: ["/og-image.png"],
+      images: [`/api/og?type=district&slug=${slug}`],
     },
   };
 }
