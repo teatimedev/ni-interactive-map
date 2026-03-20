@@ -129,18 +129,29 @@ export function getChoroplethColor(
   const t = Math.max(0, Math.min(1, (val - min) / (max - min)));
   const [r, g, b] = color;
 
-  // Low end: a visible muted tint (blended with dark grey base)
-  // High end: full saturated color
-  // This ensures low values are clearly distinguishable from the black map background
-  const baseBg = 30; // dark grey floor — brighter than map bg (#1a1a1a = 26)
-  const lowR = baseBg + r * 0.15;
-  const lowG = baseBg + g * 0.15;
-  const lowB = baseBg + b * 0.15;
+  // Use HSL: keep the hue constant, vary lightness from 18% (low) to 55% (high).
+  // This guarantees every value is visibly tinted and distinct from the #1a1a1a background.
+  const maxCh = Math.max(r, g, b);
+  const minCh = Math.min(r, g, b);
+  const delta = maxCh - minCh;
 
-  // Lerp from muted tint to full color
-  const outR = Math.round(lowR + (r - lowR) * t);
-  const outG = Math.round(lowG + (g - lowG) * t);
-  const outB = Math.round(lowB + (b - lowB) * t);
+  // Compute hue from the RGB color
+  let h = 0;
+  if (delta > 0) {
+    if (maxCh === r) h = ((g - b) / delta) % 6;
+    else if (maxCh === g) h = (b - r) / delta + 2;
+    else h = (r - g) / delta + 4;
+    h = Math.round(h * 60);
+    if (h < 0) h += 360;
+  }
 
-  return `rgb(${outR}, ${outG}, ${outB})`;
+  // Saturation from the original color
+  const s = Math.round((delta / Math.max(maxCh, 1)) * 100);
+
+  // Lightness: low values = 18%, high values = 55%
+  const lMin = 18;
+  const lMax = 55;
+  const l = Math.round(lMin + t * (lMax - lMin));
+
+  return `hsl(${h}, ${s}%, ${l}%)`;
 }

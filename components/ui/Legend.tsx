@@ -25,10 +25,21 @@ export default function Legend() {
   const max = isWardView && config.wardMax !== undefined ? config.wardMax : config.max;
 
   const [r, g, b] = config.color;
-  // Match the getChoroplethColor function's low-end calculation
-  const baseBg = 30;
-  const colorLow = `rgb(${Math.round(baseBg + r * 0.15)}, ${Math.round(baseBg + g * 0.15)}, ${Math.round(baseBg + b * 0.15)})`;
-  const colorHigh = `rgb(${r}, ${g}, ${b})`;
+  // Derive hue from the color
+  const maxCh = Math.max(r, g, b);
+  const minCh = Math.min(r, g, b);
+  const delta = maxCh - minCh;
+  let h = 0;
+  if (delta > 0) {
+    if (maxCh === r) h = ((g - b) / delta) % 6;
+    else if (maxCh === g) h = (b - r) / delta + 2;
+    else h = (r - g) / delta + 4;
+    h = Math.round(h * 60);
+    if (h < 0) h += 360;
+  }
+  const s = Math.round((delta / Math.max(maxCh, 1)) * 100);
+  const colorLow = `hsl(${h}, ${s}%, 18%)`;
+  const colorHigh = `hsl(${h}, ${s}%, 55%)`;
   const gradient = `linear-gradient(to right, ${colorLow}, ${colorHigh})`;
 
   return (
