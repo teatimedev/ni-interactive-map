@@ -16,8 +16,8 @@ export default function MapContainer({ children }: { children?: React.ReactNode 
       maxBoundsViscosity={1.0}
       zoomControl={false}
       attributionControl={true}
-      className="absolute inset-0 z-[1]"
-      style={{ background: "#1a1a1a" }}
+      className="z-[1]"
+      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", background: "#1a1a1a" }}
     >
       <TileLayer
         url="https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png"

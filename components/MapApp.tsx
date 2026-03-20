@@ -306,7 +306,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
       : "Local Government District";
 
   return (
-    <>
+    <div className="relative w-screen h-screen overflow-hidden">
       {/* Map */}
       <MapContainer>
         <DistrictLayer />
@@ -373,6 +373,6 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
         subtitle={panelSubtitle}
         tabs={tabs}
       />
-    </>
+    </div>
   );
 }
