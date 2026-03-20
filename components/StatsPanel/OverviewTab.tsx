@@ -131,6 +131,22 @@ function WardOverview({ ward, districtSlug }: { ward: Ward; districtSlug: string
         {ward.urban_rural && (
           <p className="text-[12px] text-[#999] mt-1">{ward.urban_rural}</p>
         )}
+        {ward.population_2011 != null && (() => {
+          const pctChange = ((ward.population - ward.population_2011) / ward.population_2011) * 100;
+          return (
+            <StatRow
+              label="Since 2011"
+              value={<>
+                <span style={{ color: pctChange > 0 ? "var(--positive)" : "var(--negative)" }}>
+                  {pctChange > 0 ? "+" : ""}{pctChange.toFixed(1)}%
+                </span>
+                <span style={{ fontSize: 10, color: "var(--text-muted)", marginLeft: 4 }}>
+                  ({ward.population_2011.toLocaleString()} → {ward.population.toLocaleString()})
+                </span>
+              </>}
+            />
+          );
+        })()}
       </SectionWrapper>
 
       <SectionWrapper title="Age Breakdown" source="Census 2021">

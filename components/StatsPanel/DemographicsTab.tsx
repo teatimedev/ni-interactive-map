@@ -4,28 +4,12 @@ import type { District, Ward } from "@/lib/types";
 import { fmt, fmtPct } from "@/lib/utils";
 import StatCard from "@/components/ui/StatCard";
 import StatRow from "@/components/ui/StatRow";
+import SectionWrapper from "@/components/ui/SectionWrapper";
 import StackedBar from "@/components/Charts/StackedBar";
 
 interface DemographicsTabProps {
   data: District | null;
   ward: Ward | null;
-}
-
-function SectionWrapper({
-  title,
-  children,
-}: {
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div className="stat-section">
-      <h3 >
-        {title}
-      </h3>
-      {children}
-    </div>
-  );
 }
 
 function DistrictDemographics({ data }: { data: District }) {
@@ -50,7 +34,7 @@ function DistrictDemographics({ data }: { data: District }) {
 
   return (
     <>
-      <SectionWrapper title="Population Change 2011 \u2192 2021">
+      <SectionWrapper title="Population Change 2011 \u2192 2021" source="Census 2021">
         <div className="stat-cards">
           <StatCard value={fmt(d.population_2011)} label="2011" />
           <StatCard value={fmt(data.population)} label="2021" />
@@ -63,15 +47,15 @@ function DistrictDemographics({ data }: { data: District }) {
         </p>
       </SectionWrapper>
 
-      <SectionWrapper title="Religion">
+      <SectionWrapper title="Religion" source="Census 2021">
         <StackedBar segments={religionSegments} />
       </SectionWrapper>
 
-      <SectionWrapper title="Country of Birth">
+      <SectionWrapper title="Country of Birth" source="Census 2021">
         <StackedBar segments={birthSegments} />
       </SectionWrapper>
 
-      <SectionWrapper title="Language">
+      <SectionWrapper title="Language" source="Census 2021">
         <StatRow label="Irish speakers" value={fmtPct(d.irish_speakers_pct)} />
         <StatRow
           label="Ulster-Scots speakers"
@@ -105,6 +89,24 @@ function WardDemographics({ ward }: { ward: Ward }) {
 
   return (
     <>
+      {ward.population_2011 != null && (() => {
+        const pctChange = ((ward.population - ward.population_2011) / ward.population_2011) * 100;
+        const changeColor = pctChange >= 0 ? "#27ae60" : "#c0392b";
+        return (
+          <SectionWrapper title="Population Change 2011 → 2021" source="Census 2011 / 2021">
+            <div className="stat-cards">
+              <StatCard value={fmt(ward.population_2011)} label="2011" />
+              <StatCard value={fmt(ward.population)} label="2021" />
+            </div>
+            <p className="text-[12px] mt-1">
+              <span style={{ color: changeColor }}>
+                {pctChange >= 0 ? "+" : ""}{pctChange.toFixed(1)}%
+              </span>
+            </p>
+          </SectionWrapper>
+        );
+      })()}
+
       <SectionWrapper title="Religion">
         <StackedBar segments={religionSegments} />
       </SectionWrapper>
