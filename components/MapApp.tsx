@@ -246,6 +246,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
         { id: "demographics", label: "Demographics", content: <DemographicsTab data={null} ward={wardData} /> },
         { id: "housing", label: "Housing", content: <HousingTab data={null} ward={wardData} /> },
         { id: "health", label: "Health", content: <HealthTab data={null} ward={wardData} /> },
+        { id: "crime", label: "Crime", content: <CrimeTab data={null} ward={wardData} /> },
         { id: "education", label: "Education", content: <EducationTab data={null} ward={wardData} /> },
         { id: "transport", label: "Transport", content: <TransportTab data={null} ward={wardData} /> },
       ];

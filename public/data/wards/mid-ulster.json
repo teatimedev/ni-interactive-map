@@ -268,7 +268,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 31,
+      "crime_rate_per_1000": 8.1,
+      "crime_asb": 11,
+      "crime_violent": 15,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 1,
+      "crime_drugs": 1,
+      "crime_theft": 2,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "augher-and-clogher",
@@ -804,7 +818,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 0,
+      "crime_rate_per_1000": 0,
+      "crime_asb": 0,
+      "crime_violent": 0,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 0,
+      "crime_drugs": 0,
+      "crime_theft": 0,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "aughnacloy",
@@ -1404,7 +1432,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 2,
+      "crime_rate_per_1000": 0.5,
+      "crime_asb": 1,
+      "crime_violent": 0,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 0,
+      "crime_drugs": 0,
+      "crime_theft": 1,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "ballygawley",
@@ -1820,7 +1862,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 7,
+      "crime_rate_per_1000": 1.8,
+      "crime_asb": 0,
+      "crime_violent": 4,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 1,
+      "crime_drugs": 0,
+      "crime_theft": 0,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "ballymaguigan",
@@ -2084,7 +2140,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 7,
+      "crime_rate_per_1000": 1.7,
+      "crime_asb": 1,
+      "crime_violent": 2,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 1,
+      "crime_drugs": 0,
+      "crime_theft": 3,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "ballysaggart",
@@ -2220,7 +2290,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 882,
+      "crime_rate_per_1000": 174.2,
+      "crime_asb": 288,
+      "crime_violent": 268,
+      "crime_burglary": 34,
+      "crime_criminal_damage": 93,
+      "crime_drugs": 71,
+      "crime_theft": 72,
+      "crime_vehicle": 10,
+      "crime_public_order": 12,
+      "crime_robbery": 3,
+      "crime_weapons": 8,
+      "crime_other": 23,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "bellaghy",
@@ -2456,7 +2540,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 39,
+      "crime_rate_per_1000": 10.1,
+      "crime_asb": 15,
+      "crime_violent": 8,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 7,
+      "crime_drugs": 2,
+      "crime_theft": 3,
+      "crime_vehicle": 1,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "caledon",
@@ -3096,7 +3194,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 23,
+      "crime_rate_per_1000": 5.8,
+      "crime_asb": 16,
+      "crime_violent": 4,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 1,
+      "crime_drugs": 1,
+      "crime_theft": 0,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "castlecaulfield",
@@ -3492,7 +3604,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 14,
+      "crime_rate_per_1000": 3.7,
+      "crime_asb": 7,
+      "crime_violent": 5,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 2,
+      "crime_drugs": 0,
+      "crime_theft": 0,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "castledawson",
@@ -3820,7 +3946,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 11,
+      "crime_rate_per_1000": 2.9,
+      "crime_asb": 2,
+      "crime_violent": 2,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 0,
+      "crime_drugs": 2,
+      "crime_theft": 2,
+      "crime_vehicle": 0,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "coagh",
@@ -4240,7 +4380,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 31,
+      "crime_rate_per_1000": 9.2,
+      "crime_asb": 9,
+      "crime_violent": 11,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 4,
+      "crime_drugs": 1,
+      "crime_theft": 1,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "coalisland-north",
@@ -4492,7 +4646,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 226,
+      "crime_rate_per_1000": 61.6,
+      "crime_asb": 73,
+      "crime_violent": 77,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 19,
+      "crime_drugs": 15,
+      "crime_theft": 19,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 2,
+      "crime_other": 14,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "coalisland-south",
@@ -4608,7 +4776,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 401,
+      "crime_rate_per_1000": 82.8,
+      "crime_asb": 136,
+      "crime_violent": 134,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 45,
+      "crime_drugs": 17,
+      "crime_theft": 33,
+      "crime_vehicle": 9,
+      "crime_public_order": 0,
+      "crime_robbery": 2,
+      "crime_weapons": 5,
+      "crime_other": 16,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "cookstown-east",
@@ -4760,7 +4942,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 683,
+      "crime_rate_per_1000": 180.2,
+      "crime_asb": 247,
+      "crime_violent": 238,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 67,
+      "crime_drugs": 38,
+      "crime_theft": 66,
+      "crime_vehicle": 4,
+      "crime_public_order": 3,
+      "crime_robbery": 2,
+      "crime_weapons": 4,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "cookstown-south",
@@ -4864,7 +5060,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 466,
+      "crime_rate_per_1000": 132.2,
+      "crime_asb": 146,
+      "crime_violent": 162,
+      "crime_burglary": 8,
+      "crime_criminal_damage": 60,
+      "crime_drugs": 35,
+      "crime_theft": 33,
+      "crime_vehicle": 8,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 3,
+      "crime_other": 10,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "cookstown-west",
@@ -4976,7 +5186,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 497,
+      "crime_rate_per_1000": 134.8,
+      "crime_asb": 172,
+      "crime_violent": 171,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 57,
+      "crime_drugs": 24,
+      "crime_theft": 53,
+      "crime_vehicle": 3,
+      "crime_public_order": 3,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "coolshinny",
@@ -5356,7 +5580,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 1,
+      "crime_rate_per_1000": 0.2,
+      "crime_asb": 0,
+      "crime_violent": 0,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 0,
+      "crime_drugs": 0,
+      "crime_theft": 1,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "donaghmore",
@@ -5864,7 +6102,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 5,
+      "crime_rate_per_1000": 1.3,
+      "crime_asb": 1,
+      "crime_violent": 3,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 1,
+      "crime_drugs": 0,
+      "crime_theft": 0,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "draperstown",
@@ -6224,7 +6476,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 2,
+      "crime_rate_per_1000": 0.6,
+      "crime_asb": 1,
+      "crime_violent": 1,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 0,
+      "crime_drugs": 0,
+      "crime_theft": 0,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "fivemiletown",
@@ -6788,7 +7054,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 5,
+      "crime_rate_per_1000": 1.6,
+      "crime_asb": 0,
+      "crime_violent": 1,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 0,
+      "crime_drugs": 0,
+      "crime_theft": 1,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 3,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "glebe",
@@ -6916,7 +7196,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 785,
+      "crime_rate_per_1000": 204.2,
+      "crime_asb": 264,
+      "crime_violent": 267,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 65,
+      "crime_drugs": 50,
+      "crime_theft": 102,
+      "crime_vehicle": 8,
+      "crime_public_order": 2,
+      "crime_robbery": 1,
+      "crime_weapons": 3,
+      "crime_other": 19,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "killyman",
@@ -7216,7 +7510,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 30,
+      "crime_rate_per_1000": 8.3,
+      "crime_asb": 9,
+      "crime_violent": 13,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 1,
+      "crime_drugs": 2,
+      "crime_theft": 3,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "killymeal",
@@ -7428,7 +7736,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 127,
+      "crime_rate_per_1000": 25.4,
+      "crime_asb": 32,
+      "crime_violent": 56,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 21,
+      "crime_drugs": 4,
+      "crime_theft": 7,
+      "crime_vehicle": 2,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "lissan",
@@ -7896,7 +8218,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 5,
+      "crime_rate_per_1000": 1.4,
+      "crime_asb": 0,
+      "crime_violent": 4,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 0,
+      "crime_drugs": 0,
+      "crime_theft": 0,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "loughry",
@@ -8244,7 +8580,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 18,
+      "crime_rate_per_1000": 6.1,
+      "crime_asb": 4,
+      "crime_violent": 4,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 3,
+      "crime_drugs": 2,
+      "crime_theft": 3,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "lower-glenshane",
@@ -8688,7 +9038,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 3,
+      "crime_rate_per_1000": 1,
+      "crime_asb": 0,
+      "crime_violent": 0,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 0,
+      "crime_drugs": 3,
+      "crime_theft": 0,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "maghera",
@@ -8820,7 +9184,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 241,
+      "crime_rate_per_1000": 69.5,
+      "crime_asb": 96,
+      "crime_violent": 59,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 30,
+      "crime_drugs": 27,
+      "crime_theft": 13,
+      "crime_vehicle": 6,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "moy",
@@ -9140,7 +9518,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 26,
+      "crime_rate_per_1000": 6.6,
+      "crime_asb": 7,
+      "crime_violent": 9,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 1,
+      "crime_drugs": 3,
+      "crime_theft": 2,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "moygashel",
@@ -9328,7 +9720,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 171,
+      "crime_rate_per_1000": 47.4,
+      "crime_asb": 51,
+      "crime_violent": 60,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 22,
+      "crime_drugs": 9,
+      "crime_theft": 17,
+      "crime_vehicle": 2,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "mullaghmore",
@@ -9496,7 +9902,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 301,
+      "crime_rate_per_1000": 68.3,
+      "crime_asb": 85,
+      "crime_violent": 104,
+      "crime_burglary": 8,
+      "crime_criminal_damage": 27,
+      "crime_drugs": 20,
+      "crime_theft": 31,
+      "crime_vehicle": 6,
+      "crime_public_order": 2,
+      "crime_robbery": 2,
+      "crime_weapons": 4,
+      "crime_other": 12,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "oaklands",
@@ -9992,7 +10412,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 1,
+      "crime_rate_per_1000": 0.3,
+      "crime_asb": 1,
+      "crime_violent": 0,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 0,
+      "crime_drugs": 0,
+      "crime_theft": 0,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "pomeroy",
@@ -10404,7 +10838,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 1,
+      "crime_rate_per_1000": 0.3,
+      "crime_asb": 1,
+      "crime_violent": 0,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 0,
+      "crime_drugs": 0,
+      "crime_theft": 0,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "stewartstown",
@@ -10904,7 +11352,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 3,
+      "crime_rate_per_1000": 1,
+      "crime_asb": 0,
+      "crime_violent": 1,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 1,
+      "crime_drugs": 0,
+      "crime_theft": 1,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "swatragh",
@@ -11316,7 +11778,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 1,
+      "crime_rate_per_1000": 0.3,
+      "crime_asb": 0,
+      "crime_violent": 1,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 0,
+      "crime_drugs": 0,
+      "crime_theft": 0,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "tamlaght-ocrilly",
@@ -11684,7 +12160,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 29,
+      "crime_rate_per_1000": 8,
+      "crime_asb": 10,
+      "crime_violent": 8,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 5,
+      "crime_drugs": 4,
+      "crime_theft": 2,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "the-loup",
@@ -11992,7 +12482,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 5,
+      "crime_rate_per_1000": 1.2,
+      "crime_asb": 2,
+      "crime_violent": 1,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 0,
+      "crime_drugs": 0,
+      "crime_theft": 0,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "tobermore",
@@ -12388,7 +12892,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 5,
+      "crime_rate_per_1000": 1.4,
+      "crime_asb": 0,
+      "crime_violent": 2,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 1,
+      "crime_drugs": 0,
+      "crime_theft": 0,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "town-parks-east",
@@ -12504,7 +13022,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 639,
+      "crime_rate_per_1000": 179.6,
+      "crime_asb": 236,
+      "crime_violent": 222,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 57,
+      "crime_drugs": 34,
+      "crime_theft": 60,
+      "crime_vehicle": 8,
+      "crime_public_order": 2,
+      "crime_robbery": 1,
+      "crime_weapons": 3,
+      "crime_other": 14,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "valley",
@@ -12820,7 +13352,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 2,
+      "crime_rate_per_1000": 0.6,
+      "crime_asb": 1,
+      "crime_violent": 0,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 0,
+      "crime_drugs": 1,
+      "crime_theft": 0,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     },
     {
       "slug": "washing-bay",
@@ -13040,7 +13586,21 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 22,
+      "crime_rate_per_1000": 5.9,
+      "crime_asb": 10,
+      "crime_violent": 6,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 3,
+      "crime_drugs": 2,
+      "crime_theft": 0,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025"
     }
   ]
 }

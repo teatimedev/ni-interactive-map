@@ -114,6 +114,12 @@ const METRICS: Record<string, MetricConfig> = {
     format: fmtPct,
     higherBetter: true,
   },
+  crime_rate: {
+    label: "Crime Rate per 1,000",
+    getValue: (e) => e.ward.crime_rate_per_1000 ?? 0,
+    format: (n) => n.toFixed(1),
+    higherBetter: false,
+  },
 };
 
 const PAGE_SIZE = 50;
