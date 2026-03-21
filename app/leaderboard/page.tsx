@@ -136,9 +136,14 @@ export default function LeaderboardPage() {
       <div style={{ maxWidth: 800, margin: "0 auto", padding: "24px 16px" }}>
         {/* Header */}
         <div style={{ marginBottom: 24 }}>
-          <Link href="/" style={{ color: "var(--accent-light)", textDecoration: "none", fontSize: 12 }}>
-            &larr; Back to Map
-          </Link>
+          <div style={{ display: "flex", gap: 16, alignItems: "center", marginBottom: 8 }}>
+            <Link href="/" style={{ color: "var(--accent-light)", textDecoration: "none", fontSize: 12 }}>
+              &larr; Back to Map
+            </Link>
+            <Link href="/leaderboard/wards" style={{ color: "var(--accent-light)", textDecoration: "none", fontSize: 12 }}>
+              Ward Leaderboard
+            </Link>
+          </div>
           <h1 style={{ fontSize: 24, fontWeight: 700, color: "var(--text-bright)", marginTop: 8 }}>
             District Leaderboard
           </h1>
