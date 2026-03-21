@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useMapState } from "@/hooks/useMapState";
 import { useComparison } from "@/hooks/useComparison";
@@ -334,6 +335,15 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
           <ChoroplethControls panelOpen={panelOpen} inline />
 
           <div className="capsule" style={{ gap: 3 }}>
+            <Link
+              href="/leaderboard/wards"
+              className="capsule-btn"
+              style={{ textDecoration: "none" }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8 21V11"/><path d="M12 21V3"/><path d="M16 21v-5"/></svg>
+              Leaderboard
+            </Link>
+            <span className="capsule-sep" />
             <button
               aria-label="Toggle comparison mode"
               aria-pressed={comparison.isComparing}
@@ -400,6 +410,17 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
 
           <div className="mobile-control-block">
             <ChoroplethControls panelOpen={panelOpen} inline />
+          </div>
+
+          <div className="mobile-control-block">
+            <Link
+              href="/leaderboard/wards"
+              className="btn-map mobile-control-button"
+              style={{ textDecoration: "none", textAlign: "center", display: "block" }}
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              🏆 Ward Leaderboard
+            </Link>
           </div>
 
           <div className="mobile-control-block">
