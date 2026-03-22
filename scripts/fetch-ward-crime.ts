@@ -1,8 +1,8 @@
 /**
  * Fetch ward-level crime data from data.police.uk API and merge into ward JSON files.
  *
- * Downloads 12 months of crime data for each of the 462 wards using centroid lat/lng,
- * aggregates by crime category, and writes updated ward JSON files.
+ * Downloads 12 months of crime data for each of the 462 wards using polygon boundary
+ * queries (poly= parameter), aggregates by crime category, and writes updated ward JSON files.
  *
  * Run with:  npx tsx scripts/fetch-ward-crime.ts
  */
@@ -97,25 +97,42 @@ function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function calculateCentroid(geometry: GeoFeature["geometry"]): [number, number] {
-  // Get all coordinate rings
-  let coords: number[][];
+/**
+ * Get the outer ring of coordinates for a ward boundary.
+ * For MultiPolygon, uses the largest polygon (by vertex count).
+ * Returns coordinates in GeoJSON order [lng, lat].
+ */
+function getOuterRing(geometry: GeoFeature["geometry"]): number[][] {
   if (geometry.type === "MultiPolygon") {
-    // MultiPolygon: number[][][][]
-    coords = (geometry.coordinates as number[][][][]).flat(2);
-  } else {
-    // Polygon: number[][][]
-    coords = (geometry.coordinates as number[][][]).flat();
+    const polys = geometry.coordinates as number[][][][];
+    let largest = polys[0][0];
+    for (let i = 1; i < polys.length; i++) {
+      if (polys[i][0].length > largest.length) {
+        largest = polys[i][0];
+      }
+    }
+    return largest;
   }
+  // Polygon: coordinates[0] is outer ring
+  return (geometry.coordinates as number[][][])[0];
+}
 
-  let sumLng = 0;
-  let sumLat = 0;
-  for (const [lng, lat] of coords) {
-    sumLng += lng;
-    sumLat += lat;
+const MAX_POLY_VERTICES = 150;
+
+/**
+ * Build the poly= query parameter from an outer ring of GeoJSON coordinates.
+ * Converts from [lng, lat] to "lat,lng" pairs joined by colons.
+ * Simplifies by taking every Nth point if over MAX_POLY_VERTICES.
+ */
+function buildPolyParam(ring: number[][]): string {
+  let points = ring;
+  if (points.length > MAX_POLY_VERTICES) {
+    const step = Math.ceil(points.length / MAX_POLY_VERTICES);
+    points = points.filter((_, i) => i % step === 0);
   }
-  const n = coords.length;
-  return [sumLat / n, sumLng / n]; // [lat, lng]
+  return points
+    .map(([lng, lat]) => `${lat.toFixed(6)},${lng.toFixed(6)}`)
+    .join(":");
 }
 
 async function fetchWithRetry(url: string, retries = MAX_RETRIES): Promise<CrimeRecord[]> {
@@ -256,11 +273,11 @@ async function main() {
     });
   }
 
-  // Build ward list with centroids
+  // Build ward list with boundary polygons
   interface WardTask {
     lgd: string;
     wardName: string;
-    centroid: [number, number]; // [lat, lng]
+    outerRing: number[][]; // GeoJSON [lng, lat] coordinates
     population: number;
     wardIndex: number; // index in district wards array
   }
@@ -270,7 +287,7 @@ async function main() {
   for (const feature of WARDS_GEO.features) {
     const lgd = feature.properties.lgd;
     const wardName = feature.properties.name;
-    const centroid = calculateCentroid(feature.geometry);
+    const outerRing = getOuterRing(feature.geometry);
 
     // Find matching ward in data files
     const district = districtData.get(lgd.toLowerCase());
@@ -292,7 +309,7 @@ async function main() {
     wardTasks.push({
       lgd,
       wardName,
-      centroid,
+      outerRing,
       population,
       wardIndex,
     });
@@ -320,9 +337,10 @@ async function main() {
     const allCrimes: CrimeRecord[] = [];
     const seenIds = new Set<number>();
 
+    const polyParam = buildPolyParam(task.outerRing);
+
     for (const month of MONTHS) {
-      const [lat, lng] = task.centroid;
-      const url = `${API_BASE}?lat=${lat.toFixed(6)}&lng=${lng.toFixed(6)}&date=${month}`;
+      const url = `${API_BASE}?poly=${polyParam}&date=${month}`;
 
       const crimes = await fetchWithRetry(url);
 
