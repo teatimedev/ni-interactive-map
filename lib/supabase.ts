@@ -49,10 +49,7 @@ export const ALL_TAGS = Object.entries(TAG_CATEGORIES).flatMap(([cat, { tags }])
 export const MAX_TAG_LENGTH = 30;
 export const MIN_TAG_LENGTH = 3;
 
-const BLOCKED_WORDS = [
-  "fuck", "shit", "cunt", "nigger", "faggot", "retard", "spastic",
-  "kill", "bomb", "rape", "nazi", "kys",
-];
+import { BLOCKED_WORDS } from "@/lib/api-utils";
 
 export function validateCustomTag(tag: string): { valid: boolean; error?: string } {
   const trimmed = tag.trim();
