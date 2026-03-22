@@ -3,7 +3,9 @@
 import type { District, Ward } from "@/lib/types";
 import { fmtPct } from "@/lib/utils";
 import StatCard from "@/components/ui/StatCard";
+import ComparisonStatCard from "@/components/ui/ComparisonStatCard";
 import SectionWrapper from "@/components/ui/SectionWrapper";
+import { NI_AVG } from "@/lib/ni-averages";
 import BarChart from "@/components/Charts/BarChart";
 
 interface EducationTabProps {
@@ -28,7 +30,13 @@ function DistrictEducation({ data }: { data: District }) {
     <>
       <SectionWrapper title="Qualifications" source="Census 2021">
         <div className="grid grid-cols-2 gap-2 mb-3">
-          <StatCard value={fmtPct(e.degree_plus_pct)} label="Degree+" />
+          <ComparisonStatCard
+            value={e.degree_plus_pct}
+            label="Degree+"
+            format={fmtPct}
+            niAvg={NI_AVG.degree_pct}
+            higherBetter={true}
+          />
           <StatCard value={fmtPct(e.no_qualifications_pct)} label="No Quals" />
         </div>
       </SectionWrapper>
@@ -52,7 +60,13 @@ function WardEducation({ ward }: { ward: Ward }) {
     <>
       <SectionWrapper title="Qualifications">
         <div className="grid grid-cols-2 gap-2 mb-3">
-          <StatCard value={fmtPct(ward.level_4_plus_pct)} label="Degree+" />
+          <ComparisonStatCard
+            value={ward.level_4_plus_pct}
+            label="Degree+"
+            format={fmtPct}
+            niAvg={NI_AVG.degree_pct}
+            higherBetter={true}
+          />
           <StatCard
             value={fmtPct(ward.no_qualifications_pct)}
             label="No Quals"

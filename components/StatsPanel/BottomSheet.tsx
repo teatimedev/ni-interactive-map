@@ -124,6 +124,7 @@ export default function BottomSheet({
         style={{
           transform: `translateY(${dragOffset}px)`,
           transition: draggingRef.current ? "none" : "transform 280ms cubic-bezier(0.4, 0, 0.2, 1)",
+          pointerEvents: "auto",
         }}
       >
         <div

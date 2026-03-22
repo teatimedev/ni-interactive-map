@@ -3,7 +3,9 @@
 import type { District, Ward } from "@/lib/types";
 import { fmt } from "@/lib/utils";
 import StatCard from "@/components/ui/StatCard";
+import ComparisonStatCard from "@/components/ui/ComparisonStatCard";
 import StatRow from "@/components/ui/StatRow";
+import { NI_AVG } from "@/lib/ni-averages";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import BarChart from "@/components/Charts/BarChart";
 
@@ -53,9 +55,12 @@ export default function CrimeTab({ data, ward }: CrimeTabProps) {
         <SectionWrapper title="Recorded Crime" source="data.police.uk">
           <div className="stat-cards">
             <StatCard value={fmt(ward.crime_total)} label="Total Crimes" />
-            <StatCard
-              value={ward.crime_rate_per_1000!.toFixed(1)}
+            <ComparisonStatCard
+              value={ward.crime_rate_per_1000!}
               label="per 1,000 pop."
+              format={(n) => n.toFixed(1)}
+              niAvg={NI_AVG.crime_rate_per_1000}
+              higherBetter={false}
             />
           </div>
           {ward.crime_period && (
@@ -112,9 +117,12 @@ export default function CrimeTab({ data, ward }: CrimeTabProps) {
       <SectionWrapper title="Recorded Crime" source="PSNI 2024/25">
         <div className="stat-cards">
           <StatCard value={fmt(c.total_recorded)} label="Total Offences" />
-          <StatCard
-            value={c.rate_per_1000.toFixed(1)}
+          <ComparisonStatCard
+            value={c.rate_per_1000}
             label="per 1,000 pop."
+            format={(n) => n.toFixed(1)}
+            niAvg={NI_AVG.crime_rate_per_1000}
+            higherBetter={false}
           />
         </div>
         {c.period && (

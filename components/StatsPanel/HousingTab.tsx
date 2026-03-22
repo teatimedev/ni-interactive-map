@@ -3,7 +3,9 @@
 import type { District, Ward } from "@/lib/types";
 import { fmtMoney } from "@/lib/utils";
 import StatCard from "@/components/ui/StatCard";
+import ComparisonStatCard from "@/components/ui/ComparisonStatCard";
 import SectionWrapper from "@/components/ui/SectionWrapper";
+import { NI_AVG } from "@/lib/ni-averages";
 import StackedBar from "@/components/Charts/StackedBar";
 
 interface HousingTabProps {
@@ -24,8 +26,20 @@ function DistrictHousing({ data }: { data: District }) {
     <>
       <SectionWrapper title="House Prices">
         <div className="stat-cards">
-          <StatCard value={fmtMoney(h.median_house_price)} label="Median" />
-          <StatCard value={fmtMoney(h.avg_house_price)} label="Average" />
+          <ComparisonStatCard
+            value={h.median_house_price}
+            label="Median"
+            format={fmtMoney}
+            niAvg={NI_AVG.median_house_price}
+            higherBetter={true}
+          />
+          <ComparisonStatCard
+            value={h.avg_house_price}
+            label="Average"
+            format={fmtMoney}
+            niAvg={NI_AVG.avg_house_price}
+            higherBetter={true}
+          />
         </div>
         {h.price_year && (
           <p className="text-[11px] text-[#888] mt-1">

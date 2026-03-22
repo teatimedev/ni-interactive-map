@@ -4,7 +4,9 @@ import type { District, Ward } from "@/lib/types";
 import { fmt, fmtPct, fmtMoney } from "@/lib/utils";
 import { getPartyColor } from "@/lib/colors";
 import StatCard from "@/components/ui/StatCard";
+import ComparisonStatCard from "@/components/ui/ComparisonStatCard";
 import StatRow from "@/components/ui/StatRow";
+import { NI_AVG } from "@/lib/ni-averages";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import DeprivationMeter from "@/components/ui/DeprivationMeter";
 import WardRankCard from "@/components/ui/WardRankCard";
@@ -63,18 +65,31 @@ function DistrictOverview({ data }: { data: District }) {
       </SectionWrapper>
 
       <SectionWrapper title="Economy" source="ASHE 2024 / Census 2021">
-        <StatRow
-          label="Median Earnings"
-          value={fmtMoney(data.median_annual_earnings_residence)}
-        />
-        <StatRow
-          label="Employment Rate"
-          value={fmtPct(data.employment_rate_pct)}
-        />
-        <StatRow
-          label="Unemployment"
-          value={fmtPct(data.unemployment_rate_census_pct)}
-        />
+        <div className="stat-cards">
+          <ComparisonStatCard
+            value={data.median_annual_earnings_residence}
+            label="Median Earnings"
+            format={fmtMoney}
+            niAvg={NI_AVG.median_earnings}
+            higherBetter={true}
+          />
+          <ComparisonStatCard
+            value={data.employment_rate_pct}
+            label="Employment"
+            format={fmtPct}
+            niAvg={NI_AVG.employment_rate}
+            higherBetter={true}
+          />
+        </div>
+        <div className="stat-cards" style={{ marginTop: 10 }}>
+          <ComparisonStatCard
+            value={data.unemployment_rate_census_pct}
+            label="Unemployment"
+            format={fmtPct}
+            niAvg={NI_AVG.unemployment_rate}
+            higherBetter={false}
+          />
+        </div>
       </SectionWrapper>
 
       <SectionWrapper title="Deprivation (NIMDM 2017)">
