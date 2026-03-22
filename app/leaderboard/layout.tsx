@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { LeaderboardScrollFix } from "./LeaderboardScrollFix";
 
 export const metadata: Metadata = {
   title: "District Leaderboard — The Big Dirty NI Map",
@@ -11,5 +12,10 @@ export const metadata: Metadata = {
 };
 
 export default function LeaderboardLayout({ children }: { children: React.ReactNode }) {
-  return children;
+  return (
+    <>
+      <LeaderboardScrollFix />
+      {children}
+    </>
+  );
 }
