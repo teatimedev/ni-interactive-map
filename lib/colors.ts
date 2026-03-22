@@ -73,9 +73,11 @@ export const CHOROPLETH_CONFIGS: Record<ChoroplethMetric, ChoroplethConfigFull> 
   crime_rate: {
     label: "Crime Rate per 1,000",
     key: (d) => d.crime?.rate_per_1000,
-    wardKey: null,
+    wardKey: (w) => w?.crime_rate_per_1000 ?? null,
     min: 20,
     max: 80,
+    wardMin: 0,
+    wardMax: 200,
     color: [160, 30, 30],
   },
   degree_pct: {
