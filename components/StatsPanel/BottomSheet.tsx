@@ -14,10 +14,12 @@ interface BottomSheetProps {
   title: string;
   subtitle?: string;
   tabs: Tab[];
+  summary?: ReactNode;
 }
 
 const CLOSE_THRESHOLD = 72;
 const VELOCITY_THRESHOLD = 0.45;
+const EXPAND_THRESHOLD = 50;
 
 export default function BottomSheet({
   isOpen,
@@ -25,8 +27,10 @@ export default function BottomSheet({
   title,
   subtitle,
   tabs,
+  summary,
 }: BottomSheetProps) {
   const [activeTab, setActiveTab] = useState<string>(tabs[0]?.id ?? "");
+  const [collapsed, setCollapsed] = useState(true);
   const [dragOffset, setDragOffset] = useState(0);
   const startYRef = useRef(0);
   const startTimeRef = useRef(0);
@@ -38,8 +42,11 @@ export default function BottomSheet({
     }
   }, [tabs]);
 
+  // Reset to collapsed when opening
   useEffect(() => {
-    if (!isOpen) {
+    if (isOpen) {
+      setCollapsed(true);
+    } else {
       setDragOffset(0);
       draggingRef.current = false;
     }
@@ -54,7 +61,14 @@ export default function BottomSheet({
   function handleTouchMove(e: React.TouchEvent<HTMLDivElement>) {
     if (!draggingRef.current) return;
     const deltaY = e.touches[0].clientY - startYRef.current;
-    setDragOffset(Math.max(0, deltaY));
+
+    if (collapsed) {
+      // In collapsed: allow drag up (negative) or drag down (positive)
+      setDragOffset(deltaY);
+    } else {
+      // In expanded: only allow drag down (positive)
+      setDragOffset(Math.max(0, deltaY));
+    }
   }
 
   function handleTouchEnd(e: React.TouchEvent<HTMLDivElement>) {
@@ -65,24 +79,48 @@ export default function BottomSheet({
     const elapsed = e.timeStamp - startTimeRef.current;
     const velocity = elapsed > 0 ? deltaY / elapsed : 0;
 
-    if (deltaY > CLOSE_THRESHOLD || velocity > VELOCITY_THRESHOLD) {
-      setDragOffset(0);
-      onClose();
-      return;
+    if (collapsed) {
+      // Drag up from collapsed → expand
+      if (deltaY < -EXPAND_THRESHOLD || velocity < -VELOCITY_THRESHOLD) {
+        setDragOffset(0);
+        setCollapsed(false);
+        return;
+      }
+      // Drag down from collapsed → close
+      if (deltaY > CLOSE_THRESHOLD || velocity > VELOCITY_THRESHOLD) {
+        setDragOffset(0);
+        onClose();
+        return;
+      }
+    } else {
+      // Drag down from expanded → collapse (not close)
+      if (deltaY > CLOSE_THRESHOLD || velocity > VELOCITY_THRESHOLD) {
+        setDragOffset(0);
+        setCollapsed(true);
+        return;
+      }
     }
 
     setDragOffset(0);
+  }
+
+  function handleCollapsedTap() {
+    if (!draggingRef.current) {
+      setCollapsed(false);
+    }
   }
 
   if (!isOpen) return null;
 
   return (
     <>
-      <div className="panel-mobile-backdrop" onClick={onClose} aria-hidden="true" />
+      {!collapsed && (
+        <div className="panel-mobile-backdrop" onClick={() => setCollapsed(true)} aria-hidden="true" />
+      )}
 
       <div
         id="panel"
-        className="open mobile-bottom-sheet"
+        className={`open mobile-bottom-sheet ${collapsed ? "collapsed" : ""}`}
         style={{
           transform: `translateY(${dragOffset}px)`,
           transition: draggingRef.current ? "none" : "transform 280ms cubic-bezier(0.4, 0, 0.2, 1)",
@@ -93,6 +131,7 @@ export default function BottomSheet({
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
+          onClick={collapsed ? handleCollapsedTap : undefined}
         >
           <div className="bottom-sheet-handle" />
         </div>
@@ -101,9 +140,15 @@ export default function BottomSheet({
           &times;
         </button>
 
-        <div className="panel-header">
+        <div
+          className="panel-header"
+          onClick={collapsed ? handleCollapsedTap : undefined}
+        >
           {subtitle && <div className="panel-type">{subtitle}</div>}
           <h2>{title}</h2>
+          {collapsed && summary && (
+            <div className="bottom-sheet-summary">{summary}</div>
+          )}
         </div>
 
         <div className="tab-bar" role="tablist">

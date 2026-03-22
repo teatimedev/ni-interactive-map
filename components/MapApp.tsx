@@ -16,6 +16,7 @@ import EducationTab from "@/components/StatsPanel/EducationTab";
 import TransportTab from "@/components/StatsPanel/TransportTab";
 import { ComparisonContent } from "@/components/ComparePanel";
 import { LoadingSkeleton } from "@/components/ui/LoadingSkeleton";
+import { computeLivabilityScore, scoreToGrade } from "@/lib/scoring";
 import PinCreator from "@/components/Map/PinCreator";
 import { useAuth } from "@/hooks/useAuth";
 import UserPill from "@/components/UserPill";
@@ -274,6 +275,19 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
       ? wardData.name
       : (districtData?.name ?? "");
 
+  const panelSummary = (() => {
+    if (wardData) {
+      const score = computeLivabilityScore(wardData);
+      const { grade, color } = scoreToGrade(score);
+      return (
+        <span className="bottom-sheet-grade" style={{ color }}>
+          {grade} — {score}/100
+        </span>
+      );
+    }
+    return null;
+  })();
+
   const panelSubtitle =
     compDistrict1 && compDistrict2
       ? "Comparison"
@@ -485,12 +499,19 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
 
       {comparison.isComparing && <ComparePanel />}
 
+      {!panelOpen && (selectedWard || selectedDistrict) && (
+        <button className="reopen-pill" onClick={() => setPanelOpen(true)}>
+          {wardData?.name ?? districtData?.name ?? "View details"} &#9650;
+        </button>
+      )}
+
       <StatsPanel
         isOpen={panelOpen}
         onClose={handleClose}
         title={panelTitle}
         subtitle={panelSubtitle}
         tabs={tabs}
+        summary={panelSummary}
       />
 
       {showAuthModal && <AuthModal onClose={() => setShowAuthModal(false)} />}

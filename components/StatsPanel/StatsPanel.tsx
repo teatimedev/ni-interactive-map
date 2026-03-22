@@ -16,6 +16,7 @@ interface StatsPanelProps {
   subtitle?: string;
   tabs: Tab[];
   population?: string;
+  summary?: ReactNode;
 }
 
 export default function StatsPanel({
@@ -24,6 +25,7 @@ export default function StatsPanel({
   title,
   subtitle,
   tabs,
+  summary,
 }: StatsPanelProps) {
   const [activeTab, setActiveTab] = useState<string>(tabs[0]?.id ?? "");
   const [isMobile, setIsMobile] = useState(false);
@@ -61,6 +63,7 @@ export default function StatsPanel({
         title={title}
         subtitle={subtitle}
         tabs={tabs}
+        summary={summary}
       />
     );
   }

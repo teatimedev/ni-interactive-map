@@ -1117,6 +1117,56 @@ input:focus-visible,
   #panel.mobile-bottom-sheet .panel-footer {
     padding-bottom: calc(16px + env(safe-area-inset-bottom, 0px));
   }
+
+  /* Collapsed / peek state */
+  #panel.mobile-bottom-sheet {
+    transition: height 280ms cubic-bezier(0.4, 0, 0.2, 1),
+                transform 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  #panel.mobile-bottom-sheet.collapsed {
+    height: 130px;
+  }
+  #panel.mobile-bottom-sheet.collapsed .tab-bar,
+  #panel.mobile-bottom-sheet.collapsed .bottom-sheet-content {
+    display: none;
+  }
+  #panel.mobile-bottom-sheet.collapsed .panel-header {
+    cursor: pointer;
+  }
+  .bottom-sheet-summary {
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .bottom-sheet-grade {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Reopen pill */
+  .reopen-pill {
+    position: fixed;
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 900;
+    height: 40px;
+    padding: 0 18px;
+    border: none;
+    border-radius: 20px;
+    background: rgba(30, 30, 30, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+  .reopen-pill:active {
+    background: rgba(50, 50, 50, 0.9);
+  }
+
   .leaflet-control-zoom,
   .leaflet-control-attribution {
     transform: scale(0.92);
