@@ -39,6 +39,8 @@ export default function Search() {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
   const [open, setOpen] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
   const containerRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -96,6 +98,7 @@ export default function Search() {
 
   function handleSelectDistrict(slug: string) {
     setOpen(false);
+    setExpanded(false);
     setQuery("");
     setResults([]);
     selectDistrict(slug);
@@ -105,6 +108,7 @@ export default function Search() {
 
   function handleSelectWard(lgdSlug: string, wardSlug: string) {
     setOpen(false);
+    setExpanded(false);
     setQuery("");
     setResults([]);
     selectDistrict(lgdSlug);
@@ -124,6 +128,7 @@ export default function Search() {
   function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
     if (e.key === "Escape") {
       setOpen(false);
+      setExpanded(false);
       setQuery("");
       setResults([]);
       return;
@@ -144,14 +149,46 @@ export default function Search() {
   }
 
   useEffect(() => {
+    const media = window.matchMedia("(max-width: 768px)");
+    const updateMobile = () => {
+      const mobile = media.matches;
+      setIsMobile(mobile);
+      if (!mobile) {
+        setExpanded(false);
+      }
+    };
+
+    updateMobile();
+    media.addEventListener("change", updateMobile);
+    return () => media.removeEventListener("change", updateMobile);
+  }, []);
+
+  useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
       if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
         setOpen(false);
+        if (isMobile) setExpanded(false);
       }
     }
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
+  }, [isMobile]);
+
+  useEffect(() => {
+    if (!expanded || !isMobile) return;
+    inputRef.current?.focus();
+  }, [expanded, isMobile]);
+
+  function handleExpand() {
+    setExpanded(true);
+  }
+
+  function handleCollapse() {
+    setOpen(false);
+    setExpanded(false);
+    setQuery("");
+    setResults([]);
+  }
 
   const districtResults = results.filter(
     (r): r is DistrictResult => r.type === "district"
@@ -166,8 +203,30 @@ export default function Search() {
   return (
     <div
       ref={containerRef}
-      style={{ position: "fixed", top: 68, left: 16, zIndex: 1000 }}
+      className={`search-container ${expanded ? "is-expanded" : ""}`}
     >
+      {isMobile && !expanded ? (
+        <button
+          type="button"
+          className="search-fab"
+          aria-label="Open search"
+          onClick={handleExpand}
+        >
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </button>
+      ) : (
       <div style={{ position: "relative" }}>
         <svg
           style={{ position: "absolute", left: 10, top: "50%", transform: "translateY(-50%)", pointerEvents: "none" }}
@@ -194,6 +253,15 @@ export default function Search() {
           value={query}
           onChange={handleChange}
           onKeyDown={handleKeyDown}
+          onBlur={() => {
+            if (isMobile && !query.trim()) {
+              window.setTimeout(() => {
+                if (!containerRef.current?.contains(document.activeElement)) {
+                  handleCollapse();
+                }
+              }, 0);
+            }
+          }}
           placeholder="Search districts and wards..."
           className="btn-map"
           style={{
@@ -201,7 +269,19 @@ export default function Search() {
             width: 220, outline: "none",
           }}
         />
+        {isMobile && (
+          <button
+            type="button"
+            className="search-close"
+            aria-label="Close search"
+            onMouseDown={(e) => e.preventDefault()}
+            onClick={handleCollapse}
+          >
+            &times;
+          </button>
+        )}
       </div>
+      )}
 
       {open && results.length > 0 && (
         <div className="search-dropdown" style={{ background: "#2a2a2a", border: "1px solid #444", borderRadius: 6, marginTop: 4, boxShadow: "0 4px 12px rgba(0,0,0,0.4)", maxHeight: 300, overflowY: "auto" }} role="listbox">

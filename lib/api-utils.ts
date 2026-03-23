@@ -1,8 +1,10 @@
 import crypto from "crypto";
 import { NextRequest } from "next/server";
 
+const IP_SALT = process.env.IP_HASH_SALT ?? "ni-map-salt";
+
 export function hashIp(ip: string): string {
-  return crypto.createHash("sha256").update(ip + "ni-map-salt").digest("hex").slice(0, 16);
+  return crypto.createHash("sha256").update(ip + IP_SALT).digest("hex").slice(0, 16);
 }
 
 export function getClientIp(request: NextRequest): string {

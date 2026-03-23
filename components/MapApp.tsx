@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useMapState } from "@/hooks/useMapState";
 import { useComparison } from "@/hooks/useComparison";
@@ -15,6 +16,7 @@ import EducationTab from "@/components/StatsPanel/EducationTab";
 import TransportTab from "@/components/StatsPanel/TransportTab";
 import { ComparisonContent } from "@/components/ComparePanel";
 import { LoadingSkeleton } from "@/components/ui/LoadingSkeleton";
+import { computeLivabilityScore, scoreToGrade } from "@/lib/scoring";
 import PinCreator from "@/components/Map/PinCreator";
 import { useAuth } from "@/hooks/useAuth";
 import UserPill from "@/components/UserPill";
@@ -69,6 +71,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
   const [initialised, setInitialised] = useState(false);
   const [wardLoadFailed, setWardLoadFailed] = useState(false);
   const [pinRefreshKey, setPinRefreshKey] = useState(0);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   // Initialise from route props on first mount
   useEffect(() => {
@@ -136,6 +139,19 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     if (comparison.selections.length === 2) setPanelOpen(true);
   }, [comparison.selections]);
 
+  useEffect(() => {
+    const media = window.matchMedia("(max-width: 768px)");
+    const handleChange = () => {
+      if (!media.matches) {
+        setMobileMenuOpen(false);
+      }
+    };
+
+    handleChange();
+    media.addEventListener("change", handleChange);
+    return () => media.removeEventListener("change", handleChange);
+  }, []);
+
   function handleClose() {
     setPanelOpen(false);
   }
@@ -145,6 +161,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     selectDistrict(null);
     selectWard(null);
     setPanelOpen(false);
+    setMobileMenuOpen(false);
   }
 
   async function handleRetry() {
@@ -157,15 +174,23 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
   function handleTogglePinMode() {
     if (!user) {
       setShowAuthModal(true);
+      setMobileMenuOpen(false);
       return;
     }
     if (comparison.isComparing) comparison.toggleCompareMode();
     togglePinMode();
+    setMobileMenuOpen(false);
   }
 
   function handleToggleCompare() {
     if (isPinMode) togglePinMode();
     comparison.toggleCompareMode();
+    setMobileMenuOpen(false);
+  }
+
+  function handleOpenAuth() {
+    setShowAuthModal(true);
+    setMobileMenuOpen(false);
   }
 
   function handlePinCreated() {
@@ -222,6 +247,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
         { id: "demographics", label: "Demographics", content: <DemographicsTab data={null} ward={wardData} /> },
         { id: "housing", label: "Housing", content: <HousingTab data={null} ward={wardData} /> },
         { id: "health", label: "Health", content: <HealthTab data={null} ward={wardData} /> },
+        { id: "crime", label: "Crime", content: <CrimeTab data={null} ward={wardData} /> },
         { id: "education", label: "Education", content: <EducationTab data={null} ward={wardData} /> },
         { id: "transport", label: "Transport", content: <TransportTab data={null} ward={wardData} /> },
       ];
@@ -249,6 +275,19 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
       ? wardData.name
       : (districtData?.name ?? "");
 
+  const panelSummary = (() => {
+    if (wardData) {
+      const score = computeLivabilityScore(wardData);
+      const { grade, color } = scoreToGrade(score);
+      return (
+        <span className="bottom-sheet-grade" style={{ color }}>
+          {grade} — {score}/100
+        </span>
+      );
+    }
+    return null;
+  })();
+
   const panelSubtitle =
     compDistrict1 && compDistrict2
       ? "Comparison"
@@ -274,13 +313,34 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
           <span className="capsule-sub">NI Boundary Map</span>
         </div>
 
-        <div className="top-nav-right">
+        <button
+          type="button"
+          className="mobile-menu-trigger"
+          aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={mobileMenuOpen}
+          onClick={() => setMobileMenuOpen((open) => !open)}
+        >
+          {mobileMenuOpen ? (
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
+              <path d="M18 6L6 18" />
+              <path d="M6 6l12 12" />
+            </svg>
+          ) : (
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
+              <path d="M4 7h16" />
+              <path d="M4 12h16" />
+              <path d="M4 17h16" />
+            </svg>
+          )}
+        </button>
+
+        <div className="top-nav-right top-nav-desktop">
           {user && username ? (
             <UserPill />
           ) : (
             <button
               className="capsule-btn"
-              onClick={() => setShowAuthModal(true)}
+              onClick={handleOpenAuth}
               style={{ background: "var(--bg-control)", border: "1px solid var(--border-medium)", borderRadius: 20, padding: "4px 12px", fontSize: 12 }}
             >
               Sign in
@@ -290,6 +350,15 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
           <ChoroplethControls panelOpen={panelOpen} inline />
 
           <div className="capsule" style={{ gap: 3 }}>
+            <Link
+              href="/leaderboard/wards"
+              className="capsule-btn"
+              style={{ textDecoration: "none" }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8 21V11"/><path d="M12 21V3"/><path d="M16 21v-5"/></svg>
+              Leaderboard
+            </Link>
+            <span className="capsule-sep" />
             <button
               aria-label="Toggle comparison mode"
               aria-pressed={comparison.isComparing}
@@ -325,6 +394,86 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
         </div>
       </nav>
 
+      {mobileMenuOpen && <button type="button" className="mobile-menu-backdrop" aria-label="Close menu" onClick={() => setMobileMenuOpen(false)} />}
+
+      <div className={`mobile-control-drawer ${mobileMenuOpen ? "open" : ""}`}>
+        <div className="mobile-control-header">
+          <div className="mobile-control-title">Map controls</div>
+          <button
+            type="button"
+            className="mobile-menu-close"
+            aria-label="Close menu"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            &times;
+          </button>
+        </div>
+
+        <div className="mobile-control-body">
+          <div className="mobile-control-block">
+            {user && username ? (
+              <UserPill />
+            ) : (
+              <button
+                className="btn-map mobile-control-button"
+                onClick={handleOpenAuth}
+              >
+                Sign in
+              </button>
+            )}
+          </div>
+
+          <div className="mobile-control-block">
+            <ChoroplethControls panelOpen={panelOpen} inline />
+          </div>
+
+          <div className="mobile-control-block">
+            <Link
+              href="/leaderboard/wards"
+              className="btn-map mobile-control-button"
+              style={{ textDecoration: "none", textAlign: "center", display: "block" }}
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              🏆 Ward Leaderboard
+            </Link>
+          </div>
+
+          <div className="mobile-control-block">
+            <button
+              aria-label="Toggle comparison mode"
+              aria-pressed={comparison.isComparing}
+              className={`btn-map mobile-control-button ${comparison.isComparing ? "active" : ""}`}
+              onClick={handleToggleCompare}
+            >
+              Compare
+            </button>
+          </div>
+
+          <div className="mobile-control-block">
+            <button
+              aria-label="Toggle pin dropping mode"
+              aria-pressed={isPinMode}
+              className={`btn-map mobile-control-button ${isPinMode ? "active" : ""}`}
+              onClick={handleTogglePinMode}
+            >
+              Drop Pin
+            </button>
+          </div>
+
+          {currentView !== "districts" && (
+            <div className="mobile-control-block">
+              <button
+                aria-label="Return to all districts"
+                className="btn-map mobile-control-button"
+                onClick={handleBack}
+              >
+                Back
+              </button>
+            </div>
+          )}
+        </div>
+      </div>
+
       {/* Pin mode hint */}
       {isPinMode && !pendingPin && (
         <div className="pin-hint">Tap the map to place your pin</div>
@@ -350,12 +499,19 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
 
       {comparison.isComparing && <ComparePanel />}
 
+      {!panelOpen && (selectedWard || selectedDistrict) && (
+        <button className="reopen-pill" onClick={() => setPanelOpen(true)}>
+          {wardData?.name ?? districtData?.name ?? "View details"} &#9650;
+        </button>
+      )}
+
       <StatsPanel
         isOpen={panelOpen}
         onClose={handleClose}
         title={panelTitle}
         subtitle={panelSubtitle}
         tabs={tabs}
+        summary={panelSummary}
       />
 
       {showAuthModal && <AuthModal onClose={() => setShowAuthModal(false)} />}

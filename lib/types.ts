@@ -165,6 +165,21 @@ export interface Ward {
   access_rank: number;
   living_env_rank: number;
   crime_rank: number;
+  // Crime data (data.police.uk, 12-month rolling)
+  crime_total?: number;
+  crime_rate_per_1000?: number;
+  crime_asb?: number;
+  crime_violent?: number;
+  crime_burglary?: number;
+  crime_criminal_damage?: number;
+  crime_drugs?: number;
+  crime_theft?: number;
+  crime_vehicle?: number;
+  crime_public_order?: number;
+  crime_robbery?: number;
+  crime_weapons?: number;
+  crime_other?: number;
+  crime_period?: string; // e.g. "Jul 2024 – Jun 2025"
 }
 
 export interface WardWithGeometry extends Ward {

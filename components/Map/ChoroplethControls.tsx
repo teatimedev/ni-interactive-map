@@ -39,6 +39,7 @@ export default function ChoroplethControls({ panelOpen, inline }: ChoroplethCont
             <optgroup label="Ward level">
               <option value="population_density">Population Density</option>
               <option value="deprivation">Deprivation Rank</option>
+              <option value="crime_rate">Crime Rate</option>
               <option value="degree_pct">% Degree-Educated</option>
               <option value="no_car_pct">% No Car</option>
               <option value="catholic_pct">% Catholic</option>
@@ -50,7 +51,6 @@ export default function ChoroplethControls({ panelOpen, inline }: ChoroplethCont
             <optgroup label="District only">
               <option value="median_income">Median Income</option>
               <option value="house_price">House Prices</option>
-              <option value="crime_rate">Crime Rate</option>
             </optgroup>
           )}
           {!isDrillView && (
@@ -94,6 +94,7 @@ export default function ChoroplethControls({ panelOpen, inline }: ChoroplethCont
           <optgroup label="Ward level">
             <option value="population_density">Population Density</option>
             <option value="deprivation">Deprivation Rank</option>
+            <option value="crime_rate">Crime Rate</option>
             <option value="degree_pct">% Degree-Educated</option>
             <option value="no_car_pct">% No Car</option>
             <option value="catholic_pct">% Catholic</option>
@@ -105,7 +106,6 @@ export default function ChoroplethControls({ panelOpen, inline }: ChoroplethCont
           <optgroup label="District only">
             <option value="median_income">Median Income</option>
             <option value="house_price">House Prices</option>
-            <option value="crime_rate">Crime Rate</option>
           </optgroup>
         )}
         {!isDrillView && (
