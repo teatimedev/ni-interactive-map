@@ -29,7 +29,7 @@ const HOVER_STYLE: PathOptions = {
 };
 
 export default function DistrictLayer() {
-  const { currentView, selectDistrict, selectWard, setView, loadWardData } = useMapState();
+  const { currentView, selectedDistrict, selectDistrict, selectWard, setView, loadWardData } = useMapState();
   const { metric } = useChoropleth();
   const { isComparing, addSelection } = useComparison();
   const map = useMap();
@@ -59,9 +59,17 @@ export default function DistrictLayer() {
     return rankMap.get(val) ?? null;
   }
 
+  function isSelected(feature?: Feature): boolean {
+    if (!isDrillView || !selectedDistrict || !feature?.properties?.name) return false;
+    return slugify(feature.properties.name as string) === selectedDistrict;
+  }
+
   function getStyle(feature?: Feature): PathOptions {
-    // When drilled into a district, show muted boundaries so wards are prominent
+    // When drilled into a district, highlight the selected one, mute others
     if (isDrillView) {
+      if (isSelected(feature)) {
+        return { color: "#f5c842", weight: 3, dashArray: "6 4", fillColor: "transparent", fillOpacity: 0 };
+      }
       return { color: "#333", weight: 0.5, fillColor: "transparent", fillOpacity: 0 };
     }
     const t = getDistrictT(feature);
@@ -75,8 +83,10 @@ export default function DistrictLayer() {
   }
 
   function getHoverStyle(feature?: Feature): PathOptions {
-    // Keep transparent when drilled into a district so wards stay visible
     if (isDrillView) {
+      if (isSelected(feature)) {
+        return { color: "#f5c842", weight: 3.5, dashArray: "6 4", fillColor: "transparent", fillOpacity: 0 };
+      }
       return { color: "#666", weight: 1.5, fillColor: "transparent", fillOpacity: 0 };
     }
     const t = getDistrictT(feature);
@@ -112,6 +122,8 @@ export default function DistrictLayer() {
         ? val.toLocaleString()
         : metric === "crime_rate"
         ? val.toFixed(1)
+        : metric === "livability"
+        ? `${val}/100`
         : `${val.toFixed(1)}%`;
 
     return `${name}<br/><span style="color:#aaa">${config.label}: ${formatted}</span>`;
@@ -120,17 +132,25 @@ export default function DistrictLayer() {
   function onEachFeature(feature: Feature, layer: Layer) {
     const path = layer as L.Path;
 
-    // In drill view, don't attach any event handlers so ward layer receives events
-    if (isDrillView) return;
-
-    const tooltipContent = getTooltipContent(feature);
-    if (tooltipContent) {
-      (layer as L.Layer).bindTooltip(tooltipContent, {
-        sticky: true,
-        direction: "top",
-        offset: [0, -10],
-        className: "map-tooltip",
-      });
+    if (isSelected(feature)) {
+      const name = feature.properties?.name as string | undefined;
+      if (name) {
+        (layer as L.Layer).bindTooltip(name, {
+          permanent: true,
+          direction: "center",
+          className: "selected-label",
+        });
+      }
+    } else {
+      const tooltipContent = getTooltipContent(feature);
+      if (tooltipContent) {
+        (layer as L.Layer).bindTooltip(tooltipContent, {
+          sticky: true,
+          direction: "top",
+          offset: [0, -10],
+          className: "map-tooltip",
+        });
+      }
     }
 
     path.on("mouseover", (e: LeafletMouseEvent) => {
@@ -172,7 +192,7 @@ export default function DistrictLayer() {
 
   return (
     <GeoJSON
-      key={`districts-${metric || "default"}-${isDrillView ? "drill" : "main"}`}
+      key={`districts-${metric || "default"}-${isDrillView ? `drill-${selectedDistrict}` : "main"}`}
       data={geoDistricts}
       style={getStyle}
       onEachFeature={onEachFeature}

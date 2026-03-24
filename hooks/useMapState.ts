@@ -17,6 +17,7 @@ interface MapState {
   isLoadingWards: boolean;
   isPinMode: boolean;
   pendingPin: { lat: number; lng: number } | null;
+  pendingFlyTo: string | null;
 }
 
 interface MapStateActions {
@@ -28,6 +29,8 @@ interface MapStateActions {
   togglePinMode: () => void;
   setPendingPin: (coords: { lat: number; lng: number } | null) => void;
   clearPendingPin: () => void;
+  flyToDistrict: (slug: string) => void;
+  clearPendingFlyTo: () => void;
 }
 
 type MapStateContextValue = MapState & MapStateActions;
@@ -48,6 +51,7 @@ export function useMapStateProvider(): MapStateContextValue {
   const [wardCache, setWardCache] = useState<Map<string, WardCache>>(new Map());
   const [isPinMode, setIsPinMode] = useState(false);
   const [pendingPin, setPendingPinState] = useState<{ lat: number; lng: number } | null>(null);
+  const [pendingFlyTo, setPendingFlyTo] = useState<string | null>(null);
 
   const cacheRef = useRef<Map<string, WardCache>>(new Map());
 
@@ -78,6 +82,14 @@ export function useMapStateProvider(): MapStateContextValue {
 
   function clearPendingPin() {
     setPendingPinState(null);
+  }
+
+  function flyToDistrict(slug: string) {
+    setPendingFlyTo(slug);
+  }
+
+  function clearPendingFlyTo() {
+    setPendingFlyTo(null);
   }
 
   async function loadWardData(lgdSlug: string): Promise<WardCache | null> {
@@ -124,6 +136,7 @@ export function useMapStateProvider(): MapStateContextValue {
     isLoadingWards,
     isPinMode,
     pendingPin,
+    pendingFlyTo,
     setView,
     selectDistrict,
     selectWard,
@@ -132,5 +145,7 @@ export function useMapStateProvider(): MapStateContextValue {
     togglePinMode,
     setPendingPin,
     clearPendingPin,
+    flyToDistrict,
+    clearPendingFlyTo,
   };
 }

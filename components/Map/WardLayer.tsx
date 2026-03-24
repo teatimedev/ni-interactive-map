@@ -22,7 +22,7 @@ const HOVER_STYLE: PathOptions = {
 };
 
 export default function WardLayer() {
-  const { currentView, selectedDistrict, wardCache, selectWard, setView } =
+  const { currentView, selectedDistrict, selectedWard, wardCache, selectWard, setView } =
     useMapState();
   const { metric } = useChoropleth();
 
@@ -58,18 +58,45 @@ export default function WardLayer() {
     return wardRankMap.get(val) ?? null;
   }
 
+  function isWardSelected(feature?: Feature): boolean {
+    if (!selectedWard || !feature?.properties?.slug) return false;
+    return feature.properties.slug === selectedWard;
+  }
+
   function getStyle(feature?: Feature): PathOptions {
+    const selected = isWardSelected(feature);
+
+    if (selected) {
+      const t = getWardT(feature);
+      return {
+        color: "#f5c842",
+        weight: 3,
+        dashArray: "6 4",
+        fillColor: t !== null && metric ? choroplethColorFromT(t, CHOROPLETH_CONFIGS[metric].color) : "#4a4a4a",
+        fillOpacity: 0.85,
+      };
+    }
+
+    // Dim non-selected wards when a ward is selected
+    const dimmed = selectedWard != null;
     const t = getWardT(feature);
-    if (t === null || !metric) return DEFAULT_STYLE;
+    if (t === null || !metric) {
+      return dimmed
+        ? { ...DEFAULT_STYLE, fillOpacity: 0.3, opacity: 0.5 }
+        : DEFAULT_STYLE;
+    }
     return {
       color: "#555",
       weight: 1,
       fillColor: choroplethColorFromT(t, CHOROPLETH_CONFIGS[metric].color),
-      fillOpacity: 0.85,
+      fillOpacity: dimmed ? 0.4 : 0.85,
     };
   }
 
   function getHoverStyle(feature?: Feature): PathOptions {
+    if (isWardSelected(feature)) {
+      return { ...getStyle(feature), weight: 3.5 };
+    }
     const t = getWardT(feature);
     if (t === null || !metric) return HOVER_STYLE;
     const tHover = Math.min(1, t + 0.1);
@@ -104,15 +131,27 @@ export default function WardLayer() {
 
   function onEachFeature(feature: Feature, layer: Layer) {
     const path = layer as L.Path;
+    const selected = isWardSelected(feature);
 
-    const tooltipContent = getTooltipContent(feature);
-    if (tooltipContent) {
-      (layer as L.Layer).bindTooltip(tooltipContent, {
-        sticky: true,
-        direction: "top",
-        offset: [0, -10],
-        className: "map-tooltip",
-      });
+    if (selected) {
+      const name = feature.properties?.name as string | undefined;
+      if (name) {
+        (layer as L.Layer).bindTooltip(name, {
+          permanent: true,
+          direction: "center",
+          className: "selected-label",
+        });
+      }
+    } else {
+      const tooltipContent = getTooltipContent(feature);
+      if (tooltipContent) {
+        (layer as L.Layer).bindTooltip(tooltipContent, {
+          sticky: true,
+          direction: "top",
+          offset: [0, -10],
+          className: "map-tooltip",
+        });
+      }
     }
 
     path.on("mouseover", (_e: LeafletMouseEvent) => {
@@ -139,7 +178,7 @@ export default function WardLayer() {
 
   return (
     <GeoJSON
-      key={`wards-${selectedDistrict}-${metric || "default"}`}
+      key={`wards-${selectedDistrict}-${selectedWard || "none"}-${metric || "default"}`}
       data={geoJSON}
       style={getStyle}
       onEachFeature={onEachFeature}

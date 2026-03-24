@@ -107,6 +107,22 @@ body {
 .map-tooltip::before {
   display: none !important;
 }
+.selected-label {
+  background: rgba(0,0,0,0.65) !important;
+  border: 1px solid #f5c842 !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5) !important;
+  color: #f5c842 !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px !important;
+  text-transform: uppercase !important;
+  padding: 3px 8px !important;
+  white-space: nowrap !important;
+}
+.selected-label::before {
+  display: none !important;
+}
 
 /* ===== ANIMATIONS ===== */
 @keyframes slideRight {
