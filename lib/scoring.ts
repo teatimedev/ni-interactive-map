@@ -107,7 +107,7 @@ export function scoreToGrade(score: number): { grade: string; color: string } {
 }
 
 export function getWardRankStats(ward: Ward) {
-  const rank = ward.deprivation_rank;
+  const rank = ward.livability_rank;
   const percentile = Math.round(((TOTAL_WARDS - rank) / TOTAL_WARDS) * 100);
 
   const topThreshold = Math.ceil(TOTAL_WARDS * 0.9);

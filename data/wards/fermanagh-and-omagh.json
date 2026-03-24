@@ -7,7 +7,6 @@
       "name": "BALLINAMALLARD",
       "lgd": "Fermanagh and Omagh",
       "population": 2947,
-      "population_2011": 2946,
       "male": 1471,
       "female": 1476,
       "age_0_15_pct": 17.7,
@@ -353,14 +352,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 117,
+      "crime_rate_per_1000": 39.7,
+      "crime_asb": 36,
+      "crime_violent": 41,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 13,
+      "crime_drugs": 7,
+      "crime_theft": 12,
+      "crime_vehicle": 0,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 45,
+      "livability_rank": 267
     },
     {
       "slug": "belcoo-and-garrison",
       "name": "BELCOO and GARRISON",
       "lgd": "Fermanagh and Omagh",
       "population": 2644,
-      "population_2011": null,
       "male": 1338,
       "female": 1306,
       "age_0_15_pct": 17.6,
@@ -1046,14 +1060,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 63,
+      "crime_rate_per_1000": 23.8,
+      "crime_asb": 12,
+      "crime_violent": 20,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 9,
+      "crime_drugs": 6,
+      "crime_theft": 6,
+      "crime_vehicle": 2,
+      "crime_public_order": 4,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 39,
+      "livability_rank": 315
     },
     {
       "slug": "belleek-and-boa",
       "name": "BELLEEK and BOA",
       "lgd": "Fermanagh and Omagh",
       "population": 3123,
-      "population_2011": null,
       "male": 1588,
       "female": 1535,
       "age_0_15_pct": 18.3,
@@ -1735,14 +1764,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 70,
+      "crime_rate_per_1000": 22.4,
+      "crime_asb": 20,
+      "crime_violent": 24,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 9,
+      "crime_drugs": 2,
+      "crime_theft": 2,
+      "crime_vehicle": 8,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 34,
+      "livability_rank": 354
     },
     {
       "slug": "beragh",
       "name": "BERAGH",
       "lgd": "Fermanagh and Omagh",
       "population": 2912,
-      "population_2011": 2864,
       "male": 1465,
       "female": 1447,
       "age_0_15_pct": 20.7,
@@ -2196,14 +2240,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 78,
+      "crime_rate_per_1000": 26.8,
+      "crime_asb": 18,
+      "crime_violent": 20,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 17,
+      "crime_drugs": 8,
+      "crime_theft": 7,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 45,
+      "livability_rank": 266
     },
     {
       "slug": "boho-cleenish-and-letterbreen",
       "name": "BOHO CLEENISH and LETTERBREEN",
       "lgd": "Fermanagh and Omagh",
       "population": 3466,
-      "population_2011": null,
       "male": 1744,
       "female": 1722,
       "age_0_15_pct": 22.1,
@@ -2865,14 +2924,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 53,
+      "crime_rate_per_1000": 15.3,
+      "crime_asb": 17,
+      "crime_violent": 19,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 2,
+      "crime_drugs": 3,
+      "crime_theft": 6,
+      "crime_vehicle": 1,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 49,
+      "livability_rank": 236
     },
     {
       "slug": "brookeborough",
       "name": "BROOKEBOROUGH",
       "lgd": "Fermanagh and Omagh",
       "population": 2579,
-      "population_2011": 2352,
       "male": 1330,
       "female": 1249,
       "age_0_15_pct": 20.9,
@@ -3510,14 +3584,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 50,
+      "crime_rate_per_1000": 19.4,
+      "crime_asb": 19,
+      "crime_violent": 16,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 8,
+      "crime_drugs": 3,
+      "crime_theft": 2,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 45,
+      "livability_rank": 272
     },
     {
       "slug": "camowen",
       "name": "CAMOWEN",
       "lgd": "Fermanagh and Omagh",
       "population": 3213,
-      "population_2011": 3056,
       "male": 1528,
       "female": 1685,
       "age_0_15_pct": 15.5,
@@ -3671,14 +3760,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 258,
+      "crime_rate_per_1000": 80.3,
+      "crime_asb": 105,
+      "crime_violent": 77,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 26,
+      "crime_drugs": 17,
+      "crime_theft": 14,
+      "crime_vehicle": 1,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 16,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 46,
+      "livability_rank": 264
     },
     {
       "slug": "castlecoole",
       "name": "CASTLECOOLE",
       "lgd": "Fermanagh and Omagh",
       "population": 3203,
-      "population_2011": 3229,
       "male": 1511,
       "female": 1692,
       "age_0_15_pct": 17.9,
@@ -3864,14 +3968,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 181,
+      "crime_rate_per_1000": 56.5,
+      "crime_asb": 54,
+      "crime_violent": 66,
+      "crime_burglary": 6,
+      "crime_criminal_damage": 14,
+      "crime_drugs": 15,
+      "crime_theft": 18,
+      "crime_vehicle": 3,
+      "crime_public_order": 1,
+      "crime_robbery": 1,
+      "crime_weapons": 1,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 53,
+      "livability_rank": 203
     },
     {
       "slug": "coolnagard",
       "name": "COOLNAGARD",
       "lgd": "Fermanagh and Omagh",
       "population": 3410,
-      "population_2011": 3469,
       "male": 1687,
       "female": 1723,
       "age_0_15_pct": 19.1,
@@ -3981,14 +4100,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 250,
+      "crime_rate_per_1000": 73.3,
+      "crime_asb": 81,
+      "crime_violent": 49,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 18,
+      "crime_drugs": 7,
+      "crime_theft": 82,
+      "crime_vehicle": 4,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 51,
+      "livability_rank": 223
     },
     {
       "slug": "dergmoney",
       "name": "DERGMONEY",
       "lgd": "Fermanagh and Omagh",
       "population": 2587,
-      "population_2011": 2458,
       "male": 1304,
       "female": 1283,
       "age_0_15_pct": 14.7,
@@ -4130,14 +4264,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 355,
+      "crime_rate_per_1000": 137.2,
+      "crime_asb": 99,
+      "crime_violent": 118,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 32,
+      "crime_drugs": 24,
+      "crime_theft": 57,
+      "crime_vehicle": 3,
+      "crime_public_order": 3,
+      "crime_robbery": 0,
+      "crime_weapons": 5,
+      "crime_other": 10,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 32,
+      "livability_rank": 359
     },
     {
       "slug": "derrygonnelly",
       "name": "DERRYGONNELLY",
       "lgd": "Fermanagh and Omagh",
       "population": 2898,
-      "population_2011": 2818,
       "male": 1481,
       "female": 1417,
       "age_0_15_pct": 20.4,
@@ -4711,14 +4860,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 95,
+      "crime_rate_per_1000": 32.8,
+      "crime_asb": 29,
+      "crime_violent": 41,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 10,
+      "crime_drugs": 5,
+      "crime_theft": 3,
+      "crime_vehicle": 0,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 54,
+      "livability_rank": 195
     },
     {
       "slug": "derrylin",
       "name": "DERRYLIN",
       "lgd": "Fermanagh and Omagh",
       "population": 2794,
-      "population_2011": 2672,
       "male": 1458,
       "female": 1336,
       "age_0_15_pct": 22.5,
@@ -5120,14 +5284,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 54,
+      "crime_rate_per_1000": 19.3,
+      "crime_asb": 14,
+      "crime_violent": 22,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 6,
+      "crime_drugs": 4,
+      "crime_theft": 4,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 52,
+      "livability_rank": 219
     },
     {
       "slug": "donagh",
       "name": "DONAGH",
       "lgd": "Fermanagh and Omagh",
       "population": 2527,
-      "population_2011": 2387,
       "male": 1283,
       "female": 1244,
       "age_0_15_pct": 20.3,
@@ -5653,14 +5832,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 53,
+      "crime_rate_per_1000": 21,
+      "crime_asb": 23,
+      "crime_violent": 15,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 2,
+      "crime_drugs": 1,
+      "crime_theft": 9,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 44,
+      "livability_rank": 278
     },
     {
       "slug": "dromore",
       "name": "DROMORE",
       "lgd": "Fermanagh and Omagh",
       "population": 2784,
-      "population_2011": 2808,
       "male": 1404,
       "female": 1380,
       "age_0_15_pct": 23.5,
@@ -6134,14 +6328,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 101,
+      "crime_rate_per_1000": 36.3,
+      "crime_asb": 34,
+      "crime_violent": 29,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 7,
+      "crime_drugs": 3,
+      "crime_theft": 17,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 52,
+      "livability_rank": 218
     },
     {
       "slug": "drumnakilly",
       "name": "DRUMNAKILLY",
       "lgd": "Fermanagh and Omagh",
       "population": 3184,
-      "population_2011": 2984,
       "male": 1581,
       "female": 1603,
       "age_0_15_pct": 23.9,
@@ -6523,14 +6732,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 61,
+      "crime_rate_per_1000": 19.2,
+      "crime_asb": 16,
+      "crime_violent": 23,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 4,
+      "crime_drugs": 5,
+      "crime_theft": 5,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 56,
+      "livability_rank": 181
     },
     {
       "slug": "drumquin",
       "name": "DRUMQUIN",
       "lgd": "Fermanagh and Omagh",
       "population": 2910,
-      "population_2011": 2887,
       "male": 1468,
       "female": 1443,
       "age_0_15_pct": 20.7,
@@ -7248,14 +7472,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 43,
+      "crime_rate_per_1000": 14.8,
+      "crime_asb": 12,
+      "crime_violent": 17,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 6,
+      "crime_drugs": 0,
+      "crime_theft": 3,
+      "crime_vehicle": 0,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 42,
+      "livability_rank": 289
     },
     {
       "slug": "ederney-and-kesh",
       "name": "EDERNEY and KESH",
       "lgd": "Fermanagh and Omagh",
       "population": 2774,
-      "population_2011": null,
       "male": 1381,
       "female": 1393,
       "age_0_15_pct": 18.8,
@@ -7569,14 +7808,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 145,
+      "crime_rate_per_1000": 52.3,
+      "crime_asb": 44,
+      "crime_violent": 64,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 7,
+      "crime_drugs": 7,
+      "crime_theft": 10,
+      "crime_vehicle": 1,
+      "crime_public_order": 6,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 39,
+      "livability_rank": 313
     },
     {
       "slug": "erne",
       "name": "ERNE",
       "lgd": "Fermanagh and Omagh",
       "population": 3054,
-      "population_2011": 3101,
       "male": 1474,
       "female": 1580,
       "age_0_15_pct": 16.3,
@@ -7698,14 +7952,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 378,
+      "crime_rate_per_1000": 123.8,
+      "crime_asb": 129,
+      "crime_violent": 108,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 42,
+      "crime_drugs": 36,
+      "crime_theft": 31,
+      "crime_vehicle": 9,
+      "crime_public_order": 3,
+      "crime_robbery": 3,
+      "crime_weapons": 4,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 19,
+      "livability_rank": 429
     },
     {
       "slug": "fairy-water",
       "name": "FAIRY WATER",
       "lgd": "Fermanagh and Omagh",
       "population": 2826,
-      "population_2011": 2838,
       "male": 1432,
       "female": 1394,
       "age_0_15_pct": 17.8,
@@ -8163,14 +8432,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 30,
+      "crime_rate_per_1000": 10.6,
+      "crime_asb": 4,
+      "crime_violent": 10,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 5,
+      "crime_drugs": 1,
+      "crime_theft": 2,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 62,
+      "livability_rank": 146
     },
     {
       "slug": "fintona",
       "name": "FINTONA",
       "lgd": "Fermanagh and Omagh",
       "population": 2553,
-      "population_2011": 2511,
       "male": 1299,
       "female": 1254,
       "age_0_15_pct": 20.9,
@@ -8580,14 +8864,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 94,
+      "crime_rate_per_1000": 36.8,
+      "crime_asb": 28,
+      "crime_violent": 40,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 9,
+      "crime_drugs": 4,
+      "crime_theft": 5,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 4,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 21,
+      "livability_rank": 423
     },
     {
       "slug": "florence-court-and-kinawley",
       "name": "FLORENCE COURT and KINAWLEY",
       "lgd": "Fermanagh and Omagh",
       "population": 2883,
-      "population_2011": null,
       "male": 1473,
       "female": 1410,
       "age_0_15_pct": 20.9,
@@ -9117,14 +9416,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 34,
+      "crime_rate_per_1000": 11.8,
+      "crime_asb": 5,
+      "crime_violent": 14,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 5,
+      "crime_drugs": 1,
+      "crime_theft": 5,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 45,
+      "livability_rank": 274
     },
     {
       "slug": "gortin",
       "name": "GORTIN",
       "lgd": "Fermanagh and Omagh",
       "population": 3304,
-      "population_2011": 3295,
       "male": 1620,
       "female": 1684,
       "age_0_15_pct": 21.4,
@@ -9450,14 +9764,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 113,
+      "crime_rate_per_1000": 34.2,
+      "crime_asb": 24,
+      "crime_violent": 46,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 11,
+      "crime_drugs": 8,
+      "crime_theft": 8,
+      "crime_vehicle": 5,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 53,
+      "livability_rank": 200
     },
     {
       "slug": "gortrush",
       "name": "GORTRUSH",
       "lgd": "Fermanagh and Omagh",
       "population": 3217,
-      "population_2011": 3210,
       "male": 1531,
       "female": 1686,
       "age_0_15_pct": 18.3,
@@ -9595,14 +9924,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 183,
+      "crime_rate_per_1000": 56.9,
+      "crime_asb": 75,
+      "crime_violent": 43,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 19,
+      "crime_drugs": 12,
+      "crime_theft": 23,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 3,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 41,
+      "livability_rank": 302
     },
     {
       "slug": "irvinestown",
       "name": "IRVINESTOWN",
       "lgd": "Fermanagh and Omagh",
       "population": 3387,
-      "population_2011": 3306,
       "male": 1636,
       "female": 1751,
       "age_0_15_pct": 20.3,
@@ -9952,14 +10296,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 212,
+      "crime_rate_per_1000": 62.6,
+      "crime_asb": 85,
+      "crime_violent": 63,
+      "crime_burglary": 6,
+      "crime_criminal_damage": 27,
+      "crime_drugs": 7,
+      "crime_theft": 18,
+      "crime_vehicle": 0,
+      "crime_public_order": 1,
+      "crime_robbery": 1,
+      "crime_weapons": 1,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 28,
+      "livability_rank": 385
     },
     {
       "slug": "killyclogher",
       "name": "KILLYCLOGHER",
       "lgd": "Fermanagh and Omagh",
       "population": 3051,
-      "population_2011": 3037,
       "male": 1446,
       "female": 1605,
       "age_0_15_pct": 17.6,
@@ -10065,14 +10424,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 118,
+      "crime_rate_per_1000": 38.7,
+      "crime_asb": 46,
+      "crime_violent": 34,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 8,
+      "crime_drugs": 10,
+      "crime_theft": 7,
+      "crime_vehicle": 1,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 41,
+      "livability_rank": 301
     },
     {
       "slug": "lisbellaw",
       "name": "LISBELLAW",
       "lgd": "Fermanagh and Omagh",
       "population": 3057,
-      "population_2011": 3190,
       "male": 1542,
       "female": 1515,
       "age_0_15_pct": 20.8,
@@ -10462,14 +10836,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 69,
+      "crime_rate_per_1000": 22.6,
+      "crime_asb": 34,
+      "crime_violent": 20,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 3,
+      "crime_drugs": 5,
+      "crime_theft": 4,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 62,
+      "livability_rank": 138
     },
     {
       "slug": "lisnarrick",
       "name": "LISNARRICK",
       "lgd": "Fermanagh and Omagh",
       "population": 3356,
-      "population_2011": 3135,
       "male": 1647,
       "female": 1709,
       "age_0_15_pct": 17,
@@ -10863,14 +11252,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 358,
+      "crime_rate_per_1000": 106.7,
+      "crime_asb": 112,
+      "crime_violent": 119,
+      "crime_burglary": 6,
+      "crime_criminal_damage": 31,
+      "crime_drugs": 60,
+      "crime_theft": 13,
+      "crime_vehicle": 3,
+      "crime_public_order": 3,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 10,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 23,
+      "livability_rank": 410
     },
     {
       "slug": "lisnaskea",
       "name": "LISNASKEA",
       "lgd": "Fermanagh and Omagh",
       "population": 2645,
-      "population_2011": 2584,
       "male": 1270,
       "female": 1375,
       "age_0_15_pct": 21.8,
@@ -10980,14 +11384,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 150,
+      "crime_rate_per_1000": 56.7,
+      "crime_asb": 43,
+      "crime_violent": 42,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 18,
+      "crime_drugs": 12,
+      "crime_theft": 20,
+      "crime_vehicle": 2,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 23,
+      "livability_rank": 414
     },
     {
       "slug": "maguiresbridge",
       "name": "MAGUIRESBRIDGE",
       "lgd": "Fermanagh and Omagh",
       "population": 3299,
-      "population_2011": 3153,
       "male": 1625,
       "female": 1674,
       "age_0_15_pct": 20.5,
@@ -11465,14 +11884,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 79,
+      "crime_rate_per_1000": 23.9,
+      "crime_asb": 23,
+      "crime_violent": 27,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 10,
+      "crime_drugs": 4,
+      "crime_theft": 6,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 50,
+      "livability_rank": 230
     },
     {
       "slug": "newtownbutler",
       "name": "NEWTOWNBUTLER",
       "lgd": "Fermanagh and Omagh",
       "population": 2567,
-      "population_2011": 2500,
       "male": 1334,
       "female": 1233,
       "age_0_15_pct": 22.6,
@@ -12162,14 +12596,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 81,
+      "crime_rate_per_1000": 31.6,
+      "crime_asb": 36,
+      "crime_violent": 26,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 12,
+      "crime_drugs": 1,
+      "crime_theft": 4,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 25,
+      "livability_rank": 403
     },
     {
       "slug": "newtownsaville",
       "name": "NEWTOWNSAVILLE",
       "lgd": "Fermanagh and Omagh",
       "population": 2977,
-      "population_2011": 2709,
       "male": 1523,
       "female": 1454,
       "age_0_15_pct": 21.7,
@@ -12735,14 +13184,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 63,
+      "crime_rate_per_1000": 21.2,
+      "crime_asb": 12,
+      "crime_violent": 25,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 5,
+      "crime_drugs": 3,
+      "crime_theft": 11,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 54,
+      "livability_rank": 194
     },
     {
       "slug": "owenkillew",
       "name": "OWENKILLEW",
       "lgd": "Fermanagh and Omagh",
       "population": 2698,
-      "population_2011": 2648,
       "male": 1351,
       "female": 1347,
       "age_0_15_pct": 21.4,
@@ -13144,14 +13608,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 46,
+      "crime_rate_per_1000": 17,
+      "crime_asb": 11,
+      "crime_violent": 14,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 5,
+      "crime_drugs": 6,
+      "crime_theft": 6,
+      "crime_vehicle": 0,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 41,
+      "livability_rank": 303
     },
     {
       "slug": "portora",
       "name": "PORTORA",
       "lgd": "Fermanagh and Omagh",
       "population": 3185,
-      "population_2011": 3170,
       "male": 1565,
       "female": 1621,
       "age_0_15_pct": 17.4,
@@ -13325,14 +13804,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 538,
+      "crime_rate_per_1000": 168.9,
+      "crime_asb": 158,
+      "crime_violent": 135,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 41,
+      "crime_drugs": 43,
+      "crime_theft": 126,
+      "crime_vehicle": 5,
+      "crime_public_order": 3,
+      "crime_robbery": 5,
+      "crime_weapons": 5,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 26,
+      "livability_rank": 391
     },
     {
       "slug": "rosslea",
       "name": "ROSSLEA",
       "lgd": "Fermanagh and Omagh",
       "population": 2331,
-      "population_2011": 2170,
       "male": 1174,
       "female": 1157,
       "age_0_15_pct": 20.9,
@@ -13786,14 +14280,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 64,
+      "crime_rate_per_1000": 27.5,
+      "crime_asb": 26,
+      "crime_violent": 22,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 4,
+      "crime_drugs": 3,
+      "crime_theft": 5,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 35,
+      "livability_rank": 343
     },
     {
       "slug": "rossorry",
       "name": "ROSSORRY",
       "lgd": "Fermanagh and Omagh",
       "population": 2543,
-      "population_2011": 2375,
       "male": 1232,
       "female": 1311,
       "age_0_15_pct": 17,
@@ -13983,14 +14492,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 144,
+      "crime_rate_per_1000": 56.6,
+      "crime_asb": 59,
+      "crime_violent": 32,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 22,
+      "crime_drugs": 13,
+      "crime_theft": 9,
+      "crime_vehicle": 3,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 45,
+      "livability_rank": 271
     },
     {
       "slug": "sixmilecross",
       "name": "SIXMILECROSS",
       "lgd": "Fermanagh and Omagh",
       "population": 2828,
-      "population_2011": 2865,
       "male": 1474,
       "female": 1354,
       "age_0_15_pct": 22.2,
@@ -14492,14 +15016,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 41,
+      "crime_rate_per_1000": 14.5,
+      "crime_asb": 9,
+      "crime_violent": 13,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 9,
+      "crime_drugs": 3,
+      "crime_theft": 2,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 40,
+      "livability_rank": 307
     },
     {
       "slug": "strule",
       "name": "STRULE",
       "lgd": "Fermanagh and Omagh",
       "population": 2971,
-      "population_2011": 2734,
       "male": 1477,
       "female": 1494,
       "age_0_15_pct": 18.8,
@@ -14621,14 +15160,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 389,
+      "crime_rate_per_1000": 130.9,
+      "crime_asb": 143,
+      "crime_violent": 118,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 41,
+      "crime_drugs": 18,
+      "crime_theft": 46,
+      "crime_vehicle": 3,
+      "crime_public_order": 3,
+      "crime_robbery": 0,
+      "crime_weapons": 5,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 16,
+      "livability_rank": 442
     },
     {
       "slug": "tempo",
       "name": "TEMPO",
       "lgd": "Fermanagh and Omagh",
       "population": 2878,
-      "population_2011": 2517,
       "male": 1479,
       "female": 1398,
       "age_0_15_pct": 21.4,
@@ -15086,14 +15640,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 62,
+      "crime_rate_per_1000": 21.5,
+      "crime_asb": 14,
+      "crime_violent": 26,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 5,
+      "crime_drugs": 5,
+      "crime_theft": 9,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 42,
+      "livability_rank": 290
     },
     {
       "slug": "termon",
       "name": "TERMON",
       "lgd": "Fermanagh and Omagh",
       "population": 2699,
-      "population_2011": 2330,
       "male": 1391,
       "female": 1308,
       "age_0_15_pct": 22.6,
@@ -15519,14 +16088,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 39,
+      "crime_rate_per_1000": 14.4,
+      "crime_asb": 12,
+      "crime_violent": 9,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 5,
+      "crime_drugs": 4,
+      "crime_theft": 5,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 38,
+      "livability_rank": 320
     },
     {
       "slug": "trillick",
       "name": "TRILLICK",
       "lgd": "Fermanagh and Omagh",
       "population": 2552,
-      "population_2011": 2640,
       "male": 1315,
       "female": 1237,
       "age_0_15_pct": 23,
@@ -15932,7 +16516,23 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 59,
+      "crime_rate_per_1000": 23.1,
+      "crime_asb": 15,
+      "crime_violent": 20,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 7,
+      "crime_drugs": 3,
+      "crime_theft": 4,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 51,
+      "livability_rank": 224
     }
   ]
 }

@@ -7,7 +7,6 @@
       "name": "AGHAGALLON",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5047,
-      "population_2011": 4773,
       "male": 2520,
       "female": 2526,
       "age_0_15_pct": 20.2,
@@ -285,14 +284,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 174,
+      "crime_rate_per_1000": 34.5,
+      "crime_asb": 59,
+      "crime_violent": 42,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 13,
+      "crime_drugs": 8,
+      "crime_theft": 34,
+      "crime_vehicle": 6,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 71,
+      "livability_rank": 94
     },
     {
       "slug": "ballybay",
       "name": "BALLYBAY",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5458,
-      "population_2011": 4606,
       "male": 2672,
       "female": 2786,
       "age_0_15_pct": 21.9,
@@ -462,14 +476,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 519,
+      "crime_rate_per_1000": 95.1,
+      "crime_asb": 202,
+      "crime_violent": 169,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 59,
+      "crime_drugs": 17,
+      "crime_theft": 41,
+      "crime_vehicle": 5,
+      "crime_public_order": 1,
+      "crime_robbery": 1,
+      "crime_weapons": 4,
+      "crime_other": 16,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 25,
+      "livability_rank": 402
     },
     {
       "slug": "banbridge-east",
       "name": "BANBRIDGE EAST",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 4479,
-      "population_2011": 4225,
       "male": 2213,
       "female": 2266,
       "age_0_15_pct": 18.7,
@@ -779,14 +808,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 217,
+      "crime_rate_per_1000": 48.4,
+      "crime_asb": 53,
+      "crime_violent": 49,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 11,
+      "crime_drugs": 14,
+      "crime_theft": 71,
+      "crime_vehicle": 4,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 77,
+      "livability_rank": 60
     },
     {
       "slug": "banbridge-north",
       "name": "BANBRIDGE NORTH",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 4272,
-      "population_2011": 4251,
       "male": 2077,
       "female": 2195,
       "age_0_15_pct": 16.9,
@@ -928,14 +972,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 242,
+      "crime_rate_per_1000": 56.6,
+      "crime_asb": 88,
+      "crime_violent": 84,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 28,
+      "crime_drugs": 13,
+      "crime_theft": 11,
+      "crime_vehicle": 9,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 61,
+      "livability_rank": 149
     },
     {
       "slug": "banbridge-south",
       "name": "BANBRIDGE SOUTH",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5043,
-      "population_2011": 4667,
       "male": 2463,
       "female": 2580,
       "age_0_15_pct": 18.3,
@@ -1053,14 +1112,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 600,
+      "crime_rate_per_1000": 119,
+      "crime_asb": 213,
+      "crime_violent": 206,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 56,
+      "crime_drugs": 13,
+      "crime_theft": 89,
+      "crime_vehicle": 2,
+      "crime_public_order": 4,
+      "crime_robbery": 0,
+      "crime_weapons": 4,
+      "crime_other": 9,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 47,
+      "livability_rank": 252
     },
     {
       "slug": "banbridge-west",
       "name": "BANBRIDGE WEST",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5431,
-      "population_2011": 5440,
       "male": 2668,
       "female": 2763,
       "age_0_15_pct": 20.6,
@@ -1182,14 +1256,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 489,
+      "crime_rate_per_1000": 90,
+      "crime_asb": 193,
+      "crime_violent": 168,
+      "crime_burglary": 13,
+      "crime_criminal_damage": 36,
+      "crime_drugs": 24,
+      "crime_theft": 25,
+      "crime_vehicle": 6,
+      "crime_public_order": 7,
+      "crime_robbery": 0,
+      "crime_weapons": 4,
+      "crime_other": 13,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 40,
+      "livability_rank": 306
     },
     {
       "slug": "blackwatertown",
       "name": "BLACKWATERTOWN",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5502,
-      "population_2011": 5123,
       "male": 2822,
       "female": 2680,
       "age_0_15_pct": 21.6,
@@ -1783,14 +1872,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 132,
+      "crime_rate_per_1000": 24,
+      "crime_asb": 56,
+      "crime_violent": 36,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 16,
+      "crime_drugs": 5,
+      "crime_theft": 8,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 1,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 53,
+      "livability_rank": 207
     },
     {
       "slug": "bleary",
       "name": "BLEARY",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 4981,
-      "population_2011": 4512,
       "male": 2480,
       "female": 2501,
       "age_0_15_pct": 20.3,
@@ -2048,14 +2152,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 124,
+      "crime_rate_per_1000": 24.9,
+      "crime_asb": 43,
+      "crime_violent": 48,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 10,
+      "crime_drugs": 5,
+      "crime_theft": 6,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 79,
+      "livability_rank": 47
     },
     {
       "slug": "brownlow",
       "name": "BROWNLOW",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 6626,
-      "population_2011": 6219,
       "male": 3257,
       "female": 3369,
       "age_0_15_pct": 25.2,
@@ -2181,14 +2300,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 534,
+      "crime_rate_per_1000": 80.6,
+      "crime_asb": 186,
+      "crime_violent": 190,
+      "crime_burglary": 8,
+      "crime_criminal_damage": 64,
+      "crime_drugs": 36,
+      "crime_theft": 19,
+      "crime_vehicle": 5,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 7,
+      "crime_other": 17,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 21,
+      "livability_rank": 424
     },
     {
       "slug": "cathedral",
       "name": "CATHEDRAL",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5119,
-      "population_2011": 4007,
       "male": 2446,
       "female": 2673,
       "age_0_15_pct": 21.1,
@@ -2322,14 +2456,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 370,
+      "crime_rate_per_1000": 72.3,
+      "crime_asb": 134,
+      "crime_violent": 105,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 37,
+      "crime_drugs": 10,
+      "crime_theft": 50,
+      "crime_vehicle": 5,
+      "crime_public_order": 2,
+      "crime_robbery": 1,
+      "crime_weapons": 3,
+      "crime_other": 12,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 22,
+      "livability_rank": 418
     },
     {
       "slug": "corcrain",
       "name": "CORCRAIN",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5455,
-      "population_2011": 5203,
       "male": 2661,
       "female": 2794,
       "age_0_15_pct": 22.3,
@@ -2423,14 +2572,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 510,
+      "crime_rate_per_1000": 93.5,
+      "crime_asb": 191,
+      "crime_violent": 146,
+      "crime_burglary": 10,
+      "crime_criminal_damage": 62,
+      "crime_drugs": 34,
+      "crime_theft": 31,
+      "crime_vehicle": 14,
+      "crime_public_order": 1,
+      "crime_robbery": 1,
+      "crime_weapons": 4,
+      "crime_other": 16,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 22,
+      "livability_rank": 419
     },
     {
       "slug": "craigavon-centre",
       "name": "CRAIGAVON CENTRE",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 6750,
-      "population_2011": 5411,
       "male": 3308,
       "female": 3442,
       "age_0_15_pct": 22.5,
@@ -2572,14 +2736,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 669,
+      "crime_rate_per_1000": 99.1,
+      "crime_asb": 217,
+      "crime_violent": 142,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 52,
+      "crime_drugs": 26,
+      "crime_theft": 186,
+      "crime_vehicle": 8,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 25,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 59,
+      "livability_rank": 160
     },
     {
       "slug": "demesne",
       "name": "DEMESNE",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5705,
-      "population_2011": 5023,
       "male": 2758,
       "female": 2947,
       "age_0_15_pct": 21.8,
@@ -2729,14 +2908,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 458,
+      "crime_rate_per_1000": 80.3,
+      "crime_asb": 184,
+      "crime_violent": 119,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 43,
+      "crime_drugs": 13,
+      "crime_theft": 67,
+      "crime_vehicle": 3,
+      "crime_public_order": 5,
+      "crime_robbery": 1,
+      "crime_weapons": 4,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 46,
+      "livability_rank": 260
     },
     {
       "slug": "derrytrasna",
       "name": "DERRYTRASNA",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 4981,
-      "population_2011": 4711,
       "male": 2517,
       "female": 2464,
       "age_0_15_pct": 21.2,
@@ -2922,14 +3116,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 121,
+      "crime_rate_per_1000": 24.3,
+      "crime_asb": 45,
+      "crime_violent": 37,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 8,
+      "crime_drugs": 14,
+      "crime_theft": 8,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 67,
+      "livability_rank": 114
     },
     {
       "slug": "donaghcloney",
       "name": "DONAGHCLONEY",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 4935,
-      "population_2011": 4504,
       "male": 2524,
       "female": 2412,
       "age_0_15_pct": 20.5,
@@ -3259,14 +3468,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 103,
+      "crime_rate_per_1000": 20.9,
+      "crime_asb": 41,
+      "crime_violent": 34,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 14,
+      "crime_drugs": 3,
+      "crime_theft": 5,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 74,
+      "livability_rank": 74
     },
     {
       "slug": "dromore",
       "name": "DROMORE",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 4843,
-      "population_2011": 2808,
       "male": 2343,
       "female": 2500,
       "age_0_15_pct": 18.9,
@@ -3420,14 +3644,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 167,
+      "crime_rate_per_1000": 34.5,
+      "crime_asb": 70,
+      "crime_violent": 40,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 23,
+      "crime_drugs": 7,
+      "crime_theft": 14,
+      "crime_vehicle": 5,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 0,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 77,
+      "livability_rank": 59
     },
     {
       "slug": "gilford",
       "name": "GILFORD",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 4997,
-      "population_2011": 4749,
       "male": 2442,
       "female": 2555,
       "age_0_15_pct": 20.2,
@@ -3693,14 +3932,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 298,
+      "crime_rate_per_1000": 59.6,
+      "crime_asb": 95,
+      "crime_violent": 92,
+      "crime_burglary": 10,
+      "crime_criminal_damage": 34,
+      "crime_drugs": 25,
+      "crime_theft": 18,
+      "crime_vehicle": 10,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 5,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 45,
+      "livability_rank": 265
     },
     {
       "slug": "gransha",
       "name": "GRANSHA",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5155,
-      "population_2011": 4652,
       "male": 2609,
       "female": 2546,
       "age_0_15_pct": 22.6,
@@ -4118,14 +4372,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 113,
+      "crime_rate_per_1000": 21.9,
+      "crime_asb": 28,
+      "crime_violent": 51,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 12,
+      "crime_drugs": 3,
+      "crime_theft": 8,
+      "crime_vehicle": 4,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 67,
+      "livability_rank": 116
     },
     {
       "slug": "hamiltonsbawn",
       "name": "HAMILTONSBAWN",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 4969,
-      "population_2011": 4525,
       "male": 2438,
       "female": 2531,
       "age_0_15_pct": 20.2,
@@ -4639,14 +4908,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 90,
+      "crime_rate_per_1000": 18.1,
+      "crime_asb": 35,
+      "crime_violent": 30,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 7,
+      "crime_drugs": 2,
+      "crime_theft": 3,
+      "crime_vehicle": 2,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 67,
+      "livability_rank": 115
     },
     {
       "slug": "keady",
       "name": "KEADY",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5243,
-      "population_2011": 4931,
       "male": 2583,
       "female": 2660,
       "age_0_15_pct": 21.5,
@@ -5084,14 +5368,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 183,
+      "crime_rate_per_1000": 34.9,
+      "crime_asb": 59,
+      "crime_violent": 59,
+      "crime_burglary": 12,
+      "crime_criminal_damage": 24,
+      "crime_drugs": 7,
+      "crime_theft": 12,
+      "crime_vehicle": 2,
+      "crime_public_order": 3,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 36,
+      "livability_rank": 333
     },
     {
       "slug": "kernan",
       "name": "KERNAN",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5894,
-      "population_2011": 4702,
       "male": 2830,
       "female": 3064,
       "age_0_15_pct": 20.9,
@@ -5245,14 +5544,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 677,
+      "crime_rate_per_1000": 114.9,
+      "crime_asb": 222,
+      "crime_violent": 295,
+      "crime_burglary": 6,
+      "crime_criminal_damage": 62,
+      "crime_drugs": 25,
+      "crime_theft": 42,
+      "crime_vehicle": 3,
+      "crime_public_order": 3,
+      "crime_robbery": 4,
+      "crime_weapons": 3,
+      "crime_other": 12,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 61,
+      "livability_rank": 148
     },
     {
       "slug": "killycomain",
       "name": "KILLYCOMAIN",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5247,
-      "population_2011": 4450,
       "male": 2734,
       "female": 2513,
       "age_0_15_pct": 15.9,
@@ -5386,14 +5700,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 1098,
+      "crime_rate_per_1000": 209.3,
+      "crime_asb": 409,
+      "crime_violent": 241,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 79,
+      "crime_drugs": 42,
+      "crime_theft": 265,
+      "crime_vehicle": 10,
+      "crime_public_order": 2,
+      "crime_robbery": 2,
+      "crime_weapons": 9,
+      "crime_other": 28,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 29,
+      "livability_rank": 376
     },
     {
       "slug": "knocknashane",
       "name": "KNOCKNASHANE",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 4556,
-      "population_2011": 4149,
       "male": 2258,
       "female": 2298,
       "age_0_15_pct": 18.6,
@@ -5515,14 +5844,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 164,
+      "crime_rate_per_1000": 36,
+      "crime_asb": 58,
+      "crime_violent": 56,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 14,
+      "crime_drugs": 2,
+      "crime_theft": 25,
+      "crime_vehicle": 1,
+      "crime_public_order": 1,
+      "crime_robbery": 1,
+      "crime_weapons": 1,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 64,
+      "livability_rank": 128
     },
     {
       "slug": "lough-road",
       "name": "LOUGH ROAD",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5601,
-      "population_2011": 4809,
       "male": 2830,
       "female": 2771,
       "age_0_15_pct": 20,
@@ -5624,14 +5968,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 270,
+      "crime_rate_per_1000": 48.2,
+      "crime_asb": 106,
+      "crime_violent": 100,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 21,
+      "crime_drugs": 17,
+      "crime_theft": 4,
+      "crime_vehicle": 6,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 48,
+      "livability_rank": 238
     },
     {
       "slug": "loughbrickland",
       "name": "LOUGHBRICKLAND",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5711,
-      "population_2011": 4974,
       "male": 2848,
       "female": 2863,
       "age_0_15_pct": 22.3,
@@ -6177,14 +6536,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 167,
+      "crime_rate_per_1000": 29.2,
+      "crime_asb": 42,
+      "crime_violent": 51,
+      "crime_burglary": 8,
+      "crime_criminal_damage": 17,
+      "crime_drugs": 10,
+      "crime_theft": 30,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 53,
+      "livability_rank": 209
     },
     {
       "slug": "loughgall",
       "name": "LOUGHGALL",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5484,
-      "population_2011": 5116,
       "male": 2762,
       "female": 2722,
       "age_0_15_pct": 21,
@@ -6634,14 +7008,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 85,
+      "crime_rate_per_1000": 15.5,
+      "crime_asb": 29,
+      "crime_violent": 33,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 9,
+      "crime_drugs": 3,
+      "crime_theft": 7,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 62,
+      "livability_rank": 144
     },
     {
       "slug": "magheralin",
       "name": "MAGHERALIN",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5368,
-      "population_2011": 4415,
       "male": 2643,
       "female": 2725,
       "age_0_15_pct": 21.5,
@@ -6883,14 +7272,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 205,
+      "crime_rate_per_1000": 38.2,
+      "crime_asb": 86,
+      "crime_violent": 61,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 31,
+      "crime_drugs": 3,
+      "crime_theft": 8,
+      "crime_vehicle": 0,
+      "crime_public_order": 1,
+      "crime_robbery": 1,
+      "crime_weapons": 0,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 70,
+      "livability_rank": 97
     },
     {
       "slug": "mahon",
       "name": "MAHON",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5172,
-      "population_2011": 4737,
       "male": 2569,
       "female": 2603,
       "age_0_15_pct": 18.9,
@@ -7124,14 +7528,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 224,
+      "crime_rate_per_1000": 43.3,
+      "crime_asb": 71,
+      "crime_violent": 80,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 23,
+      "crime_drugs": 16,
+      "crime_theft": 18,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 1,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 52,
+      "livability_rank": 210
     },
     {
       "slug": "markethill",
       "name": "MARKETHILL",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5632,
-      "population_2011": 4884,
       "male": 2773,
       "female": 2859,
       "age_0_15_pct": 21.8,
@@ -7621,14 +8040,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 249,
+      "crime_rate_per_1000": 44.2,
+      "crime_asb": 97,
+      "crime_violent": 84,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 24,
+      "crime_drugs": 9,
+      "crime_theft": 20,
+      "crime_vehicle": 3,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 37,
+      "livability_rank": 324
     },
     {
       "slug": "mourneview",
       "name": "MOURNEVIEW",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5495,
-      "population_2011": 5016,
       "male": 2672,
       "female": 2823,
       "age_0_15_pct": 19.9,
@@ -7730,14 +8164,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 542,
+      "crime_rate_per_1000": 98.6,
+      "crime_asb": 165,
+      "crime_violent": 180,
+      "crime_burglary": 12,
+      "crime_criminal_damage": 68,
+      "crime_drugs": 45,
+      "crime_theft": 29,
+      "crime_vehicle": 6,
+      "crime_public_order": 7,
+      "crime_robbery": 0,
+      "crime_weapons": 5,
+      "crime_other": 25,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 23,
+      "livability_rank": 412
     },
     {
       "slug": "navan",
       "name": "NAVAN",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5299,
-      "population_2011": 4721,
       "male": 2670,
       "female": 2629,
       "age_0_15_pct": 23.8,
@@ -8383,14 +8832,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 123,
+      "crime_rate_per_1000": 23.2,
+      "crime_asb": 32,
+      "crime_violent": 41,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 20,
+      "crime_drugs": 8,
+      "crime_theft": 10,
+      "crime_vehicle": 6,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 51,
+      "livability_rank": 221
     },
     {
       "slug": "parklake",
       "name": "PARKLAKE",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5648,
-      "population_2011": 5316,
       "male": 2868,
       "female": 2780,
       "age_0_15_pct": 21.7,
@@ -8496,14 +8960,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 668,
+      "crime_rate_per_1000": 118.3,
+      "crime_asb": 270,
+      "crime_violent": 218,
+      "crime_burglary": 10,
+      "crime_criminal_damage": 81,
+      "crime_drugs": 19,
+      "crime_theft": 37,
+      "crime_vehicle": 4,
+      "crime_public_order": 0,
+      "crime_robbery": 2,
+      "crime_weapons": 6,
+      "crime_other": 21,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 26,
+      "livability_rank": 392
     },
     {
       "slug": "quilly",
       "name": "QUILLY",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 4497,
-      "population_2011": 4094,
       "male": 2243,
       "female": 2254,
       "age_0_15_pct": 17.8,
@@ -8869,14 +9348,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 201,
+      "crime_rate_per_1000": 44.7,
+      "crime_asb": 84,
+      "crime_violent": 62,
+      "crime_burglary": 6,
+      "crime_criminal_damage": 17,
+      "crime_drugs": 9,
+      "crime_theft": 13,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 63,
+      "livability_rank": 134
     },
     {
       "slug": "rathfriland",
       "name": "RATHFRILAND",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5009,
-      "population_2011": 4793,
       "male": 2472,
       "female": 2537,
       "age_0_15_pct": 21.6,
@@ -9262,14 +9756,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 213,
+      "crime_rate_per_1000": 42.5,
+      "crime_asb": 95,
+      "crime_violent": 69,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 11,
+      "crime_drugs": 4,
+      "crime_theft": 14,
+      "crime_vehicle": 4,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 47,
+      "livability_rank": 254
     },
     {
       "slug": "richhill",
       "name": "RICHHILL",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 4837,
-      "population_2011": 4821,
       "male": 2423,
       "female": 2414,
       "age_0_15_pct": 17.4,
@@ -9631,14 +10140,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 136,
+      "crime_rate_per_1000": 28.1,
+      "crime_asb": 37,
+      "crime_violent": 54,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 6,
+      "crime_drugs": 10,
+      "crime_theft": 13,
+      "crime_vehicle": 2,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 10,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 72,
+      "livability_rank": 85
     },
     {
       "slug": "seagahan",
       "name": "SEAGAHAN",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5603,
-      "population_2011": 4932,
       "male": 2818,
       "female": 2785,
       "age_0_15_pct": 24.3,
@@ -10168,14 +10692,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 170,
+      "crime_rate_per_1000": 30.3,
+      "crime_asb": 55,
+      "crime_violent": 55,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 21,
+      "crime_drugs": 7,
+      "crime_theft": 12,
+      "crime_vehicle": 9,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 3,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 45,
+      "livability_rank": 273
     },
     {
       "slug": "shankill",
       "name": "SHANKILL",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 6446,
-      "population_2011": 6101,
       "male": 3174,
       "female": 3272,
       "age_0_15_pct": 20.7,
@@ -10269,14 +10808,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 1162,
+      "crime_rate_per_1000": 180.3,
+      "crime_asb": 400,
+      "crime_violent": 338,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 101,
+      "crime_drugs": 52,
+      "crime_theft": 199,
+      "crime_vehicle": 28,
+      "crime_public_order": 3,
+      "crime_robbery": 4,
+      "crime_weapons": 3,
+      "crime_other": 23,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 24,
+      "livability_rank": 406
     },
     {
       "slug": "tandragee",
       "name": "TANDRAGEE",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5171,
-      "population_2011": 5068,
       "male": 2557,
       "female": 2614,
       "age_0_15_pct": 20.6,
@@ -10530,14 +11084,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 215,
+      "crime_rate_per_1000": 41.6,
+      "crime_asb": 96,
+      "crime_violent": 62,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 25,
+      "crime_drugs": 3,
+      "crime_theft": 13,
+      "crime_vehicle": 3,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 3,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 46,
+      "livability_rank": 259
     },
     {
       "slug": "the-birches",
       "name": "THE BIRCHES",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 6098,
-      "population_2011": 5204,
       "male": 3045,
       "female": 3053,
       "age_0_15_pct": 22.3,
@@ -10967,14 +11536,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 152,
+      "crime_rate_per_1000": 24.9,
+      "crime_asb": 40,
+      "crime_violent": 57,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 15,
+      "crime_drugs": 9,
+      "crime_theft": 15,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 64,
+      "livability_rank": 130
     },
     {
       "slug": "the-mall",
       "name": "THE MALL",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5512,
-      "population_2011": 4835,
       "male": 2655,
       "female": 2857,
       "age_0_15_pct": 19,
@@ -11120,14 +11704,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 669,
+      "crime_rate_per_1000": 121.4,
+      "crime_asb": 227,
+      "crime_violent": 161,
+      "crime_burglary": 18,
+      "crime_criminal_damage": 85,
+      "crime_drugs": 23,
+      "crime_theft": 121,
+      "crime_vehicle": 8,
+      "crime_public_order": 5,
+      "crime_robbery": 1,
+      "crime_weapons": 6,
+      "crime_other": 14,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 38,
+      "livability_rank": 318
     },
     {
       "slug": "waringstown",
       "name": "WARINGSTOWN",
       "lgd": "Armagh City, Banbridge and Craigavon",
       "population": 5400,
-      "population_2011": 4941,
       "male": 2629,
       "female": 2771,
       "age_0_15_pct": 20.3,
@@ -11313,7 +11912,23 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 204,
+      "crime_rate_per_1000": 37.8,
+      "crime_asb": 89,
+      "crime_violent": 58,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 16,
+      "crime_drugs": 7,
+      "crime_theft": 15,
+      "crime_vehicle": 1,
+      "crime_public_order": 3,
+      "crime_robbery": 0,
+      "crime_weapons": 3,
+      "crime_other": 9,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 75,
+      "livability_rank": 67
     }
   ]
 }

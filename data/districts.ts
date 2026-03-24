@@ -20,6 +20,7 @@ const districts: District[] = [
     "nimdm_soas_in_top100": 1,
     "nimdm_total_soas": 72,
     "nimdm_pct_in_top100": 1.4,
+    "livability_score": 59,
     "assembly_2022": {
       "note": "Approximated from South Antrim constituency",
       "top_parties": [
@@ -58,9 +59,9 @@ const districts: District[] = [
       "urban_rural": "Predominantly urban (70% urban wards)"
     },
     "housing": {
-      "median_house_price": 181500,
-      "avg_house_price": 196238,
-      "price_year": "2024",
+      "median_house_price": 197918,
+      "avg_house_price": 197918,
+      "price_year": "Q4 2025",
       "owner_occupied_pct": 74.9,
       "private_rented_pct": 14.5,
       "social_housing_pct": 10.6
@@ -130,6 +131,7 @@ const districts: District[] = [
     "nimdm_soas_in_top100": 3,
     "nimdm_total_soas": 81,
     "nimdm_pct_in_top100": 3.7,
+    "livability_score": 61,
     "assembly_2022": {
       "note": "Approximated from Strangford and North Down constituencies",
       "top_parties": [
@@ -168,9 +170,9 @@ const districts: District[] = [
       "urban_rural": "Predominantly urban (63% urban wards)"
     },
     "housing": {
-      "median_house_price": 195000,
-      "avg_house_price": 236071,
-      "price_year": "2024",
+      "median_house_price": 221690,
+      "avg_house_price": 221690,
+      "price_year": "Q4 2025",
       "owner_occupied_pct": 75,
       "private_rented_pct": 14,
       "social_housing_pct": 11
@@ -240,6 +242,7 @@ const districts: District[] = [
     "nimdm_soas_in_top100": 8,
     "nimdm_total_soas": 87,
     "nimdm_pct_in_top100": 9.2,
+    "livability_score": 51,
     "assembly_2022": {
       "note": "Approximated from Upper Bann and Newry & Armagh constituencies",
       "top_parties": [
@@ -278,9 +281,9 @@ const districts: District[] = [
       "urban_rural": "Mixed (41% urban, 39% rural wards)"
     },
     "housing": {
-      "median_house_price": 172500,
-      "avg_house_price": 181963,
-      "price_year": "2024",
+      "median_house_price": 179907,
+      "avg_house_price": 179907,
+      "price_year": "Q4 2025",
       "owner_occupied_pct": 72.3,
       "private_rented_pct": 19.5,
       "social_housing_pct": 8.2
@@ -350,6 +353,7 @@ const districts: District[] = [
     "nimdm_soas_in_top100": 50,
     "nimdm_total_soas": 174,
     "nimdm_pct_in_top100": 28.7,
+    "livability_score": 43,
     "assembly_2022": {
       "note": "Covers Belfast North, South, East, West constituencies",
       "top_parties": [
@@ -388,9 +392,9 @@ const districts: District[] = [
       "urban_rural": "Urban (100% urban wards)"
     },
     "housing": {
-      "median_house_price": 163000,
-      "avg_house_price": 197557,
-      "price_year": "2024",
+      "median_house_price": 178459,
+      "avg_house_price": 178459,
+      "price_year": "Q4 2025",
       "owner_occupied_pct": 53.3,
       "private_rented_pct": 21.9,
       "social_housing_pct": 24.8
@@ -460,6 +464,7 @@ const districts: District[] = [
     "nimdm_soas_in_top100": 3,
     "nimdm_total_soas": 72,
     "nimdm_pct_in_top100": 4.2,
+    "livability_score": 46,
     "assembly_2022": {
       "note": "Approximated from East Londonderry and North Antrim constituencies",
       "top_parties": [
@@ -498,9 +503,9 @@ const districts: District[] = [
       "urban_rural": "Mixed (40% urban, 42% rural wards)"
     },
     "housing": {
-      "median_house_price": 182500,
-      "avg_house_price": 208659,
-      "price_year": "2024",
+      "median_house_price": 213957,
+      "avg_house_price": 213957,
+      "price_year": "Q4 2025",
       "owner_occupied_pct": 69.6,
       "private_rented_pct": 19.2,
       "social_housing_pct": 11.1
@@ -570,6 +575,7 @@ const districts: District[] = [
     "nimdm_soas_in_top100": 20,
     "nimdm_total_soas": 75,
     "nimdm_pct_in_top100": 26.7,
+    "livability_score": 34,
     "assembly_2022": {
       "note": "Approximated from Foyle and West Tyrone constituencies",
       "top_parties": [
@@ -608,9 +614,9 @@ const districts: District[] = [
       "urban_rural": "Predominantly urban (60% urban wards)"
     },
     "housing": {
-      "median_house_price": 160500,
-      "avg_house_price": 178412,
-      "price_year": "2024",
+      "median_house_price": 177589,
+      "avg_house_price": 177589,
+      "price_year": "Q4 2025",
       "owner_occupied_pct": 62.1,
       "private_rented_pct": 17.8,
       "social_housing_pct": 20.1
@@ -680,6 +686,7 @@ const districts: District[] = [
     "nimdm_soas_in_top100": 3,
     "nimdm_total_soas": 49,
     "nimdm_pct_in_top100": 6.1,
+    "livability_score": 41,
     "assembly_2022": {
       "note": "Approximated from Fermanagh & South Tyrone constituency",
       "top_parties": [
@@ -718,9 +725,9 @@ const districts: District[] = [
       "urban_rural": "Predominantly rural (65% rural wards)"
     },
     "housing": {
-      "median_house_price": 173000,
-      "avg_house_price": 182892,
-      "price_year": "2024",
+      "median_house_price": 194970,
+      "avg_house_price": 194970,
+      "price_year": "Q4 2025",
       "owner_occupied_pct": 73.6,
       "private_rented_pct": 19.3,
       "social_housing_pct": 7.1
@@ -790,6 +797,7 @@ const districts: District[] = [
     "nimdm_soas_in_top100": 0,
     "nimdm_total_soas": 67,
     "nimdm_pct_in_top100": 0,
+    "livability_score": 68,
     "assembly_2022": {
       "note": "Approximated from Lagan Valley constituency",
       "top_parties": [
@@ -828,9 +836,9 @@ const districts: District[] = [
       "urban_rural": "Mixed urban/rural (50% urban, 33% rural wards)"
     },
     "housing": {
-      "median_house_price": 215000,
-      "avg_house_price": 237801,
-      "price_year": "2024",
+      "median_house_price": 231628,
+      "avg_house_price": 231628,
+      "price_year": "Q4 2025",
       "owner_occupied_pct": 77.4,
       "private_rented_pct": 12.1,
       "social_housing_pct": 10.5
@@ -900,6 +908,7 @@ const districts: District[] = [
     "nimdm_soas_in_top100": 3,
     "nimdm_total_soas": 69,
     "nimdm_pct_in_top100": 4.3,
+    "livability_score": 59,
     "assembly_2022": {
       "note": "Approximated from East Antrim constituency",
       "top_parties": [
@@ -938,9 +947,9 @@ const districts: District[] = [
       "urban_rural": "Mixed urban/rural (52% urban, 35% rural wards)"
     },
     "housing": {
-      "median_house_price": 159950,
-      "avg_house_price": 177006,
-      "price_year": "2024",
+      "median_house_price": 173261,
+      "avg_house_price": 173261,
+      "price_year": "Q4 2025",
       "owner_occupied_pct": 72.7,
       "private_rented_pct": 17.4,
       "social_housing_pct": 9.9
@@ -1010,6 +1019,7 @@ const districts: District[] = [
     "nimdm_soas_in_top100": 1,
     "nimdm_total_soas": 59,
     "nimdm_pct_in_top100": 1.7,
+    "livability_score": 49,
     "assembly_2022": {
       "note": "Covers Mid Ulster constituency directly",
       "top_parties": [
@@ -1048,9 +1058,9 @@ const districts: District[] = [
       "urban_rural": "Predominantly rural (68% rural wards)"
     },
     "housing": {
-      "median_house_price": 168250,
-      "avg_house_price": 181299,
-      "price_year": "2024",
+      "median_house_price": 189185,
+      "avg_house_price": 189185,
+      "price_year": "Q4 2025",
       "owner_occupied_pct": 72.6,
       "private_rented_pct": 20,
       "social_housing_pct": 7.3
@@ -1120,6 +1130,7 @@ const districts: District[] = [
     "nimdm_soas_in_top100": 8,
     "nimdm_total_soas": 87,
     "nimdm_pct_in_top100": 9.2,
+    "livability_score": 42,
     "assembly_2022": {
       "note": "Approximated from South Down and Newry & Armagh constituencies",
       "top_parties": [
@@ -1158,9 +1169,9 @@ const districts: District[] = [
       "urban_rural": "Mixed (29% urban, 46% rural wards)"
     },
     "housing": {
-      "median_house_price": 187500,
-      "avg_house_price": 211878,
-      "price_year": "2024",
+      "median_house_price": 218595,
+      "avg_house_price": 218595,
+      "price_year": "Q4 2025",
       "owner_occupied_pct": 72.9,
       "private_rented_pct": 18.3,
       "social_housing_pct": 8.8

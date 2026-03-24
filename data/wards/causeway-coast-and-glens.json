@@ -7,7 +7,6 @@
       "name": "AGHADOWEY",
       "lgd": "Causeway Coast and Glens",
       "population": 3453,
-      "population_2011": 3545,
       "male": 1760,
       "female": 1693,
       "age_0_15_pct": 19.1,
@@ -429,14 +428,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 70,
+      "crime_rate_per_1000": 20.3,
+      "crime_asb": 28,
+      "crime_violent": 22,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 6,
+      "crime_drugs": 6,
+      "crime_theft": 2,
+      "crime_vehicle": 3,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 52,
+      "livability_rank": 215
     },
     {
       "slug": "altahullion",
       "name": "ALTAHULLION",
       "lgd": "Causeway Coast and Glens",
       "population": 3191,
-      "population_2011": 3083,
       "male": 1625,
       "female": 1566,
       "age_0_15_pct": 21.3,
@@ -930,14 +944,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 75,
+      "crime_rate_per_1000": 23.5,
+      "crime_asb": 33,
+      "crime_violent": 25,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 5,
+      "crime_drugs": 3,
+      "crime_theft": 7,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 48,
+      "livability_rank": 251
     },
     {
       "slug": "atlantic",
       "name": "ATLANTIC",
       "lgd": "Causeway Coast and Glens",
       "population": 4536,
-      "population_2011": 4254,
       "male": 2152,
       "female": 2384,
       "age_0_15_pct": 15.9,
@@ -1123,14 +1152,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 281,
+      "crime_rate_per_1000": 61.9,
+      "crime_asb": 84,
+      "crime_violent": 58,
+      "crime_burglary": 13,
+      "crime_criminal_damage": 57,
+      "crime_drugs": 23,
+      "crime_theft": 26,
+      "crime_vehicle": 9,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 49,
+      "livability_rank": 234
     },
     {
       "slug": "ballycastle",
       "name": "BALLYCASTLE",
       "lgd": "Causeway Coast and Glens",
       "population": 3397,
-      "population_2011": 3334,
       "male": 1670,
       "female": 1727,
       "age_0_15_pct": 17.4,
@@ -1296,14 +1340,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 239,
+      "crime_rate_per_1000": 70.4,
+      "crime_asb": 82,
+      "crime_violent": 78,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 24,
+      "crime_drugs": 15,
+      "crime_theft": 20,
+      "crime_vehicle": 5,
+      "crime_public_order": 4,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 35,
+      "livability_rank": 341
     },
     {
       "slug": "ballykelly",
       "name": "BALLYKELLY",
       "lgd": "Causeway Coast and Glens",
       "population": 3103,
-      "population_2011": 3134,
       "male": 1532,
       "female": 1571,
       "age_0_15_pct": 18.8,
@@ -1649,14 +1708,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 135,
+      "crime_rate_per_1000": 43.5,
+      "crime_asb": 57,
+      "crime_violent": 40,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 18,
+      "crime_drugs": 6,
+      "crime_theft": 9,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 41,
+      "livability_rank": 298
     },
     {
       "slug": "ballymoney-east",
       "name": "BALLYMONEY EAST",
       "lgd": "Causeway Coast and Glens",
       "population": 3111,
-      "population_2011": 3086,
       "male": 1492,
       "female": 1617,
       "age_0_15_pct": 18.6,
@@ -1746,14 +1820,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 174,
+      "crime_rate_per_1000": 55.9,
+      "crime_asb": 62,
+      "crime_violent": 62,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 22,
+      "crime_drugs": 8,
+      "crime_theft": 6,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 3,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 34,
+      "livability_rank": 353
     },
     {
       "slug": "ballymoney-north",
       "name": "BALLYMONEY NORTH",
       "lgd": "Causeway Coast and Glens",
       "population": 3401,
-      "population_2011": 3478,
       "male": 1592,
       "female": 1809,
       "age_0_15_pct": 15.8,
@@ -1863,14 +1952,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 267,
+      "crime_rate_per_1000": 78.5,
+      "crime_asb": 89,
+      "crime_violent": 64,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 23,
+      "crime_drugs": 18,
+      "crime_theft": 59,
+      "crime_vehicle": 4,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 55,
+      "livability_rank": 188
     },
     {
       "slug": "ballymoney-south",
       "name": "BALLYMONEY SOUTH",
       "lgd": "Causeway Coast and Glens",
       "population": 3386,
-      "population_2011": 3108,
       "male": 1608,
       "female": 1778,
       "age_0_15_pct": 18.8,
@@ -2008,14 +2112,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 133,
+      "crime_rate_per_1000": 39.3,
+      "crime_asb": 42,
+      "crime_violent": 49,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 19,
+      "crime_drugs": 7,
+      "crime_theft": 8,
+      "crime_vehicle": 1,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 43,
+      "livability_rank": 286
     },
     {
       "slug": "castlerock",
       "name": "CASTLEROCK",
       "lgd": "Causeway Coast and Glens",
       "population": 3391,
-      "population_2011": 3609,
       "male": 1600,
       "female": 1791,
       "age_0_15_pct": 16.6,
@@ -2193,14 +2312,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 142,
+      "crime_rate_per_1000": 41.9,
+      "crime_asb": 84,
+      "crime_violent": 28,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 12,
+      "crime_drugs": 5,
+      "crime_theft": 9,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 58,
+      "livability_rank": 168
     },
     {
       "slug": "churchland",
       "name": "CHURCHLAND",
       "lgd": "Causeway Coast and Glens",
       "population": 3643,
-      "population_2011": 3685,
       "male": 1786,
       "female": 1857,
       "age_0_15_pct": 15.3,
@@ -2294,14 +2428,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 409,
+      "crime_rate_per_1000": 112.3,
+      "crime_asb": 133,
+      "crime_violent": 90,
+      "crime_burglary": 6,
+      "crime_criminal_damage": 24,
+      "crime_drugs": 23,
+      "crime_theft": 113,
+      "crime_vehicle": 2,
+      "crime_public_order": 4,
+      "crime_robbery": 1,
+      "crime_weapons": 5,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 58,
+      "livability_rank": 164
     },
     {
       "slug": "clogh-mills",
       "name": "CLOGH MILLS",
       "lgd": "Causeway Coast and Glens",
       "population": 3645,
-      "population_2011": 3764,
       "male": 1812,
       "female": 1833,
       "age_0_15_pct": 18.6,
@@ -2747,14 +2896,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 121,
+      "crime_rate_per_1000": 33.2,
+      "crime_asb": 34,
+      "crime_violent": 43,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 9,
+      "crime_drugs": 15,
+      "crime_theft": 10,
+      "crime_vehicle": 2,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 53,
+      "livability_rank": 199
     },
     {
       "slug": "coolessan",
       "name": "COOLESSAN",
       "lgd": "Causeway Coast and Glens",
       "population": 2920,
-      "population_2011": 2959,
       "male": 1407,
       "female": 1513,
       "age_0_15_pct": 19,
@@ -2856,14 +3020,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 305,
+      "crime_rate_per_1000": 104.5,
+      "crime_asb": 93,
+      "crime_violent": 112,
+      "crime_burglary": 8,
+      "crime_criminal_damage": 39,
+      "crime_drugs": 18,
+      "crime_theft": 17,
+      "crime_vehicle": 3,
+      "crime_public_order": 2,
+      "crime_robbery": 1,
+      "crime_weapons": 3,
+      "crime_other": 9,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 13,
+      "livability_rank": 448
     },
     {
       "slug": "dervock",
       "name": "DERVOCK",
       "lgd": "Causeway Coast and Glens",
       "population": 3449,
-      "population_2011": 3436,
       "male": 1684,
       "female": 1765,
       "age_0_15_pct": 19.7,
@@ -3253,14 +3432,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 107,
+      "crime_rate_per_1000": 31,
+      "crime_asb": 38,
+      "crime_violent": 38,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 12,
+      "crime_drugs": 6,
+      "crime_theft": 1,
+      "crime_vehicle": 2,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 43,
+      "livability_rank": 282
     },
     {
       "slug": "drumsurn",
       "name": "DRUMSURN",
       "lgd": "Causeway Coast and Glens",
       "population": 3663,
-      "population_2011": 3416,
       "male": 1756,
       "female": 1907,
       "age_0_15_pct": 20.6,
@@ -3594,14 +3788,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 98,
+      "crime_rate_per_1000": 26.8,
+      "crime_asb": 41,
+      "crime_violent": 35,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 4,
+      "crime_drugs": 1,
+      "crime_theft": 13,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 54,
+      "livability_rank": 196
     },
     {
       "slug": "dundooan",
       "name": "DUNDOOAN",
       "lgd": "Causeway Coast and Glens",
       "population": 3910,
-      "population_2011": 3800,
       "male": 1907,
       "female": 2003,
       "age_0_15_pct": 15.6,
@@ -3963,14 +4172,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 401,
+      "crime_rate_per_1000": 102.6,
+      "crime_asb": 198,
+      "crime_violent": 100,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 29,
+      "crime_drugs": 16,
+      "crime_theft": 20,
+      "crime_vehicle": 6,
+      "crime_public_order": 5,
+      "crime_robbery": 0,
+      "crime_weapons": 3,
+      "crime_other": 13,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 58,
+      "livability_rank": 166
     },
     {
       "slug": "dungiven",
       "name": "DUNGIVEN",
       "lgd": "Causeway Coast and Glens",
       "population": 3297,
-      "population_2011": 3324,
       "male": 1640,
       "female": 1657,
       "age_0_15_pct": 21.7,
@@ -4524,14 +4748,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 71,
+      "crime_rate_per_1000": 21.5,
+      "crime_asb": 20,
+      "crime_violent": 28,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 5,
+      "crime_drugs": 5,
+      "crime_theft": 4,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 39,
+      "livability_rank": 316
     },
     {
       "slug": "dunloy",
       "name": "DUNLOY",
       "lgd": "Causeway Coast and Glens",
       "population": 3625,
-      "population_2011": 3576,
       "male": 1822,
       "female": 1803,
       "age_0_15_pct": 21.2,
@@ -4885,14 +5124,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 72,
+      "crime_rate_per_1000": 19.9,
+      "crime_asb": 16,
+      "crime_violent": 30,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 4,
+      "crime_drugs": 6,
+      "crime_theft": 6,
+      "crime_vehicle": 2,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 65,
+      "livability_rank": 120
     },
     {
       "slug": "feeny",
       "name": "FEENY",
       "lgd": "Causeway Coast and Glens",
       "population": 3611,
-      "population_2011": 3349,
       "male": 1804,
       "female": 1807,
       "age_0_15_pct": 23.2,
@@ -5414,14 +5668,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 78,
+      "crime_rate_per_1000": 21.6,
+      "crime_asb": 13,
+      "crime_violent": 38,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 12,
+      "crime_drugs": 6,
+      "crime_theft": 7,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 37,
+      "livability_rank": 325
     },
     {
       "slug": "garvagh",
       "name": "GARVAGH",
       "lgd": "Causeway Coast and Glens",
       "population": 3514,
-      "population_2011": 3355,
       "male": 1745,
       "female": 1769,
       "age_0_15_pct": 22,
@@ -5735,14 +6004,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 137,
+      "crime_rate_per_1000": 39,
+      "crime_asb": 52,
+      "crime_violent": 50,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 14,
+      "crime_drugs": 4,
+      "crime_theft": 10,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 47,
+      "livability_rank": 257
     },
     {
       "slug": "giants-causeway",
       "name": "GIANT'S CAUSEWAY",
       "lgd": "Causeway Coast and Glens",
       "population": 3382,
-      "population_2011": 3490,
       "male": 1705,
       "female": 1677,
       "age_0_15_pct": 16.1,
@@ -6380,14 +6664,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 122,
+      "crime_rate_per_1000": 36.1,
+      "crime_asb": 39,
+      "crime_violent": 43,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 18,
+      "crime_drugs": 3,
+      "crime_theft": 12,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 36,
+      "livability_rank": 334
     },
     {
       "slug": "greysteel",
       "name": "GREYSTEEL",
       "lgd": "Causeway Coast and Glens",
       "population": 4642,
-      "population_2011": 4314,
       "male": 2355,
       "female": 2287,
       "age_0_15_pct": 22.1,
@@ -6665,14 +6964,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 190,
+      "crime_rate_per_1000": 40.9,
+      "crime_asb": 56,
+      "crime_violent": 78,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 12,
+      "crime_drugs": 10,
+      "crime_theft": 10,
+      "crime_vehicle": 7,
+      "crime_public_order": 3,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 9,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 40,
+      "livability_rank": 305
     },
     {
       "slug": "greystone",
       "name": "GREYSTONE",
       "lgd": "Causeway Coast and Glens",
       "population": 3486,
-      "population_2011": 3366,
       "male": 1692,
       "female": 1794,
       "age_0_15_pct": 20.4,
@@ -6790,14 +7104,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 115,
+      "crime_rate_per_1000": 33,
+      "crime_asb": 39,
+      "crime_violent": 38,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 18,
+      "crime_drugs": 7,
+      "crime_theft": 9,
+      "crime_vehicle": 0,
+      "crime_public_order": 1,
+      "crime_robbery": 1,
+      "crime_weapons": 1,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 52,
+      "livability_rank": 216
     },
     {
       "slug": "hopefield",
       "name": "HOPEFIELD",
       "lgd": "Causeway Coast and Glens",
       "population": 3588,
-      "population_2011": 3771,
       "male": 1752,
       "female": 1834,
       "age_0_15_pct": 16.6,
@@ -6895,14 +7224,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 190,
+      "crime_rate_per_1000": 53,
+      "crime_asb": 56,
+      "crime_violent": 39,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 9,
+      "crime_drugs": 7,
+      "crime_theft": 53,
+      "crime_vehicle": 15,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 9,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 63,
+      "livability_rank": 133
     },
     {
       "slug": "kilrea",
       "name": "KILREA",
       "lgd": "Causeway Coast and Glens",
       "population": 3751,
-      "population_2011": 3574,
       "male": 1872,
       "female": 1879,
       "age_0_15_pct": 20.5,
@@ -7228,14 +7572,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 202,
+      "crime_rate_per_1000": 53.9,
+      "crime_asb": 68,
+      "crime_violent": 62,
+      "crime_burglary": 9,
+      "crime_criminal_damage": 24,
+      "crime_drugs": 12,
+      "crime_theft": 15,
+      "crime_vehicle": 6,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 2,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 57,
+      "livability_rank": 177
     },
     {
       "slug": "kinbane",
       "name": "KINBANE",
       "lgd": "Causeway Coast and Glens",
       "population": 4041,
-      "population_2011": 3667,
       "male": 1993,
       "female": 2049,
       "age_0_15_pct": 19,
@@ -7669,14 +8028,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 215,
+      "crime_rate_per_1000": 53.2,
+      "crime_asb": 64,
+      "crime_violent": 75,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 20,
+      "crime_drugs": 17,
+      "crime_theft": 20,
+      "crime_vehicle": 6,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 35,
+      "livability_rank": 342
     },
     {
       "slug": "loughguile-and-stranocum",
       "name": "LOUGHGUILE and STRANOCUM",
       "lgd": "Causeway Coast and Glens",
       "population": 3678,
-      "population_2011": null,
       "male": 1875,
       "female": 1803,
       "age_0_15_pct": 20.5,
@@ -8210,14 +8584,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 81,
+      "crime_rate_per_1000": 22,
+      "crime_asb": 32,
+      "crime_violent": 31,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 8,
+      "crime_drugs": 2,
+      "crime_theft": 0,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 58,
+      "livability_rank": 169
     },
     {
       "slug": "lurigethan",
       "name": "LURIGETHAN",
       "lgd": "Causeway Coast and Glens",
       "population": 2764,
-      "population_2011": 2953,
       "male": 1407,
       "female": 1357,
       "age_0_15_pct": 16.7,
@@ -8527,14 +8916,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 47,
+      "crime_rate_per_1000": 17,
+      "crime_asb": 20,
+      "crime_violent": 14,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 2,
+      "crime_drugs": 2,
+      "crime_theft": 5,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 60,
+      "livability_rank": 155
     },
     {
       "slug": "macosquin",
       "name": "MACOSQUIN",
       "lgd": "Causeway Coast and Glens",
       "population": 3431,
-      "population_2011": 3177,
       "male": 1702,
       "female": 1729,
       "age_0_15_pct": 18.1,
@@ -8896,14 +9300,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 124,
+      "crime_rate_per_1000": 36.1,
+      "crime_asb": 52,
+      "crime_violent": 37,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 10,
+      "crime_drugs": 1,
+      "crime_theft": 11,
+      "crime_vehicle": 3,
+      "crime_public_order": 3,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 48,
+      "livability_rank": 249
     },
     {
       "slug": "magilligan",
       "name": "MAGILLIGAN",
       "lgd": "Causeway Coast and Glens",
       "population": 3481,
-      "population_2011": 3708,
       "male": 1918,
       "female": 1563,
       "age_0_15_pct": 13.4,
@@ -9289,14 +9708,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 135,
+      "crime_rate_per_1000": 38.8,
+      "crime_asb": 31,
+      "crime_violent": 52,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 11,
+      "crime_drugs": 17,
+      "crime_theft": 11,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 11,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 45,
+      "livability_rank": 269
     },
     {
       "slug": "mountsandel",
       "name": "MOUNTSANDEL",
       "lgd": "Causeway Coast and Glens",
       "population": 3808,
-      "population_2011": 3780,
       "male": 1878,
       "female": 1930,
       "age_0_15_pct": 13.6,
@@ -9422,14 +9856,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 938,
+      "crime_rate_per_1000": 246.3,
+      "crime_asb": 372,
+      "crime_violent": 288,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 87,
+      "crime_drugs": 27,
+      "crime_theft": 109,
+      "crime_vehicle": 6,
+      "crime_public_order": 17,
+      "crime_robbery": 0,
+      "crime_weapons": 7,
+      "crime_other": 14,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 25,
+      "livability_rank": 399
     },
     {
       "slug": "portrush-and-dunluce",
       "name": "PORTRUSH and DUNLUCE",
       "lgd": "Causeway Coast and Glens",
       "population": 2759,
-      "population_2011": null,
       "male": 1332,
       "female": 1427,
       "age_0_15_pct": 10.2,
@@ -9795,14 +10244,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 477,
+      "crime_rate_per_1000": 172.9,
+      "crime_asb": 186,
+      "crime_violent": 156,
+      "crime_burglary": 10,
+      "crime_criminal_damage": 39,
+      "crime_drugs": 23,
+      "crime_theft": 37,
+      "crime_vehicle": 7,
+      "crime_public_order": 4,
+      "crime_robbery": 2,
+      "crime_weapons": 4,
+      "crime_other": 9,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 30,
+      "livability_rank": 373
     },
     {
       "slug": "portstewart",
       "name": "PORTSTEWART",
       "lgd": "Causeway Coast and Glens",
       "population": 2915,
-      "population_2011": 3327,
       "male": 1425,
       "female": 1490,
       "age_0_15_pct": 11.6,
@@ -9940,14 +10404,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 209,
+      "crime_rate_per_1000": 71.7,
+      "crime_asb": 77,
+      "crime_violent": 58,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 25,
+      "crime_drugs": 12,
+      "crime_theft": 21,
+      "crime_vehicle": 4,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 64,
+      "livability_rank": 123
     },
     {
       "slug": "quarry",
       "name": "QUARRY",
       "lgd": "Causeway Coast and Glens",
       "population": 4457,
-      "population_2011": 3988,
       "male": 2094,
       "female": 2365,
       "age_0_15_pct": 23.7,
@@ -10061,14 +10540,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 277,
+      "crime_rate_per_1000": 62.1,
+      "crime_asb": 96,
+      "crime_violent": 123,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 26,
+      "crime_drugs": 9,
+      "crime_theft": 8,
+      "crime_vehicle": 4,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 24,
+      "livability_rank": 409
     },
     {
       "slug": "rasharkin",
       "name": "RASHARKIN",
       "lgd": "Causeway Coast and Glens",
       "population": 3906,
-      "population_2011": 3918,
       "male": 1928,
       "female": 1978,
       "age_0_15_pct": 21.2,
@@ -10510,14 +11004,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 65,
+      "crime_rate_per_1000": 16.6,
+      "crime_asb": 24,
+      "crime_violent": 24,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 10,
+      "crime_drugs": 3,
+      "crime_theft": 1,
+      "crime_vehicle": 0,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 54,
+      "livability_rank": 193
     },
     {
       "slug": "roeside",
       "name": "ROESIDE",
       "lgd": "Causeway Coast and Glens",
       "population": 2654,
-      "population_2011": 2885,
       "male": 1336,
       "female": 1318,
       "age_0_15_pct": 13.6,
@@ -10635,14 +11144,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 514,
+      "crime_rate_per_1000": 193.7,
+      "crime_asb": 170,
+      "crime_violent": 197,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 45,
+      "crime_drugs": 18,
+      "crime_theft": 61,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 14,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 29,
+      "livability_rank": 378
     },
     {
       "slug": "route",
       "name": "ROUTE",
       "lgd": "Causeway Coast and Glens",
       "population": 3448,
-      "population_2011": 3201,
       "male": 1738,
       "female": 1710,
       "age_0_15_pct": 19,
@@ -10888,14 +11412,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 114,
+      "crime_rate_per_1000": 33.1,
+      "crime_asb": 33,
+      "crime_violent": 38,
+      "crime_burglary": 6,
+      "crime_criminal_damage": 4,
+      "crime_drugs": 13,
+      "crime_theft": 7,
+      "crime_vehicle": 2,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 3,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 60,
+      "livability_rank": 157
     },
     {
       "slug": "torr-head-and-rathlin",
       "name": "TORR HEAD and RATHLIN",
       "lgd": "Causeway Coast and Glens",
       "population": 3597,
-      "population_2011": null,
       "male": 1832,
       "female": 1765,
       "age_0_15_pct": 18.4,
@@ -11743,14 +12282,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 82,
+      "crime_rate_per_1000": 22.8,
+      "crime_asb": 15,
+      "crime_violent": 30,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 17,
+      "crime_drugs": 4,
+      "crime_theft": 7,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 44,
+      "livability_rank": 276
     },
     {
       "slug": "university",
       "name": "UNIVERSITY",
       "lgd": "Causeway Coast and Glens",
       "population": 3654,
-      "population_2011": 3963,
       "male": 1739,
       "female": 1915,
       "age_0_15_pct": 16.1,
@@ -11860,14 +12414,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 192,
+      "crime_rate_per_1000": 52.5,
+      "crime_asb": 61,
+      "crime_violent": 66,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 9,
+      "crime_drugs": 10,
+      "crime_theft": 31,
+      "crime_vehicle": 1,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 10,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 35,
+      "livability_rank": 340
     },
     {
       "slug": "waterside",
       "name": "WATERSIDE",
       "lgd": "Causeway Coast and Glens",
       "population": 4305,
-      "population_2011": 4339,
       "male": 2071,
       "female": 2234,
       "age_0_15_pct": 18.4,
@@ -11981,14 +12550,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 320,
+      "crime_rate_per_1000": 74.3,
+      "crime_asb": 110,
+      "crime_violent": 96,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 42,
+      "crime_drugs": 31,
+      "crime_theft": 24,
+      "crime_vehicle": 2,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 43,
+      "livability_rank": 284
     },
     {
       "slug": "windy-hall",
       "name": "WINDY HALL",
       "lgd": "Causeway Coast and Glens",
       "population": 3754,
-      "population_2011": 3890,
       "male": 1807,
       "female": 1947,
       "age_0_15_pct": 17.9,
@@ -12110,7 +12694,23 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 86,
+      "crime_rate_per_1000": 22.9,
+      "crime_asb": 38,
+      "crime_violent": 22,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 5,
+      "crime_drugs": 1,
+      "crime_theft": 11,
+      "crime_vehicle": 5,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 73,
+      "livability_rank": 80
     }
   ]
 }

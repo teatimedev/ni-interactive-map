@@ -7,7 +7,6 @@
       "name": "ARDBOE",
       "lgd": "Mid Ulster",
       "population": 3818,
-      "population_2011": 3583,
       "male": 1973,
       "female": 1845,
       "age_0_15_pct": 22.7,
@@ -269,14 +268,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 96,
+      "crime_rate_per_1000": 25.1,
+      "crime_asb": 25,
+      "crime_violent": 43,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 6,
+      "crime_drugs": 7,
+      "crime_theft": 3,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 36,
+      "livability_rank": 332
     },
     {
       "slug": "augher-and-clogher",
       "name": "AUGHER and CLOGHER",
       "lgd": "Mid Ulster",
       "population": 3460,
-      "population_2011": null,
       "male": 1734,
       "female": 1726,
       "age_0_15_pct": 21.4,
@@ -806,14 +820,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 133,
+      "crime_rate_per_1000": 38.4,
+      "crime_asb": 58,
+      "crime_violent": 32,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 6,
+      "crime_drugs": 5,
+      "crime_theft": 16,
+      "crime_vehicle": 3,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 51,
+      "livability_rank": 220
     },
     {
       "slug": "aughnacloy",
       "name": "AUGHNACLOY",
       "lgd": "Mid Ulster",
       "population": 3696,
-      "population_2011": 3346,
       "male": 1848,
       "female": 1848,
       "age_0_15_pct": 22.6,
@@ -1407,14 +1436,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 111,
+      "crime_rate_per_1000": 30,
+      "crime_asb": 36,
+      "crime_violent": 32,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 13,
+      "crime_drugs": 4,
+      "crime_theft": 9,
+      "crime_vehicle": 1,
+      "crime_public_order": 4,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 46,
+      "livability_rank": 261
     },
     {
       "slug": "ballygawley",
       "name": "BALLYGAWLEY",
       "lgd": "Mid Ulster",
       "population": 3940,
-      "population_2011": 3317,
       "male": 2039,
       "female": 1901,
       "age_0_15_pct": 22.4,
@@ -1824,14 +1868,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 126,
+      "crime_rate_per_1000": 32,
+      "crime_asb": 29,
+      "crime_violent": 37,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 11,
+      "crime_drugs": 4,
+      "crime_theft": 6,
+      "crime_vehicle": 16,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 0,
+      "crime_other": 20,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 36,
+      "livability_rank": 331
     },
     {
       "slug": "ballymaguigan",
       "name": "BALLYMAGUIGAN",
       "lgd": "Mid Ulster",
       "population": 4144,
-      "population_2011": 3736,
       "male": 2071,
       "female": 2074,
       "age_0_15_pct": 22.6,
@@ -2089,14 +2148,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 92,
+      "crime_rate_per_1000": 22.2,
+      "crime_asb": 44,
+      "crime_violent": 26,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 7,
+      "crime_drugs": 4,
+      "crime_theft": 8,
+      "crime_vehicle": 1,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 68,
+      "livability_rank": 109
     },
     {
       "slug": "ballysaggart",
       "name": "BALLYSAGGART",
       "lgd": "Mid Ulster",
       "population": 5062,
-      "population_2011": 4355,
       "male": 2644,
       "female": 2418,
       "age_0_15_pct": 21.9,
@@ -2226,14 +2300,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 543,
+      "crime_rate_per_1000": 107.3,
+      "crime_asb": 175,
+      "crime_violent": 165,
+      "crime_burglary": 22,
+      "crime_criminal_damage": 54,
+      "crime_drugs": 41,
+      "crime_theft": 48,
+      "crime_vehicle": 8,
+      "crime_public_order": 8,
+      "crime_robbery": 3,
+      "crime_weapons": 3,
+      "crime_other": 16,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 31,
+      "livability_rank": 361
     },
     {
       "slug": "bellaghy",
       "name": "BELLAGHY",
       "lgd": "Mid Ulster",
       "population": 3879,
-      "population_2011": 3573,
       "male": 1925,
       "female": 1954,
       "age_0_15_pct": 24.3,
@@ -2463,14 +2552,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 67,
+      "crime_rate_per_1000": 17.3,
+      "crime_asb": 22,
+      "crime_violent": 15,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 11,
+      "crime_drugs": 5,
+      "crime_theft": 8,
+      "crime_vehicle": 1,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 62,
+      "livability_rank": 145
     },
     {
       "slug": "caledon",
       "name": "CALEDON",
       "lgd": "Mid Ulster",
       "population": 3963,
-      "population_2011": 3520,
       "male": 1997,
       "female": 1966,
       "age_0_15_pct": 22.8,
@@ -3104,14 +3208,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 136,
+      "crime_rate_per_1000": 34.3,
+      "crime_asb": 49,
+      "crime_violent": 42,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 10,
+      "crime_drugs": 10,
+      "crime_theft": 9,
+      "crime_vehicle": 1,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 55,
+      "livability_rank": 186
     },
     {
       "slug": "castlecaulfield",
       "name": "CASTLECAULFIELD",
       "lgd": "Mid Ulster",
       "population": 3759,
-      "population_2011": 3216,
       "male": 1931,
       "female": 1828,
       "age_0_15_pct": 21.8,
@@ -3501,14 +3620,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 70,
+      "crime_rate_per_1000": 18.6,
+      "crime_asb": 15,
+      "crime_violent": 21,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 15,
+      "crime_drugs": 5,
+      "crime_theft": 5,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 63,
+      "livability_rank": 135
     },
     {
       "slug": "castledawson",
       "name": "CASTLEDAWSON",
       "lgd": "Mid Ulster",
       "population": 3792,
-      "population_2011": 3752,
       "male": 1904,
       "female": 1888,
       "age_0_15_pct": 20.8,
@@ -3830,14 +3964,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 199,
+      "crime_rate_per_1000": 52.5,
+      "crime_asb": 52,
+      "crime_violent": 67,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 18,
+      "crime_drugs": 12,
+      "crime_theft": 35,
+      "crime_vehicle": 4,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 56,
+      "livability_rank": 179
     },
     {
       "slug": "coagh",
       "name": "COAGH",
       "lgd": "Mid Ulster",
       "population": 3371,
-      "population_2011": 3188,
       "male": 1677,
       "female": 1694,
       "age_0_15_pct": 23.4,
@@ -4251,14 +4400,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 92,
+      "crime_rate_per_1000": 27.3,
+      "crime_asb": 35,
+      "crime_violent": 33,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 7,
+      "crime_drugs": 5,
+      "crime_theft": 6,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 48,
+      "livability_rank": 248
     },
     {
       "slug": "coalisland-north",
       "name": "COALISLAND NORTH",
       "lgd": "Mid Ulster",
       "population": 3671,
-      "population_2011": 3465,
       "male": 1810,
       "female": 1862,
       "age_0_15_pct": 20.6,
@@ -4504,14 +4668,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 114,
+      "crime_rate_per_1000": 31.1,
+      "crime_asb": 45,
+      "crime_violent": 35,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 10,
+      "crime_drugs": 11,
+      "crime_theft": 3,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 50,
+      "livability_rank": 229
     },
     {
       "slug": "coalisland-south",
       "name": "COALISLAND SOUTH",
       "lgd": "Mid Ulster",
       "population": 4842,
-      "population_2011": 4126,
       "male": 2345,
       "female": 2497,
       "age_0_15_pct": 22.9,
@@ -4621,14 +4800,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 314,
+      "crime_rate_per_1000": 64.8,
+      "crime_asb": 100,
+      "crime_violent": 102,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 36,
+      "crime_drugs": 14,
+      "crime_theft": 31,
+      "crime_vehicle": 9,
+      "crime_public_order": 0,
+      "crime_robbery": 2,
+      "crime_weapons": 5,
+      "crime_other": 11,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 26,
+      "livability_rank": 397
     },
     {
       "slug": "cookstown-east",
       "name": "COOKSTOWN EAST",
       "lgd": "Mid Ulster",
       "population": 3790,
-      "population_2011": 3088,
       "male": 1896,
       "female": 1894,
       "age_0_15_pct": 18.1,
@@ -4774,14 +4968,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 529,
+      "crime_rate_per_1000": 139.6,
+      "crime_asb": 195,
+      "crime_violent": 185,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 62,
+      "crime_drugs": 35,
+      "crime_theft": 29,
+      "crime_vehicle": 4,
+      "crime_public_order": 0,
+      "crime_robbery": 2,
+      "crime_weapons": 4,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 40,
+      "livability_rank": 304
     },
     {
       "slug": "cookstown-south",
       "name": "COOKSTOWN SOUTH",
       "lgd": "Mid Ulster",
       "population": 3524,
-      "population_2011": 3488,
       "male": 1704,
       "female": 1820,
       "age_0_15_pct": 20.4,
@@ -4879,14 +5088,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 135,
+      "crime_rate_per_1000": 38.3,
+      "crime_asb": 44,
+      "crime_violent": 36,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 19,
+      "crime_drugs": 9,
+      "crime_theft": 16,
+      "crime_vehicle": 5,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 45,
+      "livability_rank": 268
     },
     {
       "slug": "cookstown-west",
       "name": "COOKSTOWN WEST",
       "lgd": "Mid Ulster",
       "population": 3688,
-      "population_2011": 3485,
       "male": 1783,
       "female": 1902,
       "age_0_15_pct": 21.2,
@@ -4992,14 +5216,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 238,
+      "crime_rate_per_1000": 64.5,
+      "crime_asb": 82,
+      "crime_violent": 82,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 16,
+      "crime_drugs": 12,
+      "crime_theft": 38,
+      "crime_vehicle": 1,
+      "crime_public_order": 3,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 43,
+      "livability_rank": 283
     },
     {
       "slug": "coolshinny",
       "name": "COOLSHINNY",
       "lgd": "Mid Ulster",
       "population": 4048,
-      "population_2011": 3447,
       "male": 2051,
       "female": 1997,
       "age_0_15_pct": 20.8,
@@ -5373,14 +5612,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 56,
+      "crime_rate_per_1000": 13.8,
+      "crime_asb": 18,
+      "crime_violent": 16,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 6,
+      "crime_drugs": 5,
+      "crime_theft": 6,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 74,
+      "livability_rank": 75
     },
     {
       "slug": "donaghmore",
       "name": "DONAGHMORE",
       "lgd": "Mid Ulster",
       "population": 3839,
-      "population_2011": 3585,
       "male": 1955,
       "female": 1884,
       "age_0_15_pct": 21.7,
@@ -5882,14 +6136,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 94,
+      "crime_rate_per_1000": 24.5,
+      "crime_asb": 21,
+      "crime_violent": 31,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 11,
+      "crime_drugs": 2,
+      "crime_theft": 18,
+      "crime_vehicle": 1,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 48,
+      "livability_rank": 246
     },
     {
       "slug": "draperstown",
       "name": "DRAPERSTOWN",
       "lgd": "Mid Ulster",
       "population": 3266,
-      "population_2011": 3002,
       "male": 1681,
       "female": 1585,
       "age_0_15_pct": 23.1,
@@ -6243,14 +6512,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 114,
+      "crime_rate_per_1000": 34.9,
+      "crime_asb": 61,
+      "crime_violent": 33,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 5,
+      "crime_drugs": 3,
+      "crime_theft": 7,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 52,
+      "livability_rank": 217
     },
     {
       "slug": "fivemiletown",
       "name": "FIVEMILETOWN",
       "lgd": "Mid Ulster",
       "population": 3174,
-      "population_2011": 3002,
       "male": 1619,
       "female": 1555,
       "age_0_15_pct": 19.5,
@@ -6808,14 +7092,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 213,
+      "crime_rate_per_1000": 67.1,
+      "crime_asb": 44,
+      "crime_violent": 67,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 42,
+      "crime_drugs": 13,
+      "crime_theft": 15,
+      "crime_vehicle": 6,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 7,
+      "crime_other": 12,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 37,
+      "livability_rank": 321
     },
     {
       "slug": "glebe",
       "name": "GLEBE",
       "lgd": "Mid Ulster",
       "population": 3845,
-      "population_2011": 3726,
       "male": 1854,
       "female": 1991,
       "age_0_15_pct": 18.5,
@@ -6937,14 +7236,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 448,
+      "crime_rate_per_1000": 116.5,
+      "crime_asb": 144,
+      "crime_violent": 159,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 37,
+      "crime_drugs": 37,
+      "crime_theft": 48,
+      "crime_vehicle": 4,
+      "crime_public_order": 1,
+      "crime_robbery": 1,
+      "crime_weapons": 2,
+      "crime_other": 12,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 54,
+      "livability_rank": 192
     },
     {
       "slug": "killyman",
       "name": "KILLYMAN",
       "lgd": "Mid Ulster",
       "population": 3619,
-      "population_2011": 3106,
       "male": 1874,
       "female": 1745,
       "age_0_15_pct": 22.2,
@@ -7238,14 +7552,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 123,
+      "crime_rate_per_1000": 34,
+      "crime_asb": 44,
+      "crime_violent": 32,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 11,
+      "crime_drugs": 12,
+      "crime_theft": 20,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 57,
+      "livability_rank": 172
     },
     {
       "slug": "killymeal",
       "name": "KILLYMEAL",
       "lgd": "Mid Ulster",
       "population": 5003,
-      "population_2011": 4114,
       "male": 2500,
       "female": 2502,
       "age_0_15_pct": 23.1,
@@ -7451,14 +7780,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 390,
+      "crime_rate_per_1000": 78,
+      "crime_asb": 116,
+      "crime_violent": 121,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 45,
+      "crime_drugs": 28,
+      "crime_theft": 41,
+      "crime_vehicle": 7,
+      "crime_public_order": 3,
+      "crime_robbery": 2,
+      "crime_weapons": 7,
+      "crime_other": 9,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 49,
+      "livability_rank": 231
     },
     {
       "slug": "lissan",
       "name": "LISSAN",
       "lgd": "Mid Ulster",
       "population": 3594,
-      "population_2011": 3482,
       "male": 1790,
       "female": 1804,
       "age_0_15_pct": 21.5,
@@ -7920,14 +8264,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 79,
+      "crime_rate_per_1000": 22,
+      "crime_asb": 24,
+      "crime_violent": 28,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 7,
+      "crime_drugs": 7,
+      "crime_theft": 7,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 53,
+      "livability_rank": 208
     },
     {
       "slug": "loughry",
       "name": "LOUGHRY",
       "lgd": "Mid Ulster",
       "population": 2955,
-      "population_2011": 2982,
       "male": 1466,
       "female": 1489,
       "age_0_15_pct": 19.5,
@@ -8269,14 +8628,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 148,
+      "crime_rate_per_1000": 50.1,
+      "crime_asb": 32,
+      "crime_violent": 53,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 25,
+      "crime_drugs": 15,
+      "crime_theft": 7,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 35,
+      "livability_rank": 336
     },
     {
       "slug": "lower-glenshane",
       "name": "LOWER GLENSHANE",
       "lgd": "Mid Ulster",
       "population": 3153,
-      "population_2011": 2917,
       "male": 1586,
       "female": 1567,
       "age_0_15_pct": 21.9,
@@ -8714,14 +9088,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 58,
+      "crime_rate_per_1000": 18.4,
+      "crime_asb": 22,
+      "crime_violent": 18,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 7,
+      "crime_drugs": 4,
+      "crime_theft": 3,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 69,
+      "livability_rank": 106
     },
     {
       "slug": "maghera",
       "name": "MAGHERA",
       "lgd": "Mid Ulster",
       "population": 3469,
-      "population_2011": 3556,
       "male": 1694,
       "female": 1775,
       "age_0_15_pct": 22,
@@ -8847,14 +9236,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 201,
+      "crime_rate_per_1000": 57.9,
+      "crime_asb": 82,
+      "crime_violent": 45,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 25,
+      "crime_drugs": 21,
+      "crime_theft": 12,
+      "crime_vehicle": 6,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 30,
+      "livability_rank": 370
     },
     {
       "slug": "moy",
       "name": "MOY",
       "lgd": "Mid Ulster",
       "population": 3950,
-      "population_2011": 3550,
       "male": 1978,
       "female": 1972,
       "age_0_15_pct": 23.1,
@@ -9168,14 +9572,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 194,
+      "crime_rate_per_1000": 49.1,
+      "crime_asb": 66,
+      "crime_violent": 60,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 28,
+      "crime_drugs": 17,
+      "crime_theft": 13,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 1,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 53,
+      "livability_rank": 198
     },
     {
       "slug": "moygashel",
       "name": "MOYGASHEL",
       "lgd": "Mid Ulster",
       "population": 3606,
-      "population_2011": 3330,
       "male": 1780,
       "female": 1826,
       "age_0_15_pct": 18.7,
@@ -9357,14 +9776,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 157,
+      "crime_rate_per_1000": 43.5,
+      "crime_asb": 47,
+      "crime_violent": 54,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 21,
+      "crime_drugs": 11,
+      "crime_theft": 16,
+      "crime_vehicle": 1,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 53,
+      "livability_rank": 197
     },
     {
       "slug": "mullaghmore",
       "name": "MULLAGHMORE",
       "lgd": "Mid Ulster",
       "population": 4408,
-      "population_2011": 3902,
       "male": 2218,
       "female": 2190,
       "age_0_15_pct": 21.3,
@@ -9526,14 +9960,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 247,
+      "crime_rate_per_1000": 56,
+      "crime_asb": 84,
+      "crime_violent": 93,
+      "crime_burglary": 8,
+      "crime_criminal_damage": 21,
+      "crime_drugs": 11,
+      "crime_theft": 14,
+      "crime_vehicle": 5,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 37,
+      "livability_rank": 322
     },
     {
       "slug": "oaklands",
       "name": "OAKLANDS",
       "lgd": "Mid Ulster",
       "population": 3413,
-      "population_2011": 3167,
       "male": 1714,
       "female": 1699,
       "age_0_15_pct": 23,
@@ -10023,14 +10472,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 59,
+      "crime_rate_per_1000": 17.3,
+      "crime_asb": 16,
+      "crime_violent": 24,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 8,
+      "crime_drugs": 4,
+      "crime_theft": 4,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 48,
+      "livability_rank": 250
     },
     {
       "slug": "pomeroy",
       "name": "POMEROY",
       "lgd": "Mid Ulster",
       "population": 3879,
-      "population_2011": 3620,
       "male": 1951,
       "female": 1928,
       "age_0_15_pct": 23.5,
@@ -10436,14 +10900,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 70,
+      "crime_rate_per_1000": 18,
+      "crime_asb": 17,
+      "crime_violent": 27,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 8,
+      "crime_drugs": 5,
+      "crime_theft": 4,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 31,
+      "livability_rank": 368
     },
     {
       "slug": "stewartstown",
       "name": "STEWARTSTOWN",
       "lgd": "Mid Ulster",
       "population": 3110,
-      "population_2011": 3108,
       "male": 1538,
       "female": 1572,
       "age_0_15_pct": 18.3,
@@ -10937,14 +11416,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 76,
+      "crime_rate_per_1000": 24.4,
+      "crime_asb": 14,
+      "crime_violent": 30,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 12,
+      "crime_drugs": 6,
+      "crime_theft": 7,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 43,
+      "livability_rank": 279
     },
     {
       "slug": "swatragh",
       "name": "SWATRAGH",
       "lgd": "Mid Ulster",
       "population": 3458,
-      "population_2011": 3375,
       "male": 1741,
       "female": 1717,
       "age_0_15_pct": 23.7,
@@ -11350,14 +11844,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 106,
+      "crime_rate_per_1000": 30.7,
+      "crime_asb": 35,
+      "crime_violent": 29,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 10,
+      "crime_drugs": 16,
+      "crime_theft": 6,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 4,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 63,
+      "livability_rank": 137
     },
     {
       "slug": "tamlaght-ocrilly",
       "name": "TAMLAGHT O'CRILLY",
       "lgd": "Mid Ulster",
       "population": 3647,
-      "population_2011": 3489,
       "male": 1841,
       "female": 1806,
       "age_0_15_pct": 22,
@@ -11719,14 +12228,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 85,
+      "crime_rate_per_1000": 23.3,
+      "crime_asb": 23,
+      "crime_violent": 28,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 17,
+      "crime_drugs": 6,
+      "crime_theft": 6,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 48,
+      "livability_rank": 242
     },
     {
       "slug": "the-loup",
       "name": "THE LOUP",
       "lgd": "Mid Ulster",
       "population": 4260,
-      "population_2011": 3820,
       "male": 2137,
       "female": 2123,
       "age_0_15_pct": 24.3,
@@ -12028,14 +12552,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 137,
+      "crime_rate_per_1000": 32.2,
+      "crime_asb": 34,
+      "crime_violent": 50,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 20,
+      "crime_drugs": 10,
+      "crime_theft": 6,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 2,
+      "crime_weapons": 2,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 60,
+      "livability_rank": 159
     },
     {
       "slug": "tobermore",
       "name": "TOBERMORE",
       "lgd": "Mid Ulster",
       "population": 3458,
-      "population_2011": 3456,
       "male": 1709,
       "female": 1749,
       "age_0_15_pct": 20.3,
@@ -12425,14 +12964,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 59,
+      "crime_rate_per_1000": 17.1,
+      "crime_asb": 13,
+      "crime_violent": 21,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 11,
+      "crime_drugs": 2,
+      "crime_theft": 4,
+      "crime_vehicle": 1,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 61,
+      "livability_rank": 150
     },
     {
       "slug": "town-parks-east",
       "name": "TOWN PARKS EAST",
       "lgd": "Mid Ulster",
       "population": 3557,
-      "population_2011": 3569,
       "male": 1712,
       "female": 1845,
       "age_0_15_pct": 19.3,
@@ -12542,14 +13096,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 230,
+      "crime_rate_per_1000": 64.7,
+      "crime_asb": 89,
+      "crime_violent": 72,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 24,
+      "crime_drugs": 8,
+      "crime_theft": 29,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 35,
+      "livability_rank": 339
     },
     {
       "slug": "valley",
       "name": "VALLEY",
       "lgd": "Mid Ulster",
       "population": 3443,
-      "population_2011": 3498,
       "male": 1724,
       "female": 1719,
       "age_0_15_pct": 21,
@@ -12859,14 +13428,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 74,
+      "crime_rate_per_1000": 21.5,
+      "crime_asb": 20,
+      "crime_violent": 19,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 11,
+      "crime_drugs": 5,
+      "crime_theft": 11,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 60,
+      "livability_rank": 158
     },
     {
       "slug": "washing-bay",
       "name": "WASHING BAY",
       "lgd": "Mid Ulster",
       "population": 3738,
-      "population_2011": 3403,
       "male": 1896,
       "female": 1842,
       "age_0_15_pct": 23.8,
@@ -13080,7 +13664,23 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 56,
+      "crime_rate_per_1000": 15,
+      "crime_asb": 18,
+      "crime_violent": 21,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 7,
+      "crime_drugs": 3,
+      "crime_theft": 2,
+      "crime_vehicle": 1,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 55,
+      "livability_rank": 187
     }
   ]
 }

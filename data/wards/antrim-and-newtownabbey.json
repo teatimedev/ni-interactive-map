@@ -7,7 +7,6 @@
       "name": "ABBEY",
       "lgd": "Antrim and Newtownabbey",
       "population": 3355,
-      "population_2011": 4091,
       "male": 1608,
       "female": 1747,
       "age_0_15_pct": 17.4,
@@ -93,14 +92,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 372,
+      "crime_rate_per_1000": 110.9,
+      "crime_asb": 153,
+      "crime_violent": 84,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 49,
+      "crime_drugs": 23,
+      "crime_theft": 44,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 4,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 54,
+      "livability_rank": 190
     },
     {
       "slug": "aldergrove",
       "name": "ALDERGROVE",
       "lgd": "Antrim and Newtownabbey",
       "population": 4684,
-      "population_2011": 4462,
       "male": 2605,
       "female": 2079,
       "age_0_15_pct": 16.9,
@@ -386,14 +400,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 285,
+      "crime_rate_per_1000": 60.8,
+      "crime_asb": 57,
+      "crime_violent": 83,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 19,
+      "crime_drugs": 24,
+      "crime_theft": 60,
+      "crime_vehicle": 8,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 3,
+      "crime_other": 25,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 78,
+      "livability_rank": 54
     },
     {
       "slug": "antrim-centre",
       "name": "ANTRIM CENTRE",
       "lgd": "Antrim and Newtownabbey",
       "population": 4093,
-      "population_2011": 3722,
       "male": 2061,
       "female": 2033,
       "age_0_15_pct": 14.4,
@@ -543,14 +572,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 658,
+      "crime_rate_per_1000": 160.8,
+      "crime_asb": 221,
+      "crime_violent": 161,
+      "crime_burglary": 10,
+      "crime_criminal_damage": 76,
+      "crime_drugs": 25,
+      "crime_theft": 138,
+      "crime_vehicle": 10,
+      "crime_public_order": 5,
+      "crime_robbery": 0,
+      "crime_weapons": 5,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 43,
+      "livability_rank": 281
     },
     {
       "slug": "ballyclare-east",
       "name": "BALLYCLARE EAST",
       "lgd": "Antrim and Newtownabbey",
       "population": 4142,
-      "population_2011": 3893,
       "male": 2008,
       "female": 2134,
       "age_0_15_pct": 18.8,
@@ -668,14 +712,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 313,
+      "crime_rate_per_1000": 75.6,
+      "crime_asb": 106,
+      "crime_violent": 95,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 34,
+      "crime_drugs": 10,
+      "crime_theft": 45,
+      "crime_vehicle": 5,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 4,
+      "crime_other": 10,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 52,
+      "livability_rank": 213
     },
     {
       "slug": "ballyclare-west",
       "name": "BALLYCLARE WEST",
       "lgd": "Antrim and Newtownabbey",
       "population": 4044,
-      "population_2011": 3564,
       "male": 1947,
       "female": 2094,
       "age_0_15_pct": 19.9,
@@ -781,14 +840,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 103,
+      "crime_rate_per_1000": 25.5,
+      "crime_asb": 37,
+      "crime_violent": 41,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 11,
+      "crime_drugs": 4,
+      "crime_theft": 4,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 0,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 63,
+      "livability_rank": 136
     },
     {
       "slug": "ballyduff",
       "name": "BALLYDUFF",
       "lgd": "Antrim and Newtownabbey",
       "population": 3020,
-      "population_2011": 3116,
       "male": 1467,
       "female": 1553,
       "age_0_15_pct": 15.2,
@@ -862,14 +936,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 140,
+      "crime_rate_per_1000": 46.4,
+      "crime_asb": 35,
+      "crime_violent": 62,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 21,
+      "crime_drugs": 5,
+      "crime_theft": 8,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 53,
+      "livability_rank": 206
     },
     {
       "slug": "ballyhenry",
       "name": "BALLYHENRY",
       "lgd": "Antrim and Newtownabbey",
       "population": 2711,
-      "population_2011": 2873,
       "male": 1357,
       "female": 1354,
       "age_0_15_pct": 18.3,
@@ -959,14 +1048,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 78,
+      "crime_rate_per_1000": 28.8,
+      "crime_asb": 18,
+      "crime_violent": 28,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 8,
+      "crime_drugs": 8,
+      "crime_theft": 5,
+      "crime_vehicle": 1,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 80,
+      "livability_rank": 39
     },
     {
       "slug": "ballynure",
       "name": "BALLYNURE",
       "lgd": "Antrim and Newtownabbey",
       "population": 3610,
-      "population_2011": 3368,
       "male": 1769,
       "female": 1841,
       "age_0_15_pct": 17.9,
@@ -1292,14 +1396,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 99,
+      "crime_rate_per_1000": 27.4,
+      "crime_asb": 28,
+      "crime_violent": 31,
+      "crime_burglary": 8,
+      "crime_criminal_damage": 9,
+      "crime_drugs": 5,
+      "crime_theft": 12,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 76,
+      "livability_rank": 63
     },
     {
       "slug": "ballyrobert",
       "name": "BALLYROBERT",
       "lgd": "Antrim and Newtownabbey",
       "population": 3810,
-      "population_2011": 3363,
       "male": 1854,
       "female": 1956,
       "age_0_15_pct": 18.3,
@@ -1529,14 +1648,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 136,
+      "crime_rate_per_1000": 35.7,
+      "crime_asb": 56,
+      "crime_violent": 40,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 14,
+      "crime_drugs": 6,
+      "crime_theft": 13,
+      "crime_vehicle": 4,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 78,
+      "livability_rank": 49
     },
     {
       "slug": "burnthill",
       "name": "BURNTHILL",
       "lgd": "Antrim and Newtownabbey",
       "population": 3715,
-      "population_2011": 3446,
       "male": 1724,
       "female": 1991,
       "age_0_15_pct": 17.3,
@@ -1638,14 +1772,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 193,
+      "crime_rate_per_1000": 52,
+      "crime_asb": 59,
+      "crime_violent": 83,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 24,
+      "crime_drugs": 6,
+      "crime_theft": 11,
+      "crime_vehicle": 2,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 55,
+      "livability_rank": 185
     },
     {
       "slug": "carnmoney",
       "name": "CARNMONEY",
       "lgd": "Antrim and Newtownabbey",
       "population": 2607,
-      "population_2011": 2806,
       "male": 1261,
       "female": 1347,
       "age_0_15_pct": 14,
@@ -1743,14 +1892,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 75,
+      "crime_rate_per_1000": 28.8,
+      "crime_asb": 28,
+      "crime_violent": 23,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 2,
+      "crime_drugs": 1,
+      "crime_theft": 16,
+      "crime_vehicle": 1,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 70,
+      "livability_rank": 96
     },
     {
       "slug": "carnmoney-hill",
       "name": "CARNMONEY HILL",
       "lgd": "Antrim and Newtownabbey",
       "population": 3305,
-      "population_2011": 3226,
       "male": 1611,
       "female": 1694,
       "age_0_15_pct": 18.2,
@@ -1872,14 +2036,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 228,
+      "crime_rate_per_1000": 69,
+      "crime_asb": 118,
+      "crime_violent": 62,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 23,
+      "crime_drugs": 9,
+      "crime_theft": 12,
+      "crime_vehicle": 0,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 74,
+      "livability_rank": 72
     },
     {
       "slug": "clady",
       "name": "CLADY",
       "lgd": "Antrim and Newtownabbey",
       "population": 3834,
-      "population_2011": 3376,
       "male": 1925,
       "female": 1909,
       "age_0_15_pct": 20.3,
@@ -2237,14 +2416,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 239,
+      "crime_rate_per_1000": 62.3,
+      "crime_asb": 61,
+      "crime_violent": 79,
+      "crime_burglary": 9,
+      "crime_criminal_damage": 27,
+      "crime_drugs": 19,
+      "crime_theft": 21,
+      "crime_vehicle": 7,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 5,
+      "crime_other": 9,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 65,
+      "livability_rank": 119
     },
     {
       "slug": "collinbridge",
       "name": "COLLINBRIDGE",
       "lgd": "Antrim and Newtownabbey",
       "population": 2927,
-      "population_2011": 2961,
       "male": 1481,
       "female": 1446,
       "age_0_15_pct": 17.4,
@@ -2378,14 +2572,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 216,
+      "crime_rate_per_1000": 73.8,
+      "crime_asb": 66,
+      "crime_violent": 54,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 16,
+      "crime_drugs": 26,
+      "crime_theft": 45,
+      "crime_vehicle": 2,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 76,
+      "livability_rank": 61
     },
     {
       "slug": "cranfield",
       "name": "CRANFIELD",
       "lgd": "Antrim and Newtownabbey",
       "population": 3175,
-      "population_2011": 3144,
       "male": 1549,
       "female": 1626,
       "age_0_15_pct": 19.6,
@@ -2735,14 +2944,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 91,
+      "crime_rate_per_1000": 28.7,
+      "crime_asb": 27,
+      "crime_violent": 42,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 7,
+      "crime_drugs": 4,
+      "crime_theft": 1,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 72,
+      "livability_rank": 86
     },
     {
       "slug": "crumlin",
       "name": "CRUMLIN",
       "lgd": "Antrim and Newtownabbey",
       "population": 3705,
-      "population_2011": 3918,
       "male": 1822,
       "female": 1883,
       "age_0_15_pct": 19.8,
@@ -2888,14 +3112,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 214,
+      "crime_rate_per_1000": 57.8,
+      "crime_asb": 72,
+      "crime_violent": 48,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 17,
+      "crime_drugs": 16,
+      "crime_theft": 46,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 4,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 55,
+      "livability_rank": 184
     },
     {
       "slug": "doagh",
       "name": "DOAGH",
       "lgd": "Antrim and Newtownabbey",
       "population": 3471,
-      "population_2011": 3343,
       "male": 1718,
       "female": 1753,
       "age_0_15_pct": 18.5,
@@ -3069,14 +3308,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 152,
+      "crime_rate_per_1000": 43.8,
+      "crime_asb": 45,
+      "crime_violent": 36,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 21,
+      "crime_drugs": 4,
+      "crime_theft": 39,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 79,
+      "livability_rank": 46
     },
     {
       "slug": "fairview",
       "name": "FAIRVIEW",
       "lgd": "Antrim and Newtownabbey",
       "population": 3115,
-      "population_2011": 3055,
       "male": 1476,
       "female": 1639,
       "age_0_15_pct": 19.2,
@@ -3150,14 +3404,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 68,
+      "crime_rate_per_1000": 21.8,
+      "crime_asb": 11,
+      "crime_violent": 39,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 9,
+      "crime_drugs": 5,
+      "crime_theft": 2,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 57,
+      "livability_rank": 173
     },
     {
       "slug": "fountain-hill",
       "name": "FOUNTAIN HILL",
       "lgd": "Antrim and Newtownabbey",
       "population": 3465,
-      "population_2011": 3122,
       "male": 1653,
       "female": 1812,
       "age_0_15_pct": 17.8,
@@ -3275,14 +3544,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 127,
+      "crime_rate_per_1000": 36.7,
+      "crime_asb": 33,
+      "crime_violent": 48,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 19,
+      "crime_drugs": 14,
+      "crime_theft": 6,
+      "crime_vehicle": 0,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 78,
+      "livability_rank": 50
     },
     {
       "slug": "glebe",
       "name": "GLEBE",
       "lgd": "Antrim and Newtownabbey",
       "population": 3042,
-      "population_2011": 3726,
       "male": 1479,
       "female": 1563,
       "age_0_15_pct": 18,
@@ -3376,14 +3660,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 94,
+      "crime_rate_per_1000": 30.9,
+      "crime_asb": 19,
+      "crime_violent": 40,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 13,
+      "crime_drugs": 12,
+      "crime_theft": 7,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 70,
+      "livability_rank": 95
     },
     {
       "slug": "glengormley",
       "name": "GLENGORMLEY",
       "lgd": "Antrim and Newtownabbey",
       "population": 3421,
-      "population_2011": 3377,
       "male": 1617,
       "female": 1804,
       "age_0_15_pct": 17.4,
@@ -3477,14 +3776,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 371,
+      "crime_rate_per_1000": 108.4,
+      "crime_asb": 134,
+      "crime_violent": 120,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 39,
+      "crime_drugs": 24,
+      "crime_theft": 29,
+      "crime_vehicle": 5,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 6,
+      "crime_other": 10,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 41,
+      "livability_rank": 297
     },
     {
       "slug": "greystone",
       "name": "GREYSTONE",
       "lgd": "Antrim and Newtownabbey",
       "population": 3072,
-      "population_2011": 3366,
       "male": 1504,
       "female": 1568,
       "age_0_15_pct": 20.5,
@@ -3578,14 +3892,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 226,
+      "crime_rate_per_1000": 73.6,
+      "crime_asb": 54,
+      "crime_violent": 89,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 38,
+      "crime_drugs": 11,
+      "crime_theft": 15,
+      "crime_vehicle": 2,
+      "crime_public_order": 3,
+      "crime_robbery": 1,
+      "crime_weapons": 3,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 26,
+      "livability_rank": 393
     },
     {
       "slug": "hightown",
       "name": "HIGHTOWN",
       "lgd": "Antrim and Newtownabbey",
       "population": 3126,
-      "population_2011": 2942,
       "male": 1575,
       "female": 1551,
       "age_0_15_pct": 18.2,
@@ -3663,14 +3992,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 72,
+      "crime_rate_per_1000": 23,
+      "crime_asb": 25,
+      "crime_violent": 26,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 3,
+      "crime_drugs": 7,
+      "crime_theft": 4,
+      "crime_vehicle": 4,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 58,
+      "livability_rank": 163
     },
     {
       "slug": "jordanstown",
       "name": "JORDANSTOWN",
       "lgd": "Antrim and Newtownabbey",
       "population": 3244,
-      "population_2011": 3385,
       "male": 1624,
       "female": 1620,
       "age_0_15_pct": 17.5,
@@ -3780,14 +4124,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 32,
+      "crime_rate_per_1000": 9.9,
+      "crime_asb": 8,
+      "crime_violent": 10,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 4,
+      "crime_drugs": 1,
+      "crime_theft": 6,
+      "crime_vehicle": 1,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 91,
+      "livability_rank": 2
     },
     {
       "slug": "mallusk",
       "name": "MALLUSK",
       "lgd": "Antrim and Newtownabbey",
       "population": 6279,
-      "population_2011": 4635,
       "male": 3139,
       "female": 3140,
       "age_0_15_pct": 25.6,
@@ -3929,14 +4288,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 374,
+      "crime_rate_per_1000": 59.6,
+      "crime_asb": 124,
+      "crime_violent": 112,
+      "crime_burglary": 9,
+      "crime_criminal_damage": 48,
+      "crime_drugs": 11,
+      "crime_theft": 50,
+      "crime_vehicle": 13,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 78,
+      "livability_rank": 48
     },
     {
       "slug": "monkstown",
       "name": "MONKSTOWN",
       "lgd": "Antrim and Newtownabbey",
       "population": 3726,
-      "population_2011": 3613,
       "male": 1815,
       "female": 1911,
       "age_0_15_pct": 21.3,
@@ -4034,14 +4408,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 203,
+      "crime_rate_per_1000": 54.5,
+      "crime_asb": 77,
+      "crime_violent": 74,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 22,
+      "crime_drugs": 8,
+      "crime_theft": 11,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 36,
+      "livability_rank": 328
     },
     {
       "slug": "mossley",
       "name": "MOSSLEY",
       "lgd": "Antrim and Newtownabbey",
       "population": 3708,
-      "population_2011": 3639,
       "male": 1789,
       "female": 1919,
       "age_0_15_pct": 18.1,
@@ -4187,14 +4576,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 217,
+      "crime_rate_per_1000": 58.5,
+      "crime_asb": 67,
+      "crime_violent": 79,
+      "crime_burglary": 6,
+      "crime_criminal_damage": 18,
+      "crime_drugs": 11,
+      "crime_theft": 25,
+      "crime_vehicle": 3,
+      "crime_public_order": 3,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 48,
+      "livability_rank": 243
     },
     {
       "slug": "oneill",
       "name": "O'NEILL",
       "lgd": "Antrim and Newtownabbey",
       "population": 3328,
-      "population_2011": 3213,
       "male": 1624,
       "female": 1704,
       "age_0_15_pct": 18.9,
@@ -4296,14 +4700,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 391,
+      "crime_rate_per_1000": 117.5,
+      "crime_asb": 113,
+      "crime_violent": 153,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 49,
+      "crime_drugs": 18,
+      "crime_theft": 39,
+      "crime_vehicle": 4,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 3,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 20,
+      "livability_rank": 428
     },
     {
       "slug": "parkgate",
       "name": "PARKGATE",
       "lgd": "Antrim and Newtownabbey",
       "population": 3259,
-      "population_2011": 3109,
       "male": 1642,
       "female": 1617,
       "age_0_15_pct": 15.3,
@@ -4661,14 +5080,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 92,
+      "crime_rate_per_1000": 28.2,
+      "crime_asb": 23,
+      "crime_violent": 22,
+      "crime_burglary": 6,
+      "crime_criminal_damage": 10,
+      "crime_drugs": 14,
+      "crime_theft": 6,
+      "crime_vehicle": 5,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 75,
+      "livability_rank": 71
     },
     {
       "slug": "randalstown",
       "name": "RANDALSTOWN",
       "lgd": "Antrim and Newtownabbey",
       "population": 3734,
-      "population_2011": 3683,
       "male": 1832,
       "female": 1902,
       "age_0_15_pct": 18.1,
@@ -4834,14 +5268,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 215,
+      "crime_rate_per_1000": 57.6,
+      "crime_asb": 66,
+      "crime_violent": 72,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 32,
+      "crime_drugs": 11,
+      "crime_theft": 13,
+      "crime_vehicle": 5,
+      "crime_public_order": 2,
+      "crime_robbery": 1,
+      "crime_weapons": 1,
+      "crime_other": 11,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 58,
+      "livability_rank": 165
     },
     {
       "slug": "rathcoole",
       "name": "RATHCOOLE",
       "lgd": "Antrim and Newtownabbey",
       "population": 3377,
-      "population_2011": 3303,
       "male": 1558,
       "female": 1819,
       "age_0_15_pct": 21.7,
@@ -4935,14 +5384,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 250,
+      "crime_rate_per_1000": 74,
+      "crime_asb": 60,
+      "crime_violent": 91,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 32,
+      "crime_drugs": 13,
+      "crime_theft": 38,
+      "crime_vehicle": 4,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 3,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 21,
+      "livability_rank": 426
     },
     {
       "slug": "rostulla",
       "name": "ROSTULLA",
       "lgd": "Antrim and Newtownabbey",
       "population": 3921,
-      "population_2011": 4364,
       "male": 1935,
       "female": 1986,
       "age_0_15_pct": 14.3,
@@ -5036,14 +5500,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 85,
+      "crime_rate_per_1000": 21.7,
+      "crime_asb": 31,
+      "crime_violent": 32,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 8,
+      "crime_drugs": 2,
+      "crime_theft": 8,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 0,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 87,
+      "livability_rank": 10
     },
     {
       "slug": "shilvodan",
       "name": "SHILVODAN",
       "lgd": "Antrim and Newtownabbey",
       "population": 3896,
-      "population_2011": 3396,
       "male": 1944,
       "female": 1952,
       "age_0_15_pct": 22.7,
@@ -5397,14 +5876,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 99,
+      "crime_rate_per_1000": 25.4,
+      "crime_asb": 27,
+      "crime_violent": 44,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 5,
+      "crime_drugs": 4,
+      "crime_theft": 8,
+      "crime_vehicle": 1,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 78,
+      "livability_rank": 55
     },
     {
       "slug": "springfarm",
       "name": "SPRINGFARM",
       "lgd": "Antrim and Newtownabbey",
       "population": 5543,
-      "population_2011": 4883,
       "male": 2754,
       "female": 2791,
       "age_0_15_pct": 24.2,
@@ -5514,14 +6008,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 724,
+      "crime_rate_per_1000": 130.6,
+      "crime_asb": 231,
+      "crime_violent": 315,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 79,
+      "crime_drugs": 47,
+      "crime_theft": 23,
+      "crime_vehicle": 6,
+      "crime_public_order": 5,
+      "crime_robbery": 0,
+      "crime_weapons": 3,
+      "crime_other": 10,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 60,
+      "livability_rank": 152
     },
     {
       "slug": "steeple",
       "name": "STEEPLE",
       "lgd": "Antrim and Newtownabbey",
       "population": 3794,
-      "population_2011": 3556,
       "male": 1769,
       "female": 2025,
       "age_0_15_pct": 19.5,
@@ -5599,14 +6108,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 339,
+      "crime_rate_per_1000": 89.4,
+      "crime_asb": 70,
+      "crime_violent": 127,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 65,
+      "crime_drugs": 23,
+      "crime_theft": 19,
+      "crime_vehicle": 12,
+      "crime_public_order": 6,
+      "crime_robbery": 1,
+      "crime_weapons": 6,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 34,
+      "livability_rank": 352
     },
     {
       "slug": "stiles",
       "name": "STILES",
       "lgd": "Antrim and Newtownabbey",
       "population": 3987,
-      "population_2011": 3838,
       "male": 1934,
       "female": 2053,
       "age_0_15_pct": 19.2,
@@ -5716,14 +6240,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 303,
+      "crime_rate_per_1000": 76,
+      "crime_asb": 81,
+      "crime_violent": 112,
+      "crime_burglary": 8,
+      "crime_criminal_damage": 43,
+      "crime_drugs": 24,
+      "crime_theft": 11,
+      "crime_vehicle": 14,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 36,
+      "livability_rank": 330
     },
     {
       "slug": "templepatrick",
       "name": "TEMPLEPATRICK",
       "lgd": "Antrim and Newtownabbey",
       "population": 3521,
-      "population_2011": 3147,
       "male": 1717,
       "female": 1804,
       "age_0_15_pct": 16.7,
@@ -6005,14 +6544,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 200,
+      "crime_rate_per_1000": 56.8,
+      "crime_asb": 36,
+      "crime_violent": 55,
+      "crime_burglary": 6,
+      "crime_criminal_damage": 23,
+      "crime_drugs": 10,
+      "crime_theft": 52,
+      "crime_vehicle": 11,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 75,
+      "livability_rank": 69
     },
     {
       "slug": "toome",
       "name": "TOOME",
       "lgd": "Antrim and Newtownabbey",
       "population": 3936,
-      "population_2011": 3606,
       "male": 2011,
       "female": 1925,
       "age_0_15_pct": 21,
@@ -6254,14 +6808,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 110,
+      "crime_rate_per_1000": 27.9,
+      "crime_asb": 43,
+      "crime_violent": 31,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 6,
+      "crime_drugs": 11,
+      "crime_theft": 9,
+      "crime_vehicle": 2,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 53,
+      "livability_rank": 204
     },
     {
       "slug": "valley",
       "name": "VALLEY",
       "lgd": "Antrim and Newtownabbey",
       "population": 3717,
-      "population_2011": 3498,
       "male": 1764,
       "female": 1953,
       "age_0_15_pct": 21.1,
@@ -6387,14 +6956,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 492,
+      "crime_rate_per_1000": 132.4,
+      "crime_asb": 118,
+      "crime_violent": 119,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 37,
+      "crime_drugs": 12,
+      "crime_theft": 170,
+      "crime_vehicle": 4,
+      "crime_public_order": 3,
+      "crime_robbery": 2,
+      "crime_weapons": 5,
+      "crime_other": 11,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 31,
+      "livability_rank": 363
     },
     {
       "slug": "whitehouse",
       "name": "WHITEHOUSE",
       "lgd": "Antrim and Newtownabbey",
       "population": 3221,
-      "population_2011": 2832,
       "male": 1570,
       "female": 1651,
       "age_0_15_pct": 15.6,
@@ -6516,7 +7100,23 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 341,
+      "crime_rate_per_1000": 105.9,
+      "crime_asb": 84,
+      "crime_violent": 156,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 34,
+      "crime_drugs": 17,
+      "crime_theft": 26,
+      "crime_vehicle": 3,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 4,
+      "crime_other": 12,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 32,
+      "livability_rank": 360
     }
   ]
 }

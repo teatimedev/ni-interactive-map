@@ -130,7 +130,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 5,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 91,
+      "livability_rank": 3
     },
     {
       "slug": "ahoghill",
@@ -308,7 +310,9 @@
       "crime_robbery": 1,
       "crime_weapons": 1,
       "crime_other": 3,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 71,
+      "livability_rank": 90
     },
     {
       "slug": "ardeevin",
@@ -458,7 +462,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 3,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 82,
+      "livability_rank": 28
     },
     {
       "slug": "ballee-and-harryville",
@@ -584,7 +590,9 @@
       "crime_robbery": 1,
       "crime_weapons": 7,
       "crime_other": 19,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 27,
+      "livability_rank": 389
     },
     {
       "slug": "ballycarry-and-glynn",
@@ -798,7 +806,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 1,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 63,
+      "livability_rank": 132
     },
     {
       "slug": "ballykeel",
@@ -904,7 +914,9 @@
       "crime_robbery": 0,
       "crime_weapons": 2,
       "crime_other": 7,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 21,
+      "livability_rank": 427
     },
     {
       "slug": "boneybefore",
@@ -1018,7 +1030,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 1,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 77,
+      "livability_rank": 57
     },
     {
       "slug": "braidwater",
@@ -1140,7 +1154,9 @@
       "crime_robbery": 1,
       "crime_weapons": 0,
       "crime_other": 2,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 70,
+      "livability_rank": 99
     },
     {
       "slug": "broughshane",
@@ -1346,7 +1362,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 6,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 73,
+      "livability_rank": 79
     },
     {
       "slug": "burleigh-hill",
@@ -1452,7 +1470,9 @@
       "crime_robbery": 0,
       "crime_weapons": 2,
       "crime_other": 5,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 84,
+      "livability_rank": 22
     },
     {
       "slug": "cairncastle",
@@ -1690,7 +1710,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 3,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 69,
+      "livability_rank": 103
     },
     {
       "slug": "carnlough-and-glenarm",
@@ -2112,7 +2134,9 @@
       "crime_robbery": 0,
       "crime_weapons": 2,
       "crime_other": 5,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 34,
+      "livability_rank": 345
     },
     {
       "slug": "castle",
@@ -2234,7 +2258,9 @@
       "crime_robbery": 0,
       "crime_weapons": 3,
       "crime_other": 7,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 34,
+      "livability_rank": 351
     },
     {
       "slug": "castle-demesne",
@@ -2380,7 +2406,9 @@
       "crime_robbery": 5,
       "crime_weapons": 18,
       "crime_other": 37,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 17,
+      "livability_rank": 439
     },
     {
       "slug": "craigyhill",
@@ -2514,7 +2542,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 8,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 37,
+      "livability_rank": 323
     },
     {
       "slug": "cullybackey",
@@ -2684,7 +2714,9 @@
       "crime_robbery": 0,
       "crime_weapons": 2,
       "crime_other": 11,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 52,
+      "livability_rank": 211
     },
     {
       "slug": "curran-and-inver",
@@ -2830,7 +2862,9 @@
       "crime_robbery": 1,
       "crime_weapons": 6,
       "crime_other": 14,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 30,
+      "livability_rank": 371
     },
     {
       "slug": "fair-green",
@@ -2952,7 +2986,9 @@
       "crime_robbery": 2,
       "crime_weapons": 1,
       "crime_other": 13,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 19,
+      "livability_rank": 431
     },
     {
       "slug": "galgorm",
@@ -3162,7 +3198,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 4,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 87,
+      "livability_rank": 11
     },
     {
       "slug": "gardenmore",
@@ -3284,7 +3322,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 9,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 38,
+      "livability_rank": 319
     },
     {
       "slug": "glenravel",
@@ -3662,7 +3702,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 0,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 78,
+      "livability_rank": 56
     },
     {
       "slug": "glenwhirry",
@@ -4204,7 +4246,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 3,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 68,
+      "livability_rank": 112
     },
     {
       "slug": "gortalee",
@@ -4322,7 +4366,9 @@
       "crime_robbery": 0,
       "crime_weapons": 3,
       "crime_other": 2,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 53,
+      "livability_rank": 205
     },
     {
       "slug": "grange",
@@ -4704,7 +4750,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 4,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 74,
+      "livability_rank": 76
     },
     {
       "slug": "greenisland",
@@ -4874,7 +4922,9 @@
       "crime_robbery": 0,
       "crime_weapons": 2,
       "crime_other": 2,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 88,
+      "livability_rank": 6
     },
     {
       "slug": "islandmagee",
@@ -5104,7 +5154,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 1,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 62,
+      "livability_rank": 143
     },
     {
       "slug": "kells",
@@ -5426,7 +5478,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 3,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 64,
+      "livability_rank": 127
     },
     {
       "slug": "kilroot",
@@ -5664,7 +5718,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 1,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 71,
+      "livability_rank": 93
     },
     {
       "slug": "kilwaughter",
@@ -5966,7 +6022,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 2,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 71,
+      "livability_rank": 91
     },
     {
       "slug": "kirkinriola",
@@ -6368,7 +6426,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 5,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 70,
+      "livability_rank": 98
     },
     {
       "slug": "love-lane",
@@ -6474,7 +6534,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 2,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 60,
+      "livability_rank": 154
     },
     {
       "slug": "maine",
@@ -7008,7 +7070,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 1,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 68,
+      "livability_rank": 110
     },
     {
       "slug": "park",
@@ -7130,7 +7194,9 @@
       "crime_robbery": 1,
       "crime_weapons": 0,
       "crime_other": 1,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 76,
+      "livability_rank": 62
     },
     {
       "slug": "portglenone",
@@ -7440,7 +7506,9 @@
       "crime_robbery": 0,
       "crime_weapons": 3,
       "crime_other": 3,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 53,
+      "livability_rank": 202
     },
     {
       "slug": "slemish",
@@ -7970,7 +8038,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 1,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 58,
+      "livability_rank": 170
     },
     {
       "slug": "sunnylands",
@@ -8076,7 +8146,9 @@
       "crime_robbery": 0,
       "crime_weapons": 2,
       "crime_other": 3,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 29,
+      "livability_rank": 381
     },
     {
       "slug": "the-maidens",
@@ -8194,7 +8266,9 @@
       "crime_robbery": 0,
       "crime_weapons": 3,
       "crime_other": 1,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 39,
+      "livability_rank": 310
     },
     {
       "slug": "victoria",
@@ -8292,7 +8366,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 1,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 57,
+      "livability_rank": 175
     },
     {
       "slug": "whitehead-south",
@@ -8454,7 +8530,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 5,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 64,
+      "livability_rank": 126
     },
     {
       "slug": "woodburn",
@@ -8760,7 +8838,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 4,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 64,
+      "livability_rank": 122
     }
   ]
 }

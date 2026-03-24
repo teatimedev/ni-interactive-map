@@ -104,6 +104,7 @@ export interface District {
   nimdm_soas_in_top100: number;
   nimdm_total_soas: number;
   nimdm_pct_in_top100: number;
+  livability_score: number;
   assembly_2022: Assembly2022;
   demographics: Demographics;
   housing: Housing;
@@ -165,6 +166,9 @@ export interface Ward {
   access_rank: number;
   living_env_rank: number;
   crime_rank: number;
+  // Precomputed livability (run scripts/compute-livability.ts to regenerate)
+  livability_score: number;
+  livability_rank: number;
   // Crime data (data.police.uk, 12-month rolling)
   crime_total?: number;
   crime_rate_per_1000?: number;

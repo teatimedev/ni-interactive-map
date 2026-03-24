@@ -282,7 +282,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 4,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 36,
+      "livability_rank": 332
     },
     {
       "slug": "augher-and-clogher",
@@ -832,7 +834,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 5,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 51,
+      "livability_rank": 220
     },
     {
       "slug": "aughnacloy",
@@ -1446,7 +1450,9 @@
       "crime_robbery": 0,
       "crime_weapons": 2,
       "crime_other": 3,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 46,
+      "livability_rank": 261
     },
     {
       "slug": "ballygawley",
@@ -1876,7 +1882,9 @@
       "crime_robbery": 1,
       "crime_weapons": 0,
       "crime_other": 20,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 36,
+      "livability_rank": 331
     },
     {
       "slug": "ballymaguigan",
@@ -2154,7 +2162,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 1,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 68,
+      "livability_rank": 109
     },
     {
       "slug": "ballysaggart",
@@ -2304,7 +2314,9 @@
       "crime_robbery": 3,
       "crime_weapons": 3,
       "crime_other": 16,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 31,
+      "livability_rank": 361
     },
     {
       "slug": "bellaghy",
@@ -2554,7 +2566,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 2,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 62,
+      "livability_rank": 145
     },
     {
       "slug": "caledon",
@@ -3208,7 +3222,9 @@
       "crime_robbery": 0,
       "crime_weapons": 2,
       "crime_other": 5,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 55,
+      "livability_rank": 186
     },
     {
       "slug": "castlecaulfield",
@@ -3618,7 +3634,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 3,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 63,
+      "livability_rank": 135
     },
     {
       "slug": "castledawson",
@@ -3960,7 +3978,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 5,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 56,
+      "livability_rank": 179
     },
     {
       "slug": "coagh",
@@ -4394,7 +4414,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 2,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 48,
+      "livability_rank": 248
     },
     {
       "slug": "coalisland-north",
@@ -4660,7 +4682,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 8,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 50,
+      "livability_rank": 229
     },
     {
       "slug": "coalisland-south",
@@ -4790,7 +4814,9 @@
       "crime_robbery": 2,
       "crime_weapons": 5,
       "crime_other": 11,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 26,
+      "livability_rank": 397
     },
     {
       "slug": "cookstown-east",
@@ -4956,7 +4982,9 @@
       "crime_robbery": 2,
       "crime_weapons": 4,
       "crime_other": 6,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 40,
+      "livability_rank": 304
     },
     {
       "slug": "cookstown-south",
@@ -5074,7 +5102,9 @@
       "crime_robbery": 0,
       "crime_weapons": 2,
       "crime_other": 3,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 45,
+      "livability_rank": 268
     },
     {
       "slug": "cookstown-west",
@@ -5200,7 +5230,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 2,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 43,
+      "livability_rank": 283
     },
     {
       "slug": "coolshinny",
@@ -5594,7 +5626,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 4,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 74,
+      "livability_rank": 75
     },
     {
       "slug": "donaghmore",
@@ -6116,7 +6150,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 6,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 48,
+      "livability_rank": 246
     },
     {
       "slug": "draperstown",
@@ -6490,7 +6526,9 @@
       "crime_robbery": 1,
       "crime_weapons": 0,
       "crime_other": 1,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 52,
+      "livability_rank": 217
     },
     {
       "slug": "fivemiletown",
@@ -7068,7 +7106,9 @@
       "crime_robbery": 0,
       "crime_weapons": 7,
       "crime_other": 12,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 37,
+      "livability_rank": 321
     },
     {
       "slug": "glebe",
@@ -7210,7 +7250,9 @@
       "crime_robbery": 1,
       "crime_weapons": 2,
       "crime_other": 12,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 54,
+      "livability_rank": 192
     },
     {
       "slug": "killyman",
@@ -7524,7 +7566,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 2,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 57,
+      "livability_rank": 172
     },
     {
       "slug": "killymeal",
@@ -7750,7 +7794,9 @@
       "crime_robbery": 2,
       "crime_weapons": 7,
       "crime_other": 9,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 49,
+      "livability_rank": 231
     },
     {
       "slug": "lissan",
@@ -8232,7 +8278,9 @@
       "crime_robbery": 0,
       "crime_weapons": 2,
       "crime_other": 4,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 53,
+      "livability_rank": 208
     },
     {
       "slug": "loughry",
@@ -8594,7 +8642,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 7,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 35,
+      "livability_rank": 336
     },
     {
       "slug": "lower-glenshane",
@@ -9052,7 +9102,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 2,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 69,
+      "livability_rank": 106
     },
     {
       "slug": "maghera",
@@ -9198,7 +9250,9 @@
       "crime_robbery": 0,
       "crime_weapons": 2,
       "crime_other": 5,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 30,
+      "livability_rank": 370
     },
     {
       "slug": "moy",
@@ -9532,7 +9586,9 @@
       "crime_robbery": 1,
       "crime_weapons": 1,
       "crime_other": 2,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 53,
+      "livability_rank": 198
     },
     {
       "slug": "moygashel",
@@ -9734,7 +9790,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 3,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 53,
+      "livability_rank": 197
     },
     {
       "slug": "mullaghmore",
@@ -9916,7 +9974,9 @@
       "crime_robbery": 0,
       "crime_weapons": 2,
       "crime_other": 7,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 37,
+      "livability_rank": 322
     },
     {
       "slug": "oaklands",
@@ -10426,7 +10486,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 2,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 48,
+      "livability_rank": 250
     },
     {
       "slug": "pomeroy",
@@ -10852,7 +10914,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 4,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 31,
+      "livability_rank": 368
     },
     {
       "slug": "stewartstown",
@@ -11366,7 +11430,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 4,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 43,
+      "livability_rank": 279
     },
     {
       "slug": "swatragh",
@@ -11792,7 +11858,9 @@
       "crime_robbery": 0,
       "crime_weapons": 4,
       "crime_other": 4,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 63,
+      "livability_rank": 137
     },
     {
       "slug": "tamlaght-ocrilly",
@@ -12174,7 +12242,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 2,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 48,
+      "livability_rank": 242
     },
     {
       "slug": "the-loup",
@@ -12496,7 +12566,9 @@
       "crime_robbery": 2,
       "crime_weapons": 2,
       "crime_other": 4,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 60,
+      "livability_rank": 159
     },
     {
       "slug": "tobermore",
@@ -12906,7 +12978,9 @@
       "crime_robbery": 0,
       "crime_weapons": 0,
       "crime_other": 3,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 61,
+      "livability_rank": 150
     },
     {
       "slug": "town-parks-east",
@@ -13036,7 +13110,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 4,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 35,
+      "livability_rank": 339
     },
     {
       "slug": "valley",
@@ -13366,7 +13442,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 3,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 60,
+      "livability_rank": 158
     },
     {
       "slug": "washing-bay",
@@ -13600,7 +13678,9 @@
       "crime_robbery": 0,
       "crime_weapons": 1,
       "crime_other": 1,
-      "crime_period": "Jul 2024 – Jun 2025"
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 55,
+      "livability_rank": 187
     }
   ]
 }

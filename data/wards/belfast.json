@@ -7,7 +7,6 @@
       "name": "ANDERSONSTOWN",
       "lgd": "Belfast",
       "population": 4648,
-      "population_2011": 4800,
       "male": 2220,
       "female": 2428,
       "age_0_15_pct": 15.9,
@@ -105,14 +104,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 262,
+      "crime_rate_per_1000": 56.4,
+      "crime_asb": 79,
+      "crime_violent": 103,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 18,
+      "crime_drugs": 15,
+      "crime_theft": 20,
+      "crime_vehicle": 7,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 13,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 31,
+      "livability_rank": 366
     },
     {
       "slug": "ardoyne",
       "name": "ARDOYNE",
       "lgd": "Belfast",
       "population": 5490,
-      "population_2011": 5495,
       "male": 2569,
       "female": 2921,
       "age_0_15_pct": 24.7,
@@ -186,14 +200,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 620,
+      "crime_rate_per_1000": 112.9,
+      "crime_asb": 178,
+      "crime_violent": 246,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 61,
+      "crime_drugs": 31,
+      "crime_theft": 52,
+      "crime_vehicle": 14,
+      "crime_public_order": 8,
+      "crime_robbery": 3,
+      "crime_weapons": 6,
+      "crime_other": 10,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 10,
+      "livability_rank": 460
     },
     {
       "slug": "ballygomartin",
       "name": "BALLYGOMARTIN",
       "lgd": "Belfast",
       "population": 5952,
-      "population_2011": 5875,
       "male": 2839,
       "female": 3113,
       "age_0_15_pct": 19.7,
@@ -303,14 +332,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 217,
+      "crime_rate_per_1000": 36.5,
+      "crime_asb": 78,
+      "crime_violent": 79,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 19,
+      "crime_drugs": 11,
+      "crime_theft": 14,
+      "crime_vehicle": 4,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 34,
+      "livability_rank": 350
     },
     {
       "slug": "ballymacarrett",
       "name": "BALLYMACARRETT",
       "lgd": "Belfast",
       "population": 5905,
-      "population_2011": 5398,
       "male": 2866,
       "female": 3039,
       "age_0_15_pct": 21.7,
@@ -388,14 +432,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 963,
+      "crime_rate_per_1000": 163.1,
+      "crime_asb": 306,
+      "crime_violent": 278,
+      "crime_burglary": 23,
+      "crime_criminal_damage": 116,
+      "crime_drugs": 60,
+      "crime_theft": 111,
+      "crime_vehicle": 12,
+      "crime_public_order": 12,
+      "crime_robbery": 5,
+      "crime_weapons": 16,
+      "crime_other": 24,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 16,
+      "livability_rank": 443
     },
     {
       "slug": "ballymurphy",
       "name": "BALLYMURPHY",
       "lgd": "Belfast",
       "population": 5131,
-      "population_2011": 5186,
       "male": 2381,
       "female": 2749,
       "age_0_15_pct": 23.3,
@@ -493,14 +552,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 418,
+      "crime_rate_per_1000": 81.5,
+      "crime_asb": 116,
+      "crime_violent": 152,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 49,
+      "crime_drugs": 37,
+      "crime_theft": 22,
+      "crime_vehicle": 11,
+      "crime_public_order": 2,
+      "crime_robbery": 1,
+      "crime_weapons": 4,
+      "crime_other": 19,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 14,
+      "livability_rank": 447
     },
     {
       "slug": "ballysillan",
       "name": "BALLYSILLAN",
       "lgd": "Belfast",
       "population": 5289,
-      "population_2011": 5044,
       "male": 2557,
       "female": 2732,
       "age_0_15_pct": 19.6,
@@ -598,14 +672,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 335,
+      "crime_rate_per_1000": 63.3,
+      "crime_asb": 98,
+      "crime_violent": 111,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 52,
+      "crime_drugs": 22,
+      "crime_theft": 26,
+      "crime_vehicle": 9,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 3,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 26,
+      "livability_rank": 390
     },
     {
       "slug": "beechmount",
       "name": "BEECHMOUNT",
       "lgd": "Belfast",
       "population": 5394,
-      "population_2011": 5837,
       "male": 2571,
       "female": 2823,
       "age_0_15_pct": 22.4,
@@ -715,14 +804,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 660,
+      "crime_rate_per_1000": 122.4,
+      "crime_asb": 208,
+      "crime_violent": 205,
+      "crime_burglary": 6,
+      "crime_criminal_damage": 78,
+      "crime_drugs": 39,
+      "crime_theft": 71,
+      "crime_vehicle": 11,
+      "crime_public_order": 13,
+      "crime_robbery": 1,
+      "crime_weapons": 8,
+      "crime_other": 20,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 17,
+      "livability_rank": 440
     },
     {
       "slug": "beersbridge",
       "name": "BEERSBRIDGE",
       "lgd": "Belfast",
       "population": 6610,
-      "population_2011": 6425,
       "male": 3241,
       "female": 3368,
       "age_0_15_pct": 18.2,
@@ -804,14 +908,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 1139,
+      "crime_rate_per_1000": 172.3,
+      "crime_asb": 354,
+      "crime_violent": 404,
+      "crime_burglary": 36,
+      "crime_criminal_damage": 128,
+      "crime_drugs": 39,
+      "crime_theft": 108,
+      "crime_vehicle": 10,
+      "crime_public_order": 10,
+      "crime_robbery": 4,
+      "crime_weapons": 16,
+      "crime_other": 30,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 19,
+      "livability_rank": 432
     },
     {
       "slug": "bellevue",
       "name": "BELLEVUE",
       "lgd": "Belfast",
       "population": 5427,
-      "population_2011": 5146,
       "male": 2615,
       "female": 2812,
       "age_0_15_pct": 19.2,
@@ -913,14 +1032,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 602,
+      "crime_rate_per_1000": 110.9,
+      "crime_asb": 182,
+      "crime_violent": 226,
+      "crime_burglary": 9,
+      "crime_criminal_damage": 48,
+      "crime_drugs": 51,
+      "crime_theft": 51,
+      "crime_vehicle": 13,
+      "crime_public_order": 3,
+      "crime_robbery": 3,
+      "crime_weapons": 7,
+      "crime_other": 9,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 34,
+      "livability_rank": 347
     },
     {
       "slug": "belmont",
       "name": "BELMONT",
       "lgd": "Belfast",
       "population": 4695,
-      "population_2011": 4865,
       "male": 2256,
       "female": 2438,
       "age_0_15_pct": 16,
@@ -998,14 +1132,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 213,
+      "crime_rate_per_1000": 45.4,
+      "crime_asb": 50,
+      "crime_violent": 67,
+      "crime_burglary": 10,
+      "crime_criminal_damage": 17,
+      "crime_drugs": 11,
+      "crime_theft": 41,
+      "crime_vehicle": 5,
+      "crime_public_order": 2,
+      "crime_robbery": 1,
+      "crime_weapons": 2,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 88,
+      "livability_rank": 5
     },
     {
       "slug": "belvoir",
       "name": "BELVOIR",
       "lgd": "Belfast",
       "population": 5359,
-      "population_2011": 4940,
       "male": 2661,
       "female": 2698,
       "age_0_15_pct": 16.9,
@@ -1163,14 +1312,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 304,
+      "crime_rate_per_1000": 56.7,
+      "crime_asb": 104,
+      "crime_violent": 110,
+      "crime_burglary": 6,
+      "crime_criminal_damage": 28,
+      "crime_drugs": 11,
+      "crime_theft": 31,
+      "crime_vehicle": 4,
+      "crime_public_order": 3,
+      "crime_robbery": 1,
+      "crime_weapons": 4,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 52,
+      "livability_rank": 214
     },
     {
       "slug": "blackstaff",
       "name": "BLACKSTAFF",
       "lgd": "Belfast",
       "population": 7547,
-      "population_2011": 7151,
       "male": 3958,
       "female": 3589,
       "age_0_15_pct": 16.5,
@@ -1256,14 +1420,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 1792,
+      "crime_rate_per_1000": 237.4,
+      "crime_asb": 484,
+      "crime_violent": 560,
+      "crime_burglary": 27,
+      "crime_criminal_damage": 209,
+      "crime_drugs": 95,
+      "crime_theft": 304,
+      "crime_vehicle": 37,
+      "crime_public_order": 16,
+      "crime_robbery": 4,
+      "crime_weapons": 13,
+      "crime_other": 43,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 14,
+      "livability_rank": 445
     },
     {
       "slug": "bloomfield",
       "name": "BLOOMFIELD",
       "lgd": "Belfast",
       "population": 5894,
-      "population_2011": 3988,
       "male": 2968,
       "female": 2926,
       "age_0_15_pct": 14.8,
@@ -1341,14 +1520,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 891,
+      "crime_rate_per_1000": 151.2,
+      "crime_asb": 322,
+      "crime_violent": 197,
+      "crime_burglary": 29,
+      "crime_criminal_damage": 89,
+      "crime_drugs": 29,
+      "crime_theft": 188,
+      "crime_vehicle": 10,
+      "crime_public_order": 3,
+      "crime_robbery": 5,
+      "crime_weapons": 3,
+      "crime_other": 16,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 32,
+      "livability_rank": 357
     },
     {
       "slug": "cavehill",
       "name": "CAVEHILL",
       "lgd": "Belfast",
       "population": 4434,
-      "population_2011": 4286,
       "male": 2162,
       "female": 2272,
       "age_0_15_pct": 19.9,
@@ -1458,14 +1652,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 125,
+      "crime_rate_per_1000": 28.2,
+      "crime_asb": 39,
+      "crime_violent": 34,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 13,
+      "crime_drugs": 10,
+      "crime_theft": 11,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 81,
+      "livability_rank": 30
     },
     {
       "slug": "central",
       "name": "CENTRAL",
       "lgd": "Belfast",
       "population": 15446,
-      "population_2011": 11449,
       "male": 8062,
       "female": 7384,
       "age_0_15_pct": 9,
@@ -1587,14 +1796,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 8586,
+      "crime_rate_per_1000": 555.9,
+      "crime_asb": 2787,
+      "crime_violent": 2371,
+      "crime_burglary": 170,
+      "crime_criminal_damage": 643,
+      "crime_drugs": 536,
+      "crime_theft": 1448,
+      "crime_vehicle": 139,
+      "crime_public_order": 53,
+      "crime_robbery": 95,
+      "crime_weapons": 96,
+      "crime_other": 248,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 25,
+      "livability_rank": 398
     },
     {
       "slug": "chichester-park",
       "name": "CHICHESTER PARK",
       "lgd": "Belfast",
       "population": 5409,
-      "population_2011": 5562,
       "male": 2713,
       "female": 2696,
       "age_0_15_pct": 17.9,
@@ -1704,14 +1928,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 674,
+      "crime_rate_per_1000": 124.6,
+      "crime_asb": 194,
+      "crime_violent": 246,
+      "crime_burglary": 20,
+      "crime_criminal_damage": 57,
+      "crime_drugs": 28,
+      "crime_theft": 78,
+      "crime_vehicle": 29,
+      "crime_public_order": 3,
+      "crime_robbery": 2,
+      "crime_weapons": 9,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 32,
+      "livability_rank": 358
     },
     {
       "slug": "cliftonville",
       "name": "CLIFTONVILLE",
       "lgd": "Belfast",
       "population": 5657,
-      "population_2011": 5329,
       "male": 2697,
       "female": 2960,
       "age_0_15_pct": 21.8,
@@ -1805,14 +2044,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 418,
+      "crime_rate_per_1000": 73.9,
+      "crime_asb": 121,
+      "crime_violent": 166,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 35,
+      "crime_drugs": 23,
+      "crime_theft": 33,
+      "crime_vehicle": 11,
+      "crime_public_order": 6,
+      "crime_robbery": 1,
+      "crime_weapons": 4,
+      "crime_other": 16,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 23,
+      "livability_rank": 413
     },
     {
       "slug": "clonard",
       "name": "CLONARD",
       "lgd": "Belfast",
       "population": 5999,
-      "population_2011": 5768,
       "male": 2798,
       "female": 3202,
       "age_0_15_pct": 20.2,
@@ -1898,14 +2152,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 1101,
+      "crime_rate_per_1000": 183.5,
+      "crime_asb": 331,
+      "crime_violent": 419,
+      "crime_burglary": 16,
+      "crime_criminal_damage": 92,
+      "crime_drugs": 81,
+      "crime_theft": 108,
+      "crime_vehicle": 18,
+      "crime_public_order": 11,
+      "crime_robbery": 3,
+      "crime_weapons": 11,
+      "crime_other": 11,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 14,
+      "livability_rank": 446
     },
     {
       "slug": "collin-glen",
       "name": "COLLIN GLEN",
       "lgd": "Belfast",
       "population": 5656,
-      "population_2011": 5702,
       "male": 2747,
       "female": 2908,
       "age_0_15_pct": 21.7,
@@ -2071,14 +2340,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 564,
+      "crime_rate_per_1000": 99.7,
+      "crime_asb": 202,
+      "crime_violent": 189,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 63,
+      "crime_drugs": 46,
+      "crime_theft": 34,
+      "crime_vehicle": 6,
+      "crime_public_order": 5,
+      "crime_robbery": 4,
+      "crime_weapons": 5,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 29,
+      "livability_rank": 380
     },
     {
       "slug": "connswater",
       "name": "CONNSWATER",
       "lgd": "Belfast",
       "population": 5929,
-      "population_2011": 5831,
       "male": 2841,
       "female": 3088,
       "age_0_15_pct": 17.9,
@@ -2168,14 +2452,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 858,
+      "crime_rate_per_1000": 144.7,
+      "crime_asb": 299,
+      "crime_violent": 231,
+      "crime_burglary": 9,
+      "crime_criminal_damage": 88,
+      "crime_drugs": 27,
+      "crime_theft": 153,
+      "crime_vehicle": 9,
+      "crime_public_order": 5,
+      "crime_robbery": 7,
+      "crime_weapons": 7,
+      "crime_other": 23,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 29,
+      "livability_rank": 377
     },
     {
       "slug": "cregagh",
       "name": "CREGAGH",
       "lgd": "Belfast",
       "population": 4587,
-      "population_2011": 4577,
       "male": 2218,
       "female": 2368,
       "age_0_15_pct": 19.5,
@@ -2253,14 +2552,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 298,
+      "crime_rate_per_1000": 65,
+      "crime_asb": 117,
+      "crime_violent": 88,
+      "crime_burglary": 9,
+      "crime_criminal_damage": 24,
+      "crime_drugs": 7,
+      "crime_theft": 37,
+      "crime_vehicle": 7,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 4,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 52,
+      "livability_rank": 212
     },
     {
       "slug": "duncairn",
       "name": "DUNCAIRN",
       "lgd": "Belfast",
       "population": 8338,
-      "population_2011": 6478,
       "male": 4206,
       "female": 4130,
       "age_0_15_pct": 16.9,
@@ -2394,14 +2708,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 3176,
+      "crime_rate_per_1000": 380.9,
+      "crime_asb": 992,
+      "crime_violent": 921,
+      "crime_burglary": 48,
+      "crime_criminal_damage": 278,
+      "crime_drugs": 227,
+      "crime_theft": 484,
+      "crime_vehicle": 53,
+      "crime_public_order": 16,
+      "crime_robbery": 18,
+      "crime_weapons": 35,
+      "crime_other": 104,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 10,
+      "livability_rank": 458
     },
     {
       "slug": "dunmurry",
       "name": "DUNMURRY",
       "lgd": "Belfast",
       "population": 5207,
-      "population_2011": 5470,
       "male": 2584,
       "female": 2623,
       "age_0_15_pct": 16.1,
@@ -2503,14 +2832,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 315,
+      "crime_rate_per_1000": 60.5,
+      "crime_asb": 116,
+      "crime_violent": 92,
+      "crime_burglary": 6,
+      "crime_criminal_damage": 23,
+      "crime_drugs": 14,
+      "crime_theft": 29,
+      "crime_vehicle": 17,
+      "crime_public_order": 3,
+      "crime_robbery": 0,
+      "crime_weapons": 5,
+      "crime_other": 10,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 69,
+      "livability_rank": 101
     },
     {
       "slug": "falls",
       "name": "FALLS",
       "lgd": "Belfast",
       "population": 5179,
-      "population_2011": 5182,
       "male": 2405,
       "female": 2774,
       "age_0_15_pct": 24.1,
@@ -2596,14 +2940,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 1437,
+      "crime_rate_per_1000": 277.5,
+      "crime_asb": 426,
+      "crime_violent": 478,
+      "crime_burglary": 22,
+      "crime_criminal_damage": 155,
+      "crime_drugs": 118,
+      "crime_theft": 130,
+      "crime_vehicle": 34,
+      "crime_public_order": 19,
+      "crime_robbery": 8,
+      "crime_weapons": 19,
+      "crime_other": 28,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 13,
+      "livability_rank": 450
     },
     {
       "slug": "falls-park",
       "name": "FALLS PARK",
       "lgd": "Belfast",
       "population": 4742,
-      "population_2011": 4781,
       "male": 2222,
       "female": 2521,
       "age_0_15_pct": 16.4,
@@ -2701,14 +3060,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 969,
+      "crime_rate_per_1000": 204.3,
+      "crime_asb": 324,
+      "crime_violent": 215,
+      "crime_burglary": 9,
+      "crime_criminal_damage": 121,
+      "crime_drugs": 45,
+      "crime_theft": 212,
+      "crime_vehicle": 11,
+      "crime_public_order": 1,
+      "crime_robbery": 2,
+      "crime_weapons": 9,
+      "crime_other": 20,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 41,
+      "livability_rank": 299
     },
     {
       "slug": "finaghy",
       "name": "FINAGHY",
       "lgd": "Belfast",
       "population": 4525,
-      "population_2011": 4551,
       "male": 2204,
       "female": 2324,
       "age_0_15_pct": 17,
@@ -2802,14 +3176,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 155,
+      "crime_rate_per_1000": 34.3,
+      "crime_asb": 50,
+      "crime_violent": 48,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 18,
+      "crime_drugs": 7,
+      "crime_theft": 16,
+      "crime_vehicle": 3,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 6,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 85,
+      "livability_rank": 16
     },
     {
       "slug": "forth-river",
       "name": "FORTH RIVER",
       "lgd": "Belfast",
       "population": 4921,
-      "population_2011": 4733,
       "male": 2287,
       "female": 2634,
       "age_0_15_pct": 20,
@@ -2915,14 +3304,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 323,
+      "crime_rate_per_1000": 65.6,
+      "crime_asb": 99,
+      "crime_violent": 120,
+      "crime_burglary": 6,
+      "crime_criminal_damage": 29,
+      "crime_drugs": 16,
+      "crime_theft": 24,
+      "crime_vehicle": 13,
+      "crime_public_order": 5,
+      "crime_robbery": 2,
+      "crime_weapons": 1,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 21,
+      "livability_rank": 425
     },
     {
       "slug": "fortwilliam",
       "name": "FORTWILLIAM",
       "lgd": "Belfast",
       "population": 4717,
-      "population_2011": 4771,
       "male": 2265,
       "female": 2452,
       "age_0_15_pct": 17.3,
@@ -3008,14 +3412,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 546,
+      "crime_rate_per_1000": 115.8,
+      "crime_asb": 211,
+      "crime_violent": 153,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 86,
+      "crime_drugs": 16,
+      "crime_theft": 44,
+      "crime_vehicle": 10,
+      "crime_public_order": 2,
+      "crime_robbery": 2,
+      "crime_weapons": 4,
+      "crime_other": 11,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 41,
+      "livability_rank": 295
     },
     {
       "slug": "garnerville",
       "name": "GARNERVILLE",
       "lgd": "Belfast",
       "population": 4788,
-      "population_2011": 4852,
       "male": 2278,
       "female": 2510,
       "age_0_15_pct": 17.4,
@@ -3141,14 +3560,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 191,
+      "crime_rate_per_1000": 39.9,
+      "crime_asb": 50,
+      "crime_violent": 71,
+      "crime_burglary": 1,
+      "crime_criminal_damage": 9,
+      "crime_drugs": 7,
+      "crime_theft": 49,
+      "crime_vehicle": 2,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 0,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 78,
+      "livability_rank": 52
     },
     {
       "slug": "gilnahirk",
       "name": "GILNAHIRK",
       "lgd": "Belfast",
       "population": 5155,
-      "population_2011": 5079,
       "male": 2458,
       "female": 2695,
       "age_0_15_pct": 19.5,
@@ -3246,14 +3680,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 145,
+      "crime_rate_per_1000": 28.1,
+      "crime_asb": 39,
+      "crime_violent": 53,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 25,
+      "crime_drugs": 10,
+      "crime_theft": 9,
+      "crime_vehicle": 0,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 69,
+      "livability_rank": 105
     },
     {
       "slug": "hillfoot",
       "name": "HILLFOOT",
       "lgd": "Belfast",
       "population": 4582,
-      "population_2011": 4675,
       "male": 2221,
       "female": 2361,
       "age_0_15_pct": 15.5,
@@ -3347,14 +3796,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 121,
+      "crime_rate_per_1000": 26.4,
+      "crime_asb": 38,
+      "crime_violent": 45,
+      "crime_burglary": 2,
+      "crime_criminal_damage": 10,
+      "crime_drugs": 6,
+      "crime_theft": 14,
+      "crime_vehicle": 1,
+      "crime_public_order": 3,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 92,
+      "livability_rank": 1
     },
     {
       "slug": "innisfayle",
       "name": "INNISFAYLE",
       "lgd": "Belfast",
       "population": 5315,
-      "population_2011": 5229,
       "male": 2565,
       "female": 2749,
       "age_0_15_pct": 17.1,
@@ -3432,14 +3896,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 359,
+      "crime_rate_per_1000": 67.5,
+      "crime_asb": 126,
+      "crime_violent": 119,
+      "crime_burglary": 10,
+      "crime_criminal_damage": 42,
+      "crime_drugs": 14,
+      "crime_theft": 27,
+      "crime_vehicle": 5,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 5,
+      "crime_other": 11,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 50,
+      "livability_rank": 225
     },
     {
       "slug": "knock",
       "name": "KNOCK",
       "lgd": "Belfast",
       "population": 5011,
-      "population_2011": 5169,
       "male": 2367,
       "female": 2643,
       "age_0_15_pct": 16.9,
@@ -3529,14 +4008,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 124,
+      "crime_rate_per_1000": 24.7,
+      "crime_asb": 49,
+      "crime_violent": 38,
+      "crime_burglary": 3,
+      "crime_criminal_damage": 6,
+      "crime_drugs": 3,
+      "crime_theft": 16,
+      "crime_vehicle": 3,
+      "crime_public_order": 4,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 1,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 80,
+      "livability_rank": 37
     },
     {
       "slug": "ladybrook",
       "name": "LADYBROOK",
       "lgd": "Belfast",
       "population": 4817,
-      "population_2011": 5078,
       "male": 2327,
       "female": 2490,
       "age_0_15_pct": 17.3,
@@ -3630,14 +4124,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 265,
+      "crime_rate_per_1000": 55,
+      "crime_asb": 87,
+      "crime_violent": 84,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 33,
+      "crime_drugs": 5,
+      "crime_theft": 37,
+      "crime_vehicle": 5,
+      "crime_public_order": 0,
+      "crime_robbery": 1,
+      "crime_weapons": 2,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 58,
+      "livability_rank": 167
     },
     {
       "slug": "lagmore",
       "name": "LAGMORE",
       "lgd": "Belfast",
       "population": 8344,
-      "population_2011": 7659,
       "male": 3979,
       "female": 4365,
       "age_0_15_pct": 28.5,
@@ -3743,14 +4252,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 486,
+      "crime_rate_per_1000": 58.2,
+      "crime_asb": 126,
+      "crime_violent": 193,
+      "crime_burglary": 13,
+      "crime_criminal_damage": 49,
+      "crime_drugs": 31,
+      "crime_theft": 41,
+      "crime_vehicle": 13,
+      "crime_public_order": 4,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 14,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 29,
+      "livability_rank": 379
     },
     {
       "slug": "legoniel",
       "name": "LEGONIEL",
       "lgd": "Belfast",
       "population": 6135,
-      "population_2011": 5632,
       "male": 2925,
       "female": 3210,
       "age_0_15_pct": 23.7,
@@ -3892,14 +4416,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 569,
+      "crime_rate_per_1000": 92.7,
+      "crime_asb": 169,
+      "crime_violent": 193,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 60,
+      "crime_drugs": 33,
+      "crime_theft": 60,
+      "crime_vehicle": 14,
+      "crime_public_order": 3,
+      "crime_robbery": 1,
+      "crime_weapons": 6,
+      "crime_other": 19,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 18,
+      "livability_rank": 436
     },
     {
       "slug": "malone",
       "name": "MALONE",
       "lgd": "Belfast",
       "population": 4811,
-      "population_2011": 4765,
       "male": 2361,
       "female": 2450,
       "age_0_15_pct": 16.2,
@@ -4001,14 +4540,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 234,
+      "crime_rate_per_1000": 48.6,
+      "crime_asb": 60,
+      "crime_violent": 93,
+      "crime_burglary": 8,
+      "crime_criminal_damage": 25,
+      "crime_drugs": 9,
+      "crime_theft": 16,
+      "crime_vehicle": 11,
+      "crime_public_order": 4,
+      "crime_robbery": 0,
+      "crime_weapons": 0,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 77,
+      "livability_rank": 58
     },
     {
       "slug": "merok",
       "name": "MEROK",
       "lgd": "Belfast",
       "population": 4438,
-      "population_2011": 4385,
       "male": 2127,
       "female": 2311,
       "age_0_15_pct": 19.6,
@@ -4094,14 +4648,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 244,
+      "crime_rate_per_1000": 55,
+      "crime_asb": 85,
+      "crime_violent": 71,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 24,
+      "crime_drugs": 11,
+      "crime_theft": 18,
+      "crime_vehicle": 10,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 10,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 69,
+      "livability_rank": 104
     },
     {
       "slug": "musgrave",
       "name": "MUSGRAVE",
       "lgd": "Belfast",
       "population": 4836,
-      "population_2011": 4927,
       "male": 2336,
       "female": 2500,
       "age_0_15_pct": 15.1,
@@ -4195,14 +4764,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 254,
+      "crime_rate_per_1000": 52.5,
+      "crime_asb": 56,
+      "crime_violent": 72,
+      "crime_burglary": 5,
+      "crime_criminal_damage": 28,
+      "crime_drugs": 10,
+      "crime_theft": 70,
+      "crime_vehicle": 6,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 2,
+      "crime_other": 3,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 68,
+      "livability_rank": 108
     },
     {
       "slug": "new-lodge",
       "name": "NEW LODGE",
       "lgd": "Belfast",
       "population": 4881,
-      "population_2011": 4951,
       "male": 2442,
       "female": 2439,
       "age_0_15_pct": 18.7,
@@ -4280,14 +4864,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 1766,
+      "crime_rate_per_1000": 361.8,
+      "crime_asb": 498,
+      "crime_violent": 557,
+      "crime_burglary": 24,
+      "crime_criminal_damage": 143,
+      "crime_drugs": 152,
+      "crime_theft": 281,
+      "crime_vehicle": 28,
+      "crime_public_order": 10,
+      "crime_robbery": 14,
+      "crime_weapons": 14,
+      "crime_other": 45,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 12,
+      "livability_rank": 454
     },
     {
       "slug": "orangefield",
       "name": "ORANGEFIELD",
       "lgd": "Belfast",
       "population": 4756,
-      "population_2011": 4768,
       "male": 2347,
       "female": 2409,
       "age_0_15_pct": 16.8,
@@ -4381,14 +4980,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 320,
+      "crime_rate_per_1000": 67.3,
+      "crime_asb": 102,
+      "crime_violent": 61,
+      "crime_burglary": 14,
+      "crime_criminal_damage": 36,
+      "crime_drugs": 16,
+      "crime_theft": 81,
+      "crime_vehicle": 2,
+      "crime_public_order": 1,
+      "crime_robbery": 3,
+      "crime_weapons": 2,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 71,
+      "livability_rank": 87
     },
     {
       "slug": "ormeau",
       "name": "ORMEAU",
       "lgd": "Belfast",
       "population": 6532,
-      "population_2011": 6591,
       "male": 3252,
       "female": 3280,
       "age_0_15_pct": 14.5,
@@ -4474,14 +5088,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 711,
+      "crime_rate_per_1000": 108.8,
+      "crime_asb": 218,
+      "crime_violent": 174,
+      "crime_burglary": 21,
+      "crime_criminal_damage": 71,
+      "crime_drugs": 21,
+      "crime_theft": 128,
+      "crime_vehicle": 42,
+      "crime_public_order": 5,
+      "crime_robbery": 5,
+      "crime_weapons": 5,
+      "crime_other": 21,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 48,
+      "livability_rank": 237
     },
     {
       "slug": "poleglass",
       "name": "POLEGLASS",
       "lgd": "Belfast",
       "population": 6103,
-      "population_2011": 5999,
       "male": 2821,
       "female": 3282,
       "age_0_15_pct": 27.7,
@@ -4615,14 +5244,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 489,
+      "crime_rate_per_1000": 80.1,
+      "crime_asb": 140,
+      "crime_violent": 192,
+      "crime_burglary": 8,
+      "crime_criminal_damage": 40,
+      "crime_drugs": 41,
+      "crime_theft": 29,
+      "crime_vehicle": 14,
+      "crime_public_order": 7,
+      "crime_robbery": 3,
+      "crime_weapons": 3,
+      "crime_other": 12,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 12,
+      "livability_rank": 453
     },
     {
       "slug": "ravenhill",
       "name": "RAVENHILL",
       "lgd": "Belfast",
       "population": 4823,
-      "population_2011": 4831,
       "male": 2357,
       "female": 2465,
       "age_0_15_pct": 16.2,
@@ -4708,14 +5352,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 493,
+      "crime_rate_per_1000": 102.2,
+      "crime_asb": 94,
+      "crime_violent": 72,
+      "crime_burglary": 37,
+      "crime_criminal_damage": 31,
+      "crime_drugs": 9,
+      "crime_theft": 213,
+      "crime_vehicle": 24,
+      "crime_public_order": 1,
+      "crime_robbery": 3,
+      "crime_weapons": 2,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 72,
+      "livability_rank": 81
     },
     {
       "slug": "rosetta",
       "name": "ROSETTA",
       "lgd": "Belfast",
       "population": 5793,
-      "population_2011": 5636,
       "male": 2787,
       "female": 3006,
       "age_0_15_pct": 16.1,
@@ -4805,14 +5464,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 394,
+      "crime_rate_per_1000": 68,
+      "crime_asb": 133,
+      "crime_violent": 103,
+      "crime_burglary": 15,
+      "crime_criminal_damage": 19,
+      "crime_drugs": 17,
+      "crime_theft": 58,
+      "crime_vehicle": 30,
+      "crime_public_order": 3,
+      "crime_robbery": 1,
+      "crime_weapons": 4,
+      "crime_other": 11,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 82,
+      "livability_rank": 26
     },
     {
       "slug": "sandown",
       "name": "SANDOWN",
       "lgd": "Belfast",
       "population": 4470,
-      "population_2011": 4452,
       "male": 2175,
       "female": 2295,
       "age_0_15_pct": 18.1,
@@ -4906,14 +5580,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 245,
+      "crime_rate_per_1000": 54.8,
+      "crime_asb": 73,
+      "crime_violent": 104,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 20,
+      "crime_drugs": 18,
+      "crime_theft": 10,
+      "crime_vehicle": 3,
+      "crime_public_order": 1,
+      "crime_robbery": 0,
+      "crime_weapons": 1,
+      "crime_other": 4,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 73,
+      "livability_rank": 78
     },
     {
       "slug": "shandon",
       "name": "SHANDON",
       "lgd": "Belfast",
       "population": 5377,
-      "population_2011": 5203,
       "male": 2533,
       "female": 2844,
       "age_0_15_pct": 17.1,
@@ -5035,14 +5724,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 193,
+      "crime_rate_per_1000": 35.9,
+      "crime_asb": 63,
+      "crime_violent": 53,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 18,
+      "crime_drugs": 11,
+      "crime_theft": 28,
+      "crime_vehicle": 10,
+      "crime_public_order": 0,
+      "crime_robbery": 0,
+      "crime_weapons": 4,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 72,
+      "livability_rank": 84
     },
     {
       "slug": "shankill",
       "name": "SHANKILL",
       "lgd": "Belfast",
       "population": 6445,
-      "population_2011": 6101,
       "male": 3029,
       "female": 3416,
       "age_0_15_pct": 21.5,
@@ -5120,14 +5824,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 1405,
+      "crime_rate_per_1000": 218,
+      "crime_asb": 454,
+      "crime_violent": 369,
+      "crime_burglary": 17,
+      "crime_criminal_damage": 138,
+      "crime_drugs": 100,
+      "crime_theft": 232,
+      "crime_vehicle": 21,
+      "crime_public_order": 20,
+      "crime_robbery": 5,
+      "crime_weapons": 16,
+      "crime_other": 33,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 13,
+      "livability_rank": 449
     },
     {
       "slug": "shaws-road",
       "name": "SHAW'S ROAD",
       "lgd": "Belfast",
       "population": 5480,
-      "population_2011": 5175,
       "male": 2633,
       "female": 2847,
       "age_0_15_pct": 20,
@@ -5225,14 +5944,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 426,
+      "crime_rate_per_1000": 77.7,
+      "crime_asb": 105,
+      "crime_violent": 197,
+      "crime_burglary": 6,
+      "crime_criminal_damage": 53,
+      "crime_drugs": 26,
+      "crime_theft": 24,
+      "crime_vehicle": 2,
+      "crime_public_order": 1,
+      "crime_robbery": 1,
+      "crime_weapons": 4,
+      "crime_other": 7,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 26,
+      "livability_rank": 395
     },
     {
       "slug": "stewartstown",
       "name": "STEWARTSTOWN",
       "lgd": "Belfast",
       "population": 4579,
-      "population_2011": 3108,
       "male": 2171,
       "female": 2408,
       "age_0_15_pct": 16.9,
@@ -5342,14 +6076,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 547,
+      "crime_rate_per_1000": 119.5,
+      "crime_asb": 181,
+      "crime_violent": 135,
+      "crime_burglary": 11,
+      "crime_criminal_damage": 118,
+      "crime_drugs": 37,
+      "crime_theft": 33,
+      "crime_vehicle": 7,
+      "crime_public_order": 4,
+      "crime_robbery": 4,
+      "crime_weapons": 6,
+      "crime_other": 11,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 33,
+      "livability_rank": 356
     },
     {
       "slug": "stormont",
       "name": "STORMONT",
       "lgd": "Belfast",
       "population": 5045,
-      "population_2011": 4987,
       "male": 2435,
       "female": 2610,
       "age_0_15_pct": 16.7,
@@ -5479,14 +6228,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 188,
+      "crime_rate_per_1000": 37.3,
+      "crime_asb": 69,
+      "crime_violent": 53,
+      "crime_burglary": 4,
+      "crime_criminal_damage": 17,
+      "crime_drugs": 15,
+      "crime_theft": 16,
+      "crime_vehicle": 4,
+      "crime_public_order": 2,
+      "crime_robbery": 0,
+      "crime_weapons": 3,
+      "crime_other": 5,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 86,
+      "livability_rank": 15
     },
     {
       "slug": "stranmillis",
       "name": "STRANMILLIS",
       "lgd": "Belfast",
       "population": 8978,
-      "population_2011": 8143,
       "male": 4405,
       "female": 4573,
       "age_0_15_pct": 11.6,
@@ -5604,14 +6368,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 331,
+      "crime_rate_per_1000": 36.9,
+      "crime_asb": 100,
+      "crime_violent": 57,
+      "crime_burglary": 31,
+      "crime_criminal_damage": 30,
+      "crime_drugs": 9,
+      "crime_theft": 76,
+      "crime_vehicle": 12,
+      "crime_public_order": 2,
+      "crime_robbery": 2,
+      "crime_weapons": 0,
+      "crime_other": 12,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 86,
+      "livability_rank": 14
     },
     {
       "slug": "sydenham",
       "name": "SYDENHAM",
       "lgd": "Belfast",
       "population": 5589,
-      "population_2011": 5122,
       "male": 2708,
       "female": 2881,
       "age_0_15_pct": 15.9,
@@ -5705,14 +6484,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 631,
+      "crime_rate_per_1000": 112.9,
+      "crime_asb": 167,
+      "crime_violent": 213,
+      "crime_burglary": 15,
+      "crime_criminal_damage": 48,
+      "crime_drugs": 48,
+      "crime_theft": 83,
+      "crime_vehicle": 14,
+      "crime_public_order": 3,
+      "crime_robbery": 1,
+      "crime_weapons": 6,
+      "crime_other": 33,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 48,
+      "livability_rank": 239
     },
     {
       "slug": "turf-lodge",
       "name": "TURF LODGE",
       "lgd": "Belfast",
       "population": 4569,
-      "population_2011": 4993,
       "male": 2178,
       "female": 2391,
       "age_0_15_pct": 20.8,
@@ -5838,14 +6632,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 363,
+      "crime_rate_per_1000": 79.4,
+      "crime_asb": 56,
+      "crime_violent": 168,
+      "crime_burglary": 7,
+      "crime_criminal_damage": 44,
+      "crime_drugs": 27,
+      "crime_theft": 21,
+      "crime_vehicle": 14,
+      "crime_public_order": 6,
+      "crime_robbery": 0,
+      "crime_weapons": 4,
+      "crime_other": 16,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 18,
+      "livability_rank": 438
     },
     {
       "slug": "twinbrook",
       "name": "TWINBROOK",
       "lgd": "Belfast",
       "population": 4917,
-      "population_2011": 4884,
       "male": 2337,
       "female": 2580,
       "age_0_15_pct": 21.8,
@@ -5927,14 +6736,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 601,
+      "crime_rate_per_1000": 122.2,
+      "crime_asb": 182,
+      "crime_violent": 204,
+      "crime_burglary": 29,
+      "crime_criminal_damage": 79,
+      "crime_drugs": 32,
+      "crime_theft": 37,
+      "crime_vehicle": 18,
+      "crime_public_order": 3,
+      "crime_robbery": 1,
+      "crime_weapons": 8,
+      "crime_other": 8,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 18,
+      "livability_rank": 437
     },
     {
       "slug": "upper-malone",
       "name": "UPPER MALONE",
       "lgd": "Belfast",
       "population": 4974,
-      "population_2011": 4841,
       "male": 2359,
       "female": 2615,
       "age_0_15_pct": 18.9,
@@ -6112,14 +6936,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 157,
+      "crime_rate_per_1000": 31.6,
+      "crime_asb": 59,
+      "crime_violent": 60,
+      "crime_burglary": 0,
+      "crime_criminal_damage": 17,
+      "crime_drugs": 3,
+      "crime_theft": 6,
+      "crime_vehicle": 8,
+      "crime_public_order": 1,
+      "crime_robbery": 1,
+      "crime_weapons": 0,
+      "crime_other": 2,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 66,
+      "livability_rank": 118
     },
     {
       "slug": "water-works",
       "name": "WATER WORKS",
       "lgd": "Belfast",
       "population": 6910,
-      "population_2011": 5779,
       "male": 3379,
       "female": 3531,
       "age_0_15_pct": 22.4,
@@ -6229,14 +7068,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 1840,
+      "crime_rate_per_1000": 266.3,
+      "crime_asb": 636,
+      "crime_violent": 487,
+      "crime_burglary": 53,
+      "crime_criminal_damage": 157,
+      "crime_drugs": 98,
+      "crime_theft": 300,
+      "crime_vehicle": 34,
+      "crime_public_order": 14,
+      "crime_robbery": 15,
+      "crime_weapons": 20,
+      "crime_other": 26,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 10,
+      "livability_rank": 461
     },
     {
       "slug": "windsor",
       "name": "WINDSOR",
       "lgd": "Belfast",
       "population": 11302,
-      "population_2011": 10715,
       "male": 6039,
       "female": 5263,
       "age_0_15_pct": 7.2,
@@ -6314,14 +7168,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 1080,
+      "crime_rate_per_1000": 95.6,
+      "crime_asb": 341,
+      "crime_violent": 268,
+      "crime_burglary": 47,
+      "crime_criminal_damage": 102,
+      "crime_drugs": 43,
+      "crime_theft": 148,
+      "crime_vehicle": 73,
+      "crime_public_order": 8,
+      "crime_robbery": 6,
+      "crime_weapons": 7,
+      "crime_other": 37,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 56,
+      "livability_rank": 178
     },
     {
       "slug": "woodstock",
       "name": "WOODSTOCK",
       "lgd": "Belfast",
       "population": 6431,
-      "population_2011": 6084,
       "male": 3200,
       "female": 3231,
       "age_0_15_pct": 18,
@@ -6407,14 +7276,29 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 922,
+      "crime_rate_per_1000": 143.4,
+      "crime_asb": 291,
+      "crime_violent": 319,
+      "crime_burglary": 12,
+      "crime_criminal_damage": 100,
+      "crime_drugs": 44,
+      "crime_theft": 99,
+      "crime_vehicle": 20,
+      "crime_public_order": 9,
+      "crime_robbery": 4,
+      "crime_weapons": 2,
+      "crime_other": 22,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 18,
+      "livability_rank": 435
     },
     {
       "slug": "woodvale",
       "name": "WOODVALE",
       "lgd": "Belfast",
       "population": 5170,
-      "population_2011": 4879,
       "male": 2445,
       "female": 2725,
       "age_0_15_pct": 19.1,
@@ -6500,7 +7384,23 @@
             ]
           ]
         ]
-      }
+      },
+      "crime_total": 759,
+      "crime_rate_per_1000": 146.8,
+      "crime_asb": 235,
+      "crime_violent": 247,
+      "crime_burglary": 8,
+      "crime_criminal_damage": 65,
+      "crime_drugs": 37,
+      "crime_theft": 127,
+      "crime_vehicle": 9,
+      "crime_public_order": 4,
+      "crime_robbery": 2,
+      "crime_weapons": 5,
+      "crime_other": 20,
+      "crime_period": "Jul 2024 – Jun 2025",
+      "livability_score": 11,
+      "livability_rank": 456
     }
   ]
 }
