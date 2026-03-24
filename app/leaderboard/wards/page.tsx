@@ -3,7 +3,7 @@
 import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import { Ward } from "@/lib/types";
-import { computeLivabilityScore, scoreToGrade } from "@/lib/scoring";
+import { scoreToGrade } from "@/lib/scoring";
 import { fmt, fmtPct } from "@/lib/utils";
 
 const DISTRICT_SLUGS = [
@@ -145,13 +145,12 @@ export default function WardLeaderboardPage() {
       const entries: WardEntry[] = [];
       for (const { lgdSlug, lgdName, wards } of results) {
         for (const ward of wards) {
-          const livabilityScore = computeLivabilityScore(ward);
           entries.push({
             ward,
             lgdSlug,
             lgdName,
-            livabilityScore,
-            grade: scoreToGrade(livabilityScore),
+            livabilityScore: ward.livability_score,
+            grade: scoreToGrade(ward.livability_score),
           });
         }
       }

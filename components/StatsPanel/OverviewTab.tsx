@@ -3,6 +3,7 @@
 import type { District, Ward } from "@/lib/types";
 import { fmt, fmtPct, fmtMoney } from "@/lib/utils";
 import { getPartyColor } from "@/lib/colors";
+import { scoreToGrade } from "@/lib/scoring";
 import StatCard from "@/components/ui/StatCard";
 import ComparisonStatCard from "@/components/ui/ComparisonStatCard";
 import StatRow from "@/components/ui/StatRow";
@@ -92,6 +93,39 @@ function DistrictOverview({ data }: { data: District }) {
         </div>
       </SectionWrapper>
 
+      <SectionWrapper title="Livability Score" source="NIMDM 2017 (ward average)">
+        {(() => {
+          const { grade, color } = scoreToGrade(data.livability_score);
+          return (
+            <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+              <div style={{
+                width: 48,
+                height: 48,
+                borderRadius: 8,
+                background: color,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: 18,
+                fontWeight: 700,
+                color: "#fff",
+                boxShadow: `0 2px 8px ${color}40`,
+              }}>
+                {grade}
+              </div>
+              <div>
+                <div style={{ fontSize: 20, fontWeight: 700, color: "var(--text-bright)" }}>
+                  {data.livability_score}/100
+                </div>
+                <div style={{ fontSize: 12, color: "var(--text-secondary)" }}>
+                  Average of ward livability scores
+                </div>
+              </div>
+            </div>
+          );
+        })()}
+      </SectionWrapper>
+
       <SectionWrapper title="Deprivation (NIMDM 2017)">
         <StatRow
           label="SOAs in top 100"
@@ -117,18 +151,6 @@ function WardOverview({ ward, districtSlug }: { ward: Ward; districtSlug: string
     { label: "0-15", value: ward.age_0_15_pct, color: "#4a7c8a" },
     { label: "16-64", value: ward.age_16_64_pct, color: "#2980b9" },
     { label: "65+", value: ward.age_65_plus_pct, color: "#7fb3d3" },
-  ];
-
-  const deprivationPosition = ((462 - ward.deprivation_rank) / 462) * 100;
-
-  const subDomains: { label: string; rank: number }[] = [
-    { label: "Income", rank: ward.income_rank },
-    { label: "Employment", rank: ward.employment_rank },
-    { label: "Health", rank: ward.health_rank },
-    { label: "Education", rank: ward.education_rank },
-    { label: "Access to Services", rank: ward.access_rank },
-    { label: "Living Environment", rank: ward.living_env_rank },
-    { label: "Crime & Disorder", rank: ward.crime_rank },
   ];
 
   return (
@@ -166,23 +188,6 @@ function WardOverview({ ward, districtSlug }: { ward: Ward; districtSlug: string
 
       <SectionWrapper title="Age Breakdown" source="Census 2021">
         <DonutChart segments={ageSegments} />
-      </SectionWrapper>
-
-      <SectionWrapper title="Deprivation" source="NIMDM 2017">
-        <StatRow
-          label="Overall Rank"
-          value={`${ward.deprivation_rank} of 462`}
-        />
-        <DeprivationMeter position={deprivationPosition} />
-        <div className="mt-3 space-y-0.5">
-          {subDomains.map((d) => (
-            <StatRow
-              key={d.label}
-              label={d.label}
-              value={`${d.rank}/462`}
-            />
-          ))}
-        </div>
       </SectionWrapper>
 
       <WardTags wardSlug={ward.slug} lgdSlug={districtSlug} />

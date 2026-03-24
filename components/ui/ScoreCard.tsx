@@ -1,14 +1,14 @@
 "use client";
 
 import type { Ward } from "@/lib/types";
-import { computeLivabilityScore, scoreToGrade } from "@/lib/scoring";
+import { scoreToGrade } from "@/lib/scoring";
 
 interface ScoreCardProps {
   ward: Ward;
 }
 
 export default function ScoreCard({ ward }: ScoreCardProps) {
-  const score = computeLivabilityScore(ward);
+  const score = ward.livability_score;
   const { grade, color } = scoreToGrade(score);
 
   return (

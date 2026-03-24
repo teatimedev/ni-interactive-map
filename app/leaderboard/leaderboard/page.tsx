@@ -3,6 +3,7 @@
 import { useState } from "react";
 import districts from "@/data/districts";
 import { fmt, fmtPct, fmtMoney } from "@/lib/utils";
+import { scoreToGrade } from "@/lib/scoring";
 import Link from "next/link";
 
 interface MetricConfig {
@@ -13,6 +14,12 @@ interface MetricConfig {
 }
 
 const METRICS: Record<string, MetricConfig> = {
+  livability: {
+    label: "Livability Score",
+    getValue: (d) => d.livability_score,
+    format: (n) => n.toString(),
+    higherBetter: true,
+  },
   population: {
     label: "Population",
     getValue: (d) => d.population,
@@ -62,7 +69,7 @@ const METRICS: Record<string, MetricConfig> = {
     higherBetter: true,
   },
   house_price: {
-    label: "Median House Price",
+    label: "House Price",
     getValue: (d) => d.housing.median_house_price,
     format: fmtMoney,
     higherBetter: true,
@@ -118,7 +125,7 @@ const METRICS: Record<string, MetricConfig> = {
 };
 
 export default function LeaderboardPage() {
-  const [activeMetric, setActiveMetric] = useState("earnings");
+  const [activeMetric, setActiveMetric] = useState("livability");
   const metric = METRICS[activeMetric];
 
   const sorted = [...districts].sort((a, b) => {
@@ -220,6 +227,23 @@ export default function LeaderboardPage() {
                   {/* District name */}
                   <span style={{ fontSize: 14, fontWeight: 500, color: "var(--text-primary)" }}>
                     {d.name}
+                    {activeMetric === "livability" && (() => {
+                      const { grade, color: gColor } = scoreToGrade(metric.getValue(d));
+                      return (
+                        <span style={{
+                          display: "inline-block",
+                          marginLeft: 8,
+                          padding: "1px 6px",
+                          borderRadius: 4,
+                          fontSize: 11,
+                          fontWeight: 700,
+                          background: gColor,
+                          color: "#fff",
+                        }}>
+                          {grade}
+                        </span>
+                      );
+                    })()}
                   </span>
 
                   {/* Value with background bar */}

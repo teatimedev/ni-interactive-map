@@ -62,7 +62,7 @@ const METRICS: Record<string, MetricConfig> = {
     higherBetter: true,
   },
   house_price: {
-    label: "Median House Price",
+    label: "House Price",
     getValue: (d) => d.housing.median_house_price,
     format: fmtMoney,
     higherBetter: true,

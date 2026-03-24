@@ -28,16 +28,9 @@ function DistrictHousing({ data }: { data: District }) {
         <div className="stat-cards">
           <ComparisonStatCard
             value={h.median_house_price}
-            label="Median"
+            label="Standardised Price"
             format={fmtMoney}
             niAvg={NI_AVG.median_house_price}
-            higherBetter={true}
-          />
-          <ComparisonStatCard
-            value={h.avg_house_price}
-            label="Average"
-            format={fmtMoney}
-            niAvg={NI_AVG.avg_house_price}
             higherBetter={true}
           />
         </div>

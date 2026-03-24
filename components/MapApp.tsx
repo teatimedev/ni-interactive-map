@@ -16,7 +16,7 @@ import EducationTab from "@/components/StatsPanel/EducationTab";
 import TransportTab from "@/components/StatsPanel/TransportTab";
 import { ComparisonContent } from "@/components/ComparePanel";
 import { LoadingSkeleton } from "@/components/ui/LoadingSkeleton";
-import { computeLivabilityScore, scoreToGrade } from "@/lib/scoring";
+import { scoreToGrade } from "@/lib/scoring";
 import PinCreator from "@/components/Map/PinCreator";
 import { useAuth } from "@/hooks/useAuth";
 import UserPill from "@/components/UserPill";
@@ -62,6 +62,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     loadWardData,
     togglePinMode,
     clearPendingPin,
+    flyToDistrict,
   } = useMapState();
   const comparison = useComparison();
   const { user, username } = useAuth();
@@ -84,6 +85,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     async function init() {
       selectDistrict(initialDistrict!);
       setView("district-detail");
+      flyToDistrict(initialDistrict!);
       setWardLoadFailed(false);
       const result = await loadWardData(initialDistrict!);
       if (!result) setWardLoadFailed(true);
@@ -109,6 +111,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     async function reinit() {
       selectDistrict(initialDistrict!);
       setView("district-detail");
+      flyToDistrict(initialDistrict!);
       setWardLoadFailed(false);
       const result = await loadWardData(initialDistrict!);
       if (!result) setWardLoadFailed(true);
@@ -277,7 +280,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
 
   const panelSummary = (() => {
     if (wardData) {
-      const score = computeLivabilityScore(wardData);
+      const score = wardData.livability_score;
       const { grade, color } = scoreToGrade(score);
       return (
         <span className="bottom-sheet-grade" style={{ color }}>

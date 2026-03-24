@@ -1,6 +1,4 @@
 import type { District, Ward, ChoroplethMetric } from "./types";
-import { computeLivabilityScore } from "./scoring";
-
 // ===== PARTY COLORS =====
 export const PARTY_COLORS: Record<string, string> = {
   "sinn féin": "#326732",
@@ -63,11 +61,11 @@ export const CHOROPLETH_CONFIGS: Record<ChoroplethMetric, ChoroplethConfigFull> 
     color: [30, 130, 76],
   },
   house_price: {
-    label: "Median House Price (£)",
+    label: "Standardised House Price (£)",
     key: (d) => d.housing?.median_house_price,
     wardKey: null,
-    min: 120000,
-    max: 210000,
+    min: 170000,
+    max: 235000,
     color: [140, 80, 30],
   },
   crime_rate: {
@@ -122,8 +120,8 @@ export const CHOROPLETH_CONFIGS: Record<ChoroplethMetric, ChoroplethConfigFull> 
   },
   livability: {
     label: "Livability Score",
-    key: () => null,
-    wardKey: (w) => (w ? computeLivabilityScore(w) : null),
+    key: (d) => d.livability_score,
+    wardKey: (w) => (w ? w.livability_score : null),
     min: 0,
     max: 100,
     wardMin: 0,

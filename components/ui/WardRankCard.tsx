@@ -1,7 +1,7 @@
 "use client";
 
 import type { Ward } from "@/lib/types";
-import { computeLivabilityScore, scoreToGrade, getWardRankStats, getDomainScores } from "@/lib/scoring";
+import { scoreToGrade, getWardRankStats, getDomainScores } from "@/lib/scoring";
 import { useState } from "react";
 
 interface WardRankCardProps {
@@ -20,7 +20,7 @@ export default function WardRankCard({ ward, districtSlug }: WardRankCardProps) 
   const [copied, setCopied] = useState(false);
   const [showBreakdown, setShowBreakdown] = useState(false);
   const { rank, percentile, topDomains, bottomDomains } = getWardRankStats(ward);
-  const score = computeLivabilityScore(ward);
+  const score = ward.livability_score;
   const { grade, color } = scoreToGrade(score);
   const domains = getDomainScores(ward);
 
@@ -36,9 +36,12 @@ export default function WardRankCard({ ward, districtSlug }: WardRankCardProps) 
     <div className="ward-rank-card">
       <div className="rank-card-header">
         <div>
-          <div className="rank-card-label">How does your ward stack up?</div>
+          <div className="rank-card-label">Livability Score</div>
           <div className="rank-card-headline">
-            Ranked <span className="rank-card-number">#{rank}</span> of 462
+            <span className="rank-card-number">{score}</span>/100
+          </div>
+          <div style={{ fontSize: 12, color: "#aaa", marginTop: 2 }}>
+            Ranked <strong>#{rank}</strong> of 462 wards
           </div>
         </div>
         <div className="rank-card-grade" style={{ background: color, boxShadow: `0 2px 8px ${color}40` }}>
@@ -48,9 +51,9 @@ export default function WardRankCard({ ward, districtSlug }: WardRankCardProps) 
 
       <div className="rank-card-percentile">
         {rank <= 231 ? (
-          <>More deprived than <span className="rank-card-highlight-warn">{percentile}%</span> of NI</>
+          <>More livable than <span className="rank-card-highlight-good">{percentile}%</span> of NI</>
         ) : (
-          <>Less deprived than <span className="rank-card-highlight-good">{100 - percentile}%</span> of NI</>
+          <>Less livable than <span className="rank-card-highlight-warn">{100 - percentile}%</span> of NI</>
         )}
       </div>
 
@@ -72,8 +75,6 @@ export default function WardRankCard({ ward, districtSlug }: WardRankCardProps) 
       )}
 
       <div className="rank-card-score">
-        Livability Score: {score}/100
-        {" \u00B7 "}
         <button className="score-breakdown-toggle" onClick={() => setShowBreakdown(!showBreakdown)}>
           {showBreakdown ? "Hide breakdown" : "How is this scored?"}
         </button>

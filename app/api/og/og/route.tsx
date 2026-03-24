@@ -11,6 +11,8 @@ interface WardData {
   name: string;
   population: number;
   deprivation_rank: number;
+  livability_score: number;
+  livability_rank: number;
   catholic_pct: number;
   protestant_other_christian_pct: number;
   level_4_plus_pct: number;
@@ -50,7 +52,7 @@ export async function GET(request: NextRequest) {
       return new Response("Ward not found", { status: 404 });
     }
 
-    const percentile = Math.round(((462 - ward.deprivation_rank) / 462) * 100);
+    const percentile = Math.round(((462 - ward.livability_rank) / 462) * 100);
 
     return new ImageResponse(
       (
@@ -87,14 +89,12 @@ export async function GET(request: NextRequest) {
               <div style={{ fontSize: 14, color: "#888" }}>Population</div>
             </div>
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ fontSize: 32, fontWeight: 700, color: "#7fb3d3" }}>#{ward.deprivation_rank}</div>
-              <div style={{ fontSize: 14, color: "#888" }}>of 462 wards</div>
+              <div style={{ fontSize: 32, fontWeight: 700, color: "#7fb3d3" }}>{ward.livability_score}/100</div>
+              <div style={{ fontSize: 14, color: "#888" }}>Livability Score</div>
             </div>
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ fontSize: 32, fontWeight: 700, color: percentile > 50 ? "#c0392b" : "#27ae60" }}>
-                {percentile}%
-              </div>
-              <div style={{ fontSize: 14, color: "#888" }}>Deprivation percentile</div>
+              <div style={{ fontSize: 32, fontWeight: 700, color: "#7fb3d3" }}>#{ward.livability_rank}</div>
+              <div style={{ fontSize: 14, color: "#888" }}>of 462 wards</div>
             </div>
           </div>
         </div>

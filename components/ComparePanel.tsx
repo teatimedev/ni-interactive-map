@@ -103,7 +103,7 @@ export function ComparisonContent({
     compRow("Life Exp. Male", d1.life_expectancy_male, d2.life_expectancy_male, true, fmt),
     compRow("Life Exp. Female", d1.life_expectancy_female, d2.life_expectancy_female, true, fmt),
     compRow("% Deprived SOAs", d1.nimdm_pct_in_top100, d2.nimdm_pct_in_top100, false, fmtPct),
-    compRow("Median House Price", d1.housing.median_house_price, d2.housing.median_house_price, undefined, fmtMoney),
+    compRow("House Price", d1.housing.median_house_price, d2.housing.median_house_price, undefined, fmtMoney),
     compRow("Owner-Occupied %", d1.housing.owner_occupied_pct, d2.housing.owner_occupied_pct, undefined, fmtPct),
     compRow("Degree+ %", d1.education.degree_plus_pct, d2.education.degree_plus_pct, true, fmtPct),
     compRow("No Qualifications %", d1.education.no_qualifications_pct, d2.education.no_qualifications_pct, false, fmtPct),
