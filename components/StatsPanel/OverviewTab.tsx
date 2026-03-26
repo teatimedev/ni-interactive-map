@@ -11,7 +11,6 @@ import { NI_AVG } from "@/lib/ni-averages";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import DeprivationMeter from "@/components/ui/DeprivationMeter";
 import WardRankCard from "@/components/ui/WardRankCard";
-import WardTags from "@/components/ui/WardTags";
 import SimilarWards from "@/components/ui/SimilarWards";
 import DonutChart from "@/components/Charts/DonutChart";
 import BarChart from "@/components/Charts/BarChart";
@@ -189,8 +188,6 @@ function WardOverview({ ward, districtSlug }: { ward: Ward; districtSlug: string
       <SectionWrapper title="Age Breakdown" source="Census 2021">
         <DonutChart segments={ageSegments} />
       </SectionWrapper>
-
-      <WardTags wardSlug={ward.slug} lgdSlug={districtSlug} />
 
       <SectionWrapper title="Explore">
         <SimilarWards ward={ward} districtSlug={districtSlug} />

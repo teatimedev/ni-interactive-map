@@ -8,6 +8,7 @@ import { useComparison } from "@/hooks/useComparison";
 import districts from "@/data/districts";
 import StatsPanel from "@/components/StatsPanel/StatsPanel";
 import OverviewTab from "@/components/StatsPanel/OverviewTab";
+import CommunityTab from "@/components/StatsPanel/CommunityTab";
 import DemographicsTab from "@/components/StatsPanel/DemographicsTab";
 import HousingTab from "@/components/StatsPanel/HousingTab";
 import HealthTab from "@/components/StatsPanel/HealthTab";
@@ -255,6 +256,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     if (selectedWard && wardData) {
       return [
         { id: "overview", label: "Overview", content: <OverviewTab data={null} ward={wardData} districtSlug={selectedDistrict ?? ""} /> },
+        { id: "community", label: "Community", content: <CommunityTab wardSlug={selectedWard} lgdSlug={selectedDistrict ?? ""} onActivatePinMode={handleTogglePinMode} /> },
         { id: "demographics", label: "Demographics", content: <DemographicsTab data={null} ward={wardData} /> },
         { id: "housing", label: "Housing", content: <HousingTab data={null} ward={wardData} /> },
         { id: "health", label: "Health", content: <HealthTab data={null} ward={wardData} /> },
@@ -509,6 +511,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
           lng={pendingPin.lng}
           onCreated={handlePinCreated}
           onCancel={clearPendingPin}
+          wardCache={wardCache}
         />
       )}
 

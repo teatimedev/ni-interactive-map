@@ -4,6 +4,8 @@ import { useState, useRef, useEffect, useMemo } from "react";
 import { Marker } from "react-leaflet";
 import L from "leaflet";
 import { useAuth } from "@/hooks/useAuth";
+import { findWardForPoint } from "@/lib/geo-utils";
+import type { WardCache } from "@/hooks/useMapState";
 
 interface PinDragMarkerProps {
   lat: number;
@@ -56,9 +58,10 @@ interface PinCreatorFormProps {
   lng: number;
   onCreated: () => void;
   onCancel: () => void;
+  wardCache?: Map<string, WardCache>;
 }
 
-export default function PinCreatorForm({ lat, lng, onCreated, onCancel }: PinCreatorFormProps) {
+export default function PinCreatorForm({ lat, lng, onCreated, onCancel, wardCache }: PinCreatorFormProps) {
   const { getToken } = useAuth();
   const [label, setLabel] = useState("");
   const [submitting, setSubmitting] = useState(false);
@@ -82,7 +85,10 @@ export default function PinCreatorForm({ lat, lng, onCreated, onCancel }: PinCre
           "Content-Type": "application/json",
           ...(token ? { Authorization: `Bearer ${token}` } : {}),
         },
-        body: JSON.stringify({ lat, lng, label: label.trim() }),
+        body: JSON.stringify({
+          lat, lng, label: label.trim(),
+          ...(wardCache ? findWardForPoint(lat, lng, wardCache) ?? {} : {}),
+        }),
       });
       const data = await res.json();
       if (res.ok) {

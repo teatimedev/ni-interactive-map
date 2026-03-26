@@ -3,12 +3,64 @@ import { supabase, supabaseServer } from "@/lib/supabase";
 import { hashIp, getClientIp, validateLabel } from "@/lib/api-utils";
 import { getAuthUser, requireConfirmed } from "@/lib/auth";
 
-// GET /api/pins
-export async function GET() {
+// GET /api/pins — all pins (map view) or ward-filtered (community tab)
+export async function GET(request: NextRequest) {
   if (!supabase) {
     return NextResponse.json({ pins: [] });
   }
 
+  const { searchParams } = request.nextUrl;
+  const lgd = searchParams.get("lgd");
+  const ward = searchParams.get("ward");
+
+  // Ward-filtered query (for Community tab)
+  if (lgd && ward) {
+    const offset = parseInt(searchParams.get("offset") ?? "0", 10);
+    const limit = parseInt(searchParams.get("limit") ?? "20", 10);
+
+    const { data, error } = await supabase
+      .from("map_pins")
+      .select("id, lat, lng, label, username, user_id, created_at, ward_slug, lgd_slug")
+      .eq("lgd_slug", lgd)
+      .eq("ward_slug", ward)
+      .eq("reported", false)
+      .order("created_at", { ascending: false })
+      .range(offset, offset + limit - 1);
+
+    if (error) {
+      return NextResponse.json({ error: error.message }, { status: 500 });
+    }
+
+    const pins = data ?? [];
+
+    // Batch fetch reaction counts
+    let reactions: Record<number, { agree: number; disagree: number }> = {};
+    if (pins.length > 0) {
+      const pinIds = pins.map((p: { id: number }) => p.id);
+      const { data: reactionData } = await supabase
+        .from("pin_reactions")
+        .select("pin_id, reaction")
+        .in("pin_id", pinIds);
+
+      if (reactionData) {
+        for (const r of reactionData) {
+          if (!reactions[r.pin_id]) reactions[r.pin_id] = { agree: 0, disagree: 0 };
+          if (r.reaction === "agree") reactions[r.pin_id].agree++;
+          else reactions[r.pin_id].disagree++;
+        }
+      }
+    }
+
+    const pinsWithReactions = pins.map((p: { id: number }) => ({
+      ...p,
+      agree_count: reactions[p.id]?.agree ?? 0,
+      disagree_count: reactions[p.id]?.disagree ?? 0,
+    }));
+
+    return NextResponse.json({ pins: pinsWithReactions, hasMore: pins.length === limit });
+  }
+
+  // Default: all pins for map view
   const { data, error } = await supabase
     .from("map_pins")
     .select("id, lat, lng, label, username, user_id, created_at")
@@ -52,7 +104,7 @@ export async function POST(request: NextRequest) {
   }
 
   const body = await request.json();
-  const { lat, lng, label } = body;
+  const { lat, lng, label, wardSlug, lgdSlug } = body;
 
   if (lat == null || lng == null || !label) {
     return NextResponse.json({ error: "Missing lat, lng, or label" }, { status: 400 });
@@ -103,6 +155,8 @@ export async function POST(request: NextRequest) {
       ip_hash: ipHash,
       user_id: auth.userId,
       username: profile.username,
+      ...(wardSlug ? { ward_slug: wardSlug } : {}),
+      ...(lgdSlug ? { lgd_slug: lgdSlug } : {}),
     });
 
   if (error) {

@@ -2,8 +2,10 @@
 
 import { useEffect, useState, useCallback } from "react";
 import { Marker, Popup } from "react-leaflet";
+import MarkerClusterGroup from "react-leaflet-cluster";
 import L from "leaflet";
 import { useAuth } from "@/hooks/useAuth";
+import { timeAgo } from "@/lib/utils";
 
 interface Pin {
   id: number;
@@ -15,17 +17,6 @@ interface Pin {
   created_at: string;
 }
 
-function timeAgo(dateStr: string): string {
-  const diff = Date.now() - new Date(dateStr).getTime();
-  const mins = Math.floor(diff / 60000);
-  if (mins < 1) return "just now";
-  if (mins < 60) return `${mins}m ago`;
-  const hours = Math.floor(mins / 60);
-  if (hours < 24) return `${hours}h ago`;
-  const days = Math.floor(hours / 24);
-  return `${days}d ago`;
-}
-
 function createPinIcon(username: string | null) {
   return new L.DivIcon({
     className: "",
@@ -33,6 +24,21 @@ function createPinIcon(username: string | null) {
     iconSize: [24, 24],
     iconAnchor: [12, 24],
     popupAnchor: [0, -24],
+  });
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function createClusterIcon(cluster: any) {
+  const count = cluster.getChildCount();
+  let sizeClass = "pin-cluster-small";
+  if (count >= 20) sizeClass = "pin-cluster-large";
+  else if (count >= 5) sizeClass = "pin-cluster-medium";
+
+  return new L.DivIcon({
+    html: `<div class="pin-cluster ${sizeClass}"><span>${count}</span></div>`,
+    className: "",
+    iconSize: [36, 36],
+    iconAnchor: [18, 18],
   });
 }
 
@@ -88,7 +94,13 @@ export default function PinLayer({ refreshKey }: { refreshKey: number }) {
   }
 
   return (
-    <>
+    <MarkerClusterGroup
+      chunkedLoading
+      maxClusterRadius={50}
+      spiderfyOnMaxZoom
+      disableClusteringAtZoom={15}
+      iconCreateFunction={createClusterIcon}
+    >
       {pins.map((pin) => (
         <Marker key={pin.id} position={[pin.lat, pin.lng]} icon={createPinIcon(pin.username)}>
           <Popup>
@@ -114,6 +126,6 @@ export default function PinLayer({ refreshKey }: { refreshKey: number }) {
           </Popup>
         </Marker>
       ))}
-    </>
+    </MarkerClusterGroup>
   );
 }
