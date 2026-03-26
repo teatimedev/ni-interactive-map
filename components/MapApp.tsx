@@ -17,7 +17,11 @@ import TransportTab from "@/components/StatsPanel/TransportTab";
 import { ComparisonContent } from "@/components/ComparePanel";
 import { LoadingSkeleton } from "@/components/ui/LoadingSkeleton";
 import { scoreToGrade } from "@/lib/scoring";
-import PinCreatorForm, { PinDragMarker } from "@/components/Map/PinCreator";
+const PinCreatorForm = dynamic(() => import("@/components/Map/PinCreator"), { ssr: false });
+const PinDragMarker = dynamic(
+  () => import("@/components/Map/PinCreator").then((mod) => mod.PinDragMarker),
+  { ssr: false }
+);
 import { useAuth } from "@/hooks/useAuth";
 import UserPill from "@/components/UserPill";
 import UsernamePicker from "@/components/UsernamePicker";
