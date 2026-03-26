@@ -21,17 +21,19 @@ export default function ComparisonStatCard({
   const diff = value - niAvg;
   const pctDiff = niAvg > 0 ? Math.abs(diff / niAvg) * 100 : 0;
 
-  // Determine color
   let color: string;
+  let comparisonText: string;
   if (pctDiff < 5) {
-    color = "#e8a838"; // amber — similar to avg
+    color = "var(--warning)";
+    comparisonText = "Near NI average";
   } else if ((diff > 0 && higherBetter) || (diff < 0 && !higherBetter)) {
-    color = "#27ae60"; // green — better
+    color = "var(--positive)";
+    comparisonText = `${Math.round(pctDiff)}% ${diff > 0 ? "above" : "below"} NI avg`;
   } else {
-    color = "#c0392b"; // red — worse
+    color = "var(--negative)";
+    comparisonText = `${Math.round(pctDiff)}% ${diff > 0 ? "above" : "below"} NI avg`;
   }
 
-  // Gauge: value position on 0-to-2x scale (avg at center)
   const clampedRatio = Math.max(0.1, Math.min(2, ratio));
   const fillPct = (clampedRatio / 2) * 100;
 
@@ -42,13 +44,23 @@ export default function ComparisonStatCard({
         {suffix && <span className="comparison-suffix">{suffix}</span>}
       </div>
       <div className="comparison-label">{label}</div>
+
+      {/* Textual comparison */}
+      <div style={{ fontSize: 11, color, fontWeight: 500, marginTop: 4, marginBottom: 8 }}>
+        {comparisonText}
+      </div>
+
+      {/* Gauge */}
       <div className="comparison-gauge">
         <div className="comparison-gauge-track">
           <div
             className="comparison-gauge-fill"
             style={{ width: `${fillPct}%`, background: color }}
           />
-          <div className="comparison-gauge-marker" title="NI Average" />
+          {/* NI Average marker */}
+          <div className="comparison-gauge-marker" title="NI Average">
+            <span className="comparison-gauge-marker-label">NI</span>
+          </div>
         </div>
       </div>
       <div className="comparison-avg-label">

@@ -10,10 +10,10 @@ interface WardRankCardProps {
 }
 
 function scoreColor(score: number): string {
-  if (score >= 70) return "#27ae60";
-  if (score >= 50) return "#2980b9";
-  if (score >= 30) return "#e8a838";
-  return "#c0392b";
+  if (score >= 70) return "var(--positive)";
+  if (score >= 50) return "var(--accent)";
+  if (score >= 30) return "var(--warning)";
+  return "var(--negative)";
 }
 
 export default function WardRankCard({ ward, districtSlug }: WardRankCardProps) {
@@ -89,15 +89,19 @@ export default function WardRankCard({ ward, districtSlug }: WardRankCardProps) 
           </div>
           {domains.map((d) => (
             <div key={d.key} className="score-domain-row" title={`${d.description} — Ranked ${d.rank} of 462 wards${d.rank <= 46 ? " (bottom 10%)" : d.rank >= 416 ? " (top 10%)" : ""}`}>
-              <div className="score-domain-label">{d.label}</div>
+              <div className="score-domain-row-header">
+                <div className="score-domain-label">{d.label}</div>
+                <div className="score-domain-meta">
+                  <span className="score-domain-value">#{d.rank}</span>
+                  <span className="score-domain-weight">{Math.round(d.weight * 100)}%</span>
+                </div>
+              </div>
               <div className="score-domain-bar">
                 <div
                   className="score-domain-fill"
                   style={{ width: `${d.score}%`, background: scoreColor(d.score) }}
                 />
               </div>
-              <div className="score-domain-value">#{d.rank}</div>
-              <div className="score-domain-weight">{Math.round(d.weight * 100)}%</div>
             </div>
           ))}
         </div>

@@ -1,7 +1,9 @@
 "use client";
 
-import { PieChart, Pie, Cell } from "recharts";
+import { PieChart, Pie, Cell, Tooltip } from "recharts";
 import { fmtPct } from "@/lib/utils";
+import ChartTooltip from "./ChartTooltip";
+import { CHART_FONT, CHART_ANIMATION } from "./ChartTheme";
 
 interface Segment {
   label: string;
@@ -14,39 +16,61 @@ interface DonutChartProps {
   size?: number;
 }
 
-export default function DonutChart({ segments, size = 90 }: DonutChartProps) {
+export default function DonutChart({ segments, size = 130 }: DonutChartProps) {
   const ariaLabel = segments
     .map((s) => `${s.label}: ${fmtPct(s.value)}`)
     .join(", ");
 
+  const data = segments.map((s) => ({ name: s.label, value: s.value, color: s.color }));
+
   return (
-    <div className="flex flex-row items-center gap-4" role="img" aria-label={ariaLabel}>
+    <div className="flex flex-row items-center gap-5" role="img" aria-label={ariaLabel}>
       <PieChart width={size} height={size}>
         <Pie
-          data={segments}
+          data={data}
           dataKey="value"
-          innerRadius="55%"
-          outerRadius="90%"
+          nameKey="name"
+          innerRadius="50%"
+          outerRadius="88%"
           startAngle={90}
           endAngle={-270}
           isAnimationActive={true}
-          animationDuration={600}
-          animationEasing="ease-out"
+          animationDuration={CHART_ANIMATION.duration}
+          animationEasing={CHART_ANIMATION.easing}
+          strokeWidth={1}
+          stroke="rgba(25,26,28,0.6)"
         >
           {segments.map((seg, i) => (
             <Cell key={i} fill={seg.color} />
           ))}
         </Pie>
+        <Tooltip
+          content={<ChartTooltip formatter={(v) => fmtPct(v)} />}
+        />
       </PieChart>
-      <div className="flex flex-col gap-1">
+      <div className="flex flex-col" style={{ gap: 6 }}>
         {segments.map((seg, i) => (
-          <div key={i} className="flex items-center gap-1.5">
+          <div key={i} style={{ display: "flex", alignItems: "center", gap: 8 }}>
             <span
-              className="inline-block w-2.5 h-2.5 rounded-full flex-shrink-0"
-              style={{ backgroundColor: seg.color }}
+              style={{
+                width: 10,
+                height: 10,
+                borderRadius: 3,
+                background: seg.color,
+                flexShrink: 0,
+              }}
             />
-            <span className="text-[12px]">
-              {seg.label}: {fmtPct(seg.value)}
+            <span style={{ fontSize: CHART_FONT.sizeSmall, color: "#b0ada6", fontFamily: CHART_FONT.family }}>
+              {seg.label}
+            </span>
+            <span style={{
+              fontSize: CHART_FONT.sizeSmall,
+              fontFamily: CHART_FONT.mono,
+              fontWeight: 600,
+              color: "#e2e0dd",
+              marginLeft: "auto",
+            }}>
+              {fmtPct(seg.value)}
             </span>
           </div>
         ))}
