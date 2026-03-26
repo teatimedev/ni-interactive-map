@@ -24,7 +24,7 @@ const CATEGORY_COLORS: Record<string, string> = {
   landmarks: "#27ae60",
   culture: "#2980b9",
   transport: "#c0392b",
-  custom: "#95a5a6",
+  custom: "#16a085",
 };
 
 export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
@@ -35,6 +35,9 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
   const [message, setMessage] = useState("");
   const [available, setAvailable] = useState(true);
   const [customTag, setCustomTag] = useState("");
+  const [openCategory, setOpenCategory] = useState<string | null>(null);
+  const [reportedTagIds, setReportedTagIds] = useState<Set<number>>(new Set());
+  const [lastAddedTag, setLastAddedTag] = useState<string | null>(null);
 
   const fetchTags = useCallback(async () => {
     try {
@@ -72,6 +75,20 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
     }
   }
 
+  async function handleReportTag(id: number) {
+    try {
+      await fetch("/api/tags", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id }),
+      });
+      setReportedTagIds((prev) => new Set(prev).add(id));
+      fetchTags();
+    } catch {
+      // silently fail
+    }
+  }
+
   async function handleAddTag(tag: string, category: TagCategory) {
     setSubmitting(true);
     setMessage("");
@@ -88,8 +105,11 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
       const data = await res.json();
       if (res.ok) {
         setMessage("Tagged!");
+        setLastAddedTag(tag);
+        setTimeout(() => setLastAddedTag(null), 2000);
         setShowPicker(false);
         setCustomTag("");
+        setOpenCategory(null);
         fetchTags();
       } else {
         setMessage(data.error || "Failed");
@@ -113,6 +133,11 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
 
   if (!available) return null;
 
+  // Tags the current user has already added to this ward
+  const myTags = new Set(
+    user ? tags.filter((t) => t.user_ids?.includes(user.id)).map((t) => t.tag) : []
+  );
+
   return (
     <div className="stat-section">
       <h3>Community Tags</h3>
@@ -122,6 +147,7 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
           {tags.map((t) => (
             <span
               key={t.tag}
+              className={lastAddedTag === t.tag ? "tag-just-added" : ""}
               title={t.usernames?.length > 0 ? `by ${t.usernames.join(", ")}` : undefined}
               style={{
                 display: "inline-flex",
@@ -150,6 +176,22 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
                 >
                   &times;
                 </button>
+              )}
+              {/* Report button — not shown for own tags or already-reported */}
+              {!(user && t.user_ids?.includes(user.id)) && t.ids?.length > 0 && (
+                reportedTagIds.has(t.ids[0]) ? (
+                  <span style={{ fontSize: 9, color: "var(--text-muted)", marginLeft: 2 }}>
+                    Reported
+                  </span>
+                ) : (
+                  <button
+                    onClick={() => handleReportTag(t.ids[0])}
+                    className="tag-report-btn"
+                    title="Report tag"
+                  >
+                    ⚑
+                  </button>
+                )
               )}
             </span>
           ))}
@@ -188,52 +230,92 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
           marginTop: 8,
         }}>
           {Object.entries(TAG_CATEGORIES).map(([catKey, { label, tags: catTags }]) => (
-            <div key={catKey} style={{ marginBottom: 10 }}>
+            <div key={catKey} style={{ marginBottom: 4 }}>
+              <button
+                onClick={() => setOpenCategory(openCategory === catKey ? null : catKey)}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 6,
+                  width: "100%",
+                  background: "none",
+                  border: "none",
+                  padding: "6px 4px",
+                  cursor: "pointer",
+                  fontFamily: "inherit",
+                  borderBottom: openCategory === catKey ? "1px solid rgba(255,255,255,0.06)" : "none",
+                }}
+              >
+                <span style={{
+                  width: 8, height: 8, borderRadius: "50%",
+                  background: CATEGORY_COLORS[catKey], flexShrink: 0,
+                }} />
+                <span style={{
+                  fontSize: 11, color: "#ccc", fontWeight: 600,
+                  textTransform: "uppercase", letterSpacing: 0.5,
+                }}>
+                  {label}
+                </span>
+                <span style={{ fontSize: 10, color: "var(--text-muted)", marginLeft: "auto" }}>
+                  {catTags.length} tags
+                </span>
+                <span style={{
+                  fontSize: 10, color: "var(--text-muted)",
+                  transform: openCategory === catKey ? "rotate(180deg)" : "rotate(0)",
+                  transition: "transform 0.2s",
+                }}>
+                  ▾
+                </span>
+              </button>
               <div style={{
-                fontSize: 10,
-                color: CATEGORY_COLORS[catKey],
-                textTransform: "uppercase",
-                letterSpacing: 0.5,
-                marginBottom: 4,
-                fontWeight: 600,
+                maxHeight: openCategory === catKey ? 200 : 0,
+                overflow: "hidden",
+                transition: "max-height 0.2s ease",
               }}>
-                {label}
-              </div>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: 4 }}>
-                {catTags.map((tag) => (
-                  <button
-                    key={tag}
-                    disabled={submitting}
-                    onClick={() => handleAddTag(tag, catKey as TagCategory)}
-                    style={{
-                      padding: "3px 8px",
-                      borderRadius: 10,
-                      fontSize: 11,
-                      background: "var(--bg-control)",
-                      border: "1px solid var(--border-medium)",
-                      color: "#ccc",
-                      cursor: submitting ? "wait" : "pointer",
-                      fontFamily: "inherit",
-                      transition: "all 0.15s",
-                    }}
-                    onMouseEnter={(e) => {
-                      (e.target as HTMLButtonElement).style.background = `${CATEGORY_COLORS[catKey]}30`;
-                      (e.target as HTMLButtonElement).style.borderColor = CATEGORY_COLORS[catKey];
-                    }}
-                    onMouseLeave={(e) => {
-                      (e.target as HTMLButtonElement).style.background = "var(--bg-control)";
-                      (e.target as HTMLButtonElement).style.borderColor = "var(--border-medium)";
-                    }}
-                  >
-                    {tag}
-                  </button>
-                ))}
+                <div style={{ display: "flex", flexWrap: "wrap", gap: 4, padding: "6px 4px 8px" }}>
+                  {catTags.map((tag) => {
+                    const alreadyTagged = myTags.has(tag);
+                    return (
+                      <button
+                        key={tag}
+                        disabled={submitting || alreadyTagged}
+                        onClick={() => handleAddTag(tag, catKey as TagCategory)}
+                        style={{
+                          padding: "3px 8px",
+                          borderRadius: 10,
+                          fontSize: 11,
+                          background: alreadyTagged ? `${CATEGORY_COLORS[catKey]}15` : "var(--bg-control)",
+                          border: `1px solid ${alreadyTagged ? CATEGORY_COLORS[catKey] + "60" : "var(--border-medium)"}`,
+                          color: alreadyTagged ? "#666" : "#ccc",
+                          cursor: alreadyTagged ? "default" : submitting ? "wait" : "pointer",
+                          fontFamily: "inherit",
+                          transition: "all 0.15s",
+                          opacity: alreadyTagged ? 0.6 : 1,
+                        }}
+                        onMouseEnter={(e) => {
+                          if (!alreadyTagged) {
+                            (e.target as HTMLButtonElement).style.background = `${CATEGORY_COLORS[catKey]}30`;
+                            (e.target as HTMLButtonElement).style.borderColor = CATEGORY_COLORS[catKey];
+                          }
+                        }}
+                        onMouseLeave={(e) => {
+                          if (!alreadyTagged) {
+                            (e.target as HTMLButtonElement).style.background = "var(--bg-control)";
+                            (e.target as HTMLButtonElement).style.borderColor = "var(--border-medium)";
+                          }
+                        }}
+                      >
+                        {alreadyTagged ? "✓ " : ""}{tag}
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
             </div>
           ))}
 
           {/* Custom tag input */}
-          <div style={{ marginTop: 10, paddingTop: 10, borderTop: "1px solid rgba(255,255,255,0.06)" }}>
+          <div style={{ marginTop: 8, paddingTop: 8, borderTop: "1px solid rgba(255,255,255,0.06)" }}>
             <div style={{
               fontSize: 10,
               color: CATEGORY_COLORS.custom,
@@ -242,7 +324,7 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
               marginBottom: 4,
               fontWeight: 600,
             }}>
-              Your own tag
+              Custom
             </div>
             <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
               <input
@@ -281,7 +363,7 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
           <button
             className="btn-map"
             style={{ fontSize: 11, padding: "4px 8px", marginTop: 8 }}
-            onClick={() => { setShowPicker(false); setCustomTag(""); }}
+            onClick={() => { setShowPicker(false); setCustomTag(""); setOpenCategory(null); }}
           >
             Cancel
           </button>

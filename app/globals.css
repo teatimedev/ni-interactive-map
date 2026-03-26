@@ -657,11 +657,22 @@ input:focus-visible,
   box-shadow: 0 8px 32px rgba(0,0,0,0.5);
   animation: fadeIn 0.2s ease-out;
 }
+.pin-creator-header {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 10px;
+}
 .pin-creator h3 {
   font-size: var(--text-md);
   color: var(--accent-light);
-  margin-bottom: 10px;
   font-weight: 600;
+  margin: 0;
+}
+.pin-creator-drag-hint {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  animation: fadeIn 0.3s 0.5s both;
 }
 .pin-creator input {
   width: 100%;
@@ -702,6 +713,51 @@ input:focus-visible,
   transform: rotate(-45deg);
   box-shadow: 0 2px 6px rgba(0,0,0,0.4);
 }
+.pin-marker-icon.pin-draggable {
+  width: 32px;
+  height: 32px;
+  animation: pinDrop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  cursor: grab;
+  border-color: #fff;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.5), 0 0 0 3px rgba(232,168,56,0.3);
+}
+.pin-marker-icon.pin-draggable:active {
+  cursor: grabbing;
+}
+@media (max-width: 768px) {
+  .pin-marker-icon.pin-draggable {
+    width: 36px;
+    height: 36px;
+  }
+  .pin-creator {
+    min-width: unset;
+    left: 8px;
+    right: 8px;
+    transform: none;
+    max-width: unset;
+  }
+}
+@keyframes pinDrop {
+  0% { transform: rotate(-45deg) translateY(-40px); opacity: 0; }
+  60% { transform: rotate(-45deg) translateY(4px); opacity: 1; }
+  80% { transform: rotate(-45deg) translateY(-2px); }
+  100% { transform: rotate(-45deg) translateY(0); }
+}
+.pin-drag-label {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 9px;
+  color: var(--warning);
+  white-space: nowrap;
+  background: rgba(0,0,0,0.7);
+  padding: 1px 6px;
+  border-radius: 3px;
+  pointer-events: none;
+  margin-top: 4px;
+  animation: fadeIn 0.3s 0.4s both;
+}
 .pin-hint {
   position: fixed;
   bottom: 70px;
@@ -714,7 +770,35 @@ input:focus-visible,
   padding: 8px 16px;
   font-size: var(--text-sm);
   color: var(--warning);
-  animation: pulse 2s ease-in-out infinite;
+  animation: pinGlow 2s ease-in-out infinite;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.pin-hint-cancel {
+  color: var(--text-muted);
+  font-size: var(--text-xs);
+}
+.pin-hint:hover .pin-hint-cancel {
+  color: var(--text-secondary);
+  text-decoration: underline;
+}
+@keyframes pinGlow {
+  0%, 100% { box-shadow: 0 0 0 rgba(232,168,56,0); }
+  50% { box-shadow: 0 0 12px rgba(232,168,56,0.4); }
+}
+.pin-toast {
+  position: fixed;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1002;
+  background: rgba(26,26,26,0.95);
+  border: 1px solid var(--positive);
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: var(--text-sm);
+  color: var(--positive);
+  animation: fadeIn 0.2s ease;
   white-space: nowrap;
 }
 .leaflet-popup-content-wrapper {
@@ -729,6 +813,22 @@ input:focus-visible,
 }
 .leaflet-popup-close-button {
   color: var(--text-secondary) !important;
+  font-size: 18px !important;
+  width: 24px !important;
+  height: 24px !important;
+  line-height: 24px !important;
+  top: 4px !important;
+  right: 4px !important;
+  border-radius: 50% !important;
+  transition: all 0.15s !important;
+}
+.leaflet-popup-close-button:hover {
+  background: rgba(255,255,255,0.06) !important;
+  color: var(--text-bright) !important;
+}
+.pin-popup-card {
+  border-top: 2px solid var(--warning);
+  padding-top: 4px;
 }
 .pin-popup-label {
   font-size: var(--text-md);
@@ -755,6 +855,12 @@ input:focus-visible,
 .pin-popup-report:hover {
   border-color: var(--negative);
   color: var(--negative);
+}
+.pin-popup-report.reported {
+  border-color: transparent;
+  color: var(--text-muted);
+  cursor: default;
+  font-size: var(--text-xs);
 }
 
 /* ===== TOP NAV — FLOATING CAPSULES ===== */
@@ -1311,12 +1417,29 @@ input:focus-visible,
   background: rgba(0,0,0,0.6); padding: 1px 4px; border-radius: 3px;
   pointer-events: none; margin-top: 2px;
 }
-.pin-popup-user { font-size: 10px; color: #888; margin-bottom: 2px; }
-.pin-popup-actions { display: flex; gap: 6px; margin-top: 4px; }
+.pin-popup-user { font-size: 10px; color: var(--accent-light); margin-bottom: 2px; }
+.pin-popup-actions { display: flex; gap: 6px; margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.06); }
 .pin-popup-delete {
   font-size: 10px; color: var(--negative); background: none;
   border: 1px solid var(--negative); border-radius: 4px;
   padding: 2px 6px; cursor: pointer; font-family: inherit;
+}
+
+/* ── Tag UX polish ── */
+.tag-report-btn {
+  background: none; border: none; color: #555;
+  cursor: pointer; font-size: 10px; padding: 0 0 0 2px;
+  line-height: 1; opacity: 0; transition: opacity 0.15s;
+}
+span:hover > .tag-report-btn { opacity: 1; }
+@media (max-width: 768px) {
+  .tag-report-btn { opacity: 0.5; }
+}
+.tag-report-btn:hover { color: var(--negative); }
+.tag-just-added { animation: tagPop 0.3s ease-out; }
+@keyframes tagPop {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
 }
 
 /* ── ComparisonStatCard gauge ── */

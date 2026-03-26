@@ -17,7 +17,7 @@ import TransportTab from "@/components/StatsPanel/TransportTab";
 import { ComparisonContent } from "@/components/ComparePanel";
 import { LoadingSkeleton } from "@/components/ui/LoadingSkeleton";
 import { scoreToGrade } from "@/lib/scoring";
-import PinCreator from "@/components/Map/PinCreator";
+import PinCreatorForm, { PinDragMarker } from "@/components/Map/PinCreator";
 import { useAuth } from "@/hooks/useAuth";
 import UserPill from "@/components/UserPill";
 import UsernamePicker from "@/components/UsernamePicker";
@@ -61,6 +61,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     setView,
     loadWardData,
     togglePinMode,
+    setPendingPin,
     clearPendingPin,
     flyToDistrict,
   } = useMapState();
@@ -72,6 +73,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
   const [initialised, setInitialised] = useState(false);
   const [wardLoadFailed, setWardLoadFailed] = useState(false);
   const [pinRefreshKey, setPinRefreshKey] = useState(0);
+  const [pinDroppedToast, setPinDroppedToast] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   // Initialise from route props on first mount
@@ -199,6 +201,8 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
   function handlePinCreated() {
     clearPendingPin();
     setPinRefreshKey((k) => k + 1);
+    setPinDroppedToast(true);
+    setTimeout(() => setPinDroppedToast(false), 1500);
   }
 
   const districtData = selectedDistrict
@@ -306,6 +310,13 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
         <WardLayer />
         <PinLayer refreshKey={pinRefreshKey} />
         <MapController onMapClick={() => { if (panelOpen && !comparison.isComparing) setPanelOpen(false); }} />
+        {pendingPin && (
+          <PinDragMarker
+            lat={pendingPin.lat}
+            lng={pendingPin.lng}
+            onMove={(lat, lng) => setPendingPin({ lat, lng })}
+          />
+        )}
       </MapContainer>
 
       {/* Floating capsule nav */}
@@ -478,13 +489,18 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
       </div>
 
       {/* Pin mode hint */}
+      {pinDroppedToast && (
+        <div className="pin-toast">✓ Pin dropped!</div>
+      )}
       {isPinMode && !pendingPin && (
-        <div className="pin-hint">Tap the map to place your pin</div>
+        <div className="pin-hint" onClick={togglePinMode} role="button" tabIndex={0}>
+          Tap the map to place your pin <span className="pin-hint-cancel">· Cancel</span>
+        </div>
       )}
 
-      {/* Pin creator popup */}
+      {/* Pin creator label input (draggable marker is inside MapContainer) */}
       {pendingPin && (
-        <PinCreator
+        <PinCreatorForm
           lat={pendingPin.lat}
           lng={pendingPin.lng}
           onCreated={handlePinCreated}

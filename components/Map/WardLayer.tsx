@@ -22,7 +22,7 @@ const HOVER_STYLE: PathOptions = {
 };
 
 export default function WardLayer() {
-  const { currentView, selectedDistrict, selectedWard, wardCache, selectWard, setView } =
+  const { currentView, selectedDistrict, selectedWard, wardCache, selectWard, setView, isPinMode } =
     useMapState();
   const { metric } = useChoropleth();
 
@@ -164,6 +164,7 @@ export default function WardLayer() {
     });
 
     path.on("click", (_e: LeafletMouseEvent) => {
+      if (isPinMode) return; // Let MapController handle pin placement
       const name = feature.properties?.name as string | undefined;
       if (!name) return;
 

@@ -29,7 +29,7 @@ const HOVER_STYLE: PathOptions = {
 };
 
 export default function DistrictLayer() {
-  const { currentView, selectedDistrict, selectDistrict, selectWard, setView, loadWardData } = useMapState();
+  const { currentView, selectedDistrict, selectDistrict, selectWard, setView, loadWardData, isPinMode } = useMapState();
   const { metric } = useChoropleth();
   const { isComparing, addSelection } = useComparison();
   const map = useMap();
@@ -163,6 +163,7 @@ export default function DistrictLayer() {
     });
 
     path.on("click", (e: LeafletMouseEvent) => {
+      if (isPinMode) return; // Let MapController handle pin placement
       const name = feature.properties?.name as string | undefined;
       if (!name) return;
 

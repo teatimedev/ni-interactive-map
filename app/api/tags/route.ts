@@ -159,6 +159,45 @@ export async function POST(request: NextRequest) {
   return NextResponse.json({ success: true });
 }
 
+// PATCH /api/tags — report a tag
+export async function PATCH(request: NextRequest) {
+  if (!supabase) {
+    return NextResponse.json({ error: "Supabase not configured" }, { status: 503 });
+  }
+
+  const body = await request.json();
+  const { id } = body;
+
+  if (!id) {
+    return NextResponse.json({ error: "Missing tag id" }, { status: 400 });
+  }
+
+  const { data: tag } = await supabase
+    .from("ward_tags")
+    .select("report_count")
+    .eq("id", id)
+    .single();
+
+  if (!tag) {
+    return NextResponse.json({ error: "Tag not found" }, { status: 404 });
+  }
+
+  const newCount = (tag.report_count ?? 0) + 1;
+  const updates: { report_count: number; reported?: boolean } = { report_count: newCount };
+  if (newCount >= 3) updates.reported = true;
+
+  const { error } = await supabase
+    .from("ward_tags")
+    .update(updates)
+    .eq("id", id);
+
+  if (error) {
+    return NextResponse.json({ error: error.message }, { status: 500 });
+  }
+
+  return NextResponse.json({ success: true });
+}
+
 // DELETE /api/tags — delete a tag (owner or admin)
 export async function DELETE(request: NextRequest) {
   if (!supabaseServer) {

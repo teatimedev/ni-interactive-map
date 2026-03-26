@@ -38,6 +38,7 @@ function createPinIcon(username: string | null) {
 
 export default function PinLayer({ refreshKey }: { refreshKey: number }) {
   const [pins, setPins] = useState<Pin[]>([]);
+  const [reportedIds, setReportedIds] = useState<Set<number>>(new Set());
   const { user, isAdmin, getToken } = useAuth();
 
   const fetchPins = useCallback(async () => {
@@ -61,6 +62,7 @@ export default function PinLayer({ refreshKey }: { refreshKey: number }) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id }),
       });
+      setReportedIds((prev) => new Set(prev).add(id));
       fetchPins();
     } catch {
       // silently fail
@@ -90,18 +92,24 @@ export default function PinLayer({ refreshKey }: { refreshKey: number }) {
       {pins.map((pin) => (
         <Marker key={pin.id} position={[pin.lat, pin.lng]} icon={createPinIcon(pin.username)}>
           <Popup>
-            <div className="pin-popup-label">{pin.label}</div>
-            {pin.username && <div className="pin-popup-user">by {pin.username}</div>}
-            <div className="pin-popup-time">{timeAgo(pin.created_at)}</div>
-            <div className="pin-popup-actions">
-              <button className="pin-popup-report" onClick={() => handleReport(pin.id)}>
-                Report
-              </button>
-              {(isAdmin || (user && pin.user_id === user.id)) && (
-                <button className="pin-popup-delete" onClick={() => handleDelete(pin.id)}>
-                  Delete
-                </button>
-              )}
+            <div className="pin-popup-card">
+              <div className="pin-popup-label">{pin.label}</div>
+              {pin.username && <div className="pin-popup-user">by {pin.username}</div>}
+              <div className="pin-popup-time">{timeAgo(pin.created_at)}</div>
+              <div className="pin-popup-actions">
+                {reportedIds.has(pin.id) ? (
+                  <span className="pin-popup-report reported">Reported ✓</span>
+                ) : (
+                  <button className="pin-popup-report" onClick={() => handleReport(pin.id)}>
+                    Report
+                  </button>
+                )}
+                {(isAdmin || (user && pin.user_id === user.id)) && (
+                  <button className="pin-popup-delete" onClick={() => handleDelete(pin.id)}>
+                    Delete
+                  </button>
+                )}
+              </div>
             </div>
           </Popup>
         </Marker>

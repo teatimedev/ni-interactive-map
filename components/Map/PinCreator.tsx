@@ -1,20 +1,74 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect, useMemo } from "react";
+import { Marker } from "react-leaflet";
+import L from "leaflet";
 import { useAuth } from "@/hooks/useAuth";
 
-interface PinCreatorProps {
+interface PinDragMarkerProps {
+  lat: number;
+  lng: number;
+  onMove: (lat: number, lng: number) => void;
+}
+
+function createDraggablePinIcon() {
+  return new L.DivIcon({
+    className: "",
+    html: `<div class="pin-marker-icon pin-draggable"></div>
+           <div class="pin-drag-label">hold &amp; drag</div>`,
+    iconSize: [40, 44],
+    iconAnchor: [20, 44],
+  });
+}
+
+/** Draggable marker rendered inside MapContainer */
+export function PinDragMarker({ lat, lng, onMove }: PinDragMarkerProps) {
+  const markerRef = useRef<L.Marker>(null);
+  const icon = useMemo(() => createDraggablePinIcon(), []);
+
+  const eventHandlers = useMemo(
+    () => ({
+      dragend() {
+        const marker = markerRef.current;
+        if (marker) {
+          const pos = marker.getLatLng();
+          onMove(pos.lat, pos.lng);
+        }
+      },
+    }),
+    [onMove]
+  );
+
+  return (
+    <Marker
+      position={[lat, lng]}
+      icon={icon}
+      draggable
+      ref={markerRef}
+      eventHandlers={eventHandlers}
+    />
+  );
+}
+
+/** Label input form rendered outside MapContainer as fixed overlay */
+interface PinCreatorFormProps {
   lat: number;
   lng: number;
   onCreated: () => void;
   onCancel: () => void;
 }
 
-export default function PinCreator({ lat, lng, onCreated, onCancel }: PinCreatorProps) {
+export default function PinCreatorForm({ lat, lng, onCreated, onCancel }: PinCreatorFormProps) {
   const { getToken } = useAuth();
   const [label, setLabel] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    const t = setTimeout(() => inputRef.current?.focus(), 300);
+    return () => clearTimeout(t);
+  }, []);
 
   async function handleSubmit() {
     if (label.trim().length < 3) return;
@@ -44,14 +98,17 @@ export default function PinCreator({ lat, lng, onCreated, onCancel }: PinCreator
 
   return (
     <div className="pin-creator">
-      <h3>Drop a pin</h3>
+      <div className="pin-creator-header">
+        <h3>Drop a pin</h3>
+        <span className="pin-creator-drag-hint">Drag the pin to adjust</span>
+      </div>
       <input
+        ref={inputRef}
         type="text"
         value={label}
         onChange={(e) => setLabel(e.target.value.slice(0, 50))}
         onKeyDown={(e) => { if (e.key === "Enter") handleSubmit(); if (e.key === "Escape") onCancel(); }}
         placeholder="Unreal chippy, avoid this area..."
-        autoFocus
         disabled={submitting}
       />
       <div className="pin-creator-footer">
