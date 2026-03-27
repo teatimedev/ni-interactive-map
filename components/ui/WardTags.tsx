@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { TAG_CATEGORIES, type TagCategory, MAX_TAG_LENGTH, MIN_TAG_LENGTH, validateCustomTag } from "@/lib/supabase";
+import { TAG_CATEGORIES, type TagCategory } from "@/lib/supabase";
 import { useAuth } from "@/hooks/useAuth";
 
 interface TagCount {
@@ -24,7 +24,6 @@ const CATEGORY_COLORS: Record<string, string> = {
   landmarks: "#27ae60",
   culture: "#2980b9",
   transport: "#c0392b",
-  custom: "#16a085",
 };
 
 export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
@@ -34,7 +33,6 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
   const [submitting, setSubmitting] = useState(false);
   const [message, setMessage] = useState("");
   const [available, setAvailable] = useState(true);
-  const [customTag, setCustomTag] = useState("");
   const [openCategory, setOpenCategory] = useState<string | null>(null);
   const [reportedTagIds, setReportedTagIds] = useState<Set<number>>(new Set());
   const [lastAddedTag, setLastAddedTag] = useState<string | null>(null);
@@ -108,7 +106,6 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
         setLastAddedTag(tag);
         setTimeout(() => setLastAddedTag(null), 2000);
         setShowPicker(false);
-        setCustomTag("");
         setOpenCategory(null);
         fetchTags();
       } else {
@@ -119,16 +116,6 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
     }
     setSubmitting(false);
     setTimeout(() => setMessage(""), 3000);
-  }
-
-  function handleSubmitCustom() {
-    const validation = validateCustomTag(customTag);
-    if (!validation.valid) {
-      setMessage(validation.error ?? "Invalid tag");
-      setTimeout(() => setMessage(""), 3000);
-      return;
-    }
-    handleAddTag(customTag.trim(), "custom" as TagCategory);
   }
 
   if (!available) return null;
@@ -314,56 +301,10 @@ export default function WardTags({ wardSlug, lgdSlug }: WardTagsProps) {
             </div>
           ))}
 
-          {/* Custom tag input */}
-          <div style={{ marginTop: 8, paddingTop: 8, borderTop: "1px solid rgba(255,255,255,0.06)" }}>
-            <div style={{
-              fontSize: 10,
-              color: CATEGORY_COLORS.custom,
-              textTransform: "uppercase",
-              letterSpacing: 0.5,
-              marginBottom: 4,
-              fontWeight: 600,
-            }}>
-              Custom
-            </div>
-            <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
-              <input
-                type="text"
-                value={customTag}
-                onChange={(e) => setCustomTag(e.target.value.slice(0, MAX_TAG_LENGTH))}
-                onKeyDown={(e) => { if (e.key === "Enter") handleSubmitCustom(); }}
-                placeholder="Type your own tag..."
-                disabled={submitting}
-                style={{
-                  flex: 1,
-                  background: "var(--bg-control)",
-                  border: "1px solid var(--border-medium)",
-                  borderRadius: 8,
-                  padding: "6px 10px",
-                  color: "var(--text-primary)",
-                  fontSize: 12,
-                  fontFamily: "inherit",
-                  outline: "none",
-                }}
-              />
-              <button
-                className="btn-map"
-                style={{ fontSize: 11, padding: "5px 10px" }}
-                disabled={submitting || customTag.trim().length < MIN_TAG_LENGTH}
-                onClick={handleSubmitCustom}
-              >
-                Add
-              </button>
-            </div>
-            <div style={{ fontSize: 10, color: "var(--text-muted)", marginTop: 3 }}>
-              {customTag.length}/{MAX_TAG_LENGTH}
-            </div>
-          </div>
-
           <button
             className="btn-map"
             style={{ fontSize: 11, padding: "4px 8px", marginTop: 8 }}
-            onClick={() => { setShowPicker(false); setCustomTag(""); setOpenCategory(null); }}
+            onClick={() => { setShowPicker(false); setOpenCategory(null); }}
           >
             Cancel
           </button>
