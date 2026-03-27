@@ -22,9 +22,10 @@ interface CommunityTabProps {
   lgdSlug: string;
   onActivatePinMode?: () => void;
   onFlyToPin?: (lat: number, lng: number) => void;
+  districtMode?: boolean;
 }
 
-export default function CommunityTab({ wardSlug, lgdSlug, onActivatePinMode, onFlyToPin }: CommunityTabProps) {
+export default function CommunityTab({ wardSlug, lgdSlug, onActivatePinMode, onFlyToPin, districtMode }: CommunityTabProps) {
   const [pins, setPins] = useState<CommunityPin[]>([]);
   const [loading, setLoading] = useState(true);
   const [hasMore, setHasMore] = useState(false);
@@ -33,7 +34,8 @@ export default function CommunityTab({ wardSlug, lgdSlug, onActivatePinMode, onF
   const fetchPins = useCallback(async (reset = false) => {
     const o = reset ? 0 : offset;
     try {
-      const res = await fetch(`/api/pins?lgd=${lgdSlug}&ward=${wardSlug}&offset=${o}&limit=20`);
+      const wardParam = districtMode ? "" : `&ward=${wardSlug}`;
+      const res = await fetch(`/api/pins?lgd=${lgdSlug}${wardParam}&offset=${o}&limit=20`);
       const data = await res.json();
       const newPins = data.pins ?? [];
       if (reset) {
@@ -56,7 +58,7 @@ export default function CommunityTab({ wardSlug, lgdSlug, onActivatePinMode, onF
     setOffset(0);
     fetchPins(true);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [lgdSlug, wardSlug]);
+  }, [lgdSlug, wardSlug, districtMode]);
 
   return (
     <>
@@ -64,7 +66,7 @@ export default function CommunityTab({ wardSlug, lgdSlug, onActivatePinMode, onF
         {/* Ward pulse */}
         {!loading && (
           <div className="community-pulse">
-            {pins.length} pin{pins.length !== 1 ? "s" : ""} dropped in this ward
+            {pins.length} pin{pins.length !== 1 ? "s" : ""} dropped in this {districtMode ? "district" : "ward"}
           </div>
         )}
 

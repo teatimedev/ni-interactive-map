@@ -9,6 +9,8 @@ import districts from "@/data/districts";
 import StatsPanel from "@/components/StatsPanel/StatsPanel";
 import OverviewTab from "@/components/StatsPanel/OverviewTab";
 import CommunityTab from "@/components/StatsPanel/CommunityTab";
+import CommunityOverview from "@/components/StatsPanel/CommunityOverview";
+import ActivityPill from "@/components/ui/ActivityPill";
 import DemographicsTab from "@/components/StatsPanel/DemographicsTab";
 import HousingTab from "@/components/StatsPanel/HousingTab";
 import HealthTab from "@/components/StatsPanel/HealthTab";
@@ -80,6 +82,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
   const [pinRefreshKey, setPinRefreshKey] = useState(0);
   const [pinDroppedToast, setPinDroppedToast] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [communityPanelOpen, setCommunityPanelOpen] = useState(false);
 
   // Initialise from route props on first mount
   useEffect(() => {
@@ -269,6 +272,7 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
     if (districtData) {
       return [
         { id: "overview", label: "Overview", content: <OverviewTab data={districtData} ward={null} /> },
+        { id: "community", label: "Community", content: <CommunityTab wardSlug="" lgdSlug={selectedDistrict ?? ""} onActivatePinMode={handleTogglePinMode} districtMode /> },
         { id: "demographics", label: "Demographics", content: <DemographicsTab data={districtData} ward={null} /> },
         { id: "housing", label: "Housing", content: <HousingTab data={districtData} ward={null} /> },
         { id: "health", label: "Health", content: <HealthTab data={districtData} ward={null} /> },
@@ -380,6 +384,14 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
             </Link>
             <span className="capsule-sep" />
             <button
+              className={`capsule-btn ${communityPanelOpen ? "active" : ""}`}
+              onClick={() => { setCommunityPanelOpen(!communityPanelOpen); if (!communityPanelOpen) { setPanelOpen(false); if (comparison.isComparing) comparison.toggleCompareMode(); } setMobileMenuOpen(false); }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+              What&apos;s On
+            </button>
+            <span className="capsule-sep" />
+            <button
               aria-label="Toggle comparison mode"
               aria-pressed={comparison.isComparing}
               className={`capsule-btn ${comparison.isComparing ? "active" : ""}`}
@@ -457,6 +469,14 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
               🏆 Ward Leaderboard
             </Link>
           </div>
+          <div className="mobile-control-row">
+            <button
+              className={`btn-map mobile-control-button ${communityPanelOpen ? "active" : ""}`}
+              onClick={() => { setCommunityPanelOpen(!communityPanelOpen); if (!communityPanelOpen) { setPanelOpen(false); if (comparison.isComparing) comparison.toggleCompareMode(); } setMobileMenuOpen(false); }}
+            >
+              What&apos;s On
+            </button>
+          </div>
 
           <div className="mobile-control-block">
             <button
@@ -525,7 +545,26 @@ export default function MapApp({ initialDistrict, initialWard }: MapAppProps) {
 
       {comparison.isComparing && <ComparePanel />}
 
-      {!panelOpen && (selectedWard || selectedDistrict) && (
+      {/* Community Overview Panel */}
+      {communityPanelOpen && (
+        <div id="panel" className="panel-open" style={{ position: "fixed", right: 0, top: 0, bottom: 0, width: 480, zIndex: 1001, background: "var(--bg-panel)", overflowY: "auto", borderLeft: "1px solid var(--border)" }}>
+          <div className="panel-header" style={{ position: "sticky", top: 0, zIndex: 2, background: "var(--bg-panel)" }}>
+            <button className="panel-close" onClick={() => setCommunityPanelOpen(false)} aria-label="Close">&times;</button>
+          </div>
+          <CommunityOverview
+            onFlyToPin={(lat, lng) => { /* TODO: fly to pin */ }}
+            onActivatePinMode={() => { setCommunityPanelOpen(false); handleTogglePinMode(); }}
+            onSelectWard={(lgd, ward) => { setCommunityPanelOpen(false); selectDistrict(lgd); loadWardData(lgd).then(() => { selectWard(ward); setView("ward-detail"); setPanelOpen(true); }); }}
+          />
+        </div>
+      )}
+
+      {/* Activity Pill */}
+      {!communityPanelOpen && !panelOpen && (
+        <ActivityPill onClick={() => setCommunityPanelOpen(true)} />
+      )}
+
+      {!panelOpen && !communityPanelOpen && (selectedWard || selectedDistrict) && (
         <button className="reopen-pill" onClick={() => setPanelOpen(true)}>
           {wardData?.name ?? districtData?.name ?? "View details"} &#9650;
         </button>

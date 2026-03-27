@@ -13,19 +13,24 @@ export async function GET(request: NextRequest) {
   const lgd = searchParams.get("lgd");
   const ward = searchParams.get("ward");
 
-  // Ward-filtered query (for Community tab)
-  if (lgd && ward) {
+  // Ward or district-filtered query (for Community tab)
+  if (lgd) {
     const offset = parseInt(searchParams.get("offset") ?? "0", 10);
     const limit = parseInt(searchParams.get("limit") ?? "20", 10);
 
-    const { data, error } = await supabase
+    let query = supabase
       .from("map_pins")
       .select("id, lat, lng, label, username, user_id, created_at, ward_slug, lgd_slug")
       .eq("lgd_slug", lgd)
-      .eq("ward_slug", ward)
       .eq("reported", false)
       .order("created_at", { ascending: false })
       .range(offset, offset + limit - 1);
+
+    if (ward) {
+      query = query.eq("ward_slug", ward);
+    }
+
+    const { data, error } = await query;
 
     if (error) {
       return NextResponse.json({ error: error.message }, { status: 500 });
